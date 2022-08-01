@@ -482,14 +482,27 @@
   <block id="df69045929c0c3d81d05d291d9a65cdf" category="inline-link">如有必要、請參閱如何新增這些權限</block>
   <block id="0d686592bdbc5c86f2ba1c8248bc44da" category="paragraph">請注意、連接器角色需要其他權限才能使用此功能。使用3.9.21版軟體（2022年8月）部署的Connector包含這些權限。如果您使用舊版部署Connector、則需要手動新增權限。<block ref="0ebb6015b7a8d1b3b67f8b17b057acd1" category="inline-link-rx"></block>。</block>
   <block id="2f176cfab68c991edad2596ce5f71c26" category="section-title">我們新增了保護備份檔案免受刪除和勒索軟體攻擊的能力</block>
-  <block id="0a3404862f01e82bee84db8919a15819" category="paragraph">雲端備份現在支援物件鎖定功能、可進行勒索軟體安全的備份。如果您的叢集使用ONTAP 的是VMware版本的更新版本、而您的備份目的地是Amazon S3、則現在可以使用名為_DataLock和勒索軟體Protection的新備份原則選項。DataLock可保護您的備份檔案、避免遭到修改或刪除、勒索軟體保護功能會掃描您的備份檔案、尋找勒索軟體攻擊備份檔案的證據。</block>
   <block id="9ca61d0605df8b23ed36445fbf3f2f6a" category="inline-link">深入瞭解如何使用DataLock和勒索軟體保護來保護備份</block>
-  <block id="6dd6bb59703afa0fa4c54bab99ad8d4c" category="paragraph"><block ref="fe4d56bff61ff0408b8d5349d9b6a033" category="inline-link-rx"></block>。</block>
   <block id="a50aef84191a2a8583dff3169f0e9722" category="section-title">針對功能完善的其他備份原則ONTAP</block>
   <block id="49ed93361b6144f58f401017aa6361d0" category="paragraph">部分備份原則頁面已重新設計、可讓您更輕鬆地檢視每ONTAP 個叢集中可供磁碟區使用的所有備份原則。如此一來、您就能更輕鬆地查看可用原則的詳細資料、以便在磁碟區上套用最佳原則。</block>
   <block id="c386ae49c48be8bcc2fbd19ab4807c0a" category="section-title">拖放以啟用Cloud Backup至Azure Blob和Google Cloud Storage</block>
   <block id="52745271323ee9ea30e3a37d0338d118" category="inline-link">Azure Blob</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google Cloud Storage</block>
-  <block id="b58db1afa291d3cbd84b014051cca4d9" category="paragraph">如果是<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 或<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 備份的目的地是在畫版上的工作環境、您可以將內部ONTAP 的叢集或Cloud Volumes ONTAP 是安裝在Azure或GCP上的系統拖曳到工作環境中、以啟動備份設定精靈。</block>
   <block id="b6f2e1a880ce20ab3d1039056746fa33" category="paragraph">此功能已適用於Amazon S3儲存區。</block>
+  <block id="15471566ffb385e256937957990dd60d" category="section-title">2022年8月18日</block>
+  <block id="d583f1393e45db7abf2dbb15da48eaad" category="section-title">新增支援以保護雲端原生應用程式資料</block>
+  <block id="82aa9a316dbbb378e25972999e35a45b" category="paragraph">Cloud Backup for Applications是一項SaaS型服務、可為NetApp Cloud Storage上執行的應用程式提供資料保護功能。Cloud Manager內建的Cloud Backup for Applications可針對位於Amazon FSX for NetApp ONTAP 的Oracle資料庫、提供高效率、應用程式一致且以原則為基礎的備份與還原功能。<block ref="5774010e75c0af5301ef0cfe74198590" category="inline-link-rx"></block>。</block>
+  <block id="e7f0bd203723dde56c408349b772431e" category="paragraph">雲端備份現在支援物件鎖定功能、可進行勒索軟體安全的備份。如果您的叢集使用ONTAP 的是VMware版本的更新版本、而您的備份目的地是Amazon S3、則現在可以使用名為_DataLock和勒索軟體Protection的新備份原則選項。DataLock可保護您的備份檔案、避免遭到修改或刪除、勒索軟體保護功能會掃描您的備份檔案、尋找勒索軟體攻擊備份檔案的證據。<block ref="3f7eaa3e30bb5eb7a46ecb7c423ee7ad" category="inline-link-rx"></block>。</block>
+  <block id="4a13f748ffea2bf384ee164062e7e17f" category="paragraph">請注意、連接器角色需要其他權限才能使用此功能。使用3.9.21版軟體部署的Connector包含這些權限。如果您使用舊版部署Connector、則需要手動新增權限。<block ref="b51546833a3c96ab5b8c4e49b196cd94" category="inline-link-rx"></block>。</block>
+  <block id="9fa4d73f6f3d752a69adeebba1959edb" category="section-title">Cloud Backup現在支援使用自訂SnapMirror標籤建立的原則</block>
+  <block id="387856638678798c3ffb0e38b39170c6" category="paragraph">以前、Cloud Backup僅支援預先定義的SnapMirror標籤、例如每小時、每日、每週、每小時和每年。現在Cloud Backup可以探索SnapMirror原則、這些原則具有您使用System Manager或CLI建立的自訂SnapMirror標籤。這些新標籤會顯示在Cloud Backup UI中、讓您可以使用所選的SnapMirror標籤、將磁碟區備份到雲端。</block>
+  <block id="1c630f0a83d0317db1fef94fb4dac579" category="paragraph">如果是<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 或<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 備份的目的地是在畫版上的工作環境、您可以將內部ONTAP 的功能環境（Cloud Volumes ONTAP 安裝於Azure或GCP）拖曳到目的地、以啟動備份設定精靈。</block>
+  <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">現在、您可以在資料中新增Data Sense將識別的自訂模式</block>
+  <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">您可以使用自訂規則運算式（regex）新增個人模式、以識別資料中的特定資訊。regex會新增至Data Sense已使用的現有預先定義模式、結果會顯示在「個人模式」區段下方。<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>。</block>
+  <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS中Kubernetes叢集的需求</block>
+  <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
+  <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Azure中Kubernetes叢集的需求</block>
+  <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
+  <block id="b6511d823d5fc5c8c219b52663e32c20" category="inline-link-macro">Google Cloud中Kubernetes叢集的需求</block>
+  <block id="2bdb06b2a7060e3efbb60c6fdf551284" category="paragraph"><block ref="2bdb06b2a7060e3efbb60c6fdf551284" category="inline-link-macro-rx"></block></block>
 </blocks>
