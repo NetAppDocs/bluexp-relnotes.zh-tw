@@ -8,7 +8,6 @@
   <block id="7e2a23a7215e26914d4490ec8dbd56c8" category="paragraph">瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理功能</block>
   <block id="8f351a0ea0c00d874e3538dc3c565ffe" category="paragraph">本節說明Cloud Manager管理功能的相關新功能：帳戶、連接器、雲端供應商認證等。</block>
-  <block id="49644953fd4e9612a9842d17bef5e79b" category="section-title">2022年5月2日</block>
   <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">檢視支援區域的完整清單</block>
   <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
@@ -55,17 +54,7 @@
   <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">深入瞭解資源標記</block>
   <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>。</block>
   <block id="dad57e95fc9a5390302ad830888cbdb9" category="section-title">雲端備份</block>
-  <block id="403f4772d715b69d553d3568ca523be0" category="section-title">Google Cloud Storage中的備份檔案現在支援搜尋與還原</block>
   <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">瞭解如何使用Search &amp;amp; Restore還原磁碟區和檔案</block>
-  <block id="c84eb78e4a1957b6b0aa50908d89949f" category="paragraph">四月推出的「搜尋與還原」方法、可還原磁碟區和檔案、適用於將備份檔案儲存在AWS中的使用者。現在、將備份檔案儲存在Google Cloud Storage中的使用者可以使用這項功能。<block ref="c9d4c1d19223377e15b82823d41fa44a" category="inline-link-rx"></block>。</block>
-  <block id="1dc3a9d2d46d5247757ad692a1dda8d4" category="section-title">設定要自動套用至Kubernetes叢集中新建立之磁碟區的備份原則</block>
-  <block id="fd875d3cd25e36f42ac27fb4f3449a8e" category="section-title">雲端備份現在需要授權、才能在工作環境中啟動</block>
-  <block id="75c0e3b9776c1472c507114bf7a7a1cf" category="paragraph">雲端備份的授權實作方式有幾項變更：</block>
-  <block id="e84f7761b10b99ddca7152e4bb801dd6" category="list-text">您必須先向雲端供應商註冊PAYGO Marketplace訂閱、或向NetApp購買BYOL授權、才能啟動Cloud Backup。</block>
-  <block id="6902b4bfe7e77a50b544384d4b87d579" category="list-text">30天免費試用版僅適用於從雲端供應商訂閱PAYGO的情況、使用BYOL授權時無法使用。</block>
-  <block id="013bf9b0d5295922582e97a69409b714" category="list-text">免費試用版從Marketplace訂閱開始的那一天開始。例如、如果您在針對Cloud Volumes ONTAP 某個系統使用Marketplace訂閱30天之後啟動免費試用版、雲端備份試用版將無法使用。</block>
-  <block id="caf9c5028f987d64131bfc8e9f4bd0ed" category="inline-link">深入瞭解可用的授權模式</block>
-  <block id="ecd035ede918d91432ba5203669d96bd" category="paragraph"><block ref="7226e404226609d8e6a7fa892651e74a" category="inline-link-rx"></block>。</block>
   <block id="ad806d4b803a5aa7358400786d14dec0" category="section-title">2022年4月4日</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="section-title">雲端資料感測</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看Data Sense可在您的資料中識別的所有個人資料類型</block>
@@ -203,7 +192,6 @@
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全域檔案快取授權管理伺服器（LMS）服務已增強、可自動偵測Proxy設定。如此可實現無縫組態。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">深入瞭Cloud Volumes ONTAP 解功能強化功能</block>
-  <block id="35902f649443d8dd6c5f04595fff3035" category="paragraph">如果您在雲端備份啟動後、將新的持續磁碟區新增至Kubernetes叢集、過去您需要記住為這些磁碟區設定備份。現在、您可以選取要自動套用至新建立磁碟區的原則。當為新的Kubernetes叢集啟動Cloud Backup時、此選項可在設定精靈中使用。</block>
   <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022年6月6日</block>
   <block id="c20246791a0594003975011a29aae438" category="section-title">持續同步</block>
   <block id="ade9a1db23f7d605ed4e98f520c46b00" category="paragraph">新設定可讓您持續將來源S3儲存區的變更同步至目標。</block>
@@ -488,4 +476,20 @@
   <block id="e13d7be0c5a4bf2f3e8d1dd04f69dd41" category="paragraph">Cloud Tiering UI已新增一組物件儲存組態頁面。您可以新增物件存放區、將多個物件存放區連線至Aggregate以進行FabricPool 物件鏡射、交換主要物件存放區和鏡射物件存放區、刪除物件存放區連線至集合體等。<block ref="4f404ee3f4c3295f701ed8b17cef66df" category="inline-link-rx"></block></block>
   <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">支援MetroCluster 以雲端分層的授權進行支援、以利執行各種組態</block>
   <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">雲端分層授權現在可與MetroCluster 採用各種組態的叢集共享。您不再需要在FabricPool 這些情況下使用過時的不再使用的功能介紹授權。如此一來、您就能更輕鬆地在更多叢集上使用「浮動」雲端分層授權。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
+  <block id="80ebda6d6ef4b796a7797ba0d73d8fc4" category="section-title">2022年8月16日</block>
+  <block id="5f98181f93bdb66aed67b6ec6ca0e6a1" category="section-title">Azure Blob的備份檔案現在支援搜尋與還原功能</block>
+  <block id="3cc0a32f0024bbcc0e74c0ca7c01b4ca" category="paragraph">現在、將備份檔案儲存在Azure Blob儲存設備中的使用者、可以使用「搜尋與還原」方法來還原磁碟區和檔案。<block ref="2505b78b897ef0dc1c5d1783874239f2" category="inline-link-rx"></block>。</block>
+  <block id="df69045929c0c3d81d05d291d9a65cdf" category="inline-link">如有必要、請參閱如何新增這些權限</block>
+  <block id="0d686592bdbc5c86f2ba1c8248bc44da" category="paragraph">請注意、連接器角色需要其他權限才能使用此功能。使用3.9.21版軟體（2022年8月）部署的Connector包含這些權限。如果您使用舊版部署Connector、則需要手動新增權限。<block ref="0ebb6015b7a8d1b3b67f8b17b057acd1" category="inline-link-rx"></block>。</block>
+  <block id="2f176cfab68c991edad2596ce5f71c26" category="section-title">我們新增了保護備份檔案免受刪除和勒索軟體攻擊的能力</block>
+  <block id="0a3404862f01e82bee84db8919a15819" category="paragraph">雲端備份現在支援物件鎖定功能、可進行勒索軟體安全的備份。如果您的叢集使用ONTAP 的是VMware版本的更新版本、而您的備份目的地是Amazon S3、則現在可以使用名為_DataLock和勒索軟體Protection的新備份原則選項。DataLock可保護您的備份檔案、避免遭到修改或刪除、勒索軟體保護功能會掃描您的備份檔案、尋找勒索軟體攻擊備份檔案的證據。</block>
+  <block id="9ca61d0605df8b23ed36445fbf3f2f6a" category="inline-link">深入瞭解如何使用DataLock和勒索軟體保護來保護備份</block>
+  <block id="6dd6bb59703afa0fa4c54bab99ad8d4c" category="paragraph"><block ref="fe4d56bff61ff0408b8d5349d9b6a033" category="inline-link-rx"></block>。</block>
+  <block id="a50aef84191a2a8583dff3169f0e9722" category="section-title">針對功能完善的其他備份原則ONTAP</block>
+  <block id="49ed93361b6144f58f401017aa6361d0" category="paragraph">部分備份原則頁面已重新設計、可讓您更輕鬆地檢視每ONTAP 個叢集中可供磁碟區使用的所有備份原則。如此一來、您就能更輕鬆地查看可用原則的詳細資料、以便在磁碟區上套用最佳原則。</block>
+  <block id="c386ae49c48be8bcc2fbd19ab4807c0a" category="section-title">拖放以啟用Cloud Backup至Azure Blob和Google Cloud Storage</block>
+  <block id="52745271323ee9ea30e3a37d0338d118" category="inline-link">Azure Blob</block>
+  <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google Cloud Storage</block>
+  <block id="b58db1afa291d3cbd84b014051cca4d9" category="paragraph">如果是<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 或<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 備份的目的地是在畫版上的工作環境、您可以將內部ONTAP 的叢集或Cloud Volumes ONTAP 是安裝在Azure或GCP上的系統拖曳到工作環境中、以啟動備份設定精靈。</block>
+  <block id="b6f2e1a880ce20ab3d1039056746fa33" category="paragraph">此功能已適用於Amazon S3儲存區。</block>
 </blocks>
