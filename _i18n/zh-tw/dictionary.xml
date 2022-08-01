@@ -76,13 +76,6 @@
   <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering已完全符合ONTAP Select 資格、可在不同步系統上執行</block>
   <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">除了將資料從AFF 您的功能區和FAS 功能區系統分層、現在您可以將非作用中的資料從ONTAP Select 您的功能區系統分層處理至雲端儲存設備。</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
-  <block id="99c3c55ceb085b94e53d8b7984863037" category="section-title">Cloud Tiering BYOL授權取代FabricPool 了不含功能的授權</block>
-  <block id="2817937e51c403b4b9929eaa298b82dd" category="paragraph">雲端分層服務的Cloud Manager支援分層組態、現在提供全新的* Cloud Tiering *授權。這是一種浮動授權、您可以在多ONTAP 個內部部署的叢集上使用。您過去可能使用的* FabricPool 僅保留給Cloud Manager不支援的組態。</block>
-  <block id="54b8200ba1ce85a7ad931e091de0ed98" category="inline-link">深入瞭解新的雲端分層授權</block>
-  <block id="34a4923a0f84a1bc223389cfed6e2b62" category="paragraph"><block ref="3054f156a0693c67de0611c0445f676e" category="inline-link-rx"></block>。</block>
-  <block id="24263383a842093a8c2b6b9b8a88989d" category="section-title">將非作用中資料從內部ONTAP 的支援叢集分成S3相容的物件儲存設備</block>
-  <block id="59e10c49329cd1a0a55e4a0d27f6a584" category="inline-link">瞭解如何將資料分層至S3相容的物件儲存設備</block>
-  <block id="df94b79ab63138be1c03382ae20c338d" category="paragraph">現在、您可以將非作用中資料分層至任何使用簡易儲存服務（S3）傳輸協定的物件儲存服務。<block ref="26932bf166134e05b1ade0d7ecb1b6d8" category="inline-link-rx"></block>。</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="section-title">Cloud Volumes ONTAP</block>
   <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">適用於 GCP Cloud Volumes Service</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020年9月9日</block>
@@ -489,4 +482,10 @@
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP Sfor Sfor the Data來源</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">內部部署 ONTAP 的叢集</block>
+  <block id="1f6fd3301ab6ce127efad422dec03d61" category="section-title">2022年8月3日</block>
+  <block id="059c9f6829260507f53186d7191b058c" category="section-title">能夠為叢集中的其他Aggregate設定其他物件存放區</block>
+  <block id="aa18b7b04ae6143c1d2f56b72718403e" category="inline-link">深入瞭解新的物件儲存功能。</block>
+  <block id="e13d7be0c5a4bf2f3e8d1dd04f69dd41" category="paragraph">Cloud Tiering UI已新增一組物件儲存組態頁面。您可以新增物件存放區、將多個物件存放區連線至Aggregate以進行FabricPool 物件鏡射、交換主要物件存放區和鏡射物件存放區、刪除物件存放區連線至集合體等。<block ref="4f404ee3f4c3295f701ed8b17cef66df" category="inline-link-rx"></block></block>
+  <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">支援MetroCluster 以雲端分層的授權進行支援、以利執行各種組態</block>
+  <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">雲端分層授權現在可與MetroCluster 採用各種組態的叢集共享。您不再需要在FabricPool 這些情況下使用過時的不再使用的功能介紹授權。如此一來、您就能更輕鬆地在更多叢集上使用「浮動」雲端分層授權。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
 </blocks>
