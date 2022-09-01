@@ -193,20 +193,7 @@
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">深入瞭Cloud Volumes ONTAP 解功能強化功能</block>
   <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022年6月6日</block>
-  <block id="c20246791a0594003975011a29aae438" category="section-title">持續同步</block>
-  <block id="ade9a1db23f7d605ed4e98f520c46b00" category="paragraph">新設定可讓您持續將來源S3儲存區的變更同步至目標。</block>
-  <block id="2aaa6a5839225ec7e874d5c5c1af43df" category="paragraph">初始資料同步之後Cloud Sync 、Syncset會偵聽來源S3儲存區的變更、並在目標發生時持續同步任何變更。不需要以排定的時間間隔重新掃描來源。此設定僅適用於從S3儲存區同步至S3、Google Cloud Storage、Azure Blob儲存設備、StorageGRID 不支援或IBM Storage的情況。</block>
-  <block id="969431a3ee7466b53b917ad1bc5d032a" category="paragraph">請注意、與您的資料代理人相關聯的IAM角色需要下列權限才能使用此設定：</block>
-  <block id="8817adc7e5de41abc6dded623fbb60a9" category="paragraph">這些權限會自動新增至您所建立的任何新資料代理人。</block>
   <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link-macro">深入瞭解Continuous Sync設定</block>
-  <block id="3d7f78f24cbebe2c601558e90c9fe15f" category="section-title">顯示所有ONTAP 的資料</block>
-  <block id="517d881d38e3ddd50495a5763ac986b4" category="paragraph">當您建立同步關係時Cloud Sync 、目前的功能就是在來源Cloud Volumes ONTAP 的支援系統上顯示所有Volume、內部部署ONTAP 的支援服務、或是在支援ONTAP 該功能的FSX檔案系統上顯示所有Volume。</block>
-  <block id="9de2181e94c0cd08ea8823917ee87c3f" category="paragraph">先前Cloud Sync 、僅顯示符合所選傳輸協定的磁碟區。現在所有的磁碟區都會顯示、但不符合所選傳輸協定或沒有共用區或匯出的任何磁碟區都會呈現灰色、而且無法選取。</block>
-  <block id="7f5581e89068d302a142aecf7d19a771" category="section-title">將標記複製到Azure Blob</block>
-  <block id="32aae8f84d3fb43aff2913dafe7d72e0" category="paragraph">當您建立以Azure Blob為目標的同步關係時Cloud Sync 、現在可讓您將標記複製到Azure Blob容器：</block>
-  <block id="718cef647cf171d07e94f6c003056c56" category="list-text">在*設定*頁面上、您可以使用*複製物件*設定、將標記從來源複製到Azure Blob容器。這是複製中繼資料的附加功能。</block>
-  <block id="37e1492974d1c0a4febae33433a14d3f" category="list-text">在「*標記/中繼資料*」頁面上、您可以指定要在複製到Azure Blob容器的物件上設定的Blob索引標籤。先前只能指定關係中繼資料。</block>
-  <block id="bb775e1249cce6f8004e5212d3f37d10" category="paragraph">當Azure Blob為目標、且來源為Azure Blob或S3相容端點（S3、StorageGRID 候選或IBM Cloud Object Storage）時、便支援這些選項。</block>
   <block id="cd6d587cb36421715f3cc24a2c91aef6" category="paragraph">Cloud Manager現在支援Amazon FSX ONTAP 作為後端儲存設備。</block>
   <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">以下變更是在版本3.9.19的Connector中提出的。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
@@ -505,4 +492,21 @@
   <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
   <block id="b6511d823d5fc5c8c219b52663e32c20" category="inline-link-macro">Google Cloud中Kubernetes叢集的需求</block>
   <block id="2bdb06b2a7060e3efbb60c6fdf551284" category="paragraph"><block ref="2bdb06b2a7060e3efbb60c6fdf551284" category="inline-link-macro-rx"></block></block>
+  <block id="da8b75d7f83536bef455f4cfcb81982f" category="section-title">2022年9月4日</block>
+  <block id="a9b4886a93e658bc8692b215ae9412a0" category="section-title">其他Google雲端硬碟支援</block>
+  <block id="38e24a385d32651afeede647ae09290f" category="list-text">目前支援Google雲端硬碟的其他同步關係：Cloud Sync</block>
+  <block id="989bccb142d89b75c8392bf5f5e1604c" category="list-text">Google雲端硬碟至NFS伺服器</block>
+  <block id="44191e60b1503eaf657847a1915cafeb" category="list-text">Google雲端硬碟移轉至SMB伺服器</block>
+  <block id="1483ec65b58ea8f21aa486ac67f98497" category="list-text">您也可以針對包含Google雲端硬碟的同步關係產生報告。</block>
+  <block id="b8573b8d6cb0195fa946927c3aa36397" category="inline-link">深入瞭解報告</block>
+  <block id="913d3279d6ca39c6bd290fac85314961" category="paragraph"><block ref="9ba5aa88e2b271505b32ed12efb1883e" category="inline-link-rx"></block>。</block>
+  <block id="6a8d3c04a6ef359c72722da014b3e2a0" category="section-title">持續同步增強</block>
+  <block id="700604b36a9bc9c763c84403ff4fc2a1" category="paragraph">您現在可以在下列類型的同步關係上啟用「持續同步」設定：</block>
+  <block id="16a4f69cf5e478434d66f741eb65609e" category="list-text">S3儲存區至NFS伺服器</block>
+  <block id="f1b9deb2828fa22b8254f1a8a51f5789" category="list-text">將Google Cloud Storage移轉至NFS伺服器</block>
+  <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
+  <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。</block>
+  <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。</block>
+  <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">瞭解如何設定通知</block>
+  <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
 </blocks>
