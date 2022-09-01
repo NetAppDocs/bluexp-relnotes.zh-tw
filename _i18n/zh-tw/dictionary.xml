@@ -33,10 +33,6 @@
   <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">變更磁碟區的大小及管理標記、以編輯磁碟區。</block>
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">直接Azure NetApp Files 從Cloud Manager建立及管理功能可取代先前的資料移轉功能。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="section-title">Amazon FSX for ONTAP Sf</block>
-  <block id="3152521594c71809f9c72383294b05b7" category="section-title">承擔IAM角色</block>
-  <block id="1bae6acf64b673783a7e55db59c7f74e" category="paragraph">當您建立FSXfor ONTAP the Sfor the Syn可使用 環境時、您現在必須提供IAM角色的ARN、Cloud Manager可用來建立FSXfor ONTAP the Synfrole工作環境。您先前需要提供AWS存取金鑰。</block>
-  <block id="f63d604edef29843d35ad367e0d82814" category="inline-link-macro">瞭解如何設定FSX for ONTAP Sfor Sfor Sfor的權限</block>
-  <block id="85f610955384d6c0dcae09552c4508e0" category="paragraph"><block ref="121317bac1802e026b9ea68cbe410489" category="inline-link-macro-rx"></block>。</block>
   <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021年10月31日</block>
   <block id="36a9eb77fcf21a931c3ba4a85dff781b" category="section-title">應用程式範本</block>
   <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022年3月3日</block>
@@ -55,15 +51,11 @@
   <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>。</block>
   <block id="dad57e95fc9a5390302ad830888cbdb9" category="section-title">雲端備份</block>
   <block id="a2824b49f1c7526bf0e925b86c7b293c" category="inline-link">瞭解如何使用Search &amp;amp; Restore還原磁碟區和檔案</block>
-  <block id="ad806d4b803a5aa7358400786d14dec0" category="section-title">2022年4月4日</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="section-title">雲端資料感測</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看Data Sense可在您的資料中識別的所有個人資料類型</block>
   <block id="e367efbc26bd12c0d6ae37dd6a55ef9b" category="section-title">Cloud Sync</block>
   <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">顯示Cloud Manager通知中心的快照。</block>
   <block id="92d2b6aba6afa3f690540cf3dba9b633" category="section-title">雲端分層</block>
-  <block id="6cb8333618f00b139da255e7f5a82ea0" category="section-title">Amazon S3 Glacier立即擷取儲存類別現已推出</block>
-  <block id="199090bb5d58df554b18a5cb68acb0b7" category="section-title">Cloud Tiering已完全符合ONTAP Select 資格、可在不同步系統上執行</block>
-  <block id="a74220a8acc78d1041352afb305af18f" category="paragraph">除了將資料從AFF 您的功能區和FAS 功能區系統分層、現在您可以將非作用中的資料從ONTAP Select 您的功能區系統分層處理至雲端儲存設備。</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="section-title">Cloud Volumes ONTAP</block>
   <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">適用於 GCP Cloud Volumes Service</block>
@@ -89,7 +81,6 @@
   <block id="dfe5d33062cb5ad4c4036bb7e93ff63e" category="paragraph"><block ref="dfe5d33062cb5ad4c4036bb7e93ff63e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="24e6e2f6171b43a847fe194a9a9b5cd0" category="section-title">全域檔案快取</block>
   <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
-  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022年1月11日</block>
   <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="section-title">監控</block>
   <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021年8月1日</block>
   <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">變更為擷取單位名稱</block>
@@ -111,8 +102,6 @@
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link">請參閱如何檢視這項重要的內部叢集資訊</block>
   <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>。您必須擁有適用於叢集的NetApp支援網站帳戶（NSS）、而且必須將您的Cloud Manager帳戶附加至新的資信。</block>
-  <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">您在內部ONTAP 的等量資料叢集上新增到磁碟區的標記、可與標記服務搭配使用。</block>
-  <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。</block>
   <block id="950604af87c30e09716e6d097eb491db" category="section-title">勒索軟體保護</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="section-title">複寫</block>
   <block id="6c88f9e17d9019e00177d64f9db55d2e" category="section-title">支援Amazon FSX for ONTAP Sfy</block>
@@ -170,8 +159,6 @@
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">雲端分層授權支援、可用於其他叢集組態</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">瞭解如何授權及設定這些類型的叢集。</block>
   <block id="4675a948ea93098e22976c0848737e1a" category="paragraph">雲端分層授權現在可與分層鏡射組態（不含MetroCluster 非功能組態）的叢集、以及分層至IBM Cloud Object Storage的叢集共享。您不再需要在FabricPool 這些情況下使用過時的不再使用的功能介紹授權。如此一來、您就能更輕鬆地在更多叢集上使用「浮動」雲端分層授權。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
-  <block id="75ad6cd4979a906c67e27abc9ee1c14e" category="inline-link">請參閱支援的S3儲存類別。</block>
-  <block id="d3028cb26dae3dbde1ec068c17d15383" category="paragraph">設定雲端分層時、現在您可以設定生命週期規則、讓非使用中的資料在特定天數後從_Standard_儲存類別轉換為_Glacier即時擷取。這將有助於降低AWS基礎架構成本。<block ref="99f36cc81f33df65a0349e719000fada" category="inline-link-rx"></block></block>
   <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">新增儲存類別</block>
   <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">請參閱所有篩選器清單、以供您調查資料</block>
@@ -187,36 +174,12 @@
   <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全域檔案快取授權管理伺服器（LMS）服務已增強、可自動偵測Proxy設定。如此可實現無縫組態。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">深入瞭Cloud Volumes ONTAP 解功能強化功能</block>
-  <block id="62ee9336109ed1c4538423613b856682" category="section-title">2022年6月6日</block>
   <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link-macro">深入瞭解Continuous Sync設定</block>
-  <block id="cd6d587cb36421715f3cc24a2c91aef6" category="paragraph">Cloud Manager現在支援Amazon FSX ONTAP 作為後端儲存設備。</block>
   <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">以下變更是在版本3.9.19的Connector中提出的。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
   <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">深入瞭解進階檢視</block>
-  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
-  <block id="677e0bc1aa65f4ce3324deca0bcf87f0" category="section-title">2022年6月8日</block>
-  <block id="afd87a86d8a5973d91f3fcc4e85c719f" category="section-title">適用於虛擬機器的Cloud Backup 1.1.0現已上市</block>
-  <block id="f1567e25bd3a491ec53134f59ea7cea7" category="paragraph">您可以將SnapCenter VMware vSphere的VMware vSphere的VMware vCenter外掛程式與Cloud Manager整合、以保護虛擬機器上的資料。您可以將資料存放區備份到雲端、SnapCenter 並輕鬆將虛擬機器還原回內部部署的VMware vSphere版的內部部署功能。</block>
-  <block id="b418e05c847b656e4a8ac26f2f0cc045" category="inline-link">深入瞭解如何將虛擬機器保護至雲端</block>
-  <block id="3a5ea6bb0616fe3f66bd74e5e18fd1b3" category="paragraph"><block ref="95fa49d8f0b9a0affedd5e0d4a52c2d2" category="inline-link-rx"></block>。</block>
-  <block id="338b73eb5ee02b02ceb307b68866c9f2" category="section-title">不需要Cloud Restore執行個體、ONTAP 即可執行瀏覽與還原功能</block>
-  <block id="c2f301bf47b0e51a835909a868e786b5" category="paragraph">用於從S3和Blob儲存設備進行檔案層級瀏覽與還原作業時、需要使用獨立的雲端還原執行個體/虛擬機器。此執行個體不使用時會關閉、但還原檔案時仍會增加一些時間和成本。此功能已由免費容器取代、可在需要時部署在Connector上。它具有下列優點：</block>
-  <block id="b7a41babdf28bb4d456f0725ccfbc402" category="list-text">無需增加檔案層級還原作業的成本</block>
-  <block id="898be2b1c15b9168ca69a0986639cb4e" category="list-text">加快檔案層級的還原作業</block>
-  <block id="f8cae2a44d4ac885154da71ae7da347a" category="list-text">在內部部署安裝Connector時、可支援從雲端瀏覽及還原檔案作業</block>
-  <block id="06a21d28fcdc17ce4f2e4747a1fe635b" category="section-title">瀏覽及還原Google Cloud和StorageGRID 支援不支援的檔案</block>
-  <block id="60222043eb5ad60b7dd1964a983d4f85" category="inline-link">瞭解如何使用Browse &amp;amp; Restore從ONTAP 您的還原備份還原磁碟區和檔案</block>
-  <block id="68792eeb104c6fe1ef3c561265ed75dd" category="paragraph">新增瀏覽與還原作業的容器（如上所述）之後、現在即可從儲存在Google Cloud和StorageGRID 更新系統中的備份檔案執行檔案還原作業。現在、瀏覽與還原可用於還原所有公有雲供應商和StorageGRID 來自於整個過程的檔案。<block ref="a4ebf9bfc678bc28afd45dff032c4465" category="inline-link-rx"></block>。</block>
-  <block id="fe3455104008d8da35fbd267dbef0701" category="section-title">拖放以啟用雲端備份至S3儲存設備</block>
-  <block id="5e1eb4d1c116b2c77bbd1fbc73321106" category="paragraph">如果您的備份Amazon S3目的地是在Canvas上的工作環境、您可以將內部ONTAP 的支援叢集或Cloud Volumes ONTAP 支援系統（安裝於AWS中）拖曳到Amazon S3工作環境、以啟動設定精靈。</block>
-  <block id="da1d5a542623977c61bd148b8576513c" category="section-title">自動將備份原則套用至Kubernetes叢集中新建立的磁碟區</block>
-  <block id="31d9f5df125d9014e9c296eed143904c" category="inline-link">從_備份設定_頁面</block>
-  <block id="0781288780239fb5b3a1479574714ff9" category="paragraph">如果您在雲端備份啟動後、將新的持續磁碟區新增至Kubernetes叢集、過去您需要記住為這些磁碟區設定備份。現在、您可以選取要自動套用至新建立磁碟區的原則<block ref="11a3efd6b42c9f2e763586db69ebed23" category="inline-link-rx"></block> 適用於已啟動Cloud Backup的叢集。</block>
-  <block id="52e2c3fc6fb58a0ca1eb816ca6e270ed" category="section-title">雲端備份API現在可用於管理備份與還原作業</block>
-  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
-  <block id="b83e2caeb95bea361704be4e9e795cd1" category="paragraph">API可從取得<block ref="323898002645c2363c910f7c119fd4d6" category="inline-link-rx"></block>。請參閱 <block ref="cf7847f4c926eb96d69d319dfdc23654" category="inline-link-macro-rx"></block> 以取得API總覽。</block>
   <block id="f8c7ea9d64a54c9a1eb4c1cbc5ef066e" category="section-title">2022年6月12日</block>
   <block id="ee4612ccbf2c1a0b8e01a1dc2992487f" category="section-title">NAS檔案系統稽核狀態現在會針對ONTAP 您的不完整儲存VM進行追蹤</block>
   <block id="9e0f0ecbfec67c585b4269b113f30ee3" category="paragraph">如果工作環境中少於40%的儲存VM啟用檔案系統稽核、則會在_Cyber Resilience Map_中新增警示。您可以在「_Harden Your ONTAP Sfor enapenity_」面板中、檢視未追蹤SMB和NFS事件的確切SVM數、並將其記錄到稽核記錄檔中。然後您可以決定是否對這些SVM啟用稽核。</block>
@@ -224,13 +187,6 @@
   <block id="5e75c953b6169be120d3ab03b8f54b15" category="paragraph">此資訊已在ONTAP 「_Harden Your ONTAP Sfor the Ezenology_」面板中報告、 但現在、當開箱內的勒索軟體功能在不到40%的磁碟區中開啟時、_網路還原地圖_會報告警示、以便您在儀表板中檢視此資訊。</block>
   <block id="cc1796d3f81dc9429436a972e383c713" category="section-title">現在ONTAP 、我們會追蹤FSX for Sfor Sfor Sfor Sfor Sfor Systems以啟用Volume快照</block>
   <block id="e59924af0c76a1072bb2a4cb349960b8" category="paragraph">「_Harden Your ONTAP Sfor Ezh enievenienials_」面板現在提供FSX for ONTAP EzSystems上Volume的Snapshot複本狀態。如果有不到40%的磁碟區受到快照保護、您也會在_網路還原地圖_中收到警示。</block>
-  <block id="d4e2be367ddcfb2b47d5711136446363" category="section-title">2022年6月14日</block>
-  <block id="dd16b8804cbc8afa6e2f6deb9acf5bcf" category="section-title">我們新增支援功能、可在ONTAP 無法存取網際網路的站台中備份內部部署的叢集資料</block>
-  <block id="6f5c7024f5953e20be33f1c72e8d5f4a" category="paragraph">如果您的內部ONTAP 使用的叢集位於無法存取網際網路的站台、也稱為暗站或離線站台、現在您可以使用Cloud Backup將Volume資料備份到StorageGRID 位於同一個站台的NetApp作業系統。此功能需要Cloud Manager Connector（3.9.19或更新版本）也部署在離線站台。</block>
-  <block id="6f44a1bf2246f054fd573ae9473909b6" category="inline-link">瞭解如何在離線站台中安裝Connector</block>
-  <block id="826610554423c9dc8481da631ccae8be" category="inline-link">瞭解如何在ONTAP 離線網站上備份不只是StorageGRID 資料的功能</block>
-  <block id="824ce1955c2b2d5f91cb80c86545d639" category="paragraph"><block ref="eb618b89294e80d594faecbc4641afee" category="inline-link-rx"></block>。<block ref="f39d73248b535226c2e16237e43ff2d0" category="inline-link-rx"></block>。</block>
-  <block id="0a0c24e7fef8cd9bcb19d6db19987b93" category="paragraph">請注意、如果您先前使用Cloud Restore執行個體/ VM、將會自動移除。雲端備份程序會每天執行一次、以刪除所有舊的Cloud Restore執行個體。這項變更是完全透明的、不會對您的資料造成任何影響、而且您不會注意到備份或還原工作有任何變更。</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日（版本1.3.1）</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正問題</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">1.3.1版的全域檔案快取Edge軟體可從取得<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。此版本可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
@@ -421,9 +377,6 @@
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單</block>
   <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Cloud Manager現在可以使用儲存類別中的新「-watch」動詞、備份及還原Yaml組態、監控Kubernetes叢集對叢集後端所做的變更、並在叢集上設定自動備份時、自動為新的持續磁碟區啟用備份。</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">定義儲存類別</block>
-  <block id="4d7aa2608f19ed6007e314a1e829a7f0" category="list-text">何時 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>、您現在可以：</block>
-  <block id="41ee8bf0ce0084d7bbc703ebd0503f3f" category="list-text">指定區塊儲存的檔案系統類型（fstype-）</block>
-  <block id="3fce6f9d08f0fed5c965732f940ad498" category="list-text">為區塊和檔案儲存提供儲存經濟效益</block>
   <block id="5aa38ee0e17acbfece3b3bc0fdb18bab" category="section-title">2022年8月7日</block>
   <block id="1e945f34aa7e283df49e7bc1f6e519fc" category="section-title">新的面板可顯示叢集上的安全性弱點</block>
   <block id="681c888dc1b5514c36d2da9636ab4d27" category="section-title">顯示不可變掃描檔案的新面板</block>
@@ -436,7 +389,6 @@
   <block id="e13d7be0c5a4bf2f3e8d1dd04f69dd41" category="paragraph">Cloud Tiering UI已新增一組物件儲存組態頁面。您可以新增物件存放區、將多個物件存放區連線至Aggregate以進行FabricPool 物件鏡射、交換主要物件存放區和鏡射物件存放區、刪除物件存放區連線至集合體等。<block ref="4f404ee3f4c3295f701ed8b17cef66df" category="inline-link-rx"></block></block>
   <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">支援MetroCluster 以雲端分層的授權進行支援、以利執行各種組態</block>
   <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">雲端分層授權現在可與MetroCluster 採用各種組態的叢集共享。您不再需要在FabricPool 這些情況下使用過時的不再使用的功能介紹授權。如此一來、您就能更輕鬆地在更多叢集上使用「浮動」雲端分層授權。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
-  <block id="80ebda6d6ef4b796a7797ba0d73d8fc4" category="section-title">2022年8月16日</block>
   <block id="5f98181f93bdb66aed67b6ec6ca0e6a1" category="section-title">Azure Blob的備份檔案現在支援搜尋與還原功能</block>
   <block id="3cc0a32f0024bbcc0e74c0ca7c01b4ca" category="paragraph">現在、將備份檔案儲存在Azure Blob儲存設備中的使用者、可以使用「搜尋與還原」方法來還原磁碟區和檔案。<block ref="2505b78b897ef0dc1c5d1783874239f2" category="inline-link-rx"></block>。</block>
   <block id="df69045929c0c3d81d05d291d9a65cdf" category="inline-link">如有必要、請參閱如何新增這些權限</block>
@@ -501,4 +453,54 @@
   <block id="2cadd98d70cc36a0982305ace71488f2" category="paragraph">「_勒索 軟體事件_」面板顯示系統上發生的勒索軟體攻擊。目前支援ONTAP 內部部署的支援功能是執行自主勒索軟體保護（Arp）的內部環境。在NAS（NFS和SMB）環境中、Arp會使用工作負載分析來主動偵測並警告可能表示勒索軟體攻擊的異常活動。<block ref="a8b3634a0c7a594234502955588cc1db" category="inline-link-rx"></block>。</block>
   <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">「_Storage system弱點_」面板顯示Active IQ Digital Advisor 每ONTAP 個叢集上發現的高、中、低安全性弱點總數。應立即檢查高弱點、確保您的系統不會遭受攻擊。<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>。</block>
   <block id="95055437ddc6fef4303145322941a60e" category="paragraph">「關鍵資料不可變性」面板會顯示您工作環境中、使用ONTAP SnapLock NetApp技術在WORM儲存設備上受到保護、不受修改和刪除的項目數量。如此一來、您就能檢視有多少資料具有不可改變的複本、以便更瞭解針對勒索軟體的備份與還原計畫。<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>。</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="567aae3125fb3d0d81322caa575a9843" category="section-title">連接器3.9.22</block>
+  <block id="e9da1b86eba52d6822a9d7c294a3641c" category="list-text">我們新增_產品內建指南_來強化連接器部署精靈、提供符合Connector安裝最低需求的步驟：權限、驗證和網路。</block>
+  <block id="871cd14deee4188642f0f5e041d9e0bd" category="list-text">您現在可以直接從*支援儀表板*的Cloud Manager建立NetApp支援案例。</block>
+  <block id="59c4ba689ab2a5e1f09df561f47e0d6c" category="inline-link">瞭解如何建立案例</block>
+  <block id="55fc63d7111caa2a4badd753983607c4" category="paragraph"><block ref="45512476d85432fc18c9be020e976fed" category="inline-link-rx"></block>。</block>
+  <block id="b657064056ea8bf270b50939fb0c9bfe" category="paragraph"><block ref="b657064056ea8bf270b50939fb0c9bfe" category="inline-link-rx"></block></block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
+  <block id="0e36458fd86c678ff613e05396096775" category="paragraph">您現在可以了 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
+  <block id="ab288ae4b4c50ebb9a997e0f0debbd15" category="section-title">2022年9月19日</block>
+  <block id="4b60b47d2569a6a3e984e451c382fbdb" category="section-title">DataLock和勒索軟體保護功能可設定用於StorageGRID 支援還原系統中的備份檔案</block>
+  <block id="f2c9e54745387d4204d350aaf464ef16" category="paragraph">上一版針對儲存在Amazon S3儲存區的備份推出_DataLock和勒索軟體Protection。此版本可擴充對StorageGRID 儲存在還原系統中的備份檔案的支援。如果您的叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統執行的是11.6.0.3或更新版本、則可使用此新的備份原則選項。<block ref="3f7eaa3e30bb5eb7a46ecb7c423ee7ad" category="inline-link-rx"></block>。</block>
+  <block id="7db81221e474d169032014280bbe8e36" category="paragraph">請注意、您必須執行3.9.22版或更新版本軟體的Connector。連接器必須安裝在您的內部環境中、而且可以安裝在有或沒有網際網路存取的站台中。</block>
+  <block id="dfa4dbaa7b53b80d828eeac39da445d5" category="section-title">資料夾層級的還原功能現在可從您的備份檔案取得</block>
+  <block id="44049ef063184610d2b3d1f901e33c6a" category="paragraph">現在、如果您需要存取該資料夾（目錄或共用）中的所有檔案、可以從備份檔案還原資料夾。還原資料夾比還原整個磁碟區更有效率。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。此時您只能選取及還原單一資料夾、而且只會還原該資料夾中的檔案、而不會還原子資料夾或子資料夾中的檔案。</block>
+  <block id="08c716b38dc966a670cdf75da8f3f86d" category="section-title">檔案層級還原現在可從已移至歸檔儲存設備的備份取得</block>
+  <block id="5a1b289592dc33da4fec4177e12f2abe" category="paragraph">過去您只能從已移至歸檔存放區的備份檔案還原磁碟區（僅限AWS和Azure）。現在您可以從這些已歸檔的備份檔案還原個別檔案和資料夾。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。</block>
+  <block id="b0e03676724b8b6468356ef104a66e4f" category="section-title">檔案層級還原現在提供覆寫原始來源檔案的選項</block>
+  <block id="f3e2c168c189da079b62c6ff6558a640" category="paragraph">過去、還原至原始磁碟區的檔案一律會以新檔案的形式還原、並以「RESE_」為前置詞。現在、您可以選擇在將檔案還原至磁碟區上的原始位置時、覆寫原始來源檔案。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。</block>
+  <block id="736c2dbf2aa9f4b08b97a4f719b3cf5e" category="section-title">拖放以啟用「雲端備份至StorageGRID 不支援的系統」</block>
+  <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
+  <block id="8dfffc54074b9b325c97c7860bbed1fe" category="paragraph">如果是<block ref="b1917dc7a4b651d68f42212758a15b79" category="inline-link-rx"></block> 備份的目的地在畫版上會以工作環境的形式存在、您可以將內部ONTAP 作業環境拖曳到目的地、以啟動備份設定精靈。</block>
+  <block id="d6076da95b416ff0d08e3269c4addf0d" category="section-title">分層精靈可讓您使用AWS Private Link安全連線至S3儲存設備</block>
+  <block id="905ecf204d0cf0b2ed497e63ae9324d0" category="inline-link">使用VPC端點介面設定系統的私有連線</block>
+  <block id="33e030edd0380c3b2d743ec2f989598c" category="paragraph">在先前的版本中、透過VPC端點提供這種將叢集連接至S3儲存區的安全方法、非常耗時。現在您可以依照必要步驟執行至<block ref="fb4b1250ed3d38b3a9447c7c732436c8" category="inline-link-rx"></block>然後您可以在「網路」頁面中的分層設定精靈期間選取Private Link。</block>
+  <block id="883959b6b7ad90936b33d524655bc282" category="inline-link">檢閱將非使用中資料分層至Amazon S3的要求和步驟</block>
+  <block id="93d0679385afbe8961d65715ec42ad95" category="paragraph"><block ref="eae517fc6cf18ab5b51a15743d8fba49" category="inline-link-rx"></block>。</block>
+  <block id="6a22836d972c44908e791a2300d9312a" category="section-title">拖放以啟用雲端分層至Amazon S3</block>
+  <block id="84b50dc471c57455cf0359ad021a8c58" category="paragraph">如果Amazon S3分層目的地是在Canvas上的工作環境、您可以將內部ONTAP 的支援環境拖曳到目的地、以啟動分層設定精靈。</block>
+  <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">您現在可以將自我管理的OpenShift叢集匯入Cloud Manager。</block>
+  <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">OpenShift中的Kubernetes叢集需求</block>
+  <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
+  <block id="f82e729d73d970e1bd3789638aed5dca" category="inline-link-macro">將OpenShift叢集新增至Cloud Manager</block>
+  <block id="049c95d2615dd6bba6242ffae7eae5fe" category="list-text"><block ref="049c95d2615dd6bba6242ffae7eae5fe" category="inline-link-macro-rx"></block></block>
+  <block id="19e7864b32363d7ba3bb16a024e95d79" category="list-text">何時 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>、您現在可以為區塊儲存指定檔案系統類型（fstype-）。</block>
+  <block id="440be74a67502f9c3d55890782329328" category="paragraph">以下是3.9.22版Connector的變更。</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">全新總覽頁面</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。</block>
+  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">您也可以檢視與其他NetApp雲端服務整合的詳細資料、以便進行資料分層、資料複寫及備份。</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">快照顯示內部ONTAP 叢集的「總覽」頁面。</block>
+  <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新設計「Volume」頁面</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。</block>
+  <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>。</block>
+  <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022年9月18日</block>
+  <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP</block>
+  <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
 </blocks>
