@@ -174,12 +174,7 @@
   <block id="d3028cb26dae3dbde1ec068c17d15383" category="paragraph">設定雲端分層時、現在您可以設定生命週期規則、讓非使用中的資料在特定天數後從_Standard_儲存類別轉換為_Glacier即時擷取。這將有助於降低AWS基礎架構成本。<block ref="99f36cc81f33df65a0349e719000fada" category="inline-link-rx"></block></block>
   <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">新增儲存類別</block>
   <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
-  <block id="7d6adafb3c8bb3861e1f6a4ca4b68455" category="section-title">2022年5月11日</block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">請參閱所有篩選器清單、以供您調查資料</block>
-  <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
-  <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">《NetApp ONTAP 資訊系統安全強化指南》</block>
-  <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">介紹防勒索軟體功能ONTAP</block>
-  <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">您可以檢閱建議、然後決定如何解決潛在問題。您可以依照步驟變更叢集上的設定、將變更延後至其他時間、或忽略建議。<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>。</block>
   <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">新的Google Cloud區域支援</block>
   <block id="d1ce20099e22fd96c2217da218a20a9e" category="inline-link">檢視Cloud Volumes ONTAP 支援區域的完整清單以供參閱</block>
   <block id="efb1786cdf88244f9480e15cb039f942" category="paragraph"><block ref="efb1786cdf88244f9480e15cb039f942" category="inline-link-rx"></block></block>
@@ -223,29 +218,12 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
   <block id="b83e2caeb95bea361704be4e9e795cd1" category="paragraph">API可從取得<block ref="323898002645c2363c910f7c119fd4d6" category="inline-link-rx"></block>。請參閱 <block ref="cf7847f4c926eb96d69d319dfdc23654" category="inline-link-macro-rx"></block> 以取得API總覽。</block>
   <block id="f8c7ea9d64a54c9a1eb4c1cbc5ef066e" category="section-title">2022年6月12日</block>
-  <block id="f313b26419f4694c764a8d9a38b04ce1" category="section-title">現在您可以從「資料調查」頁面下載結果、做為.Json報告</block>
-  <block id="d214193a7fda757836199c60304f2ab0" category="inline-link">請參閱如何從「資料調查」頁面建立報告</block>
-  <block id="6cb5a0e32d140f3770c280b471c48cd9" category="paragraph">在「資料調查」頁面中篩選資料之後、除了將資料儲存至本機系統上的.CSV檔案之外、現在您還可以將資料另存為.Json檔案、以便匯出至NFS共用。確認Data合理擁有正確的匯出存取權限。<block ref="0ee382d3ff8086e5d12287af8220734f" category="inline-link-rx"></block>。</block>
-  <block id="bef8207d9128cb7b1a5dc68939fc3d45" category="section-title">能夠從Data Sense UI解除安裝Data Sense</block>
-  <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">瞭解方法</block>
-  <block id="4aa7333b6753545c6a6c04dfb41b9866" category="paragraph">您可以解除安裝Data Sense、將軟體從主機中永久移除、如果是雲端部署、請刪除部署Data Sense的虛擬機器/執行個體。刪除執行個體會永久刪除所有已建立索引的資訊Data Sense已掃描。<block ref="3da12a48df084f38bafa988bc8e77bd7" category="inline-link-rx"></block>。</block>
-  <block id="d96d07db10c050adfb5fed7e3d885b82" category="section-title">稽核記錄功能現在可用來追蹤Data Sense所執行的行動記錄</block>
-  <block id="1ce49760bcdac502d41fb1e9e547086b" category="paragraph">稽核日誌會追蹤Data Sense對所有工作環境中的檔案所執行的管理活動、以及Data Sense正在掃描的資料來源。活動可以是使用者產生的（刪除檔案、建立原則等）或產生的原則（自動新增標籤至檔案、自動刪除檔案等）。</block>
-  <block id="f5678b0269d5a9952a36966b56ab8f2e" category="inline-link">如需稽核記錄的詳細資料、請參閱</block>
-  <block id="d96e8ae6f880fe9b4d4de06b59a2128b" category="paragraph"><block ref="a09465601260c6db487e05cfd3d2ec87" category="inline-link-rx"></block>。</block>
-  <block id="a74d72e2c5ed113941ee600287aaa999" category="section-title">在「Data Investigation」（資料調查）頁面中新增敏感識別碼的篩選器</block>
-  <block id="3c5d93e6c38bd86146cef63658df62d2" category="paragraph">「識別碼數量」篩選器可讓您列出具有特定數量敏感識別碼的檔案、包括個人資料和敏感個人資料。您可以選取1到10或1到1000等範圍、只檢視含有該敏感識別碼數目的檔案。</block>
-  <block id="a630192bda7a95f4930b54f41701fc66" category="section-title">現在您可以編輯所建立的現有原則</block>
-  <block id="61e409921fe798c5667689af4656a112" category="inline-link">瞭解如何編輯原則</block>
-  <block id="dccade93a4eb5827c9c662378d30957d" category="paragraph">如果您需要變更過去建立的自訂原則、現在您可以編輯原則、而非建立新原則。<block ref="9b2d4d6793839e9e21c2eaa1cfc45637" category="inline-link-rx"></block>。</block>
   <block id="ee4612ccbf2c1a0b8e01a1dc2992487f" category="section-title">NAS檔案系統稽核狀態現在會針對ONTAP 您的不完整儲存VM進行追蹤</block>
   <block id="9e0f0ecbfec67c585b4269b113f30ee3" category="paragraph">如果工作環境中少於40%的儲存VM啟用檔案系統稽核、則會在_Cyber Resilience Map_中新增警示。您可以在「_Harden Your ONTAP Sfor enapenity_」面板中、檢視未追蹤SMB和NFS事件的確切SVM數、並將其記錄到稽核記錄檔中。然後您可以決定是否對這些SVM啟用稽核。</block>
   <block id="9f8d82fd59d602cd8a59ae988c97d5e6" category="section-title">當您的磁碟區未啟用隨裝即用的勒索軟體時、就會顯示警示</block>
   <block id="5e75c953b6169be120d3ab03b8f54b15" category="paragraph">此資訊已在ONTAP 「_Harden Your ONTAP Sfor the Ezenology_」面板中報告、 但現在、當開箱內的勒索軟體功能在不到40%的磁碟區中開啟時、_網路還原地圖_會報告警示、以便您在儀表板中檢視此資訊。</block>
   <block id="cc1796d3f81dc9429436a972e383c713" category="section-title">現在ONTAP 、我們會追蹤FSX for Sfor Sfor Sfor Sfor Sfor Systems以啟用Volume快照</block>
   <block id="e59924af0c76a1072bb2a4cb349960b8" category="paragraph">「_Harden Your ONTAP Sfor Ezh enievenienials_」面板現在提供FSX for ONTAP EzSystems上Volume的Snapshot複本狀態。如果有不到40%的磁碟區受到快照保護、您也會在_網路還原地圖_中收到警示。</block>
-  <block id="5e5a2d8b7f4ac8723d3873b0ba14916e" category="paragraph">全新的面板_Harden Your ONTAP SUREYS段 環境_提供ONTAP 您的某些支援系統設定的狀態、可追蹤您的部署安全程度、並根據<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 以及<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 主動偵測異常活動並提出警告。</block>
-  <block id="ed35eae63358acfc6c38aefc0b7736d0" category="paragraph">這個全新的「備份狀態」面板顯示、如果您因為勒索軟體攻擊而需要恢復、最重要的資料類別將會備份得多麼完整。此資料可視覺化呈現由Cloud Backup備份環境中特定類別的項目數量。<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>。</block>
   <block id="d4e2be367ddcfb2b47d5711136446363" category="section-title">2022年6月14日</block>
   <block id="dd16b8804cbc8afa6e2f6deb9acf5bcf" category="section-title">我們新增支援功能、可在ONTAP 無法存取網際網路的站台中備份內部部署的叢集資料</block>
   <block id="6f5c7024f5953e20be33f1c72e8d5f4a" category="paragraph">如果您的內部ONTAP 使用的叢集位於無法存取網際網路的站台、也稱為暗站或離線站台、現在您可以使用Cloud Backup將Volume資料備份到StorageGRID 位於同一個站台的NetApp作業系統。此功能需要Cloud Manager Connector（3.9.19或更新版本）也部署在離線站台。</block>
@@ -253,7 +231,6 @@
   <block id="826610554423c9dc8481da631ccae8be" category="inline-link">瞭解如何在ONTAP 離線網站上備份不只是StorageGRID 資料的功能</block>
   <block id="824ce1955c2b2d5f91cb80c86545d639" category="paragraph"><block ref="eb618b89294e80d594faecbc4641afee" category="inline-link-rx"></block>。<block ref="f39d73248b535226c2e16237e43ff2d0" category="inline-link-rx"></block>。</block>
   <block id="0a0c24e7fef8cd9bcb19d6db19987b93" category="paragraph">請注意、如果您先前使用Cloud Restore執行個體/ VM、將會自動移除。雲端備份程序會每天執行一次、以刪除所有舊的Cloud Restore執行個體。這項變更是完全透明的、不會對您的資料造成任何影響、而且您不會注意到備份或還原工作有任何變更。</block>
-  <block id="360d69dcc915fa54a4ac5faccbaf2127" category="section-title">2022年6月12日（1.13.1版）</block>
   <block id="22c3479f6dd133b2d2d79cc8b481240f" category="section-title">2022年6月23日（版本1.3.1）</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正問題</block>
   <block id="2ffbf992fae9becab7e787491b2cdf41" category="paragraph">1.3.1版的全域檔案快取Edge軟體可從取得<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。此版本可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
@@ -449,11 +426,7 @@
   <block id="3fce6f9d08f0fed5c965732f940ad498" category="list-text">為區塊和檔案儲存提供儲存經濟效益</block>
   <block id="5aa38ee0e17acbfece3b3bc0fdb18bab" category="section-title">2022年8月7日</block>
   <block id="1e945f34aa7e283df49e7bc1f6e519fc" category="section-title">新的面板可顯示叢集上的安全性弱點</block>
-  <block id="83497bfd5911b64807f63c35ff9fe293" category="paragraph">「_Storage system弱點_」面板顯示Active IQ Digital Advisor 每ONTAP 個叢集上發現的高、中、低安全性弱點總數。應立即檢查高弱點、確保您的系統不會遭受攻擊。<block ref="e5c1efd527ebe3fd1f784ff961df8f95" category="inline-link-rx"></block>。</block>
   <block id="681c888dc1b5514c36d2da9636ab4d27" category="section-title">顯示不可變掃描檔案的新面板</block>
-  <block id="ce5ff705f172d820f90c05f58e1c3e19" category="paragraph">「關鍵資料不可變性」面板會顯示您工作環境中、使用ONTAP SnapLock NetApp技術在WORM儲存設備上受到保護、不受修改和刪除的項目數量。如此一來、您就能檢視有多少資料具有不可改變的複本、以便更瞭解針對勒索軟體的備份與還原計畫。<block ref="d02321ee0847267b2bfa5fdc78748651" category="inline-link-rx"></block>。</block>
-  <block id="ab2a86429c9a87e5d3019d275a5cfb4d" category="section-title">全新面板可追蹤ONTAP 您的不穩定環境的安全強化</block>
-  <block id="0bcaeb5db18a29ede99b5fa22ca702dd" category="section-title">新的面板可顯示如何使用Cloud Backup來保護不同類別的資料</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP Sfor Sfor the Data來源</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">內部部署 ONTAP 的叢集</block>
@@ -509,4 +482,23 @@
   <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">瞭解如何設定通知</block>
   <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
+  <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022年9月6日（1.16版）</block>
+  <block id="d59aefa3621ff4109ce747758711c46c" category="section-title">能夠立即重新掃描儲存庫、以反映檔案中的變更</block>
+  <block id="a6277013831bd0ba5dd8499592e6d67b" category="inline-link">請參閱如何重新掃描目錄</block>
+  <block id="45b58068004d744461935c2aae409c04" category="paragraph">如果您需要立即重新掃描特定儲存庫、使變更反映在系統中、您可以選取儲存庫並重新掃描。這可讓您優先重新掃描特定資料、然後再處理其他資料。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
+  <block id="24a7d06e1fe90aca0c0301d12fadc686" category="section-title">在「資料調查」頁面中、新篩選「資料偵測掃描」狀態</block>
+  <block id="e2e0734ca474deb38b2c13f526832e06" category="paragraph">「分析狀態」篩選器可讓您列出處於「資料感應」掃描特定階段的檔案。您可以選取一個選項來顯示*擱置第一次掃描*、*完成*正在掃描、*擱置重新掃描*或*失敗*要掃描的檔案清單。</block>
+  <block id="82f05abce805aa872acec563bbca9a1f" category="paragraph"><block ref="b263790debd0f3d5e5a31296d99293db" category="inline-link-rx"></block>。</block>
+  <block id="9d771bf7f3ed0f2d7cd7bbf827bab0a2" category="section-title">資料主體現在被視為掃描中「個人資料」的一部分</block>
+  <block id="76eab5fecba3164354032ddcdc0feb3d" category="paragraph">Data Sense現已將資料主體視為「法規遵循儀表板」中所顯示之「個人結果」的一部分。此外、在「調查」頁面中執行搜尋時、您可以選取「個人資料」下方的「資料主旨」、以僅檢視包含資料主旨的檔案。</block>
+  <block id="6d3ab1cb3139d4416e111272db779d6d" category="section-title">資料感測階層連結檔案現在被視為掃描中「類別」的一部分</block>
+  <block id="d6933caaf62074fc0c3e63f604181712" category="inline-link">深入瞭解如何建立階層連結檔案</block>
+  <block id="368538217a4a98d2d78bf94a224b8eb6" category="paragraph">Data Sense現在將階層連結檔案視為「符合性儀表板」中顯示的類別的一部分。將檔案從來源位置移至NFS共用時、會建立這些檔案Data Sense。<block ref="fd6931884959497f6c1600e29f97b838" category="inline-link-rx"></block>。</block>
+  <block id="636d406982c471ea6a3e9f3a5d5f7f1f" category="paragraph">此外、在「調查」頁面中執行搜尋時、您可以選取「類別」下的「資料感測Breadcrumbs」、以僅檢視「資料感測階層連結」檔案。</block>
+  <block id="8c70b531876f0aad87de3df8d9049545" category="section-title">2022年9月6日</block>
+  <block id="4f400ad3636bf9ccb8a232e152ae3a56" category="section-title">新的面板可顯示叢集上偵測到的勒索軟體事件</block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">如需詳細資訊、請參閱此處</block>
+  <block id="2cadd98d70cc36a0982305ace71488f2" category="paragraph">「_勒索 軟體事件_」面板顯示系統上發生的勒索軟體攻擊。目前支援ONTAP 內部部署的支援功能是執行自主勒索軟體保護（Arp）的內部環境。在NAS（NFS和SMB）環境中、Arp會使用工作負載分析來主動偵測並警告可能表示勒索軟體攻擊的異常活動。<block ref="a8b3634a0c7a594234502955588cc1db" category="inline-link-rx"></block>。</block>
+  <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">「_Storage system弱點_」面板顯示Active IQ Digital Advisor 每ONTAP 個叢集上發現的高、中、低安全性弱點總數。應立即檢查高弱點、確保您的系統不會遭受攻擊。<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>。</block>
+  <block id="95055437ddc6fef4303145322941a60e" category="paragraph">「關鍵資料不可變性」面板會顯示您工作環境中、使用ONTAP SnapLock NetApp技術在WORM儲存設備上受到保護、不受修改和刪除的項目數量。如此一來、您就能檢視有多少資料具有不可改變的複本、以便更瞭解針對勒索軟體的備份與還原計畫。<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>。</block>
 </blocks>
