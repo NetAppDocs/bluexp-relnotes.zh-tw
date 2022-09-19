@@ -30,8 +30,10 @@ permalink: release-notes-index.html
 
 
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/whats-new.html["適用於 Google Cloud Cloud Volumes Service"^]
+* https://docs.netapp.com/us-en/cloud-manager-e-series/whats-new.html["E系列系統"^]
 * https://docs.netapp.com/us-en/cloud-manager-kubernetes/whats-new.html["Kubernetes叢集"^]
 * https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html["內部 ONTAP 部署的叢集"^]
+* https://docs.netapp.com/us-en/cloud-manager-storagegrid/whats-new.html["StorageGRID"^]
 
 
 
