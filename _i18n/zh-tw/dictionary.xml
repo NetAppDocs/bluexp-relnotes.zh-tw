@@ -423,9 +423,7 @@
   <block id="f2c9e54745387d4204d350aaf464ef16" category="paragraph">上一版針對儲存在Amazon S3儲存區的備份推出_DataLock和勒索軟體Protection。此版本可擴充對StorageGRID 儲存在還原系統中的備份檔案的支援。如果您的叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統執行的是11.6.0.3或更新版本、則可使用此新的備份原則選項。<block ref="3f7eaa3e30bb5eb7a46ecb7c423ee7ad" category="inline-link-rx"></block>。</block>
   <block id="7db81221e474d169032014280bbe8e36" category="paragraph">請注意、您必須執行3.9.22版或更新版本軟體的Connector。連接器必須安裝在您的內部環境中、而且可以安裝在有或沒有網際網路存取的站台中。</block>
   <block id="dfa4dbaa7b53b80d828eeac39da445d5" category="section-title">資料夾層級的還原功能現在可從您的備份檔案取得</block>
-  <block id="44049ef063184610d2b3d1f901e33c6a" category="paragraph">現在、如果您需要存取該資料夾（目錄或共用）中的所有檔案、可以從備份檔案還原資料夾。還原資料夾比還原整個磁碟區更有效率。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。此時您只能選取及還原單一資料夾、而且只會還原該資料夾中的檔案、而不會還原子資料夾或子資料夾中的檔案。</block>
   <block id="08c716b38dc966a670cdf75da8f3f86d" category="section-title">檔案層級還原現在可從已移至歸檔儲存設備的備份取得</block>
-  <block id="5a1b289592dc33da4fec4177e12f2abe" category="paragraph">過去您只能從已移至歸檔存放區的備份檔案還原磁碟區（僅限AWS和Azure）。現在您可以從這些已歸檔的備份檔案還原個別檔案和資料夾。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。</block>
   <block id="b0e03676724b8b6468356ef104a66e4f" category="section-title">檔案層級還原現在提供覆寫原始來源檔案的選項</block>
   <block id="f3e2c168c189da079b62c6ff6558a640" category="paragraph">過去、還原至原始磁碟區的檔案一律會以新檔案的形式還原、並以「RESE_」為前置詞。現在、您可以選擇在將檔案還原至磁碟區上的原始位置時、覆寫原始來源檔案。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。</block>
   <block id="736c2dbf2aa9f4b08b97a4f719b3cf5e" category="section-title">拖放以啟用「雲端備份至StorageGRID 不支援的系統」</block>
@@ -481,4 +479,6 @@
   <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
   <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">設定與管理</block>
   <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
+  <block id="201e1c2515e9474bbcf720fb750a48c0" category="paragraph">現在、如果您需要存取該資料夾（目錄或共用）中的所有檔案、可以從備份檔案還原資料夾。還原資料夾比還原整個磁碟區更有效率。此功能可用於使用瀏覽與還原方法及使用ONTAP 版本更新版本的搜尋與還原方法進行還原作業。此時您只能選取及還原單一資料夾、而且只會還原該資料夾中的檔案、而不會還原子資料夾或子資料夾中的檔案。</block>
+  <block id="092186aa28f6e357cce0ba979d549724" category="paragraph">過去您只能從已移至歸檔儲存設備的備份檔案還原磁碟區（僅限AWS和Azure）。現在您可以從這些已歸檔的備份檔案還原個別檔案。此功能可用於使用瀏覽與還原方法及使用ONTAP 版本更新版本的搜尋與還原方法進行還原作業。</block>
 </blocks>
