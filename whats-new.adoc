@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud' 
 summary: 瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
 ---
 = Cloud Manager最近的變更
@@ -249,7 +249,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== 拖放以啟用「雲端備份至StorageGRID 不支援的系統」
 
-如果是 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-azure-blob.html["StorageGRID"^] 備份的目的地在畫版上會以工作環境的形式存在、您可以將內部ONTAP 作業環境拖曳到目的地、以啟動備份設定精靈。
+如果是 https://docs.netapp.com/us-en/cloud-manager-storagegrid/task-discover-storagegrid.html["StorageGRID"^] 備份的目的地在畫版上會以工作環境的形式存在、您可以將內部ONTAP 作業環境拖曳到目的地、以啟動Cloud Backup設定精靈。
 
 
 

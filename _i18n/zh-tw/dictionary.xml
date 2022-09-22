@@ -428,7 +428,6 @@
   <block id="f3e2c168c189da079b62c6ff6558a640" category="paragraph">過去、還原至原始磁碟區的檔案一律會以新檔案的形式還原、並以「RESE_」為前置詞。現在、您可以選擇在將檔案還原至磁碟區上的原始位置時、覆寫原始來源檔案。此功能可用於使用「瀏覽與還原」方法和「搜尋與還原」方法進行還原作業。</block>
   <block id="736c2dbf2aa9f4b08b97a4f719b3cf5e" category="section-title">拖放以啟用「雲端備份至StorageGRID 不支援的系統」</block>
   <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
-  <block id="8dfffc54074b9b325c97c7860bbed1fe" category="paragraph">如果是<block ref="b1917dc7a4b651d68f42212758a15b79" category="inline-link-rx"></block> 備份的目的地在畫版上會以工作環境的形式存在、您可以將內部ONTAP 作業環境拖曳到目的地、以啟動備份設定精靈。</block>
   <block id="d6076da95b416ff0d08e3269c4addf0d" category="section-title">分層精靈可讓您使用AWS Private Link安全連線至S3儲存設備</block>
   <block id="905ecf204d0cf0b2ed497e63ae9324d0" category="inline-link">使用VPC端點介面設定系統的私有連線</block>
   <block id="33e030edd0380c3b2d743ec2f989598c" category="paragraph">在先前的版本中、透過VPC端點提供這種將叢集連接至S3儲存區的安全方法、非常耗時。現在您可以依照必要步驟執行至<block ref="fb4b1250ed3d38b3a9447c7c732436c8" category="inline-link-rx"></block>然後您可以在「網路」頁面中的分層設定精靈期間選取Private Link。</block>
@@ -481,4 +480,5 @@
   <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
   <block id="201e1c2515e9474bbcf720fb750a48c0" category="paragraph">現在、如果您需要存取該資料夾（目錄或共用）中的所有檔案、可以從備份檔案還原資料夾。還原資料夾比還原整個磁碟區更有效率。此功能可用於使用瀏覽與還原方法及使用ONTAP 版本更新版本的搜尋與還原方法進行還原作業。此時您只能選取及還原單一資料夾、而且只會還原該資料夾中的檔案、而不會還原子資料夾或子資料夾中的檔案。</block>
   <block id="092186aa28f6e357cce0ba979d549724" category="paragraph">過去您只能從已移至歸檔儲存設備的備份檔案還原磁碟區（僅限AWS和Azure）。現在您可以從這些已歸檔的備份檔案還原個別檔案。此功能可用於使用瀏覽與還原方法及使用ONTAP 版本更新版本的搜尋與還原方法進行還原作業。</block>
+  <block id="01fa460d0b4e6c77f9b145e51a76fbd6" category="paragraph">如果是<block ref="81ffc4823c79c3e10cfa644aead6e93c" category="inline-link-rx"></block> 備份的目的地在畫版上會以工作環境的形式存在、您可以將內部ONTAP 作業環境拖曳到目的地、以啟動Cloud Backup設定精靈。</block>
 </blocks>
