@@ -11,17 +11,17 @@ settings:
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr
 sidebar:
   entries:
-  - title: Cloud Manager版本說明
+  - title: BlueXP版本說明
     url: "/index.html"
   - title: 最近的變更
     url: "/whats-new.html"
-  - title: 版本資訊索引
+  - title: BlueXP索引
     url: "/release-notes-index.html"
 homepage:
   tiles:
   - title: 新增功能
     links:
-    - title: Cloud Manager最近的變更
+    - title: 最新的BlueXP變更
       url: whats-new.html
   - title: 按服務提供版本說明
     links:
@@ -31,11 +31,11 @@ homepage:
     links:
     - title: NetApp社群
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central部落格
+    - title: BlueXP網站部落格
       url: https://cloud.netapp.com/blog
     - title: 雲端網路研討會
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: 所有Cloud Manager文件
+  sidebar_label: 所有BlueXP文件

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="46255a0651109e3be491691e312b0332" category="summary">這些版本說明說明Cloud Manager平台中雲端服務的最新增強功能。每項個別服務的完整版本資訊均提供連結。</block>
-  <block id="ab0f38be07f9dea06b0c032857af2e24" category="doc">Cloud Manager版本說明</block>
-  <block id="4e486f7be30b2a2fc9c755f593ec7a7e" category="summary">瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資料、請參閱每項個別服務的完整版本資訊。</block>
-  <block id="5443bce5372c23a628767c281d20e64d" category="doc">Cloud Manager最近的變更</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">完整的版本資訊</block>
-  <block id="7e2a23a7215e26914d4490ec8dbd56c8" category="paragraph">瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="f3aae44c0ba1e9d5c7a46f4e224ea31e" category="section-title">管理功能</block>
-  <block id="8f351a0ea0c00d874e3538dc3c565ffe" category="paragraph">本節說明Cloud Manager管理功能的相關新功能：帳戶、連接器、雲端供應商認證等。</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="section-title">Azure NetApp Files</block>
   <block id="29c251ed5a57bbffe470654ccbbe714c" category="section-title">2021年4月11日</block>
@@ -52,14 +46,12 @@
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="section-title">雲端資料感測</block>
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看Data Sense可在您的資料中識別的所有個人資料類型</block>
   <block id="e367efbc26bd12c0d6ae37dd6a55ef9b" category="section-title">Cloud Sync</block>
-  <block id="9081c0430b4e4fcf1f0dd042e7c0ca60" category="inline-image-macro">顯示Cloud Manager通知中心的快照。</block>
   <block id="92d2b6aba6afa3f690540cf3dba9b633" category="section-title">雲端分層</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="section-title">Cloud Volumes ONTAP</block>
   <block id="a3c559e0541e9bb860178ce6fe414224" category="section-title">適用於 GCP Cloud Volumes Service</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020年9月9日</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支援Cloud Volumes Service for Google Cloud</block>
-  <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">您現在Cloud Volumes Service 可以直接從Cloud Manager管理適用於Google Cloud的功能：</block>
   <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">設定及建立工作環境</block>
   <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">為Linux和UNIX用戶端建立及管理NFSv3和NFSv4.1磁碟區</block>
   <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">為Windows用戶端建立及管理SMB 3.x磁碟區</block>
@@ -80,21 +72,6 @@
   <block id="24e6e2f6171b43a847fe194a9a9b5cd0" category="section-title">全域檔案快取</block>
   <block id="30136395f01879792198317c11831ea4" category="section-title">Kubernetes</block>
   <block id="423e555c5ec3885f2bb5d9d2d6627f63" category="section-title">監控</block>
-  <block id="9e27c4a53794e4f6cfc9949de58e5091" category="section-title">2021年8月1日</block>
-  <block id="f9564bccd9f6164dfb5486c5fe5ff233" category="section-title">變更為擷取單位名稱</block>
-  <block id="6894648546fd35a9ed4c63e020255bbb" category="paragraph">我們將擷取單元執行個體的預設名稱變更為CloudInsights–AU-_UUUUID_、使名稱更具說明性（UUID為產生的雜湊）。</block>
-  <block id="3ee7977b62b54344390843236b7b7fbe" category="paragraph">當您在Cloud Volumes ONTAP 運作環境中啟用監控服務時、Cloud Manager會部署此執行個體。</block>
-  <block id="5057fdb214d9f3773bc386ba2aa1fcb0" category="section-title">2021年5月5日</block>
-  <block id="e192d178d731a26f369fc9ded8b836ed" category="section-title">支援現有租戶</block>
-  <block id="10df6526a8d972614ac33d019e498209" category="paragraph">現在、即使Cloud Volumes ONTAP 您有Cloud Insights 現有的支援者、也可以在不工作環境中啟用監控服務。</block>
-  <block id="261bb9c11863cc45e7b0056b34cabf2c" category="section-title">免費試用版移轉</block>
-  <block id="4f407ad617aec7f56138e7f5dcb581be" category="inline-link">基本版</block>
-  <block id="1cb2499c8013bb0ab523a856eeaa4c6f" category="paragraph">啟用監控服務時、Cloud Manager會免費試用Cloud Insights VMware。在第29天、您的計畫現在會自動從試用版移轉至<block ref="34a93ad61035abe9ad6e17d10c04ea84" category="inline-link-rx"></block>。</block>
-  <block id="d42fa6c698bffd937b50724aa035c2cb" category="section-title">2021年2月9日</block>
-  <block id="049a56718afb4bc754cebf8a5567c3c8" category="section-title">支援Azure</block>
-  <block id="0627ad1b1205310c0a00e6213dc9ee59" category="paragraph">目前支援Azure的Monitoring服務Cloud Volumes ONTAP 。</block>
-  <block id="308527077ec474b731b7715b5cd1deb2" category="section-title">政府區域的支援</block>
-  <block id="d90533b31d8a70a6866bd47c12676ca9" category="paragraph">AWS和Azure的政府區域也支援監控服務。</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="section-title">內部 ONTAP 部署的叢集</block>
   <block id="f25694bb9bc00e8fcfcc1a3c65dd482b" category="section-title">數位錢包提供「ONTAP 內部部署的功能」索引標籤。</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。</block>
@@ -106,11 +83,6 @@
   <block id="59dfc17500b1e0b8d1824eb8b1413080" category="paragraph">您現在可以將資料從Cloud Volumes ONTAP 一套不間斷的系統或內部部署ONTAP 的一套功能的叢集複寫到Amazon FSX for ONTAP 整個檔案系統。</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">瞭解如何設定資料複寫</block>
   <block id="1e56755e05ec049b30c49b9d53744ca1" category="paragraph"><block ref="0337e364432fca0f343e5f2660661b77" category="inline-link-rx"></block>。</block>
-  <block id="fed6fa1f1b675c268f8b78258e2545a7" category="section-title">支援服務SnapCenter</block>
-  <block id="5e057a1bffc9bad13fd5567d9b86dd0b" category="section-title">2021年12月21日</block>
-  <block id="b59fdb8f9fe5a28d08cd50bf85b70880" category="section-title">Apache log4j弱點的修正程式</block>
-  <block id="6b6f87c741f6734b4908d03d2c21e449" category="paragraph">感謝支援服務1.0.1將Apache log4j從2.9.1版升級至2.17版、以解決下列弱點：-2021至44228、-2021至4104及-2021至45105。SnapCenter</block>
-  <block id="ae1f9a5afbc7e02967d7f7e643135d82" category="paragraph">支援此功能的叢集應自動更新至最新版本。SnapCenter您應該確定SnapCenter 「支援服務」UI中的版本顯示叢集為1.0.1.1251或更新版本。</block>
   <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">版本資訊索引</block>
   <block id="58c23c6ea3bae0f0d75bd2cd80d15108" category="paragraph">檢視每項個別服務的完整版本資訊。</block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">儲存設備</block>
@@ -118,8 +90,6 @@
   <block id="70ac5f28b8976363f0e487a59a194ede" category="list-text"><block ref="70ac5f28b8976363f0e487a59a194ede" category="inline-link-rx"></block></block>
   <block id="f7d121e2a54c62002dd74f6b9dac8069" category="inline-link">發行說明Cloud Volumes ONTAP</block>
   <block id="ca138f4890a80dcb981add74fa328598" category="list-text"><block ref="ca138f4890a80dcb981add74fa328598" category="inline-link-rx"></block></block>
-  <block id="92a19295ac05c2a8159ff4e129265e4f" category="inline-link">Cloud Manager中的更新版本資訊Cloud Volumes ONTAP</block>
-  <block id="998c54a50d0a2978b705c26bab946460" category="list-text"><block ref="998c54a50d0a2978b705c26bab946460" category="inline-link-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="cf1e43e88c5409a94312fe0defe1f9bc" category="list-text"><block ref="cf1e43e88c5409a94312fe0defe1f9bc" category="inline-link-rx"></block></block>
   <block id="85eb427901278daf26f132cb3e076914" category="inline-link">Kubernetes叢集</block>
@@ -134,34 +104,23 @@
   <block id="5834a4cf351e513e7bec7b42c17cb246" category="list-text"><block ref="5834a4cf351e513e7bec7b42c17cb246" category="inline-link-rx"></block></block>
   <block id="818bcbc7a642cb031afa7b414815a76c" category="list-text"><block ref="818bcbc7a642cb031afa7b414815a76c" category="inline-link-rx"></block></block>
   <block id="24bb270dd8a21f04115481dc5a9e23f9" category="list-text"><block ref="24bb270dd8a21f04115481dc5a9e23f9" category="inline-link-rx"></block></block>
-  <block id="83ddfdaa5c539f89dd87fac1636bee43" category="list-text"><block ref="83ddfdaa5c539f89dd87fac1636bee43" category="inline-link-rx"></block></block>
   <block id="232a2b16a1710c0ed1d16548ba8bb8f1" category="inline-link">勒索軟體</block>
   <block id="723c4c67941a96b49b471e8a0ef4b07d" category="list-text"><block ref="723c4c67941a96b49b471e8a0ef4b07d" category="inline-link-rx"></block></block>
   <block id="c49bb8aa9fd443e227ec7dd83d980f9b" category="list-text"><block ref="c49bb8aa9fd443e227ec7dd83d980f9b" category="inline-link-rx"></block></block>
-  <block id="95e16c764bc656c2e4b455b9bcd6da50" category="list-text"><block ref="95e16c764bc656c2e4b455b9bcd6da50" category="inline-link-rx"></block></block>
   <block id="7258e7251413465e0a3eb58094430bde" category="section-title">系統管理</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務提供版本說明</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="d3e8cd2e370974f27de1b310b4aa8cb3" category="section-title">2022年5月3日</block>
   <block id="a74300b6b08791dda4f54d473a58e17a" category="section-title">雲端分層授權支援、可用於其他叢集組態</block>
   <block id="afacb33ad65bcd63eb15aeba04b4aed0" category="inline-link">瞭解如何授權及設定這些類型的叢集。</block>
   <block id="4675a948ea93098e22976c0848737e1a" category="paragraph">雲端分層授權現在可與分層鏡射組態（不含MetroCluster 非功能組態）的叢集、以及分層至IBM Cloud Object Storage的叢集共享。您不再需要在FabricPool 這些情況下使用過時的不再使用的功能介紹授權。如此一來、您就能更輕鬆地在更多叢集上使用「浮動」雲端分層授權。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
-  <block id="d23895cd28f2e8e5d3074279cea7aacf" category="inline-link-macro">新增儲存類別</block>
-  <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
   <block id="a3065e926a55339df72c1343ee9b3fae" category="inline-link">請參閱所有篩選器清單、以供您調查資料</block>
   <block id="81ad4f0de90ee8a7305d0fd7751df796" category="section-title">新的Google Cloud區域支援</block>
-  <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022年5月19日（版本1.3.0）</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">本頁</block>
-  <block id="538b3d7be12bcc1f18433981df773bc1" category="paragraph">1.3.0版的Global File Cache Edge軟體可從取得<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
-  <block id="9463b6d7b9d38e544c6a7eb98988bb3b" category="section-title">新的中繼資料邊緣同步功能</block>
-  <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">此「中繼資料邊緣同步」功能使用Edge同步功能做為核心架構。只有中繼資料資訊會更新所有已訂閱的Edge、而且檔案/資料夾會在Edge機器上建立。</block>
-  <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager服務增強功能</block>
-  <block id="03036f549995f5d3240d1c89c4f2f496" category="paragraph">全域檔案快取授權管理伺服器（LMS）服務已增強、可自動偵測Proxy設定。如此可實現無縫組態。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">深入瞭Cloud Volumes ONTAP 解功能強化功能</block>
   <block id="f23841b65ba519d2dd6a63a2a3e4de83" category="inline-link-macro">深入瞭解Continuous Sync設定</block>
@@ -204,10 +163,6 @@
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager現在支援AWS GovCloud帳戶驗證。</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="inline-link-macro">設定IAM角色</block>
   <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
-  <block id="3b5790878c6505820d5eed0428e827bb" category="list-text">如果使用Trident營運者部署了Astra Trident、您現在可以使用Cloud Manager升級至最新版的Astra Trident。</block>
-  <block id="26317664fb1c4e8b3a500a7b1e46a4e7" category="inline-link-macro">安裝及管理Astra Trident</block>
-  <block id="74f5fa93248faf352ebad3f966bf3b55" category="paragraph"><block ref="74f5fa93248faf352ebad3f966bf3b55" category="inline-link-macro-rx"></block></block>
-  <block id="412d8f1a8f03a7ee8f0983e7ecafe5e4" category="list-text">您現在可以將Kubernetes叢集拖放到AWS FSX for ONTAP the Sfor the Sfor the fernet工作環境中、直接從Canvas.新增儲存類別。</block>
   <block id="d5b8d2f44acff1b98dd9992401eadf24" category="section-title">2022年7月6日（1.14版）</block>
   <block id="45b5235b8c737e18e646514c30664517" category="section-title">現在您可以檢視擁有目錄存取權的使用者和群組</block>
   <block id="949b2765e1f54f21e0cad7eec542e087" category="inline-link">瞭解如何檢視可存取您資料夾和檔案共用的使用者和群組</block>
@@ -284,13 +239,10 @@
   <block id="427bae06dc18214df77602503b45e556" category="list-text">IBM Cloud Object Storage移轉至Azure Data Lake Storage Gen2</block>
   <block id="2ade6486b18196b7cbbcabc2c40d01ac" category="list-text">適用於Azure Data Lake Storage Gen2 StorageGRID</block>
   <block id="6d7ca7d8b2d372856465f7f7cee67c0c" category="section-title">設定同步關係的新方法</block>
-  <block id="2a8934d9990d0c3b34b537cb85b95cb3" category="paragraph">我們新增了更多方法、可直接從Cloud Manager的畫版中設定同步關係。</block>
   <block id="1bc09668b27b6867ae7fc05d1c02faa8" category="section-title">拖放</block>
   <block id="bb444099cdb375196c5bb6444eabdc45" category="paragraph">您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。</block>
-  <block id="3c19e417c99aac7906cccf189792344f" category="paragraph"><block ref="3c19e417c99aac7906cccf189792344f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右側面板設定</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。</block>
-  <block id="b0b9021c705a42adb2b41c27fd7502f5" category="paragraph"><block ref="b0b9021c705a42adb2b41c27fd7502f5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
   <block id="5d95d03306d738eddc1fcb7b61b6151a" category="paragraph">以下是3.9.21版Connector的變更。</block>
   <block id="1bbedbfdc08c3ed9498540dc734fa96a" category="section-title">MTEKM授權</block>
@@ -299,7 +251,6 @@
   <block id="6b8afb72156ec7e5aff9808d22a9eb10" category="inline-link">瞭解如何使用NetApp加密解決方案來加密磁碟區</block>
   <block id="58d699d73838a8f3d0660e52bb5df744" category="paragraph"><block ref="c9a99e5900c97d829a142b9eef78ba06" category="inline-link-rx"></block>。</block>
   <block id="824f455afa0ae197e5e7156988b6dc50" category="section-title">Proxy伺服器</block>
-  <block id="f0823a7c4bb0823970669d0756fceb8a" category="paragraph">Cloud Manager現在會自動將Cloud Volumes ONTAP 您的還原系統設定為使用Connector做為Proxy伺服器、如果無法使用傳出的網際網路連線來傳送AutoSupport 還原訊息。</block>
   <block id="80f5caa6fde5a9410197e8753e6f4625" category="paragraph">可主動監控系統健全狀況、並傳送訊息給NetApp技術支援部門。AutoSupport</block>
   <block id="5fc25795a93f92bfee952eef3220d9e5" category="paragraph">唯一的需求是確保連接器的安全性群組允許連接埠3128上的傳入連線。部署Connector之後、您需要開啟此連接埠。</block>
   <block id="b69737a8aa6d54e160fd215ef53825b5" category="section-title">變更充電方法</block>
@@ -319,13 +270,11 @@
   <block id="2d66a0b2e45838b2ebcec83efd6c765c" category="inline-link">深入瞭解這些授權套件</block>
   <block id="ee76810836e6a3bb9dd07dfba26221a1" category="paragraph"><block ref="ddf7de7bfe14bcbf78a072c21440c1a8" category="inline-link-rx"></block>。</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日（2.0版）</block>
-  <block id="0cdaa1584e91bdecaff25609aa4f9058" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">深入瞭解Edge Cache授權套件。</block>
   <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
   <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">全域檔案快取現在已整合Cloud Insights 至功能性</block>
-  <block id="acb729f8fd6ddd0e3a9a1a39397d6274" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。</block>
   <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">深入瞭Cloud Insights 解功能。</block>
   <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
   <block id="1f56bc157b53331171e2209738abd411" category="section-title">授權管理伺服器已經過強化、可在極具限制的環境中運作</block>
@@ -387,7 +336,6 @@
   <block id="f1b9deb2828fa22b8254f1a8a51f5789" category="list-text">將Google Cloud Storage移轉至NFS伺服器</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
   <block id="2a6aa0e8585b387718e871db90f1a32e" category="paragraph">您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。</block>
-  <block id="20ef839c6c5f361341c0392939dbf3b2" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。</block>
   <block id="e6694f6134fb0186a17db662ced006d0" category="inline-link">瞭解如何設定通知</block>
   <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
   <block id="331a3f3aa511b1c438e9c58674f70985" category="section-title">2022年9月6日（1.16版）</block>
@@ -454,7 +402,6 @@
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022年9月18日</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP</block>
   <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
   <block id="83bad7a989a8ab61893e9cfb7497cefd" category="section-title">數位錢包增強功能</block>
   <block id="e1de90a0937196074c7abb9f8b5e5edf" category="list-text">數位錢包現在會顯示最佳化I/O授權套件的摘要、以及Cloud Volumes ONTAP 整個帳戶中針對各個系統所配置的WORM容量。</block>
   <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。</block>
@@ -467,12 +414,9 @@
   <block id="f929bd53055100ea5034e258d5828a45" category="inline-image-macro">選取工作環境後、可從畫版取得「最佳化成本與安培」選項的快照。</block>
   <block id="b04af3108aa064fb53015f188d417418" category="paragraph"><block ref="740982637064d815add45193172173b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fa5f0abcdf06ead83ea7fc11be56d19a" category="section-title">資訊通知AutoSupport</block>
-  <block id="72e6a4a100fd0ef72da9bbbef31477d2" category="paragraph">現在、如果Cloud Volumes ONTAP 無法傳送AutoSupport 功能不全的訊息、Cloud Manager將會產生通知。此通知包含可用於疑難排解網路問題的指示連結。</block>
   <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E系列系統</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">支援E系列</block>
-  <block id="382444d2943af2fada032ac44e187150" category="paragraph">您現在可以直接從Cloud Manager探索E系列儲存系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">支援StorageGRID 功能</block>
-  <block id="2e9322f9d5b6c0a3474db4758b049aa0" category="paragraph">您現在StorageGRID 可以直接從Cloud Manager探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
   <block id="1e8b70ceb2c6c0577446889e5a58ddda" category="list-text"><block ref="1e8b70ceb2c6c0577446889e5a58ddda" category="inline-link-rx"></block></block>
   <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
   <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">設定與管理</block>
@@ -483,4 +427,71 @@
   <block id="c3d7ada1f42d9b916dd8624c5b5661c1" category="section-title">分層精靈可讓您在分層至S3儲存設備時、設定AWS Private Link</block>
   <block id="bf482155aab691ba59a0313f5628cbba" category="section-title">在MetroCluster 刪除鏡射物件儲存區時、請選擇分層行為</block>
   <block id="cd71992689f7bdbde4a7c9f0653f44f3" category="paragraph">從MetroCluster 物件庫中移除鏡射物件存放區時、系統會提示您是否也要移除主要物件存放區。您可以選擇將主要物件存放區附加至集合體、或是移除它。</block>
+  <block id="24107a8e1555736c2428c199a70f695f" category="summary">這些版本說明說明最新的雲端服務增強功能、這些功能是BlueXP（前身為Cloud Manager）的一部分。每項個別服務的完整版本資訊均提供連結。</block>
+  <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP版本說明</block>
+  <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP中的更新版本資訊Cloud Volumes ONTAP</block>
+  <block id="768f6f21e441ee3eb49fe0b2939ca706" category="list-text"><block ref="768f6f21e441ee3eb49fe0b2939ca706" category="inline-link-rx"></block></block>
+  <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。</block>
+  <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">最新的BlueXP變更</block>
+  <block id="1262adaf755b126adfb35787960ae9ac" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台（先前稱為Cloud Manager）的一部分。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
+  <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">介紹BlueXP</block>
+  <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="inline-link">深入瞭解BlueXP</block>
+  <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager於2022年11月1日重新命名為BlueXP。<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
+  <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。</block>
+  <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">2022年11月1日</block>
+  <block id="23888423406e47190ca0cf40a113c61f" category="inline-link">瞭解如何管理NSS帳戶</block>
+  <block id="929fa09ef9d24654b353f312638ca6e6" category="paragraph">Cloud Manager現在會在NetApp 支援網站 與您帳戶相關的更新權杖在3個月後過期時、提示您更新與您的候用帳戶相關的認證資料。<block ref="abba285888ca54da9f89054b7e57f270" category="inline-link-rx"></block></block>
+  <block id="2d96aa84884717fd77e4906d82c73ddc" category="section-title">2022年9月28日</block>
+  <block id="89d500a3ace67f6d47edb61231336589" category="section-title">Cloud Backup for Applications的增強功能</block>
+  <block id="2e73884f73c53eee3aea96494fd4ff16" category="list-text">支援Google Cloud Provider（GCP）和StorageGRID 支援以備份應用程式一致的快照</block>
+  <block id="f617da6b50728500642eb376ab97b6f4" category="list-text">建立自訂原則</block>
+  <block id="eaec67d5f8f719a2f05b5ded5dc4ce60" category="list-text">支援歸檔儲存</block>
+  <block id="37976e53c610f9f37f8310aaacc3323e" category="list-text">備份SAP HANA應用程式</block>
+  <block id="bd3468a6ecb625b121385bd7f39c67e1" category="list-text">備份VMware環境中的Oracle和SQL應用程式</block>
+  <block id="a0f2b147a9c0eb0f8a59efd52556c7a2" category="list-text">從內部部署的二線儲存設備備份應用程式</block>
+  <block id="c05b61fb3f1a201cd787a5c713ee2461" category="list-text">停用備份</block>
+  <block id="40cfdc443f8536e4e751b21f465246d7" category="list-text">取消登SnapCenter 錄伺服器</block>
+  <block id="e75ce95021f32383e6a928c1b242bc34" category="section-title">增強了適用於虛擬機器的Cloud Backup功能</block>
+  <block id="46a34c0c1ccc14eb217db2e715c43df6" category="list-text">支援StorageGRID 使用支援還原來備份一或多個資料存放區</block>
+  <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">2022年10月30日</block>
+  <block id="5c7d084f950ad8af7d03c171b38bbaba" category="section-title">從Microsoft Azure持續同步</block>
+  <block id="e4c664e7de05c9b6f33c4dc4c5e8c120" category="paragraph">現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。</block>
+  <block id="3cf98067a279c5afe27919c8acd25ea4" category="paragraph">初始資料同步之後Cloud Sync 、Syncset會偵聽來源Azure儲存桶上的變更、並在目標發生時持續同步任何變更。從Azure儲存庫同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和StorageGRID Sfor時、可使用此設定。</block>
+  <block id="91cba4a0b0d46011e31e848c61739e1e" category="paragraph">Azure資料代理人需要自訂角色和下列權限才能使用此設定：</block>
+  <block id="beee0e2c828d5d7a17dcb84704a1dd82" category="paragraph">若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。</block>
+  <block id="75a84cecb34ecabf76f44935f66b67eb" category="paragraph">我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。</block>
+  <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">在藍圖XP中顯示通知中心的快照。</block>
+  <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a8757c8fbb4c1997c5641cf6e4a7489" category="paragraph">現在、如果Cloud Volumes ONTAP 某個不完善的系統無法傳送AutoSupport 功能介紹訊息、則BlueXP會產生通知。此通知包含可用於疑難排解網路問題的指示連結。</block>
+  <block id="dd8fbb56db547f79b2c75bf3b4e493be" category="paragraph">現在、如果Cloud Volumes ONTAP 無法使用傳出的網際網路連線來傳送AutoSupport 更新訊息、則BlueXP會自動將您的還原系統設定為使用Connector做為Proxy伺服器。</block>
+  <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：</block>
+  <block id="f079f17b0940258743d34e7b771c715f" category="section-title">數位顧問</block>
+  <block id="a979b908e61b4f4e9d00d64a346ac569" category="paragraph">數位顧問（前身Active IQ 為「僅限版」）現在已與BlueXP完全整合、並提供強化的登入體驗。</block>
+  <block id="36aa1bd807334591d822a982d9e304e9" category="paragraph">當您在BlueXP中存取Digital Advisor時、系統會提示您輸入NetApp 支援網站 您的支援資訊、以便您檢視與系統相關的資料。您登入的NSS帳戶僅與使用者登入相關聯。它不會與您NetApp帳戶中的任何其他使用者建立關聯。</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">數位顧問文件</block>
+  <block id="c0eab8ac6bda2104128dbed1542b309f" category="paragraph">如需更多有關數位顧問與BlueXP整合的詳細資訊、請前往<block ref="5d1aa2fae9958ef5ced45eec5d13d250" category="inline-link-rx"></block></block>
+  <block id="534171d3771a50398027a07275778b3e" category="paragraph">您現在可以直接從BlueXP探索E系列儲存系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
+  <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022年10月24日（2.1版）</block>
+  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
+  <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">全域檔案快取現在可搭配任意數量的授權使用</block>
+  <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">先前的10份授權（即30 TB儲存容量）最低需求已移除。每3 TB儲存空間將會核發一份全域檔案快取授權。</block>
+  <block id="a05df94e25a3fdf3c6809915be7db21b" category="section-title">已新增使用離線授權管理伺服器的支援</block>
+  <block id="9952545455211dde3dd54a36ff1e0fd9" category="paragraph">當LMS沒有網際網路連線、無法使用授權來源進行授權驗證時、離線或暗線站台的授權管理伺服器（LMS）最有用。初始組態期間需要網際網路連線和授權來源連線。設定完成後、LMS執行個體可能變暗。所有邊緣/核心都應與LMS建立連線、以持續驗證授權。</block>
+  <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">Edge執行個體可支援其他並行使用者</block>
+  <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。使用者人數上限分別為400和200。</block>
+  <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">增強的Optimus PSM可設定雲端授權</block>
+  <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端</block>
+  <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
+  <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">NetApp 全球檔案快取使用者指南</block>
+  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
+  <block id="6fc9f5ba6febd413f8f3db3fdd777f58" category="section-title">2022年10月30日</block>
+  <block id="084fbbb062290ef487eac98d44edd278" category="paragraph">何時 <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>、您現在可以為區塊或檔案系統儲存設備啟用儲存等級的經濟效益。</block>
+  <block id="7e69e168ccaec126378a9fc9829b1a86" category="paragraph">監控服務於2022年11月1日淘汰。您現在Cloud Insights 可以從導覽功能表選擇* Insights &gt; observability *、直接找到指向《》的連結。</block>
+  <block id="7c82794438729fe23f8c0939342ab8fb" category="section-title">服務SnapCenter</block>
+  <block id="c491d515e74738c0f4f9512024e9b4cd" category="paragraph">該服務已於2022年11月1日淘汰。SnapCenter</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
+  <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP索引</block>
+  <block id="ff93781ff90bf605d8b3070c1501b28f" category="sidebar">BlueXP網站部落格</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
 </blocks>

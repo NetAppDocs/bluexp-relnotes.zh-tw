@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud' 
-summary: 瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp' 
+summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
 ---
-= Cloud Manager最近的變更
+= 最新的BlueXP變更
 :toc: macro
 :hardbreaks:
 :allow-uri-read: 
@@ -17,13 +17,25 @@ summary: 瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資�
 
 
 [role="lead"]
-瞭解Cloud Manager平台最新的雲端服務變更。如需詳細資料、請前往 link:release-notes-index.html["完整的版本資訊"] 針對每項個別服務。
+瞭解最新的雲端服務變更、這些變更是BlueXP平台（先前稱為Cloud Manager）的一部分。如需詳細資料、請前往 link:release-notes-index.html["完整的版本資訊"] 針對每項個別服務。
+
+
+
+== 介紹BlueXP
+
+Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["深入瞭解BlueXP"^]
 
 
 
 == 管理功能
 
-本節說明Cloud Manager管理功能的相關新功能：帳戶、連接器、雲端供應商認證等。
+本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。
+
+
+
+=== 2022年11月1日
+
+Cloud Manager現在會在NetApp 支援網站 與您帳戶相關的更新權杖在3個月後過期時、提示您更新與您的候用帳戶相關的認證資料。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["瞭解如何管理NSS帳戶"^]
 
 
 
@@ -214,6 +226,32 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 == 雲端備份
+
+
+
+=== 2022年9月28日
+
+
+
+==== Cloud Backup for Applications的增強功能
+
+* 支援Google Cloud Provider（GCP）和StorageGRID 支援以備份應用程式一致的快照
+* 建立自訂原則
+* 支援歸檔儲存
+* 備份SAP HANA應用程式
+* 備份VMware環境中的Oracle和SQL應用程式
+* 從內部部署的二線儲存設備備份應用程式
+* 停用備份
+* 取消登SnapCenter 錄伺服器
+
+
+
+
+==== 增強了適用於虛擬機器的Cloud Backup功能
+
+* 支援StorageGRID 使用支援還原來備份一或多個資料存放區
+* 建立自訂原則
+
 
 
 
@@ -440,6 +478,36 @@ Data Sense可識別及分類包含來自印第安納州、紐約州和德州的�
 
 
 
+=== 2022年10月30日
+
+
+
+==== 從Microsoft Azure持續同步
+
+現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。
+
+初始資料同步之後Cloud Sync 、Syncset會偵聽來源Azure儲存桶上的變更、並在目標發生時持續同步任何變更。從Azure儲存庫同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和StorageGRID Sfor時、可使用此設定。
+
+Azure資料代理人需要自訂角色和下列權限才能使用此設定：
+
+[source, json]
+----
+'Microsoft.Storage/storageAccounts/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
+'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
+'Microsoft.EventGrid/systemTopics/read',
+'Microsoft.EventGrid/systemTopics/write',
+'Microsoft.EventGrid/systemTopics/delete',
+'Microsoft.EventGrid/eventSubscriptions/write',
+'Microsoft.Storage/storageAccounts/write'
+----
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
+
+
+
 === 2022年9月4日
 
 
@@ -476,7 +544,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 
 您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。
 
-若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在Cloud Manager中設定「警示與通知」設定。
+若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["瞭解如何設定通知"]。
 
@@ -511,7 +579,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 ==== 設定同步關係的新方法
 
-我們新增了更多方法、可直接從Cloud Manager的畫版中設定同步關係。
+我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。
 
 
 
@@ -519,7 +587,7 @@ https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationshi
 
 您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["顯示Cloud Manager通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["在藍圖XP中顯示通知中心的快照。"]
 
 
 
@@ -527,7 +595,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media
 
 您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["顯示Cloud Manager通知中心的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["在藍圖XP中顯示通知中心的快照。"]
 
 
 
@@ -682,7 +750,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-o
 
 ==== 資訊通知AutoSupport
 
-現在、如果Cloud Volumes ONTAP 無法傳送AutoSupport 功能不全的訊息、Cloud Manager將會產生通知。此通知包含可用於疑難排解網路問題的指示連結。
+現在、如果Cloud Volumes ONTAP 某個不完善的系統無法傳送AutoSupport 功能介紹訊息、則BlueXP會產生通知。此通知包含可用於疑難排解網路問題的指示連結。
 
 
 
@@ -704,7 +772,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-
 
 ==== Proxy伺服器
 
-Cloud Manager現在會自動將Cloud Volumes ONTAP 您的還原系統設定為使用Connector做為Proxy伺服器、如果無法使用傳出的網際網路連線來傳送AutoSupport 還原訊息。
+現在、如果Cloud Volumes ONTAP 無法使用傳出的網際網路連線來傳送AutoSupport 更新訊息、則BlueXP會自動將您的還原系統設定為使用Connector做為Proxy伺服器。
 
 可主動監控系統健全狀況、並傳送訊息給NetApp技術支援部門。AutoSupport
 
@@ -754,7 +822,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 ==== 支援Cloud Volumes Service for Google Cloud
 
-您現在Cloud Volumes Service 可以直接從Cloud Manager管理適用於Google Cloud的功能：
+您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：
 
 * 設定及建立工作環境
 * 為Linux和UNIX用戶端建立及管理NFSv3和NFSv4.1磁碟區
@@ -794,6 +862,20 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+== 數位顧問
+
+
+
+=== 2022年11月1日
+
+數位顧問（前身Active IQ 為「僅限版」）現在已與BlueXP完全整合、並提供強化的登入體驗。
+
+當您在BlueXP中存取Digital Advisor時、系統會提示您輸入NetApp 支援網站 您的支援資訊、以便您檢視與系統相關的資料。您登入的NSS帳戶僅與使用者登入相關聯。它不會與您NetApp帳戶中的任何其他使用者建立關聯。
+
+如需更多有關數位顧問與BlueXP整合的詳細資訊、請前往 https://docs.netapp.com/us-en/active-iq/index.html["數位顧問文件"^]
+
+
+
 == E系列系統
 
 
@@ -804,11 +886,43 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 ==== 支援E系列
 
-您現在可以直接從Cloud Manager探索E系列儲存系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。
+您現在可以直接從BlueXP探索E系列儲存系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。
 
 
 
 == 全域檔案快取
+
+
+
+=== 2022年10月24日（2.1版）
+
+此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
+
+
+
+==== 全域檔案快取現在可搭配任意數量的授權使用
+
+先前的10份授權（即30 TB儲存容量）最低需求已移除。每3 TB儲存空間將會核發一份全域檔案快取授權。
+
+
+
+==== 已新增使用離線授權管理伺服器的支援
+
+當LMS沒有網際網路連線、無法使用授權來源進行授權驗證時、離線或暗線站台的授權管理伺服器（LMS）最有用。初始組態期間需要網際網路連線和授權來源連線。設定完成後、LMS執行個體可能變暗。所有邊緣/核心都應與LMS建立連線、以持續驗證授權。
+
+
+
+==== Edge執行個體可支援其他並行使用者
+
+單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。使用者人數上限分別為400和200。
+
+
+
+==== 增強的Optimus PSM可設定雲端授權
+
+
+
+==== 強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端
 
 
 
@@ -828,7 +942,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 ==== 全域檔案快取現在已整合Cloud Insights 至功能性
 
-NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。
+NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]
 
 https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
@@ -850,25 +964,13 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 
-=== 2022年5月19日（版本1.3.0）
-
-1.3.0版的Global File Cache Edge軟體可從取得 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
-
-
-
-==== 新的中繼資料邊緣同步功能
-
-此「中繼資料邊緣同步」功能使用Edge同步功能做為核心架構。只有中繼資料資訊會更新所有已訂閱的Edge、而且檔案/資料夾會在Edge機器上建立。
-
-
-
-==== License Manager服務增強功能
-
-全域檔案快取授權管理伺服器（LMS）服務已增強、可自動偵測Proxy設定。如此可實現無縫組態。
-
-
-
 == Kubernetes
+
+
+
+=== 2022年10月30日
+
+何時 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["定義儲存類別"]、您現在可以為區塊或檔案系統儲存設備啟用儲存等級的經濟效益。
 
 
 
@@ -899,65 +1001,9 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kuberne
 
 
 
-=== 2022年7月3日
-
-* 如果使用Trident營運者部署了Astra Trident、您現在可以使用Cloud Manager升級至最新版的Astra Trident。
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["安裝及管理Astra Trident"]
-
-* 您現在可以將Kubernetes叢集拖放到AWS FSX for ONTAP the Sfor the Sfor the fernet工作環境中、直接從Canvas.新增儲存類別。
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["新增儲存類別"]
-
-
-
-
-
 == 監控
 
-
-
-=== 2021年8月1日
-
-
-
-==== 變更為擷取單位名稱
-
-我們將擷取單元執行個體的預設名稱變更為CloudInsights–AU-_UUUUID_、使名稱更具說明性（UUID為產生的雜湊）。
-
-當您在Cloud Volumes ONTAP 運作環境中啟用監控服務時、Cloud Manager會部署此執行個體。
-
-
-
-=== 2021年5月5日
-
-
-
-==== 支援現有租戶
-
-現在、即使Cloud Volumes ONTAP 您有Cloud Insights 現有的支援者、也可以在不工作環境中啟用監控服務。
-
-
-
-==== 免費試用版移轉
-
-啟用監控服務時、Cloud Manager會免費試用Cloud Insights VMware。在第29天、您的計畫現在會自動從試用版移轉至 https://docs.netapp.com/us-en/cloudinsights/concept_subscribing_to_cloud_insights.html#editions["基本版"^]。
-
-
-
-=== 2021年2月9日
-
-
-
-==== 支援Azure
-
-目前支援Azure的Monitoring服務Cloud Volumes ONTAP 。
-
-
-
-==== 政府區域的支援
-
-AWS和Azure的政府區域也支援監控服務。
+監控服務於2022年11月1日淘汰。您現在Cloud Insights 可以從導覽功能表選擇* Insights > observability *、直接找到指向《》的連結。
 
 
 
@@ -1113,19 +1159,9 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 
 
-== 支援服務SnapCenter
+== 服務SnapCenter
 
-
-
-=== 2021年12月21日
-
-
-
-==== Apache log4j弱點的修正程式
-
-感謝支援服務1.0.1將Apache log4j從2.9.1版升級至2.17版、以解決下列弱點：-2021至44228、-2021至4104及-2021至45105。SnapCenter
-
-支援此功能的叢集應自動更新至最新版本。SnapCenter您應該確定SnapCenter 「支援服務」UI中的版本顯示叢集為1.0.1.1251或更新版本。
+該服務已於2022年11月1日淘汰。SnapCenter
 
 
 
@@ -1139,4 +1175,4 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 ==== 支援StorageGRID 功能
 
-您現在StorageGRID 可以直接從Cloud Manager探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。
+您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。
