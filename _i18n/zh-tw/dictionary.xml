@@ -274,7 +274,6 @@
   <block id="387856638678798c3ffb0e38b39170c6" category="paragraph">以前、Cloud Backup僅支援預先定義的SnapMirror標籤、例如每小時、每日、每週、每小時和每年。現在Cloud Backup可以探索SnapMirror原則、這些原則具有您使用System Manager或CLI建立的自訂SnapMirror標籤。這些新標籤會顯示在Cloud Backup UI中、讓您可以使用所選的SnapMirror標籤、將磁碟區備份到雲端。</block>
   <block id="1c630f0a83d0317db1fef94fb4dac579" category="paragraph">如果是<block ref="a3c3477c66a633d03b9d52df95b2c874" category="inline-link-rx"></block> 或<block ref="d8758b85898e795623db75e4c1372f83" category="inline-link-rx"></block> 備份的目的地是在畫版上的工作環境、您可以將內部ONTAP 的功能環境（Cloud Volumes ONTAP 安裝於Azure或GCP）拖曳到目的地、以啟動備份設定精靈。</block>
   <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">現在、您可以在資料中新增Data Sense將識別的自訂模式</block>
-  <block id="cdb141fc7c1c0fc93208e7dbbad88e03" category="paragraph">您可以使用自訂規則運算式（regex）新增個人模式、以識別資料中的特定資訊。regex會新增至Data Sense已使用的現有預先定義模式、結果會顯示在「個人模式」區段下方。<block ref="2190fe4edde1bb0ebe7888202a9ce641" category="inline-link-rx"></block>。</block>
   <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS中Kubernetes叢集的需求</block>
   <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
   <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Azure中Kubernetes叢集的需求</block>
@@ -459,7 +458,6 @@
   <block id="bddf21f18c4ffad2268ebfc0d565c03c" category="section-title">雲端備份現在可用於歸檔來源系統不再需要的磁碟區</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link">瞭解方法</block>
   <block id="429c129d466e9cdbc94da5ebfd639734" category="paragraph">現在您可以刪除磁碟區的備份關係。如果您想要停止建立新的備份檔案並刪除來源Volume、但保留所有現有的備份檔案、這將提供歸檔機制。這可讓您在未來視需要從備份檔案還原磁碟區、同時從來源儲存系統中清除空間。<block ref="96e512d167a0d6d287f83a8e9bfbf6a3" category="inline-link-rx"></block>。</block>
-  <block id="a2718b7c4580fe65399ac1bb8757a3eb" category="section-title">新增支援功能、可透過電子郵件或通知中心接收Cloud Backup警示</block>
   <block id="ac067f034fd3624f1244abb6d3755efe" category="paragraph">Cloud Backup已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示Cloud Backup通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意備份與還原活動的收件者。<block ref="74389894cb83c627291d11e2dde62faa" category="inline-link-rx"></block>。</block>
   <block id="d07fed7e54302c401452d86813f74fdb" category="section-title">「新增進階設定」頁面可讓您變更叢集層級的備份設定</block>
   <block id="711d5dadc0f2641aef64c8697fec3458" category="paragraph">此新頁面可讓您變更在啟用每ONTAP 個作業系統的Cloud Backup時所設定的許多叢集層級備份設定。您也可以修改某些套用為「預設」備份設定的設定。您可以變更的完整備份設定包括：</block>
@@ -472,9 +470,6 @@
   <block id="33e5226a6b178bab9e22b761cbda6440" category="list-text">連接至物件儲存設備的物件保護區（在啟動期間選擇不正確的情況下）ONTAP</block>
   <block id="7b95d23b6b30b69ed07a2e15017d99e3" category="inline-link">深入瞭解如何管理叢集層級的備份設定</block>
   <block id="057c181e6c21fad200a862461add5a03" category="paragraph"><block ref="344cf4f459ea1c1e24d6bef144dcb178" category="inline-link-rx"></block>。</block>
-  <block id="ce00affaec3d960c7f7c7e5d24960872" category="section-title">現在您可以使用內部部署Connector時、使用搜尋與還原功能從公有雲還原備份檔案</block>
-  <block id="1906d6d9c8dc27b6ff13fd620f717374" category="paragraph">在先前的版本中、當您的內部部署連接器時、新增了將備份檔案建立至公有雲的支援。在此版本中、持續支援使用搜尋與還原功能、在部署連接器於內部部署時、從Amazon S3或Azure Blob還原備份。</block>
-  <block id="08eac10f0e32578e8c9f3ee4629f84d3" category="paragraph">此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。搜尋與還原不受StorageGRID 支援、在此情況下、您必須使用瀏覽與還原。</block>
   <block id="f4f4c174196d45dbc07ae62740f92b92" category="section-title">「工作監控」頁面已更新</block>
   <block id="213f79d27d3a76a68080f2d948105d7e" category="inline-link">「工作監控」頁面</block>
   <block id="92e275cf9354b2e79f6ecadafa52a965" category="paragraph">已對進行下列更新<block ref="2aba02720d116e26596d478ca3ace389" category="inline-link-rx"></block>：</block>
@@ -486,14 +481,11 @@
   <block id="ae3795f53c6086a9639e4652dbff318b" category="paragraph">如果您想要使用不同於Cloud Volumes ONTAP 來源磁碟區的AWS帳戶進行還原備份、則必須在BluetXP中新增目的地AWS帳戶認證、而且必須將「S3：PuttBucketPolicy」和「S3：PuttetOwnershipControl」權限新增至IAM角色、以便為BlueXP提供權限。過去、您需要在AWS主控台設定許多設定、您不再需要這麼做了。</block>
   <block id="ef63a877f0594c057f824f4327169a39" category="list-text">支援Google Cloud Platform（GCP）和StorageGRID 支援以備份應用程式一致的快照</block>
   <block id="3f3ac5f6857788bfe6b27f406afcffa5" category="paragraph">Cloud Backup for Applications是一項SaaS型服務、可為NetApp Cloud Storage上執行的應用程式提供資料保護功能。在BlueXP中啟用的雲端應用程式備份、可針對位於Amazon FSX for NetApp ONTAP 上的Oracle資料庫、提供有效率且應用程式一致的原則型備份與還原功能。<block ref="5774010e75c0af5301ef0cfe74198590" category="inline-link-rx"></block>。</block>
-  <block id="0fd7cab37419c3f9fdd225020324c7dc" category="section-title">2022年11月7日（1.17版）</block>
   <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">支援掃描SharePoint內部部署帳戶</block>
   <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">Data Sense現在可以掃描SharePoint Online帳戶和SharePoint內部部署帳戶（SharePoint Server）。如果您需要在自己的伺服器上安裝SharePoint、或是在無法存取網際網路的站台上安裝SharePoint、現在您可以讓Data Sense掃描這些帳戶中的使用者檔案。<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>。</block>
   <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">能夠重新掃描多個目錄（資料夾或共用）</block>
   <block id="5f78811b5a7bfd9355b114563c862fc9" category="paragraph">現在、您可以立即重新掃描多個目錄（資料夾或共用）、使變更反映在系統中。這可讓您優先重新掃描特定資料、然後再處理其他資料。<block ref="62c228b6acfb31476d7e800452f50dcd" category="inline-link-rx"></block>。</block>
   <block id="feec7c47e3e7cb8ab71bbb29acd13ee0" category="section-title">能夠新增額外的內部部署「掃描器」節點、以掃描特定的資料來源</block>
-  <block id="c6cc179979c3b50e9f274669a7debb6f" category="paragraph">如果您已在內部部署位置安裝Data Sense、而且發現需要更多掃描處理能力來掃描資料來源、則可以新增更多「掃描器」節點。您可以在安裝管理節點之後立即新增掃描儀節點、也可以稍後新增掃描儀節點。例如、如果您發現某個資料來源的資料量在1年後增加了三倍、您可以新增一個掃描器節點來協助資料掃描。</block>
-  <block id="920d0a192fcf42107e363c75e934277b" category="paragraph">如有必要、可將掃描器節點安裝在實體靠近您要掃描之資料來源的主機系統上。掃描儀節點越靠近資料、越好、因為掃描資料時會盡可能減少網路延遲。</block>
   <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022年11月6日</block>
   <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">拖放即可將雲端分層移至Azure Blob、Google Cloud Storage及StorageGRID</block>
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">如果Azure Blob、Google Cloud Storage或StorageGRID Setiering目的地是在CanvasTM上的工作環境、您可以將內部ONTAP 環境拖曳至目的地、以啟動分層設定精靈。</block>
@@ -504,7 +496,6 @@
   <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">連接器3.9.23</block>
   <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。</block>
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
-  <block id="ee0a02cf5f32853f4619caef4f31ab4e" category="paragraph"><block ref="ee0a02cf5f32853f4619caef4f31ab4e" category="inline-link-rx"></block></block>
   <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
   <block id="2325f561a20765def93d682f14cae306" category="paragraph">下列變更是在版本3.9.23的Connector中提出。</block>
   <block id="6d5ba1b41fa03c2fdf0d747769a6b053" category="section-title">在Azure中移動資源群組</block>
@@ -519,4 +510,19 @@
   <block id="a09181ba1488df77bf9950cb483e97e8" category="paragraph">新增Azure權限、讓您在建立時加密所有託管磁碟。</block>
   <block id="e76c0365dfa8d6b43992d790f582e6c4" category="inline-link">設定Cloud Volumes ONTAP 支援使用Azure中客戶管理的金鑰</block>
   <block id="7343d251ecc72fc362a0ce85cf11a9fe" category="paragraph">如需此新功能的詳細資訊、請參閱<block ref="91da0725d8642ccf887bde4d4604033e" category="inline-link-rx"></block>。</block>
+  <block id="efa03f1c1a0f03001f1680681d9ac8a7" category="paragraph"><block ref="efa03f1c1a0f03001f1680681d9ac8a7" category="inline-link-rx"></block></block>
+  <block id="d977c6f6b61d0f35299ae86a391a8a57" category="section-title">新增支援功能、可在電子郵件和通知中心接收Cloud Backup警示</block>
+  <block id="49b6fd5ed6bda6ec09a46ece6a679207" category="section-title">現在您可以使用內部部署Connector時、使用「搜尋與還原」來還原備份檔案</block>
+  <block id="2bcad5b21af9172c1d623bc274dbe4c1" category="paragraph">在先前的版本中、當您的內部部署連接器時、新增了將備份檔案建立至公有雲的支援。在此版本中、持續支援使用搜尋與還原功能、在部署連接器於內部部署時、從Amazon S3或Azure Blob還原備份。搜尋與還原也支援將備份從StorageGRID 還原系統還原至內部部署ONTAP 的還原系統。</block>
+  <block id="18cddedef625cde24d34d1b2bb64fb96" category="paragraph">此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。</block>
+  <block id="bd975c5b95d2c7b6d2e124201b98445c" category="section-title">2022年11月13日（1.17版）</block>
+  <block id="5e5b753fd04f1adde694471a50221a49" category="paragraph">如果您已在內部部署位置安裝Data Sense、而且發現掃描特定資料來源需要更多掃描處理能力、您可以新增更多「掃描」節點、並指派它們來掃描這些資料來源。您可以在安裝管理節點之後立即新增掃描儀節點、也可以稍後新增掃描儀節點。</block>
+  <block id="c490178f4142a4c06caeff7c04e922f8" category="inline-link">瞭解如何安裝掃描器節點來掃描其他資料來源</block>
+  <block id="232acd7f039f2650674c20301305634d" category="paragraph">如有必要、可將掃描器節點安裝在實體靠近您要掃描之資料來源的主機系統上。掃描儀節點越靠近資料、越好、因為掃描資料時會盡可能減少網路延遲。<block ref="1527b8cf69e6865de2ec8736eea9f338" category="inline-link-rx"></block>。</block>
+  <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">內部部署安裝程式現在會在開始安裝之前執行預先檢查</block>
+  <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">在Linux系統上安裝Data Sense時、安裝程式會先檢查系統是否符合所有必要的需求（CPU、RAM、容量、網路等）、然後再開始實際安裝。這有助於您在*之前*花時間進行安裝。</block>
+  <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">您可以使用兩種方法新增自訂的「個人資料」、以便Data Sense在未來的掃描中識別。如此一來、您就能完整瞭解所有組織檔案中潛在敏感資料所在的位置。</block>
+  <block id="db40121770270b95c73895598e6343b2" category="list-text">您可以從文字檔新增自訂關鍵字。</block>
+  <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">您可以使用規則運算式（regex）新增個人模式。</block>
+  <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">這些關鍵字和模式會新增至Data Sense已使用的現有預先定義模式、結果會顯示在「個人模式」區段下方。<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>。</block>
 </blocks>

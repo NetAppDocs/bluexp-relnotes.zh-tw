@@ -41,7 +41,7 @@ Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com
 
 * 您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。
 +
-https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_nov-2022/task-manage-subscriptions.html["瞭解如何管理您的訂閱"^]
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["瞭解如何管理您的訂閱"^]
 
 * 此版本的Connector也包含Cloud Volumes ONTAP 了一些功能強化功能。
 +
@@ -251,7 +251,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
-==== 新增支援功能、可透過電子郵件或通知中心接收Cloud Backup警示
+==== 新增支援功能、可在電子郵件和通知中心接收Cloud Backup警示
 
 Cloud Backup已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示Cloud Backup通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意備份與還原活動的收件者。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#use-the-job-monitor-to-view-backup-and-restore-job-status["瞭解方法"]。
 
@@ -274,11 +274,11 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 
 
 
-==== 現在您可以使用內部部署Connector時、使用搜尋與還原功能從公有雲還原備份檔案
+==== 現在您可以使用內部部署Connector時、使用「搜尋與還原」來還原備份檔案
 
-在先前的版本中、當您的內部部署連接器時、新增了將備份檔案建立至公有雲的支援。在此版本中、持續支援使用搜尋與還原功能、在部署連接器於內部部署時、從Amazon S3或Azure Blob還原備份。
+在先前的版本中、當您的內部部署連接器時、新增了將備份檔案建立至公有雲的支援。在此版本中、持續支援使用搜尋與還原功能、在部署連接器於內部部署時、從Amazon S3或Azure Blob還原備份。搜尋與還原也支援將備份從StorageGRID 還原系統還原至內部部署ONTAP 的還原系統。
 
-此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。搜尋與還原不受StorageGRID 支援、在此情況下、您必須使用瀏覽與還原。
+此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。
 
 
 
@@ -412,7 +412,7 @@ Cloud Backup for Applications是一項SaaS型服務、可為NetApp Cloud Storage
 
 
 
-=== 2022年11月7日（1.17版）
+=== 2022年11月13日（1.17版）
 
 
 
@@ -430,9 +430,15 @@ Data Sense現在可以掃描SharePoint Online帳戶和SharePoint內部部署帳�
 
 ==== 能夠新增額外的內部部署「掃描器」節點、以掃描特定的資料來源
 
-如果您已在內部部署位置安裝Data Sense、而且發現需要更多掃描處理能力來掃描資料來源、則可以新增更多「掃描器」節點。您可以在安裝管理節點之後立即新增掃描儀節點、也可以稍後新增掃描儀節點。例如、如果您發現某個資料來源的資料量在1年後增加了三倍、您可以新增一個掃描器節點來協助資料掃描。
+如果您已在內部部署位置安裝Data Sense、而且發現掃描特定資料來源需要更多掃描處理能力、您可以新增更多「掃描」節點、並指派它們來掃描這些資料來源。您可以在安裝管理節點之後立即新增掃描儀節點、也可以稍後新增掃描儀節點。
 
-如有必要、可將掃描器節點安裝在實體靠近您要掃描之資料來源的主機系統上。掃描儀節點越靠近資料、越好、因為掃描資料時會盡可能減少網路延遲。
+如有必要、可將掃描器節點安裝在實體靠近您要掃描之資料來源的主機系統上。掃描儀節點越靠近資料、越好、因為掃描資料時會盡可能減少網路延遲。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-onprem.html#add-scanner-nodes-to-an-existing-deployment["瞭解如何安裝掃描器節點來掃描其他資料來源"^]。
+
+
+
+==== 內部部署安裝程式現在會在開始安裝之前執行預先檢查
+
+在Linux系統上安裝Data Sense時、安裝程式會先檢查系統是否符合所有必要的需求（CPU、RAM、容量、網路等）、然後再開始實際安裝。這有助於您在*之前*花時間進行安裝。
 
 
 
@@ -507,7 +513,13 @@ link:reference-private-data-categories.html#types-of-personal-data["查看Data S
 
 ==== 現在、您可以在資料中新增Data Sense將識別的自訂模式
 
-您可以使用自訂規則運算式（regex）新增個人模式、以識別資料中的特定資訊。regex會新增至Data Sense已使用的現有預先定義模式、結果會顯示在「個人模式」區段下方。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html#creating-custom-personal-data-identifiers-using-a-regex["深入瞭解"^]。
+您可以使用兩種方法新增自訂的「個人資料」、以便Data Sense在未來的掃描中識別。如此一來、您就能完整瞭解所有組織檔案中潛在敏感資料所在的位置。
+
+* 您可以從文字檔新增自訂關鍵字。
+* 您可以使用規則運算式（regex）新增個人模式。
+
+
+這些關鍵字和模式會新增至Data Sense已使用的現有預先定義模式、結果會顯示在「個人模式」區段下方。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion.html["深入瞭解"^]。
 
 
 
