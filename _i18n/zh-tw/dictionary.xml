@@ -153,13 +153,6 @@
   <block id="1d83e69fc7f9ed326713517b984b155b" category="list-text">Cloud Manager現在支援AWS GovCloud帳戶驗證。</block>
   <block id="d8a56d983b91f097e5ba55dd03a18509" category="inline-link-macro">設定IAM角色</block>
   <block id="9c2f60af941e19d70429b4a59debeeb9" category="paragraph"><block ref="9c2f60af941e19d70429b4a59debeeb9" category="inline-link-macro-rx"></block></block>
-  <block id="a334cff76a53c8f9b93a01e24c56c9e5" category="section-title">2022年7月15日</block>
-  <block id="fd07056b3157389b873051e9d2dd6d40" category="section-title">原則變更</block>
-  <block id="4c2e66937d2d8ba8680502b29c20f843" category="paragraph">我們在文件中直接新增Cloud Manager原則、以更新文件內容。這表示您現在可以在Cloud Volumes ONTAP 說明如何設定的步驟旁、檢視連接器和右側的必要權限。這些原則先前可從NetApp支援網站的頁面存取。</block>
-  <block id="28f37fc0eb4fe20ff92020d4d8d46b8d" category="inline-link-macro">以下範例顯示用來建立連接器的AWS IAM角色權限</block>
-  <block id="49056d93dd3cd3fc9129ebadcf6877e0" category="inline-link-macro">檢視Cloud Manager的權限摘要</block>
-  <block id="2c6996f5a98ca1cbcfa64873c18f13e9" category="paragraph"><block ref="077586b4338f7fc9c66e0ae0e2365a30" category="inline-link-rx"></block>。</block>
-  <block id="2533820d9e3e679d169b5decdbf29c60" category="paragraph">我們也建立了一個頁面、提供每個原則的連結。<block ref="3bc30da5781f88e99acbb8ce33011928" category="inline-link-rx"></block>。</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="01f2c0e19d8bbd614814f0651e7feec1" category="section-title">連接器3.9.21</block>
   <block id="1beb197487d0f07564b924071751aa36" category="list-text">我們推出新方法、探索您尚未在Cloud Manager中管理的現有雲端資源。</block>
@@ -508,4 +501,22 @@
   <block id="ff3a8dd75b4d3881ab0fc4ce17301af8" category="section-title">2022年11月7日</block>
   <block id="7c16758604271d7ef3055d0e5962ec82" category="section-title">全新面板可顯示整體勒索軟體保護分數和建議行動</block>
   <block id="2dad48bc5cb886ca6327e125bc6c853d" category="paragraph">這兩個新的面板可共同找出資料對勒索軟體攻擊的恢復能力、以及您可以採取哪些行動來改善分數。勒索軟體保護分數面板會顯示整體分數、以及潛在問題所在的網路安全領域。「建議行動」面板會列出您可以採取哪些可能行動來改善勒索軟體攻擊的恢復能力、並提供調查問題的連結、以便您在必要時套用行動。<block ref="020baa7d67cad4299bb33f9b5861968a" category="inline-link-rx"></block>。</block>
+  <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">連接器3.9.23</block>
+  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。</block>
+  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
+  <block id="ee0a02cf5f32853f4619caef4f31ab4e" category="paragraph"><block ref="ee0a02cf5f32853f4619caef4f31ab4e" category="inline-link-rx"></block></block>
+  <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
+  <block id="2325f561a20765def93d682f14cae306" category="paragraph">下列變更是在版本3.9.23的Connector中提出。</block>
+  <block id="6d5ba1b41fa03c2fdf0d747769a6b053" category="section-title">在Azure中移動資源群組</block>
+  <block id="ea55da5ec5028d99103c938ded49761c" category="paragraph">您現在可以將工作環境從同一個資源群組移至Azure中不同的資源群組、並在同一個Azure訂閱中使用。</block>
+  <block id="6c2dc09b272a4aed6d56a3438a190129" category="inline-link-macro">正在移動資源群組</block>
+  <block id="d015054d89d4ecbe893f21f5ab9700c0" category="paragraph">如需詳細資訊、請參閱 <block ref="8d94a006f1853b408e5763a514426526" category="inline-link-macro-rx"></block>。</block>
+  <block id="b6a2ac7b66db8e93b936023f17401626" category="section-title">NDMP複製認證</block>
+  <block id="c348c640ca478b45f3a3d9e14bb0695b" category="paragraph">NDMP複本現已通過認證、可搭配Cloud Volume ONTAP 使用。</block>
+  <block id="ab5a83d8e39547c5fb30a1fda984aebb" category="inline-link">NDMP組態總覽</block>
+  <block id="e4b4f60ab9fe08116659a5e12d6db4a8" category="paragraph">如需有關如何設定及使用NDMP的資訊、請參閱<block ref="9c57f7cf04e123991a3c88e286feb189" category="inline-link-rx"></block>。</block>
+  <block id="5e7de773a189ac8974753f9ce70a3dc5" category="section-title">Azure的託管磁碟加密支援</block>
+  <block id="a09181ba1488df77bf9950cb483e97e8" category="paragraph">新增Azure權限、讓您在建立時加密所有託管磁碟。</block>
+  <block id="e76c0365dfa8d6b43992d790f582e6c4" category="inline-link">設定Cloud Volumes ONTAP 支援使用Azure中客戶管理的金鑰</block>
+  <block id="7343d251ecc72fc362a0ce85cf11a9fe" category="paragraph">如需此新功能的詳細資訊、請參閱<block ref="91da0725d8642ccf887bde4d4604033e" category="inline-link-rx"></block>。</block>
 </blocks>

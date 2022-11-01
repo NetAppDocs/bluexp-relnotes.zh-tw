@@ -33,6 +33,24 @@ Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com
 
 
 
+=== 2022年11月6日
+
+
+
+==== 連接器3.9.23
+
+* 您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。
++
+https://review.docs.netapp.com/us-en/cloud-manager-setup-admin_nov-2022/task-manage-subscriptions.html["瞭解如何管理您的訂閱"^]
+
+* 此版本的Connector也包含Cloud Volumes ONTAP 了一些功能強化功能。
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6-november-2022["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
+
+
+
+
+
 === 2022年11月1日
 
 Cloud Manager現在會在NetApp 支援網站 與您帳戶相關的更新權杖在3個月後過期時、提示您更新與您的候用帳戶相關的認證資料。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["瞭解如何管理NSS帳戶"^]
@@ -79,20 +97,6 @@ https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-work
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#31-july-2022["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
 
 
-
-
-
-=== 2022年7月15日
-
-
-
-==== 原則變更
-
-我們在文件中直接新增Cloud Manager原則、以更新文件內容。這表示您現在可以在Cloud Volumes ONTAP 說明如何設定的步驟旁、檢視連接器和右側的必要權限。這些原則先前可從NetApp支援網站的頁面存取。
-
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#create-an-iam-policy["以下範例顯示用來建立連接器的AWS IAM角色權限"]。
-
-我們也建立了一個頁面、提供每個原則的連結。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions.html["檢視Cloud Manager的權限摘要"]。
 
 
 
@@ -745,6 +749,36 @@ Cloud Tiering UI已新增一組物件儲存組態頁面。您可以新增物件�
 
 
 == Cloud Volumes ONTAP
+
+
+
+=== 2022年11月6日
+
+下列變更是在版本3.9.23的Connector中提出。
+
+
+
+==== 在Azure中移動資源群組
+
+您現在可以將工作環境從同一個資源群組移至Azure中不同的資源群組、並在同一個Azure訂閱中使用。
+
+如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-moving-resource-groups-azure.html["正在移動資源群組"]。
+
+
+
+==== NDMP複製認證
+
+NDMP複本現已通過認證、可搭配Cloud Volume ONTAP 使用。
+
+如需有關如何設定及使用NDMP的資訊、請參閱 https://docs.netapp.com/us-en/ontap/ndmp/index.html["NDMP組態總覽"]。
+
+
+
+==== Azure的託管磁碟加密支援
+
+新增Azure權限、讓您在建立時加密所有託管磁碟。
+
+如需此新功能的詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-set-up-azure-encryption.html["設定Cloud Volumes ONTAP 支援使用Azure中客戶管理的金鑰"]。
 
 
 
