@@ -208,6 +208,32 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2022年12月6日
+
+
+
+==== 支援Google Archival儲存類別
+
+備份檔案最初是在Google Standard儲存類別中建立。現在您可以選擇在特定天數後將舊備份分層至Google歸檔儲存設備、以進一步最佳化成本。
+
+目前支援ONTAP 內部使用ONTAP 的支援功能適用於使用支援更新版本的支援功能。目前不提供Cloud Volumes ONTAP 此功能給非系統。
+
+
+
+==== 支援FlexGroup 支援功能
+
+Cloud Backup現在支援FlexGroup 支援支援的是各個方面。使用ONTAP 支援更新版本的《支援資料》時、您可以將FlexGroup 《支援資料》備份到公有雲和私有雲儲存設備。如果您的工作環境包含FlexVol 了一些不含支援的功能、FlexGroup 請在更新ONTAP 完您的支援功能後、在FlexGroup 這些系統上備份任何的支援功能。
+
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#supported-volumes["請參閱支援的磁碟區類型完整清單"]。
+
+
+
+==== 能夠將資料從備份還原到Cloud Volumes ONTAP 位於不受影響的系統上的特定集合體
+
+在早期版本中、您只能在將資料還原至內部ONTAP 的資訊系統時、才選取Aggregate。此功能現在可用於將資料還原Cloud Volumes ONTAP 至還原系統。
+
+
+
 === 2022年11月2日
 
 
@@ -334,52 +360,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 ==== 拖放以啟用「雲端備份至StorageGRID 不支援的系統」
 
 如果是 https://docs.netapp.com/us-en/cloud-manager-storagegrid/task-discover-storagegrid.html["StorageGRID"^] 備份的目的地在畫版上會以工作環境的形式存在、您可以將內部ONTAP 作業環境拖曳到目的地、以啟動Cloud Backup設定精靈。
-
-
-
-=== 2022年8月18日
-
-
-
-==== 新增支援以保護雲端原生應用程式資料
-
-Cloud Backup for Applications是一項SaaS型服務、可為NetApp Cloud Storage上執行的應用程式提供資料保護功能。在BlueXP中啟用的雲端應用程式備份、可針對位於Amazon FSX for NetApp ONTAP 上的Oracle資料庫、提供有效率且應用程式一致的原則型備份與還原功能。https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-protect-cloud-app-data-to-cloud.html["深入瞭解"^]。
-
-
-
-==== Azure Blob的備份檔案現在支援搜尋與還原功能
-
-現在、將備份檔案儲存在Azure Blob儲存設備中的使用者、可以使用「搜尋與還原」方法來還原磁碟區和檔案。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#prerequisites-2["瞭解如何使用Search  Restore還原磁碟區和檔案"^]。
-
-請注意、連接器角色需要其他權限才能使用此功能。使用3.9.21版軟體（2022年8月）部署的Connector包含這些權限。如果您使用舊版部署Connector、則需要手動新增權限。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-azure.html#verify-or-add-permissions-to-the-connector["如有必要、請參閱如何新增這些權限"^]。
-
-
-
-==== 我們新增了保護備份檔案免受刪除和勒索軟體攻擊的能力
-
-雲端備份現在支援物件鎖定功能、可進行勒索軟體安全的備份。如果您的叢集使用ONTAP 的是VMware版本的更新版本、而您的備份目的地是Amazon S3、則現在可以使用名為_DataLock和勒索軟體Protection的新備份原則選項。DataLock可保護您的備份檔案、避免遭到修改或刪除、勒索軟體保護功能會掃描您的備份檔案、尋找勒索軟體攻擊備份檔案的證據。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-policies.html#datalock-and-ransomware-protection["深入瞭解如何使用DataLock和勒索軟體保護來保護備份"^]。
-
-請注意、連接器角色需要其他權限才能使用此功能。使用3.9.21版軟體部署的Connector包含這些權限。如果您使用舊版部署Connector、則需要手動新增權限。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-aws.html#set-up-s3-permissions["如有必要、請參閱如何新增這些權限"^]。
-
-
-
-==== Cloud Backup現在支援使用自訂SnapMirror標籤建立的原則
-
-以前、Cloud Backup僅支援預先定義的SnapMirror標籤、例如每小時、每日、每週、每小時和每年。現在Cloud Backup可以探索SnapMirror原則、這些原則具有您使用System Manager或CLI建立的自訂SnapMirror標籤。這些新標籤會顯示在Cloud Backup UI中、讓您可以使用所選的SnapMirror標籤、將磁碟區備份到雲端。
-
-
-
-==== 針對功能完善的其他備份原則ONTAP
-
-部分備份原則頁面已重新設計、可讓您更輕鬆地檢視每ONTAP 個叢集中可供磁碟區使用的所有備份原則。如此一來、您就能更輕鬆地查看可用原則的詳細資料、以便在磁碟區上套用最佳原則。
-
-
-
-==== 拖放以啟用Cloud Backup至Azure Blob和Google Cloud Storage
-
-如果是 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-azure-blob.html["Azure Blob"^] 或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-viewing-gcp-storage.html["Google Cloud Storage"^] 備份的目的地是在畫版上的工作環境、您可以將內部ONTAP 的功能環境（Cloud Volumes ONTAP 安裝於Azure或GCP）拖曳到目的地、以啟動備份設定精靈。
-
-此功能已適用於Amazon S3儲存區。
 
 
 
