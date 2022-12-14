@@ -42,7 +42,6 @@
   <block id="00b4c4979fe8d65dc663ea7c82a1b1c2" category="paragraph"><block ref="ddc85a18edb3f9e32810e603b7ef9eb7" category="inline-link-rx"></block>。</block>
   <block id="dad57e95fc9a5390302ad830888cbdb9" category="section-title">雲端備份</block>
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="section-title">雲端資料感測</block>
-  <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看Data Sense可在您的資料中識別的所有個人資料類型</block>
   <block id="e367efbc26bd12c0d6ae37dd6a55ef9b" category="section-title">Cloud Sync</block>
   <block id="92d2b6aba6afa3f690540cf3dba9b633" category="section-title">雲端分層</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
@@ -157,24 +156,7 @@
   <block id="2e54b9a897181c7862d708807a350694" category="list-text">您現在可以了 <block ref="8a24fd2682d2561e3f75043a6b0c8221" category="inline-link-macro-rx"></block> 內部部署和其他FSXfor ONTAP the Sfor the Sfor the Sfor the ONTAP 資料來源、使用FSXfor the Sfor the資料來源。</block>
   <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用</block>
   <block id="d6d2f19a8b69e681e2faa33500bbff6c" category="list-text">您現在可以了 <block ref="7bd2232976707f7841c519f0d4d2c5a6" category="inline-link-macro-rx"></block>。</block>
-  <block id="6006377785b7aa3dfed8795e05fbc569" category="section-title">2022年8月7日（1.15版）</block>
-  <block id="afae08b9f3014d73a3bf7e0c201b2b36" category="section-title">來自紐西蘭的五種新型個人資料是由Data Sense所識別</block>
-  <block id="3b4b0faa54186ef002c6026e97e51a10" category="paragraph">Data Sense可識別及分類包含下列資料類型的檔案：</block>
-  <block id="c189819be34e41f0ac712261c4bb10b0" category="list-text">紐西蘭銀行帳戶號碼</block>
-  <block id="57d4e061073cf52ee992a5523c0e31cb" category="list-text">紐西蘭駕駛證號碼</block>
-  <block id="2be885677b02540592a1f44b87ee5fb9" category="list-text">紐西蘭IRD編號（稅金ID）</block>
-  <block id="52c2b4f82109d0afee40fe69db9a8cbe" category="list-text">紐西蘭NHI（國家健康指數）編號 </block>
-  <block id="3c266b4db1bf588305e19eddcef36116" category="list-text">紐西蘭護照號碼</block>
-  <block id="c8c8337bd5f0527c7ba4b08117f3d96f" category="paragraph"><block ref="44b442fb31109b9e2fdef6fe3589adf6" category="inline-link-macro-rx"></block>。</block>
-  <block id="8d3dd83a131924f6dd08fdea2d8e7828" category="section-title">能夠新增階層連結檔案、以指出檔案移動的原因</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
-  <block id="e92169a6172fd2cba6d57bfe01aea45a" category="paragraph">當您使用「資料感應」功能將來源檔案移至NFS共用時、現在您可以將階層連結檔案保留在移動檔案的位置。階層連結檔案可協助使用者瞭解為何要將檔案從原始位置移出。對於每個移動的檔案、系統會在來源位置建立一個名為「&lt;fileName（檔案名稱）&gt;-breadcrumbsum-&lt;date（日期）&gt;.txt'的階層連結檔案、以顯示檔案的移動位置和移動檔案的使用者。<block ref="c1eac1298d336c56373b10262d37ad96" category="inline-link-rx"></block>。</block>
-  <block id="13cd21aa095db4c5e2c5cd12303ecc97" category="section-title">您目錄中的個人資料和敏感個人資料會顯示在調查結果中</block>
-  <block id="6b473faf5fc253b69b173e6b8b87f726" category="inline-link">請參閱此處的範例</block>
-  <block id="e8886543955f7a165a88e44f53559443" category="paragraph">「資料調查」頁面現在會顯示您目錄（資料夾和共用）內的個人資料和敏感個人資料結果。<block ref="37ae8b694ca9dace0885ec3ddd4e8904" category="inline-link-rx"></block>。</block>
-  <block id="76013a8e1044d1903752927bac2c2799" category="section-title">檢視已成功分類的磁碟區、儲存區等數量狀態</block>
-  <block id="046e94b126bcddc4303664d7f72819a5" category="inline-link">請參閱如何檢視此資訊</block>
-  <block id="7e79533726de53720d91f0e491df7b7f" category="paragraph">檢視Data Sense正在掃描的個別儲存庫（Volume、儲存區等）時、您現在可以看到「對應」的儲存庫數量、以及「分類」的儲存庫數量。在所有資料上執行完整AI識別時、分類所需時間會更長。<block ref="0871135af547cfbd7267d7772f52c15b" category="inline-link-rx"></block>。</block>
   <block id="e0daf39823ec1a1a7878c9718f063d5f" category="section-title">Google雲端硬碟</block>
   <block id="173bb19c121e8b179d4baa317b637722" category="paragraph">您現在可以將NFS伺服器或SMB伺服器的資料同步到Google雲端硬碟。「My Drive」（我的磁碟機）和「Shared Drives」（共享磁碟機）均支援為目標。</block>
   <block id="edb5ab0783f7fd41d24fc8a5ae44aef6" category="inline-link">深入瞭解Google雲端硬碟的需求</block>
@@ -191,8 +173,6 @@
   <block id="bf283dfa54b095b3eda8812752b158f9" category="section-title">右側面板設定</block>
   <block id="79074218529972fce8a6ccab7f00095d" category="paragraph">您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。</block>
   <block id="9fffb7017709a369d0e0ce563839fee2" category="paragraph"><block ref="74635618081bc819b4c328f5ee049800" category="inline-link-rx"></block>。</block>
-  <block id="63b54c0d3b4fb8e35270bfdf7b2bdcbb" category="inline-link">瞭解如何變更充電方法</block>
-  <block id="41bfdfd8eb98d1c3acb217f5420b6818" category="paragraph"><block ref="895cb871a858d35efad6129a7ae888ab" category="inline-link-rx"></block>。</block>
   <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日（2.0版）</block>
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。</block>
@@ -206,9 +186,6 @@
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單</block>
   <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Cloud Manager現在可以使用儲存類別中的新「-watch」動詞、備份及還原Yaml組態、監控Kubernetes叢集對叢集後端所做的變更、並在叢集上設定自動備份時、自動為新的持續磁碟區啟用備份。</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">定義儲存類別</block>
-  <block id="5aa38ee0e17acbfece3b3bc0fdb18bab" category="section-title">2022年8月7日</block>
-  <block id="1e945f34aa7e283df49e7bc1f6e519fc" category="section-title">新的面板可顯示叢集上的安全性弱點</block>
-  <block id="681c888dc1b5514c36d2da9636ab4d27" category="section-title">顯示不可變掃描檔案的新面板</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP Sfor Sfor the Data來源</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：</block>
   <block id="0ef90fde5440e5fbd859cb4d59f76f2c" category="list-text">內部部署 ONTAP 的叢集</block>
@@ -219,7 +196,6 @@
   <block id="5c10257d843c1a8aa9e46f55d2064835" category="section-title">支援MetroCluster 以雲端分層的授權進行支援、以利執行各種組態</block>
   <block id="141c7c6c3afeeb8d968939161f64f8d2" category="paragraph">雲端分層授權現在可與MetroCluster 採用各種組態的叢集共享。您不再需要在FabricPool 這些情況下使用過時的不再使用的功能介紹授權。如此一來、您就能更輕鬆地在更多叢集上使用「浮動」雲端分層授權。<block ref="4e8c6c7f1b8cf8bbca1bc62528b46ae2" category="inline-link-rx"></block></block>
   <block id="9ca61d0605df8b23ed36445fbf3f2f6a" category="inline-link">深入瞭解如何使用DataLock和勒索軟體保護來保護備份</block>
-  <block id="8b4506c76e97dc4cbdfa92467d581a0a" category="section-title">現在、您可以在資料中新增Data Sense將識別的自訂模式</block>
   <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">AWS中Kubernetes叢集的需求</block>
   <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
   <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Azure中Kubernetes叢集的需求</block>
@@ -259,8 +235,6 @@
   <block id="4f400ad3636bf9ccb8a232e152ae3a56" category="section-title">新的面板可顯示叢集上偵測到的勒索軟體事件</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">如需詳細資訊、請參閱此處</block>
   <block id="2cadd98d70cc36a0982305ace71488f2" category="paragraph">「_勒索 軟體事件_」面板顯示系統上發生的勒索軟體攻擊。目前支援ONTAP 內部部署的支援功能是執行自主勒索軟體保護（Arp）的內部環境。在NAS（NFS和SMB）環境中、Arp會使用工作負載分析來主動偵測並警告可能表示勒索軟體攻擊的異常活動。<block ref="a8b3634a0c7a594234502955588cc1db" category="inline-link-rx"></block>。</block>
-  <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">「_Storage system弱點_」面板顯示Active IQ Digital Advisor 每ONTAP 個叢集上發現的高、中、低安全性弱點總數。應立即檢查高弱點、確保您的系統不會遭受攻擊。<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>。</block>
-  <block id="95055437ddc6fef4303145322941a60e" category="paragraph">「關鍵資料不可變性」面板會顯示您工作環境中、使用ONTAP SnapLock NetApp技術在WORM儲存設備上受到保護、不受修改和刪除的項目數量。如此一來、您就能檢視有多少資料具有不可改變的複本、以便更瞭解針對勒索軟體的備份與還原計畫。<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
   <block id="0e36458fd86c678ff613e05396096775" category="paragraph">您現在可以了 <block ref="0fb4d5e2ef1238fe0c2ee898e859399c" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
@@ -300,18 +274,6 @@
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022年9月18日</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP</block>
   <block id="6aa89747141f6b258796889b4e964d01" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。</block>
-  <block id="83bad7a989a8ab61893e9cfb7497cefd" category="section-title">數位錢包增強功能</block>
-  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="list-text">數位錢包現在會顯示最佳化I/O授權套件的摘要、以及Cloud Volumes ONTAP 整個帳戶中針對各個系統所配置的WORM容量。</block>
-  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。</block>
-  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
-  <block id="41ed2f596edd466ead9a03a4cdcb3b22" category="paragraph"><block ref="5faaec1089d682f6bad43c9cd2141819" category="inline-link-rx"></block>。</block>
-  <block id="d856c8d1b60bfdfc68a63422c7fcb64b" category="list-text">您現在可以從單一充電方法變更為最佳化的充電方法。</block>
-  <block id="e0d7db06679f0c176c93ed71de107638" category="section-title">最佳化成本與效能</block>
-  <block id="fa1ea7bc2d84f11eddfeed9a160282bb" category="paragraph">您現在Cloud Volumes ONTAP 可以直接從Canvas.將效能與成本最佳化。</block>
-  <block id="cab7023844edf677ae51645d16f02f4c" category="paragraph">選擇工作環境之後、您可以選擇*最佳化成本與效能*選項、以變更Cloud Volumes ONTAP 執行個體類型以供使用。選擇較小的執行個體有助於降低成本、而改用較大的執行個體則有助於最佳化效能。</block>
-  <block id="f929bd53055100ea5034e258d5828a45" category="inline-image-macro">選取工作環境後、可從畫版取得「最佳化成本與安培」選項的快照。</block>
-  <block id="b04af3108aa064fb53015f188d417418" category="paragraph"><block ref="740982637064d815add45193172173b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="fa5f0abcdf06ead83ea7fc11be56d19a" category="section-title">資訊通知AutoSupport</block>
   <block id="6b068f0a943d421535c7d8d412ee3522" category="section-title">E系列系統</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">支援E系列</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">支援StorageGRID 功能</block>
@@ -360,7 +322,6 @@
   <block id="f3347c5f92241e385b544f1b53daa14d" category="inline-image-macro">在藍圖XP中顯示通知中心的快照。</block>
   <block id="05d87278ff5c6195179e1954eecb9a4f" category="paragraph"><block ref="05d87278ff5c6195179e1954eecb9a4f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="779ddd312a3a36e145a7bb3229e99a4a" category="paragraph"><block ref="779ddd312a3a36e145a7bb3229e99a4a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7a8757c8fbb4c1997c5641cf6e4a7489" category="paragraph">現在、如果Cloud Volumes ONTAP 某個不完善的系統無法傳送AutoSupport 功能介紹訊息、則BlueXP會產生通知。此通知包含可用於疑難排解網路問題的指示連結。</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="section-title">數位顧問</block>
   <block id="a979b908e61b4f4e9d00d64a346ac569" category="paragraph">數位顧問（前身Active IQ 為「僅限版」）現在已與BlueXP完全整合、並提供強化的登入體驗。</block>
@@ -433,18 +394,6 @@
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
   <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
   <block id="2325f561a20765def93d682f14cae306" category="paragraph">下列變更是在版本3.9.23的Connector中提出。</block>
-  <block id="6d5ba1b41fa03c2fdf0d747769a6b053" category="section-title">在Azure中移動資源群組</block>
-  <block id="ea55da5ec5028d99103c938ded49761c" category="paragraph">您現在可以將工作環境從同一個資源群組移至Azure中不同的資源群組、並在同一個Azure訂閱中使用。</block>
-  <block id="6c2dc09b272a4aed6d56a3438a190129" category="inline-link-macro">正在移動資源群組</block>
-  <block id="d015054d89d4ecbe893f21f5ab9700c0" category="paragraph">如需詳細資訊、請參閱 <block ref="8d94a006f1853b408e5763a514426526" category="inline-link-macro-rx"></block>。</block>
-  <block id="b6a2ac7b66db8e93b936023f17401626" category="section-title">NDMP複製認證</block>
-  <block id="c348c640ca478b45f3a3d9e14bb0695b" category="paragraph">NDMP複本現已通過認證、可搭配Cloud Volume ONTAP 使用。</block>
-  <block id="ab5a83d8e39547c5fb30a1fda984aebb" category="inline-link">NDMP組態總覽</block>
-  <block id="e4b4f60ab9fe08116659a5e12d6db4a8" category="paragraph">如需有關如何設定及使用NDMP的資訊、請參閱<block ref="9c57f7cf04e123991a3c88e286feb189" category="inline-link-rx"></block>。</block>
-  <block id="5e7de773a189ac8974753f9ce70a3dc5" category="section-title">Azure的託管磁碟加密支援</block>
-  <block id="a09181ba1488df77bf9950cb483e97e8" category="paragraph">新增Azure權限、讓您在建立時加密所有託管磁碟。</block>
-  <block id="e76c0365dfa8d6b43992d790f582e6c4" category="inline-link">設定Cloud Volumes ONTAP 支援使用Azure中客戶管理的金鑰</block>
-  <block id="7343d251ecc72fc362a0ce85cf11a9fe" category="paragraph">如需此新功能的詳細資訊、請參閱<block ref="91da0725d8642ccf887bde4d4604033e" category="inline-link-rx"></block>。</block>
   <block id="efa03f1c1a0f03001f1680681d9ac8a7" category="paragraph"><block ref="efa03f1c1a0f03001f1680681d9ac8a7" category="inline-link-rx"></block></block>
   <block id="d977c6f6b61d0f35299ae86a391a8a57" category="section-title">新增支援功能、可在電子郵件和通知中心接收Cloud Backup警示</block>
   <block id="49b6fd5ed6bda6ec09a46ece6a679207" category="section-title">現在您可以使用內部部署Connector時、使用「搜尋與還原」來還原備份檔案</block>
@@ -455,10 +404,6 @@
   <block id="232acd7f039f2650674c20301305634d" category="paragraph">如有必要、可將掃描器節點安裝在實體靠近您要掃描之資料來源的主機系統上。掃描儀節點越靠近資料、越好、因為掃描資料時會盡可能減少網路延遲。<block ref="1527b8cf69e6865de2ec8736eea9f338" category="inline-link-rx"></block>。</block>
   <block id="b76fbb180664dd4ccd169f21a4abcfa6" category="section-title">內部部署安裝程式現在會在開始安裝之前執行預先檢查</block>
   <block id="8ac32533918ec230d2ec5bb2821a3378" category="paragraph">在Linux系統上安裝Data Sense時、安裝程式會先檢查系統是否符合所有必要的需求（CPU、RAM、容量、網路等）、然後再開始實際安裝。這有助於您在*之前*花時間進行安裝。</block>
-  <block id="095466eeefcbabc811ab5e2a672ee877" category="paragraph">您可以使用兩種方法新增自訂的「個人資料」、以便Data Sense在未來的掃描中識別。如此一來、您就能完整瞭解所有組織檔案中潛在敏感資料所在的位置。</block>
-  <block id="db40121770270b95c73895598e6343b2" category="list-text">您可以從文字檔新增自訂關鍵字。</block>
-  <block id="3fb1605dea41a1022e020f895acc727f" category="list-text">您可以使用規則運算式（regex）新增個人模式。</block>
-  <block id="a7110ffc746d511f3031ce3693e9c099" category="paragraph">這些關鍵字和模式會新增至Data Sense已使用的現有預先定義模式、結果會顯示在「個人模式」區段下方。<block ref="ba4b576d22723dd9b7b37b67a884a8d7" category="inline-link-rx"></block>。</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
   <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">連接器3.9.24</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
@@ -496,4 +441,41 @@
   <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">能夠將資料從備份還原到Cloud Volumes ONTAP 位於不受影響的系統上的特定集合體</block>
   <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">在早期版本中、您只能在將資料還原至內部ONTAP 的資訊系統時、才選取Aggregate。此功能現在可用於將資料還原Cloud Volumes ONTAP 至還原系統。</block>
   <block id="8a52e1de39b1a61e3a2c04e39442b0e8" category="paragraph">Cloud Backup已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示Cloud Backup通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意備份與還原活動的收件者。<block ref="74389894cb83c627291d11e2dde62faa" category="inline-link-rx"></block>。</block>
+  <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">2022年12月11日（版本1.18）</block>
+  <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">內部部署安裝增強功能</block>
+  <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">內部部署Data Sense安裝新增下列增強功能：</block>
+  <block id="bacf3e82e48abd0e39c6a162b4aa7191" category="list-text">在內部部署主機上開始安裝之前、現在會先檢查其他一些先決條件。這有助於確保主機系統100%準備好安裝Data Sense軟體：</block>
+  <block id="ac340636071cd9dc2033767452420aab" category="list-text">測試/var/lib/dDocker、/tmpt和/opt上是否有足夠的空間</block>
+  <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">測試所有必要資料夾的相關權限</block>
+  <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">在「組態」頁面中、「工作環境」區段現在會顯示_工作環境ID_和_掃描器群組_名稱。如果您打算使用多個Data Sense主機來提供額外的處理能力來掃描資料來源、則必須知道工作環境ID。</block>
+  <block id="81dbf04e421aa5fa2a4acce5215da760" category="list-text">在「組態」頁面中、新的區段會顯示您已設定的掃描器群組、以及每個群組中的掃描器節點。</block>
+  <block id="73e22396c6474ab27832098f1351b823" category="inline-link">深入瞭解如何在單一主機伺服器和多個主機上安裝Data Sense</block>
+  <block id="7d11de825f5fb48a0194c3826f7e2322" category="paragraph"><block ref="6aec5abc0a91e6bbae2064cb8f81d2dd" category="inline-link-rx"></block>。</block>
+  <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
+  <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">依名稱篩選目錄</block>
+  <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。</block>
+  <block id="84a8ea117dd9c6b8ddbbe8f47665f923" category="inline-link">深入瞭解「排除目錄名稱」設定</block>
+  <block id="8391e3aac2d2f8dd1b8e38350d072463" category="paragraph"><block ref="018123db357961d73398ef3066f74a1b" category="inline-link-rx"></block>。</block>
+  <block id="211e17aac7e6f53a17024d84713e8c34" category="section-title">其他Amazon S3和ONTAP SS3儲存支援</block>
+  <block id="9c0b9eb5c4fc9353fd2021e992f68e22" category="paragraph">目前支援AWS S3和Syns3儲存設備的其他同步關係ONTAP Cloud Sync ：</block>
+  <block id="9952f86a1aa7c6f33a76413df4560b41" category="list-text">AWS S3至ONTAP SS3儲存設備</block>
+  <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">將S3儲存設備移至AWS S3 ONTAP</block>
+  <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">深入瞭解支援的同步關係</block>
+  <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>。</block>
+  <block id="708ffc372ba6f36174a7930961b956ab" category="section-title">2022年12月8日</block>
+  <block id="dba89da91170934734e847dcfe4ad5d0" category="section-title">零點9.12.1. Cloud Volumes ONTAP</block>
+  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">深入瞭Cloud Volumes ONTAP 解本版的更新功能</block>
+  <block id="6cfcf66978702040453f6b0622a89aaa" category="paragraph">現在、BlueXP可以部署及管理Cloud Volumes ONTAP 支援全新功能和其他雲端供應商區域的功能。<block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block></block>
+  <block id="2dd09f45720a8f94b29c4d048b61ff4e" category="section-title">2022年11月15日</block>
+  <block id="cca494b1b1d22bc8b5c8a8ecd5367bf8" category="section-title">GCP中的SS3授權ONTAP</block>
+  <block id="44f72ae2127b89a470e082ae9f772acf" category="paragraph">在Google Cloud Platform中、執行9.12.1版或更新版本的全新及現有的版本不含更新版本的S3授權Cloud Volumes ONTAP ONTAP 。</block>
+  <block id="6958464059ef304c59d06fcb948ccafd" category="inline-link">瞭解如何在ONTAP 功能區中設定及管理S3物件儲存服務</block>
+  <block id="3fe75f10a35597997861eca633c30fa7" category="paragraph"><block ref="3fe75f10a35597997861eca633c30fa7" category="inline-link-rx"></block></block>
+  <block id="fe9c9f72fd091b4ebc4d0686a2dccdc6" category="section-title">2022年12月11日</block>
+  <block id="ff1a552e36acc064f2353128cc8cae7e" category="section-title">勒索軟體保護分數面板已新增建議的新動作</block>
+  <block id="3a3306a02dc91a314c088887bca99ae6" category="paragraph">針對您儲存系統上發現的下列勒索軟體保護問題、現在會顯示兩項新的建議動作：</block>
+  <block id="ac70ac84684b450ac1ec25740da08f6f" category="list-text">_減少具有廣泛權限的X敏感項目的權限_-您的資料來源中已找到具有開放權限的敏感檔案</block>
+  <block id="e536c956b5336f840fdf1f34295e7626" category="list-text">_Patch X OPEN CVEs橫跨Y資料來源_- ONTAP 在您的系統上發現未修補的CVEs</block>
+  <block id="dced9da708bc7f04e84ad156297f2b2a" category="inline-link">請參閱所有建議行動的清單</block>
+  <block id="2887af3281ffddb6374ef4f66b57c7d5" category="paragraph">您可以在UI中選取這些動作、然後依照工作流程來解決基礎問題。<block ref="ed823e4f932da1d207b551c7d7ca0450" category="inline-link-rx"></block>。</block>
 </blocks>
