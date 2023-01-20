@@ -33,6 +33,54 @@ Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com
 
 
 
+=== 2023年2月5日
+
+
+
+==== 連接器3.9.26
+
+* 在*登入*頁面上、系統現在會提示您輸入與登入相關的電子郵件地址。按一下*下一步*之後、BlueXP會提示您使用與登入相關的驗證方法進行驗證：
++
+** NetApp雲端認證的密碼
+** 您的聯盟身分認證資料
+** 您的需求NetApp 支援網站
+
+
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-login.png["BlueXP登入頁面的快照、會提示您輸入電子郵件地址。"]
+
+* 如果您是BlueXP新手、而且您擁有NetApp 支援網站 現有的支援（NSS）認證、則可以跳過註冊頁面、直接在登入頁面中輸入您的電子郵件地址。在此初次登入時、BlueXP會為您註冊。
+* 當您從雲端供應商的市場訂閱BlueXP時、您現在可以選擇以新的訂閱取代現有的單一帳戶訂閱。
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-aws-subscription.png["顯示藍圖XP帳戶訂閱指派的快照。"]
+
++
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#associate-an-aws-subscription["瞭解如何建立AWS訂閱的關聯"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-azure-accounts.html#associating-an-azure-marketplace-subscription-to-credentials["瞭解如何建立Azure訂閱的關聯"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-gcp-accounts.html["瞭解如何建立Google Cloud訂閱的關聯"]
+
+
+* 如果您的Connector已關機14天或更久、BlueXP現在會通知您。
++
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["深入瞭解BlueXP通知"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#connectors-should-remain-running["瞭解為何連接器應該繼續執行"]
+
+
+* 我們更新了Connector for Google Cloud政策、加入在Cloud Volumes ONTAP 以各種方式建立及管理儲存VM的權限：
++
+compute.instances.updateNetworkInterface
+
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-gcp.html["檢視Connector的Google Cloud權限"]。
+
+* 此版本的Connector包含Cloud Volumes ONTAP 一些功能強化功能。
++
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-february-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
+
+
+
+
+
 === 2023年1月1日
 
 
@@ -60,30 +108,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1
 
 
 
-
-
-
-=== 2022年11月6日
-
-
-
-==== 連接器3.9.23
-
-* 您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-subscriptions.html["瞭解如何管理您的訂閱"^]
-
-* 此版本的Connector也包含Cloud Volumes ONTAP 了一些功能強化功能。
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#6-november-2022["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
-
-
-
-
-
-=== 2022年11月1日
-
-Cloud Manager現在會在NetApp 支援網站 與您帳戶相關的更新權杖在3個月後過期時、提示您更新與您的候用帳戶相關的認證資料。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html#update-nss-credentials["瞭解如何管理NSS帳戶"^]
 
 
 
@@ -499,6 +523,39 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-deploy-compliance-on
 
 
 
+=== 2023年2月5日
+
+
+
+==== 額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS
+
+目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：
+
+* 將S3儲存至NFS ONTAP
+* NFS到ONTAP SS3儲存設備
+
+
+此外、支援Azure Data Lake Storage Gen2作為來源與目標、以實現下列目標Cloud Sync ：
+
+* NFS 伺服器
+* SMB 伺服器
+* SS3 儲存設備 ONTAP
+* StorageGRID
+* IBM Cloud 物件儲存設備
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+
+
+
+==== 升級至Amazon Web Services資料代理程式作業系統
+
+AWS資料代理人的作業系統已升級至Amazon Linux 2022。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["深入瞭解AWS中的資料代理執行個體"]。
+
+
+
 === 2023年1月3日
 
 
@@ -788,6 +845,36 @@ https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html
 
 
 
+=== 2023年2月5日
+
+下列變更是在版本3.9.26的Connector中提出。
+
+
+
+==== 在AWS中建立放置群組
+
+全新組態設定現在可透過AWS HA單一可用度區域（AZ）部署來建立放置群組。現在您可以選擇略過失敗的放置群組建立、並讓AWS HA單一AZ部署順利完成。
+
+如需如何設定放置群組建立設定的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-configure-placement-group-failure-aws.html#overview["設定AWS HA單一AZ的放置群組建立"^]。
+
+
+
+==== 私有DNS區域組態更新
+
+現在已有新的組態設定可供使用、以便在使用Azure私有連結時、避免在私有DNS區域和虛擬網路之間建立連結。預設會啟用建立。
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-enabling-private-link.html#provide-bluexp-with-details-about-your-azure-private-dns["提供您Azure私有DNS的詳細資料給BlueXP"^]
+
+
+
+==== WORM儲存與資料分層
+
+現在您可以在建立Cloud Volumes ONTAP 一套或更新版本的版本時、同時啟用資料分層和WORM儲存。利用WORM儲存設備進行資料分層、可將資料分層至雲端的物件存放區。
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-worm.html["瞭解WORM儲存設備。"^]
+
+
+
 === 2023年1月1日
 
 以下是3.9.25版Connector的變更。
@@ -819,18 +906,6 @@ Google Cloud Volumes ONTAP Cloud Marketplace提供最佳化的Edge Cache容量�
 現在、BlueXP可以在Cloud Volumes ONTAP AWS和Google Cloud中部署和管理功能。
 
 https://docs.netapp.com/us-en/cloud-volumes-ontap-9120-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-=== 2022年12月8日
-
-
-
-==== 零點9.12.1. Cloud Volumes ONTAP
-
-現在、BlueXP可以部署及管理Cloud Volumes ONTAP 支援全新功能和其他雲端供應商區域的功能。
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]
 
 
 

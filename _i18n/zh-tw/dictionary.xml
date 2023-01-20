@@ -116,7 +116,6 @@
   <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">2022年7月3日</block>
   <block id="82e8338c73d6540f48f2e0cc8d035511" category="list-text">馬德里（歐洲-西南1）</block>
   <block id="1a1145c860165dcd96b82eb7d32cd59f" category="list-text">巴黎（歐洲-西9）</block>
-  <block id="e8249b4253d6a921188373a80621c098" category="list-text">此版本的Connector也包含Cloud Volumes ONTAP 了一些功能強化功能。</block>
   <block id="59db2d8d08645826b1c034be277c61d2" category="section-title">支援Azure Data Lake Storage Gen2</block>
   <block id="c7b46a2bde58e21272436d4c94238e15" category="paragraph">您現在可以將NFS伺服器或SMB伺服器的資料同步至Azure Data Lake Storage Gen2。</block>
   <block id="20a2ab980685308347c082aec3253ed9" category="paragraph">建立包含Azure Data Lake的同步關係時、您需要提供Cloud Sync 含有儲存帳戶連線字串的功能。它必須是一般連線字串、而非共用存取簽章（SAS）。</block>
@@ -238,8 +237,6 @@
   <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager於2022年11月1日重新命名為BlueXP。<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。</block>
   <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">2022年11月1日</block>
-  <block id="23888423406e47190ca0cf40a113c61f" category="inline-link">瞭解如何管理NSS帳戶</block>
-  <block id="929fa09ef9d24654b353f312638ca6e6" category="paragraph">Cloud Manager現在會在NetApp 支援網站 與您帳戶相關的更新權杖在3個月後過期時、提示您更新與您的候用帳戶相關的認證資料。<block ref="abba285888ca54da9f89054b7e57f270" category="inline-link-rx"></block></block>
   <block id="89d500a3ace67f6d47edb61231336589" category="section-title">Cloud Backup for Applications的增強功能</block>
   <block id="e75ce95021f32383e6a928c1b242bc34" category="section-title">增強了適用於虛擬機器的Cloud Backup功能</block>
   <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">2022年10月30日</block>
@@ -310,11 +307,6 @@
   <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">拖放即可將雲端分層移至Azure Blob、Google Cloud Storage及StorageGRID</block>
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">如果Azure Blob、Google Cloud Storage或StorageGRID Setiering目的地是在CanvasTM上的工作環境、您可以將內部ONTAP 環境拖曳至目的地、以啟動分層設定精靈。</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
-  <block id="f658ebadeb22d41618c5222998030cb9" category="section-title">連接器3.9.23</block>
-  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="list-text">您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。</block>
-  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
-  <block id="9fcd0a1eb1b488b623812d42567ce2d8" category="paragraph"><block ref="9fcd0a1eb1b488b623812d42567ce2d8" category="inline-link-rx"></block></block>
-  <block id="efa03f1c1a0f03001f1680681d9ac8a7" category="paragraph"><block ref="efa03f1c1a0f03001f1680681d9ac8a7" category="inline-link-rx"></block></block>
   <block id="d977c6f6b61d0f35299ae86a391a8a57" category="section-title">新增支援功能、可在電子郵件和通知中心接收Cloud Backup警示</block>
   <block id="49b6fd5ed6bda6ec09a46ece6a679207" category="section-title">現在您可以使用內部部署Connector時、使用「搜尋與還原」來還原備份檔案</block>
   <block id="18cddedef625cde24d34d1b2bb64fb96" category="paragraph">此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。</block>
@@ -365,8 +357,6 @@
   <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">將S3儲存設備移至AWS S3 ONTAP</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">深入瞭解支援的同步關係</block>
   <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>。</block>
-  <block id="708ffc372ba6f36174a7930961b956ab" category="section-title">2022年12月8日</block>
-  <block id="dba89da91170934734e847dcfe4ad5d0" category="section-title">零點9.12.1. Cloud Volumes ONTAP</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">深入瞭Cloud Volumes ONTAP 解本版的更新功能</block>
   <block id="fe9c9f72fd091b4ebc4d0686a2dccdc6" category="section-title">2022年12月11日</block>
   <block id="ff1a552e36acc064f2353128cc8cae7e" category="section-title">勒索軟體保護分數面板已新增建議的新動作</block>
@@ -436,8 +426,6 @@
   <block id="bf748f930fa11e46773ff6f7b815e480" category="section-title">零件9.12.0 Cloud Volumes ONTAP</block>
   <block id="80df4292f7c986dbd0920bb576487060" category="paragraph">現在、BlueXP可以在Cloud Volumes ONTAP AWS和Google Cloud中部署和管理功能。</block>
   <block id="64885a300b31929a1b0ea6b5a20128d3" category="paragraph"><block ref="065aa84d514cfdc6fc00d8cb3eaf6ec4" category="inline-link-rx"></block>。</block>
-  <block id="abd10f7bee2f791a9e8f76bf98163c27" category="paragraph">現在、BlueXP可以部署及管理Cloud Volumes ONTAP 支援全新功能和其他雲端供應商區域的功能。</block>
-  <block id="0d69949c9de36f8752d49be7f0ec9aed" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block></block>
   <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">儲存ONTAP 不一樣的認證資料</block>
   <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">當您在不ONTAP 使用Connector的情況下直接開啟內部的支援環境時、您現在可以選擇儲存ONTAP 您的支援中心叢集認證資料、以便在每次開啟工作環境時、都不需要輸入這些認證資料。</block>
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">深入瞭解此選項。</block>
@@ -515,4 +503,59 @@
   <block id="f77caa23f512ad7c5c38882b9a13b6db" category="paragraph"><block ref="d9564f80e250011b85c05664d779bbef" category="inline-link-rx"></block>。</block>
   <block id="1e189efdd1c21e1702b4e4a48e6a3815" category="section-title">勒索軟體保護已從「保護」類別移至「治理」類別</block>
   <block id="c1d1220273fe79d481c41539bea31710" category="paragraph">現在您可以從BlueXP左側瀏覽功能表選取*管理&gt;勒索軟體保護*來存取此服務。</block>
+  <block id="d2ab99e3c8406089dca863337debb121" category="section-title">連接器3.9.26</block>
+  <block id="330ddcd0a3779c8729cfb2c56aeb33f5" category="list-text">在*登入*頁面上、系統現在會提示您輸入與登入相關的電子郵件地址。按一下*下一步*之後、BlueXP會提示您使用與登入相關的驗證方法進行驗證：</block>
+  <block id="1baec3621cd37cfb63c78d95c414ca61" category="list-text">NetApp雲端認證的密碼</block>
+  <block id="1dca7678a1041ed05b6071c24454dfde" category="list-text">您的聯盟身分認證資料</block>
+  <block id="9ec04e5ecf7230969f472cb3ba28f9d5" category="list-text">您的需求NetApp 支援網站</block>
+  <block id="95161959ea62121420b9e6e6553c5afa" category="inline-image-macro">BlueXP登入頁面的快照、會提示您輸入電子郵件地址。</block>
+  <block id="7fef862357cf2face17cb8062b1f051f" category="paragraph"><block ref="7fef862357cf2face17cb8062b1f051f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9cb7486a7e7f24abb51cfcc8bb6085db" category="list-text">如果您是BlueXP新手、而且您擁有NetApp 支援網站 現有的支援（NSS）認證、則可以跳過註冊頁面、直接在登入頁面中輸入您的電子郵件地址。在此初次登入時、BlueXP會為您註冊。</block>
+  <block id="845c6364e1c82b67190dc691538533e1" category="list-text">當您從雲端供應商的市場訂閱BlueXP時、您現在可以選擇以新的訂閱取代現有的單一帳戶訂閱。</block>
+  <block id="79ee9d46f0018b3cb493ecfda60ffa4b" category="inline-image-macro">顯示藍圖XP帳戶訂閱指派的快照。</block>
+  <block id="cd56a207e786d73d9abfd43dd2202acd" category="paragraph"><block ref="cd56a207e786d73d9abfd43dd2202acd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1b38e057f0b3e3f883f386f412fd0a9" category="inline-link">瞭解如何建立AWS訂閱的關聯</block>
+  <block id="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="list-text"><block ref="73f01c2e56cdb9b30f4fe33ce5bbdc20" category="inline-link-rx"></block></block>
+  <block id="72bfd3f607087d94f12332f83b700ab8" category="inline-link">瞭解如何建立Azure訂閱的關聯</block>
+  <block id="58b7b647775bc09b6b8a9f45df71775b" category="list-text"><block ref="58b7b647775bc09b6b8a9f45df71775b" category="inline-link-rx"></block></block>
+  <block id="1c74f0a5753f74c783e970c346408b4a" category="inline-link">瞭解如何建立Google Cloud訂閱的關聯</block>
+  <block id="896471f03a9a1e209bebabb5923d2b3e" category="list-text"><block ref="896471f03a9a1e209bebabb5923d2b3e" category="inline-link-rx"></block></block>
+  <block id="f906d086ca70101dd1f218ea0786aee8" category="list-text">如果您的Connector已關機14天或更久、BlueXP現在會通知您。</block>
+  <block id="18ed152ca3e6d97795e3c62f29f14fa3" category="inline-link">深入瞭解BlueXP通知</block>
+  <block id="68f34edaf3c796f179fbe80b3df89f0c" category="list-text"><block ref="68f34edaf3c796f179fbe80b3df89f0c" category="inline-link-rx"></block></block>
+  <block id="752697882fd7ee73f8d5f60a6f8c02f5" category="inline-link">瞭解為何連接器應該繼續執行</block>
+  <block id="23f4e22cbf061f84ba77fd79e423d90f" category="list-text"><block ref="23f4e22cbf061f84ba77fd79e423d90f" category="inline-link-rx"></block></block>
+  <block id="1c8a63199471322e5b0fe67deb835f4b" category="list-text">我們更新了Connector for Google Cloud政策、加入在Cloud Volumes ONTAP 以各種方式建立及管理儲存VM的權限：</block>
+  <block id="3503950ea6a1ba87d4be44e07b1a16c8" category="paragraph">compute.instances.updateNetworkInterface</block>
+  <block id="67d29883f03468dc44eefc494f37473e" category="inline-link">檢視Connector的Google Cloud權限</block>
+  <block id="cad0970fb2c4e3d28b046315bb4b7f02" category="paragraph"><block ref="ac22e421263f6f828d096313fa20e6a8" category="inline-link-rx"></block>。</block>
+  <block id="fdfef50a14b07533a8bab908a66de10c" category="list-text">此版本的Connector包含Cloud Volumes ONTAP 一些功能強化功能。</block>
+  <block id="e5fa209a01e6f968295b098866e0fcf5" category="paragraph"><block ref="e5fa209a01e6f968295b098866e0fcf5" category="inline-link-rx"></block></block>
+  <block id="55157331e0485d25f0d603400a66335e" category="section-title">2023年2月5日</block>
+  <block id="761cba7c96f916f975634bfd465401cb" category="section-title">額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS</block>
+  <block id="93cf60ec095fd8da10fc299cc367ba5f" category="paragraph">目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：</block>
+  <block id="852f9290d6e492b0c65094f3676c0c9b" category="list-text">將S3儲存至NFS ONTAP</block>
+  <block id="84b6c32a0e939d90280ebcdf036f7678" category="list-text">NFS到ONTAP SS3儲存設備</block>
+  <block id="444a944798699bf4690bdc286127a9f2" category="paragraph">此外、支援Azure Data Lake Storage Gen2作為來源與目標、以實現下列目標Cloud Sync ：</block>
+  <block id="e83e5674ab295a6613b60f5e12d1bfe3" category="list-text">NFS 伺服器</block>
+  <block id="876d9b7b1c11a792f25a0e1e9dbf31dd" category="list-text">SMB 伺服器</block>
+  <block id="a68d8b6ae92fdf98aa74ce8cfe41a27f" category="list-text">SS3 儲存設備 ONTAP</block>
+  <block id="5446a6bee3301e1f52824fc0affa6299" category="list-text">IBM Cloud 物件儲存設備</block>
+  <block id="b3c6595e164d585a18699d6b36cab08a" category="section-title">升級至Amazon Web Services資料代理程式作業系統</block>
+  <block id="56b81b60dec6a853cc4a71acf27e639b" category="paragraph">AWS資料代理人的作業系統已升級至Amazon Linux 2022。</block>
+  <block id="0dd728efd36ee3f96597b07096922b08" category="inline-link">深入瞭解AWS中的資料代理執行個體</block>
+  <block id="ab1608bfe0e155c43b562df0832f62cb" category="paragraph"><block ref="f5f6281702689de644df10baf88bc982" category="inline-link-rx"></block>。</block>
+  <block id="078640757da4b274abf89709c42d7741" category="paragraph">下列變更是在版本3.9.26的Connector中提出。</block>
+  <block id="72c6f65b45015ee1135ff4bc2cce8860" category="section-title">在AWS中建立放置群組</block>
+  <block id="b743dbbfdeafb74e0c5a918472cb8000" category="paragraph">全新組態設定現在可透過AWS HA單一可用度區域（AZ）部署來建立放置群組。現在您可以選擇略過失敗的放置群組建立、並讓AWS HA單一AZ部署順利完成。</block>
+  <block id="a461eabe3ab382f71ac2e2f6d1e640ac" category="inline-link-macro">設定AWS HA單一AZ的放置群組建立</block>
+  <block id="f8574b4ca8450ebb66b430e6a34a7af0" category="paragraph">如需如何設定放置群組建立設定的詳細資訊、請參閱 <block ref="76b771ebcb3b2314cb6a5531c78c8c56" category="inline-link-macro-rx"></block>。</block>
+  <block id="6d236ccded1ae841f7032a1cfa719500" category="section-title">私有DNS區域組態更新</block>
+  <block id="c07e7cfc7f9b172f2a6463f65a2a4b56" category="paragraph">現在已有新的組態設定可供使用、以便在使用Azure私有連結時、避免在私有DNS區域和虛擬網路之間建立連結。預設會啟用建立。</block>
+  <block id="77bb2abfb8f3c95b3fdaf2c2e6814b89" category="inline-link-macro">提供您Azure私有DNS的詳細資料給BlueXP</block>
+  <block id="b4f6cf785c09e40247b4fa3feac5c2a6" category="paragraph"><block ref="b4f6cf785c09e40247b4fa3feac5c2a6" category="inline-link-macro-rx"></block></block>
+  <block id="9790d5e9d3f702b3255ef268a7bcfc80" category="section-title">WORM儲存與資料分層</block>
+  <block id="3277463bf1ddcca922f85a2efd92c721" category="paragraph">現在您可以在建立Cloud Volumes ONTAP 一套或更新版本的版本時、同時啟用資料分層和WORM儲存。利用WORM儲存設備進行資料分層、可將資料分層至雲端的物件存放區。</block>
+  <block id="2179dc7c2201ce007bdd7f0a37e78d5e" category="inline-link-macro">瞭解WORM儲存設備。</block>
+  <block id="fc76ca2a106ecf45415f92e5b6f34f21" category="paragraph"><block ref="fc76ca2a106ecf45415f92e5b6f34f21" category="inline-link-macro-rx"></block></block>
 </blocks>
