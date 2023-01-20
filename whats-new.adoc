@@ -236,6 +236,52 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2023年2月6日
+
+
+
+==== 能夠將較舊的備份檔案從StorageGRID 無法還原的系統移至Azure歸檔儲存設備
+
+現在、您可以將舊版備份檔案分層、從StorageGRID 無法更新的系統到Azure中的歸檔儲存設備。如此一來StorageGRID 、您就能釋出整個作業系統的空間、並使用經濟實惠的儲存類別來儲存舊的備份檔案、進而節省成本。
+
+如果內部叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統使用的是11.4或更新版本、則可使用此功能。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html#preparing-to-archive-older-backup-files-to-public-cloud-storage["如需詳細資訊、請參閱此處"^]。
+
+
+
+==== 您可以在Azure Blob中設定DataLock和勒索軟體保護功能、以供備份檔案使用
+
+Azure Blob儲存的備份檔案現在支援DataLock和勒索軟體保護。如果Cloud Volumes ONTAP 您的支援對象ONTAP 為執行ONTAP 支援的支援對象、那麼您現在可以鎖定備份檔案、然後掃描檔案、以偵測可能的勒索軟體。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-policies.html#datalock-and-ransomware-protection["深入瞭解如何使用DataLock和勒索軟體保護來保護備份"^]。
+
+
+
+==== 備份與還原FlexGroup 功能強化功能
+
+* 現在、您可以在還原FlexGroup 完一個功能區時、選擇多個集合體。在最後一個版本中、您只能選取單一Aggregate。
+* 目前支援在不支援的系統上進行還原Cloud Volumes ONTAP FlexGroup 。在上一版中、您只能還原到內部ONTAP 的作業系統。
+
+
+
+
+==== 可將舊版備份移至Google Archival儲存設備Cloud Volumes ONTAP
+
+備份檔案最初是在Google Standard儲存類別中建立。現在您可以使用Cloud Backup將舊備份分層至Google歸檔儲存設備、以進一步最佳化成本。上一版僅支援內部ONTAP 使用的功能、目前Cloud Volumes ONTAP 支援部署在Google Cloud上的各種系統。
+
+
+
+==== Volume Restore作業現在可讓您選取要還原Volume資料的SVM
+
+現在您可以將Volume資料還原至ONTAP 您的叢集中的不同儲存VM。過去無法選擇儲存VM。
+
+
+
+==== 增強支援以支援各種形式進行的Volume MetroCluster
+
+當使用ONTAP 的是版本號為《支援使用支援的功能》（例如《支援使用支援的功能》）的更新版本時、系統會以MetroCluster 「支援的功能」的形式連接至主系統。整個備份組態會傳輸到次要系統、以便在切換後自動繼續備份到雲端。
+
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#backup-limitations["如需詳細資訊、請參閱備份限制"]。
+
+
+
 === 2023年1月9日
 
 
@@ -359,73 +405,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-
 
 
 
-=== 2022年11月2日
-
-
-
-==== 能夠將較舊的Snapshot複本匯出至基礎備份檔案
-
-如果您工作環境中有任何符合備份排程標籤的Volume本機Snapshot複本（例如每日、每週等）、您可以將這些歷史快照匯出至物件儲存設備作為備份檔案。這可讓您將舊的Snapshot複本移至基礎備份複本、以初始化雲端中的備份。
-
-在工作環境中啟動Cloud Backup時、可使用此選項。您也可以稍後在中變更此設定 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-settings-ontap.html["進階設定頁面"]。
-
-
-
-==== 雲端備份現在可用於歸檔來源系統不再需要的磁碟區
-
-現在您可以刪除磁碟區的備份關係。如果您想要停止建立新的備份檔案並刪除來源Volume、但保留所有現有的備份檔案、這將提供歸檔機制。這可讓您在未來視需要從備份檔案還原磁碟區、同時從來源儲存系統中清除空間。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backups-ontap.html#deleting-volume-backup-relationships["瞭解方法"]。
-
-
-
-==== 新增支援功能、可在電子郵件和通知中心接收Cloud Backup警示
-
-Cloud Backup已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示Cloud Backup通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意備份與還原活動的收件者。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#use-the-job-monitor-to-view-backup-and-restore-job-status["瞭解方法"]。
-
-
-
-==== 「新增進階設定」頁面可讓您變更叢集層級的備份設定
-
-此新頁面可讓您變更在啟用每ONTAP 個作業系統的Cloud Backup時所設定的許多叢集層級備份設定。您也可以修改某些套用為「預設」備份設定的設定。您可以變更的完整備份設定包括：
-
-* 儲存金鑰可讓ONTAP 您的系統獲得存取物件儲存設備的權限
-* 分配給上傳備份到物件儲存設備的網路頻寬
-* 未來磁碟區的自動備份設定（和原則）
-* 歸檔儲存類別（僅限AWS）
-* 歷史Snapshot複本是否包含在初始基礎備份檔案中
-* 是否從來源系統移除「每年」快照
-* 連接至物件儲存設備的物件保護區（在啟動期間選擇不正確的情況下）ONTAP
-
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-settings-ontap.html["深入瞭解如何管理叢集層級的備份設定"]。
-
-
-
-==== 現在您可以使用內部部署Connector時、使用「搜尋與還原」來還原備份檔案
-
-在先前的版本中、當您的內部部署連接器時、新增了將備份檔案建立至公有雲的支援。在此版本中、持續支援使用搜尋與還原功能、在部署連接器於內部部署時、從Amazon S3或Azure Blob還原備份。搜尋與還原功能也支援將備份從StorageGRID 還原系統還原至內部部署ONTAP 的還原系統。
-
-此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。
-
-
-
-==== 「工作監控」頁面已更新
-
-已對進行下列更新 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html["「工作監控」頁面"]：
-
-* 「工作負載」欄可供使用、以便您篩選頁面以檢視下列備份服務的工作：Volume、應用程式、虛擬機器和Kubernetes。
-* 若要檢視特定備份工作的這些詳細資料、您可以新增「使用者名稱」和「工作類型」欄。
-* 「工作詳細資料」頁面會顯示正在執行以完成主要工作的所有子工作。
-* 此頁面每15分鐘自動重新整理一次、讓您隨時都能看到最新的工作狀態結果。您也可以按一下「*重新整理*」按鈕、立即更新頁面。
-
-
-
-
-==== AWS跨帳戶備份增強功能
-
-如果您想要使用不同於Cloud Volumes ONTAP 來源磁碟區的AWS帳戶進行還原備份、則必須在BluetXP中新增目的地AWS帳戶認證、而且必須將「S3：PuttBucketPolicy」和「S3：PuttetOwnershipControl」權限新增至IAM角色、以便為BlueXP提供權限。過去、您需要在AWS主控台設定許多設定、您不再需要這麼做了。
-
-
-
 == 雲端資料感測
 
 
@@ -438,7 +417,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 
 在舊版的Cloud Data Sense中、當某些重要原則傳回結果時、您可以傳送電子郵件警示給帳戶中的BlueXP使用者。此功能可讓您取得通知、在您不在線上時保護資料。現在、您也可以將原則的電子郵件警示傳送給任何其他使用者（最多20個電子郵件地址）、而這些使用者不在您的BlueXP帳戶中。
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#sending-email-alerts-when-non-compliant-data-is-found["深入瞭解如何根據原則結果傳送電子郵件警示"]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-using-policies.html#sending-email-alerts-when-non-compliant-data-is-found["深入瞭解如何根據原則結果傳送電子郵件警示"]。
 
 
 
@@ -487,7 +466,7 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion
 * 「檔案路徑」篩選現在可讓您指定要從篩選查詢結果中排除的路徑。如果您輸入同時包含和排除特定資料的路徑、Data Sense會先尋找包含路徑中的所有檔案、然後從排除路徑中移除檔案、然後顯示結果。
 
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["請參閱所有篩選器清單、以供您調查資料"]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.html#filtering-data-in-the-data-investigation-page["請參閱所有篩選器清單、以供您調查資料"]。
 
 
 
@@ -789,7 +768,7 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 
 
 
-==== 必要的連接器輸出網際網路存取端點變更
+==== 連接器輸出網際網路存取端點變更
 
 由於雲端分層發生變更、您必須變更下列連接器端點、才能成功執行雲端分層作業：
 

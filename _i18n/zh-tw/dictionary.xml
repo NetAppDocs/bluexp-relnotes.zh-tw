@@ -276,40 +276,11 @@
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
   <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP索引</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
-  <block id="733947b9c31fd162b40f0854f88a98f0" category="section-title">2022年11月2日</block>
-  <block id="4e1bedfa5acb9fc8467640ea1dcaece3" category="section-title">能夠將較舊的Snapshot複本匯出至基礎備份檔案</block>
-  <block id="ae268c326c8c4dacd9c1078313ddd2ba" category="paragraph">如果您工作環境中有任何符合備份排程標籤的Volume本機Snapshot複本（例如每日、每週等）、您可以將這些歷史快照匯出至物件儲存設備作為備份檔案。這可讓您將舊的Snapshot複本移至基礎備份複本、以初始化雲端中的備份。</block>
-  <block id="649d79e860fd8eae7a579da7093b467e" category="inline-link">進階設定頁面</block>
-  <block id="baf7d965b78ce781f897df564be4d675" category="paragraph">在工作環境中啟動Cloud Backup時、可使用此選項。您也可以稍後在中變更此設定<block ref="88d25b1a851fc3767825406ea8de456d" category="inline-link-rx"></block>。</block>
-  <block id="bddf21f18c4ffad2268ebfc0d565c03c" category="section-title">雲端備份現在可用於歸檔來源系統不再需要的磁碟區</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link">瞭解方法</block>
-  <block id="429c129d466e9cdbc94da5ebfd639734" category="paragraph">現在您可以刪除磁碟區的備份關係。如果您想要停止建立新的備份檔案並刪除來源Volume、但保留所有現有的備份檔案、這將提供歸檔機制。這可讓您在未來視需要從備份檔案還原磁碟區、同時從來源儲存系統中清除空間。<block ref="96e512d167a0d6d287f83a8e9bfbf6a3" category="inline-link-rx"></block>。</block>
-  <block id="d07fed7e54302c401452d86813f74fdb" category="section-title">「新增進階設定」頁面可讓您變更叢集層級的備份設定</block>
-  <block id="711d5dadc0f2641aef64c8697fec3458" category="paragraph">此新頁面可讓您變更在啟用每ONTAP 個作業系統的Cloud Backup時所設定的許多叢集層級備份設定。您也可以修改某些套用為「預設」備份設定的設定。您可以變更的完整備份設定包括：</block>
-  <block id="54ce718c77c15316f9e58b5cae74c251" category="list-text">儲存金鑰可讓ONTAP 您的系統獲得存取物件儲存設備的權限</block>
-  <block id="78d9e3520f8237fb4916ac392c73a1cd" category="list-text">分配給上傳備份到物件儲存設備的網路頻寬</block>
-  <block id="dee0e1f435efb0ec8a8d1ccf48b11274" category="list-text">未來磁碟區的自動備份設定（和原則）</block>
-  <block id="b4cd50ce088e504eda51f33f2ab7eb47" category="list-text">歸檔儲存類別（僅限AWS）</block>
-  <block id="45ae6f10458e4cca2d17200124fa1c20" category="list-text">歷史Snapshot複本是否包含在初始基礎備份檔案中</block>
-  <block id="81db226b4b2fef2e7c216cbb14e7d89c" category="list-text">是否從來源系統移除「每年」快照</block>
-  <block id="33e5226a6b178bab9e22b761cbda6440" category="list-text">連接至物件儲存設備的物件保護區（在啟動期間選擇不正確的情況下）ONTAP</block>
-  <block id="7b95d23b6b30b69ed07a2e15017d99e3" category="inline-link">深入瞭解如何管理叢集層級的備份設定</block>
-  <block id="057c181e6c21fad200a862461add5a03" category="paragraph"><block ref="344cf4f459ea1c1e24d6bef144dcb178" category="inline-link-rx"></block>。</block>
-  <block id="f4f4c174196d45dbc07ae62740f92b92" category="section-title">「工作監控」頁面已更新</block>
-  <block id="213f79d27d3a76a68080f2d948105d7e" category="inline-link">「工作監控」頁面</block>
-  <block id="92e275cf9354b2e79f6ecadafa52a965" category="paragraph">已對進行下列更新<block ref="2aba02720d116e26596d478ca3ace389" category="inline-link-rx"></block>：</block>
-  <block id="5b839de8a8e7b5f30407c5dc2cfdabd2" category="list-text">「工作負載」欄可供使用、以便您篩選頁面以檢視下列備份服務的工作：Volume、應用程式、虛擬機器和Kubernetes。</block>
-  <block id="a2ed310c63a1aba1225315fe5f7f60ee" category="list-text">若要檢視特定備份工作的這些詳細資料、您可以新增「使用者名稱」和「工作類型」欄。</block>
-  <block id="bcce731a4ced178ba1457a0965f1a878" category="list-text">「工作詳細資料」頁面會顯示正在執行以完成主要工作的所有子工作。</block>
-  <block id="95bdcffb51de388c8d204ebc69a73e61" category="section-title">AWS跨帳戶備份增強功能</block>
-  <block id="ae3795f53c6086a9639e4652dbff318b" category="paragraph">如果您想要使用不同於Cloud Volumes ONTAP 來源磁碟區的AWS帳戶進行還原備份、則必須在BluetXP中新增目的地AWS帳戶認證、而且必須將「S3：PuttBucketPolicy」和「S3：PuttetOwnershipControl」權限新增至IAM角色、以便為BlueXP提供權限。過去、您需要在AWS主控台設定許多設定、您不再需要這麼做了。</block>
   <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022年11月6日</block>
   <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">拖放即可將雲端分層移至Azure Blob、Google Cloud Storage及StorageGRID</block>
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">如果Azure Blob、Google Cloud Storage或StorageGRID Setiering目的地是在CanvasTM上的工作環境、您可以將內部ONTAP 環境拖曳至目的地、以啟動分層設定精靈。</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
-  <block id="d977c6f6b61d0f35299ae86a391a8a57" category="section-title">新增支援功能、可在電子郵件和通知中心接收Cloud Backup警示</block>
-  <block id="49b6fd5ed6bda6ec09a46ece6a679207" category="section-title">現在您可以使用內部部署Connector時、使用「搜尋與還原」來還原備份檔案</block>
-  <block id="18cddedef625cde24d34d1b2bb64fb96" category="paragraph">此時、使用搜尋與還原從Google Cloud Storage還原備份時、必須在Google Cloud Platform中部署Connector。</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
   <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">連接器3.9.24</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
@@ -319,7 +290,6 @@
   <block id="242cf97b6ce4408dde25722d6b0e37f9" category="list-text"><block ref="242cf97b6ce4408dde25722d6b0e37f9" category="inline-link-rx"></block></block>
   <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">深入瞭ONTAP 解內部叢集增強功能</block>
   <block id="4703fae8488338a7ad69a5cd4347caf3" category="list-text"><block ref="4703fae8488338a7ad69a5cd4347caf3" category="inline-link-rx"></block></block>
-  <block id="8f6062f059e26f94975a36f6a5efcc4b" category="paragraph">在先前的版本中、當您的內部部署連接器時、新增了將備份檔案建立至公有雲的支援。在此版本中、持續支援使用搜尋與還原功能、在部署連接器於內部部署時、從Amazon S3或Azure Blob還原備份。搜尋與還原功能也支援將備份從StorageGRID 還原系統還原至內部部署ONTAP 的還原系統。</block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">以下是3.9.24版本的Connector所做的變更。</block>
   <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">探索內部ONTAP 部署的新型叢集方法</block>
   <block id="d69d6ceca70ae4e3b7cf6949930f5168" category="paragraph">您現在ONTAP 無需使用Connector、即可直接探索內部的功能性叢集。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。</block>
@@ -337,7 +307,6 @@
   <block id="2750ec6dc42d79b24b9902d41543b6fd" category="paragraph"><block ref="0b2b94d5062b1eb6747bf9cb58e01b77" category="inline-link-rx"></block>。</block>
   <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">能夠將資料從備份還原到Cloud Volumes ONTAP 位於不受影響的系統上的特定集合體</block>
   <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">在早期版本中、您只能在將資料還原至內部ONTAP 的資訊系統時、才選取Aggregate。此功能現在可用於將資料還原Cloud Volumes ONTAP 至還原系統。</block>
-  <block id="8a52e1de39b1a61e3a2c04e39442b0e8" category="paragraph">Cloud Backup已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示Cloud Backup通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意備份與還原活動的收件者。<block ref="74389894cb83c627291d11e2dde62faa" category="inline-link-rx"></block>。</block>
   <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">2022年12月11日（版本1.18）</block>
   <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">內部部署安裝增強功能</block>
   <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">內部部署Data Sense安裝新增下列增強功能：</block>
@@ -440,14 +409,12 @@
   <block id="fe1757784884bfcaf0ca6254fb7fa44e" category="section-title">能夠下載「工作監控結果」頁面做為CSV報告</block>
   <block id="5ae1400b4fd16294ac8af42e98d8a9ed" category="inline-link">請參閱如何產生工作監控報告</block>
   <block id="c8a0a8bdcaf1f25cbadde68224d6591d" category="paragraph">篩選「工作監控」頁面以顯示您感興趣的工作和行動之後、您現在可以產生並下載該資料的.csvs檔案。然後您可以分析資訊、或將報告傳送給組織中的其他人員。<block ref="f54dc22fe93134a0b2767a291dba51f5" category="inline-link-rx"></block>。</block>
-  <block id="4f4a2e17ef7aa2669f99a3748377015f" category="list-text">此頁面每15分鐘自動重新整理一次、讓您隨時都能看到最新的工作狀態結果。您也可以按一下「*重新整理*」按鈕、立即更新頁面。</block>
   <block id="91edc807a7157b7f0159521433ea5b0f" category="section-title">2023年1月9日（1.19版）</block>
   <block id="738f7059231d5fe5c1e22879f52682fd" category="section-title">「資料調查」頁面提供三種新篩選條件</block>
   <block id="a05ecd168005e0205e52b540a66b4208" category="paragraph">我們提供新的篩選條件、以精簡「資料調查」頁面中顯示的結果：</block>
   <block id="d40d8569fcb40c761c8217de218391ba" category="list-text">「有存取權的使用者人數」篩選器會顯示哪些檔案和資料夾已對特定數量的使用者開放。您可以選擇一個數字範圍來精簡結果、例如、查看51到100位使用者可以存取哪些檔案。</block>
   <block id="142c1e7e965016b6fe04e45f8ae01209" category="list-text">「建立時間」、「探索時間」、「上次修改時間」和「上次存取時間」篩選條件現在可讓您建立自訂日期範圍、而不只是選擇預先定義的天數範圍。例如、您可以在「過去10天」內尋找「建立時間」為「6個月以上」或「上次修改日期」的檔案。</block>
   <block id="e2abff3453b8cf47fe2cb0886e10722b" category="list-text">「檔案路徑」篩選現在可讓您指定要從篩選查詢結果中排除的路徑。如果您輸入同時包含和排除特定資料的路徑、Data Sense會先尋找包含路徑中的所有檔案、然後從排除路徑中移除檔案、然後顯示結果。</block>
-  <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
   <block id="4e499a708b699475cdaf2e23cd596d11" category="section-title">我們新增支援功能、透過電子郵件和通知中心接收勒索軟體保護警示</block>
   <block id="53bccb80a99ecb6d22ac23a5d83a662e" category="paragraph">勒索軟體保護已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示勒索軟體保護通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意勒索軟體警示的收件者。<block ref="4b31f56f66b4ac96107c1c8a3ca6ad6e" category="inline-link-rx"></block>。</block>
   <block id="4856dfc18851de08c9ed97332b1fd100" category="list-text"><block ref="4856dfc18851de08c9ed97332b1fd100" category="inline-link-rx"></block></block>
@@ -482,7 +449,6 @@
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能夠將原則型通知電子郵件傳送至任何電子郵件地址</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">在舊版的Cloud Data Sense中、當某些重要原則傳回結果時、您可以傳送電子郵件警示給帳戶中的BlueXP使用者。此功能可讓您取得通知、在您不在線上時保護資料。現在、您也可以將原則的電子郵件警示傳送給任何其他使用者（最多20個電子郵件地址）、而這些使用者不在您的BlueXP帳戶中。</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">深入瞭解如何根據原則結果傳送電子郵件警示</block>
-  <block id="78f271269524c3df01d3ea41bb6702bb" category="paragraph"><block ref="d67cffea398d88e5b23de3d6e657ce99" category="inline-link-rx"></block>。</block>
   <block id="58c8b31479a452f2c02b4c4beb2b8e6f" category="section-title">現在您可以從UI新增Data Sense將識別的個人模式</block>
   <block id="bbc056ffe85cbc0784df7b39d5fac941" category="paragraph">Data Sense能夠新增自訂的「個人資料」、讓Data Sense在未來一段時間的掃描中能夠識別這些資料。不過、您需要登入Data Sense Linux主機、然後使用命令列新增自訂模式。在此版本中、使用regex新增個人模式的功能位於Data Sense UI中、可讓您輕鬆新增及編輯這些自訂模式。</block>
   <block id="e743c1cea3cca118a07bf2fd9a21ec39" category="inline-link">深入瞭解如何從Data Sense UI新增自訂模式</block>
@@ -558,4 +524,25 @@
   <block id="3277463bf1ddcca922f85a2efd92c721" category="paragraph">現在您可以在建立Cloud Volumes ONTAP 一套或更新版本的版本時、同時啟用資料分層和WORM儲存。利用WORM儲存設備進行資料分層、可將資料分層至雲端的物件存放區。</block>
   <block id="2179dc7c2201ce007bdd7f0a37e78d5e" category="inline-link-macro">瞭解WORM儲存設備。</block>
   <block id="fc76ca2a106ecf45415f92e5b6f34f21" category="paragraph"><block ref="fc76ca2a106ecf45415f92e5b6f34f21" category="inline-link-macro-rx"></block></block>
+  <block id="4378789701cd2498a252a52806a1f3a4" category="section-title">2023年2月6日</block>
+  <block id="86763912a3fb720760d95338a077e264" category="section-title">能夠將較舊的備份檔案從StorageGRID 無法還原的系統移至Azure歸檔儲存設備</block>
+  <block id="56182657e28c8dfde64ef2386feb1cde" category="paragraph">現在、您可以將舊版備份檔案分層、從StorageGRID 無法更新的系統到Azure中的歸檔儲存設備。如此一來StorageGRID 、您就能釋出整個作業系統的空間、並使用經濟實惠的儲存類別來儲存舊的備份檔案、進而節省成本。</block>
+  <block id="2dbb2c58aa8d6b345d1c74a70f17d1a2" category="paragraph">如果內部叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統使用的是11.4或更新版本、則可使用此功能。<block ref="70195a33db6d6b4308ed37adb844e324" category="inline-link-rx"></block>。</block>
+  <block id="609d2baddee02ef8a648a83c3c6583af" category="section-title">您可以在Azure Blob中設定DataLock和勒索軟體保護功能、以供備份檔案使用</block>
+  <block id="dc78c18207a001d77615c0f857f16f9d" category="inline-link">深入瞭解如何使用DataLock和勒索軟體保護來保護備份</block>
+  <block id="44522dba6ab4478f7cb53c4622e3dafa" category="paragraph">Azure Blob儲存的備份檔案現在支援DataLock和勒索軟體保護。如果Cloud Volumes ONTAP 您的支援對象ONTAP 為執行ONTAP 支援的支援對象、那麼您現在可以鎖定備份檔案、然後掃描檔案、以偵測可能的勒索軟體。<block ref="97e28eb0f7fdcd65cbf9241c83ee1d40" category="inline-link-rx"></block>。</block>
+  <block id="5b97e7065442b7eb64668b69dbdada19" category="section-title">備份與還原FlexGroup 功能強化功能</block>
+  <block id="36698eb018d0923e923633648afc1660" category="list-text">現在、您可以在還原FlexGroup 完一個功能區時、選擇多個集合體。在最後一個版本中、您只能選取單一Aggregate。</block>
+  <block id="f5f0348847173672e951c41ae184f50e" category="list-text">目前支援在不支援的系統上進行還原Cloud Volumes ONTAP FlexGroup 。在上一版中、您只能還原到內部ONTAP 的作業系統。</block>
+  <block id="a54cefe3a8b51c74b8c67bb08d2b0a06" category="section-title">可將舊版備份移至Google Archival儲存設備Cloud Volumes ONTAP</block>
+  <block id="b84a16ea39cceb9b085257510b1c4e29" category="paragraph">備份檔案最初是在Google Standard儲存類別中建立。現在您可以使用Cloud Backup將舊備份分層至Google歸檔儲存設備、以進一步最佳化成本。上一版僅支援內部ONTAP 使用的功能、目前Cloud Volumes ONTAP 支援部署在Google Cloud上的各種系統。</block>
+  <block id="f14d5764e935884afbd83d7ee86487df" category="section-title">Volume Restore作業現在可讓您選取要還原Volume資料的SVM</block>
+  <block id="7caa222989bc85d23ec0930e42a99387" category="paragraph">現在您可以將Volume資料還原至ONTAP 您的叢集中的不同儲存VM。過去無法選擇儲存VM。</block>
+  <block id="14f514abf2e1958a0b5bcab66eaf30a4" category="section-title">增強支援以支援各種形式進行的Volume MetroCluster</block>
+  <block id="1fe2df29e9bf17baaab103f0a9bba7fe" category="paragraph">當使用ONTAP 的是版本號為《支援使用支援的功能》（例如《支援使用支援的功能》）的更新版本時、系統會以MetroCluster 「支援的功能」的形式連接至主系統。整個備份組態會傳輸到次要系統、以便在切換後自動繼續備份到雲端。</block>
+  <block id="5f3a7b9d761ca72393881ec6b3e09094" category="inline-link">如需詳細資訊、請參閱備份限制</block>
+  <block id="a6fdbb3a339b191fd632ddee7fbee8cf" category="paragraph"><block ref="10efc6f0a427d8e27569782c3149d3d7" category="inline-link-rx"></block>。</block>
+  <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>。</block>
+  <block id="33720bb7474c733a91f61445b2fe886d" category="paragraph"><block ref="919878f5ddd65e1ab5af9e84f9299a2f" category="inline-link-rx"></block>。</block>
+  <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">連接器輸出網際網路存取端點變更</block>
 </blocks>
