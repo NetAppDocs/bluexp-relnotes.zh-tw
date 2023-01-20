@@ -195,19 +195,27 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 現在您可以將舊的備份檔案分層、從StorageGRID 支援的系統、到AWS S3的歸檔儲存設備。如此一來StorageGRID 、您就能釋出整個作業系統的空間、並使用經濟實惠的儲存類別來儲存舊的備份檔案、進而節省成本。您可以選擇將備份分層至AWS S3 Glacier或S3 Glacier Deep Archive儲存設備。
 
-如果您的叢集使用ONTAP 的是更新版本的版本、而StorageGRID 您的系統使用的是11.3或更新版本、則可使用此功能。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html#preparing-to-archive-older-backup-files-to-public-cloud-storage["如需詳細資訊、請參閱此處"]。
+如果內部叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統使用的是11.3或更新版本、則可使用此功能。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html#preparing-to-archive-older-backup-files-to-public-cloud-storage["如需詳細資訊、請參閱此處"]。
 
 
 
 ==== 能夠在Google Cloud上選擇您自己的客戶管理金鑰來進行資料加密
 
-將ONTAP 資料從您的支援系統備份到Google Cloud Storage時、現在您可以在啟動精靈中選擇自己的客戶管理金鑰來進行資料加密、而不使用預設的Google管理加密金鑰。只要先設定客戶管理的加密金鑰、然後在啟動Cloud Backup時輸入詳細資料即可。
+將ONTAP 資料從您的支援系統備份到Google Cloud Storage時、現在您可以在啟動精靈中選擇自己的客戶管理金鑰來進行資料加密、而不使用預設的Google管理加密金鑰。只要先在Google中設定客戶管理的加密金鑰、然後在啟動Cloud Backup時輸入詳細資料即可。
 
 
 
 ==== 服務帳戶不再需要「儲存管理員」角色、即可在Google Cloud Storage中建立備份
 
 在早期版本中、「儲存管理員」角色是讓Cloud Backup能夠存取Google Cloud Storage儲存桶的服務帳戶所需的角色。現在您可以建立自訂角色、並減少指派給服務帳戶的權限集。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-gcp.html#preparing-google-cloud-storage-for-backups["瞭解如何準備Google Cloud Storage進行備份"]。
+
+
+
+==== 我們新增支援、在沒有網際網路存取的站台中使用「搜尋與還原」來還原資料
+
+如果您將資料從內部ONTAP 的支援叢集備份到StorageGRID 無法存取網際網路的站台（也稱為暗站或離線站台）、現在您可以使用「搜尋與還原」選項在必要時還原資料。此功能需要在離線站台部署BlueXP Connector（3.9.25版或更新版本）。
+
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#restoring-ontap-data-using-search-restore["瞭解如何ONTAP 使用Search  Restore還原資料"]。https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["瞭解如何在離線站台中安裝Connector"]。
 
 
 
@@ -369,37 +377,17 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 
 
 
-=== 2022年9月28日
-
-
-
-==== Cloud Backup for Applications的增強功能
-
-* 支援Google Cloud Platform（GCP）和StorageGRID 支援以備份應用程式一致的快照
-* 建立自訂原則
-* 支援歸檔儲存
-* 備份SAP HANA應用程式
-* 備份VMware環境中的Oracle和SQL應用程式
-* 從內部部署的二線儲存設備備份應用程式
-* 停用備份
-* 取消登SnapCenter 錄伺服器
-
-
-
-
-==== 增強了適用於虛擬機器的Cloud Backup功能
-
-* 支援StorageGRID 使用支援還原來備份一或多個資料存放區
-* 建立自訂原則
-
-
-
-
 == 雲端資料感測
 
 
 
 === 2023年1月9日（1.19版）
+
+
+
+==== 能夠檢視含有敏感資料且過於許可的檔案圖表
+
+「治理」儀表板新增了「敏感資料」和「廣泛權限」區域、提供內含敏感資料（包括敏感和敏感個人資料）且過於許可的檔案熱圖。這有助於您瞭解敏感資料的風險所在。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-governance-data.html#data-listed-by-sensitivity-and-wide-permissions["深入瞭解"]。
 
 
 
@@ -413,6 +401,12 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-manage-backup-se
 
 
 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-private-data.html#filtering-data-in-the-data-investigation-page["請參閱所有篩選器清單、以供您調查資料"]。
+
+
+
+==== Data Sense可識別日本的個人號碼
+
+Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（我的號碼）」）的檔案。這包括「個人」和「公司我的號碼」。 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看Data Sense可在您的資料中識別的所有個人資料類型"]。
 
 
 
@@ -998,6 +992,10 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kuberne
 
 == 監控
 
+
+
+=== 2022年11月1日
+
 監控服務於2022年11月1日淘汰。您現在Cloud Insights 可以從導覽功能表選擇* Insights > observability *、直接找到指向《》的連結。
 
 
@@ -1151,6 +1149,10 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 
 == 服務SnapCenter
+
+
+
+=== 2022年11月1日
 
 該服務已於2022年11月1日淘汰。SnapCenter
 

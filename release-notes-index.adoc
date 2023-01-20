@@ -47,7 +47,7 @@ permalink: release-notes-index.html
 * https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["雲端分層"^]
 * https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["運算"^]
 * https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["全域檔案快取"^]
-* https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["勒索軟體"^]
+* https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["勒索軟體保護"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["複寫"^]
 
 

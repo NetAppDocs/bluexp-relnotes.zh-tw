@@ -97,8 +97,6 @@
   <block id="5834a4cf351e513e7bec7b42c17cb246" category="list-text"><block ref="5834a4cf351e513e7bec7b42c17cb246" category="inline-link-rx"></block></block>
   <block id="818bcbc7a642cb031afa7b414815a76c" category="list-text"><block ref="818bcbc7a642cb031afa7b414815a76c" category="inline-link-rx"></block></block>
   <block id="24bb270dd8a21f04115481dc5a9e23f9" category="list-text"><block ref="24bb270dd8a21f04115481dc5a9e23f9" category="inline-link-rx"></block></block>
-  <block id="232a2b16a1710c0ed1d16548ba8bb8f1" category="inline-link">勒索軟體</block>
-  <block id="723c4c67941a96b49b471e8a0ef4b07d" category="list-text"><block ref="723c4c67941a96b49b471e8a0ef4b07d" category="inline-link-rx"></block></block>
   <block id="c49bb8aa9fd443e227ec7dd83d980f9b" category="list-text"><block ref="c49bb8aa9fd443e227ec7dd83d980f9b" category="inline-link-rx"></block></block>
   <block id="7258e7251413465e0a3eb58094430bde" category="section-title">系統管理</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
@@ -243,17 +241,8 @@
   <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">2022年11月1日</block>
   <block id="23888423406e47190ca0cf40a113c61f" category="inline-link">瞭解如何管理NSS帳戶</block>
   <block id="929fa09ef9d24654b353f312638ca6e6" category="paragraph">Cloud Manager現在會在NetApp 支援網站 與您帳戶相關的更新權杖在3個月後過期時、提示您更新與您的候用帳戶相關的認證資料。<block ref="abba285888ca54da9f89054b7e57f270" category="inline-link-rx"></block></block>
-  <block id="2d96aa84884717fd77e4906d82c73ddc" category="section-title">2022年9月28日</block>
   <block id="89d500a3ace67f6d47edb61231336589" category="section-title">Cloud Backup for Applications的增強功能</block>
-  <block id="f617da6b50728500642eb376ab97b6f4" category="list-text">建立自訂原則</block>
-  <block id="eaec67d5f8f719a2f05b5ded5dc4ce60" category="list-text">支援歸檔儲存</block>
-  <block id="37976e53c610f9f37f8310aaacc3323e" category="list-text">備份SAP HANA應用程式</block>
-  <block id="bd3468a6ecb625b121385bd7f39c67e1" category="list-text">備份VMware環境中的Oracle和SQL應用程式</block>
-  <block id="a0f2b147a9c0eb0f8a59efd52556c7a2" category="list-text">從內部部署的二線儲存設備備份應用程式</block>
-  <block id="c05b61fb3f1a201cd787a5c713ee2461" category="list-text">停用備份</block>
-  <block id="40cfdc443f8536e4e751b21f465246d7" category="list-text">取消登SnapCenter 錄伺服器</block>
   <block id="e75ce95021f32383e6a928c1b242bc34" category="section-title">增強了適用於虛擬機器的Cloud Backup功能</block>
-  <block id="46a34c0c1ccc14eb217db2e715c43df6" category="list-text">支援StorageGRID 使用支援還原來備份一或多個資料存放區</block>
   <block id="f3630c1c94e3e51aaea5bdd037dc03c9" category="section-title">2022年10月30日</block>
   <block id="5c7d084f950ad8af7d03c171b38bbaba" category="section-title">從Microsoft Azure持續同步</block>
   <block id="e4c664e7de05c9b6f33c4dc4c5e8c120" category="paragraph">現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。</block>
@@ -290,7 +279,6 @@
   <block id="c491d515e74738c0f4f9512024e9b4cd" category="paragraph">該服務已於2022年11月1日淘汰。SnapCenter</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
   <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP索引</block>
-  <block id="ff93781ff90bf605d8b3070c1501b28f" category="sidebar">BlueXP網站部落格</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="733947b9c31fd162b40f0854f88a98f0" category="section-title">2022年11月2日</block>
   <block id="4e1bedfa5acb9fc8467640ea1dcaece3" category="section-title">能夠將較舊的Snapshot複本匯出至基礎備份檔案</block>
@@ -319,7 +307,6 @@
   <block id="bcce731a4ced178ba1457a0965f1a878" category="list-text">「工作詳細資料」頁面會顯示正在執行以完成主要工作的所有子工作。</block>
   <block id="95bdcffb51de388c8d204ebc69a73e61" category="section-title">AWS跨帳戶備份增強功能</block>
   <block id="ae3795f53c6086a9639e4652dbff318b" category="paragraph">如果您想要使用不同於Cloud Volumes ONTAP 來源磁碟區的AWS帳戶進行還原備份、則必須在BluetXP中新增目的地AWS帳戶認證、而且必須將「S3：PuttBucketPolicy」和「S3：PuttetOwnershipControl」權限新增至IAM角色、以便為BlueXP提供權限。過去、您需要在AWS主控台設定許多設定、您不再需要這麼做了。</block>
-  <block id="ef63a877f0594c057f824f4327169a39" category="list-text">支援Google Cloud Platform（GCP）和StorageGRID 支援以備份應用程式一致的快照</block>
   <block id="0198cdca4033ab7a459e75dac29fa28e" category="section-title">支援掃描SharePoint內部部署帳戶</block>
   <block id="576988db8c435aebbdd8f982f33f8ac5" category="paragraph">Data Sense現在可以掃描SharePoint Online帳戶和SharePoint內部部署帳戶（SharePoint Server）。如果您需要在自己的伺服器上安裝SharePoint、或是在無法存取網際網路的站台上安裝SharePoint、現在您可以讓Data Sense掃描這些帳戶中的使用者檔案。<block ref="8036d15ae032ce99e20eb0ee5791bf65" category="inline-link-rx"></block>。</block>
   <block id="9793f1d7484adebeb64fb621258edfaf" category="section-title">能夠重新掃描多個目錄（資料夾或共用）</block>
@@ -473,9 +460,7 @@
   <block id="88a11892e7418e1eee8c952df9545b46" category="section-title">2023年1月9日</block>
   <block id="b17d2155a07524d0e8a3d1eb73a257c3" category="section-title">能夠將較舊的備份檔案從StorageGRID 支援系統移至AWS S3歸檔儲存設備</block>
   <block id="76592785cd14862cf74d11289e50ed92" category="paragraph">現在您可以將舊的備份檔案分層、從StorageGRID 支援的系統、到AWS S3的歸檔儲存設備。如此一來StorageGRID 、您就能釋出整個作業系統的空間、並使用經濟實惠的儲存類別來儲存舊的備份檔案、進而節省成本。您可以選擇將備份分層至AWS S3 Glacier或S3 Glacier Deep Archive儲存設備。</block>
-  <block id="481c6a107a47fcbb610d4e79b7d8bc01" category="paragraph">如果您的叢集使用ONTAP 的是更新版本的版本、而StorageGRID 您的系統使用的是11.3或更新版本、則可使用此功能。<block ref="ba1010a667c53f122912d421bb932c28" category="inline-link-rx"></block>。</block>
   <block id="5baabb9bbca503ea382779d0fce7e9c5" category="section-title">能夠在Google Cloud上選擇您自己的客戶管理金鑰來進行資料加密</block>
-  <block id="d42d3ab595b05475b681bcec25a25c6b" category="paragraph">將ONTAP 資料從您的支援系統備份到Google Cloud Storage時、現在您可以在啟動精靈中選擇自己的客戶管理金鑰來進行資料加密、而不使用預設的Google管理加密金鑰。只要先設定客戶管理的加密金鑰、然後在啟動Cloud Backup時輸入詳細資料即可。</block>
   <block id="b9395c2030b2a8ad48d31ad52bd9f6e9" category="section-title">服務帳戶不再需要「儲存管理員」角色、即可在Google Cloud Storage中建立備份</block>
   <block id="d7cf6019b64afefeee4361ce4c22ce30" category="inline-link">瞭解如何準備Google Cloud Storage進行備份</block>
   <block id="121b4934193e6ec77a35338afd1028bb" category="paragraph">在早期版本中、「儲存管理員」角色是讓Cloud Backup能夠存取Google Cloud Storage儲存桶的服務帳戶所需的角色。現在您可以建立自訂角色、並減少指派給服務帳戶的權限集。<block ref="cdc0823dc4910df979845484c27cfc1d" category="inline-link-rx"></block>。</block>
@@ -492,4 +477,18 @@
   <block id="2d7dcb96cb20cbaa2b94280f3b67d862" category="paragraph"><block ref="e3dd455551e82145f7b0bbdda5ed35ae" category="inline-link-rx"></block>。</block>
   <block id="4e499a708b699475cdaf2e23cd596d11" category="section-title">我們新增支援功能、透過電子郵件和通知中心接收勒索軟體保護警示</block>
   <block id="53bccb80a99ecb6d22ac23a5d83a662e" category="paragraph">勒索軟體保護已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示勒索軟體保護通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意勒索軟體警示的收件者。<block ref="4b31f56f66b4ac96107c1c8a3ca6ad6e" category="inline-link-rx"></block>。</block>
+  <block id="4856dfc18851de08c9ed97332b1fd100" category="list-text"><block ref="4856dfc18851de08c9ed97332b1fd100" category="inline-link-rx"></block></block>
+  <block id="b7027e7163ab44680c3c69296db41564" category="paragraph">如果內部叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統使用的是11.3或更新版本、則可使用此功能。<block ref="ba1010a667c53f122912d421bb932c28" category="inline-link-rx"></block>。</block>
+  <block id="0b17a5b6850808b4455bcd3d8bf54966" category="paragraph">將ONTAP 資料從您的支援系統備份到Google Cloud Storage時、現在您可以在啟動精靈中選擇自己的客戶管理金鑰來進行資料加密、而不使用預設的Google管理加密金鑰。只要先在Google中設定客戶管理的加密金鑰、然後在啟動Cloud Backup時輸入詳細資料即可。</block>
+  <block id="e083799711dc9b588bbb440525564506" category="section-title">我們新增支援、在沒有網際網路存取的站台中使用「搜尋與還原」來還原資料</block>
+  <block id="a282fca785a0e402e0b5cdde4c380d6d" category="paragraph">如果您將資料從內部ONTAP 的支援叢集備份到StorageGRID 無法存取網際網路的站台（也稱為暗站或離線站台）、現在您可以使用「搜尋與還原」選項在必要時還原資料。此功能需要在離線站台部署BlueXP Connector（3.9.25版或更新版本）。</block>
+  <block id="c9ec78264dce9938676b736265201e28" category="inline-link">瞭解如何ONTAP 使用Search &amp;amp; Restore還原資料</block>
+  <block id="6f44a1bf2246f054fd573ae9473909b6" category="inline-link">瞭解如何在離線站台中安裝Connector</block>
+  <block id="74aacc002c6d6d85e9786012bf71af08" category="paragraph"><block ref="fbe0ce057e5d8013a227c4cb944242a5" category="inline-link-rx"></block>。<block ref="eb618b89294e80d594faecbc4641afee" category="inline-link-rx"></block>。</block>
+  <block id="5e6d4a84337eb1e0ff5a019edf3a15d6" category="section-title">能夠檢視含有敏感資料且過於許可的檔案圖表</block>
+  <block id="d9b195efc41ceb51899b712eb2c0c583" category="paragraph">「治理」儀表板新增了「敏感資料」和「廣泛權限」區域、提供內含敏感資料（包括敏感和敏感個人資料）且過於許可的檔案熱圖。這有助於您瞭解敏感資料的風險所在。<block ref="315faeb2b0e6f27dd87bce24f0b16dd0" category="inline-link-rx"></block>。</block>
+  <block id="39042f4c3554377e7367f85ef5edf207" category="section-title">Data Sense可識別日本的個人號碼</block>
+  <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看Data Sense可在您的資料中識別的所有個人資料類型</block>
+  <block id="21e575de9b2cf958293bb22c657eba7b" category="paragraph">Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（我的號碼）」）的檔案。這包括「個人」和「公司我的號碼」。<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>。</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
 </blocks>
