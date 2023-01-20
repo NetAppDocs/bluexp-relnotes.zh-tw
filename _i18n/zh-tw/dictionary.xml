@@ -491,4 +491,18 @@
   <block id="8900e436e6a12ce71aa703bf1c8be02c" category="inline-link">查看Data Sense可在您的資料中識別的所有個人資料類型</block>
   <block id="21e575de9b2cf958293bb22c657eba7b" category="paragraph">Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（我的號碼）」）的檔案。這包括「個人」和「公司我的號碼」。<block ref="b4ce36808fde13e40836bb7d14af31c6" category="inline-link-rx"></block>。</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
+  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023年1月1日</block>
+  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">自動容量管理</block>
+  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">您現在可以選擇啟用 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。</block>
+  <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
+  <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">您現在可以了 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
+  <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">如果您先前已將AWS認證資料提供給Cloud Manager、全新的* My Opportunity *功能可自動探索ONTAP 及建議使用Cloud Manager新增及管理的FSX for the Sfx*檔案系統。您也可以透過「*我的商機*」標籤來檢視可用的資料服務。</block>
+  <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">利用ONTAP 我的商機探索FSXfor Sfor</block>
+  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
+  <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">變更處理量容量</block>
+  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">您現在可以了 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
+  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">複寫及同步資料</block>
+  <block id="897d994d4d024883042e664eba152417" category="list-text">您現在可以了 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> 內部部署和其他FSXfor ONTAP the Sfor the Sfor the Sfor the ONTAP 資料來源、使用FSXfor the Sfor the資料來源。</block>
+  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用</block>
+  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">您現在可以了 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>。</block>
 </blocks>
