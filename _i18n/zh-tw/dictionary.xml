@@ -188,14 +188,7 @@
   <block id="f7ae9f1fb8f4b7044457ebf35058b088" category="paragraph"><block ref="8365080032c57ac637a7cb1d0af196ae" category="inline-link-rx"></block>。</block>
   <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">如需詳細資訊、請參閱此處</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
-  <block id="ab288ae4b4c50ebb9a997e0f0debbd15" category="section-title">2022年9月19日</block>
   <block id="392d70ca39f31f10bd637936769788df" category="inline-link">StorageGRID</block>
-  <block id="905ecf204d0cf0b2ed497e63ae9324d0" category="inline-link">使用VPC端點介面設定系統的私有連線</block>
-  <block id="33e030edd0380c3b2d743ec2f989598c" category="paragraph">在先前的版本中、透過VPC端點提供這種將叢集連接至S3儲存區的安全方法、非常耗時。現在您可以依照必要步驟執行至<block ref="fb4b1250ed3d38b3a9447c7c732436c8" category="inline-link-rx"></block>然後您可以在「網路」頁面中的分層設定精靈期間選取Private Link。</block>
-  <block id="883959b6b7ad90936b33d524655bc282" category="inline-link">檢閱將非使用中資料分層至Amazon S3的要求和步驟</block>
-  <block id="93d0679385afbe8961d65715ec42ad95" category="paragraph"><block ref="eae517fc6cf18ab5b51a15743d8fba49" category="inline-link-rx"></block>。</block>
-  <block id="6a22836d972c44908e791a2300d9312a" category="section-title">拖放以啟用雲端分層至Amazon S3</block>
-  <block id="84b50dc471c57455cf0359ad021a8c58" category="paragraph">如果Amazon S3分層目的地是在Canvas上的工作環境、您可以將內部ONTAP 的支援環境拖曳到目的地、以啟動分層設定精靈。</block>
   <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">您現在可以將自我管理的OpenShift叢集匯入Cloud Manager。</block>
   <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">OpenShift中的Kubernetes叢集需求</block>
   <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
@@ -222,16 +215,12 @@
   <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
   <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">設定與管理</block>
   <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
-  <block id="c3d7ada1f42d9b916dd8624c5b5661c1" category="section-title">分層精靈可讓您在分層至S3儲存設備時、設定AWS Private Link</block>
-  <block id="bf482155aab691ba59a0313f5628cbba" category="section-title">在MetroCluster 刪除鏡射物件儲存區時、請選擇分層行為</block>
-  <block id="cd71992689f7bdbde4a7c9f0653f44f3" category="paragraph">從MetroCluster 物件庫中移除鏡射物件存放區時、系統會提示您是否也要移除主要物件存放區。您可以選擇將主要物件存放區附加至集合體、或是移除它。</block>
   <block id="24107a8e1555736c2428c199a70f695f" category="summary">這些版本說明說明最新的雲端服務增強功能、這些功能是BlueXP（前身為Cloud Manager）的一部分。每項個別服務的完整版本資訊均提供連結。</block>
   <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP版本說明</block>
   <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP中的更新版本資訊Cloud Volumes ONTAP</block>
   <block id="768f6f21e441ee3eb49fe0b2939ca706" category="list-text"><block ref="768f6f21e441ee3eb49fe0b2939ca706" category="inline-link-rx"></block></block>
   <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">最新的BlueXP變更</block>
-  <block id="1262adaf755b126adfb35787960ae9ac" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台（先前稱為Cloud Manager）的一部分。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">介紹BlueXP</block>
   <block id="78d1c9f9c86eecd86f5f568cfe0c0721" category="inline-link">深入瞭解BlueXP</block>
   <block id="589a81f9a559c7792363bf5c658f7eb7" category="paragraph">Cloud Manager於2022年11月1日重新命名為BlueXP。<block ref="f8081012fbfe0608e8247bd5ec45b886" category="inline-link-rx"></block></block>
@@ -282,14 +271,6 @@
   <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">如果Azure Blob、Google Cloud Storage或StorageGRID Setiering目的地是在CanvasTM上的工作環境、您可以將內部ONTAP 環境拖曳至目的地、以啟動分層設定精靈。</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
-  <block id="9a37fbeb5352e14f2a53fe349c60ad58" category="section-title">連接器3.9.24</block>
-  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
-  <block id="609db1dbd04bb2ee742cb4078546018c" category="list-text">我們已將BlueXP主控台的URL更新為<block ref="d4d03fd3c2a1ab003ebd5cf52ee8df58" category="inline-link-rx"></block></block>
-  <block id="4a11791a9bd4070a9cb5e2e709d06351" category="list-text">Google Cloud Israel地區現在支援Connector。</block>
-  <block id="1765dff10197df4bf080f41e5537f2a5" category="list-text">此版本的Connector也包含Cloud Volumes ONTAP 了加強功能的功能、以及內部ONTAP 的叢集增強功能。</block>
-  <block id="242cf97b6ce4408dde25722d6b0e37f9" category="list-text"><block ref="242cf97b6ce4408dde25722d6b0e37f9" category="inline-link-rx"></block></block>
-  <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">深入瞭ONTAP 解內部叢集增強功能</block>
-  <block id="4703fae8488338a7ad69a5cd4347caf3" category="list-text"><block ref="4703fae8488338a7ad69a5cd4347caf3" category="inline-link-rx"></block></block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">以下是3.9.24版本的Connector所做的變更。</block>
   <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">探索內部ONTAP 部署的新型叢集方法</block>
   <block id="d69d6ceca70ae4e3b7cf6949930f5168" category="paragraph">您現在ONTAP 無需使用Connector、即可直接探索內部的功能性叢集。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。</block>
@@ -340,7 +321,6 @@
   <block id="826d1d89ec2a521e40a7a91c2ee8f024" category="paragraph"><block ref="826d1d89ec2a521e40a7a91c2ee8f024" category="inline-link-rx"></block></block>
   <block id="e29eef6ae64d545134f2b42984845a94" category="section-title">2022年12月19日</block>
   <block id="0a286ad90f3a25f45e443367036a8789" category="list-text">SAP HANA資料庫</block>
-  <block id="feb69ad1d8975111fe86bbc94b823a7f" category="list-text">支援以原則為基礎的SAP HANA資料庫備份與還原Azure NetApp Files 功能、這些資料庫位於</block>
   <block id="d5a365014bbbc5172b423043fb2a2501" category="list-text">支援自訂原則</block>
   <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Oracle資料庫</block>
   <block id="aa6dc7e308fa4a4875c447c8e7fa4a19" category="list-text">新增主機並自動部署外掛程式</block>
@@ -436,15 +416,6 @@
   <block id="380fe7c3627610af34c9936f46325923" category="paragraph">您現在可以選擇啟用 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。</block>
   <block id="3abe9a67eae0ad33b1c96ff4ae8b1eaa" category="inline-link-macro">變更儲存容量和IOPS</block>
   <block id="4054992d1ab241cf4542bc8cd502d679" category="paragraph">您現在可以了 <block ref="57fbdd5ba152894391c55cce5d9fe8f8" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
-  <block id="dd15e63d013ad6e70302caae66b83f6d" category="list-text">如果您先前已將AWS認證資料提供給Cloud Manager、全新的* My Opportunity *功能可自動探索ONTAP 及建議使用Cloud Manager新增及管理的FSX for the Sfx*檔案系統。您也可以透過「*我的商機*」標籤來檢視可用的資料服務。</block>
-  <block id="6ebe96f0162b363fd765e000afd1c4f0" category="inline-link-macro">利用ONTAP 我的商機探索FSXfor Sfor</block>
-  <block id="a83471208430f7fbd0630757d97c5142" category="paragraph"><block ref="a83471208430f7fbd0630757d97c5142" category="inline-link-macro-rx"></block></block>
-  <block id="e2399171d04de4904bc9ceb3e1c97260" category="inline-link-macro">變更處理量容量</block>
-  <block id="6cd901297cf29a4b459f2cc11e68c6d6" category="list-text">您現在可以了 <block ref="697a0d5ee189fb6da3b3bef50626dd94" category="inline-link-macro-rx"></block> 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、</block>
-  <block id="7699be7c50b8640b313d71cce9004797" category="inline-link-macro">複寫及同步資料</block>
-  <block id="897d994d4d024883042e664eba152417" category="list-text">您現在可以了 <block ref="df556429a26e71fbf9e095a790447f2b" category="inline-link-macro-rx"></block> 內部部署和其他FSXfor ONTAP the Sfor the Sfor the Sfor the ONTAP 資料來源、使用FSXfor the Sfor the資料來源。</block>
-  <block id="42c82b44ceecde8407f75a70409e2aec" category="inline-link-macro">使用ONTAP Cloud Manager在FSXF中建立iSCSI Volume以供其使用</block>
-  <block id="cf648eb1e2c8b4986628f39a529b68f1" category="list-text">您現在可以了 <block ref="7c9b88630e88eb3d402b9bbec2515bca" category="inline-link-macro-rx"></block>。</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023年2月5日（1.20版）</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能夠將原則型通知電子郵件傳送至任何電子郵件地址</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">在舊版的Cloud Data Sense中、當某些重要原則傳回結果時、您可以傳送電子郵件警示給帳戶中的BlueXP使用者。此功能可讓您取得通知、在您不在線上時保護資料。現在、您也可以將原則的電子郵件警示傳送給任何其他使用者（最多20個電子郵件地址）、而這些使用者不在您的BlueXP帳戶中。</block>
@@ -545,4 +516,35 @@
   <block id="6d1902eb0495d9d60f02e9146d0a091a" category="paragraph"><block ref="0ee4c43a6d75245009919f8e1767edb7" category="inline-link-rx"></block>。</block>
   <block id="33720bb7474c733a91f61445b2fe886d" category="paragraph"><block ref="919878f5ddd65e1ab5af9e84f9299a2f" category="inline-link-rx"></block>。</block>
   <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">連接器輸出網際網路存取端點變更</block>
+  <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
+  <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
+  <block id="ba5bb99eb6a04798c8ccd3f156db75a5" category="section-title">連接器3.9.27</block>
+  <block id="ce47c670900f3fe8347a2fc95ff710d8" category="list-text">現在可在BlueXP主控台中搜尋。此時、您可以使用搜尋來尋找BlueXP服務和功能。</block>
+  <block id="73984711a5ba4c8d6f613d3ef2426680" category="inline-image-macro">主控台頂端提供的BlueXP搜尋快照。</block>
+  <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="list-text">您可以直接從BlueXP檢視及管理作用中和已解決的支援案例。您可以管理與您的NSS帳戶和貴公司相關的個案。</block>
+  <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">瞭解如何管理您的支援案例</block>
+  <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>。</block>
+  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">連接器現在支援執行Red Hat Enterprise Linux 8.7的主機。</block>
+  <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link">檢視Connector的系統需求</block>
+  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>。</block>
+  <block id="9597dfcf8249ec8766cfb35fd11357f3" category="list-text">現在、連接器可在完全隔離網際網路的任何雲端環境中獲得支援。然後您可以使用連接器上執行的BlueXP主控台、在Cloud Volumes ONTAP 同一個位置部署故障、並探索內部部署ONTAP 的故障叢集（如果您的雲端環境與內部部署環境之間有連線）。此類部署不支援其他BlueXP服務、數位錢包除外。</block>
+  <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">雲端區域可以是美國安全機構的區域、例如AWS C2S/SC2S、Azure IL6或任何商業區域。</block>
+  <block id="33b6f29ed1acfc0fbed883a6e1f44ef2" category="paragraph">若要開始使用、請手動安裝Connector軟體、登入在Connector上執行的BlueXP主控台、將BYOL授權新增至Digital Wallet、然後再部署Cloud Volumes ONTAP 。</block>
+  <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">將Connector安裝在沒有網際網路存取的位置</block>
+  <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
+  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">存取Connector上的BlueXP主控台</block>
+  <block id="b620510a7b9198825896459898b7bc08" category="list-text"><block ref="b620510a7b9198825896459898b7bc08" category="inline-link-rx"></block></block>
+  <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">新增未指派的授權</block>
+  <block id="587a8286d2e3b61d9f250d807b34983c" category="list-text"><block ref="587a8286d2e3b61d9f250d807b34983c" category="inline-link-rx"></block></block>
+  <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">立即開始Cloud Volumes ONTAP 使用</block>
+  <block id="d66686137674e9cdef6070dbe4ce01c6" category="list-text"><block ref="d66686137674e9cdef6070dbe4ce01c6" category="inline-link-rx"></block></block>
+  <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">使用者介面已進行改善、文件中已更新螢幕擷取畫面。</block>
+  <block id="fcdf1a1b46f3b7e8ad6ff82010438a90" category="list-text">支援以原則為基礎的SAP HANA資料庫備份與還原Azure NetApp Files 功能、這些資料庫位於支援中心</block>
+  <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">現在您可以為磁碟區產生分層報告</block>
+  <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">瞭解如何下載分層報告</block>
+  <block id="10607665fc9de51ae2bf29927d3673b9" category="paragraph">您可以從「層級磁碟區」頁面下載報告、以便檢閱所管理叢集上所有磁碟區的分層狀態。雲端分層會產生.CSV檔案、您可以視需要檢閱並傳送給貴公司的其他人員。<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>。</block>
+  <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP中的Kubernetes現在支援Astra Trident 23.01。</block>
 </blocks>
