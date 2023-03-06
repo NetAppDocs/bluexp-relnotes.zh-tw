@@ -288,14 +288,6 @@
   <block id="2750ec6dc42d79b24b9902d41543b6fd" category="paragraph"><block ref="0b2b94d5062b1eb6747bf9cb58e01b77" category="inline-link-rx"></block>。</block>
   <block id="d1c49eec91984b5c0c7c8ff6998bb65d" category="section-title">能夠將資料從備份還原到Cloud Volumes ONTAP 位於不受影響的系統上的特定集合體</block>
   <block id="e674451efff1f119cf056a3e852d4483" category="paragraph">在早期版本中、您只能在將資料還原至內部ONTAP 的資訊系統時、才選取Aggregate。此功能現在可用於將資料還原Cloud Volumes ONTAP 至還原系統。</block>
-  <block id="c3828ad11edf9a8e2a0d7bd8910b2ad3" category="section-title">2022年12月11日（版本1.18）</block>
-  <block id="329171a5c817ab7ae03a1497aa6d59fa" category="section-title">內部部署安裝增強功能</block>
-  <block id="500b30285e1a741b658bc533a0a125a1" category="paragraph">內部部署Data Sense安裝新增下列增強功能：</block>
-  <block id="bacf3e82e48abd0e39c6a162b4aa7191" category="list-text">在內部部署主機上開始安裝之前、現在會先檢查其他一些先決條件。這有助於確保主機系統100%準備好安裝Data Sense軟體：</block>
-  <block id="8e3833fdafa0cd3a63d1fae40cbd74e9" category="list-text">測試所有必要資料夾的相關權限</block>
-  <block id="36cbb51c271d3c68a01a8599c0fbd2b8" category="list-text">在「組態」頁面中、「工作環境」區段現在會顯示_工作環境ID_和_掃描器群組_名稱。如果您打算使用多個Data Sense主機來提供額外的處理能力來掃描資料來源、則必須知道工作環境ID。</block>
-  <block id="73e22396c6474ab27832098f1351b823" category="inline-link">深入瞭解如何在單一主機伺服器和多個主機上安裝Data Sense</block>
-  <block id="7d11de825f5fb48a0194c3826f7e2322" category="paragraph"><block ref="6aec5abc0a91e6bbae2064cb8f81d2dd" category="inline-link-rx"></block>。</block>
   <block id="5912630061434e78e733b8d5e5e3dc88" category="section-title">2022年12月11日</block>
   <block id="9709c6ba9ff4b10cb5ec3f4f956d3226" category="section-title">依名稱篩選目錄</block>
   <block id="43b44f78e255d05aac846a6181095cd6" category="paragraph">現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。</block>
@@ -308,13 +300,6 @@
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">深入瞭解支援的同步關係</block>
   <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>。</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">深入瞭Cloud Volumes ONTAP 解本版的更新功能</block>
-  <block id="fe9c9f72fd091b4ebc4d0686a2dccdc6" category="section-title">2022年12月11日</block>
-  <block id="ff1a552e36acc064f2353128cc8cae7e" category="section-title">勒索軟體保護分數面板已新增建議的新動作</block>
-  <block id="3a3306a02dc91a314c088887bca99ae6" category="paragraph">針對您儲存系統上發現的下列勒索軟體保護問題、現在會顯示兩項新的建議動作：</block>
-  <block id="ac70ac84684b450ac1ec25740da08f6f" category="list-text">_減少具有廣泛權限的X敏感項目的權限_-您的資料來源中已找到具有開放權限的敏感檔案</block>
-  <block id="e536c956b5336f840fdf1f34295e7626" category="list-text">_Patch X OPEN CVEs橫跨Y資料來源_- ONTAP 在您的系統上發現未修補的CVEs</block>
-  <block id="dced9da708bc7f04e84ad156297f2b2a" category="inline-link">請參閱所有建議行動的清單</block>
-  <block id="2887af3281ffddb6374ef4f66b57c7d5" category="paragraph">您可以在UI中選取這些動作、然後依照工作流程來解決基礎問題。<block ref="ed823e4f932da1d207b551c7d7ca0450" category="inline-link-rx"></block>。</block>
   <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023年1月1日</block>
   <block id="e139aa454163ce195b3669d769c3f1c8" category="section-title">連接器3.9.25</block>
   <block id="ab010f0ae1d3cb2043f9513a1f81beea" category="paragraph">此版本的Connector包含Cloud Volumes ONTAP 了一些強化功能和錯誤修正。</block>
@@ -348,8 +333,6 @@
   <block id="e3a84cf85e2ede3f349ff73485707901" category="section-title">支援在UI中選取Google Archival儲存類別</block>
   <block id="862c6bfd630667f5b535d9741b4f08fc" category="paragraph">備份檔案最初是在Google Standard儲存類別中建立。現在您可以使用Cloud Backup使用者介面、在特定天數後將舊備份分層至Google歸檔儲存設備、以進一步最佳化成本。</block>
   <block id="f337eb9be5f215d07b89436adc58d486" category="paragraph">Cloud Backup現在支援還原FlexGroup 及備份功能。使用ONTAP 支援更新版本的《支援資料》時、您可以將FlexGroup 《支援資料》備份到公有雲和私有雲儲存設備。如果您的工作環境包含FlexVol 了一些不含支援的功能、FlexGroup 請在更新ONTAP 完您的支援功能後、在FlexGroup 這些系統上備份任何的支援功能。</block>
-  <block id="c73eb1c0478b9ea7f0699ac7b64d4214" category="list-text">測試上是否有足夠的空間<block ref="2e1a4e3f55001820560b237188c70bc3" prefix=" " category="inline-code"></block>、<block ref="d42b9c57d24cf5db3bd8d332dc35437f" prefix=" " category="inline-code"></block>和<block ref="68ab1268abb7e5f5688810968df97d6b" prefix=" " category="inline-code"></block></block>
-  <block id="da8fda88af08dfa86e6c1895e629a7a5" category="list-text">此外、在「組態」頁面中、會有一個新區段顯示您已設定的掃描器群組、以及每個群組中的掃描器節點。</block>
   <block id="bfc6fe3f8d2577420634f29daac2cfe3" category="section-title">2023年1月3日</block>
   <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">在UI上顯示資料代理本機組態</block>
   <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">現在有一個*顯示組態*選項、可讓使用者檢視UI上每個資料代理程式的本機組態。</block>
@@ -420,7 +403,6 @@
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能夠將原則型通知電子郵件傳送至任何電子郵件地址</block>
   <block id="01bfbdebf8836af0160f70e1bacc3787" category="paragraph">在舊版的Cloud Data Sense中、當某些重要原則傳回結果時、您可以傳送電子郵件警示給帳戶中的BlueXP使用者。此功能可讓您取得通知、在您不在線上時保護資料。現在、您也可以將原則的電子郵件警示傳送給任何其他使用者（最多20個電子郵件地址）、而這些使用者不在您的BlueXP帳戶中。</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">深入瞭解如何根據原則結果傳送電子郵件警示</block>
-  <block id="58c8b31479a452f2c02b4c4beb2b8e6f" category="section-title">現在您可以從UI新增Data Sense將識別的個人模式</block>
   <block id="bbc056ffe85cbc0784df7b39d5fac941" category="paragraph">Data Sense能夠新增自訂的「個人資料」、讓Data Sense在未來一段時間的掃描中能夠識別這些資料。不過、您需要登入Data Sense Linux主機、然後使用命令列新增自訂模式。在此版本中、使用regex新增個人模式的功能位於Data Sense UI中、可讓您輕鬆新增及編輯這些自訂模式。</block>
   <block id="e743c1cea3cca118a07bf2fd9a21ec39" category="inline-link">深入瞭解如何從Data Sense UI新增自訂模式</block>
   <block id="6f3ebec91d6086cea205504bdbc3fd37" category="paragraph"><block ref="8eedc9e36b5a6054f1f5d8b4937ba068" category="inline-link-rx"></block>。</block>
@@ -547,4 +529,47 @@
   <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">瞭解如何下載分層報告</block>
   <block id="10607665fc9de51ae2bf29927d3673b9" category="paragraph">您可以從「層級磁碟區」頁面下載報告、以便檢閱所管理叢集上所有磁碟區的分層狀態。雲端分層會產生.CSV檔案、您可以視需要檢閱並傳送給貴公司的其他人員。<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>。</block>
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP中的Kubernetes現在支援Astra Trident 23.01。</block>
+  <block id="916fe80558e430806f51297666a415c2" category="section-title">2023年3月7日（版本1.21）</block>
+  <block id="7cc6aa730dc07100bcd50ee1f4fbfd19" category="section-title">新功能可從Data Sense UI新增您自己的自訂類別</block>
+  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">預先定義的類別</block>
+  <block id="e9b59b0856829e5de68c6c48d7bf751a" category="paragraph">Data Sense現在可讓您新增自己的自訂類別、讓Data Sense能夠識別符合這些類別的檔案。資料感測有許多<block ref="de03089a629f50d7fb2223d1c9b484a6" category="inline-link-rx"></block>因此，此功能可讓您新增自訂類別，以識別在資料中找到組織專屬的資訊。</block>
+  <block id="4aedc0068ab1ebb9a68cd09e40502224" category="paragraph"><block ref="29977fc02ca1e575e657cf5a87ae1883" category="inline-link-rx"></block>。</block>
+  <block id="0cfe3d251c44c584db4827f5eac474f3" category="section-title">現在您可以從Data Sense UI新增自訂關鍵字</block>
+  <block id="675cae3035897ece265ad5535f76321b" category="paragraph">Data Sense能夠新增自訂關鍵字、讓Data Sense在未來一段時間內能識別這些關鍵字。不過、您需要登入Data Sense Linux主機、然後使用命令列介面新增關鍵字。在此版本中、新增自訂關鍵字的功能是在Data Sense UI中、因此很容易新增及編輯這些關鍵字。</block>
+  <block id="3c12577975025d20be661bf1079d0923" category="inline-link">深入瞭解如何從Data Sense UI新增自訂關鍵字</block>
+  <block id="5e505948799cd73b45f70a049da0e41a" category="paragraph"><block ref="ef53a029e403771b20a22fa95fad2aaa" category="inline-link-rx"></block>。</block>
+  <block id="146d89b210b39f6767f51058456d0756" category="section-title">在「上次存取時間」變更時、能夠擁有Data Sense * Not *掃描檔案</block>
+  <block id="a295dd857506727c4c246759c7a474d3" category="paragraph">根據預設、如果Data Sense沒有足夠的「寫入」權限、系統就不會掃描磁碟區中的檔案、因為Data Sense無法將「上次存取時間」還原為原始時間戳記。不過、如果您不在意上次存取時間是否重設為檔案中的原始時間、您可以在「組態」頁面中覆寫此行為、讓「Data Sense」（資料感測）不論權限為何、都能掃描磁碟區。</block>
+  <block id="b6bc23c7fd42c2dda40fd1667ea26c94" category="paragraph">結合此功能、新增名為「掃描分析事件」的篩選器、讓您檢視未分類的檔案、因為「資料感應」無法回復上次存取時間、或是資料感應無法回復上次存取時間的檔案。</block>
+  <block id="b498fa3614efad3784e7b196a75f0744" category="inline-link">深入瞭解「上次存取時間時間戳記」和Data Sense所需權限</block>
+  <block id="fdcb05c5040512d32e3c0eb54cd81fdb" category="paragraph"><block ref="094f0faa5796fc52325373d032f76ea7" category="inline-link-rx"></block>。</block>
+  <block id="7abfe7c481a0b29f8cf39a89e86de868" category="section-title">Data Sense可識別三種新類型的個人資料</block>
+  <block id="3b4b0faa54186ef002c6026e97e51a10" category="paragraph">Data Sense可識別及分類包含下列資料類型的檔案：</block>
+  <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="list-text">波札那身分證（Omang）號碼</block>
+  <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="list-text">波札那護照號碼</block>
+  <block id="ff3bab043a00af2e37e7dcaf393aea61" category="list-text">新加坡國家註冊身分證（NRIC）</block>
+  <block id="1e95bdda0b00306da0fc13aa5272c14f" category="paragraph"><block ref="fbd66eb529b6064c128e443473612523" category="inline-link-rx"></block>。</block>
+  <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">目錄的更新功能</block>
+  <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">資料調查報告的「輕度CSV報告」選項現在包含來自目錄的資訊。</block>
+  <block id="b2755be94249995adeed2a28b31a7393" category="list-text">「上次存取」時間篩選器現在會顯示檔案和目錄的上次存取時間。</block>
+  <block id="013efea19f002683e016d90789038d6e" category="section-title">安裝增強功能</block>
+  <block id="7b335a4581e4988d6ea3f8d6f1235a87" category="list-text">Data Sense可安裝在執行CentOS Stream 8的Linux主機上。</block>
+  <block id="1a62d65b23b4f298f3e1310266bbfad4" category="list-text">不具備網際網路存取（黑點）的站台資料感知安裝程式現在會執行預先檢查、以確保您的系統和網路需求已就緒、可順利安裝。</block>
+  <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">安裝稽核記錄檔現在會儲存、並寫入<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>。</block>
+  <block id="9a8e487c18ad9b8cacca43174094061d" category="section-title">現在您可以從Data Sense UI新增個人模式</block>
+  <block id="eed8585d0b45afc4676b1c89f6f22a9a" category="paragraph">以下是3.9.27版Connector的變更。</block>
+  <block id="e2c7f196cec5020e2b840087f6a8e068" category="section-title">Azure支援16 TiB和32 Tib</block>
+  <block id="bfb9ab5387a727da709a7377d950cee0" category="paragraph">目前支援16個TiB和32個TiB磁碟大小、可在Azure的託管磁碟上執行高可用度部署Cloud Volumes ONTAP 。</block>
+  <block id="8f9e72f80a7dd402a28a4b46aca286f9" category="inline-link">Azure支援的磁碟大小</block>
+  <block id="9bc26ebd17008cdc39569edf382f0b5e" category="paragraph">深入瞭解<block ref="e55b1d7df019ac083c7ffec036e8de25" category="inline-link-rx"></block>。</block>
+  <block id="1bbedbfdc08c3ed9498540dc734fa96a" category="section-title">MTEKM授權</block>
+  <block id="3cc0e97defd245de4dee36cae1e4c485" category="paragraph">多租戶加密金鑰管理（MTEKM）授權現已隨Cloud Volumes ONTAP 附於執行9.12.1 GA或更新版本的全新及現有的支援系統中。</block>
+  <block id="c43a4aedaaa96e7a4c838a24978b6052" category="paragraph">使用NetApp Volume Encryption時、多租戶外部金鑰管理可讓個別儲存VM（SVM）透過KMIP伺服器維護自己的金鑰。</block>
+  <block id="6b8afb72156ec7e5aff9808d22a9eb10" category="inline-link">瞭解如何使用NetApp加密解決方案來加密磁碟區</block>
+  <block id="bc912dd00b6301509fad22d6a376560d" category="paragraph"><block ref="532112271454bf057b0a2415bb119744" category="inline-link-rx"></block>。</block>
+  <block id="93616689ecb546d3ff1261cf76e33109" category="section-title">支援無網際網路的環境 </block>
+  <block id="28f5f7b773a8085f5db45145fb774c27" category="paragraph">目前支援任何完全隔離網際網路的雲端環境Cloud Volumes ONTAP 。這些環境僅支援節點型授權（BYOL）。不支援容量型授權。若要開始使用、請手動安裝Connector軟體、登入在Connector上執行的BlueXP主控台、將BYOL授權新增至Digital Wallet、然後再部署Cloud Volumes ONTAP 。 </block>
+  <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
+  <block id="b20988b483bceb3fb63077025a07d023" category="section-title">我們新增了全新的勒索軟體恢復儀表板、協助您從攻擊中恢復系統</block>
+  <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">勒索軟體還原儀表板提供選項、可用來還原可能已受勒索軟體感染的資料。這有助於您快速備份和執行系統。此時、還原動作可讓您以未受勒索軟體影響的Snapshot複本來取代毀損的磁碟區。<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>。</block>
 </blocks>
