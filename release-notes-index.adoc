@@ -23,6 +23,7 @@ permalink: release-notes-index.html
 
 * https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/whats-new.html["Amazon FSX for ONTAP Sf"^]
+* https://docs.netapp.com/us-en/bluexp-s3-storage/whats-new.html["Amazon S3儲存設備"^]
 * Cloud Volumes ONTAP
 +
 ** https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["發行說明Cloud Volumes ONTAP"^]

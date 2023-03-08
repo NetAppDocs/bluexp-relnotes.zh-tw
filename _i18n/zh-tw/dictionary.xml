@@ -572,4 +572,9 @@
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">我們新增了全新的勒索軟體恢復儀表板、協助您從攻擊中恢復系統</block>
   <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">勒索軟體還原儀表板提供選項、可用來還原可能已受勒索軟體感染的資料。這有助於您快速備份和執行系統。此時、還原動作可讓您以未受勒索軟體影響的Snapshot複本來取代毀損的磁碟區。<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>。</block>
+  <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3儲存設備</block>
+  <block id="e27ba65d55db98b6fd6764580355edcf" category="list-text"><block ref="e27ba65d55db98b6fd6764580355edcf" category="inline-link-rx"></block></block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能夠從BlueXP新增庫位</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">瞭解如何新增Amazon S3儲存庫</block>
+  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
 </blocks>

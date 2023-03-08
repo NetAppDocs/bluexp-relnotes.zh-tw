@@ -205,6 +205,20 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+== Amazon S3儲存設備
+
+
+
+=== 2023年3月5日
+
+
+
+==== 能夠從BlueXP新增庫位
+
+您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何新增Amazon S3儲存庫"^]。
+
+
+
 == 應用程式範本
 
 
