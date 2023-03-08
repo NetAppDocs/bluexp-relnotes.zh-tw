@@ -65,6 +65,10 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.ht
 ** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-overview-cvo.html["立即開始Cloud Volumes ONTAP 使用"^]
 
 
+* Connector現在可讓您新增及管理來自BlueXP的Amazon S3儲存區。
++
+https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何從BlueXP在AWS帳戶中新增Amazon S3儲存區"^]。
+
 * 此版本的Connector包含Cloud Volumes ONTAP 一些功能強化功能。
 +
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-march-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
@@ -265,6 +269,28 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2023年3月9日
+
+
+
+==== 資料夾層級的還原作業現在包括所有子資料夾和檔案
+
+過去當您還原資料夾時、只會還原該資料夾中的檔案、子資料夾中的任何子資料夾或檔案都不會還原。現在、如果您使用ONTAP 的是更新版本的版本、則會還原所選資料夾中的所有子資料夾和檔案。如果您在頂層資料夾中有多個巢狀資料夾、這可節省大量時間與金錢。
+
+
+
+==== 能夠在Cloud Volumes ONTAP 黑暗的環境中備份來自於各種系統的資料
+
+現在、您可以將Cloud Volumes ONTAP 安裝在AWS和Azure商業區域的支援資料系統備份到Amazon S3或Azure Blob。這需要在商業區域的Linux主機上安裝Connector、也需要在Cloud Volumes ONTAP 該處部署該系統。請參閱 link:task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 link:task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
+
+
+
+==== 「工作監控」提供進階篩選功能、可尋找特定的備份或還原工作
+
+「工作監控」頁面新增進階篩選功能、讓您可以依時間、工作負載（磁碟區、應用程式、虛擬機器或Kubernetes）、 工作類型、狀態、工作環境和儲存VM。您也可以輸入任意文字來搜尋任何資源、例如「application_3」。  https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["瞭解如何使用進階篩選器"]。
+
+
+
 === 2023年2月6日
 
 
@@ -346,91 +372,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-
 ==== 能夠下載「工作監控結果」頁面做為CSV報告
 
 篩選「工作監控」頁面以顯示您感興趣的工作和行動之後、您現在可以產生並下載該資料的.csvs檔案。然後您可以分析資訊、或將報告傳送給組織中的其他人員。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["請參閱如何產生工作監控報告"]。
-
-
-
-=== 2022年12月19日
-
-
-
-==== Cloud Backup for Applications的增強功能
-
-* SAP HANA資料庫
-+
-** 支援以原則為基礎的SAP HANA資料庫備份與還原Azure NetApp Files 功能、這些資料庫位於支援中心
-** 支援自訂原則
-
-
-* Oracle資料庫
-+
-** 新增主機並自動部署外掛程式
-** 支援自訂原則
-** 支援以原則為基礎的Oracle資料庫備份、還原及複製Cloud Volumes ONTAP 、這些資料庫位於支援中心
-** 支援以原則為基礎的Oracle資料庫備份與還原、這些資料庫位於Amazon FSX for NetApp ONTAP
-** 支援使用連線與複製方法還原Oracle資料庫
-** 支援Oracle 21c
-** 支援複製雲端原生Oracle資料庫
-
-
-
-
-
-
-==== 增強了適用於虛擬機器的Cloud Backup功能
-
-* 虛擬機器
-+
-** 從內部部署的次要儲存設備備份虛擬機器
-** 支援自訂原則
-** 支援Google Cloud Platform（GCP）備份一或多個資料存放區
-** 支援低成本的雲端儲存設備、例如Glacier、Deep Glacier和Azure歸檔
-
-
-
-
-
-
-=== 2022年12月6日
-
-
-
-==== 必要的連接器輸出網際網路存取端點變更
-
-由於Cloud Backup有所變更、您必須變更下列Connector端點、才能成功執行Cloud Backup作業：
-
-[cols="50,50"]
-|===
-| 舊端點 | 新的端點 
-
-
-| \https://cloudmanager.cloud.netapp.com | \https://api.bluexp.netapp.com 
-
-
-| \https://*.cloudmanager.cloud.netapp.com | \https://*.api.bluexp.netapp.com 
-|===
-請參閱的完整端點清單 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access["AWS"^]、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Google Cloud"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access["Azure"^] 雲端環境：
-
-
-
-==== 支援在UI中選取Google Archival儲存類別
-
-備份檔案最初是在Google Standard儲存類別中建立。現在您可以使用Cloud Backup使用者介面、在特定天數後將舊備份分層至Google歸檔儲存設備、以進一步最佳化成本。
-
-目前支援ONTAP 內部使用ONTAP 的支援功能適用於使用支援更新版本的支援功能。目前不提供Cloud Volumes ONTAP 此功能給非系統。
-
-
-
-==== 支援FlexGroup 支援功能
-
-Cloud Backup現在支援還原FlexGroup 及備份功能。使用ONTAP 支援更新版本的《支援資料》時、您可以將FlexGroup 《支援資料》備份到公有雲和私有雲儲存設備。如果您的工作環境包含FlexVol 了一些不含支援的功能、FlexGroup 請在更新ONTAP 完您的支援功能後、在FlexGroup 這些系統上備份任何的支援功能。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#supported-volumes["請參閱支援的磁碟區類型完整清單"]。
-
-
-
-==== 能夠將資料從備份還原到Cloud Volumes ONTAP 位於不受影響的系統上的特定集合體
-
-在早期版本中、您只能在將資料還原至內部ONTAP 的資訊系統時、才選取Aggregate。此功能現在可用於將資料還原Cloud Volumes ONTAP 至還原系統。
 
 
 
@@ -566,6 +507,18 @@ Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（�
 
 
 == Cloud Sync
+
+
+
+=== 2023年3月7日
+
+
+
+==== 適用於AWS資料代理人的EBS加密
+
+您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
 
 
 
@@ -883,6 +836,14 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 
 
 
+==== 支援的支援Cloud Volumes ONTAP
+
+現在、BlueXP可以在Cloud Volumes ONTAP AWS、Azure和Google Cloud中部署和管理支援功能。
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
+
+
+
 ==== Azure支援16 TiB和32 Tib
 
 目前支援16個TiB和32個TiB磁碟大小、可在Azure的託管磁碟上執行高可用度部署Cloud Volumes ONTAP 。
@@ -961,18 +922,6 @@ Google Cloud Volumes ONTAP Cloud Marketplace提供最佳化的Edge Cache容量�
 多租戶加密金鑰管理（MTEKM）授權不再包含在新Cloud Volumes ONTAP 的版次部署中。
 
 如需ONTAP 更多有關隨Cloud Volumes ONTAP 功能自動安裝的功能認證資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/reference-default-configs.html["支援的預設組態Cloud Volumes ONTAP"^]。
-
-
-
-=== 2022年12月15日
-
-
-
-==== 零件9.12.0 Cloud Volumes ONTAP
-
-現在、BlueXP可以在Cloud Volumes ONTAP AWS和Google Cloud中部署和管理功能。
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-9120-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
 
 
 
