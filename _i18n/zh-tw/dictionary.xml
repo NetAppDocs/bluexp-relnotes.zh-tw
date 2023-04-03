@@ -250,9 +250,6 @@
   <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP索引</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="3348dcc393bde37af6464ca44f92a231" category="inline-link">瞭解方法</block>
-  <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022年11月6日</block>
-  <block id="8f4621192fd1fe94f1b365ae34c1e0ed" category="section-title">拖放即可將雲端分層移至Azure Blob、Google Cloud Storage及StorageGRID</block>
-  <block id="6586247c64ea3f20421ae518b26fc973" category="paragraph">如果Azure Blob、Google Cloud Storage或StorageGRID Setiering目的地是在CanvasTM上的工作環境、您可以將內部ONTAP 環境拖曳至目的地、以啟動分層設定精靈。</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">以下是3.9.24版本的Connector所做的變更。</block>
@@ -573,4 +570,6 @@
   <block id="111e68f453d93697e376aa4b128f9a4c" category="paragraph"><block ref="ab8039366481dc33ac47cc2a37c277c6" category="inline-link-macro-rx"></block>。</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
+  <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">瞭解如何管理使用者認證</block>
+  <block id="551a80734187b23f5368b6a5609f3de3" category="paragraph"><block ref="cf16e3f2aabf285f3de8d29b23130725" category="inline-link-macro-rx"></block>。</block>
 </blocks>
