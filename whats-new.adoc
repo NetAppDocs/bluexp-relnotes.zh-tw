@@ -33,6 +33,54 @@ Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com
 
 
 
+=== 2023年4月3日
+
+
+
+==== 連接器3.9.28
+
+* 數位錢包現在支援電子郵件通知。
++
+如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。
+
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["瞭解如何設定電子郵件通知"]。
+
+* Google Cloud Turin地區現在支援Connector。
++
+https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援區域的完整清單"^]
+
+* 您現在可以在BlueXP中探索VMware vCenter Server。
++
+探索在AWS或內部部署環境中執行的VMware vCenter Server之後、您可以開啟工作環境、以檢視與伺服器相關聯的資料存放區和虛擬機器的詳細資料。
+
++
+唯一的需求是連接到執行7.0版或更新版本的VMware vCenter Server的Connector。
+
++
+若要開始使用、請選取*新增工作環境*、選取* Amazon Web Services*或*內部部署*、然後選取* VMware vCenter Server*。輸入伺服器的網域名稱或IP位址、然後輸入管理員使用者的使用者名稱和密碼。
+
+* 您現在可以管理與您的BlueXP登入相關的使用者認證：ONTAP 功能驗證和NetApp 支援網站 支援（NSS）認證。
++
+當您移至*「設定」>「認證資料」*時、您可以檢視認證資料、更新認證資料並加以刪除。例如、如果您變更這些認證資料的密碼、則需要更新BlueXP中的密碼。
+
++
+551a80734187b23f5368b6a5609f3de3
+
+* 您現在可以在建立支援案例或更新現有支援案例的案例備註時上傳附件。
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manage-your-support-cases["瞭解如何建立及管理支援案例"]。
+
+* 此版本的Connector也包含Cloud Volumes ONTAP 了加強功能的功能、以及內部ONTAP 的叢集增強功能。
++
+** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#3-april-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
+** https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html#3-april-2023["深入瞭ONTAP 解內部叢集增強功能"^]
+
+
+
+
+
+
 === 2023年3月5日
 
 
@@ -51,7 +99,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-get-help.html#manag
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["檢視Connector的系統需求"]。
 
-* 現在、連接器可在完全隔離網際網路的任何雲端環境中獲得支援。然後您可以使用連接器上執行的BlueXP主控台、在Cloud Volumes ONTAP 同一個位置部署故障、並探索內部部署ONTAP 的故障叢集（如果您的雲端環境與內部部署環境之間有連線）。此類部署不支援其他BlueXP服務、數位錢包除外。
+* 現在、連接器可在完全隔離網際網路的任何雲端環境中獲得支援。然後您可以使用連接器上執行的BlueXP主控台、在Cloud Volumes ONTAP 同一個位置部署故障、並探索內部部署ONTAP 的故障叢集（如果您的雲端環境與內部部署環境之間有連線）。您也可以在Cloud Volumes ONTAP AWS和Azure商業區域使用Cloud Backup來備份各種不完整的資料。此類部署不支援其他BlueXP服務、數位錢包除外。
 +
 雲端區域可以是美國安全機構的區域、例如AWS C2S/SC2S、Azure IL6或任何商業區域。
 
@@ -125,18 +173,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5
 
 
 
-=== 2023年1月1日
-
-
-
-==== 連接器3.9.25
-
-此版本的Connector包含Cloud Volumes ONTAP 了一些強化功能和錯誤修正。
-
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#1-january-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
-
-
-
 == Azure NetApp Files
 
 
@@ -191,6 +227,14 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 4 月 2 日
+
+* 9a2a26c33c1a0f6b14b7bb3a214dbaf0
+* 9af9b754c1d16f271c1e6f4b1b2c4f4d
+
+
+
+
 === 2023年3月5日
 
 使用者介面已進行改善、文件中已更新螢幕擷取畫面。
@@ -200,12 +244,6 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 === 2023年1月1日
 
 您現在可以選擇啟用 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#manage-automatic-capacity["自動容量管理"^] 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。
-
-
-
-=== 2022年9月18日
-
-您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-working-environment.html#change-storage-capacity-and-IOPS["變更儲存容量和IOPS"^] 在您建立FSXfor ONTAP the Sfor the Sfor the Sfor the Sfor the Sfor the Sf仍然 工作環境之後、
 
 
 
@@ -285,9 +323,11 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
-==== 「工作監控」提供進階篩選功能、可尋找特定的備份或還原工作
+==== 工作監控器的多項增強功能
 
-「工作監控」頁面新增進階篩選功能、讓您可以依時間、工作負載（磁碟區、應用程式、虛擬機器或Kubernetes）、 工作類型、狀態、工作環境和儲存VM。您也可以輸入任意文字來搜尋任何資源、例如「application_3」。  https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["瞭解如何使用進階篩選器"]。
+* 「工作監控」頁面新增進階篩選功能、讓您可以依時間、工作負載（磁碟區、應用程式、虛擬機器或Kubernetes）、 工作類型、狀態、工作環境和儲存VM。您也可以輸入任意文字來搜尋任何資源、例如「application_3」。  https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["瞭解如何使用進階篩選器"]。
+* 從Cloud Backup使用者介面和API啟動的使用者啟動備份和還原作業、以及系統啟動的工作（例如持續的備份作業）、現在都可在Cloud Volumes ONTAP *工作監控*索引標籤中找到、以供執行ONTAP S還原9.13.0或更新版本的系統使用。早期版本Cloud Volumes ONTAP 的不一致系統和內部部署ONTAP 的不一致系統、目前只會顯示使用者啟動的工作。
+
 
 
 
@@ -507,6 +547,32 @@ Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（�
 
 
 == Cloud Sync
+
+
+
+=== c7326baf2ea51b61fafa4f4680d916c0
+
+
+
+==== 9c305cf5f9f8051acc945eda0fc8a1be
+
+61babc330ca2ea0af752965dd3965d41
+
+* Azure NetApp Files
+* Amazon FSX for ONTAP Sf
+* Cloud Volumes ONTAP
+* a37b0a91d7c4d8ac6ce924a7f8e1ce5a
+
+
+https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
+
+
+
+==== ad5a82acd30f0d971a29fdb4632bd7d4
+
+b7395f4da221ab7779cce11224436fb3
+
+c73e2e476b1a94d1d032f8e0828dcd20
 
 
 
@@ -830,6 +896,64 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 
 
 
+=== 2023年4月3日
+
+2dfd965acb2426b281b13a70df99c06b
+
+
+
+==== 671e2a59b2bfa852def9660bf14badde
+
+d3ab2a9ddd985032aa120324e6da3710
+
+41ed2f596edd466ead9a03a4cdcb3b22
+
+
+
+==== 6ee7d527518e93562cc9e691d20fb1d5
+
+ac14eb6382fa5b619966ba72622ecd3f
+
+
+
+==== 231ea98554191e640c216736796158d5
+
+1cc55fcb982bea0e8f241a1271bda985
+
+23fbfdbb598644432ab089fa6e533405
+
+
+
+==== 6fff4762fc0aeb74dd0a918683c157ae
+
+8d40e6e8379382ee39fba2c4a1cb5629
+
+
+NOTE: 905d8520d584560b3995118b2a01f6c2
+
+ce46ac36501bd1de8616d715ef7ee1c2
+
+acef74218ad5e199582b5c76062e5559
+
+
+
+=== 2023年3月13日
+
+
+
+==== 中國地區支援
+
+從推出支援中國地區的支援功能到現在起、Azure已提供下列支援Cloud Volumes ONTAP ：
+
+* 支援中國北方3 Cloud Volumes ONTAP 。
+* 支援單一節點系統。
+* 支援直接向NetApp購買的授權。
+
+
+如需區域可用度、請參閱 link:https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]。
+
+
+
 === 2023年3月5日
 
 以下是3.9.27版Connector的變更。
@@ -841,14 +965,6 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 現在、BlueXP可以在Cloud Volumes ONTAP AWS、Azure和Google Cloud中部署和管理支援功能。
 
 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-==== Azure支援16 TiB和32 Tib
-
-目前支援16個TiB和32個TiB磁碟大小、可在Azure的託管磁碟上執行高可用度部署Cloud Volumes ONTAP 。
-
-深入瞭解 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#supported-disk-sizes["Azure支援的磁碟大小"^]。
 
 
 
@@ -870,58 +986,6 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-
 * https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui["存取Connector上的BlueXP主控台"^]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["新增未指派的授權"^]
 
-
-
-
-=== 2023年2月5日
-
-下列變更是在版本3.9.26的Connector中提出。
-
-
-
-==== 在AWS中建立放置群組
-
-全新組態設定現在可透過AWS HA單一可用度區域（AZ）部署來建立放置群組。現在您可以選擇略過失敗的放置群組建立、並讓AWS HA單一AZ部署順利完成。
-
-如需如何設定放置群組建立設定的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-configure-placement-group-failure-aws.html#overview["設定AWS HA單一AZ的放置群組建立"^]。
-
-
-
-==== 私有DNS區域組態更新
-
-現在已有新的組態設定可供使用、以便在使用Azure私有連結時、避免在私有DNS區域和虛擬網路之間建立連結。預設會啟用建立。
-
-link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-enabling-private-link.html#provide-bluexp-with-details-about-your-azure-private-dns["提供您Azure私有DNS的詳細資料給BlueXP"^]
-
-
-
-==== WORM儲存與資料分層
-
-現在您可以在建立Cloud Volumes ONTAP 一套或更新版本的版本時、同時啟用資料分層和WORM儲存。利用WORM儲存設備進行資料分層、可將資料分層至雲端的物件存放區。
-
-link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-worm.html["瞭解WORM儲存設備。"^]
-
-
-
-=== 2023年1月1日
-
-以下是3.9.25版Connector的變更。
-
-
-
-==== Google Cloud提供授權套件
-
-Google Cloud Volumes ONTAP Cloud Marketplace提供最佳化的Edge Cache容量型授權套件、可作為隨用隨付方案或年度合約、以供使用。
-
-請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["提供授權Cloud Volumes ONTAP"^]。
-
-
-
-==== 的預設組態 Cloud Volumes ONTAP
-
-多租戶加密金鑰管理（MTEKM）授權不再包含在新Cloud Volumes ONTAP 的版次部署中。
-
-如需ONTAP 更多有關隨Cloud Volumes ONTAP 功能自動安裝的功能認證資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/reference-default-configs.html["支援的預設組態Cloud Volumes ONTAP"^]。
 
 
 
@@ -986,6 +1050,18 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 當您在BlueXP中存取Digital Advisor時、系統會提示您輸入NetApp 支援網站 您的支援資訊、以便您檢視與系統相關的資料。您登入的NSS帳戶僅與使用者登入相關聯。它不會與您NetApp帳戶中的任何其他使用者建立關聯。
 
 如需更多有關數位顧問與BlueXP整合的詳細資訊、請前往 https://docs.netapp.com/us-en/active-iq/index.html["數位顧問文件"^]
+
+
+
+== 經濟效益
+
+
+
+=== 2023 年 4 月 2 日
+
+新的經濟效益服務可識別目前或預測容量不足的叢集、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。
+
+link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.html["深入瞭解這項新服務"]。
 
 
 
@@ -1081,6 +1157,14 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 
+=== 2023 年 4 月 2 日
+
+* ffb0a040d2831585e0b568e5514270de
+* 使用者介面已進行改善、文件中已更新螢幕擷取畫面。
+
+
+
+
 === 2023年3月5日
 
 * BlueXP中的Kubernetes現在支援Astra Trident 23.01。
@@ -1095,33 +1179,6 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 
-=== 2022年9月18日
-
-您現在可以將自我管理的OpenShift叢集匯入Cloud Manager。
-
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html["OpenShift中的Kubernetes叢集需求"]
-* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-add-openshift.html["將OpenShift叢集新增至Cloud Manager"]
-
-
-
-
-=== 2022年7月31日
-
-* Cloud Manager現在可以使用儲存類別中的新「-watch」動詞、備份及還原Yaml組態、監控Kubernetes叢集對叢集後端所做的變更、並在叢集上設定自動備份時、自動為新的持續磁碟區啟用備份。
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["AWS中Kubernetes叢集的需求"]
-
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Azure中Kubernetes叢集的需求"]
-
-+
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Google Cloud中Kubernetes叢集的需求"]
-
-* 何時 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["定義儲存類別"]、您現在可以為區塊儲存指定檔案系統類型（fstype-）。
-
-
-
-
 == 監控
 
 
@@ -1133,6 +1190,28 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kuberne
 
 
 == 內部 ONTAP 部署的叢集
+
+
+
+=== 2023年4月3日
+
+
+
+==== 單一探索選項
+
+當ONTAP 您從BlueXP主控台發現內部的功能性叢集時、您現在會看到一個選項：
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["快照顯示ONTAP 建立工作環境時可用的「探索內部部署的功能」選項"]
+
+以前、直接探索和使用Connector探索的流程是分開的。這兩個選項仍可使用、但合併成單一流程。
+
+當您開始探索程序時、BlueXP會探索叢集、如下所示：
+
+* 如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。
+* 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
+
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解探索與管理選項"]。
 
 
 
@@ -1182,7 +1261,7 @@ BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager�
 
 我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。
 
-您也可以檢視與其他NetApp雲端服務整合的詳細資料、以便進行資料分層、資料複寫及備份。
+您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
 
@@ -1193,6 +1272,20 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
+
+
+
+== 營運恢復能力
+
+
+
+=== 2023 年 4 月 2 日
+
+使用新的營運恢復服務及其自動化IT營運風險補救建議、您可以在發生中斷或故障之前、實作建議的補救措施。
+
+營運恢復能力是一種服務類別、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。
+
+link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["深入瞭解這項新服務"]。
 
 
 
