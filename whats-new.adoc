@@ -229,8 +229,8 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 === 2023 年 4 月 2 日
 
-* 9a2a26c33c1a0f6b14b7bb3a214dbaf0
-* 9af9b754c1d16f271c1e6f4b1b2c4f4d
+* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["在適用於 ONTAP 的 FSX 上建立 FlexGroup"^] 將 Volume 資料分散到整個叢集。
+* IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。
 
 
 
@@ -550,29 +550,29 @@ Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（�
 
 
 
-=== c7326baf2ea51b61fafa4f4680d916c0
+=== 2023 年 4 月 2 日
 
 
 
-==== 9c305cf5f9f8051acc945eda0fc8a1be
+==== Azure Data Lake Storage Gen2 關係的額外支援
 
-61babc330ca2ea0af752965dd3965d41
+您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：
 
 * Azure NetApp Files
 * Amazon FSX for ONTAP Sf
 * Cloud Volumes ONTAP
-* a37b0a91d7c4d8ac6ce924a7f8e1ce5a
+* On-Prem ONTAP
 
 
 https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
 
 
 
-==== ad5a82acd30f0d971a29fdb4632bd7d4
+==== 依完整路徑篩選目錄
 
-b7395f4da221ab7779cce11224436fb3
+除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。
 
-c73e2e476b1a94d1d032f8e0828dcd20
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
 
 
 
@@ -904,42 +904,42 @@ d4a0c23b533adffe42d63c23035edd5c
 
 === 2023年4月3日
 
-2dfd965acb2426b281b13a70df99c06b
+Connector 3.9.28 版隨附下列變更。
 
 
 
-==== 671e2a59b2bfa852def9660bf14badde
+==== 數位錢包增強功能
 
-d3ab2a9ddd985032aa120324e6da3710
+Digital Wallet 現在顯示您購買的授權容量、並提供市場私有優惠。
 
-41ed2f596edd466ead9a03a4cdcb3b22
-
-
-
-==== 6ee7d527518e93562cc9e691d20fb1d5
-
-ac14eb6382fa5b619966ba72622ecd3f
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"]。
 
 
 
-==== 231ea98554191e640c216736796158d5
+==== 支援在磁碟區建立期間提出意見
 
-1cc55fcb982bea0e8f241a1271bda985
-
-23fbfdbb598644432ab089fa6e533405
+此版本可讓您在使用 API 建立 Cloud Volumes ONTAP FlexGroup Volume 或 FlexVol Volume 時、提出意見。
 
 
 
-==== 6fff4762fc0aeb74dd0a918683c157ae
+==== 重新設計 BlueXP 使用者介面、以重新設計 Cloud Volumes ONTAP 概觀、 Volume 和集合頁面
 
-8d40e6e8379382ee39fba2c4a1cb5629
+BlueXP 現在已重新設計了 Cloud Volumes ONTAP 概觀、磁碟區和集合網頁的使用者介面。並排式設計會在每個方塊中提供更完整的資訊、以提供更好的使用者體驗。
+
+image:screenshot-resource-page-rn.png["此螢幕擷取畫面會在 Cloud Volumes ONTAP 總覽頁面上顯示重新設計的 BlueXP 使用者介面。各種方塊顯示儲存效率、版本、容量分配、 Cloud Volumes ONTAP 部署、磁碟區、集合體、複製和備份的相關資訊。"]
 
 
-NOTE: 905d8520d584560b3995118b2a01f6c2
 
-ce46ac36501bd1de8616d715ef7ee1c2
+==== 可透過 Cloud Volumes ONTAP 檢視的 FlexGroup Volume
 
-acef74218ad5e199582b5c76062e5559
+透過 CLI 或系統管理員直接建立的 FlexGroup Volume 現在可透過 BlueXP 中重新設計的 Volumes 動態磚來檢視。BlueXP 與提供給 FlexVol Volume 的資訊相同、透過專用的 Volumes 磚提供建立的 FlexGroup Volume 的詳細資訊。
+
+
+NOTE: 目前、您只能在 BlueXP 下檢視現有的 FlexGroup 磁碟區。在 BlueXP 中建立 FlexGroup 磁碟區的功能無法使用、但已計畫在未來版本中使用。
+
+image:screenshot-show-flexgroup-volume.png["顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。"]
+
+link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-volumes.html["深入瞭解如何檢視建立的 FlexGroup Volume 。"^]
 
 
 
@@ -1165,7 +1165,7 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 === 2023 年 4 月 2 日
 
-* ffb0a040d2831585e0b568e5514270de
+* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["解除安裝 Astra Trident"] 是使用 Trident 運算子或 BlueXP 安裝的。
 * 使用者介面已進行改善、文件中已更新螢幕擷取畫面。
 
 

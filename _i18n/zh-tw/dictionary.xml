@@ -572,4 +572,35 @@
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
   <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">瞭解如何管理使用者認證</block>
   <block id="551a80734187b23f5368b6a5609f3de3" category="paragraph"><block ref="cf16e3f2aabf285f3de8d29b23130725" category="inline-link-macro-rx"></block>。</block>
+  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">在適用於 ONTAP 的 FSX 上建立 FlexGroup</block>
+  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">您現在可以了 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> 將 Volume 資料分散到整個叢集。</block>
+  <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。</block>
+  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2023 年 4 月 2 日</block>
+  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 關係的額外支援</block>
+  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：</block>
+  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">On-Prem ONTAP</block>
+  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">依完整路徑篩選目錄</block>
+  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。</block>
+  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">深入瞭解排除目錄設定</block>
+  <block id="c73e2e476b1a94d1d032f8e0828dcd20" category="paragraph"><block ref="f4b5f7467e10befa1f2855925c118fa5" category="inline-link-rx"></block>。</block>
+  <block id="2dfd965acb2426b281b13a70df99c06b" category="paragraph">Connector 3.9.28 版隨附下列變更。</block>
+  <block id="671e2a59b2bfa852def9660bf14badde" category="section-title">數位錢包增強功能</block>
+  <block id="d3ab2a9ddd985032aa120324e6da3710" category="paragraph">Digital Wallet 現在顯示您購買的授權容量、並提供市場私有優惠。</block>
+  <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
+  <block id="41ed2f596edd466ead9a03a4cdcb3b22" category="paragraph"><block ref="5faaec1089d682f6bad43c9cd2141819" category="inline-link-rx"></block>。</block>
+  <block id="6ee7d527518e93562cc9e691d20fb1d5" category="section-title">支援在磁碟區建立期間提出意見</block>
+  <block id="ac14eb6382fa5b619966ba72622ecd3f" category="paragraph">此版本可讓您在使用 API 建立 Cloud Volumes ONTAP FlexGroup Volume 或 FlexVol Volume 時、提出意見。</block>
+  <block id="231ea98554191e640c216736796158d5" category="section-title">重新設計 BlueXP 使用者介面、以重新設計 Cloud Volumes ONTAP 概觀、 Volume 和集合頁面</block>
+  <block id="1cc55fcb982bea0e8f241a1271bda985" category="paragraph">BlueXP 現在已重新設計了 Cloud Volumes ONTAP 概觀、磁碟區和集合網頁的使用者介面。並排式設計會在每個方塊中提供更完整的資訊、以提供更好的使用者體驗。</block>
+  <block id="9000895c1e7c46e6e8fc9eb750dfb403" category="inline-image-macro">此螢幕擷取畫面會在 Cloud Volumes ONTAP 總覽頁面上顯示重新設計的 BlueXP 使用者介面。各種方塊顯示儲存效率、版本、容量分配、 Cloud Volumes ONTAP 部署、磁碟區、集合體、複製和備份的相關資訊。</block>
+  <block id="23fbfdbb598644432ab089fa6e533405" category="paragraph"><block ref="23fbfdbb598644432ab089fa6e533405" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fff4762fc0aeb74dd0a918683c157ae" category="section-title">可透過 Cloud Volumes ONTAP 檢視的 FlexGroup Volume</block>
+  <block id="8d40e6e8379382ee39fba2c4a1cb5629" category="paragraph">透過 CLI 或系統管理員直接建立的 FlexGroup Volume 現在可透過 BlueXP 中重新設計的 Volumes 動態磚來檢視。BlueXP 與提供給 FlexVol Volume 的資訊相同、透過專用的 Volumes 磚提供建立的 FlexGroup Volume 的詳細資訊。</block>
+  <block id="905d8520d584560b3995118b2a01f6c2" category="admonition">目前、您只能在 BlueXP 下檢視現有的 FlexGroup 磁碟區。在 BlueXP 中建立 FlexGroup 磁碟區的功能無法使用、但已計畫在未來版本中使用。</block>
+  <block id="91f0dcc3b5f3e7c2ced12a923ca3b92e" category="inline-image-macro">顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。</block>
+  <block id="ce46ac36501bd1de8616d715ef7ee1c2" category="paragraph"><block ref="ce46ac36501bd1de8616d715ef7ee1c2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f223d40f9c90f08d9cd6ef8cba648c3" category="inline-link-macro">深入瞭解如何檢視建立的 FlexGroup Volume 。</block>
+  <block id="acef74218ad5e199582b5c76062e5559" category="paragraph"><block ref="acef74218ad5e199582b5c76062e5559" category="inline-link-macro-rx"></block></block>
+  <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
+  <block id="ffb0a040d2831585e0b568e5514270de" category="list-text">您現在可以了 <block ref="16c9025f993808479cd22f07cd778a2c" category="inline-link-macro-rx"></block> 是使用 Trident 運算子或 BlueXP 安裝的。</block>
 </blocks>
