@@ -33,6 +33,26 @@ Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com
 
 
 
+=== 2023 年 4 月 4 日
+
+
+
+==== 部署模式
+
+BlueXP _ 部署模式 _ 可讓您以符合業務與安全需求的方式使用 BlueXP 。您可以從三種模式中選擇：
+
+* 標準模式
+* 受限模式
+* 私有模式
+
+
+link:concept-modes.html["深入瞭解這些部署模式"]。
+
+
+NOTE: 採用受限模式會取代啟用或停用 SaaS 平台的選項。您可以在建立帳戶時啟用限制模式。稍後無法啟用或停用。
+
+
+
 === 2023年4月3日
 
 
@@ -65,7 +85,7 @@ https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援區域的完�
 當您移至*「設定」>「認證資料」*時、您可以檢視認證資料、更新認證資料並加以刪除。例如、如果您變更這些認證資料的密碼、則需要更新BlueXP中的密碼。
 
 +
-link:task-manage-user-credentials.html["瞭解如何管理使用者認證"]。
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["瞭解如何管理使用者認證"]。
 
 * 您現在可以在建立支援案例或更新現有支援案例的案例備註時上傳附件。
 +
@@ -120,54 +140,6 @@ https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解�
 * 此版本的Connector包含Cloud Volumes ONTAP 一些功能強化功能。
 +
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-march-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
-
-
-
-
-
-=== 2023年2月5日
-
-
-
-==== 連接器3.9.26
-
-* 在*登入*頁面上、系統現在會提示您輸入與登入相關的電子郵件地址。按一下*下一步*之後、BlueXP會提示您使用與登入相關的驗證方法進行驗證：
-+
-** NetApp雲端認證的密碼
-** 您的聯盟身分認證資料
-** 您的需求NetApp 支援網站
-
-
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-login.png["BlueXP登入頁面的快照、會提示您輸入電子郵件地址。"]
-
-* 如果您是BlueXP新手、而且您擁有NetApp 支援網站 現有的支援（NSS）認證、則可以跳過註冊頁面、直接在登入頁面中輸入您的電子郵件地址。在此初次登入時、BlueXP會為您註冊。
-* 當您從雲端供應商的市場訂閱BlueXP時、您現在可以選擇以新的訂閱取代現有的單一帳戶訂閱。
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-aws-subscription.png["顯示藍圖XP帳戶訂閱指派的快照。"]
-
-+
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#associate-an-aws-subscription["瞭解如何建立AWS訂閱的關聯"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-azure-accounts.html#associating-an-azure-marketplace-subscription-to-credentials["瞭解如何建立Azure訂閱的關聯"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-gcp-accounts.html["瞭解如何建立Google Cloud訂閱的關聯"]
-
-
-* 如果您的Connector已關機14天或更久、BlueXP現在會通知您。
-+
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["深入瞭解BlueXP通知"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html#connectors-should-remain-running["瞭解為何連接器應該繼續執行"]
-
-
-* 我們更新了Connector for Google Cloud政策、加入在Cloud Volumes ONTAP 以各種方式建立及管理儲存VM的權限：
-+
-compute.instances.updateNetworkInterface
-
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-gcp.html["檢視Connector的Google Cloud權限"]。
-
-* 此版本的Connector包含Cloud Volumes ONTAP 一些功能強化功能。
-+
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html#5-february-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
 
 
 
@@ -307,6 +279,37 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 
 
+=== 2023 年 4 月 4 日
+
+
+
+==== 能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端
+
+現在您可以在「受限」模式下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
+
+
+
+==== 能夠使用 API 將內部部署的 ONTAP 磁碟區備份至 ONTAP S3
+
+f25c47eb7d9f3c638d89723bee6d2360
+
+
+
+==== 能夠將 Azure 儲存帳戶的區域備援層面從 LRS 變更為 ZRS
+
+從 Cloud Volumes ONTAP 系統建立備份至 Azure 儲存設備時、雲端備份預設會以本機備援（ LRS ）來配置 Blob 容器、以達到成本最佳化。如果您想要在不同區域之間複寫資料、可以將此設定變更為區域備援（ ZRS ）。請參閱的 Microsoft 指示 https://learn.microsoft.com/en-us/azure/storage/common/redundancy-migration?tabs=portal["變更儲存帳戶的複寫方式"^]。
+
+
+
+==== 工作監控的增強功能
+
+* 從雲端備份 UI 和 API 啟動的使用者初始化備份和還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統的 * 工作監控 * 標籤中找到。舊版 ONTAP 只會顯示使用者啟動的工作。
+* 除了能夠下載 CSV 檔案來報告所有工作之外、現在您可以下載 JSON 檔案來處理單一工作、並查看其詳細資料。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["深入瞭解"]。
+* 新增兩個備份工作警示：「排程工作失敗」和「還原工作完成但有警告」。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["檢閱 Cloud Backup 可以傳送的所有警示"]。
+
+
+
+
 === 2023年3月9日
 
 
@@ -319,7 +322,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== 能夠在Cloud Volumes ONTAP 黑暗的環境中備份來自於各種系統的資料
 
-現在、您可以將Cloud Volumes ONTAP 安裝在AWS和Azure商業區域的支援資料系統備份到Amazon S3或Azure Blob。這需要在商業區域的Linux主機上安裝Connector、也需要在Cloud Volumes ONTAP 該處部署該系統。請參閱 link:task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 link:task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
+現在、您可以將Cloud Volumes ONTAP 安裝在AWS和Azure商業區域的支援資料系統備份到Amazon S3或Azure Blob。這需要在商業區域的Linux主機上安裝Connector、也需要在Cloud Volumes ONTAP 該處部署該系統。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
 
 
 
@@ -377,45 +380,29 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-
 
 
 
-=== 2023年1月9日
-
-
-
-==== 能夠將較舊的備份檔案從StorageGRID 支援系統移至AWS S3歸檔儲存設備
-
-現在您可以將舊的備份檔案分層、從StorageGRID 支援的系統、到AWS S3的歸檔儲存設備。如此一來StorageGRID 、您就能釋出整個作業系統的空間、並使用經濟實惠的儲存類別來儲存舊的備份檔案、進而節省成本。您可以選擇將備份分層至AWS S3 Glacier或S3 Glacier Deep Archive儲存設備。
-
-如果內部叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統使用的是11.3或更新版本、則可使用此功能。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html#preparing-to-archive-older-backup-files-to-public-cloud-storage["如需詳細資訊、請參閱此處"]。
-
-
-
-==== 能夠在Google Cloud上選擇您自己的客戶管理金鑰來進行資料加密
-
-將ONTAP 資料從您的支援系統備份到Google Cloud Storage時、現在您可以在啟動精靈中選擇自己的客戶管理金鑰來進行資料加密、而不使用預設的Google管理加密金鑰。只要先在Google中設定客戶管理的加密金鑰、然後在啟動Cloud Backup時輸入詳細資料即可。
-
-
-
-==== 服務帳戶不再需要「儲存管理員」角色、即可在Google Cloud Storage中建立備份
-
-在早期版本中、「儲存管理員」角色是讓Cloud Backup能夠存取Google Cloud Storage儲存桶的服務帳戶所需的角色。現在您可以建立自訂角色、並減少指派給服務帳戶的權限集。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-gcp.html#preparing-google-cloud-storage-for-backups["瞭解如何準備Google Cloud Storage進行備份"]。
-
-
-
-==== 我們新增支援、在沒有網際網路存取的站台中使用「搜尋與還原」來還原資料
-
-如果您將資料從內部ONTAP 的支援叢集備份到StorageGRID 無法存取網際網路的站台（也稱為暗站或離線站台）、現在您可以使用「搜尋與還原」選項在必要時還原資料。此功能需要在離線站台部署BlueXP Connector（3.9.25版或更新版本）。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-restore-backups-ontap.html#restoring-ontap-data-using-search-restore["瞭解如何ONTAP 使用Search  Restore還原資料"]。https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["瞭解如何在離線站台中安裝Connector"]。
-
-
-
-==== 能夠下載「工作監控結果」頁面做為CSV報告
-
-篩選「工作監控」頁面以顯示您感興趣的工作和行動之後、您現在可以產生並下載該資料的.csvs檔案。然後您可以分析資訊、或將報告傳送給組織中的其他人員。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["請參閱如何產生工作監控報告"]。
-
-
-
 == 雲端資料感測
+
+
+
+=== 2023 年 4 月 3 日（版本 1.22 ）
+
+
+
+==== 新的資料探索評估報告
+
+「資料探索評估報告」會針對您所掃描的環境提供高層級分析、以強調系統的發現、並顯示關切領域和可能的補救步驟。本報告的目標是提高對資料治理疑慮、資料安全性曝露及資料集資料合規性缺口的認知度。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-governance-data.html#data-discovery-assessment-report["瞭解如何產生及使用資料探索評估報告"]。
+
+
+
+==== 能夠在雲端的較小執行個體上部署 Data Sense
+
+在 AWS 環境中從 BlueXP Connector 部署 Data Sense 時、現在您可以從兩種較預設執行個體可用的執行個體類型來選擇。如果您掃描的是小型環境、這有助於節省雲端成本。不過、使用較小的執行個體時會有一些限制。 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html#using-a-smaller-instance-type["請參閱可用的執行個體類型和限制"]。
+
+
+
+==== 獨立指令碼現在可供測試、您的 Linux 系統是否符合安裝 Data Sense 的資格
+
+如果您想驗證 Linux 系統是否符合所有先決條件、而不需執行 Data Sense 安裝、您可以下載一個獨立的指令碼、只測試先決條件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["瞭解如何檢查您的 Linux 主機是否已準備好安裝 Data Sense"]。
 
 
 
@@ -514,35 +501,6 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion
 ==== 新的「部分成功」狀態已新增至「行動狀態」面板
 
 新的「部分成功」狀態表示「資料感知」動作已完成、部分項目失敗、部分項目成功、例如、您正在移動或刪除100個檔案時。此外、「已完成」狀態已重新命名為「成功」。過去、「已完成」狀態可能會列出成功及失敗的動作。現在「成功」狀態代表所有項目的所有行動都成功。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-view-compliance-actions.html["請參閱如何檢視「動作狀態」面板"]。
-
-
-
-=== 2023年1月9日（1.19版）
-
-
-
-==== 能夠檢視含有敏感資料且過於許可的檔案圖表
-
-「治理」儀表板新增了「敏感資料」和「廣泛權限」區域、提供內含敏感資料（包括敏感和敏感個人資料）且過於許可的檔案熱圖。這有助於您瞭解敏感資料的風險所在。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-controlling-governance-data.html#data-listed-by-sensitivity-and-wide-permissions["深入瞭解"]。
-
-
-
-==== 「資料調查」頁面提供三種新篩選條件
-
-我們提供新的篩選條件、以精簡「資料調查」頁面中顯示的結果：
-
-* 「有存取權的使用者人數」篩選器會顯示哪些檔案和資料夾已對特定數量的使用者開放。您可以選擇一個數字範圍來精簡結果、例如、查看51到100位使用者可以存取哪些檔案。
-* 「建立時間」、「探索時間」、「上次修改時間」和「上次存取時間」篩選條件現在可讓您建立自訂日期範圍、而不只是選擇預先定義的天數範圍。例如、您可以在「過去10天」內尋找「建立時間」為「6個月以上」或「上次修改日期」的檔案。
-* 「檔案路徑」篩選現在可讓您指定要從篩選查詢結果中排除的路徑。如果您輸入同時包含和排除特定資料的路徑、Data Sense會先尋找包含路徑中的所有檔案、然後從排除路徑中移除檔案、然後顯示結果。
-
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-investigate-data.html#filtering-data-in-the-data-investigation-page["請參閱所有篩選器清單、以供您調查資料"]。
-
-
-
-==== Data Sense可識別日本的個人號碼
-
-Data Sense可識別及分類含有日文個人號碼（也稱為「My Number（我的號碼）」）的檔案。這包括「個人」和「公司我的號碼」。 https://docs.netapp.com/us-en/cloud-manager-data-sense/reference-private-data-categories.html#types-of-personal-data["查看Data Sense可在您的資料中識別的所有個人資料類型"]。
 
 
 
@@ -1299,6 +1257,20 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
+=== 2023年4月3日
+
+
+
+==== 新的建議行動、協助保護您的資料免受勒索軟體攻擊
+
+* 「備份資料來源中的業務關鍵檔案」的新建議行動、可識別如何使用 Cloud Backup 備份磁碟區、以保護最重要的資料類別。如果您因為勒索軟體攻擊而需要恢復任何資料、這一點非常重要。建議將您重新導向至 Cloud Backup 介面、以便在必要的磁碟區上啟用備份。
+* 「開啟資料來源的網路儲存組態」的新「建議行動」可識別是否啟用或停用六項有助於保護資料安全的 ONTAP 功能。您應該在所有內部部署的 ONTAP 和 Cloud Volumes ONTAP 系統上啟用這些功能。
+
+
+https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#list-of-recommended-actions["請參閱所有建議行動的清單"]。
+
+
+
 === 2023年3月7日
 
 
@@ -1326,16 +1298,6 @@ https://docs.netapp.com/us-en/cloud-manager-ransomware/task-select-business-crit
 ==== 勒索軟體保護已從「保護」類別移至「治理」類別
 
 現在您可以從BlueXP左側瀏覽功能表選取*管理>勒索軟體保護*來存取此服務。
-
-
-
-=== 2023年1月9日
-
-
-
-==== 我們新增支援功能、透過電子郵件和通知中心接收勒索軟體保護警示
-
-勒索軟體保護已整合至BlueXP通知服務。您可以按一下BlueXP功能表列中的通知警示、以顯示勒索軟體保護通知。您也可以設定BluefXP以電子郵件傳送通知作為警示、即使您尚未登入系統、也能得知重要的系統活動。電子郵件可傳送給任何需要注意勒索軟體警示的收件者。 https://docs.netapp.com/us-en/cloud-manager-ransomware/task-monitor-ransomware-alerts.html["瞭解方法"]。
 
 
 
