@@ -285,13 +285,13 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== 能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端
 
-現在您可以在「受限」模式下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
+現在您可以在「受限」模式下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["深入瞭解 BlueXP 部署模式"^]。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
 
 
 
 ==== 能夠使用 API 將內部部署的 ONTAP 磁碟區備份至 ONTAP S3
 
-API 的新功能可讓您使用 BlueXP 雲端備份、將 Volume 快照備份至 ONTAP S3 。此功能目前僅適用於內部 ONTAP 系統。如需詳細指示、請參閱部落格 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-Feature-Blog-April-23-Updates/ba-p/443075#toc-hId--846533830["與 ONTAP S3 整合為目的地（使用 REST API ）"^]。
+API 的新功能可讓您使用 BlueXP 雲端備份、將 Volume 快照備份至 ONTAP S3 。此功能目前僅適用於內部部署 ONTAP 系統。如需詳細指示、請參閱部落格 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-Feature-Blog-April-23-Updates/ba-p/443075#toc-hId--846533830["與 ONTAP S3 整合為目的地"^]。
 
 
 
@@ -400,7 +400,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-
 
 
 
-==== 獨立指令碼現在可供測試、您的 Linux 系統是否符合安裝 Data Sense 的資格
+==== 獨立指令碼現已推出、可在安裝 Data Sense 之前驗證您的 Linux 系統
 
 如果您想驗證 Linux 系統是否符合所有先決條件、而不需執行 Data Sense 安裝、您可以下載一個獨立的指令碼、只測試先決條件。 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-test-linux-system.html["瞭解如何檢查您的 Linux 主機是否已準備好安裝 Data Sense"]。
 
@@ -852,7 +852,7 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 
 | \https://*.cloudmanager.cloud.netapp.com | \https://*.api.bluexp.netapp.com 
 |===
-請參閱的完整端點清單 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html#outbound-internet-access["AWS"^]、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-gcp.html#outbound-internet-access["Google Cloud"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#outbound-internet-access["Azure"^] 雲端環境：
+請參閱的完整端點清單 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-set-up-networking-aws.html#outbound-internet-access["AWS"^]、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-set-up-networking-google.html#outbound-internet-access["Google Cloud"^]或 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-set-up-networking-azure.html#outbound-internet-access["Azure"^] 雲端環境：
 
 
 
@@ -860,9 +860,27 @@ Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 
 
 
+=== 2023 年 4 月 4 日
+
+從 Cloud Volumes ONTAP 9.12.1 GA 開始、 AWS 現在支援中國地區、如下所示。
+
+* 支援單一節點系統。
+* 支援直接向NetApp購買的授權。
+
+
+如需區域可用度、請參閱 link:https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]。
+
+
+
 === 2023年4月3日
 
 Connector 3.9.28 版隨附下列變更。
+
+
+
+==== Google Cloud 現在支援都靈地區
+
+Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援都靈地區。
 
 
 
@@ -884,7 +902,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capa
 
 BlueXP 現在已重新設計了 Cloud Volumes ONTAP 概觀、磁碟區和集合網頁的使用者介面。並排式設計會在每個方塊中提供更完整的資訊、以提供更好的使用者體驗。
 
-image:screenshot-resource-page-rn.png["此螢幕擷取畫面會在 Cloud Volumes ONTAP 總覽頁面上顯示重新設計的 BlueXP 使用者介面。各種方塊顯示儲存效率、版本、容量分配、 Cloud Volumes ONTAP 部署、磁碟區、集合體、複製和備份的相關資訊。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-resource-page-rn.png["此螢幕擷取畫面會在 Cloud Volumes ONTAP 總覽頁面上顯示重新設計的 BlueXP 使用者介面。各種方塊顯示儲存效率、版本、容量分配、 Cloud Volumes ONTAP 部署、磁碟區、集合體、複製和備份的相關資訊。"]
 
 
 
@@ -895,7 +913,7 @@ image:screenshot-resource-page-rn.png["此螢幕擷取畫面會在 Cloud Volumes
 
 NOTE: 目前、您只能在 BlueXP 下檢視現有的 FlexGroup 磁碟區。在 BlueXP 中建立 FlexGroup 磁碟區的功能無法使用、但已計畫在未來版本中使用。
 
-image:screenshot-show-flexgroup-volume.png["顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。"]
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-show-flexgroup-volume.png["顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。"]
 
 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-volumes.html["深入瞭解如何檢視建立的 FlexGroup Volume 。"^]
 
@@ -915,41 +933,6 @@ link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage
 
 
 如需區域可用度、請參閱 link:https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]。
-
-
-
-=== 2023年3月5日
-
-以下是3.9.27版Connector的變更。
-
-
-
-==== 支援的支援Cloud Volumes ONTAP
-
-現在、BlueXP可以在Cloud Volumes ONTAP AWS、Azure和Google Cloud中部署和管理支援功能。
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-==== MTEKM授權
-
-多租戶加密金鑰管理（MTEKM）授權現已隨Cloud Volumes ONTAP 附於執行9.12.1 GA或更新版本的全新及現有的支援系統中。
-
-使用NetApp Volume Encryption時、多租戶外部金鑰管理可讓個別儲存VM（SVM）透過KMIP伺服器維護自己的金鑰。
-
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["瞭解如何使用NetApp加密解決方案來加密磁碟區"^]。
-
-
-
-==== 支援無網際網路的環境 
-
-目前支援任何完全隔離網際網路的雲端環境Cloud Volumes ONTAP 。這些環境僅支援節點型授權（BYOL）。不支援容量型授權。若要開始使用、請手動安裝Connector軟體、登入在Connector上執行的BlueXP主控台、將BYOL授權新增至Digital Wallet、然後再部署Cloud Volumes ONTAP 。 
-
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-install-connector-onprem-no-internet.html["將Connector安裝在沒有網際網路存取的位置"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html#access-the-local-ui["存取Connector上的BlueXP主控台"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-node-licenses.html#manage-byol-licenses["新增未指派的授權"^]
-
 
 
 
@@ -1023,7 +1006,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 === 2023 年 4 月 2 日
 
-新的經濟效益服務可識別目前或預測容量不足的叢集、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。
+新的經濟效益服務可識別目前或預測容量不足的儲存資產、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。
 
 link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.html["深入瞭解這項新服務"]。
 

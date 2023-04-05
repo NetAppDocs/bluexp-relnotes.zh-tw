@@ -268,7 +268,6 @@
   <block id="dfe6b806f7dd136ec5c5baaaae335c21" category="list-text">將S3儲存設備移至AWS S3 ONTAP</block>
   <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">深入瞭解支援的同步關係</block>
   <block id="623dda645e4d20988b8c1d61423da14e" category="paragraph"><block ref="f9c4f71cab183e7ba62e68df19c3dfe9" category="inline-link-rx"></block>。</block>
-  <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">深入瞭Cloud Volumes ONTAP 解本版的更新功能</block>
   <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023年1月1日</block>
   <block id="eb75f7332becd8b3fbb2a59ea0bd0536" category="cell">舊端點</block>
   <block id="afcce2fe2d959c0f4554e7815a50e8e4" category="cell">新的端點</block>
@@ -279,7 +278,6 @@
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="inline-link">AWS</block>
   <block id="56ef2682280ac110060b881925a87b80" category="inline-link">Google Cloud</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="inline-link">Azure</block>
-  <block id="0e40b9cba041560c9517bc49757da3c7" category="paragraph">請參閱的完整端點清單<block ref="4c9e3e17ba20f553394e5bc78e402946" category="inline-link-rx"></block>、<block ref="cd3c6f623ccf3e34f9d46b28c47f2a3d" category="inline-link-rx"></block>或<block ref="80755100f97c37f8aa8e3d999b0a43d9" category="inline-link-rx"></block> 雲端環境：</block>
   <block id="bfc6fe3f8d2577420634f29daac2cfe3" category="section-title">2023年1月3日</block>
   <block id="2ce75b34222d130ea74078b75eb79cc0" category="section-title">在UI上顯示資料代理本機組態</block>
   <block id="88dcb8d0dd987f4f5606df5981050a8d" category="paragraph">現在有一個*顯示組態*選項、可讓使用者檢視UI上每個資料代理程式的本機組態。</block>
@@ -417,14 +415,6 @@
   <block id="1a62d65b23b4f298f3e1310266bbfad4" category="list-text">不具備網際網路存取（黑點）的站台資料感知安裝程式現在會執行預先檢查、以確保您的系統和網路需求已就緒、可順利安裝。</block>
   <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">安裝稽核記錄檔現在會儲存、並寫入<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>。</block>
   <block id="9a8e487c18ad9b8cacca43174094061d" category="section-title">現在您可以從Data Sense UI新增個人模式</block>
-  <block id="eed8585d0b45afc4676b1c89f6f22a9a" category="paragraph">以下是3.9.27版Connector的變更。</block>
-  <block id="1bbedbfdc08c3ed9498540dc734fa96a" category="section-title">MTEKM授權</block>
-  <block id="3cc0e97defd245de4dee36cae1e4c485" category="paragraph">多租戶加密金鑰管理（MTEKM）授權現已隨Cloud Volumes ONTAP 附於執行9.12.1 GA或更新版本的全新及現有的支援系統中。</block>
-  <block id="c43a4aedaaa96e7a4c838a24978b6052" category="paragraph">使用NetApp Volume Encryption時、多租戶外部金鑰管理可讓個別儲存VM（SVM）透過KMIP伺服器維護自己的金鑰。</block>
-  <block id="6b8afb72156ec7e5aff9808d22a9eb10" category="inline-link">瞭解如何使用NetApp加密解決方案來加密磁碟區</block>
-  <block id="bc912dd00b6301509fad22d6a376560d" category="paragraph"><block ref="532112271454bf057b0a2415bb119744" category="inline-link-rx"></block>。</block>
-  <block id="93616689ecb546d3ff1261cf76e33109" category="section-title">支援無網際網路的環境 </block>
-  <block id="28f5f7b773a8085f5db45145fb774c27" category="paragraph">目前支援任何完全隔離網際網路的雲端環境Cloud Volumes ONTAP 。這些環境僅支援節點型授權（BYOL）。不支援容量型授權。若要開始使用、請手動安裝Connector軟體、登入在Connector上執行的BlueXP主控台、將BYOL授權新增至Digital Wallet、然後再部署Cloud Volumes ONTAP 。 </block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">我們新增了全新的勒索軟體恢復儀表板、協助您從攻擊中恢復系統</block>
   <block id="aa31096585d7d55e20d8a7b196ea1a2a" category="paragraph">勒索軟體還原儀表板提供選項、可用來還原可能已受勒索軟體感染的資料。這有助於您快速備份和執行系統。此時、還原動作可讓您以未受勒索軟體影響的Snapshot複本來取代毀損的磁碟區。<block ref="736cade400f507ba8b7ce738b709d6e6" category="inline-link-rx"></block>。</block>
@@ -448,9 +438,6 @@
   <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">深入瞭解如何在AWS中建立資料代理程式</block>
   <block id="d44d7e95c5eca613daa8fef0c12530ae" category="paragraph"><block ref="0c0a23f9985774f63451c32bdf4cbdeb" category="inline-link-rx"></block>。</block>
-  <block id="5b420079bca1c870914caa221b31442e" category="section-title">支援的支援Cloud Volumes ONTAP</block>
-  <block id="ad598f033e541927e862b0c5e17319ec" category="paragraph">現在、BlueXP可以在Cloud Volumes ONTAP AWS、Azure和Google Cloud中部署和管理支援功能。</block>
-  <block id="066405d152aeaf5c017e93048679ce43" category="paragraph"><block ref="0d69949c9de36f8752d49be7f0ec9aed" category="inline-link-rx"></block>。</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
   <block id="a62f3b1b0c4abf78f5d81609e7bdd908" category="section-title">連接器3.9.28</block>
   <block id="a08572617e25a61e8569807ac103ab07" category="list-text">數位錢包現在支援電子郵件通知。</block>
@@ -525,12 +512,10 @@
   <block id="231ea98554191e640c216736796158d5" category="section-title">重新設計 BlueXP 使用者介面、以重新設計 Cloud Volumes ONTAP 概觀、 Volume 和集合頁面</block>
   <block id="1cc55fcb982bea0e8f241a1271bda985" category="paragraph">BlueXP 現在已重新設計了 Cloud Volumes ONTAP 概觀、磁碟區和集合網頁的使用者介面。並排式設計會在每個方塊中提供更完整的資訊、以提供更好的使用者體驗。</block>
   <block id="9000895c1e7c46e6e8fc9eb750dfb403" category="inline-image-macro">此螢幕擷取畫面會在 Cloud Volumes ONTAP 總覽頁面上顯示重新設計的 BlueXP 使用者介面。各種方塊顯示儲存效率、版本、容量分配、 Cloud Volumes ONTAP 部署、磁碟區、集合體、複製和備份的相關資訊。</block>
-  <block id="23fbfdbb598644432ab089fa6e533405" category="paragraph"><block ref="23fbfdbb598644432ab089fa6e533405" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6fff4762fc0aeb74dd0a918683c157ae" category="section-title">可透過 Cloud Volumes ONTAP 檢視的 FlexGroup Volume</block>
   <block id="8d40e6e8379382ee39fba2c4a1cb5629" category="paragraph">透過 CLI 或系統管理員直接建立的 FlexGroup Volume 現在可透過 BlueXP 中重新設計的 Volumes 動態磚來檢視。BlueXP 與提供給 FlexVol Volume 的資訊相同、透過專用的 Volumes 磚提供建立的 FlexGroup Volume 的詳細資訊。</block>
   <block id="905d8520d584560b3995118b2a01f6c2" category="admonition">目前、您只能在 BlueXP 下檢視現有的 FlexGroup 磁碟區。在 BlueXP 中建立 FlexGroup 磁碟區的功能無法使用、但已計畫在未來版本中使用。</block>
   <block id="91f0dcc3b5f3e7c2ced12a923ca3b92e" category="inline-image-macro">顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。</block>
-  <block id="ce46ac36501bd1de8616d715ef7ee1c2" category="paragraph"><block ref="ce46ac36501bd1de8616d715ef7ee1c2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9f223d40f9c90f08d9cd6ef8cba648c3" category="inline-link-macro">深入瞭解如何檢視建立的 FlexGroup Volume 。</block>
   <block id="acef74218ad5e199582b5c76062e5559" category="paragraph"><block ref="acef74218ad5e199582b5c76062e5559" category="inline-link-macro-rx"></block></block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
@@ -549,9 +534,7 @@
   <block id="7196a94f4d2eb95bbda75c84fd8bbaa9" category="admonition">採用受限模式會取代啟用或停用 SaaS 平台的選項。您可以在建立帳戶時啟用限制模式。稍後無法啟用或停用。</block>
   <block id="830d9c74b9a0266753efa0c38f11ba15" category="paragraph"><block ref="b3303746b1f0c3c97f0d5584351ddef9" category="inline-link-rx"></block>。</block>
   <block id="40c193dda1b0a4df68695abe150f234a" category="section-title">能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端</block>
-  <block id="28e1f4495f1c7f5d7f7a5392a215c21a" category="paragraph">現在您可以在「受限」模式下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。請參閱<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 和<block ref="d878e312b2f9cdcef2f8eccaa51619ee" category="inline-link-rx"></block>。</block>
   <block id="57c3b4ba3c60295d45a2554606080eef" category="section-title">能夠使用 API 將內部部署的 ONTAP 磁碟區備份至 ONTAP S3</block>
-  <block id="430a1b25bf435fd21376b7b1884b6999" category="inline-link">與 ONTAP S3 整合為目的地（使用 REST API ）</block>
   <block id="720734599c08f49ea57d729ec9f12d53" category="section-title">能夠將 Azure 儲存帳戶的區域備援層面從 LRS 變更為 ZRS</block>
   <block id="95fa16fe802a71eca4c0ade2049c7325" category="inline-link">變更儲存帳戶的複寫方式</block>
   <block id="d9f6af5f4e2b16940729f1ac7da86d7d" category="paragraph">從 Cloud Volumes ONTAP 系統建立備份至 Azure 儲存設備時、雲端備份預設會以本機備援（ LRS ）來配置 Blob 容器、以達到成本最佳化。如果您想要在不同區域之間複寫資料、可以將此設定變更為區域備援（ ZRS ）。請參閱的 Microsoft 指示<block ref="c549763665cfbb93dbccfdbf667aa0f2" category="inline-link-rx"></block>。</block>
@@ -568,7 +551,6 @@
   <block id="67778bfe57cf94d953dd530babc8df46" category="section-title">能夠在雲端的較小執行個體上部署 Data Sense</block>
   <block id="3d81ce02b62771b2627fbe04a96419a1" category="inline-link">請參閱可用的執行個體類型和限制</block>
   <block id="34590974cfa4c7d3c4258641c30ef959" category="paragraph">在 AWS 環境中從 BlueXP Connector 部署 Data Sense 時、現在您可以從兩種較預設執行個體可用的執行個體類型來選擇。如果您掃描的是小型環境、這有助於節省雲端成本。不過、使用較小的執行個體時會有一些限制。<block ref="98ea36794454fcb53d0ac9a791bd6948" category="inline-link-rx"></block>。</block>
-  <block id="914d653aae79118a23517243079b88cb" category="section-title">獨立指令碼現在可供測試、您的 Linux 系統是否符合安裝 Data Sense 的資格</block>
   <block id="374deadc3a3b7f52c668078795f75e3a" category="inline-link">瞭解如何檢查您的 Linux 主機是否已準備好安裝 Data Sense</block>
   <block id="04659fbbded99230220bc3321874622f" category="paragraph">如果您想驗證 Linux 系統是否符合所有先決條件、而不需執行 Data Sense 安裝、您可以下載一個獨立的指令碼、只測試先決條件。<block ref="721973ab191f916be1f3432f173ac838" category="inline-link-rx"></block>。</block>
   <block id="e86989a1de71c911aa1dff7be51112bd" category="section-title">新的建議行動、協助保護您的資料免受勒索軟體攻擊</block>
@@ -578,8 +560,6 @@
   <block id="8f0f57a606909986a57f6c9a3dcb68ef" category="paragraph"><block ref="3c293b78d34033676deb7d5c4a97ca37" category="inline-link-rx"></block>。</block>
   <block id="1d0a8122e5a250dbe5879cd7f8f5a495" category="inline-link">深入瞭解 BlueXP 的推出</block>
   <block id="3214121f77d11d3720f824f6609986e1" category="paragraph">NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud Manager 所提供的功能。<block ref="f53c3e09f5dc895df05d3b248da7799e" category="inline-link-rx"></block></block>
-  <block id="f25c47eb7d9f3c638d89723bee6d2360" category="paragraph">API 的新功能可讓您使用 BlueXP 雲端備份、將 Volume 快照備份至 ONTAP S3 。此功能目前僅適用於內部 ONTAP 系統。如需詳細指示、請參閱部落格<block ref="50f757899df464a10b489edfac75ae5d" category="inline-link-rx"></block>。</block>
-  <block id="754eb66320ee2d41917d70a6a0cd125b" category="paragraph">新的經濟效益服務可識別目前或預測容量不足的叢集、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。</block>
   <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023 年 4 月 5 日（ 2.2 版）</block>
   <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache</block>
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。</block>
@@ -589,4 +569,16 @@
   <block id="d3d5bae1dc5637cc2d16caf23d0426d2" category="paragraph">您可以使用新的營運恢復服務及其自動化 IT 作業風險補救建議、在發生中斷或故障之前實作建議的修正。</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。</block>
   <block id="10b9ce0cb6b2f607e0c7df6e246cfe67" category="paragraph"><block ref="8a7bc1e5ebe0f732b7f8c57cc7b088b6" category="inline-link-rx"></block>。</block>
+  <block id="42d7d856cc8f6a2f82ed10cd8356e7d2" category="inline-link">深入瞭解 BlueXP 部署模式</block>
+  <block id="ed84e3ec0d45db682853810ea96888fd" category="paragraph">現在您可以在「受限」模式下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。<block ref="18611796b9b4332697b6f9bb72b16e0b" category="inline-link-rx"></block>。請參閱<block ref="0607f60a93455f62c98c67f333a631e0" category="inline-link-rx"></block> 和<block ref="d878e312b2f9cdcef2f8eccaa51619ee" category="inline-link-rx"></block>。</block>
+  <block id="d7cfe6967f3004ef3386a27fe99a4610" category="inline-link">與 ONTAP S3 整合為目的地</block>
+  <block id="987075beb2d571b76448b0f6477c4423" category="paragraph">API 的新功能可讓您使用 BlueXP 雲端備份、將 Volume 快照備份至 ONTAP S3 。此功能目前僅適用於內部部署 ONTAP 系統。如需詳細指示、請參閱部落格<block ref="8bfab3c14784f20047e4459b814ebfe4" category="inline-link-rx"></block>。</block>
+  <block id="c1fe7e1d533d99b367d348052b2d15b2" category="section-title">獨立指令碼現已推出、可在安裝 Data Sense 之前驗證您的 Linux 系統</block>
+  <block id="c395006d6063b66336be768382280c9e" category="paragraph">請參閱的完整端點清單<block ref="684a3f4234dd7d8f8b7d90e00da95138" category="inline-link-rx"></block>、<block ref="fd66fc554da543d0f7f94dcde36b2a2f" category="inline-link-rx"></block>或<block ref="2484264a704a749bc992bec76f43f13d" category="inline-link-rx"></block> 雲端環境：</block>
+  <block id="ebef32c1ba0aec7a39eb2ce8370a97d5" category="paragraph">從 Cloud Volumes ONTAP 9.12.1 GA 開始、 AWS 現在支援中國地區、如下所示。</block>
+  <block id="7ce52c94db42646098e71a61d9836b73" category="section-title">Google Cloud 現在支援都靈地區</block>
+  <block id="84030861d628cd7238a62da972a260f4" category="paragraph">Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援都靈地區。</block>
+  <block id="77b63f391cd8d8277d8d106f03ad5d8f" category="paragraph"><block ref="77b63f391cd8d8277d8d106f03ad5d8f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78f9ca50556d02ff8700efd01af0d528" category="paragraph"><block ref="78f9ca50556d02ff8700efd01af0d528" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b0d4aa7122dfc7ff627e44c134e7141e" category="paragraph">新的經濟效益服務可識別目前或預測容量不足的儲存資產、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。</block>
 </blocks>
