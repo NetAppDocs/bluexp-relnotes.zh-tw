@@ -46,7 +46,7 @@ BlueXP _ 部署模式 _ 可讓您以符合業務與安全需求的方式使用 B
 * 私有模式
 
 
-link:concept-modes.html["深入瞭解這些部署模式"]。
+10b9ce0cb6b2f607e0c7df6e246cfe67
 
 
 NOTE: 採用受限模式會取代啟用或停用 SaaS 平台的選項。您可以在建立帳戶時啟用限制模式。稍後無法啟用或停用。
@@ -1047,25 +1047,25 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
-=== e0feab0ee26165da9cddab198d1f1422
+=== 2023 年 4 月 5 日（ 2.2 版）
 
 此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
 
 
 
-==== b1bdb4b30cdf01fdd4fc306c24b3e449
+==== 在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache
 
-a92c52030822934c670502facf8a8f31
+在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。
 
-3a8f1f533494279acf2d044c11cf495a
-
-
-
-==== 89960279d43d6d504afb45e5a8dff137
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#packages["深入瞭解Edge Cache授權套件。"]
 
 
 
-==== 402a1502f5c39fb55ca79d59e3184a34
+==== 設定精靈和 GFC 組態 UI 已增強、可執行 NetApp 授權登錄
+
+
+
+==== 增強的 Optimus PSM 可設定 Edge Sync 功能
 
 
 
@@ -1261,9 +1261,9 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 === 2023 年 4 月 2 日
 
-使用新的營運恢復服務及其自動化IT營運風險補救建議、您可以在發生中斷或故障之前、實作建議的補救措施。
+您可以使用新的營運恢復服務及其自動化 IT 作業風險補救建議、在發生中斷或故障之前實作建議的修正。
 
-營運恢復能力是一種服務類別、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。
+營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。
 
 link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["深入瞭解這項新服務"]。
 

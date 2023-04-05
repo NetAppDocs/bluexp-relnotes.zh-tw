@@ -486,7 +486,6 @@
   <block id="39aeb3e37839611b14bfa6c7390065c1" category="paragraph">如需區域可用度、請參閱 <block ref="69e22a6a63d14aa651819a20b96c9cc5" category="inline-link-macro-rx"></block>。</block>
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="section-title">經濟效益</block>
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023 年 4 月 2 日</block>
-  <block id="6a96f2962c3be88d01a2e04f7bb4006f" category="paragraph">新的經濟效益服務可識別目前或預測容量不足的叢集、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。</block>
   <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link-macro">深入瞭解這項新服務</block>
   <block id="38532dd1586dac78ea99ce1216e1f352" category="paragraph"><block ref="6e51c6b9ced37d3ad7414d5e4d1ac63a" category="inline-link-macro-rx"></block>。</block>
   <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">單一探索選項</block>
@@ -501,8 +500,6 @@
   <block id="d74db5b2b9703b60c98aead9c3c3275e" category="paragraph"><block ref="9ba91f2cd50d4cdc6a75347f1fff1126" category="inline-link-rx"></block>。</block>
   <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">營運恢復能力</block>
-  <block id="1630a937eacb69072b241ed94c9fd786" category="paragraph">使用新的營運恢復服務及其自動化IT營運風險補救建議、您可以在發生中斷或故障之前、實作建議的補救措施。</block>
-  <block id="ccdc113a6d04ad73b22b032c1ebd7c63" category="paragraph">營運恢復能力是一種服務類別、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。</block>
   <block id="111e68f453d93697e376aa4b128f9a4c" category="paragraph"><block ref="ab8039366481dc33ac47cc2a37c277c6" category="inline-link-macro-rx"></block>。</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
@@ -549,7 +546,6 @@
   <block id="e429f30641aba9e1fc7f2090cc77ce40" category="list-text">受限模式</block>
   <block id="44f51c4ac8fa1a6f53f07c0c2f751b69" category="list-text">私有模式</block>
   <block id="14862370498786066b8605b6924a2605" category="inline-link-macro">深入瞭解這些部署模式</block>
-  <block id="8ac00ea11b6f6d690abdf2e43ac24aa0" category="paragraph"><block ref="0074b237bf3db6e42e5cd08e19595bea" category="inline-link-macro-rx"></block>。</block>
   <block id="7196a94f4d2eb95bbda75c84fd8bbaa9" category="admonition">採用受限模式會取代啟用或停用 SaaS 平台的選項。您可以在建立帳戶時啟用限制模式。稍後無法啟用或停用。</block>
   <block id="830d9c74b9a0266753efa0c38f11ba15" category="paragraph"><block ref="b3303746b1f0c3c97f0d5584351ddef9" category="inline-link-rx"></block>。</block>
   <block id="40c193dda1b0a4df68695abe150f234a" category="section-title">能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端</block>
@@ -583,4 +579,13 @@
   <block id="1d0a8122e5a250dbe5879cd7f8f5a495" category="inline-link">深入瞭解 BlueXP 的推出</block>
   <block id="3214121f77d11d3720f824f6609986e1" category="paragraph">NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud Manager 所提供的功能。<block ref="f53c3e09f5dc895df05d3b248da7799e" category="inline-link-rx"></block></block>
   <block id="f25c47eb7d9f3c638d89723bee6d2360" category="paragraph">API 的新功能可讓您使用 BlueXP 雲端備份、將 Volume 快照備份至 ONTAP S3 。此功能目前僅適用於內部 ONTAP 系統。如需詳細指示、請參閱部落格<block ref="50f757899df464a10b489edfac75ae5d" category="inline-link-rx"></block>。</block>
+  <block id="754eb66320ee2d41917d70a6a0cd125b" category="paragraph">新的經濟效益服務可識別目前或預測容量不足的叢集、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。</block>
+  <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023 年 4 月 5 日（ 2.2 版）</block>
+  <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache</block>
+  <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。</block>
+  <block id="3a8f1f533494279acf2d044c11cf495a" category="paragraph"><block ref="3a8f1f533494279acf2d044c11cf495a" category="inline-link-rx"></block></block>
+  <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">設定精靈和 GFC 組態 UI 已增強、可執行 NetApp 授權登錄</block>
+  <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">增強的 Optimus PSM 可設定 Edge Sync 功能</block>
+  <block id="d3d5bae1dc5637cc2d16caf23d0426d2" category="paragraph">您可以使用新的營運恢復服務及其自動化 IT 作業風險補救建議、在發生中斷或故障之前實作建議的修正。</block>
+  <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。</block>
 </blocks>
