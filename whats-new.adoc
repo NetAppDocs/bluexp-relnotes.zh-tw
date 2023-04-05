@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
 ---
 = 最新的BlueXP變更
@@ -23,7 +23,7 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 == 介紹BlueXP
 
-Cloud Manager於2022年11月1日重新命名為BlueXP。 https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["深入瞭解BlueXP"^]
+NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud Manager 所提供的功能。 https://docs.netapp.com/us-en/cloud-manager-family/concept-overview.html["深入瞭解 BlueXP 的推出"^]
 
 
 
@@ -291,7 +291,7 @@ https://docs.netapp.com/us-en/cloud-manager-app-template/concept-tagging.html["�
 
 ==== 能夠使用 API 將內部部署的 ONTAP 磁碟區備份至 ONTAP S3
 
-f25c47eb7d9f3c638d89723bee6d2360
+API 的新功能可讓您使用 BlueXP 雲端備份、將 Volume 快照備份至 ONTAP S3 。此功能目前僅適用於內部 ONTAP 系統。如需詳細指示、請參閱部落格 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-Feature-Blog-April-23-Updates/ba-p/443075#toc-hId--846533830["與 ONTAP S3 整合為目的地（使用 REST API ）"^]。
 
 
 
@@ -1047,9 +1047,31 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
-=== 2022年10月24日（2.1版）
+=== e0feab0ee26165da9cddab198d1f1422
 
 此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
+
+
+
+==== b1bdb4b30cdf01fdd4fc306c24b3e449
+
+a92c52030822934c670502facf8a8f31
+
+3a8f1f533494279acf2d044c11cf495a
+
+
+
+==== 89960279d43d6d504afb45e5a8dff137
+
+
+
+==== 402a1502f5c39fb55ca79d59e3184a34
+
+
+
+=== 2022年10月24日（2.1版）
+
+此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
 
 
 
@@ -1108,12 +1130,6 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 ==== Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單
-
-
-
-=== 2022年6月23日（版本1.3.1）
-
-1.3.1版的全域檔案快取Edge軟體可從取得 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。此版本可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
 
 
 
