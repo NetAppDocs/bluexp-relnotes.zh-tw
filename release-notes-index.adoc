@@ -19,6 +19,12 @@ permalink: release-notes-index.html
 
 
 
+== 系統管理
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/whats-new.html["設定與管理"^]
+
+
+
 == 儲存設備
 
 * https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
@@ -47,16 +53,10 @@ permalink: release-notes-index.html
 * https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["Cloud Sync"^]
 * https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["雲端分層"^]
 * https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["運算"^]
+* https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["數位錢包"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["經濟效益"^]
 * https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["全域檔案快取"^]
 * https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["營運恢復能力"^]
 * https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["勒索軟體保護"^]
 * https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["複寫"^]
-
-
-
-
-== 系統管理
-
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/whats-new.html["設定與管理"^]
 

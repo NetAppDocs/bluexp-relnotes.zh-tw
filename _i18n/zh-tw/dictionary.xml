@@ -196,9 +196,6 @@
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">支援StorageGRID 功能</block>
   <block id="1e8b70ceb2c6c0577446889e5a58ddda" category="list-text"><block ref="1e8b70ceb2c6c0577446889e5a58ddda" category="inline-link-rx"></block></block>
   <block id="ead28cedb204ded1899ad9065642764d" category="list-text"><block ref="ead28cedb204ded1899ad9065642764d" category="inline-link-rx"></block></block>
-  <block id="30b77b282030e8985671bcc89e3e4d74" category="inline-link">設定與管理</block>
-  <block id="10dc3609faa5a0e06b693aa9833bf1aa" category="list-text"><block ref="10dc3609faa5a0e06b693aa9833bf1aa" category="inline-link-rx"></block></block>
-  <block id="24107a8e1555736c2428c199a70f695f" category="summary">這些版本說明說明最新的雲端服務增強功能、這些功能是BlueXP（前身為Cloud Manager）的一部分。每項個別服務的完整版本資訊均提供連結。</block>
   <block id="db502201c33ba3b3f867c8360cce228a" category="doc">BlueXP版本說明</block>
   <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP中的更新版本資訊Cloud Volumes ONTAP</block>
   <block id="768f6f21e441ee3eb49fe0b2939ca706" category="list-text"><block ref="768f6f21e441ee3eb49fe0b2939ca706" category="inline-link-rx"></block></block>
@@ -581,4 +578,22 @@
   <block id="77b63f391cd8d8277d8d106f03ad5d8f" category="paragraph"><block ref="77b63f391cd8d8277d8d106f03ad5d8f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="78f9ca50556d02ff8700efd01af0d528" category="paragraph"><block ref="78f9ca50556d02ff8700efd01af0d528" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b0d4aa7122dfc7ff627e44c134e7141e" category="paragraph">新的經濟效益服務可識別目前或預測容量不足的儲存資產、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。</block>
+  <block id="6d924727c00a77a63749e2f8aa0860d4" category="summary">這些版本資訊說明 BlueXP 中雲端服務的最新增強功能。每項個別服務的完整版本資訊均提供連結。</block>
+  <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">設定與管理</block>
+  <block id="d808984cb334165621ea1d56cb6d6634" category="paragraph"><block ref="d808984cb334165621ea1d56cb6d6634" category="inline-link-rx"></block></block>
+  <block id="2049421a4e8e45e83cd7cf18ffc00a12" category="inline-link">數位錢包</block>
+  <block id="1d56c7b4c7e2384a1f75532fbd18626d" category="list-text"><block ref="1d56c7b4c7e2384a1f75532fbd18626d" category="inline-link-rx"></block></block>
+  <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">數位錢包</block>
+  <block id="497d867daded8927a3cf934337006373" category="paragraph"><block ref="497d867daded8927a3cf934337006373" category="inline-link-rx"></block></block>
+  <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">授權的市場訂閱容量</block>
+  <block id="1b8d4ee3ff5e577bc8524d6a5e73790e" category="paragraph">在檢視 Cloud Volumes ONTAP 的容量型授權時、數位錢包現在會顯示您購買的市場私有優惠授權容量。</block>
+  <block id="1e9f781ad3dabc2f942313854ce94883" category="paragraph"><block ref="bcd8bf14da5e102dbc4b48dd0870869e" category="inline-link-rx"></block>。</block>
+  <block id="5a4346a01828d72104a6540080377b25" category="section-title">2022年11月6日</block>
+  <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">訂閱與年度合約</block>
+  <block id="a7dad5ac7e311dedf2a82e4bb5a713dd" category="paragraph">您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。</block>
+  <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
+  <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>。</block>
+  <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">最佳化的 I/O 和 WORM 容量</block>
+  <block id="e1de90a0937196074c7abb9f8b5e5edf" category="paragraph">數位錢包現在會顯示最佳化I/O授權套件的摘要、以及Cloud Volumes ONTAP 整個帳戶中針對各個系統所配置的WORM容量。</block>
+  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。</block>
 </blocks>

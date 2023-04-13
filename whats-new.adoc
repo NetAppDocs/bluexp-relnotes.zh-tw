@@ -1000,6 +1000,58 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+== 數位錢包
+
+
+
+=== 2023年4月3日
+
+
+
+==== 電子郵件通知
+
+數位錢包現在支援電子郵件通知。
+
+如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["瞭解如何設定電子郵件通知"^]
+
+
+
+==== 授權的市場訂閱容量
+
+在檢視 Cloud Volumes ONTAP 的容量型授權時、數位錢包現在會顯示您購買的市場私有優惠授權容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"]。
+
+
+
+=== 2022年11月6日
+
+
+
+==== 訂閱與年度合約
+
+您的PAYGO訂閱和BlueXP年度合約現已可供檢視及管理、請參閱Digital Wallet。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-subscriptions.html["瞭解如何管理您的訂閱"]。
+
+
+
+=== 2022年9月18日
+
+
+
+==== 最佳化的 I/O 和 WORM 容量
+
+數位錢包現在會顯示最佳化I/O授權套件的摘要、以及Cloud Volumes ONTAP 整個帳戶中針對各個系統所配置的WORM容量。
+
+這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"]。
+
+
+
 == 經濟效益
 
 
