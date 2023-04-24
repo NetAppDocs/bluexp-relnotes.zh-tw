@@ -371,10 +371,6 @@
   <block id="6ff2a7981cc8a7efd758e8ffec4cc69e" category="inline-link">深入瞭ONTAP 解內部叢集增強功能</block>
   <block id="9e8ad418161e776fb398db9af34585c3" category="list-text"><block ref="9e8ad418161e776fb398db9af34585c3" category="inline-link-rx"></block></block>
   <block id="1442489a4cf0ea56df2e53ec47c70ec8" category="section-title">工作監控器的多項增強功能</block>
-  <block id="0eeac28a6eb03f47165f3c65b5e13cea" category="section-title">2023年3月13日</block>
-  <block id="5eeac325d343b1bb90074e1be60dd1ae" category="section-title">中國地區支援</block>
-  <block id="f3818f17dde36b1601ccfef8ceab6cbe" category="paragraph">從推出支援中國地區的支援功能到現在起、Azure已提供下列支援Cloud Volumes ONTAP ：</block>
-  <block id="49b72186e2fe2638cbb520201b58bc02" category="list-text">支援中國北方3 Cloud Volumes ONTAP 。</block>
   <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">支援單一節點系統。</block>
   <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">支援直接向NetApp購買的授權。</block>
   <block id="13615a82d1149a992b363c411914d3b8" category="inline-link-macro">全球區域地圖Cloud Volumes ONTAP 、供您使用</block>
@@ -409,7 +405,6 @@
   <block id="671e2a59b2bfa852def9660bf14badde" category="section-title">數位錢包增強功能</block>
   <block id="d3ab2a9ddd985032aa120324e6da3710" category="paragraph">Digital Wallet 現在顯示您購買的授權容量、並提供市場私有優惠。</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
-  <block id="41ed2f596edd466ead9a03a4cdcb3b22" category="paragraph"><block ref="5faaec1089d682f6bad43c9cd2141819" category="inline-link-rx"></block>。</block>
   <block id="6ee7d527518e93562cc9e691d20fb1d5" category="section-title">支援在磁碟區建立期間提出意見</block>
   <block id="ac14eb6382fa5b619966ba72622ecd3f" category="paragraph">此版本可讓您在使用 API 建立 Cloud Volumes ONTAP FlexGroup Volume 或 FlexVol Volume 時、提出意見。</block>
   <block id="231ea98554191e640c216736796158d5" category="section-title">重新設計 BlueXP 使用者介面、以重新設計 Cloud Volumes ONTAP 概觀、 Volume 和集合頁面</block>
@@ -600,4 +595,16 @@
   <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume 使用量</block>
   <block id="56a50532d8da2bebb09d6190c126140c" category="inline-link-macro">管理容量型授權</block>
   <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">如需詳細資訊、請參閱 <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>。</block>
+  <block id="3b9e0ca0be1cb4ee263fc0a386a705bc" category="paragraph">Connector 3.9.29 版隨附下列變更。</block>
+  <block id="ef33a11b5d2090c4cf0e98ca1b79cc2d" category="section-title">現在、 Google Cloud 支援卡塔爾地區</block>
+  <block id="357b47742b71d8fe5b5936de05c522ec" category="paragraph">現在、 Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援卡塔爾地區。</block>
+  <block id="c8dc4f54d280ddaf5974f6c903e2152f" category="section-title">瑞典中部地區現在支援 Azure</block>
+  <block id="787bf3f02b45f65c827e46d88d4e7b24" category="paragraph">現在 Azure for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援瑞典中部地區。</block>
+  <block id="d38001cc976e394cf57ce77223bee1a1" category="section-title">支援 Azure Australia East 的 HA 多重可用度區域部署</block>
+  <block id="bef0df4f898713881ef2098a621a3745" category="paragraph">Azure 中的澳洲東部地區現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的 HA 多重可用度區域部署。</block>
+  <block id="300bba824d9f2e68a0c89aef6da5fb8a" category="paragraph">現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 的數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。</block>
+  <block id="6ddb4c081e1822f2c34768a65c03eb8b" category="paragraph">如需詳細資訊、請參閱 <block ref="ebcf101f07f46d44ff28084ad0f8bce3" category="inline-link-macro-rx"></block>。</block>
+  <block id="eaf72ee058835b38b417b55e2fb1c0af" category="section-title">現在在沒有市場訂閱的情況下存取 BlueXP 時會顯示通知</block>
+  <block id="5cc1493ad28334fdb28f7ed57f0e1d41" category="paragraph">當您在 BlueXP 中存取 Cloud Volumes ONTAP 而不訂閱市場時、現在就會顯示通知。通知指出：「此工作環境的市場訂閱必須符合 Cloud Volumes ONTAP 條款與條件。」</block>
+  <block id="d845f71cd5cacb5fdb671f6530007953" category="paragraph"><block ref="b614243ef1614b3040beb4428349cfdf" category="inline-link-rx"></block>。</block>
 </blocks>

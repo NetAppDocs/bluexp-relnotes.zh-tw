@@ -476,6 +476,50 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-data-fusion
 
 
 
+=== 2023 年 5 月 7 日
+
+Connector 3.9.29 版隨附下列變更。
+
+
+
+==== 現在、 Google Cloud 支援卡塔爾地區
+
+現在、 Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援卡塔爾地區。
+
+
+
+==== 瑞典中部地區現在支援 Azure
+
+現在 Azure for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援瑞典中部地區。
+
+
+
+==== 支援 Azure Australia East 的 HA 多重可用度區域部署
+
+Azure 中的澳洲東部地區現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的 HA 多重可用度區域部署。
+
+
+
+==== 充電使用量明細
+
+現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 的數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。
+
+* Cloud Volumes ONTAP 套件使用率
+* 高階使用率
+* 儲存 VM 使用率
+* Volume 使用量
+
+
+如需詳細資訊、請參閱 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["管理容量型授權"^]。
+
+
+
+==== 現在在沒有市場訂閱的情況下存取 BlueXP 時會顯示通知
+
+當您在 BlueXP 中存取 Cloud Volumes ONTAP 而不訂閱市場時、現在就會顯示通知。通知指出：「此工作環境的市場訂閱必須符合 Cloud Volumes ONTAP 條款與條件。」
+
+
+
 === 2023 年 4 月 4 日
 
 從 Cloud Volumes ONTAP 9.12.1 GA 開始、 AWS 現在支援中國地區、如下所示。
@@ -504,7 +548,7 @@ Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.
 
 Digital Wallet 現在顯示您購買的授權容量、並提供市場私有優惠。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"]。
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"^]。
 
 
 
@@ -532,23 +576,6 @@ NOTE: 目前、您只能在 BlueXP 下檢視現有的 FlexGroup 磁碟區。在 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-show-flexgroup-volume.png["顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。"]
 
 link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-volumes.html["深入瞭解如何檢視建立的 FlexGroup Volume 。"^]
-
-
-
-=== 2023年3月13日
-
-
-
-==== 中國地區支援
-
-從推出支援中國地區的支援功能到現在起、Azure已提供下列支援Cloud Volumes ONTAP ：
-
-* 支援中國北方3 Cloud Volumes ONTAP 。
-* 支援單一節點系統。
-* 支援直接向NetApp購買的授權。
-
-
-如需區域可用度、請參閱 link:https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]。
 
 
 
