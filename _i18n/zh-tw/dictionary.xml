@@ -269,9 +269,6 @@
   <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">深入瞭解此選項。</block>
   <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
-  <block id="5a0c953dba56aa463b4468d70bfc3feb" category="section-title">2023年1月1日</block>
-  <block id="f99ecd5cff9b18879fcd5ee404af256f" category="inline-link-macro">自動容量管理</block>
-  <block id="380fe7c3627610af34c9936f46325923" category="paragraph">您現在可以選擇啟用 <block ref="79658b4a46346ad9aa23a5f92d57dfaa" category="inline-link-macro-rx"></block> 可根據需要增加遞增式儲存設備。自動容量管理會定期輪詢叢集、以評估需求、並自動以10%為增量增加儲存容量、最高可達叢集最大容量的80%。</block>
   <block id="5c19ef53902ef56ea5c8f554cccb9ad8" category="section-title">2023年2月5日（1.20版）</block>
   <block id="f0da8cded20db5ee6dce9c1c4da7bcd8" category="section-title">能夠將原則型通知電子郵件傳送至任何電子郵件地址</block>
   <block id="01111213f34b03537871696a29c018fa" category="inline-link">深入瞭解如何根據原則結果傳送電子郵件警示</block>
@@ -320,26 +317,6 @@
   <block id="433c1ccd6c6d5af5fc78b729975e5f20" category="section-title">連接器輸出網際網路存取端點變更</block>
   <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
-  <block id="ba5bb99eb6a04798c8ccd3f156db75a5" category="section-title">連接器3.9.27</block>
-  <block id="ce47c670900f3fe8347a2fc95ff710d8" category="list-text">現在可在BlueXP主控台中搜尋。此時、您可以使用搜尋來尋找BlueXP服務和功能。</block>
-  <block id="73984711a5ba4c8d6f613d3ef2426680" category="inline-image-macro">主控台頂端提供的BlueXP搜尋快照。</block>
-  <block id="4be68bdee3a27bc0218c6188d192fc95" category="paragraph"><block ref="4be68bdee3a27bc0218c6188d192fc95" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="list-text">您可以直接從BlueXP檢視及管理作用中和已解決的支援案例。您可以管理與您的NSS帳戶和貴公司相關的個案。</block>
-  <block id="a48a6aaa99b4cf4a4e641c293de897fa" category="inline-link">瞭解如何管理您的支援案例</block>
-  <block id="796ced97a72330e5ce3c0935b7b09f45" category="paragraph"><block ref="622b6e7f4143df2aca06b538ee1d864e" category="inline-link-rx"></block>。</block>
-  <block id="dd9b32305d0c33f8845bee1cdfcfc85a" category="list-text">連接器現在支援執行Red Hat Enterprise Linux 8.7的主機。</block>
-  <block id="2a75ac250c22787b79b100a2a614a4e2" category="inline-link">檢視Connector的系統需求</block>
-  <block id="9954c00cefacf69f28fa1994e949ff83" category="paragraph"><block ref="1c471069dafa2d25f3a632cea0250222" category="inline-link-rx"></block>。</block>
-  <block id="4965002502fb4ea58d2f984e3fe0a110" category="paragraph">雲端區域可以是美國安全機構的區域、例如AWS C2S/SC2S、Azure IL6或任何商業區域。</block>
-  <block id="376a158ceb7d344fa563cce2aa16018f" category="inline-link">將Connector安裝在沒有網際網路存取的位置</block>
-  <block id="6bfdfb1d6b845d41edac4f1eb0065216" category="list-text"><block ref="6bfdfb1d6b845d41edac4f1eb0065216" category="inline-link-rx"></block></block>
-  <block id="cbea6f8d2cd687c094438e0a7a38fedf" category="inline-link">存取Connector上的BlueXP主控台</block>
-  <block id="b620510a7b9198825896459898b7bc08" category="list-text"><block ref="b620510a7b9198825896459898b7bc08" category="inline-link-rx"></block></block>
-  <block id="c09d91817b6017a3572898b867b22e36" category="inline-link">新增未指派的授權</block>
-  <block id="587a8286d2e3b61d9f250d807b34983c" category="list-text"><block ref="587a8286d2e3b61d9f250d807b34983c" category="inline-link-rx"></block></block>
-  <block id="a8ed015209d62d3ffd9042f8a01b9725" category="inline-link">立即開始Cloud Volumes ONTAP 使用</block>
-  <block id="d66686137674e9cdef6070dbe4ce01c6" category="list-text"><block ref="d66686137674e9cdef6070dbe4ce01c6" category="inline-link-rx"></block></block>
-  <block id="37e16775c1bede9551f227ccaca87974" category="paragraph"><block ref="37e16775c1bede9551f227ccaca87974" category="inline-link-rx"></block></block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
   <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">使用者介面已進行改善、文件中已更新螢幕擷取畫面。</block>
   <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">現在您可以為磁碟區產生分層報告</block>
@@ -364,9 +341,6 @@
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能夠從BlueXP新增庫位</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">瞭解如何新增Amazon S3儲存庫</block>
   <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
-  <block id="d564f41f7e0ffa3f9e8bc7a809230f94" category="list-text">Connector現在可讓您新增及管理來自BlueXP的Amazon S3儲存區。</block>
-  <block id="f19dd7eba16fe45d9a801001a9371842" category="inline-link">瞭解如何從BlueXP在AWS帳戶中新增Amazon S3儲存區</block>
-  <block id="3fdb23ee61e644ed849519b472ba51ae" category="paragraph"><block ref="35aa20e861d3bf81209592fa160bd4e4" category="inline-link-rx"></block>。</block>
   <block id="01e76ab0dacc58799dc14adbdc705ac7" category="section-title">2023年3月9日</block>
   <block id="35203f05692d5cc102a5525bf4de9733" category="section-title">資料夾層級的還原作業現在包括所有子資料夾和檔案</block>
   <block id="5463242c7cc34f92b5dbbf1ab6d87188" category="paragraph">過去當您還原資料夾時、只會還原該資料夾中的檔案、子資料夾中的任何子資料夾或檔案都不會還原。現在、如果您使用ONTAP 的是更新版本的版本、則會還原所選資料夾中的所有子資料夾和檔案。如果您在頂層資料夾中有多個巢狀資料夾、這可節省大量時間與金錢。</block>
@@ -387,10 +361,6 @@
   <block id="1ba259cc1a092c9c30c1a18ccc612c75" category="list-text">Google Cloud Turin地區現在支援Connector。</block>
   <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">檢視支援區域的完整清單</block>
   <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
-  <block id="e9c35e9b853bc286e0f3b1a7ee2e338a" category="list-text">您現在可以在BlueXP中探索VMware vCenter Server。</block>
-  <block id="a5b1ab8743c3279fbcf5a93dcd6de23d" category="paragraph">探索在AWS或內部部署環境中執行的VMware vCenter Server之後、您可以開啟工作環境、以檢視與伺服器相關聯的資料存放區和虛擬機器的詳細資料。</block>
-  <block id="10cc8c1f48423a72bf1e617861999cae" category="paragraph">唯一的需求是連接到執行7.0版或更新版本的VMware vCenter Server的Connector。</block>
-  <block id="70843c2315ee9e00dc50f03225c92953" category="paragraph">若要開始使用、請選取*新增工作環境*、選取* Amazon Web Services*或*內部部署*、然後選取* VMware vCenter Server*。輸入伺服器的網域名稱或IP位址、然後輸入管理員使用者的使用者名稱和密碼。</block>
   <block id="fb378d84e11ead1b2c8c57bfabde81de" category="list-text">您現在可以管理與您的BlueXP登入相關的使用者認證：ONTAP 功能驗證和NetApp 支援網站 支援（NSS）認證。</block>
   <block id="f06293a36a992a2a1b8c6f6572b6caf8" category="paragraph">當您移至*「設定」&gt;「認證資料」*時、您可以檢視認證資料、更新認證資料並加以刪除。例如、如果您變更這些認證資料的密碼、則需要更新BlueXP中的密碼。</block>
   <block id="4e46804b204e02c9bd12cc6d7232cca6" category="list-text">您現在可以在建立支援案例或更新現有支援案例的案例備註時上傳附件。</block>
@@ -426,8 +396,6 @@
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
   <block id="6f6e8b4bb29cff7fb5a94ccadb883777" category="inline-link-macro">瞭解如何管理使用者認證</block>
-  <block id="cabf1912632a0d24145c02f00dc7d6b2" category="inline-link-macro">在適用於 ONTAP 的 FSX 上建立 FlexGroup</block>
-  <block id="9a2a26c33c1a0f6b14b7bb3a214dbaf0" category="list-text">您現在可以了 <block ref="5e895283a25d01b135da63bdfcfdf72e" category="inline-link-macro-rx"></block> 將 Volume 資料分散到整個叢集。</block>
   <block id="9af9b754c1d16f271c1e6f4b1b2c4f4d" category="list-text">IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。</block>
   <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2023 年 4 月 2 日</block>
   <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 關係的額外支援</block>
@@ -515,8 +483,6 @@
   <block id="36e33f823d687cad39366d44fd0b326d" category="section-title">訂閱與年度合約</block>
   <block id="949b19dd7e9f6496c1125f7166270450" category="inline-link">瞭解如何管理您的訂閱</block>
   <block id="02a7eedc354fe91b04b9ff906dc9c760" category="paragraph"><block ref="dcb08a7187e62f8d5d6c3eba08ea6b8f" category="inline-link-rx"></block>。</block>
-  <block id="b269d65b4fd592fc59288f3c9c3917b9" category="section-title">最佳化的 I/O 和 WORM 容量</block>
-  <block id="c3304f9cf1f523f219fc4a936bde8242" category="paragraph">這些詳細資料可協助您更深入瞭解如何收取費用、以及是否需要購買額外容量。</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="inline-link">備份與還原</block>
   <block id="91c0e2f2075bec9e96bc977e9bd6d224" category="list-text"><block ref="91c0e2f2075bec9e96bc977e9bd6d224" category="inline-link-rx"></block></block>
   <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="inline-link">分類</block>
@@ -604,10 +570,34 @@
   <block id="35083b11acbb58293019b38b8f232a5a" category="paragraph">您可以從「層級磁碟區」頁面下載報告、以便檢閱所管理叢集上所有磁碟區的分層狀態。BlueXP 分層會產生 .CSV 檔案、您可以視需要檢閱並傳送給公司中的其他人。<block ref="b6be70acd3f28aaa18a7e212c9bc7736" category="inline-link-rx"></block>。</block>
   <block id="8c14896b1d1fc37f02aa2e6dfc06354a" category="paragraph">由於 BlueXP 分層的變更、您必須變更下列 Connector 端點、才能成功執行 BlueXP 分層作業：</block>
   <block id="d128bda2634e1051cc984231da065144" category="list-text">BlueXP 數位電子錢包現在支援電子郵件通知。</block>
-  <block id="d2792d178cbdf6c41f2b8f2ae64424ed" category="list-text">現在、連接器可在完全隔離網際網路的任何雲端環境中獲得支援。然後您可以使用連接器上執行的BlueXP主控台、在Cloud Volumes ONTAP 同一個位置部署故障、並探索內部部署ONTAP 的故障叢集（如果您的雲端環境與內部部署環境之間有連線）。您也可以使用 BlueXP 備份與還原來備份 AWS 和 Azure 商業地區的 Cloud Volumes ONTAP 磁碟區。除了 BlueXP 數位錢包之外、此類部署不支援其他 BlueXP 服務。</block>
-  <block id="75327cdc175eca204abf0a4aa66413b3" category="paragraph">若要開始使用、請手動安裝 Connector 軟體、登入 Connector 上執行的 BlueXP 主控台、將 BYOL 授權新增至 BlueXP 數位錢包、然後部署 Cloud Volumes ONTAP 。</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">在檢視 Cloud Volumes ONTAP 的容量型授權時、 BlueXP 數位錢包現在會顯示您購買的市場私有優惠授權容量。</block>
   <block id="b3e680bd6b6b80e2fd4f5bd19f3ad015" category="paragraph">您的 PAYGO 訂閱和 BlueXP 年度合約現在可從 BlueXP 數位錢包檢視和管理。</block>
-  <block id="dfc3d3012360c41f119ce032ebb3ed8b" category="paragraph">BlueXP 數位錢包現在會顯示最佳化 I/O 授權套件的摘要、以及您帳戶中 Cloud Volumes ONTAP 系統的隨需 WORM 容量。</block>
   <block id="12c7b4f361520fac32769892a3adb104" category="paragraph">目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。<block ref="cf92aa38511759ce0275086447e2bfa9" category="inline-link-rx"></block>。</block>
+  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023 年 5 月 7 日</block>
+  <block id="d13015f8ae4fd0f7f263eba9f81f4caa" category="section-title">連接器 3.9.29</block>
+  <block id="05263fcc56b50972b2dfe4be20698328" category="list-text">當您從 BlueXP 或雲端供應商的市場部署 Connector 時、 Ubuntu 22.04 是 Connector 的新作業系統。</block>
+  <block id="9ab8f4fa1e0839b1101d04c9cd4e1bae" category="paragraph">您也可以選擇在執行 Ubuntu 22.04 的 Linux 主機上手動安裝 Connector 。</block>
+  <block id="dfcaca26de191f6219819bb7091c9ebe" category="list-text">新的 Connector 部署不再支援 Red Hat Enterprise Linux 8.6 和 8.7 。</block>
+  <block id="2f5617aecec1df3805ada7f05da46bde" category="paragraph">新部署不支援這些版本、因為 Red Hat 不再支援 Docker 、這是 Connector 所需的。如果現有 Connector 在 RHEL 8.6 或 8.7 上執行、 NetApp 將繼續支援您的組態。</block>
+  <block id="470821fb08a53bb45ecda66d23c58d6f" category="paragraph">新的和現有的連接器仍支援 Red Hat 7.6 、 7.7 、 7.8 和 7.9 。</block>
+  <block id="a2619f6db1e9fa217b857129c75384ab" category="list-text">現在、 Google Cloud 中的卡塔爾地區支援 Connector 。</block>
+  <block id="368c64d1828dfb51f85a6ad8427db46c" category="list-text">Microsoft Azure 的瑞典中部地區也支援 Connector 。</block>
+  <block id="cff120b14e79d2501e83070f59bb2387" category="paragraph"><block ref="cff120b14e79d2501e83070f59bb2387" category="inline-link-rx"></block></block>
+  <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023 年 5 月 7 日</block>
+  <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">產生安全性群組</block>
+  <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">需要額外權限</block>
+  <block id="85613cc2934a1e3d40c91656c94e331a" category="list-text">建立工作環境時、您現在可以使用 BlueXP <block ref="c4e69423da06cd62564882d11bcec12a" category="inline-link-macro-rx"></block> 僅允許所選 VPC 內的流量。此功能 <block ref="55b057d10246173e2440d2eae51abd9a" category="inline-link-macro-rx"></block>。</block>
+  <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">新增</block>
+  <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">修改</block>
+  <block id="158f074c96189eb946118a12a17762b5" category="list-text">您也可以選擇 <block ref="09047edca5075ad1c71cf5035a98ddf9" category="inline-link-macro-rx"></block> 和 <block ref="d0baf23f6aa987908b3cb85b94241056" category="inline-link-macro-rx"></block> 分類磁碟區的標籤。</block>
+  <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 私有優惠</block>
+  <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。</block>
+  <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">充電使用量明細</block>
+  <block id="d0f5a029263e80e902caf444fa5e9080" category="paragraph">現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。</block>
+  <block id="ed54fb55b53f11e61f612ff99520f4bc" category="list-text">Cloud Volumes ONTAP 套件使用率</block>
+  <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">高階使用率</block>
+  <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">儲存 VM 使用率</block>
+  <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume 使用量</block>
+  <block id="56a50532d8da2bebb09d6190c126140c" category="inline-link-macro">管理容量型授權</block>
+  <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">如需詳細資訊、請參閱 <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>。</block>
 </blocks>
