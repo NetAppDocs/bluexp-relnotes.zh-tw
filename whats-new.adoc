@@ -213,6 +213,36 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 
 
+=== 2023 年 5 月 8 日
+
+
+
+==== 資料夾層級的還原作業現在可從歸檔儲存設備和鎖定的備份中獲得支援
+
+如果備份檔案已設定為 DataLock 和勒索軟體保護、或是備份檔案位於歸檔儲存區、則當叢集執行 ONTAP 9.13.1 或更新版本時、現在支援資料夾層級的還原作業。
+
+
+
+==== 將磁碟區備份至 Google Cloud 時、支援跨區域和跨專案客戶管理的金鑰
+
+現在您可以選擇與客戶管理的加密金鑰（ CMEK ）專案不同的儲存庫。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-gcp.html#preparing-google-cloud-storage-for-backups["深入瞭解如何設定您自己的客戶管理加密金鑰"]。
+
+
+
+==== AWS 中國地區現在支援備份檔案
+
+如果叢集執行的是 ONTAP 9.12.1 或更新版本、則 AWS 中國北京（ CN-north-1 ）和寧夏（ CN-n前來 -1 ）地區現在都支援做為備份檔案的目的地。
+
+請注意、指派給 BlueXP Connector 的 IAM 原則需要將所有 _Resource_ 區段下的 AWS 資源名稱「 arn 」從「 AWS 」變更為「 AWS-CN 」、例如「 arn:AWS-CN:S3 ：：：： NetApp-backup-* 」。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-to-aws.html["將內部部署 ONTAP 資料備份至 Amazon S3"] 以取得詳細資料。
+
+
+
+==== 工作監控的增強功能
+
+系統啟動的工作（例如持續的備份作業）現在可在 * 工作監控 * 標籤中找到、適用於執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統。舊版 ONTAP 只會顯示使用者啟動的工作。
+
+
+
 === 2023 年 4 月 14 日
 
 
@@ -240,7 +270,7 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 ==== 應用程式（混合式） BlueXP 備份與還原的增強功能
 
-* 應用程式（混合式）的 BlueXP 備份與還原是從 SaaS 控制層面驅動。
+* 應用程式（混合式）的 BlueXP 備份與還原是從 SaaS 控制層面驅動
 * 修改混合式 REST API 以符合雲端原生 API 。
 * 支援電子郵件通知
 
@@ -253,7 +283,7 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 ==== 能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端
 
-現在您可以在「受限」模式下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["深入瞭解 BlueXP 部署模式"^]。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
+現在您可以在「受限模式」下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-modes.html["深入瞭解 BlueXP 部署模式"^]。請參閱 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
 
 
 
@@ -271,7 +301,7 @@ API 的新功能可讓您使用 BlueXP 備份與還原、將磁碟區快照備�
 
 ==== 工作監控的增強功能
 
-* 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續備份作業）、現在都可在執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統的 * 工作監控 * 標籤中找到。舊版 ONTAP 只會顯示使用者啟動的工作。
+* 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。舊版 ONTAP 只會顯示使用者啟動的工作。
 * 除了能夠下載 CSV 檔案來報告所有工作之外、現在您可以下載 JSON 檔案來處理單一工作、並查看其詳細資料。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["深入瞭解"]。
 * 新增兩個備份工作警示：「排程工作失敗」和「還原工作完成但有警告」。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["檢閱 BlueXP 備份與還原可以傳送的所有警示"]。
 
@@ -299,52 +329,6 @@ API 的新功能可讓您使用 BlueXP 備份與還原、將磁碟區快照備�
 * 「工作監控」頁面新增進階篩選功能、讓您可以依時間、工作負載（磁碟區、應用程式、虛擬機器或Kubernetes）、 工作類型、狀態、工作環境和儲存VM。您也可以輸入任意文字來搜尋任何資源、例如「application_3」。  https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["瞭解如何使用進階篩選器"]。
 * 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。早期版本Cloud Volumes ONTAP 的不一致系統和內部部署ONTAP 的不一致系統、目前只會顯示使用者啟動的工作。
 
-
-
-
-=== 2023年2月6日
-
-
-
-==== 能夠將較舊的備份檔案從StorageGRID 無法還原的系統移至Azure歸檔儲存設備
-
-現在、您可以將舊版備份檔案分層、從StorageGRID 無法更新的系統到Azure中的歸檔儲存設備。如此一來StorageGRID 、您就能釋出整個作業系統的空間、並使用經濟實惠的儲存類別來儲存舊的備份檔案、進而節省成本。
-
-如果內部叢集使用ONTAP 的是更新版本的版本、StorageGRID 而您的系統使用的是11.4或更新版本、則可使用此功能。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html#preparing-to-archive-older-backup-files-to-public-cloud-storage["如需詳細資訊、請參閱此處"^]。
-
-
-
-==== 您可以在Azure Blob中設定DataLock和勒索軟體保護功能、以供備份檔案使用
-
-Azure Blob儲存的備份檔案現在支援DataLock和勒索軟體保護。如果Cloud Volumes ONTAP 您的支援對象ONTAP 為執行ONTAP 支援的支援對象、那麼您現在可以鎖定備份檔案、然後掃描檔案、以偵測可能的勒索軟體。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-cloud-backup-policies.html#datalock-and-ransomware-protection["深入瞭解如何使用DataLock和勒索軟體保護來保護備份"^]。
-
-
-
-==== 備份與還原FlexGroup 功能強化功能
-
-* 現在、您可以在還原FlexGroup 完一個功能區時、選擇多個集合體。在最後一個版本中、您只能選取單一Aggregate。
-* 目前支援在不支援的系統上進行還原Cloud Volumes ONTAP FlexGroup 。在上一版中、您只能還原到內部ONTAP 的作業系統。
-
-
-
-
-==== 可將舊版備份移至Google Archival儲存設備Cloud Volumes ONTAP
-
-備份檔案最初是在Google Standard儲存類別中建立。現在您可以使用 BlueXP 備份與還原、將舊備份分層化至 Google Archive 儲存設備、以進一步最佳化成本。上一版僅支援內部ONTAP 使用的功能、目前Cloud Volumes ONTAP 支援部署在Google Cloud上的各種系統。
-
-
-
-==== Volume Restore作業現在可讓您選取要還原Volume資料的SVM
-
-現在您可以將Volume資料還原至ONTAP 您的叢集中的不同儲存VM。過去無法選擇儲存VM。
-
-
-
-==== 增強支援以支援各種形式進行的Volume MetroCluster
-
-當使用ONTAP 的是版本號為《支援使用支援的功能》（例如《支援使用支援的功能》）的更新版本時、系統會以MetroCluster 「支援的功能」的形式連接至主系統。整個備份組態會傳輸到次要系統、以便在切換後自動繼續備份到雲端。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html#backup-limitations["如需詳細資訊、請參閱備份限制"]。
 
 
 
@@ -544,9 +528,9 @@ Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.
 
 
 
-==== 數位錢包增強功能
+==== BlueXP 數位錢包增強功能
 
-Digital Wallet 現在顯示您購買的授權容量、並提供市場私有優惠。
+BlueXP 數位錢包現在顯示您購買的授權容量、並提供市場私有優惠。
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"^]。
 
@@ -633,6 +617,42 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-compute/main/me
 
 
 
+=== 2023 年 5 月 8 日
+
+
+
+==== 硬連結功能
+
+使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解檔案類型設定"]。
+
+
+
+==== 能夠在安全的 NFS 關係中新增資料代理人的使用者憑證
+
+使用者現在可以在建立安全的 NFS 關係時、為目標資料代理人設定自己的憑證。他們需要設定伺服器名稱、並在執行時提供私密金鑰和憑證 ID 。此功能適用於所有資料代理人。
+
+
+
+==== 最近修改檔案的延長排除期
+
+使用者現在可以排除在排程同步前 365 天內修改的檔案。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解最近修改的檔案設定"]。
+
+
+
+==== 依關係 ID 篩選 UI 中的關係
+
+使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/api-sync.html["深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"]。
+
+https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
+
+
+
 === 2023 年 4 月 2 日
 
 
@@ -668,264 +688,6 @@ https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.htm
 您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。
 
 https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
-
-
-
-=== 2023年2月5日
-
-
-
-==== 額外支援Azure Data Lake Storage Gen2、ONTAP Sfor S3 Storage及NFS
-
-目前支援其他的Sync-S3儲存與NFS同步關係ONTAP Cloud Sync ：
-
-* 將S3儲存至NFS ONTAP
-* NFS到ONTAP SS3儲存設備
-
-
-此外、支援Azure Data Lake Storage Gen2作為來源與目標、以實現下列目標Cloud Sync ：
-
-* NFS 伺服器
-* SMB 伺服器
-* SS3 儲存設備 ONTAP
-* StorageGRID
-* IBM Cloud 物件儲存設備
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
-
-
-
-==== 升級至Amazon Web Services資料代理程式作業系統
-
-AWS資料代理人的作業系統已升級至Amazon Linux 2022。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-aws.html#details-about-the-data-broker-instance["深入瞭解AWS中的資料代理執行個體"]。
-
-
-
-=== 2023年1月3日
-
-
-
-==== 在UI上顯示資料代理本機組態
-
-現在有一個*顯示組態*選項、可讓使用者檢視UI上每個資料代理程式的本機組態。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-data-brokers.html["深入瞭解如何管理資料代理人群組"]。
-
-
-
-==== 升級至Azure和Google Cloud資料代理商作業系統
-
-Azure和Google Cloud中的資料代理人作業系統已升級至The Rocky Linux 9.0。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-azure.html#details-about-the-data-broker-vm["深入瞭解Azure中的資料代理執行個體"]。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-installing-gcp.html#details-about-the-data-broker-vm-instance["深入瞭解Google Cloud中的資料代理執行個體"]。
-
-
-
-=== 2022年12月11日
-
-
-
-==== 依名稱篩選目錄
-
-現在有一個新的*排除目錄名稱*設定可供同步關係使用。使用者可從同步中篩選出最多15個目錄名稱。根據預設、.copy卸載、.snapshot、~snapshot目錄都會排除。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解「排除目錄名稱」設定"]。
-
-
-
-==== 其他Amazon S3和ONTAP SS3儲存支援
-
-目前支援AWS S3和Syns3儲存設備的其他同步關係ONTAP Cloud Sync ：
-
-* AWS S3至ONTAP SS3儲存設備
-* 將S3儲存設備移至AWS S3 ONTAP
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
-
-
-
-=== 2022年10月30日
-
-
-
-==== 從Microsoft Azure持續同步
-
-現在、使用Azure資料代理程式、可從來源Azure儲存庫支援Continuous Sync設定、也可從雲端儲存設備。
-
-初始資料同步之後Cloud Sync 、Syncset會偵聽來源Azure儲存桶上的變更、並在目標發生時持續同步任何變更。從Azure儲存庫同步至Azure Blob儲存設備、CIFS、Google Cloud Storage、IBM Cloud Object Storage、NFS和StorageGRID Sfor時、可使用此設定。
-
-Azure資料代理人需要自訂角色和下列權限才能使用此設定：
-
-[source, json]
-----
-'Microsoft.Storage/storageAccounts/read',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/write',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/read',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/delete',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/getFullUrl/action',
-'Microsoft.EventGrid/systemTopics/eventSubscriptions/getDeliveryAttributes/action',
-'Microsoft.EventGrid/systemTopics/read',
-'Microsoft.EventGrid/systemTopics/write',
-'Microsoft.EventGrid/systemTopics/delete',
-'Microsoft.EventGrid/eventSubscriptions/write',
-'Microsoft.Storage/storageAccounts/write'
-----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
-
-
-
-=== 2022年9月4日
-
-
-
-==== 其他Google雲端硬碟支援
-
-* 目前支援Google雲端硬碟的其他同步關係：Cloud Sync
-+
-** Google雲端硬碟至NFS伺服器
-** Google雲端硬碟移轉至SMB伺服器
-
-
-* 您也可以針對包含Google雲端硬碟的同步關係產生報告。
-+
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-reports.html["深入瞭解報告"]。
-
-
-
-
-
-==== 持續同步增強
-
-您現在可以在下列類型的同步關係上啟用「持續同步」設定：
-
-* S3儲存區至NFS伺服器
-* 將Google Cloud Storage移轉至NFS伺服器
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
-
-
-
-==== 電子郵件通知
-
-您現在可以Cloud Sync 透過電子郵件接收到功能不完全的通知。
-
-若要透過電子郵件接收通知、您必須啟用同步關係的*通知*設定、然後在BluXP中設定「警示與通知」設定。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/task-managing-relationships.html#setting-up-notifications["瞭解如何設定通知"]。
-
-
-
-=== 2022年7月31日
-
-
-
-==== Google雲端硬碟
-
-您現在可以將NFS伺服器或SMB伺服器的資料同步到Google雲端硬碟。「My Drive」（我的磁碟機）和「Shared Drives」（共享磁碟機）均支援為目標。
-
-在建立包含Google雲端硬碟的同步關係之前、您必須先設定具有必要權限和私密金鑰的服務帳戶。 https://docs.netapp.com/us-en/cloud-manager-sync/reference-requirements.html#google-drive["深入瞭解Google雲端硬碟的需求"]。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
-
-
-
-==== 額外的Azure Data Lake支援
-
-目前支援Azure Data Lake Storage Gen2的其他同步關係：Cloud Sync
-
-* Amazon S3移轉至Azure Data Lake Storage Gen2
-* IBM Cloud Object Storage移轉至Azure Data Lake Storage Gen2
-* 適用於Azure Data Lake Storage Gen2 StorageGRID
-
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
-
-
-
-==== 設定同步關係的新方法
-
-我們新增了更多方法、可直接從BlueXP的畫版建立同步關係。
-
-
-
-===== 拖放
-
-您現在可以將一個工作環境拖放到另一個工作環境上、從畫版設定同步關係。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-drag-and-drop.png["在藍圖XP中顯示通知中心的快照。"]
-
-
-
-===== 右側面板設定
-
-您現在可以從Canvas選取工作環境、然後從右側面板選取同步選項、以設定Azure Blob儲存設備或Google Cloud Storage的同步關係。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-sync/main/media/screenshot-enable-panel.png["在藍圖XP中顯示通知中心的快照。"]
-
-
-
-=== 2022年7月3日
-
-
-
-==== 支援Azure Data Lake Storage Gen2
-
-您現在可以將NFS伺服器或SMB伺服器的資料同步至Azure Data Lake Storage Gen2。
-
-建立包含Azure Data Lake的同步關係時、您需要提供Cloud Sync 含有儲存帳戶連線字串的功能。它必須是一般連線字串、而非共用存取簽章（SAS）。
-
-https://docs.netapp.com/us-en/cloud-manager-sync/reference-supported-relationships.html["檢視支援的同步關係清單"]。
-
-
-
-==== 從Google Cloud Storage持續同步
-
-持續同步設定現在可從來源Google Cloud Storage儲存庫支援至雲端儲存目標。
-
-初始資料同步之後Cloud Sync 、Syncset會偵聽來源Google Cloud Storage儲存區的變更、並在目標發生時持續同步任何變更。此設定適用於從Google Cloud Storage儲存庫同步至S3、Google Cloud Storage、Azure Blob儲存設備、StorageGRID 不支援或IBM Storage的情況。
-
-與您的資料代理人相關聯的服務帳戶需要下列權限才能使用此設定：
-
-[source, json]
-----
-- pubsub.subscriptions.consume
-- pubsub.subscriptions.create
-- pubsub.subscriptions.delete
-- pubsub.subscriptions.list
-- pubsub.topics.attachSubscription
-- pubsub.topics.create
-- pubsub.topics.delete
-- pubsub.topics.list
-- pubsub.topics.setIamPolicy
-- storage.buckets.update
-----
-https://docs.netapp.com/us-en/cloud-manager-sync/task-creating-relationships.html#settings["深入瞭解Continuous Sync設定"]。
-
-
-
-==== 新的Google Cloud區域支援
-
-下列Google Cloud地區現在支援此功能：Cloud Sync
-
-* 哥倫布（美國東部5）
-* 達拉斯（美國-南1）
-* 馬德里（歐洲-西南1）
-* 米蘭（歐洲-西8）
-* 巴黎（歐洲-西9）
-
-
-
-
-==== 全新Google Cloud機器類型
-
-Google Cloud中資料代理程式的預設機器類型現在是n2-Standard-4。
 
 
 
@@ -1161,6 +923,25 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 
+=== 2023 年 5 月 4 日
+
+
+
+==== 啟用 BlueXP 備份與還原
+
+從 ONTAP 9.13.1 開始、如果您使用 Connector 探索到叢集、就可以使用系統管理員（進階檢視）來啟用 BlueXP 備份與還原。 link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["深入瞭解如何啟用 BlueXP 備份與還原"^]
+
+
+
+==== 升級 ONTAP 版本映像和硬體韌體
+
+從 ONTAP 9.10.1 開始、您可以使用系統管理員（進階檢視）來升級 ONTAP 版本映像和硬體韌體。您可以選擇接收自動升級以保持最新狀態、也可以從本機機器或使用 BlueXP 存取的伺服器手動進行更新。 link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["深入瞭解如何升級 ONTAP 和韌體"^]
+
+
+NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能從使用 BlueXP 存取的伺服器進行更新。
+
+
+
 === 2023年4月3日
 
 
@@ -1189,57 +970,9 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 ==== 儲存ONTAP 不一樣的認證資料
 
-當您在不ONTAP 使用Connector的情況下直接開啟內部的支援環境時、您現在可以選擇儲存ONTAP 您的支援中心叢集認證資料、以便在每次開啟工作環境時、都不需要輸入這些認證資料。
+當您開啟內部部署的 ONTAP 工作環境時、如果您不使用 Connector 直接探索、現在可以選擇儲存 ONTAP 叢集認證、這樣您就不需要在每次開啟工作環境時都輸入這些認證。
 
 https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["深入瞭解此選項。"]
-
-
-
-=== 2022年12月4日
-
-以下是3.9.24版本的Connector所做的變更。
-
-
-
-==== 探索內部ONTAP 部署的新型叢集方法
-
-您現在ONTAP 無需使用Connector、即可直接探索內部的功能性叢集。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。
-
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解此探索與管理選項"]。
-
-
-
-==== 資料量FlexGroup
-
-對於ONTAP 透過Connector探索的內部元件叢集、BlueXP中的「標準」檢視畫面現在會顯示FlexGroup 透過System Manager或ONTAP CLI建立的功能區。您也可以透過複製這些磁碟區、編輯其設定、刪除這些磁碟區等方式來管理這些磁碟區。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
-
-BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager或CLI來建立FlexGroup 各種功能。
-
-
-
-=== 2022年9月18日
-
-以下是3.9.22版Connector的變更。
-
-
-
-==== 全新總覽頁面
-
-我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。
-
-您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
-
-
-
-==== 重新設計「Volume」頁面
-
-我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。
-
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
 
 
 
@@ -1425,13 +1158,13 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 ==== 授權標籤已移除
 
-授權標籤已從 BlueXP 分層介面中移除。所有隨用隨付（ PAYGO ）訂閱授權都可從 BlueXP 內部部署儀表板存取。您也可以從該頁面連結至 BlueXP 數位錢包、以便檢視和管理任何 BlueXP 分層自帶授權（ BYOL ）。
+授權標籤已從 BlueXP 分層介面中移除。所有隨用隨付（ PAYGO ）訂閱授權都可立即從 BlueXP 內部部署分層儀表板存取。您也可以從該頁面連結至 BlueXP 數位錢包、以便檢視和管理任何 BlueXP 分層自帶授權（ BYOL ）。
 
 
 
 ==== 分層索引標籤已重新命名、並已更新內容
 
-「叢集儀表板」索引標籤已重新命名為「叢集」、「內部管理概觀」索引標籤已重新命名為「內部管理儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。
+「叢集儀表板」索引標籤已重新命名為「叢集」、「內部部署儀表板」索引標籤已重新命名為「內部部署儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。
 
 
 
