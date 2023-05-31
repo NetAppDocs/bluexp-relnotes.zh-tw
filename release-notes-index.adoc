@@ -21,42 +21,42 @@ permalink: release-notes-index.html
 
 == 系統管理
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/whats-new.html["設定與管理"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理"^]
 
 
 
 == 儲存設備
 
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
-* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/whats-new.html["Amazon FSX for ONTAP Sf"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
+* https://docs.netapp.com/us-en/bluexp-fsx-ontap/whats-new.html["Amazon FSX for ONTAP Sf"^]
 * https://docs.netapp.com/us-en/bluexp-s3-storage/whats-new.html["Amazon S3儲存設備"^]
 * Cloud Volumes ONTAP
 +
 ** https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["發行說明Cloud Volumes ONTAP"^]
-** https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["BlueXP中的更新版本資訊Cloud Volumes ONTAP"^]
+** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP中的更新版本資訊Cloud Volumes ONTAP"^]
 
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-service-gcp/whats-new.html["適用於 Google Cloud Cloud Volumes Service"^]
-* https://docs.netapp.com/us-en/cloud-manager-e-series/whats-new.html["E系列系統"^]
-* https://docs.netapp.com/us-en/cloud-manager-kubernetes/whats-new.html["Kubernetes叢集"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html["內部 ONTAP 部署的叢集"^]
-* https://docs.netapp.com/us-en/cloud-manager-storagegrid/whats-new.html["StorageGRID"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["適用於 Google Cloud Cloud Volumes Service"^]
+* https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["E系列系統"^]
+* https://docs.netapp.com/us-en/bluexp-kubernetes/whats-new.html["Kubernetes叢集"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html["內部 ONTAP 部署的叢集"^]
+* https://docs.netapp.com/us-en/bluexp-storagegrid/whats-new.html["StorageGRID"^]
 
 
 
 
 == 資料服務
 
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/whats-new.html["備份與還原"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/whats-new.html["分類"^]
-* https://docs.netapp.com/us-en/cloud-manager-compute/whats-new.html["雲端作業"^]
-* https://docs.netapp.com/us-en/cloud-manager-sync/whats-new.html["複製與同步"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["備份與還原"^]
+* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["分類"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-ops/whats-new.html["雲端作業"^]
+* https://docs.netapp.com/us-en/bluexp-copy-sync/whats-new.html["複製與同步"^]
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["數位錢包"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["經濟效益"^]
-* https://docs.netapp.com/us-en/cloud-manager-file-cache/whats-new.html["邊緣快取"^]
+* https://docs.netapp.com/us-en/bluexp-edge-caching/whats-new.html["邊緣快取"^]
 * https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["營運恢復能力"^]
-* https://docs.netapp.com/us-en/cloud-manager-ransomware/whats-new.html["勒索軟體保護"^]
-* https://docs.netapp.com/us-en/cloud-manager-app-template/whats-new.html["補救"^]
-* https://docs.netapp.com/us-en/cloud-manager-replication/whats-new.html["複寫"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/whats-new.html["分層"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/whats-new.html["勒索軟體保護"^]
+* https://docs.netapp.com/us-en/bluexp-remediation/whats-new.html["補救"^]
+* https://docs.netapp.com/us-en/bluexp-replication/whats-new.html["複寫"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/whats-new.html["分層"^]
 
