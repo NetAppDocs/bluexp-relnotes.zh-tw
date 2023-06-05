@@ -33,6 +33,58 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 
 
 
+=== 2023 年 6 月 4 日
+
+
+
+==== 連接器 3.9.30
+
+* 當您從「支援儀表板」開啟 NetApp 支援案例時、 BlueXP 現在會使用與您的 BlueXP 登入相關的 NetApp 支援網站 帳戶來開啟案例。BlueXP 先前使用與整個 BlueXP 帳戶相關聯的 NetApp 支援網站 帳戶。
++
+在此變更中、 BlueXP 帳戶的支援註冊現在是透過與使用者 BlueXP 登入相關的 NetApp 支援網站 帳戶完成。以前、支援登錄是透過與整個 BlueXP 帳戶相關聯的 NSS 帳戶進行。因此、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、他們將不會看到相同的支援登錄狀態。如果您先前已註冊 BlueXP 帳戶以取得支援、則您的註冊狀態仍然有效。您只需要新增使用者層級的 NSS 帳戶、即可查看狀態。
+
++
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["瞭解如何使用 NetApp 支援建立案例"]
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["瞭解如何管理與 BlueXP 登入相關的認證"]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-support-registration.html["瞭解如何註冊以取得支援"]
+
+
+* 您現在可以在 BlueXP 中搜尋文件。搜尋結果現在提供 docs.netapp.com 和 kb.netapp.com 內容的連結、有助於回答您的問題。
++
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search-docs.png["主控台頂端提供的BlueXP搜尋快照。"]
+
+* 連接器現在支援下列 AWS 區域：
++
+** 海德拉巴（ ap-south - 2 ）
+** 墨爾本（亞太地區 - 東南 4 ）
+** 西班牙（歐盟 - 南方 -2 ）
+** 阿拉伯聯合大公國（ Me-center-1 ）
+** 蘇黎世（歐盟中部 -2 ）
+
+
+* 以下 Azure 區域現在支援 Connector ：
++
+** 巴西南方
+** 法國南方
+** Jio India Central
+** Jio India West
+** 波蘭中部
+** 卡塔爾中部
+
+
+* 下列Google Cloud區域現在支援Connector：
++
+** 哥倫布（美國東部5）
+** 達拉斯（美國-南1）
+
+
++
+https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援區域的完整清單"^]
+
+
+
+
+
 === 2023 年 5 月 7 日
 
 
@@ -83,41 +135,17 @@ NOTE: 採用受限模式會取代啟用或停用 SaaS 平台的選項。您可�
 
 
 
-=== 2023年4月3日
+== Azure Blob 儲存設備
 
 
 
-==== 連接器3.9.28
-
-* BlueXP 數位電子錢包現在支援電子郵件通知。
-+
-如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["瞭解如何設定電子郵件通知"]。
-
-* Google Cloud Turin地區現在支援Connector。
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援區域的完整清單"^]
-
-* 您現在可以管理與您的BlueXP登入相關的使用者認證：ONTAP 功能驗證和NetApp 支援網站 支援（NSS）認證。
-+
-當您移至*「設定」>「認證資料」*時、您可以檢視認證資料、更新認證資料並加以刪除。例如、如果您變更這些認證資料的密碼、則需要更新BlueXP中的密碼。
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html["瞭解如何管理使用者認證"]。
-
-* 您現在可以在建立支援案例或更新現有支援案例的案例備註時上傳附件。
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#manage-your-support-cases["瞭解如何建立及管理支援案例"]。
-
-* 此版本的Connector也包含Cloud Volumes ONTAP 了加強功能的功能、以及內部ONTAP 的叢集增強功能。
-+
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#3-april-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
-** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#3-april-2023["深入瞭ONTAP 解內部叢集增強功能"^]
+=== 2023 年 6 月 5 日
 
 
 
+==== 能夠從 BlueXP 新增儲存帳戶
+
+您已有一段時間可以在 BlueXP Canvas 上檢視 Azure Blob Storage 。現在您可以直接從 BlueXP 新增儲存帳戶、並變更現有儲存帳戶的內容。 https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["瞭解如何新增 Azure Blob 儲存帳戶"^]。
 
 
 
@@ -175,6 +203,14 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 6 月 4 日
+
+* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
+
+
+
+
 === 2023 年 5 月 7 日
 
 * 建立工作環境時、您現在可以使用 BlueXP link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["產生安全性群組"^] 僅允許所選 VPC 內的流量。此功能 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["需要額外權限"^]。
@@ -186,12 +222,6 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 === 2023 年 4 月 2 日
 
 IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。
-
-
-
-=== 2023年3月5日
-
-使用者介面已進行改善、文件中已更新螢幕擷取畫面。
 
 
 
@@ -460,6 +490,20 @@ https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.ht
 
 
 
+=== 2023 年 6 月 4 日
+
+Connector 3.9.30 版本推出下列變更。
+
+
+
+==== Cloud Volumes ONTAP 升級版本選擇器更新
+
+現在您可以透過「升級 Cloud Volumes ONTAP 」頁面、選擇升級至最新的 Cloud Volumes ONTAP 版本或舊版。
+
+若要深入瞭解如何透過 BlueXP 升級 Cloud Volumes ONTAP 、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-cloud-volumes-ontap["升級Cloud Volumes ONTAP"^]。
+
+
+
 === 2023 年 5 月 7 日
 
 Connector 3.9.29 版隨附下列變更。
@@ -513,53 +557,6 @@ Azure 中的澳洲東部地區現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更�
 
 
 如需區域可用度、請參閱 link:https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]。
-
-
-
-=== 2023年4月3日
-
-Connector 3.9.28 版隨附下列變更。
-
-
-
-==== Google Cloud 現在支援都靈地區
-
-Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援都靈地區。
-
-
-
-==== BlueXP 數位錢包增強功能
-
-BlueXP 數位錢包現在顯示您購買的授權容量、並提供市場私有優惠。
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["瞭解如何檢視您帳戶中的已用容量"^]。
-
-
-
-==== 支援在磁碟區建立期間提出意見
-
-此版本可讓您在使用 API 建立 Cloud Volumes ONTAP FlexGroup Volume 或 FlexVol Volume 時、提出意見。
-
-
-
-==== 重新設計 BlueXP 使用者介面、以重新設計 Cloud Volumes ONTAP 概觀、 Volume 和集合頁面
-
-BlueXP 現在已重新設計了 Cloud Volumes ONTAP 概觀、磁碟區和集合網頁的使用者介面。並排式設計會在每個方塊中提供更完整的資訊、以提供更好的使用者體驗。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-resource-page-rn.png["此螢幕擷取畫面會在 Cloud Volumes ONTAP 總覽頁面上顯示重新設計的 BlueXP 使用者介面。各種方塊顯示儲存效率、版本、容量分配、 Cloud Volumes ONTAP 部署、磁碟區、集合體、複製和備份的相關資訊。"]
-
-
-
-==== 可透過 Cloud Volumes ONTAP 檢視的 FlexGroup Volume
-
-透過 CLI 或系統管理員直接建立的 FlexGroup Volume 現在可透過 BlueXP 中重新設計的 Volumes 動態磚來檢視。BlueXP 與提供給 FlexVol Volume 的資訊相同、透過專用的 Volumes 磚提供建立的 FlexGroup Volume 的詳細資訊。
-
-
-NOTE: 目前、您只能在 BlueXP 下檢視現有的 FlexGroup 磁碟區。在 BlueXP 中建立 FlexGroup 磁碟區的功能無法使用、但已計畫在未來版本中使用。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-show-flexgroup-volume.png["顯示 FlexGroup Volume 圖示的螢幕擷取畫面會將文字暫留在 Volumes 磚下方。"]
-
-link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-volumes.html["深入瞭解如何檢視建立的 FlexGroup Volume 。"^]
 
 
 
@@ -743,7 +740,7 @@ BlueXP 數位電子錢包現在支援電子郵件通知。
 
 如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["瞭解如何設定電子郵件通知"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["瞭解如何設定電子郵件通知"^]
 
 
 
@@ -906,6 +903,20 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 === 2022年11月6日
 
 何時 link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["定義儲存類別"]、您現在可以為區塊或檔案系統儲存設備啟用儲存等級的經濟效益。
+
+
+
+== 移轉報告
+
+
+
+=== 2023 年 6 月 2 日
+
+透過全新的 BlueXP 移轉報告服務、您可以快速識別儲存環境中的檔案、目錄、符號連結、硬連結、檔案系統樹狀結構深度和廣度、最大檔案等數量。
+
+有了這項資訊、您就能事先知道、您想要使用的程序可以有效率且成功地處理您的庫存。
+
+link:https://docs.netapp.com/us-en/bluexp-reports/get-started/intro.html["深入瞭解 BlueXP 移轉報告"]。
 
 
 
@@ -1177,3 +1188,17 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭
 | \https://*.cloudmanager.cloud.netapp.com | \https://*.api.bluexp.netapp.com 
 |===
 請參閱的完整端點清單 https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-networking-aws.html#outbound-internet-access["AWS"^]、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-networking-google.html#outbound-internet-access["Google Cloud"^]或 https://docs.netapp.com/us-en/bluexp-setup-admin/task-set-up-networking-azure.html#outbound-internet-access["Azure"^] 雲端環境：
+
+
+
+== Volume 快取
+
+
+
+=== 2023 年 6 月 4 日
+
+Volume 快取是 ONTAP 9 軟體的一項功能、是一項遠端快取功能、可簡化檔案發佈、減少 WAN 延遲、讓資源更接近使用者和運算資源的位置、並降低 WAN 頻寬成本。Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。
+
+有了 BlueXP Volume 快取、您就能擁有雲端的快取功能、特別是適用於 NetApp ONTAP 、 Cloud Volumes ONTAP 的 Amazon FSX 、以及內部部署的工作環境。
+
+link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["深入瞭解 BlueXP Volume 快取"]。
