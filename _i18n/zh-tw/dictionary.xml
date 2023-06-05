@@ -197,13 +197,6 @@
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">授權標籤已移除</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">分層索引標籤已重新命名、並已更新內容</block>
   <block id="38d4d167f6dd9174c3535fc5c7ba4b76" category="section-title">2023 年 4 月 4 日</block>
-  <block id="05cb21b1c0958252effc11eb9d437f38" category="section-title">部署模式</block>
-  <block id="9e2110ccb138521e2ed734b9376c3f5b" category="paragraph">BlueXP _ 部署模式 _ 可讓您以符合業務與安全需求的方式使用 BlueXP 。您可以從三種模式中選擇：</block>
-  <block id="53c512e9599c71e1a585d636a5229820" category="list-text">標準模式</block>
-  <block id="e429f30641aba9e1fc7f2090cc77ce40" category="list-text">受限模式</block>
-  <block id="44f51c4ac8fa1a6f53f07c0c2f751b69" category="list-text">私有模式</block>
-  <block id="14862370498786066b8605b6924a2605" category="inline-link-macro">深入瞭解這些部署模式</block>
-  <block id="7196a94f4d2eb95bbda75c84fd8bbaa9" category="admonition">採用受限模式會取代啟用或停用 SaaS 平台的選項。您可以在建立帳戶時啟用限制模式。稍後無法啟用或停用。</block>
   <block id="40c193dda1b0a4df68695abe150f234a" category="section-title">能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端</block>
   <block id="57c3b4ba3c60295d45a2554606080eef" category="section-title">能夠使用 API 將內部部署的 ONTAP 磁碟區備份至 ONTAP S3</block>
   <block id="720734599c08f49ea57d729ec9f12d53" category="section-title">能夠將 Azure 儲存帳戶的區域備援層面從 LRS 變更為 ZRS</block>
@@ -379,7 +372,6 @@
   <block id="367cb072fdec82ba883d66fadac7fc54" category="list-text"><block ref="367cb072fdec82ba883d66fadac7fc54" category="inline-link-rx"></block></block>
   <block id="98ffac9f61e6bf431d54a18e34b9a53d" category="paragraph">NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud Manager 所提供的功能。<block ref="c202e01c48134f154e0a38e5e6d1aed9" category="inline-link-rx"></block></block>
   <block id="4d5f6e2e2b72482865cac1c14f3d2d3d" category="paragraph"><block ref="4d5f6e2e2b72482865cac1c14f3d2d3d" category="inline-link-rx"></block></block>
-  <block id="0e243030d4d37c15e7b806556f21cdc3" category="paragraph"><block ref="07b6d38a8467f077daba3577bc2ba852" category="inline-link-rx"></block>。</block>
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>。</block>
@@ -548,4 +540,12 @@
   <block id="4573c689742769edc01e3f45205fd784" category="paragraph">您現在可以從 * 畫布 &gt; My 遺產 * 中探索內部部署的 ONTAP 叢集、方法是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集、選取 BlueXP 預先探索的叢集。</block>
   <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">從「我的資產」頁面瞭解如何探索叢集</block>
   <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>。</block>
+  <block id="78ee56d07ea6442fbe0c88b1ea3be7ad" category="section-title">連接器 3.9.31</block>
+  <block id="9f1d24d5ab10dd326cb52dffc172eea5" category="list-text">您現在可以從「 * 我的資產 * 」標籤（之前的 * 我的商機 * ）探索內部部署的 ONTAP 叢集</block>
+  <block id="6bdb2baa8fe05cff12c22f9f6f8e9e7f" category="list-text">如果您在 Azure 政府地區使用 Connector 、則應確保 Connector 能夠聯絡下列端點：</block>
+  <block id="1f29f58c7cdabd46095c6ad242933991" category="paragraph">\https://occmclientinfragov.azurecr.us</block>
+  <block id="7cbd2e15c5d25612181f48c177cab04b" category="paragraph">此端點是手動安裝 Connector 及升級 Connector 及其 Docker 元件所必需的。</block>
+  <block id="49145759efbc79c21fc5ba75bb2aaf72" category="paragraph">由於此變更、 Azure 政府區域的 Connector 不再與下列端點連線：</block>
+  <block id="9dcb0a1d3281e001a6085626a264be49" category="paragraph">\https://cloudmanagerinfraprod.azurecr.io</block>
+  <block id="979b0001d7bec41aff8509faf7b59bef" category="paragraph">請注意、所有其他受限模式組態和標準模式仍需要此端點。</block>
 </blocks>

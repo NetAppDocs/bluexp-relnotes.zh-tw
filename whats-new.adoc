@@ -33,6 +33,36 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 
 
 
+=== 2023 年 7 月 2 日
+
+
+
+==== 連接器 3.9.31
+
+* 您現在可以從「 * 我的資產 * 」標籤（之前的 * 我的商機 * ）探索內部部署的 ONTAP 叢集
++
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["從「我的資產」頁面瞭解如何探索叢集"]。
+
+* 如果您在 Azure 政府地區使用 Connector 、則應確保 Connector 能夠聯絡下列端點：
++
+\https://occmclientinfragov.azurecr.us
+
++
+此端點是手動安裝 Connector 及升級 Connector 及其 Docker 元件所必需的。
+
++
+由於此變更、 Azure 政府區域的 Connector 不再與下列端點連線：
+
++
+\https://cloudmanagerinfraprod.azurecr.io
+
++
+請注意、所有其他受限模式組態和標準模式仍需要此端點。
+
+
+
+
+
 === 2023 年 6 月 4 日
 
 
@@ -116,26 +146,6 @@ https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援區域的完�
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#7-may-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
 
 
-
-
-
-=== 2023 年 4 月 4 日
-
-
-
-==== 部署模式
-
-BlueXP _ 部署模式 _ 可讓您以符合業務與安全需求的方式使用 BlueXP 。您可以從三種模式中選擇：
-
-* 標準模式
-* 受限模式
-* 私有模式
-
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["深入瞭解這些部署模式"]。
-
-
-NOTE: 採用受限模式會取代啟用或停用 SaaS 平台的選項。您可以在建立帳戶時啟用限制模式。稍後無法啟用或停用。
 
 
 
