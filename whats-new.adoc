@@ -497,44 +497,6 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 
 
 
-=== 2023年2月5日（1.20版）
-
-
-
-==== 能夠將原則型通知電子郵件傳送至任何電子郵件地址
-
-在 BlueXP 分類的舊版中、當某些關鍵原則傳回結果時、您可以傳送電子郵件警示給帳戶中的 BlueXP 使用者。此功能可讓您取得通知、在您不在線上時保護資料。現在、您也可以將原則的電子郵件警示傳送給任何其他使用者（最多20個電子郵件地址）、而這些使用者不在您的BlueXP帳戶中。
-
-https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html#sending-email-alerts-when-non-compliant-data-is-found["深入瞭解如何根據原則結果傳送電子郵件警示"]。
-
-
-
-==== 現在您可以從 BlueXP 分類 UI 新增個人模式
-
-BlueXP 分類已能夠新增自訂的「個人資料」、 BlueXP 分類將在未來的掃描中識別這些資料。不過、您需要登入 BlueXP 分類 Linux 主機、並使用命令列來新增自訂模式。在此版本中、使用 regex 新增個人模式的功能位於 BlueXP 分類 UI 中、因此新增及編輯這些自訂模式非常容易。
-
-https://docs.netapp.com/us-en/bluexp-classification/task-managing-data-fusion.html#add-custom-personal-data-identifiers-using-a-regex["深入瞭解如何從 BlueXP 分類 UI 新增自訂模式"^]。
-
-
-
-==== 能夠使用 BlueXP 分類來移動 1500 萬個檔案
-
-過去、 BlueXP 分類最多可將 100 、 000 個來源檔案移至任何 NFS 共用區。現在您一次最多可以搬移1500萬個檔案。 https://docs.netapp.com/us-en/bluexp-classification/task-managing-highlights.html#moving-source-files-to-an-nfs-share["深入瞭解如何使用 BlueXP 分類來移動來源檔案"]。
-
-
-
-==== 能夠查看有權存取SharePoint Online檔案的使用者人數
-
-篩選器「具有存取權限的使用者人數」現在支援儲存在SharePoint Online儲存庫中的檔案。過去只支援CIFS共用上的檔案。請注意、目前不以Active Directory為基礎的SharePoint群組將不會計入此篩選器。
-
-
-
-==== 新的「部分成功」狀態已新增至「行動狀態」面板
-
-新的「部分成功」狀態表示 BlueXP 分類動作已完成、有些項目失敗、有些項目成功、例如當您移動或刪除 100 個檔案時。此外、「已完成」狀態已重新命名為「成功」。過去、「已完成」狀態可能會列出成功及失敗的動作。現在「成功」狀態代表所有項目的所有行動都成功。 https://docs.netapp.com/us-en/bluexp-classification/task-view-compliance-actions.html["請參閱如何檢視「動作狀態」面板"]。
-
-
-
 == Cloud Volumes ONTAP
 
 
