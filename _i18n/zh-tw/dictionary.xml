@@ -175,13 +175,8 @@
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能夠從BlueXP新增庫位</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">瞭解如何新增Amazon S3儲存庫</block>
   <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
-  <block id="01e76ab0dacc58799dc14adbdc705ac7" category="section-title">2023年3月9日</block>
-  <block id="35203f05692d5cc102a5525bf4de9733" category="section-title">資料夾層級的還原作業現在包括所有子資料夾和檔案</block>
-  <block id="5463242c7cc34f92b5dbbf1ab6d87188" category="paragraph">過去當您還原資料夾時、只會還原該資料夾中的檔案、子資料夾中的任何子資料夾或檔案都不會還原。現在、如果您使用ONTAP 的是更新版本的版本、則會還原所選資料夾中的所有子資料夾和檔案。如果您在頂層資料夾中有多個巢狀資料夾、這可節省大量時間與金錢。</block>
-  <block id="bbe776d643f3b0568f3c2fa216a50124" category="section-title">能夠在Cloud Volumes ONTAP 黑暗的環境中備份來自於各種系統的資料</block>
   <block id="9d811f8ab4335c82eeb7d1477874bc1c" category="inline-link-macro">將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3</block>
   <block id="a5e6246728060cb5f413df6fa5adbf0c" category="inline-link-macro">將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob</block>
-  <block id="1cdf820a77c583c660d65df7b1ca03b8" category="inline-link">瞭解如何使用進階篩選器</block>
   <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">適用於AWS資料代理人的EBS加密</block>
   <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。</block>
   <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">深入瞭解如何在AWS中建立資料代理程式</block>
@@ -190,7 +185,6 @@
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">瞭解如何設定電子郵件通知</block>
   <block id="3b61cbbfa7452cc07df9dbea0756d650" category="inline-link">檢視支援區域的完整清單</block>
   <block id="0ec2b2e4840acfd3f21b50b176ec45f1" category="paragraph"><block ref="0ec2b2e4840acfd3f21b50b176ec45f1" category="inline-link-rx"></block></block>
-  <block id="1442489a4cf0ea56df2e53ec47c70ec8" category="section-title">工作監控器的多項增強功能</block>
   <block id="fcf30aaa0348521d4d4752992c9db378" category="list-text">支援單一節點系統。</block>
   <block id="80a79e3e92d4834ae8746d205e83c105" category="list-text">支援直接向NetApp購買的授權。</block>
   <block id="13615a82d1149a992b363c411914d3b8" category="inline-link-macro">全球區域地圖Cloud Volumes ONTAP 、供您使用</block>
@@ -285,7 +279,6 @@
   <block id="ef08fc33d8b9b410529dc05986b2e248" category="paragraph">API 的新功能可讓您使用 BlueXP 備份與還原、將磁碟區快照備份至 ONTAP S3 。此功能目前僅適用於內部部署 ONTAP 系統。如需詳細指示、請參閱部落格<block ref="8bfab3c14784f20047e4459b814ebfe4" category="inline-link-rx"></block>。</block>
   <block id="bcd4bdef20ff7dec0587f35facdeb7be" category="paragraph">從 Cloud Volumes ONTAP 系統建立備份至 Azure 儲存設備時、 BlueXP 備份與還原預設會將 Blob 容器與本機備援（ LRS ）一起配置、以達到成本最佳化。如果您想要在不同區域之間複寫資料、可以將此設定變更為區域備援（ ZRS ）。請參閱的 Microsoft 指示<block ref="c549763665cfbb93dbccfdbf667aa0f2" category="inline-link-rx"></block>。</block>
   <block id="4788963de19a5204a352f3308b0395d8" category="inline-link">檢閱 BlueXP 備份與還原可以傳送的所有警示</block>
-  <block id="81ddb60f2f70b21c8b419a542095feca" category="list-text">從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。早期版本Cloud Volumes ONTAP 的不一致系統和內部部署ONTAP 的不一致系統、目前只會顯示使用者啟動的工作。</block>
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">能夠在雲端的較小執行個體上部署 BlueXP 分類</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">獨立指令碼現已推出、可在安裝 BlueXP 分類之前驗證您的 Linux 系統</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">瞭解如何檢查您的 Linux 主機是否已準備好安裝 BlueXP 分類</block>
@@ -300,7 +293,6 @@
   <block id="9422d01ffeaf90b54d512834d7e52972" category="section-title">BlueXP 分類可識別三種新的個人資料類型</block>
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP 分類可識別及分類包含下列資料類型的檔案：</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">查看 BlueXP 分類可在資料中識別的所有個人資料類型</block>
-  <block id="c2e0848a220b82c9650399e6f13e1421" category="list-text">BlueXP 分類可安裝在執行 CentOS Stream 8 的 Linux 主機上。</block>
   <block id="27bfd524829d2f58c611b9380403face" category="list-text">對於無法存取網際網路的網站（黑暗網站）、 BlueXP 分類安裝程式現在會執行預先檢查、以確保您的系統和網路需求已就緒、以便順利安裝。</block>
   <block id="af415967f6e10a35f69e4fdddc729da2" category="paragraph">在 BlueXP 分類的舊版中、當某些關鍵原則傳回結果時、您可以傳送電子郵件警示給帳戶中的 BlueXP 使用者。此功能可讓您取得通知、在您不在線上時保護資料。現在、您也可以將原則的電子郵件警示傳送給任何其他使用者（最多20個電子郵件地址）、而這些使用者不在您的BlueXP帳戶中。</block>
   <block id="110171733cad0cc9610f24012ccf6ee1" category="section-title">現在您可以從 BlueXP 分類 UI 新增個人模式</block>
@@ -421,12 +413,8 @@
   <block id="46ce6a634ad58fa667690e7f5c151b26" category="list-text">您也可以選擇 <block ref="2af1713063b9a7e50c1f5e13c7671bae" category="inline-link-macro-rx"></block> 和 <block ref="013335dc35ce07c311c673e8a99c88f9" category="inline-link-macro-rx"></block> 分類磁碟區的標籤。</block>
   <block id="c55a4ed0f55f8209574960c04bd36597" category="paragraph">現在您可以選擇與客戶管理的加密金鑰（ CMEK ）專案不同的儲存庫。<block ref="2425c9129a22c7135ee8a04ae0dae970" category="inline-link-rx"></block>。</block>
   <block id="cfc826b330f7a25cc3c4e115a9fcca13" category="paragraph">請注意、指派給 BlueXP Connector 的 IAM 原則需要將所有 _Resource_ 區段下的 AWS 資源名稱「 arn 」從「 AWS 」變更為「 AWS-CN 」、例如「 arn:AWS-CN:S3 ：：：： NetApp-backup-* 」。請參閱<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 和<block ref="bb86d78b7593b3e1252f277b7dd6e017" category="inline-link-rx"></block> 以取得詳細資料。</block>
-  <block id="e440c82aa05a4e6e5bc3191ceeece3ae" category="paragraph">現在您可以在「受限模式」下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。<block ref="0eb8533d49e65dbfdd979d6ceb88ebff" category="inline-link-rx"></block>。請參閱<block ref="27ee532be7d9f80c345fcb2108369dd1" category="inline-link-rx"></block> 和<block ref="eb65204a82ae962a8410421a1d6516bd" category="inline-link-rx"></block>。</block>
-  <block id="3e5afb80ef2b2c6b108c664e6550be33" category="list-text">從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續備份作業）、現在都可在執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統的 * 工作監控 * 標籤中找到。舊版 ONTAP 只會顯示使用者啟動的工作。</block>
   <block id="3f95b7ff004c9ea7ba2c076aa81ddbd8" category="list-text">除了能夠下載 CSV 檔案來報告所有工作之外、現在您可以下載 JSON 檔案來處理單一工作、並查看其詳細資料。<block ref="c5e8ac86e60de65889ee067b8ca8ac22" category="inline-link-rx"></block>。</block>
   <block id="aca6a48e798dafa8a873544468b60e06" category="list-text">新增兩個備份工作警示：「排程工作失敗」和「還原工作完成但有警告」。<block ref="a4848a9ae757d04f84e693376feb04c0" category="inline-link-rx"></block>。</block>
-  <block id="cb388daef1ecf4d75abae922da7c4ccd" category="paragraph">現在、您可以將Cloud Volumes ONTAP 安裝在AWS和Azure商業區域的支援資料系統備份到Amazon S3或Azure Blob。這需要在商業區域的Linux主機上安裝Connector、也需要在Cloud Volumes ONTAP 該處部署該系統。請參閱<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 和<block ref="e88a100423dadabfc9781439f925633d" category="inline-link-rx"></block>。</block>
-  <block id="7397c46a6bf6fde87c1217e8c8bbab15" category="list-text">「工作監控」頁面新增進階篩選功能、讓您可以依時間、工作負載（磁碟區、應用程式、虛擬機器或Kubernetes）、 工作類型、狀態、工作環境和儲存VM。您也可以輸入任意文字來搜尋任何資源、例如「application_3」。 <block ref="3ed9d480474f89776ff0bf3cbda69d30" category="inline-link-rx"></block>。</block>
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">「資料探索評估報告」會針對您所掃描的環境提供高層級分析、以強調系統的發現、並顯示關切領域和可能的補救步驟。本報告的目標是提高對資料治理疑慮、資料安全性曝露及資料集資料合規性缺口的認知度。<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>。</block>
   <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">在 AWS 環境中從 BlueXP Connector 部署 BlueXP 分類時、現在您可以從兩種比預設執行個體可用的執行個體類型更小的執行個體類型中進行選擇。如果您掃描的是小型環境、這有助於節省雲端成本。不過、使用較小的執行個體時會有一些限制。<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>。</block>
   <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">如果您想驗證 Linux 系統是否符合所有先決條件、而不需執行 BlueXP 分類安裝、您可以下載一個獨立的指令碼、只測試先決條件。<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>。</block>
@@ -526,4 +514,35 @@
   <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">有了 BlueXP Volume 快取、您就能擁有雲端的快取功能、特別是適用於 NetApp ONTAP 、 Cloud Volumes ONTAP 的 Amazon FSX 、以及內部部署的工作環境。</block>
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">深入瞭解 BlueXP Volume 快取</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>。</block>
+  <block id="47cb625c2251a650ce99bc5010f839ac" category="section-title">FlexGroup 磁碟區可以使用 DataLock 和勒索軟體保護來備份和保護</block>
+  <block id="ea9b647c4b660963890b981cadc4c22f" category="paragraph">FlexGroup Volume 的備份原則現在可以在叢集執行 ONTAP 9.13.1 或更新版本時、使用 DataLock 和勒索軟體保護。</block>
+  <block id="f6477043c28067a4e579493c6cbb2e5f" category="section-title">新的報告功能</block>
+  <block id="7423bbe1d34880696cfb7dd51492349f" category="inline-link">報告資料保護涵蓋範圍</block>
+  <block id="90c3582e59f2cb06c1d746e0f983ffde" category="paragraph">現在有一個「報告」索引標籤、您可以在其中產生「備份庫存」報告、其中包括特定帳戶、工作環境或 SVM 庫存的所有備份。您也可以建立「資料保護工作活動」報告、提供有關 Snapshot 、備份、複製和還原作業的資訊、協助您監控服務層級協議。請參閱<block ref="76fbdf5883fabf4a66bc2a9d2bdc8b58" category="inline-link-rx"></block>。</block>
+  <block id="5cc0a3c2b0d184efdd93deba5120c0b4" category="section-title">工作監控增強功能</block>
+  <block id="8931c68a06f64c8d4063f2e9132e3258" category="inline-link">監控備份與還原工作的狀態</block>
+  <block id="c17e5b19576d968cb68cb76a1904afca" category="paragraph">您現在可以在「工作監控」頁面上檢閱 _backup 生命週期 _ 做為工作類型、協助您追蹤整個備份生命週期。您也可以在 BlueXP 時間軸上查看所有作業的詳細資料。請參閱<block ref="757859ff46183d1407cb40e64e39a313" category="inline-link-rx"></block>。</block>
+  <block id="e5d5b752cdb14505ba3ec9b2bd2be013" category="section-title">不相符原則標籤的額外通知警示</block>
+  <block id="92c58fc811dad1461929803e5f5d9205" category="paragraph">新增了備份警示：「 Snapshot 原則標籤不相符、因此未建立備份檔案」。如果備份原則中定義的 _label_ 在 Snapshot 原則中沒有相符的 _label_ 、則不會建立備份檔案。您需要使用系統管理員或 ONTAP CLI 、將遺失的標籤新增至 Volume Snapshot 原則。</block>
+  <block id="809c5429fbc9708f2c659ca056b2c098" category="paragraph"><block ref="1fa18ad5aa31d9e300f41aa2d9a59bdd" category="inline-link-rx"></block>。</block>
+  <block id="5a4b2cac486281ad2280371043da8170" category="section-title">自動備份黑暗網站中的關鍵 BlueXP 備份與還原檔案</block>
+  <block id="7109418f2cd9c52748bb2a769336a1d0" category="paragraph">當您在無法存取網際網路的站台（稱為「私有模式」部署）中使用 BlueXP 備份與還原時、 BlueXP 備份與還原資訊只會儲存在本機 Connector 系統上。這項新功能會自動將重要的 BlueXP 備份與還原資料備份至連線 StorageGRID 系統上的儲存庫、以便在必要時將資料還原至新的 Connector 。<block ref="7987fffb3d9d5da865ce1f589e4bd463" category="inline-link-rx"></block></block>
+  <block id="813935edc5ac8e9f2c18c722e28dddf8" category="paragraph">現在您可以在「受限模式」下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。<block ref="0eb8533d49e65dbfdd979d6ceb88ebff" category="inline-link-rx"></block>。請參閱<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 和<block ref="e88a100423dadabfc9781439f925633d" category="inline-link-rx"></block>。</block>
+  <block id="f1a109ae8d953da8e05cf5534df6b22b" category="list-text">從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。舊版 ONTAP 只會顯示使用者啟動的工作。</block>
+  <block id="96828273826a07fdc4f42f4998e536b2" category="section-title">2023 年 6 月 6 日（版本 1.23 ）</block>
+  <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="section-title">搜尋資料主體名稱時、現在支援日文</block>
+  <block id="3a3337f232548d40f54052862077499b" category="inline-link">資料主旨存取要求報告</block>
+  <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">「資料調查」頁面中的「資料主旨」篩選器</block>
+  <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">現在可以在搜尋受試者名稱以回應資料主體存取要求（ DSAR ）時輸入日文名稱。您可以產生<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 以及產生的資訊。您也可以在中輸入日文名稱<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 識別包含主體名稱的檔案。</block>
+  <block id="988e5d1ef231d33d94784c928261f0aa" category="section-title">Ubuntu 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類</block>
+  <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">瞭解如何在安裝 Ubuntu 的主機上安裝 BlueXP 分類</block>
+  <block id="e79851962ec44d8c7ccd2a63f0c4e92c" category="paragraph">Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機或雲端中的 Linux 主機上安裝 BlueXP 分類。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
+  <block id="eba7ad27f2a236389ef88102ad7e8e2e" category="section-title">新的 BlueXP 分類安裝不再支援 Red Hat Enterprise Linux 8.6 和 8.7</block>
+  <block id="5b1dc8e5b7717b205bb516bc41f51da7" category="paragraph">新部署不支援這些版本、因為 Red Hat 不再支援 Docker 、這是必要條件。如果您現有的 BlueXP 分類機器在 RHEL 8.6 或 8.7 上執行、 NetApp 將繼續支援您的組態。</block>
+  <block id="b5ba343fa4469021dbdf64181a67e909" category="section-title">BlueXP 分類可設定為 FPolicy 收集器、以從 ONTAP 系統接收 FPolicy 事件</block>
+  <block id="88b2049c35386070297462047bca71cf" category="inline-link">瞭解如何監控及管理檔案存取事件</block>
+  <block id="1c6f2c46440d2da9ff124f2379388cf8" category="paragraph">您可以啟用在 BlueXP 分類系統上收集檔案存取稽核記錄、以便在工作環境中的磁碟區上偵測到檔案存取事件。BlueXP 分類可擷取下列類型的 FPolicy 事件、以及對檔案執行動作的使用者：建立、讀取、寫入、刪除、重新命名、 變更擁有者 / 權限、並變更 SACL/DACL 。<block ref="e525234fcf42827b85ebd3e0f842cd71" category="inline-link-rx"></block>。</block>
+  <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">Data Sense BYOL 授權現在支援 Dark 站台</block>
+  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">瞭解如何取得及上傳您的 Data Sense BYOL 授權</block>
+  <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">現在您可以將 Data Sense BYOL 授權上傳至黑暗網站的 BlueXP 數位錢包、以便在授權即將到期時收到通知。<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>。</block>
 </blocks>

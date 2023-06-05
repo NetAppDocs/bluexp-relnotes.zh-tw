@@ -243,6 +243,42 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 
 
+=== 2023 年 6 月 5 日
+
+
+
+==== FlexGroup 磁碟區可以使用 DataLock 和勒索軟體保護來備份和保護
+
+FlexGroup Volume 的備份原則現在可以在叢集執行 ONTAP 9.13.1 或更新版本時、使用 DataLock 和勒索軟體保護。
+
+
+
+==== 新的報告功能
+
+現在有一個「報告」索引標籤、您可以在其中產生「備份庫存」報告、其中包括特定帳戶、工作環境或 SVM 庫存的所有備份。您也可以建立「資料保護工作活動」報告、提供有關 Snapshot 、備份、複製和還原作業的資訊、協助您監控服務層級協議。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-report-inventory.html["報告資料保護涵蓋範圍"]。
+
+
+
+==== 工作監控增強功能
+
+您現在可以在「工作監控」頁面上檢閱 _backup 生命週期 _ 做為工作類型、協助您追蹤整個備份生命週期。您也可以在 BlueXP 時間軸上查看所有作業的詳細資料。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["監控備份與還原工作的狀態"]。
+
+
+
+==== 不相符原則標籤的額外通知警示
+
+新增了備份警示：「 Snapshot 原則標籤不相符、因此未建立備份檔案」。如果備份原則中定義的 _label_ 在 Snapshot 原則中沒有相符的 _label_ 、則不會建立備份檔案。您需要使用系統管理員或 ONTAP CLI 、將遺失的標籤新增至 Volume Snapshot 原則。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["檢閱 BlueXP 備份與還原可以傳送的所有警示"]。
+
+
+
+==== 自動備份黑暗網站中的關鍵 BlueXP 備份與還原檔案
+
+當您在無法存取網際網路的站台（稱為「私有模式」部署）中使用 BlueXP 備份與還原時、 BlueXP 備份與還原資訊只會儲存在本機 Connector 系統上。這項新功能會自動將重要的 BlueXP 備份與還原資料備份至連線 StorageGRID 系統上的儲存庫、以便在必要時將資料還原至新的 Connector 。 https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-backup-cbs-db-in-dark-site.html["深入瞭解"]
+
+
+
 === 2023 年 5 月 8 日
 
 
@@ -313,7 +349,7 @@ IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 0
 
 ==== 能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端
 
-現在您可以在「受限模式」下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["深入瞭解 BlueXP 部署模式"^]。請參閱 https://docs.netapp.com/us-en/bluexp-backup-restore/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/bluexp-backup-restore/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
+現在您可以在「受限模式」下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["深入瞭解 BlueXP 部署模式"^]。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
 
 
 
@@ -331,38 +367,48 @@ API 的新功能可讓您使用 BlueXP 備份與還原、將磁碟區快照備�
 
 ==== 工作監控的增強功能
 
-* 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續備份作業）、現在都可在執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統的 * 工作監控 * 標籤中找到。舊版 ONTAP 只會顯示使用者啟動的工作。
+* 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。舊版 ONTAP 只會顯示使用者啟動的工作。
 * 除了能夠下載 CSV 檔案來報告所有工作之外、現在您可以下載 JSON 檔案來處理單一工作、並查看其詳細資料。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["深入瞭解"]。
 * 新增兩個備份工作警示：「排程工作失敗」和「還原工作完成但有警告」。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["檢閱 BlueXP 備份與還原可以傳送的所有警示"]。
 
 
 
 
-=== 2023年3月9日
-
-
-
-==== 資料夾層級的還原作業現在包括所有子資料夾和檔案
-
-過去當您還原資料夾時、只會還原該資料夾中的檔案、子資料夾中的任何子資料夾或檔案都不會還原。現在、如果您使用ONTAP 的是更新版本的版本、則會還原所選資料夾中的所有子資料夾和檔案。如果您在頂層資料夾中有多個巢狀資料夾、這可節省大量時間與金錢。
-
-
-
-==== 能夠在Cloud Volumes ONTAP 黑暗的環境中備份來自於各種系統的資料
-
-現在、您可以將Cloud Volumes ONTAP 安裝在AWS和Azure商業區域的支援資料系統備份到Amazon S3或Azure Blob。這需要在商業區域的Linux主機上安裝Connector、也需要在Cloud Volumes ONTAP 該處部署該系統。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
-
-
-
-==== 工作監控器的多項增強功能
-
-* 「工作監控」頁面新增進階篩選功能、讓您可以依時間、工作負載（磁碟區、應用程式、虛擬機器或Kubernetes）、 工作類型、狀態、工作環境和儲存VM。您也可以輸入任意文字來搜尋任何資源、例如「application_3」。  https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#searching-and-filtering-the-list-of-jobs["瞭解如何使用進階篩選器"]。
-* 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。早期版本Cloud Volumes ONTAP 的不一致系統和內部部署ONTAP 的不一致系統、目前只會顯示使用者啟動的工作。
-
-
-
-
 == 分類
+
+
+
+=== 2023 年 6 月 6 日（版本 1.23 ）
+
+
+
+==== 搜尋資料主體名稱時、現在支援日文
+
+現在可以在搜尋受試者名稱以回應資料主體存取要求（ DSAR ）時輸入日文名稱。您可以產生 https://docs.netapp.com/us-en/bluexp-classification/task-generating-compliance-reports.html#what-is-a-data-subject-access-request["資料主旨存取要求報告"] 以及產生的資訊。您也可以在中輸入日文名稱 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-by-sensitivity-and-content["「資料調查」頁面中的「資料主旨」篩選器"] 識別包含主體名稱的檔案。
+
+
+
+==== Ubuntu 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類
+
+Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機或雲端中的 Linux 主機上安裝 BlueXP 分類。 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["瞭解如何在安裝 Ubuntu 的主機上安裝 BlueXP 分類"]。
+
+
+
+==== 新的 BlueXP 分類安裝不再支援 Red Hat Enterprise Linux 8.6 和 8.7
+
+新部署不支援這些版本、因為 Red Hat 不再支援 Docker 、這是必要條件。如果您現有的 BlueXP 分類機器在 RHEL 8.6 或 8.7 上執行、 NetApp 將繼續支援您的組態。
+
+
+
+==== BlueXP 分類可設定為 FPolicy 收集器、以從 ONTAP 系統接收 FPolicy 事件
+
+您可以啟用在 BlueXP 分類系統上收集檔案存取稽核記錄、以便在工作環境中的磁碟區上偵測到檔案存取事件。BlueXP 分類可擷取下列類型的 FPolicy 事件、以及對檔案執行動作的使用者：建立、讀取、寫入、刪除、重新命名、 變更擁有者 / 權限、並變更 SACL/DACL 。 https://docs.netapp.com/us-en/bluexp-classification/task-manage-file-access-events.html["瞭解如何監控及管理檔案存取事件"]。
+
+
+
+==== Data Sense BYOL 授權現在支援 Dark 站台
+
+現在您可以將 Data Sense BYOL 授權上傳至黑暗網站的 BlueXP 數位錢包、以便在授權即將到期時收到通知。 https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html#obtain-your-bluexp-classification-license-file["瞭解如何取得及上傳您的 Data Sense BYOL 授權"]。
 
 
 
@@ -441,7 +487,6 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 
 ==== 安裝增強功能
 
-* BlueXP 分類可安裝在執行 CentOS Stream 8 的 Linux 主機上。
 * 對於無法存取網際網路的網站（黑暗網站）、 BlueXP 分類安裝程式現在會執行預先檢查、以確保您的系統和網路需求已就緒、以便順利安裝。
 * 安裝稽核記錄檔現在會儲存、並寫入 `/ops/netapp/install_logs`。
 
