@@ -207,6 +207,14 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 7 月 2 日
+
+* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
+* 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
+
+
+
+
 === 2023 年 6 月 4 日
 
 * 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
@@ -220,12 +228,6 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 * 建立工作環境時、您現在可以使用 BlueXP link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["產生安全性群組"^] 僅允許所選 VPC 內的流量。此功能 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["需要額外權限"^]。
 * 您也可以選擇 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["新增"^] 和 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["修改"^] 分類磁碟區的標籤。
 
-
-
-
-=== 2023 年 4 月 2 日
-
-IOPS 上限增加、可手動或自動進行資源配置、最高可達 16 、 000 次。
 
 
 
@@ -501,6 +503,42 @@ https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categ
 
 
 
+=== 2023 年 7 月 2 日
+
+Connector 3.9.31 版本推出下列變更。
+
+
+
+==== 支援 Azure 中的 HA 多重可用性區域部署
+
+Azure 中的 Japan East 和 Korea Central 現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的 HA 多重可用性區域部署。
+
+如需支援多個可用區域的所有區域清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
+
+
+
+==== 自主勒索軟體保護支援
+
+Cloud Volumes ONTAP 現在支援自主勒索軟體保護（ ARP ）。Cloud Volumes ONTAP 9.12.1 版及更高版本均提供 ARP 支援。
+
+若要深入瞭解 Cloud Volumes ONTAP 的 ARP 、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-protecting-ransomware.html#autonomous-ransomware-protection["自主勒索軟體保護"]。
+
+
+
+=== 2023 年 6 月 26 日
+
+Connector 3.9.30 版本推出下列變更。
+
+
+
+==== Cloud Volumes ONTAP 9.13.1 RC1
+
+BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.13.1 。
+
+https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
+
+
+
 === 2023 年 6 月 4 日
 
 Connector 3.9.30 版本推出下列變更。
@@ -556,18 +594,6 @@ Azure 中的澳洲東部地區現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更�
 ==== 現在在沒有市場訂閱的情況下存取 BlueXP 時會顯示通知
 
 當您在 BlueXP 中存取 Cloud Volumes ONTAP 而不訂閱市場時、現在就會顯示通知。通知指出：「此工作環境的市場訂閱必須符合 Cloud Volumes ONTAP 條款與條件。」
-
-
-
-=== 2023 年 4 月 4 日
-
-從 Cloud Volumes ONTAP 9.12.1 GA 開始、 AWS 現在支援中國地區、如下所示。
-
-* 支援單一節點系統。
-* 支援直接向NetApp購買的授權。
-
-
-如需區域可用度、請參閱 link:https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]。
 
 
 
@@ -943,6 +969,18 @@ link:https://docs.netapp.com/us-en/bluexp-reports/get-started/intro.html["深入
 
 
 
+=== 2023 年 7 月 2 日
+
+
+
+==== 從我的資產探索叢集
+
+您現在可以從 * 畫布 > My 遺產 * 中探索內部部署的 ONTAP 叢集、方法是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集、選取 BlueXP 預先探索的叢集。
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["從「我的資產」頁面瞭解如何探索叢集"]。
+
+
+
 === 2023 年 5 月 4 日
 
 
@@ -981,18 +1019,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["深入瞭解探索與管理選項"]。
-
-
-
-=== 2023年1月1日
-
-
-
-==== 儲存ONTAP 不一樣的認證資料
-
-當您開啟內部部署的 ONTAP 工作環境時、如果您不使用 Connector 直接探索、現在可以選擇儲存 ONTAP 叢集認證、這樣您就不需要在每次開啟工作環境時都輸入這些認證。
-
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["深入瞭解此選項。"]
 
 
 
