@@ -177,9 +177,6 @@
   <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
   <block id="9d811f8ab4335c82eeb7d1477874bc1c" category="inline-link-macro">將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3</block>
   <block id="a5e6246728060cb5f413df6fa5adbf0c" category="inline-link-macro">將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob</block>
-  <block id="a19f14c281dd654ce355a7e0b63146b5" category="section-title">適用於AWS資料代理人的EBS加密</block>
-  <block id="8663378959352a24f27c3d250a37cf3d" category="paragraph">您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。</block>
-  <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">深入瞭解如何在AWS中建立資料代理程式</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
   <block id="380d0a0b2cec998dcd9f52b91b24304c" category="paragraph">如果您設定通知設定、您可以在BYOL授權即將過期（「警告」通知）或已過期（「錯誤」通知）時收到電子郵件通知。</block>
   <block id="335e7f21f0fdfecbe9c04540dcb8cdd6" category="inline-link">瞭解如何設定電子郵件通知</block>
@@ -435,7 +432,6 @@
   <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>。</block>
   <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>。</block>
   <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block>。</block>
-  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>。</block>
   <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
@@ -548,4 +544,13 @@
   <block id="8ffa5f25420a002d3aa8840ec0e7752f" category="inline-link">瞭解如何在 BlueXP 的 Azure Subscriptions 中新增 Azure 儲存帳戶</block>
   <block id="6c6c819a667ba8ce8119b4bf796894fc" category="paragraph"><block ref="fef6d7c0add7436be78fa3e990371931" category="inline-link-rx"></block>。</block>
   <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機上安裝 BlueXP 分類、或在雲端的 Linux 主機上使用 1.23 版的安裝程式。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
+  <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">2023 年 6 月 11 日</block>
+  <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">支援幾分鐘後自動中止</block>
+  <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">現在可使用 *Sync Timeout* 功能在 15 分鐘後中止尚未完成的活動同步。</block>
+  <block id="44856e8753e0c19c0341499a434c7c97" category="inline-link">深入瞭解同步處理逾時設定</block>
+  <block id="3266d16b8714caecb4f4231dca5dae65" category="paragraph"><block ref="bfd432c58dd0bb0c71b937c5a3336867" category="inline-link-rx"></block>。</block>
+  <block id="69540ae9a9da395711f1e900d88e4cc5" category="section-title">複製存取時間中繼資料</block>
+  <block id="a706d4045e92e504f4aa9e79191d81f5" category="paragraph">在包括檔案系統在內的關係中、 * 複製物件 * 功能現在會複製存取時間中繼資料。</block>
+  <block id="bac04a3b125486e43e5adcb9275b0cb7" category="inline-link">深入瞭解複製物件設定</block>
+  <block id="b9101f79b22863de2373d338b3f2fd49" category="paragraph"><block ref="61cd45fc857d1053eae8b58e970eda27" category="inline-link-rx"></block>。</block>
 </blocks>

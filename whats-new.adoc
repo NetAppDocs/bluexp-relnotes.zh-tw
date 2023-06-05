@@ -663,6 +663,26 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2023 年 6 月 11 日
+
+
+
+==== 支援幾分鐘後自動中止
+
+現在可使用 *Sync Timeout* 功能在 15 分鐘後中止尚未完成的活動同步。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解同步處理逾時設定"]。
+
+
+
+==== 複製存取時間中繼資料
+
+在包括檔案系統在內的關係中、 * 複製物件 * 功能現在會複製存取時間中繼資料。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解複製物件設定"]。
+
+
+
 === 2023 年 5 月 8 日
 
 
@@ -722,18 +742,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships
 除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
-
-
-
-=== 2023年3月7日
-
-
-
-==== 適用於AWS資料代理人的EBS加密
-
-您現在可以使用帳戶的KMS金鑰來加密AWS資料代理磁碟區。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
 
 
 
