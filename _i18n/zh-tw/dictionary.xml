@@ -536,7 +536,6 @@
   <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">現在可以在搜尋受試者名稱以回應資料主體存取要求（ DSAR ）時輸入日文名稱。您可以產生<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 以及產生的資訊。您也可以在中輸入日文名稱<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 識別包含主體名稱的檔案。</block>
   <block id="988e5d1ef231d33d94784c928261f0aa" category="section-title">Ubuntu 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類</block>
   <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">瞭解如何在安裝 Ubuntu 的主機上安裝 BlueXP 分類</block>
-  <block id="e79851962ec44d8c7ccd2a63f0c4e92c" category="paragraph">Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機或雲端中的 Linux 主機上安裝 BlueXP 分類。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
   <block id="eba7ad27f2a236389ef88102ad7e8e2e" category="section-title">新的 BlueXP 分類安裝不再支援 Red Hat Enterprise Linux 8.6 和 8.7</block>
   <block id="5b1dc8e5b7717b205bb516bc41f51da7" category="paragraph">新部署不支援這些版本、因為 Red Hat 不再支援 Docker 、這是必要條件。如果您現有的 BlueXP 分類機器在 RHEL 8.6 或 8.7 上執行、 NetApp 將繼續支援您的組態。</block>
   <block id="b5ba343fa4469021dbdf64181a67e909" category="section-title">BlueXP 分類可設定為 FPolicy 收集器、以從 ONTAP 系統接收 FPolicy 事件</block>
@@ -545,4 +544,8 @@
   <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">Data Sense BYOL 授權現在支援 Dark 站台</block>
   <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">瞭解如何取得及上傳您的 Data Sense BYOL 授權</block>
   <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">現在您可以將 Data Sense BYOL 授權上傳至黑暗網站的 BlueXP 數位錢包、以便在授權即將到期時收到通知。<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>。</block>
+  <block id="26e3ab611e399c831d813cdff5745975" category="list-text">Connector 現在可讓您從 BlueXP 新增及管理 Azure 儲存帳戶。</block>
+  <block id="8ffa5f25420a002d3aa8840ec0e7752f" category="inline-link">瞭解如何在 BlueXP 的 Azure Subscriptions 中新增 Azure 儲存帳戶</block>
+  <block id="6c6c819a667ba8ce8119b4bf796894fc" category="paragraph"><block ref="fef6d7c0add7436be78fa3e990371931" category="inline-link-rx"></block>。</block>
+  <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機上安裝 BlueXP 分類、或在雲端的 Linux 主機上使用 1.23 版的安裝程式。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
 </blocks>
