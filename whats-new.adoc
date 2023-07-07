@@ -259,6 +259,42 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 7 月 6 日
+
+
+
+==== BlueXP 備份與還原現在包括排程及建立 Snapshot 複本與複寫磁碟區的能力
+
+BlueXP 備份與還原現在可讓您實作 3-2-1 策略、讓您在 2 個不同的儲存系統上擁有 3 個來源資料複本、並在雲端中擁有 1 個複本。啟動之後、您將會看到：
+
+* 來源系統上磁碟區的快照複本
+* 在不同的儲存系統上複寫磁碟區
+* 備份物件儲存區中的磁碟區
+
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html["深入瞭解全新的全頻備份與還原功能"]。
+
+這項新功能也適用於恢復作業。您可以從 Snapshot 複本、複製的磁碟區或雲端的備份檔案執行還原作業。如此一來、您就能靈活選擇符合恢復需求的備份檔案、包括恢復成本和速度。
+
+請注意、這項新功能和使用者介面僅支援執行 ONTAP 9.8 或更新版本的叢集。如果您的叢集有舊版軟體、您可以繼續使用舊版 BlueXP 備份與還原。不過、我們建議您升級至支援的 ONTAP 版本、以取得最新的功能和功能。若要繼續使用舊版軟體、請遵循下列步驟：
+
+. 從* Volumes（磁碟區）*索引標籤、選取* Backup Settings*（備份設定）。
+. 從 _ 備份設定 _ 頁面、按一下 * 顯示先前 BlueXP 備份與還原版本 * 的選項按鈕。
++
+然後您可以使用舊版軟體來管理舊叢集。
+
+
+
+
+
+==== 能夠建立儲存庫以備份至物件儲存設備
+
+當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。
+
+目前不支援將備份檔案建立至 StorageGRID 系統時使用此功能。
+
+
+
 === 2023 年 7 月 4 日
 
 
@@ -362,71 +398,6 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 ==== 工作監控的增強功能
 
 系統啟動的工作（例如持續的備份作業）現在可在 * 工作監控 * 標籤中找到、適用於執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統。舊版 ONTAP 只會顯示使用者啟動的工作。
-
-
-
-=== 2023 年 4 月 14 日
-
-
-
-==== 應用程式（雲端原生）的 BlueXP 備份與還原功能增強功能
-
-* SAP HANA資料庫
-+
-** 支援指令碼型系統重新整理
-** 如果已設定 Azure NetApp Files 備份、則支援單一檔案快照還原
-** 支援外掛程式升級
-
-
-* Oracle資料庫
-+
-** 透過簡化非 root Sudo 使用者組態、增強外掛程式部署功能
-** 支援外掛程式升級
-** 支援 Azure NetApp Files 上 Oracle 資料庫的自動探索和原則導向保護
-** 支援將 Oracle 資料庫還原至原始位置、並提供精細的還原功能
-
-
-
-
-
-
-==== 應用程式（混合式） BlueXP 備份與還原的增強功能
-
-* 應用程式（混合式）的 BlueXP 備份與還原是從 SaaS 控制層面驅動
-* 修改混合式 REST API 以符合雲端原生 API 。
-* 支援電子郵件通知
-
-
-
-
-=== 2023 年 4 月 4 日
-
-
-
-==== 能夠以「受限」模式、從 Cloud Volumes ONTAP 系統將資料備份到雲端
-
-現在您可以在「受限模式」下、從安裝在 AWS 、 Azure 和 GCP 商業區域的 Cloud Volumes ONTAP 系統備份資料。這需要您先在「受限」商業區域安裝 Connector 。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["深入瞭解 BlueXP 部署模式"^]。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-s3.html["將Cloud Volumes ONTAP 不支援的資料備份至Amazon S3"] 和 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-to-azure.html["將Cloud Volumes ONTAP 無法取得的資料備份到Azure Blob"]。
-
-
-
-==== 能夠使用 API 將內部部署的 ONTAP 磁碟區備份至 ONTAP S3
-
-API 的新功能可讓您使用 BlueXP 備份與還原、將磁碟區快照備份至 ONTAP S3 。此功能目前僅適用於內部部署 ONTAP 系統。如需詳細指示、請參閱部落格 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-Feature-Blog-April-23-Updates/ba-p/443075#toc-hId--846533830["與 ONTAP S3 整合為目的地"^]。
-
-
-
-==== 能夠將 Azure 儲存帳戶的區域備援層面從 LRS 變更為 ZRS
-
-從 Cloud Volumes ONTAP 系統建立備份至 Azure 儲存設備時、 BlueXP 備份與還原預設會將 Blob 容器與本機備援（ LRS ）一起配置、以達到成本最佳化。如果您想要在不同區域之間複寫資料、可以將此設定變更為區域備援（ ZRS ）。請參閱的 Microsoft 指示 https://learn.microsoft.com/en-us/azure/storage/common/redundancy-migration?tabs=portal["變更儲存帳戶的複寫方式"^]。
-
-
-
-==== 工作監控的增強功能
-
-* 從 BlueXP 備份與還原 UI 和 API 啟動的使用者初始化備份與還原作業、以及系統起始的工作（例如持續的備份作業）、現在都可在執行 ONTAP 9.13.0 或更新版本的 Cloud Volumes ONTAP 系統的 * 工作監控 * 標籤中取得。舊版 ONTAP 只會顯示使用者啟動的工作。
-* 除了能夠下載 CSV 檔案來報告所有工作之外、現在您可以下載 JSON 檔案來處理單一工作、並查看其詳細資料。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#download-job-monitoring-results-as-a-report["深入瞭解"]。
-* 新增兩個備份工作警示：「排程工作失敗」和「還原工作完成但有警告」。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["檢閱 BlueXP 備份與還原可以傳送的所有警示"]。
-
 
 
 
