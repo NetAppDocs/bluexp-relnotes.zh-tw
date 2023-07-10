@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp, google cloud' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
 ---
 = 最新的BlueXP變更
@@ -672,6 +672,32 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2023 年 7 月 9 日
+
+
+
+==== 一次移除多個同步關係
+
+使用者現在可以在 UI 中一次刪除多個同步關係。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships["深入瞭解如何刪除同步重新關聯。"]
+
+
+
+==== 僅複製 ACL
+
+使用者現在可以選擇其他選項、在 CIF 和 NFS 關係中複製 ACL 資訊。建立或管理同步關係時、您只能複製檔案、僅複製 ACL 資訊、或複製檔案和 ACL 資訊。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html["深入瞭解複製 ACL 。"]
+
+
+
+==== 已更新至 Node.js 20
+
+複本與同步已更新至 Node.js 20 。所有可用的資料代理人將會更新。無法安裝與此更新不相容的作業系統、不相容的現有系統可能會發生效能問題。
+
+
+
 === 2023 年 6 月 11 日
 
 
@@ -723,32 +749,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"]。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
-
-
-
-=== 2023 年 4 月 2 日
-
-
-
-==== Azure Data Lake Storage Gen2 關係的額外支援
-
-您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：
-
-* Azure NetApp Files
-* Amazon FSX for ONTAP Sf
-* Cloud Volumes ONTAP
-* On-Prem ONTAP
-
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-supported-relationships.html["深入瞭解支援的同步關係"]。
-
-
-
-==== 依完整路徑篩選目錄
-
-除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
 
@@ -943,6 +943,20 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 ==== Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單
+
+
+
+== Google Cloud Storage
+
+
+
+=== 2023 年 7 月 10 日
+
+
+
+==== 能夠從 BlueXP 新增庫位並管理現有的庫位
+
+您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["瞭解如何新增 Google Cloud Storage 貯體"^]。
 
 
 

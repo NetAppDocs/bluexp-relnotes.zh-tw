@@ -123,7 +123,6 @@
   <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP索引</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
-  <block id="c7360b05ac6a5646b2770ea0c162d4fb" category="inline-link">深入瞭解支援的同步關係</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
   <block id="e1bc7b26155063f1ce71b76f655669ef" category="section-title">2023年2月5日</block>
   <block id="de7ceda1f3ad5462ebeba9b4e49bf946" category="section-title">能夠定義可識別您視為業務關鍵資料的原則</block>
@@ -173,12 +172,6 @@
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">營運恢復能力</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
-  <block id="c7326baf2ea51b61fafa4f4680d916c0" category="section-title">2023 年 4 月 2 日</block>
-  <block id="9c305cf5f9f8051acc945eda0fc8a1be" category="section-title">Azure Data Lake Storage Gen2 關係的額外支援</block>
-  <block id="61babc330ca2ea0af752965dd3965d41" category="paragraph">您現在可以建立與 Azure Data Lake Storage Gen2 的同步關係、做為來源和目標、並使用下列項目：</block>
-  <block id="a37b0a91d7c4d8ac6ce924a7f8e1ce5a" category="list-text">On-Prem ONTAP</block>
-  <block id="ad5a82acd30f0d971a29fdb4632bd7d4" category="section-title">依完整路徑篩選目錄</block>
-  <block id="b7395f4da221ab7779cce11224436fb3" category="paragraph">除了依名稱篩選目錄外、您現在還可以依目錄的完整路徑篩選目錄。</block>
   <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">深入瞭解排除目錄設定</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
@@ -361,7 +354,6 @@
   <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>。</block>
   <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>。</block>
   <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>。</block>
-  <block id="4e0e0be812e0732ff08c371803f4157c" category="paragraph"><block ref="aabef2d7a8f8ee536d1fe9fe0f22b561" category="inline-link-rx"></block>。</block>
   <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
@@ -546,4 +538,21 @@
   <block id="098acc7a6e2aef2e0ffd66cabdde369e" category="section-title">能夠建立儲存庫以備份至物件儲存設備</block>
   <block id="7882c4532e24f1cac41cc043cde436b7" category="paragraph">當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。</block>
   <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">目前不支援將備份檔案建立至 StorageGRID 系統時使用此功能。</block>
+  <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google Cloud Storage</block>
+  <block id="68269a7fe7304a0e7d5a0232d5e7141b" category="list-text"><block ref="68269a7fe7304a0e7d5a0232d5e7141b" category="inline-link-rx"></block></block>
+  <block id="744c3e2d9eefd2af0d741a4bdf013531" category="section-title">2023 年 7 月 9 日</block>
+  <block id="0d31f76acc0f0585c0ce6603aae95bf9" category="section-title">一次移除多個同步關係</block>
+  <block id="86f4ab992201dfe7e7a91d9236676ea1" category="paragraph">使用者現在可以在 UI 中一次刪除多個同步關係。</block>
+  <block id="f56872f7cec9149a7ac802d7a22773f7" category="inline-link">深入瞭解如何刪除同步重新關聯。</block>
+  <block id="8841a5cc4fff05bb6e2a277bb234a5e9" category="paragraph"><block ref="8841a5cc4fff05bb6e2a277bb234a5e9" category="inline-link-rx"></block></block>
+  <block id="0bf8da16e84dc021192c3cce07860470" category="section-title">僅複製 ACL</block>
+  <block id="dda93ca03de99accfa039adc8007a91c" category="paragraph">使用者現在可以選擇其他選項、在 CIF 和 NFS 關係中複製 ACL 資訊。建立或管理同步關係時、您只能複製檔案、僅複製 ACL 資訊、或複製檔案和 ACL 資訊。</block>
+  <block id="75188372815d8c81aa145bb6bd881697" category="inline-link">深入瞭解複製 ACL 。</block>
+  <block id="f14be32be1b0e46b478529e782afc130" category="paragraph"><block ref="f14be32be1b0e46b478529e782afc130" category="inline-link-rx"></block></block>
+  <block id="c3605c10e6753f736b31bbe56975b312" category="section-title">已更新至 Node.js 20</block>
+  <block id="62ace2991e0846010d9d30c14cb37645" category="paragraph">複本與同步已更新至 Node.js 20 。所有可用的資料代理人將會更新。無法安裝與此更新不相容的作業系統、不相容的現有系統可能會發生效能問題。</block>
+  <block id="145634d473d937448dc7bdb5a6797ea7" category="section-title">2023 年 7 月 10 日</block>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">能夠從 BlueXP 新增庫位並管理現有的庫位</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">瞭解如何新增 Google Cloud Storage 貯體</block>
+  <block id="71d86d6b260e92b047d7453cd653bd4c" category="paragraph">您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="df1f25cc6ac4c2f26feeca1367b4ae92" category="inline-link-rx"></block>。</block>
 </blocks>
