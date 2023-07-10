@@ -136,16 +136,6 @@
   <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">現在您可以為磁碟區產生分層報告</block>
   <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">瞭解如何下載分層報告</block>
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP中的Kubernetes現在支援Astra Trident 23.01。</block>
-  <block id="916fe80558e430806f51297666a415c2" category="section-title">2023年3月7日（版本1.21）</block>
-  <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link">預先定義的類別</block>
-  <block id="e47ea30e34a3a076c6a7779b8a54db7c" category="list-text">波札那身分證（Omang）號碼</block>
-  <block id="2d3ad991cc78b072cf48ad8db3fb43e0" category="list-text">波札那護照號碼</block>
-  <block id="ff3bab043a00af2e37e7dcaf393aea61" category="list-text">新加坡國家註冊身分證（NRIC）</block>
-  <block id="c750c2392e2683a70ab7309253a1954b" category="section-title">目錄的更新功能</block>
-  <block id="179219a43ca594b98a13e70b7ebc112a" category="list-text">資料調查報告的「輕度CSV報告」選項現在包含來自目錄的資訊。</block>
-  <block id="b2755be94249995adeed2a28b31a7393" category="list-text">「上次存取」時間篩選器現在會顯示檔案和目錄的上次存取時間。</block>
-  <block id="013efea19f002683e016d90789038d6e" category="section-title">安裝增強功能</block>
-  <block id="64abb83963bf9db8126f2ee52cdc0390" category="list-text">安裝稽核記錄檔現在會儲存、並寫入<block ref="2f5e01665193c4e95e37ac69411567bb" prefix=" " category="inline-code"></block>。</block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">我們新增了全新的勒索軟體恢復儀表板、協助您從攻擊中恢復系統</block>
   <block id="d79294e72dc3584cc12c98a7a931315d" category="inline-link">Amazon S3儲存設備</block>
@@ -218,18 +208,8 @@
   <block id="21db17f88f41dcd13f48cc90aced1d74" category="section-title">能夠在雲端的較小執行個體上部署 BlueXP 分類</block>
   <block id="cb608d54d750eeb9d266241b5a1d63c7" category="section-title">獨立指令碼現已推出、可在安裝 BlueXP 分類之前驗證您的 Linux 系統</block>
   <block id="e75f898f4dbad5388881095e9582c693" category="inline-link">瞭解如何檢查您的 Linux 主機是否已準備好安裝 BlueXP 分類</block>
-  <block id="b4602fb47c1d6ee0427e2682d3a0ca06" category="section-title">新功能可從 BlueXP 分類 UI 新增您自己的自訂類別</block>
-  <block id="bca8069b731ea966c03da0cea318f9d1" category="section-title">現在您可以從 BlueXP 分類 UI 新增自訂關鍵字</block>
-  <block id="c9383e3b8d4c0ef8e217c6982644630b" category="paragraph">BlueXP 分類已能夠新增自訂關鍵字、 BlueXP 分類將在未來的掃描中識別這些關鍵字。不過、您需要登入 BlueXP 分類 Linux 主機、並使用命令列介面來新增關鍵字。在此版本中、新增自訂關鍵字的功能位於 BlueXP 分類 UI 中、因此很容易新增及編輯這些關鍵字。</block>
-  <block id="bb81f229fc6d121a288d657aea60262e" category="inline-link">深入瞭解如何從 BlueXP 分類 UI 新增自訂關鍵字</block>
-  <block id="7e5ec3b51659d16db2e72438a8ca680a" category="section-title">在「上次存取時間」變更時、能夠將 BlueXP 分類 * 非 * 掃描檔案</block>
-  <block id="f9bee7a7e545f0d95664d3ccaa7b7151" category="paragraph">根據預設、如果 BlueXP 分類沒有足夠的「寫入」權限、系統將不會掃描您磁碟區中的檔案、因為 BlueXP 分類無法將「上次存取時間」還原為原始時間戳記。不過、如果您不介意上次存取時間重設為檔案中的原始時間、您可以在「組態」頁面中覆寫此行為、以便 BlueXP 分類不論權限為何、都能掃描磁碟區。</block>
-  <block id="61d99226273ea30523883fe7209399c2" category="paragraph">結合這項功能、新增了名為「掃描分析事件」的篩選器、讓您可以檢視未分類的檔案、因為 BlueXP 分類無法還原上次存取的時間、或是即使 BlueXP 分類無法還原上次存取的時間、也無法還原已分類的檔案。</block>
-  <block id="bf8521a1bd91dd809d1d007594f22498" category="inline-link">深入瞭解「上次存取時間戳記」和 BlueXP 分類所需的權限</block>
-  <block id="9422d01ffeaf90b54d512834d7e52972" category="section-title">BlueXP 分類可識別三種新的個人資料類型</block>
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP 分類可識別及分類包含下列資料類型的檔案：</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">查看 BlueXP 分類可在資料中識別的所有個人資料類型</block>
-  <block id="27bfd524829d2f58c611b9380403face" category="list-text">對於無法存取網際網路的網站（黑暗網站）、 BlueXP 分類安裝程式現在會執行預先檢查、以確保您的系統和網路需求已就緒、以便順利安裝。</block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="section-title">數位顧問</block>
   <block id="fd31042d52571c6f22cae041d72fc4dd" category="paragraph">數位顧問（前身為 Active IQ ）現在已與 BlueXP 完全整合、並提供更好的登入體驗。</block>
   <block id="bde16c93c046fa9870a736978717607f" category="paragraph">當您存取 BlueXP 數位顧問時、系統會提示您輸入 NetApp 支援網站 認證、以便您檢視與系統相關的資料。您登入的NSS帳戶僅與使用者登入相關聯。它不會與您NetApp帳戶中的任何其他使用者建立關聯。</block>
@@ -342,10 +322,6 @@
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">「資料探索評估報告」會針對您所掃描的環境提供高層級分析、以強調系統的發現、並顯示關切領域和可能的補救步驟。本報告的目標是提高對資料治理疑慮、資料安全性曝露及資料集資料合規性缺口的認知度。<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>。</block>
   <block id="38e8bfeb390cec6e72d97323084e18cc" category="paragraph">在 AWS 環境中從 BlueXP Connector 部署 BlueXP 分類時、現在您可以從兩種比預設執行個體可用的執行個體類型更小的執行個體類型中進行選擇。如果您掃描的是小型環境、這有助於節省雲端成本。不過、使用較小的執行個體時會有一些限制。<block ref="d8ef680ce45b86e2a6afe2805a7e5562" category="inline-link-rx"></block>。</block>
   <block id="46b0a8862a90d05f4f40bbcda2473af4" category="paragraph">如果您想驗證 Linux 系統是否符合所有先決條件、而不需執行 BlueXP 分類安裝、您可以下載一個獨立的指令碼、只測試先決條件。<block ref="f7ad1b05082bb59227795c56a02d9b78" category="inline-link-rx"></block>。</block>
-  <block id="75e47d62ba360614f8cdea86c229c321" category="paragraph">BlueXP 分類現在可讓您新增自己的自訂類別、以便 BlueXP 分類能識別符合這些類別的檔案。BlueXP 分類有許多<block ref="7587255274ad12f237a14fbd5f47a14a" category="inline-link-rx"></block>因此，此功能可讓您新增自訂類別，以識別在資料中找到組織專屬的資訊。</block>
-  <block id="740f66f04097135a7846557949061bf8" category="paragraph"><block ref="e14cfeac39419a4a8a842fd3611a27db" category="inline-link-rx"></block>。</block>
-  <block id="8f031c80211d08a2fc3d24c73c826e4b" category="paragraph"><block ref="d597807e5ef4bec605cdd823cfc707e7" category="inline-link-rx"></block>。</block>
-  <block id="b81005c38cb0963c694c4f17fdffdda5" category="paragraph"><block ref="6a34fff85e918ca0361628bb33e44cc4" category="inline-link-rx"></block>。</block>
   <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>。</block>
   <block id="06765567af68358bde181ef7ae8a31b0" category="paragraph">如需詳細資訊、請參閱 <block ref="5aa81dcb1871cc4d565005ce5abe331d" category="inline-link-macro-rx"></block>。</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>。</block>
@@ -535,8 +511,6 @@
   <block id="fb74ece6972051de48e476af9e1e3b61" category="list-text">從* Volumes（磁碟區）*索引標籤、選取* Backup Settings*（備份設定）。</block>
   <block id="cbce457a0f1d693a7ec8fdef080284e8" category="list-text">從 _ 備份設定 _ 頁面、按一下 * 顯示先前 BlueXP 備份與還原版本 * 的選項按鈕。</block>
   <block id="6ad80584a8fba3d1fc876fd412e2b184" category="paragraph">然後您可以使用舊版軟體來管理舊叢集。</block>
-  <block id="098acc7a6e2aef2e0ffd66cabdde369e" category="section-title">能夠建立儲存庫以備份至物件儲存設備</block>
-  <block id="7882c4532e24f1cac41cc043cde436b7" category="paragraph">當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。</block>
   <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">目前不支援將備份檔案建立至 StorageGRID 系統時使用此功能。</block>
   <block id="833c2c211a541e50ad94433664e4b5c1" category="inline-link">Google Cloud Storage</block>
   <block id="68269a7fe7304a0e7d5a0232d5e7141b" category="list-text"><block ref="68269a7fe7304a0e7d5a0232d5e7141b" category="inline-link-rx"></block></block>
@@ -555,4 +529,19 @@
   <block id="5a6d96b9a020e520981bf7fe4c7af203" category="section-title">能夠從 BlueXP 新增庫位並管理現有的庫位</block>
   <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">瞭解如何新增 Google Cloud Storage 貯體</block>
   <block id="71d86d6b260e92b047d7453cd653bd4c" category="paragraph">您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。<block ref="df1f25cc6ac4c2f26feeca1367b4ae92" category="inline-link-rx"></block>。</block>
+  <block id="e2f760131280f3fd361a50b428c7b92d" category="section-title">能夠建立儲存容器以備份至物件儲存設備</block>
+  <block id="414c40dd827c6738286ee0b333e39456" category="inline-link">瞭解如何建立物件儲存貯體</block>
+  <block id="debda728f2e9b255111b127aed9dc8fd" category="paragraph">當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。<block ref="2d2a00fa0eeaa888f8c689ec67e16ffe" category="inline-link-rx"></block>。</block>
+  <block id="0494d69152dc144f6691315fabf9af4d" category="section-title">2023 年 7 月 17 日（版本 1.24 ）</block>
+  <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 分類可識別兩種新類型的德國個人資料</block>
+  <block id="e2f64dc02ab3f9d3b659d24b9503b545" category="list-text">德文 ID （ Personalausweisnummer ）</block>
+  <block id="ac01084f4d5a1af5de639eaf04ad94ff" category="list-text">德國社會安全號碼（ Szialversicherungsnummer ）</block>
+  <block id="f6731e0bd9f7a8a40f83ba1c622ffe25" category="section-title">Rocky Linux 9 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類</block>
+  <block id="76264cc2bc8d3793465d31c38655f588" category="inline-link">瞭解如何在安裝了 Rocky Linux 的主機上安裝 BlueXP 分類</block>
+  <block id="059df2e0abacded1764d0222f6ab3b42" category="paragraph">Rocky Linux 9 （ 9.0 、 9.1 和 9.2 ）已獲得 BlueXP 分類支援的作業系統資格。您可以在網路中的 Rocky Linux 主機上安裝 BlueXP 分類、或在雲端的 Linux 主機上安裝 1.24 版安裝程式。<block ref="b549f731e0826bdc1659ea47e9a6f422" category="inline-link-rx"></block>。</block>
+  <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">在受限模式和私有模式下、完全支援 BlueXP 分類</block>
+  <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">深入瞭解 Connector 的 BlueXP 部署模式</block>
+  <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">BlueXP 分類現在已在沒有網際網路存取（私有模式）和限制外傳網際網路存取（限制模式）的網站中獲得完整支援。<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>。</block>
+  <block id="8dd6a265487e54146fb2bdfb3e5174a5" category="section-title">在升級 BlueXP 分類的私有模式安裝時、可以略過版本</block>
+  <block id="241957d9f6c696915858d43476112454" category="paragraph">現在您可以升級至較新版本的 BlueXP 分類、即使它不是連續的。這表示目前不再需要將 BlueXP 分類一次升級一個版本的限制。從 1.24 版開始、此功能相當實用。</block>
 </blocks>
