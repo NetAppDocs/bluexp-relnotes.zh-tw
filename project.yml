@@ -15,8 +15,10 @@ sidebar:
     url: "/index.html"
   - title: 最近的變更
     url: "/whats-new.html"
-  - title: BlueXP索引
+  - title: 版本資訊索引
     url: "/release-notes-index.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
 homepage:
   tiles:
   - title: 新增功能

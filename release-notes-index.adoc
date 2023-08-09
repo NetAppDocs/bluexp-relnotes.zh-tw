@@ -1,6 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: release-notes-index.html 
+keywords: release notes 
+summary: 檢視每項個別服務的完整版本資訊。 
 ---
 = 版本資訊索引
 :toc: macro

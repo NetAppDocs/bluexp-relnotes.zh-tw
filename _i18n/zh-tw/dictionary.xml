@@ -76,16 +76,7 @@
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正問題</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
-  <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日（2.0版）</block>
-  <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能</block>
-  <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">深入瞭解Edge Cache授權套件。</block>
-  <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">全域檔案快取現在已整合Cloud Insights 至功能性</block>
-  <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">深入瞭Cloud Insights 解功能。</block>
-  <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
-  <block id="1f56bc157b53331171e2209738abd411" category="section-title">授權管理伺服器已經過強化、可在極具限制的環境中運作</block>
-  <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">在授權組態期間、授權管理伺服器（LMS）應可存取網際網路、以便向NetApp/期望職位收集授權詳細資料。一旦組態成功、LMS就能繼續以離線模式運作、並提供授權功能、即使在限制嚴格的環境中。</block>
-  <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">定義儲存類別</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP Sfor Sfor the Data來源</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：</block>
@@ -117,10 +108,7 @@
   <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。使用者人數上限分別為400和200。</block>
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">增強的Optimus PSM可設定雲端授權</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端</block>
-  <block id="15b783a23e5291e1ffb9f638317d4bcb" category="inline-link">NetApp 全球檔案快取使用者指南</block>
-  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
-  <block id="ed8f5e7e321372398aae23788c3243a0" category="sidebar">BlueXP索引</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
@@ -132,8 +120,6 @@
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
   <block id="3aea41413b60d0894823e739f01efcbb" category="paragraph">使用者介面已進行改善、文件中已更新螢幕擷取畫面。</block>
-  <block id="b92f2131d3d225c3c3327daaa8862624" category="section-title">現在您可以為磁碟區產生分層報告</block>
-  <block id="f86857f0a51fde5819da3a17258b5448" category="inline-link">瞭解如何下載分層報告</block>
   <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">BlueXP中的Kubernetes現在支援Astra Trident 23.01。</block>
   <block id="4b10c384bd11c38afbbe24f979f5519d" category="section-title">2023年3月7日</block>
   <block id="b20988b483bceb3fb63077025a07d023" category="section-title">我們新增了全新的勒索軟體恢復儀表板、協助您從攻擊中恢復系統</block>
@@ -153,7 +139,6 @@
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">營運恢復能力</block>
   <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="92900172340dbf6ba4b3454580c7583b" category="list-text"><block ref="92900172340dbf6ba4b3454580c7583b" category="inline-link-rx"></block></block>
-  <block id="d1624b8f3b686e981a178c03616a370b" category="inline-link">深入瞭解排除目錄設定</block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">授權標籤已移除</block>
@@ -215,11 +200,6 @@
   <block id="d128bda2634e1051cc984231da065144" category="list-text">BlueXP 數位電子錢包現在支援電子郵件通知。</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">在檢視 Cloud Volumes ONTAP 的容量型授權時、 BlueXP 數位錢包現在會顯示您購買的市場私有優惠授權容量。</block>
   <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023 年 5 月 7 日</block>
-  <block id="a018fc35c6be59c0e9c90d4bd464dc47" category="section-title">2023 年 5 月 7 日</block>
-  <block id="b3aad9775f9ce61fe67c9745594b96f0" category="inline-link-macro">產生安全性群組</block>
-  <block id="beee5e54063eb4d710db752896c928c8" category="inline-link-macro">需要額外權限</block>
-  <block id="34ec78fcc91ffb1e54cd85e4a0924332" category="inline-link-macro">新增</block>
-  <block id="8f45a2644508b5282f57fe129f62d19a" category="inline-link-macro">修改</block>
   <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 私有優惠</block>
   <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。</block>
   <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">充電使用量明細</block>
@@ -237,17 +217,6 @@
   <block id="aad236ec8e2b61a79fb4bb3a416a2e06" category="paragraph">如果叢集執行的是 ONTAP 9.12.1 或更新版本、則 AWS 中國北京（ CN-north-1 ）和寧夏（ CN-n前來 -1 ）地區現在都支援做為備份檔案的目的地。</block>
   <block id="c93bfe725726f47fe3bfcc0e95f8ec7d" category="inline-link">將內部部署 ONTAP 資料備份至 Amazon S3</block>
   <block id="c325ed37b6a44d9e765cfd2dd7779cfb" category="paragraph">系統啟動的工作（例如持續的備份作業）現在可在 * 工作監控 * 標籤中找到、適用於執行 ONTAP 9.13.1 或更新版本的內部部署 ONTAP 系統。舊版 ONTAP 只會顯示使用者啟動的工作。</block>
-  <block id="2652537da62e22a06b22374119e6c40f" category="section-title">硬連結功能</block>
-  <block id="74b59acd161d1704c8c78879dc8fba01" category="paragraph">使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。</block>
-  <block id="689dbd8363b6599ce07ff94a27510e99" category="inline-link">深入瞭解檔案類型設定</block>
-  <block id="b37e1d04fbc8f3ac1aa4b71252cc4d4b" category="section-title">能夠在安全的 NFS 關係中新增資料代理人的使用者憑證</block>
-  <block id="fad605010f8f29a3a10f7062fe2cd4e9" category="paragraph">使用者現在可以在建立安全的 NFS 關係時、為目標資料代理人設定自己的憑證。他們需要設定伺服器名稱、並在執行時提供私密金鑰和憑證 ID 。此功能適用於所有資料代理人。</block>
-  <block id="3bf0932004501be46156880cfe858e8f" category="section-title">最近修改檔案的延長排除期</block>
-  <block id="72293cd7eff96e1e45510dc52f4ef25e" category="paragraph">使用者現在可以排除在排程同步前 365 天內修改的檔案。</block>
-  <block id="87ca8046e9c8a782bd5c06267e7f93f7" category="inline-link">深入瞭解最近修改的檔案設定</block>
-  <block id="e03b4aafcead6edb397ccbf7e180255f" category="section-title">依關係 ID 篩選 UI 中的關係</block>
-  <block id="aca73b993cefdbe81afe166bf8692c50" category="paragraph">使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。</block>
-  <block id="37a616e16a0f4d18ac25d57ddb913bf8" category="inline-link">深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API</block>
   <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023 年 5 月 4 日</block>
   <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">啟用 BlueXP 備份與還原</block>
   <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">深入瞭解如何啟用 BlueXP 備份與還原</block>
@@ -280,8 +249,6 @@
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>。</block>
-  <block id="b6f1ebb155eaf4c6e07d7a105b1d5a53" category="list-text">建立工作環境時、您現在可以使用 BlueXP <block ref="3ba2cfc3ef2a3c163fc4910682cfb7d6" category="inline-link-macro-rx"></block> 僅允許所選 VPC 內的流量。此功能 <block ref="097f8dd60847dad6062ac7ea2bd09c06" category="inline-link-macro-rx"></block>。</block>
-  <block id="46ce6a634ad58fa667690e7f5c151b26" category="list-text">您也可以選擇 <block ref="2af1713063b9a7e50c1f5e13c7671bae" category="inline-link-macro-rx"></block> 和 <block ref="013335dc35ce07c311c673e8a99c88f9" category="inline-link-macro-rx"></block> 分類磁碟區的標籤。</block>
   <block id="c55a4ed0f55f8209574960c04bd36597" category="paragraph">現在您可以選擇與客戶管理的加密金鑰（ CMEK ）專案不同的儲存庫。<block ref="2425c9129a22c7135ee8a04ae0dae970" category="inline-link-rx"></block>。</block>
   <block id="cfc826b330f7a25cc3c4e115a9fcca13" category="paragraph">請注意、指派給 BlueXP Connector 的 IAM 原則需要將所有 _Resource_ 區段下的 AWS 資源名稱「 arn 」從「 AWS 」變更為「 AWS-CN 」、例如「 arn:AWS-CN:S3 ：：：： NetApp-backup-* 」。請參閱<block ref="17dde2a04d27e7ad2a9f0a451a7a0e90" category="inline-link-rx"></block> 和<block ref="bb86d78b7593b3e1252f277b7dd6e017" category="inline-link-rx"></block> 以取得詳細資料。</block>
   <block id="4da25d5e326dac4c0bb3865e69dd3325" category="paragraph">「資料探索評估報告」會針對您所掃描的環境提供高層級分析、以強調系統的發現、並顯示關切領域和可能的補救步驟。本報告的目標是提高對資料治理疑慮、資料安全性曝露及資料集資料合規性缺口的認知度。<block ref="34e879e713683b8352bb56b59c6078e2" category="inline-link-rx"></block>。</block>
@@ -290,14 +257,8 @@
   <block id="7e1e73ad7e6d01345f57dc84d7cd2c47" category="paragraph"><block ref="8ab3022f8d373945c172f9e89b554e84" category="inline-link-rx"></block>。</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>。</block>
   <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1a7214a3217999e62943b6eb9a186e66" category="paragraph"><block ref="9bf8313a7db211679a844402f240b32a" category="inline-link-rx"></block>。</block>
-  <block id="5b1faa5c627185bd8774ba759dbbcf1d" category="paragraph"><block ref="528a28b28e8f5d9df665a229e7a7fa63" category="inline-link-rx"></block>。</block>
-  <block id="ce907128271b3f13161731af69efdb83" category="paragraph"><block ref="7d45213b584f83e1010772ef58d497ad" category="inline-link-rx"></block>。</block>
-  <block id="791d072486b9f4524702996962f5cb1d" category="paragraph"><block ref="525fcee9e0cdf0ea236cb2377cb58f7b" category="inline-link-rx"></block>。</block>
-  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
-  <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
   <block id="4e4ff5b7850bf0aae4966bf2353d2764" category="list-text">您現在可以了 <block ref="79330a9a9d35860d426f0d48c9f654a7" category="inline-link-macro-rx"></block> 是使用 Trident 運算子或 BlueXP 安裝的。</block>
   <block id="08dbc554156c2764d1696fe55d768aed" category="paragraph">何時 <block ref="c5aa031d705396e63c7e52a97cf56f86" category="inline-link-macro-rx"></block>、您現在可以為區塊或檔案系統儲存設備啟用儲存等級的經濟效益。</block>
   <block id="6b5123d10bcaa20aedf265862fd00988" category="paragraph"><block ref="b8d5a3f5bf3c3f09de7cacb30a8225fd" category="inline-link-rx"></block>。</block>
@@ -308,7 +269,6 @@
   <block id="3ce8031a2a5efd8807d29dc5391ac03a" category="paragraph">目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。<block ref="71acbc1e86413ca32a85c458baf53529" category="inline-link-rx"></block>。</block>
   <block id="c3f9f5f3154c847ae51038b02652e769" category="paragraph"><block ref="ebf81513d87da0002a3ac7ea6ee056cb" category="inline-link-rx"></block>。</block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
-  <block id="af39bae06861b3074eed6e997f9a3ebf" category="paragraph">您可以從「層級磁碟區」頁面下載報告、以便檢閱所管理叢集上所有磁碟區的分層狀態。BlueXP 分層會產生 .CSV 檔案、您可以視需要檢閱並傳送給公司中的其他人。<block ref="aaab920374e84f87020f8ba8578ab877" category="inline-link-rx"></block>。</block>
   <block id="2b3e8f910d66604cd77f93b333670468" category="inline-link">Azure Blob 儲存設備</block>
   <block id="a1182a2fefa3fdd8128a983a3d666611" category="list-text"><block ref="a1182a2fefa3fdd8128a983a3d666611" category="inline-link-rx"></block></block>
   <block id="ac7b3cf10ea08c788a374e0291742517" category="inline-link">移轉報告</block>
@@ -542,4 +502,53 @@
   <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
   <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">瞭解什麼是 FlexGroup Volume</block>
   <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="30fee46958559c602b944cc387c72292" category="paragraph">客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。</block>
+  <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">Amazon FSX for NetApp ONTAP 現已在另外三個地區推出</block>
+  <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">請參閱 <block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block> 以取得完整詳細資料。</block>
+  <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP 分類 API 現已推出</block>
+  <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">BlueXP 分類 API 可讓您執行動作、建立查詢、以及匯出所掃描資料的相關資訊。可使用 Swagger 取得互動式文件。文件分為多個類別、包括調查、法規遵循、治理和組態。每個類別都是 BlueXP 分類 UI 中標籤的參考資料。</block>
+  <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">若要進入 Swagger 、您需要 BlueXP 分類執行個體的 IP 位址。在雲端部署中、您將使用公有 IP 位址。然後您需要進入這個端點：</block>
+  <block id="254092d1402121eb76375744912fcb31" category="paragraph"><block ref="76abae69818f3dbdee10e3bc86ddf426" category="inline-link-rx"></block></block>
+  <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023 年 8 月 6 日</block>
+  <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">建立資料代理程式時、請使用現有的 Azure 安全性群組</block>
+  <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。</block>
+  <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">建立資料代理程式時所使用的服務帳戶必須具有下列權限：</block>
+  <block id="40ab692bf1bd50c2b8af00a0f842eae1" category="list-text">「 Microsoft.Network/networkSecurityGroups/securityRules/read"</block>
+  <block id="382fee949ad334bb4c7112f8925c1a73" category="list-text">「 Microsoft.Network/networkSecurityGroups/read"</block>
+  <block id="223263a27baa6e1ed1653cabb17bae1a" category="inline-link">深入瞭解如何在 Azure 中建立資料代理程式。</block>
+  <block id="dd28ab2cc4abd312627d50ae74f70a47" category="paragraph"><block ref="dd28ab2cc4abd312627d50ae74f70a47" category="inline-link-rx"></block></block>
+  <block id="523a4e14cf869e980cae59f341235b4d" category="section-title">同步至 Google Storage 時加密資料</block>
+  <block id="f30fd3a2e1153daad9771810719ad64c" category="paragraph">現在、使用者可以選擇在建立與 Google Storage Bucket 的同步關係作為目標時、指定客戶管理的加密金鑰。您可以手動輸入金鑰、或從單一區域的金鑰清單中選擇。</block>
+  <block id="822dcaf9e20737313f761f80cc25031f" category="list-text">cloudkms.cryptoKeys.list</block>
+  <block id="67c2b48a02a1206b0cf882e5b8d15ad2" category="list-text">cloudkms.keycles.list</block>
+  <block id="2f582d8c48ea99c7b932fa712f18e592" category="inline-link">深入瞭解 Google Cloud Storage 貯體需求。</block>
+  <block id="32a658d78cdd354c1492f2b54191e16d" category="paragraph"><block ref="32a658d78cdd354c1492f2b54191e16d" category="inline-link-rx"></block></block>
+  <block id="924b35617c7b4bb0713e5eedb1777802" category="section-title">2023 年 8 月 1 日（ 2.3 版）</block>
+  <block id="4dbe51f9893020550dd4c70ac9a71474" category="paragraph">此版本可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="4bca0fdcdafed1e5f31435f4b19c8738" category="section-title">2023 年 8 月 9 日</block>
+  <block id="b839d32c555694a5245fa2fa33d17d88" category="section-title">在儲存階層資料的儲存區名稱中使用自訂字首</block>
+  <block id="6eb4429639db75cb3b56cc38a3fb8785" category="paragraph">在過去、您需要在定義貯體名稱時使用預設的「 Fabric Pool 」前置詞、例如 _Fabric Pool Bucket1_ 。現在、您可以在命名貯體時使用自訂首碼。只有在將資料分層至 Amazon S3 時、才能使用此功能。<block ref="3e8270d3bc816ce30c7c11fe6d073535" category="inline-link-rx"></block>。</block>
+  <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">在所有 BlueXP Connector 上搜尋叢集</block>
+  <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">如果您使用多個 Connectors 來管理環境中的所有儲存系統、則您要實作分層的某些叢集可能位於不同的 Connectors 。如果您不確定哪個 Connector 正在管理特定叢集、您可以使用 BlueXP 分層功能在所有 Connector 之間搜尋。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block>。</block>
 </blocks>

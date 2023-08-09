@@ -213,6 +213,14 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 7 月 30 日
+
+客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。
+
+請參閱 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["Amazon FSX for NetApp ONTAP 現已在另外三個地區推出"^] 以取得完整詳細資料。
+
+
+
 === 2023 年 7 月 2 日
 
 * 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
@@ -225,14 +233,6 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 * 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
 * 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
-
-
-
-
-=== 2023 年 5 月 7 日
-
-* 建立工作環境時、您現在可以使用 BlueXP link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["產生安全性群組"^] 僅允許所選 VPC 內的流量。此功能 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["需要額外權限"^]。
-* 您也可以選擇 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-add-fsx-volumes.html#create-volumes["新增"^] 和 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-fsx-volumes.html#manage-volume-tags["修改"^] 分類磁碟區的標籤。
 
 
 
@@ -435,6 +435,16 @@ BlueXP 分類現在已在沒有網際網路存取（私有模式）和限制外�
 
 
 
+==== BlueXP 分類 API 現已推出
+
+BlueXP 分類 API 可讓您執行動作、建立查詢、以及匯出所掃描資料的相關資訊。可使用 Swagger 取得互動式文件。文件分為多個類別、包括調查、法規遵循、治理和組態。每個類別都是 BlueXP 分類 UI 中標籤的參考資料。
+
+若要進入 Swagger 、您需要 BlueXP 分類執行個體的 IP 位址。在雲端部署中、您將使用公有 IP 位址。然後您需要進入這個端點：
+
+https://<classification_ip>/documentation[]
+
+
+
 === 2023 年 6 月 6 日（版本 1.23 ）
 
 
@@ -615,6 +625,38 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2023 年 8 月 6 日
+
+
+
+==== 建立資料代理程式時、請使用現有的 Azure 安全性群組
+
+使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。
+
+建立資料代理程式時所使用的服務帳戶必須具有下列權限：
+
+* 「 Microsoft.Network/networkSecurityGroups/securityRules/read"
+* 「 Microsoft.Network/networkSecurityGroups/read"
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["深入瞭解如何在 Azure 中建立資料代理程式。"]
+
+
+
+==== 同步至 Google Storage 時加密資料
+
+現在、使用者可以選擇在建立與 Google Storage Bucket 的同步關係作為目標時、指定客戶管理的加密金鑰。您可以手動輸入金鑰、或從單一區域的金鑰清單中選擇。
+
+建立資料代理程式時所使用的服務帳戶必須具有下列權限：
+
+* cloudkms.cryptoKeys.list
+* cloudkms.keycles.list
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["深入瞭解 Google Cloud Storage 貯體需求。"]
+
+
+
 === 2023 年 7 月 9 日
 
 
@@ -658,42 +700,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 在包括檔案系統在內的關係中、 * 複製物件 * 功能現在會複製存取時間中繼資料。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解複製物件設定"]。
-
-
-
-=== 2023 年 5 月 8 日
-
-
-
-==== 硬連結功能
-
-使用者現在可以加入硬式連結、以進行涉及不安全 NFS 與 NFS 關係的同步。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解檔案類型設定"]。
-
-
-
-==== 能夠在安全的 NFS 關係中新增資料代理人的使用者憑證
-
-使用者現在可以在建立安全的 NFS 關係時、為目標資料代理人設定自己的憑證。他們需要設定伺服器名稱、並在執行時提供私密金鑰和憑證 ID 。此功能適用於所有資料代理人。
-
-
-
-==== 最近修改檔案的延長排除期
-
-使用者現在可以排除在排程同步前 365 天內修改的檔案。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解最近修改的檔案設定"]。
-
-
-
-==== 依關係 ID 篩選 UI 中的關係
-
-使用 RESTful API 的使用者現在可以使用關係 ID 來篩選關係。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/api-sync.html["深入瞭解如何搭配 BlueXP 複本與同步使用 RESTful API"]。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解排除目錄設定"]。
 
 
 
@@ -811,9 +817,15 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
+=== 2023 年 8 月 1 日（ 2.3 版）
+
+此版本可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。
+
+
+
 === 2023 年 4 月 5 日（ 2.2 版）
 
-此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。
+此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。
 
 
 
@@ -862,38 +874,6 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#
 
 
 ==== 強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端
-
-
-
-=== 2022年7月25日（2.0版）
-
-此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。
-
-
-
-==== 全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能
-
-新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["深入瞭解Edge Cache授權套件。"]
-
-
-
-==== 全域檔案快取現在已整合Cloud Insights 至功能性
-
-NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]
-
-https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
-
-
-
-==== 授權管理伺服器已經過強化、可在極具限制的環境中運作
-
-在授權組態期間、授權管理伺服器（LMS）應可存取網際網路、以便向NetApp/期望職位收集授權詳細資料。一旦組態成功、LMS就能繼續以離線模式運作、並提供授權功能、即使在限制嚴格的環境中。
-
-
-
-==== Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單
 
 
 
@@ -1166,6 +1146,22 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭
 
 
 
+=== 2023 年 8 月 9 日
+
+
+
+==== 在儲存階層資料的儲存區名稱中使用自訂字首
+
+在過去、您需要在定義貯體名稱時使用預設的「 Fabric Pool 」前置詞、例如 _Fabric Pool Bucket1_ 。現在、您可以在命名貯體時使用自訂首碼。只有在將資料分層至 Amazon S3 時、才能使用此功能。 https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["深入瞭解"]。
+
+
+
+==== 在所有 BlueXP Connector 上搜尋叢集
+
+如果您使用多個 Connectors 來管理環境中的所有儲存系統、則您要實作分層的某些叢集可能位於不同的 Connectors 。如果您不確定哪個 Connector 正在管理特定叢集、您可以使用 BlueXP 分層功能在所有 Connector 之間搜尋。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["深入瞭解"]。
+
+
+
 === 2023 年 7 月 4 日
 
 
@@ -1197,16 +1193,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭
 ==== 分層索引標籤已重新命名、並已更新內容
 
 「叢集儀表板」索引標籤已重新命名為「叢集」、「內部部署儀表板」索引標籤已重新命名為「內部部署儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。
-
-
-
-=== 2023年3月5日
-
-
-
-==== 現在您可以為磁碟區產生分層報告
-
-您可以從「層級磁碟區」頁面下載報告、以便檢閱所管理叢集上所有磁碟區的分層狀態。BlueXP 分層會產生 .CSV 檔案、您可以視需要檢閱並傳送給公司中的其他人。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#download-a-tiering-report-for-your-volumes["瞭解如何下載分層報告"]。
 
 
 
