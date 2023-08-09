@@ -467,8 +467,6 @@
   <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">請參閱 <block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block> 以取得完整詳細資料。</block>
   <block id="c77d5103bf67167dd667762d984e1e14" category="section-title">BlueXP 分類 API 現已推出</block>
   <block id="95eaa41c2e7025ac80bcfafd1710ff57" category="paragraph">BlueXP 分類 API 可讓您執行動作、建立查詢、以及匯出所掃描資料的相關資訊。可使用 Swagger 取得互動式文件。文件分為多個類別、包括調查、法規遵循、治理和組態。每個類別都是 BlueXP 分類 UI 中標籤的參考資料。</block>
-  <block id="af16b996606b35cb0f77fe07ba2e556a" category="paragraph">若要進入 Swagger 、您需要 BlueXP 分類執行個體的 IP 位址。在雲端部署中、您將使用公有 IP 位址。然後您需要進入這個端點：</block>
-  <block id="254092d1402121eb76375744912fcb31" category="paragraph"><block ref="76abae69818f3dbdee10e3bc86ddf426" category="inline-link-rx"></block></block>
   <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023 年 8 月 6 日</block>
   <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">建立資料代理程式時、請使用現有的 Azure 安全性群組</block>
   <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。</block>
@@ -491,4 +489,69 @@
   <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">在所有 BlueXP Connector 上搜尋叢集</block>
   <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">如果您使用多個 Connectors 來管理環境中的所有儲存系統、則您要實作分層的某些叢集可能位於不同的 Connectors 。如果您不確定哪個 Connector 正在管理特定叢集、您可以使用 BlueXP 分層功能在所有 Connector 之間搜尋。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block>。</block>
   <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">稽核服務會記錄 BlueXP 服務所執行作業的相關資訊。這包括工作區、使用的連接器和其他遙測資料。您可以使用此資料來判斷執行的動作、執行者及執行時間。</block>
+  <block id="ca8395d0f02816c74d48e7e263466096" category="section-title">2023 年 8 月 1 日</block>
+  <block id="94798620994cb827b675957027c80437" category="paragraph">由於 Connector 具備重要的安全性增強功能、因此現在需要透過外部網際網路存取額外的端點、才能在公有雲環境中管理備份與還原資源。如果此端點尚未新增至防火牆的「允許」清單、您會在 UI 中看到「服務無法使用」或「無法判斷服務狀態」的錯誤：</block>
+  <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
+  <block id="e752fa0925615f823987d88e457d59fd" category="section-title">新增支援功能、可將磁碟區備份至 S3 組態 ONTAP 系統上的貯體</block>
+  <block id="2f90f6337bfaddfb7cef01155147c18e" category="paragraph">現在您可以使用已設定為簡易儲存服務（ S3 ）的 ONTAP 系統、將磁碟區備份至物件儲存。內部部署 ONTAP 系統和 Cloud Volumes ONTAP 系統皆支援此功能。此組態可在雲端部署和內部部署位置中支援、無需網際網路存取（「私有」模式部署）。</block>
+  <block id="d93a426929555b449107b332f0c5df78" category="paragraph"><block ref="2d1eb9b9d1143acaa6fbfc289c32041b" category="inline-link-rx"></block>。</block>
+  <block id="70fbb23fd6cfcbe729580a8c7071730a" category="section-title">現在您可以在備份檔案中加入受保護磁碟區的現有 Snapshot</block>
+  <block id="7c312a822a10d6845bb9cf257a3b41f5" category="paragraph">過去、您可以在初始備份檔案中將現有的 Snapshot 複本從讀寫磁碟區納入物件儲存區（而非從最新的 Snapshot 複本開始）。備份檔案中不包含來自唯讀磁碟區（資料保護磁碟區）的現有 Snapshot 複本。現在您可以選擇在「 DP 」磁碟區的備份檔案中包含較舊的 Snapshot 複本。</block>
+  <block id="a52e9db6c55aaea07e1f222122cf9475" category="paragraph">備份精靈會在備份步驟結束時顯示提示、您可以在其中選取這些「現有的快照」。</block>
+  <block id="6136d2619abda8ba9c4b9f6c76f6d430" category="section-title">BlueXP 備份與還原不再支援未來新增的磁碟區自動備份</block>
+  <block id="3b17b8ee7680ecdabf14e962be98ba50" category="paragraph">以前、您可以勾選備份精靈中的方塊、將選取的備份原則套用至未來新增至叢集的所有磁碟區。此功能已根據使用者的意見反應及缺乏使用此功能而移除。您需要手動啟用新增至叢集的任何新磁碟區備份。</block>
+  <block id="0420a611a93fd8e2b4b4669f2533284c" category="section-title">「工作監控」頁面已更新為新功能</block>
+  <block id="99e43b54749f1014f6aeb5b8c1c56742" category="paragraph">「工作監控」頁面現在提供有關 3-2-1 備份策略的更多資訊。此服務也會提供與備份策略相關的其他警示通知。</block>
+  <block id="04afa98530b9fa98eb8d1adf9da08f7f" category="paragraph">「備份生命週期」類型篩選器已重新命名為「保留」。使用此篩選器可追蹤備份生命週期、並識別所有備份複本的到期日。「保留」工作類型會擷取在受 BlueXP 備份與還原保護的磁碟區上所起始的所有 Snapshot 刪除工作。</block>
+  <block id="751f8afbc94898745cc6e2ea8a5ccd4c" category="inline-link">深入瞭解更新的工作監控器</block>
+  <block id="bf6c8f020a512a9accf77240c1333a16" category="paragraph"><block ref="f412c2e0203811d72b16f88cf9eb5d19" category="inline-link-rx"></block>。</block>
+  <block id="f717b8ed4d751174af9f9438951b9a4f" category="section-title">2023 年 7 月 6 日</block>
+  <block id="10ffd42b58d1ced7127bffaff7185e32" category="section-title">BlueXP 備份與還原現在包括排程及建立 Snapshot 複本與複寫磁碟區的能力</block>
+  <block id="a2e06093d677add4ecd73d26ade99d66" category="paragraph">BlueXP 備份與還原現在可讓您實作 3-2-1 策略、讓您在 2 個不同的儲存系統上擁有 3 個來源資料複本、並在雲端中擁有 1 個複本。啟動之後、您將會看到：</block>
+  <block id="4dfb74d83687d8ca40ab05bac1885b0a" category="list-text">來源系統上磁碟區的快照複本</block>
+  <block id="00b4fe156d0b170f5196995dd8889b0d" category="list-text">在不同的儲存系統上複寫磁碟區</block>
+  <block id="809b026ec469d1b8bfa79721e15f539b" category="list-text">備份物件儲存區中的磁碟區</block>
+  <block id="4ae5ef4008b68e98ae1878294a66c9d1" category="inline-link">深入瞭解全新的全頻備份與還原功能</block>
+  <block id="e1ddbe5fcbded46fffd577b7a64c82ef" category="paragraph"><block ref="c0ade183535ec842bf30c511bd86bbf6" category="inline-link-rx"></block>。</block>
+  <block id="1afa76124f2d71427832cd0846eefa31" category="paragraph">這項新功能也適用於恢復作業。您可以從 Snapshot 複本、複製的磁碟區或雲端的備份檔案執行還原作業。如此一來、您就能靈活選擇符合恢復需求的備份檔案、包括恢復成本和速度。</block>
+  <block id="6d50e6cd9c195849ff4bcb523527fb42" category="paragraph">請注意、這項新功能和使用者介面僅支援執行 ONTAP 9.8 或更新版本的叢集。如果您的叢集有舊版軟體、您可以繼續使用舊版 BlueXP 備份與還原。不過、我們建議您升級至支援的 ONTAP 版本、以取得最新的功能和功能。若要繼續使用舊版軟體、請遵循下列步驟：</block>
+  <block id="fb74ece6972051de48e476af9e1e3b61" category="list-text">從* Volumes（磁碟區）*索引標籤、選取* Backup Settings*（備份設定）。</block>
+  <block id="cbce457a0f1d693a7ec8fdef080284e8" category="list-text">從 _ 備份設定 _ 頁面、按一下 * 顯示先前 BlueXP 備份與還原版本 * 的選項按鈕。</block>
+  <block id="6ad80584a8fba3d1fc876fd412e2b184" category="paragraph">然後您可以使用舊版軟體來管理舊叢集。</block>
+  <block id="e2f760131280f3fd361a50b428c7b92d" category="section-title">能夠建立儲存容器以備份至物件儲存設備</block>
+  <block id="414c40dd827c6738286ee0b333e39456" category="inline-link">瞭解如何建立物件儲存貯體</block>
+  <block id="debda728f2e9b255111b127aed9dc8fd" category="paragraph">當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。<block ref="2d2a00fa0eeaa888f8c689ec67e16ffe" category="inline-link-rx"></block>。</block>
+  <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">目前不支援將備份檔案建立至 StorageGRID 系統時使用此功能。</block>
+  <block id="51276db22ab007bf8378ddc5150c089e" category="section-title">2023 年 7 月 4 日</block>
+  <block id="197747cde80c31576877de78be696240" category="section-title">應用程式（雲端原生）的 BlueXP 備份與還原功能增強功能</block>
+  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">SAP HANA 系統</block>
+  <block id="bd8b9d76d990f261019903335a2c9e94" category="list-text">支援非資料磁碟區和具有 Azure NetApp Files 次要保護的全域非資料磁碟區的連線和複本還原</block>
+  <block id="5ffbe0deb5b41148dc58e63a20df8411" category="list-text">Oracle資料庫</block>
+  <block id="0ba30ac65d6a9a5888d4dc02307879d6" category="list-text">支援將 Azure NetApp Files 上的 Oracle 資料庫還原至其他位置</block>
+  <block id="699e0e6ae8fec9f5e5e383a17f5ec630" category="list-text">支援 Oracle Recovery Manager （ RMAN ）在 Azure NetApp Files 上分類備份 Oracle 資料庫</block>
+  <block id="02794f70b3a16972197aaf346fca198e" category="list-text">可讓您將資料庫主機設為維護模式、以執行維護工作</block>
+  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">應用程式（混合式） BlueXP 備份與還原的增強功能</block>
+  <block id="d7d2579b3be99740443be180188dedfc" category="list-text">支援還原至其他位置</block>
+  <block id="b0e856a98075908a96697bb21ab6fe32" category="list-text">可讓您掛載 Oracle 資料庫備份</block>
+  <block id="9e9fa16d2206e067234a9dad53361ff4" category="list-text">支援將備份從 GCP 移至歸檔層</block>
+  <block id="e0d4183564323d306658a92b138bac87" category="section-title">虛擬機器（混合式） BlueXP 備份與還原的增強功能</block>
+  <block id="64870b941ab2700a64f496038bfb77a9" category="list-text">支援 NFS 和 VMFS 類型的資料存放區保護</block>
+  <block id="c54bd2b10766a492ae36855e868d61eb" category="list-text">可讓您取消登錄 VMware vSphere 主機的 SnapCenter 外掛程式</block>
+  <block id="08c34207830d8869e05cd28a4543f5dc" category="list-text">支援重新整理及探索最新的資料存放區和備份</block>
+  <block id="47cb625c2251a650ce99bc5010f839ac" category="section-title">FlexGroup 磁碟區可以使用 DataLock 和勒索軟體保護來備份和保護</block>
+  <block id="ea9b647c4b660963890b981cadc4c22f" category="paragraph">FlexGroup Volume 的備份原則現在可以在叢集執行 ONTAP 9.13.1 或更新版本時、使用 DataLock 和勒索軟體保護。</block>
+  <block id="f6477043c28067a4e579493c6cbb2e5f" category="section-title">新的報告功能</block>
+  <block id="7423bbe1d34880696cfb7dd51492349f" category="inline-link">報告資料保護涵蓋範圍</block>
+  <block id="90c3582e59f2cb06c1d746e0f983ffde" category="paragraph">現在有一個「報告」索引標籤、您可以在其中產生「備份庫存」報告、其中包括特定帳戶、工作環境或 SVM 庫存的所有備份。您也可以建立「資料保護工作活動」報告、提供有關 Snapshot 、備份、複製和還原作業的資訊、協助您監控服務層級協議。請參閱<block ref="76fbdf5883fabf4a66bc2a9d2bdc8b58" category="inline-link-rx"></block>。</block>
+  <block id="5cc0a3c2b0d184efdd93deba5120c0b4" category="section-title">工作監控增強功能</block>
+  <block id="8931c68a06f64c8d4063f2e9132e3258" category="inline-link">監控備份與還原工作的狀態</block>
+  <block id="c17e5b19576d968cb68cb76a1904afca" category="paragraph">您現在可以在「工作監控」頁面上檢閱 _backup 生命週期 _ 做為工作類型、協助您追蹤整個備份生命週期。您也可以在 BlueXP 時間軸上查看所有作業的詳細資料。請參閱<block ref="757859ff46183d1407cb40e64e39a313" category="inline-link-rx"></block>。</block>
+  <block id="e5d5b752cdb14505ba3ec9b2bd2be013" category="section-title">不相符原則標籤的額外通知警示</block>
+  <block id="92c58fc811dad1461929803e5f5d9205" category="paragraph">新增了備份警示：「 Snapshot 原則標籤不相符、因此未建立備份檔案」。如果備份原則中定義的 _label_ 在 Snapshot 原則中沒有相符的 _label_ 、則不會建立備份檔案。您需要使用系統管理員或 ONTAP CLI 、將遺失的標籤新增至 Volume Snapshot 原則。</block>
+  <block id="4788963de19a5204a352f3308b0395d8" category="inline-link">檢閱 BlueXP 備份與還原可以傳送的所有警示</block>
+  <block id="809c5429fbc9708f2c659ca056b2c098" category="paragraph"><block ref="1fa18ad5aa31d9e300f41aa2d9a59bdd" category="inline-link-rx"></block>。</block>
+  <block id="5a4b2cac486281ad2280371043da8170" category="section-title">自動備份黑暗網站中的關鍵 BlueXP 備份與還原檔案</block>
+  <block id="7109418f2cd9c52748bb2a769336a1d0" category="paragraph">當您在無法存取網際網路的站台（稱為「私有模式」部署）中使用 BlueXP 備份與還原時、 BlueXP 備份與還原資訊只會儲存在本機 Connector 系統上。這項新功能會自動將重要的 BlueXP 備份與還原資料備份至連線 StorageGRID 系統上的儲存庫、以便在必要時將資料還原至新的 Connector 。<block ref="7987fffb3d9d5da865ce1f589e4bd463" category="inline-link-rx"></block></block>
+  <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">深入瞭解 BlueXP 分類 API</block>
+  <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
 </blocks>
