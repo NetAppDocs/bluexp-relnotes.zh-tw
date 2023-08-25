@@ -718,13 +718,42 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
-=== 2022年11月1日
+=== 2023 年 7 月 16 日
 
-數位顧問（前身為 Active IQ ）現在已與 BlueXP 完全整合、並提供更好的登入體驗。
 
-當您存取 BlueXP 數位顧問時、系統會提示您輸入 NetApp 支援網站 認證、以便您檢視與系統相關的資料。您登入的NSS帳戶僅與使用者登入相關聯。它不會與您NetApp帳戶中的任何其他使用者建立關聯。
 
-https://docs.netapp.com/us-en/active-iq/index.html["深入瞭解 BlueXP 數位顧問"^]
+==== 儲存效率
+
+* 顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。
+* 標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。
+* 切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["深入瞭解"]。
+
+
+
+
+=== 2023 年 6 月 21 日
+
+
+
+==== 永續發展儀表板
+
+永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["深入瞭解"]。
+
+
+
+=== 2023年2月22日
+
+
+
+==== 效能圖表
+
+您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。
+
+
+
+==== 儲存效率
+
+SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware
 
 
 

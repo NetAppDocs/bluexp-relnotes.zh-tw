@@ -96,7 +96,6 @@
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">最新的BlueXP變更</block>
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">介紹BlueXP</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。</block>
-  <block id="c642de9f40ee79267e2e62e3ebed032e" category="section-title">2022年11月1日</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：</block>
   <block id="534171d3771a50398027a07275778b3e" category="paragraph">您現在可以直接從BlueXP探索E系列儲存系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022年10月24日（2.1版）</block>
@@ -159,7 +158,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">設定與管理</block>
   <block id="2049421a4e8e45e83cd7cf18ffc00a12" category="inline-link">數位錢包</block>
   <block id="1d56c7b4c7e2384a1f75532fbd18626d" category="list-text"><block ref="1d56c7b4c7e2384a1f75532fbd18626d" category="inline-link-rx"></block></block>
-  <block id="986e1f3279b4d74444bd32d4f833afbd" category="section-title">數位錢包</block>
   <block id="164bf9dea8d8396a2e7501258b908616" category="section-title">授權的市場訂閱容量</block>
   <block id="1e9f781ad3dabc2f942313854ce94883" category="paragraph"><block ref="bcd8bf14da5e102dbc4b48dd0870869e" category="inline-link-rx"></block>。</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="inline-link">備份與還原</block>
@@ -176,10 +174,6 @@
   <block id="9fee27139efd09e005728f7dbfa349f2" category="paragraph">BlueXP 分類可識別及分類包含下列資料類型的檔案：</block>
   <block id="22b67d0a50677e01d48389e716223457" category="inline-link">查看 BlueXP 分類可在資料中識別的所有個人資料類型</block>
   <block id="3d2e7e90fac12bab6a0d0736a593b5b4" category="section-title">數位顧問</block>
-  <block id="fd31042d52571c6f22cae041d72fc4dd" category="paragraph">數位顧問（前身為 Active IQ ）現在已與 BlueXP 完全整合、並提供更好的登入體驗。</block>
-  <block id="bde16c93c046fa9870a736978717607f" category="paragraph">當您存取 BlueXP 數位顧問時、系統會提示您輸入 NetApp 支援網站 認證、以便您檢視與系統相關的資料。您登入的NSS帳戶僅與使用者登入相關聯。它不會與您NetApp帳戶中的任何其他使用者建立關聯。</block>
-  <block id="e1a4f9c5e73602864d1ef18966b243f2" category="inline-link">深入瞭解 BlueXP 數位顧問</block>
-  <block id="829877d29208a3548ee11017a15158af" category="paragraph"><block ref="829877d29208a3548ee11017a15158af" category="inline-link-rx"></block></block>
   <block id="35c28a4f1250fc5c59dd5bfa5d9993ce" category="paragraph">全新 BlueXP 經濟效益服務可識別目前或預測容量不足的儲存資產、並針對內部部署 AFF 系統的資料分層或額外容量提供建議。</block>
   <block id="345d0e0aeae5ae7cbf8cdd1fc138e5e6" category="inline-link-macro">深入瞭解 BlueXP 經濟效益</block>
   <block id="838d01d8bf08e23ff670a400ad2cb368" category="paragraph"><block ref="c4b58b1c24fbcd13ec6df8ee9e6c3a23" category="inline-link-macro-rx"></block>。</block>
@@ -572,4 +566,16 @@
   <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023 年 5 月 18 日</block>
   <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">這是 BlueXP 災難恢復的初始版本。</block>
   <block id="1ba37effd0ce32bb6cfe5ede3a761ee2" category="paragraph">BlueXP 災難恢復是一種雲端型災難恢復服務、可自動化災難恢復工作流程。起初、透過 BlueXP 災難恢復測試版、您可以保護內部部署的、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存至 VMware Cloud （ VMC ）、搭配 Amazon FSX for ONTAP 。</block>
+  <block id="51f8ba1e739f07ed09f1ba20bff5e7fc" category="section-title">2023 年 7 月 16 日</block>
+  <block id="91b681e174a782226d26fb4056e14081" category="section-title">儲存效率</block>
+  <block id="520e6a90f7dfce96c54641856d8584f2" category="list-text">顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。</block>
+  <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。</block>
+  <block id="2a88859b894ead28756789553bc66754" category="list-text">切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>。</block>
+  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023 年 6 月 21 日</block>
+  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
+  <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">2023年2月22日</block>
+  <block id="e10f6958064ae5f36e8b132d4142e626" category="section-title">效能圖表</block>
+  <block id="1c6ca21b0d3e6f38c91e416032c3b178" category="paragraph">您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。</block>
+  <block id="80a2eb22b09cbe781077565f06b74dbf" category="paragraph">SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware</block>
 </blocks>
