@@ -700,6 +700,22 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 
+=== 2023 年 9 月 27 日
+
+
+
+==== 升級顧問
+
+您可以使用存取預設報價表或儀表板的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：如果您沒有預設的報價表或儀表板、按一下連結即可將您重新導向至「搜尋」頁面。
+
+
+
+==== 升級計畫
+
+升級計畫已經過最佳化、可移除多餘的升級步驟、修改資訊和警告、並簡化回溯計畫。叢集中所有節點的一般步驟均已整合、並可在「一般資訊」區段下取得。若要檢視改善的計畫、請使用中所述的步驟來產生升級計畫 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["使用升級計畫升級 ONTAP 版本"]。
+
+
+
 === 2023 年 7 月 16 日
 
 
@@ -720,22 +736,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 ==== 永續發展儀表板
 
 永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["深入瞭解"]。
-
-
-
-=== 2023年2月22日
-
-
-
-==== 效能圖表
-
-您可以在Volume IOPS圖表中檢視平均讀取、寫入及其他作業。
-
-
-
-==== 儲存效率
-
-SAN和NAS儲存效率可在節點層級提供、適用於ONTAP 執行《EAS9.10》及更新版本的各種系統、包括AFF ：VMware、AFF VMware、VMware ONTAP 、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware、VMware
 
 
 
