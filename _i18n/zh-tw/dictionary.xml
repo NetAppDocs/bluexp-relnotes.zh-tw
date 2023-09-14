@@ -346,9 +346,6 @@
   <block id="025b17159c4d2dd28926bdc5b13436e2" category="section-title">BlueXP 分類可識別兩種新類型的德國個人資料</block>
   <block id="e2f64dc02ab3f9d3b659d24b9503b545" category="list-text">德文 ID （ Personalausweisnummer ）</block>
   <block id="ac01084f4d5a1af5de639eaf04ad94ff" category="list-text">德國社會安全號碼（ Szialversicherungsnummer ）</block>
-  <block id="f6731e0bd9f7a8a40f83ba1c622ffe25" category="section-title">Rocky Linux 9 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類</block>
-  <block id="76264cc2bc8d3793465d31c38655f588" category="inline-link">瞭解如何在安裝了 Rocky Linux 的主機上安裝 BlueXP 分類</block>
-  <block id="059df2e0abacded1764d0222f6ab3b42" category="paragraph">Rocky Linux 9 （ 9.0 、 9.1 和 9.2 ）已獲得 BlueXP 分類支援的作業系統資格。您可以在網路中的 Rocky Linux 主機上安裝 BlueXP 分類、或在雲端的 Linux 主機上安裝 1.24 版安裝程式。<block ref="b549f731e0826bdc1659ea47e9a6f422" category="inline-link-rx"></block>。</block>
   <block id="cdbb87700ea6d8c32de7576d1ecb9987" category="section-title">在受限模式和私有模式下、完全支援 BlueXP 分類</block>
   <block id="7c4ed755305616a8a97076615e4aa1e5" category="inline-link">深入瞭解 Connector 的 BlueXP 部署模式</block>
   <block id="e7c3514a81618b80dab1e9591ba97368" category="paragraph">BlueXP 分類現在已在沒有網際網路存取（私有模式）和限制外傳網際網路存取（限制模式）的網站中獲得完整支援。<block ref="7ee715aa70b4c6d819896ee955e59621" category="inline-link-rx"></block>。</block>
@@ -524,7 +521,6 @@
   <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9 月 5 日（ 1.25 版）</block>
   <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">從「調查結果」頁面、最多可在 100 、 000 個項目上套用標記</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">瞭解方法</block>
-  <block id="6d37cd3f2b76637efa533f6623bf7ceb" category="paragraph">過去、您只能在「調查結果」頁面（ 20 個項目）中一次將標記套用至單一頁面。現在您可以在「調查結果」頁面中選取 * 所有 * 項目、並將標記套用至所有項目、一次最多可有 100,000 個項目。 <block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">識別檔案大小最小為 1 MB 的重複檔案</block>
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在可以識別以 1 MB 開始的重複檔案。您可以使用「調查」頁面篩選「檔案大小」和「重複」、來查看環境中有哪些檔案大小的複本。</block>
   <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023 年 9 月 3 日</block>
@@ -557,4 +553,7 @@
   <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">檢視 Azure 中 Cloud Volumes ONTAP 的儲存限制</block>
   <block id="7dd77d10e6ae3bee2c34fcea19d9c1ab" category="paragraph"><block ref="2e2ea5a0499f86c06503605a768ce8a2" category="inline-link-macro-rx"></block>
 <block ref="c1f4bd6aa6a7def50b28a0bec13e0184" category="inline-link-macro-rx"></block></block>
+  <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">中小企業部署暫時無法使用</block>
+  <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">當您在 AWS 中部署 BlueXP 分類執行個體時、目前無法使用選擇 * 部署 &gt; 組態 * 並選擇中小型執行個體的選項。您仍然可以使用大型執行個體來部署執行個體、方法是選取 * 部署 &gt; 部署 * 。</block>
+  <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">過去、您只能在「調查結果」頁面（ 20 個項目）中一次將標記套用至單一頁面。現在您可以在「調查結果」頁面中選取 * 所有 * 項目、並將標記套用至所有項目、一次最多可有 100,000 個項目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
 </blocks>
