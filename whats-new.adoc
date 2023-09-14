@@ -270,6 +270,34 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 9 月 11 日
+
+
+
+==== ONTAP 資料的新原則管理
+
+此版本包含 UI 內的功能、可建立自訂的 Snapshot 原則、複寫原則、以及將 ONTAP 資料備份至物件儲存區的原則。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["深入瞭解原則"]。
+
+
+
+==== 支援從 ONTAP S3 物件儲存區的磁碟區還原檔案和資料夾
+
+以前、當磁碟區備份到 ONTAP S3 物件儲存時、您無法使用「瀏覽與還原」功能還原檔案和資料夾。此版本可移除此限制。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解還原資料"]。
+
+
+
+==== 額外支援備份與還原 SnapLock Volume
+
+備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["深入瞭解如何保護 ONTAP 資料"]。
+
+
+
 === 2023 年 8 月 1 日
 
 [IMPORTANT]
@@ -346,82 +374,6 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.
 當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#do-you-want-to-create-your-own-object-storage-container["瞭解如何建立物件儲存貯體"]。
 
 目前不支援將備份檔案建立至 StorageGRID 系統時使用此功能。
-
-
-
-=== 2023 年 7 月 4 日
-
-
-
-==== 應用程式（雲端原生）的 BlueXP 備份與還原功能增強功能
-
-* SAP HANA 系統
-+
-** 支援非資料磁碟區和具有 Azure NetApp Files 次要保護的全域非資料磁碟區的連線和複本還原
-
-
-* Oracle資料庫
-+
-** 支援將 Azure NetApp Files 上的 Oracle 資料庫還原至其他位置
-** 支援 Oracle Recovery Manager （ RMAN ）在 Azure NetApp Files 上分類備份 Oracle 資料庫
-** 可讓您將資料庫主機設為維護模式、以執行維護工作
-
-
-
-
-
-
-==== 應用程式（混合式） BlueXP 備份與還原的增強功能
-
-* 支援還原至其他位置
-* 可讓您掛載 Oracle 資料庫備份
-* 支援將備份從 GCP 移至歸檔層
-
-
-
-
-==== 虛擬機器（混合式） BlueXP 備份與還原的增強功能
-
-* 支援 NFS 和 VMFS 類型的資料存放區保護
-* 可讓您取消登錄 VMware vSphere 主機的 SnapCenter 外掛程式
-* 支援重新整理及探索最新的資料存放區和備份
-
-
-
-
-=== 2023 年 6 月 5 日
-
-
-
-==== FlexGroup 磁碟區可以使用 DataLock 和勒索軟體保護來備份和保護
-
-FlexGroup Volume 的備份原則現在可以在叢集執行 ONTAP 9.13.1 或更新版本時、使用 DataLock 和勒索軟體保護。
-
-
-
-==== 新的報告功能
-
-現在有一個「報告」索引標籤、您可以在其中產生「備份庫存」報告、其中包括特定帳戶、工作環境或 SVM 庫存的所有備份。您也可以建立「資料保護工作活動」報告、提供有關 Snapshot 、備份、複製和還原作業的資訊、協助您監控服務層級協議。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-report-inventory.html["報告資料保護涵蓋範圍"]。
-
-
-
-==== 工作監控增強功能
-
-您現在可以在「工作監控」頁面上檢閱 _backup 生命週期 _ 做為工作類型、協助您追蹤整個備份生命週期。您也可以在 BlueXP 時間軸上查看所有作業的詳細資料。請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["監控備份與還原工作的狀態"]。
-
-
-
-==== 不相符原則標籤的額外通知警示
-
-新增了備份警示：「 Snapshot 原則標籤不相符、因此未建立備份檔案」。如果備份原則中定義的 _label_ 在 Snapshot 原則中沒有相符的 _label_ 、則不會建立備份檔案。您需要使用系統管理員或 ONTAP CLI 、將遺失的標籤新增至 Volume Snapshot 原則。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html#review-backup-and-restore-alerts-in-the-bluexp-notification-center["檢閱 BlueXP 備份與還原可以傳送的所有警示"]。
-
-
-
-==== 自動備份黑暗網站中的關鍵 BlueXP 備份與還原檔案
-
-當您在無法存取網際網路的站台（稱為「私有模式」部署）中使用 BlueXP 備份與還原時、 BlueXP 備份與還原資訊只會儲存在本機 Connector 系統上。這項新功能會自動將重要的 BlueXP 備份與還原資料備份至連線 StorageGRID 系統上的儲存庫、以便在必要時將資料還原至新的 Connector 。 https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-backup-cbs-db-in-dark-site.html["深入瞭解"]
 
 
 
@@ -525,6 +477,21 @@ Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在�
 
 
 
+=== 2023 年 9 月 10 日
+
+Connector 3.9.33 版隨附下列變更。
+
+
+
+==== 支援 Azure 中的 Lsv3 系列 VM
+
+從 9.13.1 版開始、 Azure 中的 Cloud Volumes ONTAP 現在支援 L48s_v3 和 L64s_v3 執行個體類型、可在單一節點和高可用度配對部署中、在單一和多個可用性區域中部署共用託管磁碟。這些執行個體類型支援 Flash Cache 。
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["檢視 Azure 中 Cloud Volumes ONTAP 支援的組態"]
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["檢視 Azure 中 Cloud Volumes ONTAP 的儲存限制"]
+
+
+
 === 2023 年 7 月 30 日
 
 Connector 3.9.32 版隨附下列變更。
@@ -574,20 +541,6 @@ Connector 3.9.31 版本推出下列變更。
 BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.13.1 通用可用度版本。
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-=== 2023 年 7 月 2 日
-
-Connector 3.9.31 版本推出下列變更。
-
-
-
-==== 支援 Azure 中的 HA 多重可用性區域部署
-
-Azure 中的 Japan East 和 Korea Central 現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的 HA 多重可用性區域部署。
-
-如需支援多個可用區域的所有區域清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
 
 
 
@@ -1099,54 +1052,6 @@ NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能�
 營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。
 
 link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["深入瞭解 BlueXP 作業恢復能力"]。
-
-
-
-== 勒索軟體保護
-
-
-
-=== 2023年4月3日
-
-
-
-==== 新的建議行動、協助保護您的資料免受勒索軟體攻擊
-
-* 「備份資料來源中的業務關鍵檔案」的新「建議行動」可識別如何使用 BlueXP 備份與還原來備份磁碟區、以保護最重要的資料類別。如果您因為勒索軟體攻擊而需要恢復任何資料、這一點非常重要。建議將您重新導向至 BlueXP 備份與還原介面、以便在必要的磁碟區上啟用備份。
-* 「開啟資料來源的網路儲存組態」的新「建議行動」可識別是否啟用或停用六項有助於保護資料安全的 ONTAP 功能。您應該在所有內部部署的 ONTAP 和 Cloud Volumes ONTAP 系統上啟用這些功能。
-
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/task-analyze-ransomware-data.html#list-of-recommended-actions["請參閱所有建議行動的清單"]。
-
-
-
-=== 2023年3月7日
-
-
-
-==== 我們新增了全新的勒索軟體恢復儀表板、協助您從攻擊中恢復系統
-
-勒索軟體還原儀表板提供選項、可用來還原可能已受勒索軟體感染的資料。這有助於您快速備份和執行系統。此時、還原動作可讓您以未受勒索軟體影響的Snapshot複本來取代毀損的磁碟區。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/task-ransomware-recovery.html["深入瞭解"]。
-
-
-
-=== 2023年2月5日
-
-
-
-==== 能夠定義可識別您視為業務關鍵資料的原則
-
-BlueXP 勒索軟體保護中新增了一個業務關鍵資料頁面。此頁面可讓您檢視 BlueXP 分類中定義的所有原則。您可以選擇識別業務關鍵資料的原則、讓 BlueXP 勒索軟體保護儀表板和其他勒索軟體面板根據最重要的資料反映潛在問題。
-
-如果您尚未針對 BlueXP 勒索軟體保護服務啟用任何這些原則、稱為「設定業務關鍵資料」的新「建議動作」面板將會出現在「建議動作」面板中。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/task-select-business-critical-policies.html["深入瞭解「業務關鍵資料」頁面"^]。
-
-
-
-==== BlueXP 勒索軟體保護已從保護類別移至監管類別
-
-現在您可以從BlueXP左側瀏覽功能表選取*管理>勒索軟體保護*來存取此服務。
 
 
 
