@@ -108,7 +108,6 @@
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">增強的Optimus PSM可設定雲端授權</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
   <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
@@ -271,25 +270,9 @@
   <block id="da20ff5e68ae0641ae1925c968ac0244" category="paragraph">有了 BlueXP Volume 快取、您就能擁有雲端的快取功能、特別是適用於 NetApp ONTAP 、 Cloud Volumes ONTAP 的 Amazon FSX 、以及內部部署的工作環境。</block>
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">深入瞭解 BlueXP Volume 快取</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>。</block>
-  <block id="96828273826a07fdc4f42f4998e536b2" category="section-title">2023 年 6 月 6 日（版本 1.23 ）</block>
-  <block id="04e04c61cd37ca8f12b83c892c2c46ea" category="section-title">搜尋資料主體名稱時、現在支援日文</block>
-  <block id="3a3337f232548d40f54052862077499b" category="inline-link">資料主旨存取要求報告</block>
-  <block id="931c126009c96d8f8ce9770df003478d" category="inline-link">「資料調查」頁面中的「資料主旨」篩選器</block>
-  <block id="8b33a4571db736cc278b213820df9c13" category="paragraph">現在可以在搜尋受試者名稱以回應資料主體存取要求（ DSAR ）時輸入日文名稱。您可以產生<block ref="8ff27ad1e3f1d885a2f0c0f257501bb1" category="inline-link-rx"></block> 以及產生的資訊。您也可以在中輸入日文名稱<block ref="615fae5bff7ec48fe0ed5c47e50f199a" category="inline-link-rx"></block> 識別包含主體名稱的檔案。</block>
-  <block id="988e5d1ef231d33d94784c928261f0aa" category="section-title">Ubuntu 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類</block>
-  <block id="bf62ea0cc2aa2f5ecb7f712ffcdafc64" category="inline-link">瞭解如何在安裝 Ubuntu 的主機上安裝 BlueXP 分類</block>
-  <block id="eba7ad27f2a236389ef88102ad7e8e2e" category="section-title">新的 BlueXP 分類安裝不再支援 Red Hat Enterprise Linux 8.6 和 8.7</block>
-  <block id="5b1dc8e5b7717b205bb516bc41f51da7" category="paragraph">新部署不支援這些版本、因為 Red Hat 不再支援 Docker 、這是必要條件。如果您現有的 BlueXP 分類機器在 RHEL 8.6 或 8.7 上執行、 NetApp 將繼續支援您的組態。</block>
-  <block id="b5ba343fa4469021dbdf64181a67e909" category="section-title">BlueXP 分類可設定為 FPolicy 收集器、以從 ONTAP 系統接收 FPolicy 事件</block>
-  <block id="88b2049c35386070297462047bca71cf" category="inline-link">瞭解如何監控及管理檔案存取事件</block>
-  <block id="1c6f2c46440d2da9ff124f2379388cf8" category="paragraph">您可以啟用在 BlueXP 分類系統上收集檔案存取稽核記錄、以便在工作環境中的磁碟區上偵測到檔案存取事件。BlueXP 分類可擷取下列類型的 FPolicy 事件、以及對檔案執行動作的使用者：建立、讀取、寫入、刪除、重新命名、 變更擁有者 / 權限、並變更 SACL/DACL 。<block ref="e525234fcf42827b85ebd3e0f842cd71" category="inline-link-rx"></block>。</block>
-  <block id="e1161f065b10936afc930fd3d9d0c76f" category="section-title">Data Sense BYOL 授權現在支援 Dark 站台</block>
-  <block id="1ab65443ec0af7e5e1aee32a3cf59dcc" category="inline-link">瞭解如何取得及上傳您的 Data Sense BYOL 授權</block>
-  <block id="645f5675426bc396b45b524635e93bc7" category="paragraph">現在您可以將 Data Sense BYOL 授權上傳至黑暗網站的 BlueXP 數位錢包、以便在授權即將到期時收到通知。<block ref="bd823f9b4dce457c0ea2a8dcca6e749f" category="inline-link-rx"></block>。</block>
   <block id="26e3ab611e399c831d813cdff5745975" category="list-text">Connector 現在可讓您從 BlueXP 新增及管理 Azure 儲存帳戶。</block>
   <block id="8ffa5f25420a002d3aa8840ec0e7752f" category="inline-link">瞭解如何在 BlueXP 的 Azure Subscriptions 中新增 Azure 儲存帳戶</block>
   <block id="6c6c819a667ba8ce8119b4bf796894fc" category="paragraph"><block ref="fef6d7c0add7436be78fa3e990371931" category="inline-link-rx"></block>。</block>
-  <block id="32bb143fdc5ad46423876511f8c73c77" category="paragraph">Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機上安裝 BlueXP 分類、或在雲端的 Linux 主機上使用 1.23 版的安裝程式。<block ref="cc16f95732fa73dc357dabce46e4c311" category="inline-link-rx"></block>。</block>
   <block id="9b7d935c674579c8c8e305e2dcadc1b9" category="section-title">2023 年 6 月 11 日</block>
   <block id="b18ac5fa90a568a24f98c73b9192cb6d" category="section-title">支援幾分鐘後自動中止</block>
   <block id="33c110842a0fe3f7891980d750e48fa2" category="paragraph">現在可使用 *Sync Timeout* 功能在 15 分鐘後中止尚未完成的活動同步。</block>
@@ -558,4 +541,10 @@
   <block id="9622c46ac664d07f743905654edd5f26" category="section-title">升級計畫</block>
   <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">使用升級計畫升級 ONTAP 版本</block>
   <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">升級計畫已經過最佳化、可移除多餘的升級步驟、修改資訊和警告、並簡化回溯計畫。叢集中所有節點的一般步驟均已整合、並可在「一般資訊」區段下取得。若要檢視改善的計畫、請使用中所述的步驟來產生升級計畫 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>。</block>
+  <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10 月 4 日（版本 1.26 ）</block>
+  <block id="620a73262e6956695319caae21506289" category="section-title">支援使用 RHEL 第 9 版的內部部署安裝</block>
+  <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝、使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。</block>
+  <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">目前我們不支援安裝暗點或分散式掃描環境（使用主要和遠端掃描器節點）。</block>
+  <block id="db5b005cbaaba7a23899858892848a77" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
+  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
 </blocks>

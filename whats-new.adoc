@@ -381,6 +381,24 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.
 
 
 
+=== 10 月 4 日（版本 1.26 ）
+
+
+
+==== 支援使用 RHEL 第 9 版的內部部署安裝
+
+Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝、使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。
+
+目前我們不支援安裝暗點或分散式掃描環境（使用主要和遠端掃描器節點）。
+
+
+
+==== 調查頁面結果現在除了顯示項目總數之外、還會顯示總大小
+
+「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。
+
+
+
 === 9 月 5 日（ 1.25 版）
 
 
@@ -436,40 +454,6 @@ BlueXP 分類現在已在沒有網際網路存取（私有模式）和限制外�
 BlueXP 分類 API 可讓您執行動作、建立查詢、以及匯出所掃描資料的相關資訊。可使用 Swagger 取得互動式文件。文件分為多個類別、包括調查、法規遵循、治理和組態。每個類別都是 BlueXP 分類 UI 中標籤的參考資料。
 
 https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["深入瞭解 BlueXP 分類 API"]。
-
-
-
-=== 2023 年 6 月 6 日（版本 1.23 ）
-
-
-
-==== 搜尋資料主體名稱時、現在支援日文
-
-現在可以在搜尋受試者名稱以回應資料主體存取要求（ DSAR ）時輸入日文名稱。您可以產生 https://docs.netapp.com/us-en/bluexp-classification/task-generating-compliance-reports.html#what-is-a-data-subject-access-request["資料主旨存取要求報告"] 以及產生的資訊。您也可以在中輸入日文名稱 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#filter-data-by-sensitivity-and-content["「資料調查」頁面中的「資料主旨」篩選器"] 識別包含主體名稱的檔案。
-
-
-
-==== Ubuntu 現在是支援的 Linux 套裝作業系統、您可以在其中安裝 BlueXP 分類
-
-Ubuntu 22.04 已獲認證為 BlueXP 分類支援的作業系統。您可以在網路中的 Ubuntu Linux 主機上安裝 BlueXP 分類、或在雲端的 Linux 主機上使用 1.23 版的安裝程式。 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["瞭解如何在安裝 Ubuntu 的主機上安裝 BlueXP 分類"]。
-
-
-
-==== 新的 BlueXP 分類安裝不再支援 Red Hat Enterprise Linux 8.6 和 8.7
-
-新部署不支援這些版本、因為 Red Hat 不再支援 Docker 、這是必要條件。如果您現有的 BlueXP 分類機器在 RHEL 8.6 或 8.7 上執行、 NetApp 將繼續支援您的組態。
-
-
-
-==== BlueXP 分類可設定為 FPolicy 收集器、以從 ONTAP 系統接收 FPolicy 事件
-
-您可以啟用在 BlueXP 分類系統上收集檔案存取稽核記錄、以便在工作環境中的磁碟區上偵測到檔案存取事件。BlueXP 分類可擷取下列類型的 FPolicy 事件、以及對檔案執行動作的使用者：建立、讀取、寫入、刪除、重新命名、 變更擁有者 / 權限、並變更 SACL/DACL 。 https://docs.netapp.com/us-en/bluexp-classification/task-manage-file-access-events.html["瞭解如何監控及管理檔案存取事件"]。
-
-
-
-==== Data Sense BYOL 授權現在支援 Dark 站台
-
-現在您可以將 Data Sense BYOL 授權上傳至黑暗網站的 BlueXP 數位錢包、以便在授權即將到期時收到通知。 https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html#obtain-your-bluexp-classification-license-file["瞭解如何取得及上傳您的 Data Sense BYOL 授權"]。
 
 
 
