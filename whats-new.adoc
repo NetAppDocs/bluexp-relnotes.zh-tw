@@ -33,6 +33,16 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 
 
 
+=== 2023 年 10 月 6 日
+
+
+
+==== 連接器 3.9.34
+
+此版本包含一些小改進和錯誤修復。
+
+
+
 === 2023 年 9 月 10 日
 
 
@@ -461,6 +471,20 @@ https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["深
 
 
 
+=== 2023 年 10 月 6 日
+
+Connector 3.9.34 版隨附下列變更。
+
+
+
+==== Cloud Volumes ONTAP 9.14.0%
+
+BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.0 通用版本。
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
+
+
+
 === 2023 年 9 月 10 日
 
 Connector 3.9.33 版隨附下列變更。
@@ -511,20 +535,6 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp
 
 
 如需使用報告的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"^]。
-
-
-
-=== 2023 年 7 月 26 日
-
-Connector 3.9.31 版本推出下列變更。
-
-
-
-==== Cloud Volumes ONTAP 9.13.1 GA
-
-BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.13.1 通用可用度版本。
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
 
 
 
@@ -690,13 +700,9 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 ==== 升級顧問
 
-您可以使用存取預設報價表或儀表板的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：如果您沒有預設的報價表或儀表板、按一下連結即可將您重新導向至「搜尋」頁面。
+* 您可以使用存取預設報價表的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：
+* 升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["瞭解如何產生及檢視升級計畫"]。
 
-
-
-==== 升級計畫
-
-升級計畫已經過最佳化、可移除多餘的升級步驟、修改資訊和警告、並簡化回溯計畫。叢集中所有節點的一般步驟均已整合、並可在「一般資訊」區段下取得。若要檢視改善的計畫、請使用中所述的步驟來產生升級計畫 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["使用升級計畫升級 ONTAP 版本"]。
 
 
 
@@ -719,7 +725,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 ==== 永續發展儀表板
 
-永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["深入瞭解"]。
+永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["深入瞭解"]。
 
 
 

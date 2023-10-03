@@ -287,7 +287,6 @@
   <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">您現在可以了 <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block> 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。</block>
   <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023 年 7 月 2 日</block>
-  <block id="a6d6a466484f2718bba09926e0dfb2c7" category="paragraph">Connector 3.9.31 版本推出下列變更。</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">深入瞭Cloud Volumes ONTAP 解本版的更新功能</block>
   <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">從我的資產探索叢集</block>
   <block id="4573c689742769edc01e3f45205fd784" category="paragraph">您現在可以從 * 畫布 &gt; My 遺產 * 中探索內部部署的 ONTAP 叢集、方法是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集、選取 BlueXP 預先探索的叢集。</block>
@@ -364,9 +363,6 @@
   <block id="b259e22e76e27ad956b503941804b4c6" category="list-text">Volume 類型「 Secondary 」現在標示為「 Secondary （ DP ）」（次要（ DP ））。</block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="inline-link-macro">下載使用報告</block>
   <block id="a8c4bf4701c4d99d778be1176c8c8616" category="paragraph">如需使用報告的詳細資訊、請參閱 <block ref="b9c4007084372a89d5df93919658aa73" category="inline-link-macro-rx"></block>。</block>
-  <block id="8ccf37f65f5b32ae30e20faafe7dd9ba" category="section-title">2023 年 7 月 26 日</block>
-  <block id="eccfb2b7d21b722b7e6659bf39e0f295" category="section-title">Cloud Volumes ONTAP 9.13.1 GA</block>
-  <block id="64118c9781a8b98caa35463a68a24220" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.13.1 通用可用度版本。</block>
   <block id="c2282365523aa8fbb305c5432e90d5d7" category="paragraph"><block ref="6f9b2ccd962907ef2c43f6fa9517a053" category="inline-link-macro-rx"></block>。</block>
   <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：</block>
   <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">現在包含序號的新 _ 節點 _ 欄位。</block>
@@ -490,7 +486,6 @@
   <block id="2a88859b894ead28756789553bc66754" category="list-text">切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>。</block>
   <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023 年 6 月 21 日</block>
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
-  <block id="157e4d0632e88d94ee663058894a5415" category="paragraph">永續發展儀表板可提供寶貴的見解、讓您深入瞭解儲存系統的環境永續發展。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。評估永續性分數後、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
   <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023 年 9 月 10 日</block>
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">連接器 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">當您從 BlueXP 在 AWS 中建立 Connector 時、現在可以在金鑰配對欄位中搜尋、以便更輕鬆地找到您要與 Connector 執行個體搭配使用的金鑰配對。</block>
@@ -537,14 +532,20 @@
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">過去、您只能在「調查結果」頁面（ 20 個項目）中一次將標記套用至單一頁面。現在您可以在「調查結果」頁面中選取 * 所有 * 項目、並將標記套用至所有項目、一次最多可有 100,000 個項目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023 年 9 月 27 日</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">升級顧問</block>
-  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">您可以使用存取預設報價表或儀表板的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：如果您沒有預設的報價表或儀表板、按一下連結即可將您重新導向至「搜尋」頁面。</block>
-  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">升級計畫</block>
-  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">使用升級計畫升級 ONTAP 版本</block>
-  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">升級計畫已經過最佳化、可移除多餘的升級步驟、修改資訊和警告、並簡化回溯計畫。叢集中所有節點的一般步驟均已整合、並可在「一般資訊」區段下取得。若要檢視改善的計畫、請使用中所述的步驟來產生升級計畫 <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>。</block>
   <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10 月 4 日（版本 1.26 ）</block>
   <block id="620a73262e6956695319caae21506289" category="section-title">支援使用 RHEL 第 9 版的內部部署安裝</block>
   <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝、使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。</block>
   <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">目前我們不支援安裝暗點或分散式掃描環境（使用主要和遠端掃描器節點）。</block>
   <block id="db5b005cbaaba7a23899858892848a77" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
+  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023 年 10 月 6 日</block>
+  <block id="ce408175c3b7eaf6c3dfc910f3547833" category="section-title">連接器 3.9.34</block>
+  <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">此版本包含一些小改進和錯誤修復。</block>
+  <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">Connector 3.9.34 版隨附下列變更。</block>
+  <block id="44d133359b344c4542acdebe6209e101" category="section-title">Cloud Volumes ONTAP 9.14.0%</block>
+  <block id="c5fa627d231c9a8813c9a2421d86136f" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.0 通用版本。</block>
+  <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用存取預設報價表的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：</block>
+  <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">瞭解如何產生及檢視升級計畫</block>
+  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
+  <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
 </blocks>
