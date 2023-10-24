@@ -33,6 +33,16 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 
 
 
+=== 2023 年 11 月 8 日
+
+
+
+==== 連接器 3.9.35
+
+此版本包含較小的安全性改善和錯誤修正。
+
+
+
 === 2023 年 10 月 6 日
 
 
@@ -54,118 +64,6 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["從 BlueXP 在 AWS 中建立連接器時、會出現在「網路」頁面上的「金鑰配對」欄位中搜尋選項的螢幕擷取畫面。"]
 
 * 此更新也包含錯誤修正。
-
-
-
-
-=== 2023 年 7 月 30 日
-
-
-
-==== 連接器 3.9.32
-
-* 您現在可以使用 BlueXP 稽核服務 API 來匯出稽核記錄。
-+
-稽核服務會記錄 BlueXP 服務所執行作業的相關資訊。這包括工作區、使用的連接器和其他遙測資料。您可以使用此資料來判斷執行的動作、執行者及執行時間。
-
-+
-https://docs.netapp.com/us-en/bluexp-automation/audit/overview.html["深入瞭解如何使用稽核服務 API"^]
-
-+
-請注意、您也可以從時間軸頁面上的 BlueXP 使用者介面存取此連結。
-
-* 此版本的Connector也包含Cloud Volumes ONTAP 了加強功能的功能、以及內部ONTAP 的叢集增強功能。
-+
-** https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#30-july-2023["深入瞭Cloud Volumes ONTAP 解功能強化功能"^]
-** https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html#30-july-2023["深入瞭ONTAP 解內部叢集增強功能"^]
-
-
-
-
-
-
-=== 2023 年 7 月 2 日
-
-
-
-==== 連接器 3.9.31
-
-* 您現在可以從「 * 我的資產 * 」標籤（之前的 * 我的商機 * ）探索內部部署的 ONTAP 叢集
-+
-https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["從「我的資產」頁面瞭解如何探索叢集"]。
-
-* 如果您在 Azure 政府地區使用 Connector 、則應確保 Connector 能夠聯絡下列端點：
-+
-\https://occmclientinfragov.azurecr.us
-
-+
-此端點是手動安裝 Connector 及升級 Connector 及其 Docker 元件所必需的。
-
-+
-由於此變更、 Azure 政府區域的 Connector 不再與下列端點連線：
-
-+
-\https://cloudmanagerinfraprod.azurecr.io
-
-+
-請注意、所有其他受限模式組態和標準模式仍需要此端點。
-
-
-
-
-
-=== 2023 年 6 月 4 日
-
-
-
-==== 連接器 3.9.30
-
-* 當您從「支援儀表板」開啟 NetApp 支援案例時、 BlueXP 現在會使用與您的 BlueXP 登入相關的 NetApp 支援網站 帳戶來開啟案例。BlueXP 先前使用與整個 BlueXP 帳戶相關聯的 NetApp 支援網站 帳戶。
-+
-在此變更中、 BlueXP 帳戶的支援註冊現在是透過與使用者 BlueXP 登入相關的 NetApp 支援網站 帳戶完成。以前、支援登錄是透過與整個 BlueXP 帳戶相關聯的 NSS 帳戶進行。因此、如果其他 BlueXP 使用者尚未將 NetApp 支援網站 帳戶與 BlueXP 登入建立關聯、他們將不會看到相同的支援登錄狀態。如果您先前已註冊 BlueXP 帳戶以取得支援、則您的註冊狀態仍然有效。您只需要新增使用者層級的 NSS 帳戶、即可查看狀態。
-
-+
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["瞭解如何使用 NetApp 支援建立案例"]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-manage-user-credentials.html["瞭解如何管理與 BlueXP 登入相關的認證"]
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-support-registration.html["瞭解如何註冊以取得支援"]
-
-
-* 您現在可以在 BlueXP 中搜尋文件。搜尋結果現在提供 docs.netapp.com 和 kb.netapp.com 內容的連結、有助於回答您的問題。
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-search-docs.png["主控台頂端提供的BlueXP搜尋快照。"]
-
-* Connector 現在可讓您從 BlueXP 新增及管理 Azure 儲存帳戶。
-+
-https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["瞭解如何在 BlueXP 的 Azure Subscriptions 中新增 Azure 儲存帳戶"^]。
-
-* 連接器現在支援下列 AWS 區域：
-+
-** 海德拉巴（ ap-south - 2 ）
-** 墨爾本（亞太地區 - 東南 4 ）
-** 西班牙（歐盟 - 南方 -2 ）
-** 阿拉伯聯合大公國（ Me-center-1 ）
-** 蘇黎世（歐盟中部 -2 ）
-
-
-* 以下 Azure 區域現在支援 Connector ：
-+
-** 巴西南方
-** 法國南方
-** Jio India Central
-** Jio India West
-** 波蘭中部
-** 卡塔爾中部
-
-
-* 下列Google Cloud區域現在支援Connector：
-+
-** 哥倫布（美國東部5）
-** 達拉斯（美國-南1）
-
-
-+
-https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援區域的完整清單"^]
-
 
 
 
@@ -424,6 +322,18 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 
 
+=== 11 月 6 日（版本 1.26.3 ）
+
+
+
+==== 本版本已修正下列問題
+
+* 修正在儀表板中顯示系統掃描的檔案數量時出現不一致的情況。
+* 處理和報告名稱和中繼資料中含有特殊字元的檔案和目錄、以改善掃描行為。
+
+
+
+
 === 10 月 4 日（版本 1.26 ）
 
 
@@ -458,43 +368,21 @@ BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在
 
 
 
-=== 2023 年 7 月 17 日（版本 1.24 ）
-
-
-
-==== BlueXP 分類可識別兩種新類型的德國個人資料
-
-BlueXP 分類可識別及分類包含下列資料類型的檔案：
-
-* 德文 ID （ Personalausweisnummer ）
-* 德國社會安全號碼（ Szialversicherungsnummer ）
-
-
-https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["查看 BlueXP 分類可在資料中識別的所有個人資料類型"]。
-
-
-
-==== 在受限模式和私有模式下、完全支援 BlueXP 分類
-
-BlueXP 分類現在已在沒有網際網路存取（私有模式）和限制外傳網際網路存取（限制模式）的網站中獲得完整支援。 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["深入瞭解 Connector 的 BlueXP 部署模式"^]。
-
-
-
-==== 在升級 BlueXP 分類的私有模式安裝時、可以略過版本
-
-現在您可以升級至較新版本的 BlueXP 分類、即使它不是連續的。這表示目前不再需要將 BlueXP 分類一次升級一個版本的限制。從 1.24 版開始、此功能相當實用。
-
-
-
-==== BlueXP 分類 API 現已推出
-
-BlueXP 分類 API 可讓您執行動作、建立查詢、以及匯出所掃描資料的相關資訊。可使用 Swagger 取得互動式文件。文件分為多個類別、包括調查、法規遵循、治理和組態。每個類別都是 BlueXP 分類 UI 中標籤的參考資料。
-
-https://docs.netapp.com/us-en/bluexp-classification/api-classification.html["深入瞭解 BlueXP 分類 API"]。
-
-
-
 == Cloud Volumes ONTAP
+
+
+
+=== 2023 年 11 月 1 日
+
+Connector 3.9.34 版隨附下列變更。
+
+
+
+==== Google Cloud 現在支援沙烏地阿拉伯地區
+
+現在、 Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援沙烏地阿拉伯地區。
+
+如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Google Cloud 下的全球區域地圖"^]。
 
 
 
@@ -506,7 +394,7 @@ Connector 3.9.34 版隨附下列變更。
 
 ==== Azure 支援 HA 多重可用性區域部署的新區域
 
-Azure 中的下列區域現在支援 Cloud Volumes ONTAP 9.14.0 及更新版本的高可用度多重可用度區域部署：
+Azure 中的下列區域現在支援 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度多重可用度區域部署：
 
 * 澳洲東部
 * 東南亞
@@ -533,21 +421,6 @@ Connector 3.9.34 版隨附下列變更。
 BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.0 通用版本。
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-=== 2023 年 9 月 10 日
-
-Connector 3.9.33 版隨附下列變更。
-
-
-
-==== 支援 Azure 中的 Lsv3 系列 VM
-
-從 9.13.1 版開始、 Azure 中的 Cloud Volumes ONTAP 現在支援 L48s_v3 和 L64s_v3 執行個體類型、可在單一節點和高可用度配對部署中、在單一和多個可用性區域中部署共用託管磁碟。這些執行個體類型支援 Flash Cache 。
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["檢視 Azure 中 Cloud Volumes ONTAP 支援的組態"^]
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["檢視 Azure 中 Cloud Volumes ONTAP 的儲存限制"^]
 
 
 
