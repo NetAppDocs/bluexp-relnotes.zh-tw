@@ -1,0 +1,38 @@
+= 
+:allow-uri-read: 
+
+
+此 BlueXP 災難恢復預覽版本包含下列更新：
+
+* * 儀表板更新 * ：您現在可以按一下儀表板上的選項、讓您更輕鬆地快速檢閱資訊。此外、儀表板現在也會顯示容錯移轉和移轉的狀態。
++
+請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashboard-view.html["在儀表板上檢視災難恢復計畫的健全狀況"]。
+
+* * 複寫計畫更新 * ：
++
+** * RPO * ：您現在可以在複寫計畫的資料存放區區區區段中輸入恢復點目標（ RPO ）和保留計數。這表示必須存在的資料量、其長度不得早於設定時間。例如、如果您將其設為 5 分鐘、則在發生災難而不影響業務關鍵需求的情況下、系統最多可能會遺失 5 分鐘的資料。
++
+請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+** * 網路功能增強 * ：當您在複寫計畫的虛擬機器區段中對應來源和目標位置之間的網路時、 BlueXP 災難恢復現在提供兩個選項： DHCP 或靜態 IP 。以前只支援 DHCP 。對於靜態 IP 、您可以設定子網路、閘道和 DNS 伺服器。此外、您現在可以輸入虛擬機器的認證。
++
+請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+** * 編輯排程 * ：您現在可以更新複寫計畫排程。
++
+請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["管理資源"]。
+
+** *SnapMirror 自動化 * ：當您在此版本中建立複寫計畫時、您可以在下列其中一個組態中定義來源磁碟區與目標磁碟區之間的 SnapMirror 關係：
++
+*** 1 對 1
+*** 在扇出架構中有 1 對多個
+*** 一致性群組中有多對 1
+*** 多到多
++
+請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+
+
+
+
+

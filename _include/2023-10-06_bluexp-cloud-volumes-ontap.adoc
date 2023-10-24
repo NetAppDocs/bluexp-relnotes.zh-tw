@@ -1,0 +1,13 @@
+= Cloud Volumes ONTAP 9.14.0%
+:allow-uri-read: 
+
+
+Connector 3.9.34 版隨附下列變更。
+
+
+
+=== Cloud Volumes ONTAP 9.14.0%
+
+BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.0 通用版本。
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。

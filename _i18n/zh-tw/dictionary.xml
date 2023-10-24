@@ -97,7 +97,6 @@
   <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">介紹BlueXP</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：</block>
-  <block id="534171d3771a50398027a07275778b3e" category="paragraph">您現在可以直接從BlueXP探索E系列儲存系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022年10月24日（2.1版）</block>
   <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">全域檔案快取現在可搭配任意數量的授權使用</block>
   <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">先前的10份授權（即30 TB儲存容量）最低需求已移除。每3 TB儲存空間將會核發一份全域檔案快取授權。</block>
@@ -352,7 +351,6 @@
   <block id="7c347fcea29ffaea485ee6128a9d7a06" category="list-text">n2-Standard-64</block>
   <block id="0891ba6a1f7a37c01cb3698c692751bc" category="paragraph">您可以在單一節點和高可用度配對部署上分別或一起使用這些功能。</block>
   <block id="5195e4b472b1871018c47fface61dc40" category="inline-link-macro">在Cloud Volumes ONTAP Google Cloud上啟動</block>
-  <block id="1e69916eaa563a1da0ccff3715e2342d" category="paragraph"><block ref="1e69916eaa563a1da0ccff3715e2342d" category="inline-link-macro-rx"></block></block>
   <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">使用報告增強功能</block>
   <block id="ec123c8f161f9dfe4383b8db1d8883c4" category="paragraph">使用報告中所顯示資訊的各種改善功能現已推出。以下是使用報告的增強功能：</block>
   <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">TiB 單元現在已包含在欄名稱中。</block>
@@ -441,51 +439,24 @@
   <block id="04afa98530b9fa98eb8d1adf9da08f7f" category="paragraph">「備份生命週期」類型篩選器已重新命名為「保留」。使用此篩選器可追蹤備份生命週期、並識別所有備份複本的到期日。「保留」工作類型會擷取在受 BlueXP 備份與還原保護的磁碟區上所起始的所有 Snapshot 刪除工作。</block>
   <block id="751f8afbc94898745cc6e2ea8a5ccd4c" category="inline-link">深入瞭解更新的工作監控器</block>
   <block id="bf6c8f020a512a9accf77240c1333a16" category="paragraph"><block ref="f412c2e0203811d72b16f88cf9eb5d19" category="inline-link-rx"></block>。</block>
-  <block id="f717b8ed4d751174af9f9438951b9a4f" category="section-title">2023 年 7 月 6 日</block>
-  <block id="10ffd42b58d1ced7127bffaff7185e32" category="section-title">BlueXP 備份與還原現在包括排程及建立 Snapshot 複本與複寫磁碟區的能力</block>
-  <block id="a2e06093d677add4ecd73d26ade99d66" category="paragraph">BlueXP 備份與還原現在可讓您實作 3-2-1 策略、讓您在 2 個不同的儲存系統上擁有 3 個來源資料複本、並在雲端中擁有 1 個複本。啟動之後、您將會看到：</block>
-  <block id="4dfb74d83687d8ca40ab05bac1885b0a" category="list-text">來源系統上磁碟區的快照複本</block>
-  <block id="00b4fe156d0b170f5196995dd8889b0d" category="list-text">在不同的儲存系統上複寫磁碟區</block>
-  <block id="809b026ec469d1b8bfa79721e15f539b" category="list-text">備份物件儲存區中的磁碟區</block>
-  <block id="4ae5ef4008b68e98ae1878294a66c9d1" category="inline-link">深入瞭解全新的全頻備份與還原功能</block>
-  <block id="e1ddbe5fcbded46fffd577b7a64c82ef" category="paragraph"><block ref="c0ade183535ec842bf30c511bd86bbf6" category="inline-link-rx"></block>。</block>
-  <block id="1afa76124f2d71427832cd0846eefa31" category="paragraph">這項新功能也適用於恢復作業。您可以從 Snapshot 複本、複製的磁碟區或雲端的備份檔案執行還原作業。如此一來、您就能靈活選擇符合恢復需求的備份檔案、包括恢復成本和速度。</block>
-  <block id="6d50e6cd9c195849ff4bcb523527fb42" category="paragraph">請注意、這項新功能和使用者介面僅支援執行 ONTAP 9.8 或更新版本的叢集。如果您的叢集有舊版軟體、您可以繼續使用舊版 BlueXP 備份與還原。不過、我們建議您升級至支援的 ONTAP 版本、以取得最新的功能和功能。若要繼續使用舊版軟體、請遵循下列步驟：</block>
-  <block id="fb74ece6972051de48e476af9e1e3b61" category="list-text">從* Volumes（磁碟區）*索引標籤、選取* Backup Settings*（備份設定）。</block>
-  <block id="cbce457a0f1d693a7ec8fdef080284e8" category="list-text">從 _ 備份設定 _ 頁面、按一下 * 顯示先前 BlueXP 備份與還原版本 * 的選項按鈕。</block>
-  <block id="6ad80584a8fba3d1fc876fd412e2b184" category="paragraph">然後您可以使用舊版軟體來管理舊叢集。</block>
-  <block id="e2f760131280f3fd361a50b428c7b92d" category="section-title">能夠建立儲存容器以備份至物件儲存設備</block>
-  <block id="414c40dd827c6738286ee0b333e39456" category="inline-link">瞭解如何建立物件儲存貯體</block>
-  <block id="debda728f2e9b255111b127aed9dc8fd" category="paragraph">當您在物件儲存區中建立備份檔案時、根據預設、備份與還原服務會為您在物件儲存區中建立儲存區。如果您想要使用特定名稱或指派特殊屬性、可以自行建立貯體。如果您想要建立自己的貯體、則必須先建立貯體、然後再啟動啟動精靈。<block ref="2d2a00fa0eeaa888f8c689ec67e16ffe" category="inline-link-rx"></block>。</block>
-  <block id="ea600ff03360da539b9cf2f109798fac" category="paragraph">目前不支援將備份檔案建立至 StorageGRID 系統時使用此功能。</block>
   <block id="d80e88cc1f3abb9239aa87a019057d8b" category="inline-link">深入瞭解 BlueXP 分類 API</block>
   <block id="67a7c5f0403c8f58fe4ae70a6f761ae5" category="paragraph"><block ref="6c685f385b4749ef1d91fb7e0577272e" category="inline-link-rx"></block>。</block>
   <block id="645a84975202e30700b572b49a5ee29d" category="inline-link">災難恢復</block>
   <block id="86e83f14193f6e90a917a08348a9b031" category="list-text"><block ref="86e83f14193f6e90a917a08348a9b031" category="inline-link-rx"></block></block>
   <block id="51c5a515e45f0732a46aadb31105d3df" category="list-text"><block ref="51c5a515e45f0732a46aadb31105d3df" category="inline-link-rx"></block></block>
-  <block id="cd0e5c36e226037e532c68c6f3cd3f6b" category="paragraph">BlueXP 災難恢復試用版是一項雲端型災難恢復服務、可自動化災難恢復工作流程。起初、透過 BlueXP 災難恢復試用版、您可以保護內部部署的、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存至 VMware Cloud （ VMC ）、搭配 Amazon FSX for ONTAP 。</block>
-  <block id="50a97e09c76187cbcefa298e70a3afb1" category="admonition">透過此試用版產品、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。</block>
-  <block id="7db717e772156b4bb93598d5d823ae9f" category="paragraph">此版本包含下列更新：</block>
   <block id="08e4438284e48b3ad77e9a0d04037ea7" category="inline-link-macro">選取要複寫及指派資源群組的應用程式</block>
-  <block id="3d23f8b578249a5d053ce529d0f48f9b" category="list-text">* 開機順序的資源群組更新 * ：建立災難恢復或複寫計畫時、您可以將虛擬機器新增至功能性資源群組。資源群組可讓您將一組相關的虛擬機器放入符合您需求的邏輯群組。例如、群組可能包含可在恢復時執行的開機順序。在此版本中、每個資源群組可以包含一或多個虛擬機器。虛擬機器將根據您將其納入計畫的順序來啟動。請參閱 <block ref="1f3777444374951667cb1bf3cf287ba7" category="inline-link-macro-rx"></block>。</block>
   <block id="847c11e2bf47a2c63ba2cf24f4cfa928" category="inline-link-macro">將應用程式複寫到另一個站台</block>
-  <block id="62cb227608f24cb15275f690d386de3d" category="list-text">* 複寫驗證 * ：建立災難恢復或複寫計畫後、請在精靈中找出重複發生的情形、並啟動複寫至災難恢復站台、每 30 分鐘執行一次 BlueXP 災難恢復、就會驗證複寫是否確實根據計畫進行。您可以在「工作監控」頁面中監控進度。請參閱 <block ref="ed1db02de11c4d365ac64a594dde8a8e" category="inline-link-macro-rx"></block>。</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複寫計畫</block>
-  <block id="973abcfd1bd912231fdb7b2d3069fabb" category="list-text">* 複寫計畫顯示恢復點目標（ RPO ）傳輸排程 * ：建立災難恢復或複寫計畫時、您可以選取虛擬機器。在此版本中、您現在可以檢視與資料存放區或 VM 相關聯的每個磁碟區相關聯的 SnapMirror 。您也可以查看與 SnapMirror 排程相關的 RPO 傳輸排程。RPO 可協助您判斷備份排程是否足以在災難後恢復。請參閱 <block ref="8aa3c94c171b2c9d7252afb28ee019a7" category="inline-link-macro-rx"></block>。</block>
   <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link-macro">監控災難恢復工作</block>
-  <block id="ffdfae72897378c87d20f63c36a85c95" category="list-text">* 工作監控更新 * ：「工作監控」頁面現在包含「重新整理」選項、可讓您取得最新的作業狀態。請參閱 <block ref="616b4ec313e92b15c3d84e62eae739b5" category="inline-link-macro-rx"></block>。</block>
   <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link-macro">深入瞭解 BlueXP 災難恢復</block>
   <block id="8454892d6268011bb79d98eedd4f8afb" category="paragraph"><block ref="10a687fb14a41a274bb5d883fcf5c124" category="inline-link-macro-rx"></block>。</block>
   <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023 年 5 月 18 日</block>
   <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">這是 BlueXP 災難恢復的初始版本。</block>
-  <block id="1ba37effd0ce32bb6cfe5ede3a761ee2" category="paragraph">BlueXP 災難恢復是一種雲端型災難恢復服務、可自動化災難恢復工作流程。起初、透過 BlueXP 災難恢復測試版、您可以保護內部部署的、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存至 VMware Cloud （ VMC ）、搭配 Amazon FSX for ONTAP 。</block>
   <block id="51f8ba1e739f07ed09f1ba20bff5e7fc" category="section-title">2023 年 7 月 16 日</block>
   <block id="91b681e174a782226d26fb4056e14081" category="section-title">儲存效率</block>
   <block id="520e6a90f7dfce96c54641856d8584f2" category="list-text">顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。</block>
   <block id="cc50d008d8b1e1f6ba13bbe127a1bf29" category="list-text">標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。</block>
   <block id="2a88859b894ead28756789553bc66754" category="list-text">切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 <block ref="3a01d99aaa6c74ce8f92a2ac5ca4e5e9" category="inline-link-macro-rx"></block>。</block>
-  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">2023 年 6 月 21 日</block>
-  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
   <block id="200c9dcd65b566ab41bf3c1946647dce" category="section-title">2023 年 9 月 10 日</block>
   <block id="f2d77c003fbfd61002c06e73a629086c" category="section-title">連接器 3.9.33</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">當您從 BlueXP 在 AWS 中建立 Connector 時、現在可以在金鑰配對欄位中搜尋、以便更輕鬆地找到您要與 Connector 執行個體搭配使用的金鑰配對。</block>
@@ -525,19 +496,12 @@
   <block id="cc2bfd53f6bcbc23893aaa8fab8b1eb2" category="paragraph">從 9.13.1 版開始、 Azure 中的 Cloud Volumes ONTAP 現在支援 L48s_v3 和 L64s_v3 執行個體類型、可在單一節點和高可用度配對部署中、在單一和多個可用性區域中部署共用託管磁碟。這些執行個體類型支援 Flash Cache 。</block>
   <block id="c2af1dd6b400531e930c62dad5095f7d" category="inline-link-macro">檢視 Azure 中 Cloud Volumes ONTAP 支援的組態</block>
   <block id="bc3a07be852924fbf8ece67dbd310169" category="inline-link-macro">檢視 Azure 中 Cloud Volumes ONTAP 的儲存限制</block>
-  <block id="7dd77d10e6ae3bee2c34fcea19d9c1ab" category="paragraph"><block ref="2e2ea5a0499f86c06503605a768ce8a2" category="inline-link-macro-rx"></block>
-<block ref="c1f4bd6aa6a7def50b28a0bec13e0184" category="inline-link-macro-rx"></block></block>
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">中小企業部署暫時無法使用</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">當您在 AWS 中部署 BlueXP 分類執行個體時、目前無法使用選擇 * 部署 &gt; 組態 * 並選擇中小型執行個體的選項。您仍然可以使用大型執行個體來部署執行個體、方法是選取 * 部署 &gt; 部署 * 。</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">過去、您只能在「調查結果」頁面（ 20 個項目）中一次將標記套用至單一頁面。現在您可以在「調查結果」頁面中選取 * 所有 * 項目、並將標記套用至所有項目、一次最多可有 100,000 個項目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023 年 9 月 27 日</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">升級顧問</block>
   <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10 月 4 日（版本 1.26 ）</block>
-  <block id="620a73262e6956695319caae21506289" category="section-title">支援使用 RHEL 第 9 版的內部部署安裝</block>
-  <block id="97e778415712a740a3bb71e9070c88c5" category="paragraph">Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝、使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。</block>
-  <block id="081ac57be4c35d4de4fc43c105089d8f" category="paragraph">目前我們不支援安裝暗點或分散式掃描環境（使用主要和遠端掃描器節點）。</block>
-  <block id="db5b005cbaaba7a23899858892848a77" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
-  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
   <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023 年 10 月 6 日</block>
   <block id="ce408175c3b7eaf6c3dfc910f3547833" category="section-title">連接器 3.9.34</block>
   <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">此版本包含一些小改進和錯誤修復。</block>
@@ -547,5 +511,77 @@
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用存取預設報價表的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">瞭解如何產生及檢視升級計畫</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
-  <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">永續性儀表板提供寶貴的見解、讓您深入瞭解儲存系統的環境永續性。您可以檢視如永續性分數、碳減量百分比、預計電力使用量、直接碳和熱能等資訊。您可以調整特定站台的碳減量百分比。您也可以檢視叢集層級的永續性分數。根據永續性分數、您可以評估儲存系統的整體效率、並將其與 NetApp 建議的行動一致、以提升永續性。 <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="fb2530f9293a4ba59cfd3ca6492bb972" category="section-title">2023 年 10 月 23 日</block>
+  <block id="f1d5b892646c28fdb747b890f0787976" category="section-title">在備份啟動期間建立 3-2-1 備份原則</block>
+  <block id="1a169799fb63ccdda2e672c25d0ab2d2" category="paragraph">之前、您必須先建立自訂原則、才能啟動 Snapshot 、複寫或備份。現在您可以使用 BlueXP 備份與還原 UI 、在備份啟動程序期間建立原則。</block>
+  <block id="09aac1469e7bc1d8f162de80ea67cdc3" category="section-title">支援隨需快速還原 ONTAP 磁碟區</block>
+  <block id="176b76bad16e5fd8729393946eb26540" category="paragraph">BlueXP 備份與還原現在提供從雲端儲存設備快速還原磁碟區至 Cloud Volumes ONTAP 系統的功能。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原可將中繼資料從備份檔案還原至磁碟區、而非還原整個備份檔案。</block>
+  <block id="1d2fad969d5ec82be3bae65922e81ae0" category="paragraph">Cloud Volumes ONTAP 目的地系統必須執行 ONTAP 9.13.0 版或更新版本。<block ref="b1f838c6239cc5d42e2bbd74d1b6c2a2" category="inline-link-rx"></block>。</block>
+  <block id="a508551aa743c3098667d5ae32149739" category="paragraph">BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相關資訊。</block>
+  <block id="eb018f0a377269905eb589a99448cf57" category="section-title">2023 年 10 月 13 日</block>
+  <block id="197747cde80c31576877de78be696240" category="section-title">應用程式（雲端原生）的 BlueXP 備份與還原功能增強功能</block>
+  <block id="d9a26494c95cbef43a71fa2585292af3" category="list-text">Microsoft SQL Server 資料庫</block>
+  <block id="270a06ed19fec772bcfb084931cae13d" category="list-text">支援 Amazon FSX for NetApp ONTAP 上的 Microsoft SQL Server 資料庫備份、還原及還原</block>
+  <block id="d4da4ec044327991fbcd43ca1778c38f" category="list-text">所有作業只能透過 REST API 支援。</block>
+  <block id="91abdc8faafafce1c7b76b1ecb8b37a6" category="list-text">SAP HANA 系統</block>
+  <block id="3b05cd173ffd47ef0b4346901ab9e0d3" category="list-text">在系統重新整理期間、會使用工作流程而非指令碼來自動掛載和卸載磁碟區</block>
+  <block id="29db6fe351e2079efe0622a1b5bd15f4" category="list-text">支援新增、移除、編輯、刪除、維護、 並使用 UI 升級外掛主機</block>
+  <block id="a1501619265b99c9d02aefcdb1128d6d" category="section-title">應用程式（混合式） BlueXP 備份與還原的增強功能</block>
+  <block id="b4445605950c5dae15c10f509d6f0f79" category="list-text">支援資料鎖定和勒索軟體保護</block>
+  <block id="188502bd01986373f9c31291dc835e82" category="list-text">支援將備份從 StorageGRID 移至歸檔層</block>
+  <block id="541019d49feaf31b8000318aac636f92" category="list-text">支援備份 MongoDB 、 MySQL 和 PostgreSQL 應用程式資料、從內部部署的 ONTAP 系統、到 Amazon Web Services 、 Microsoft Azure 、 Google Cloud Platform 和 StorageGRID 。您可以在必要時還原資料。</block>
+  <block id="11a3809c55f7c25dbda24854a827db05" category="section-title">虛擬機器的 BlueXP 備份與還原增強功能</block>
+  <block id="60a7ad592c196ecee9eebdab38d4ed7e" category="list-text">支援 Connector Proxy 部署模式</block>
+  <block id="f63476943179d5dd83527cd0b9c7ade4" category="section-title">能夠立即歸檔備份資料、而非先寫入標準儲存設備</block>
+  <block id="cc702ed839181d5a4eb3655eba656f65" category="paragraph">現在您可以立即將備份檔案傳送至歸檔儲存設備、而非將資料寫入標準雲端儲存設備。這對很少需要從雲端備份存取資料的使用者或是更換磁帶環境備份的使用者而言特別有幫助。</block>
+  <block id="9aa936e4dd7e0d3efaa0a77d15dc632b" category="list-text">現在當您使用「 CVO 專業版」套件時、您必須訂閱備份與還原 PAYGO 、才能套裝 Cloud Volumes ONTAP 與 BlueXP 備份與還原。過去並不需要這麼做。符合資格的 Cloud Volumes ONTAP 系統的備份與還原訂閱不會產生任何費用、但在任何新磁碟區上設定備份時都需要付費。</block>
+  <block id="74246010013353726bd9ff99866fa7d4" category="section-title">支援在 RHEL 第 9 版上內部部署安裝 BlueXP 分類</block>
+  <block id="efbacc885d0798efa8b4d06d61cb578e" category="paragraph">Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝 BlueXP 分類、並使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。</block>
+  <block id="efe06748da92e661d7225cc7ec109b32" category="paragraph">目前、我們不支援使用 RHEL 9.x 進行暗點安裝或分散式掃描環境（使用主要和遠端掃描器節點）</block>
+  <block id="2bc953fcced4addf338156cc4681b683" category="section-title">Azure 支援 HA 多重可用性區域部署的新區域</block>
+  <block id="13ff77e69df5acabc2f0da9e5ebc94b8" category="paragraph">Azure 中的下列區域現在支援 Cloud Volumes ONTAP 9.14.0 及更新版本的高可用度多重可用度區域部署：</block>
+  <block id="cee3f0213dd8b7eb15d7b31824e01754" category="list-text">澳洲東部</block>
+  <block id="f74e1c0c8ee8410fa5bfe03676347257" category="list-text">東南亞</block>
+  <block id="bea1bd3d23555c539dab5f3f5426184c" category="list-text">法國中部</block>
+  <block id="d0fe0e3b6520479f718b98f0d471b7d0" category="list-text">北歐洲</block>
+  <block id="7def8b46a24f875959130a855cd80918" category="list-text">瑞典中部</block>
+  <block id="8fb2033d01e3efa2825282a13f86c14e" category="list-text">西歐</block>
+  <block id="c349d3a26cf4231660785a0c5b4cb007" category="list-text">美國西部 2.</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Azure 下的 Global Regions Map</block>
+  <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">如需支援多個可用區域的所有區域清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block>
+<block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023 年 10 月 4 日</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">規劃 Widget</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">「技術更新建議」計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
+  <block id="2971377ab46c11db3998ef23731b52cf" category="section-title">2023 年 10 月 20 日</block>
+  <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">此 BlueXP 災難恢復預覽版本包含下列更新。</block>
+  <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">現在有了 BlueXP 災難恢復功能、除了公有雲之外、您還可以保護內部部署的 NFS 型 VMware 工作負載、使其免受災難影響、不受其他內部部署、 NFS 型 VMware 環境的影響。BlueXP 災難恢復可協調災難恢復計畫的完成。</block>
+  <block id="8fb7b8d770a994170f1c007a9255f124" category="admonition">透過此預覽方案、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。</block>
+  <block id="d2821a0bfab67d1ac8b7770287a7e5fa" category="paragraph"><block ref="5e6f535f5269a2222938cba2b978dc6c" category="inline-link-rx"></block>。</block>
+  <block id="0c31e0b40d23036cf9c9e0c4345b96d6" category="paragraph">此 BlueXP 災難恢復預覽版本包含下列更新：</block>
+  <block id="83c8a47ea17763c3093bdee6c91d4c7c" category="list-text">* 儀表板更新 * ：您現在可以按一下儀表板上的選項、讓您更輕鬆地快速檢閱資訊。此外、儀表板現在也會顯示容錯移轉和移轉的狀態。</block>
+  <block id="be74a2f8b73ed15a46d21c202566b3bb" category="inline-link">在儀表板上檢視災難恢復計畫的健全狀況</block>
+  <block id="d1181cbae4acc0d9feb9f608b3ee586f" category="paragraph">請參閱<block ref="cdc1638a4873b7c2cfc1c5962a5d03ab" category="inline-link-rx"></block>。</block>
+  <block id="6285873a780e650e27e2cde2a54a7c13" category="list-text">* 複寫計畫更新 * ：</block>
+  <block id="056f6fba19f65e991a1c38d676e1c20d" category="list-text">* RPO * ：您現在可以在複寫計畫的資料存放區區區區段中輸入恢復點目標（ RPO ）和保留計數。這表示必須存在的資料量、其長度不得早於設定時間。例如、如果您將其設為 5 分鐘、則在發生災難而不影響業務關鍵需求的情況下、系統最多可能會遺失 5 分鐘的資料。</block>
+  <block id="6b4866d6790f0b6c044df7d2894f1313" category="paragraph">請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
+  <block id="ff7e9f26eed12684568d409b38d71bcc" category="list-text">* 網路功能增強 * ：當您在複寫計畫的虛擬機器區段中對應來源和目標位置之間的網路時、 BlueXP 災難恢復現在提供兩個選項： DHCP 或靜態 IP 。以前只支援 DHCP 。對於靜態 IP 、您可以設定子網路、閘道和 DNS 伺服器。此外、您現在可以輸入虛擬機器的認證。</block>
+  <block id="fe329f91281efd1c71c4145c82444ecd" category="list-text">* 編輯排程 * ：您現在可以更新複寫計畫排程。</block>
+  <block id="ecd36d02576c4fe28ab61b5c14fa69c4" category="inline-link">管理資源</block>
+  <block id="4cfb152ee6cdcd5bb952055f0451eb1e" category="paragraph">請參閱<block ref="62052e6a6f987a8752e8d90cacdd602d" category="inline-link-rx"></block>。</block>
+  <block id="58adec32627fd44ceeefdcc62aeec6fc" category="list-text">*SnapMirror 自動化 * ：當您在此版本中建立複寫計畫時、您可以在下列其中一個組態中定義來源磁碟區與目標磁碟區之間的 SnapMirror 關係：</block>
+  <block id="92b7daac1d86d399dc5b1e009d09f0f5" category="list-text">1 對 1</block>
+  <block id="352d4f9f99cbd649fab2edc17c761e66" category="list-text">在扇出架構中有 1 對多個</block>
+  <block id="7d2e89736c1e0a679ed3c86b8b5e6141" category="list-text">一致性群組中有多對 1</block>
+  <block id="f84b964a31258c14e682925c71bbbd80" category="list-text">多到多</block>
+  <block id="b1026ebb435e887031ec24334255046b" category="paragraph">BlueXP 災難恢復預覽是一種雲端型災難恢復服務、可自動化災難恢復工作流程。最初、透過 BlueXP 災難恢復預覽、您可以保護內部部署、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存設備、將其移轉至 VMware Cloud （ VMC ）、並搭配 Amazon FSX for ONTAP 。</block>
+  <block id="8f34806925352860a20b553ca661087f" category="paragraph">此版本包含下列更新：</block>
+  <block id="3c588cce706af28ae858573fe547adee" category="list-text">* 開機順序的資源群組更新 * ：建立災難恢復或複寫計畫時、您可以將虛擬機器新增至功能性資源群組。資源群組可讓您將一組相關的虛擬機器放入符合您需求的邏輯群組。例如、群組可能包含可在恢復時執行的開機順序。在此版本中、每個資源群組可以包含一或多個虛擬機器。虛擬機器將根據您將其納入計畫的順序來啟動。請參閱<block ref="290954acdd6fc55b493b2726d4197a5a" category="inline-link-rx"></block>。</block>
+  <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">* 複寫驗證 * ：建立災難恢復或複寫計畫後、請在精靈中找出重複發生的情形、並啟動複寫至災難恢復站台、每 30 分鐘執行一次 BlueXP 災難恢復、就會驗證複寫是否確實根據計畫進行。您可以在「工作監控」頁面中監控進度。請參閱 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block>。</block>
+  <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">* 複寫計畫顯示恢復點目標（ RPO ）傳輸排程 * ：建立災難恢復或複寫計畫時、您可以選取虛擬機器。在此版本中、您現在可以檢視與資料存放區或 VM 相關聯的每個磁碟區相關聯的 SnapMirror 。您也可以查看與 SnapMirror 排程相關的 RPO 傳輸排程。RPO 可協助您判斷備份排程是否足以在災難後恢復。請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
+  <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">* 工作監控更新 * ：「工作監控」頁面現在包含「重新整理」選項、可讓您取得最新的作業狀態。請參閱 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block>。</block>
+  <block id="25d037b5df7f2e04a4d6a1a3bc33caa7" category="paragraph">BlueXP 災難恢復是一種雲端型災難恢復服務、可自動化災難恢復工作流程。最初、透過 BlueXP 災難恢復預覽、您可以保護內部部署、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存設備、將其移轉至 VMware Cloud （ VMC ）、並搭配 Amazon FSX for ONTAP 。</block>
+  <block id="8060a341461a61edc489285d4c464062" category="paragraph">您現在可以直接從 BlueXP 探索 E 系列系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
+  <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
 </blocks>

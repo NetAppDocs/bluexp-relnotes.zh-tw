@@ -1,0 +1,7 @@
+= 
+:allow-uri-read: 
+
+
+* 您可以使用存取預設報價表的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：
+* 升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["瞭解如何產生及檢視升級計畫"]。
+

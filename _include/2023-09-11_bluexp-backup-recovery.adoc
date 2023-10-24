@@ -1,0 +1,33 @@
+= ONTAP 資料的新原則管理
+:allow-uri-read: 
+
+
+
+
+=== ONTAP 資料的新原則管理
+
+此版本包含 UI 內的功能、可建立自訂的 Snapshot 原則、複寫原則、以及將 ONTAP 資料備份至物件儲存區的原則。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["深入瞭解原則"]。
+
+
+
+=== 支援從 ONTAP S3 物件儲存區的磁碟區還原檔案和資料夾
+
+以前、當磁碟區備份到 ONTAP S3 物件儲存時、您無法使用「瀏覽與還原」功能還原檔案和資料夾。此版本可移除此限制。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解還原資料"]。
+
+
+
+=== 能夠立即歸檔備份資料、而非先寫入標準儲存設備
+
+現在您可以立即將備份檔案傳送至歸檔儲存設備、而非將資料寫入標準雲端儲存設備。這對很少需要從雲端備份存取資料的使用者或是更換磁帶環境備份的使用者而言特別有幫助。
+
+
+
+=== 額外支援備份與還原 SnapLock Volume
+
+備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["深入瞭解如何保護 ONTAP 資料"]。

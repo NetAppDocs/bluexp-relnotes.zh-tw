@@ -1,0 +1,13 @@
+= 建立FlexGroup 功能區
+:allow-uri-read: 
+
+
+
+
+=== 建立FlexGroup 功能區
+
+如果您使用 Connector 管理叢集、現在可以使用 BlueXP API 建立 FlexGroup Volume 。
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["瞭解如何建立 FlexGroup Volume"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["瞭解什麼是 FlexGroup Volume"^]
+

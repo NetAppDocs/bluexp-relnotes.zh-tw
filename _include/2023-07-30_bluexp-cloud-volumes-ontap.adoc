@@ -1,0 +1,37 @@
+= Google Cloud 中的 Flash Cache 和高速寫入支援
+:allow-uri-read: 
+
+
+Connector 3.9.32 版隨附下列變更。
+
+
+
+=== Google Cloud 中的 Flash Cache 和高速寫入支援
+
+Flash Cache 和高速寫入速度可在 Cloud Volumes ONTAP 9.13.1 及更新版本的 Google Cloud 中個別啟用。所有支援的執行個體類型都提供高速寫入速度。Flash Cache 支援下列執行個體類型：
+
+* n2-Standard-16
+* n2-Standard-32
+* n2 標準 -48
+* n2-Standard-64
+
+
+您可以在單一節點和高可用度配對部署上分別或一起使用這些功能。
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
+
+
+
+=== 使用報告增強功能
+
+使用報告中所顯示資訊的各種改善功能現已推出。以下是使用報告的增強功能：
+
+* TiB 單元現在已包含在欄名稱中。
+* 現在包含序號的新「節點」欄位。
+* 儲存 VM 使用量報告中現在包含新的「工作負載類型」一欄。
+* 儲存 VM 和 Volume 使用量報告中現在已包含工作環境名稱。
+* Volume 類型「 file 」現在標示為「 Primary （ Read/Write ）（主要（讀取 / 寫入））」。
+* Volume 類型「 Secondary 」現在標示為「 Secondary （ DP ）」（次要（ DP ））。
+
+
+如需使用報告的詳細資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"^]。

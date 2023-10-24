@@ -1,0 +1,21 @@
+= 在備份啟動期間建立 3-2-1 備份原則
+:allow-uri-read: 
+
+
+
+
+=== 在備份啟動期間建立 3-2-1 備份原則
+
+之前、您必須先建立自訂原則、才能啟動 Snapshot 、複寫或備份。現在您可以使用 BlueXP 備份與還原 UI 、在備份啟動程序期間建立原則。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["深入瞭解原則"]。
+
+
+
+=== 支援隨需快速還原 ONTAP 磁碟區
+
+BlueXP 備份與還原現在提供從雲端儲存設備快速還原磁碟區至 Cloud Volumes ONTAP 系統的功能。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原可將中繼資料從備份檔案還原至磁碟區、而非還原整個備份檔案。
+
+Cloud Volumes ONTAP 目的地系統必須執行 ONTAP 9.13.0 版或更新版本。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解還原資料"]。
+
+BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相關資訊。

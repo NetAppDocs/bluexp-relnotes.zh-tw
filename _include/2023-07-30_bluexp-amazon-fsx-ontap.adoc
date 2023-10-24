@@ -1,0 +1,7 @@
+= 
+:allow-uri-read: 
+
+
+客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。
+
+請參閱 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["Amazon FSX for NetApp ONTAP 現已在另外三個地區推出"^] 以取得完整詳細資料。

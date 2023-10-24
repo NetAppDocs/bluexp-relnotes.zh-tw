@@ -1,0 +1,12 @@
+= 
+:allow-uri-read: 
+
+
+此 BlueXP 災難恢復預覽版本包含下列更新。
+
+現在有了 BlueXP 災難恢復功能、除了公有雲之外、您還可以保護內部部署的 NFS 型 VMware 工作負載、使其免受災難影響、不受其他內部部署、 NFS 型 VMware 環境的影響。BlueXP 災難恢復可協調災難恢復計畫的完成。
+
+
+NOTE: 透過此預覽方案、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["深入瞭解 BlueXP 災難恢復"]。
