@@ -549,4 +549,9 @@
   <block id="8904b1f88c62ce8a8381c8474f2ccb42" category="paragraph">連接器 3.9.34 版隨附下列變更。</block>
   <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023 年 11 月 8 日</block>
   <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">此版本的 BlueXP 經濟效益包括一個新選項、可評估您的資產、並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。</block>
+  <block id="aa4c67fd3731395f4450c9686b20f799" category="section-title">支援「工作監控」中的排程工作</block>
+  <block id="314b40130d46a229c3a19dc5e2e23aa4" category="paragraph">BlueXP 備份與還原工作監控先前監控的排程磁碟區對物件儲存區備份與還原工作、但不是透過 UI 或 API 排程的本機 Snapshot 、複寫、備份與還原工作。</block>
+  <block id="04c6b318fe9c7f19ae925a90e52c6569" category="paragraph">BlueXP 備份與還原工作監視器現在包含排程工作、可用於本機快照、複製及備份至物件儲存設備。</block>
+  <block id="35214f9b3df21ed35db22cb765a9b147" category="section-title">2023 年 11 月 13 日</block>
+  <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">您現在可以為使用 SMB/CIFS 通訊協定的磁碟區建立報告。</block>
 </blocks>

@@ -200,6 +200,16 @@ BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相�
 
 
 
+==== 支援「工作監控」中的排程工作
+
+BlueXP 備份與還原工作監控先前監控的排程磁碟區對物件儲存區備份與還原工作、但不是透過 UI 或 API 排程的本機 Snapshot 、複寫、備份與還原工作。
+
+BlueXP 備份與還原工作監視器現在包含排程工作、可用於本機快照、複製及備份至物件儲存設備。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["深入瞭解更新的工作監控器"]。
+
+
+
 === 2023 年 10 月 13 日
 
 
@@ -897,6 +907,12 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#
 
 
 == 移轉報告
+
+
+
+=== 2023 年 11 月 13 日
+
+您現在可以為使用 SMB/CIFS 通訊協定的磁碟區建立報告。
 
 
 
