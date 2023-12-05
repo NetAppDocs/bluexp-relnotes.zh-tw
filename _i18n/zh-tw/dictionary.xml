@@ -504,20 +504,12 @@
   <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">本版本已修正下列問題</block>
   <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">修正在儀表板中顯示系統掃描的檔案數量時出現不一致的情況。</block>
   <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">處理和報告名稱和中繼資料中含有特殊字元的檔案和目錄、以改善掃描行為。</block>
-  <block id="499efcb2be11e80e5bdfc003278352e3" category="section-title">2023 年 11 月 1 日</block>
-  <block id="992f57af99811ae146ed6df67eccc26f" category="section-title">Google Cloud 現在支援沙烏地阿拉伯地區</block>
-  <block id="9e06c986efeeff600f0b04c67d5d6354" category="paragraph">現在、 Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援沙烏地阿拉伯地區。</block>
   <block id="2bc724993144e8002899059117620062" category="inline-link">Google Cloud 下的全球區域地圖</block>
   <block id="6a050b5b1c64124ef335bf9dbf64e03f" category="paragraph">如需所有區域的清單、請參閱<block ref="5328f934c7a30e2b8b67732fc162a525" category="inline-link-rx"></block>。</block>
   <block id="e95c0c487a8aec79b7d3484dc5452526" category="section-title">2023 年 11 月 10 日</block>
   <block id="8e40e7e4940e30b2ce260ff97ad74d25" category="paragraph">在 3.9.35 版 Connector 中引入了以下變更。</block>
   <block id="1c13ec96dac1171608b6dbd65bb2245c" category="section-title">Google Cloud 現在支援柏林地區</block>
   <block id="56e0da46254ac9c6f784da40f466bda0" category="paragraph">現在、 Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援柏林地區。</block>
-  <block id="bbb4cf526641d95bbb8ab8bada56fa79" category="section-title">AWS 現在支援 Tel Aviv 區域</block>
-  <block id="04afad264aa486baec91a1ade145665a" category="paragraph">AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援 Tel Aviv 區域。</block>
-  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS 下的 Global Regions Map</block>
-  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">如需所有區域的清單、請參閱<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>。</block>
-  <block id="8904b1f88c62ce8a8381c8474f2ccb42" category="paragraph">連接器 3.9.34 版隨附下列變更。</block>
   <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023 年 11 月 8 日</block>
   <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">此版本的 BlueXP 經濟效益包括一個新選項、可評估您的資產、並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。</block>
   <block id="aa4c67fd3731395f4450c9686b20f799" category="section-title">支援「工作監控」中的排程工作</block>
@@ -553,4 +545,22 @@
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">技術更新建議現在可在觀察清單、網站和群組儀表板中找到。</block>
   <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</block>
   <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
+  <block id="a037be7aafc2f071c4517e8f2c6e58e9" category="section-title">2023 年 12 月 6 日</block>
+  <block id="4a76045b19fb3233070f77ae414d5810" category="section-title">Cloud Volumes ONTAP 9.14.1 RC1</block>
+  <block id="efb4d9478ba663f514e18b3310c2de65" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 。</block>
+  <block id="1fdbf90814a4e25f5b9e765470846181" category="paragraph">我們進行了下列變更。</block>
+  <block id="de3678aecacdbfc2cde1f365589103a8" category="section-title">Azure 的新區域支援</block>
+  <block id="2d87524b148f67773bbd84eaceabd1a8" category="section-title">單一可用性區域區域支援</block>
+  <block id="b778fb7051f3e08881d95bd99b033b37" category="paragraph">以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度單一可用度區域部署：</block>
+  <block id="b5eed9442adc540b3e59ae08aa129632" category="list-text">特拉維夫</block>
+  <block id="437d461430ecc08e2d51abbcf5ce9b3c" category="list-text">米蘭</block>
+  <block id="657afe0033330876ccc58b79bded6c83" category="section-title">支援多種可用性區域</block>
+  <block id="20576a03f90633178b591a3e73ee5d59" category="paragraph">以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度多重可用度區域部署：</block>
+  <block id="910918c80516a55b4ba940f0b485cea1" category="list-text">印度中部</block>
+  <block id="e57064b31b815fd4c1124aa7f2cc1fd4" category="list-text">挪威東部</block>
+  <block id="524a897e665c757be360f9ceaca6b0a5" category="list-text">瑞士北部</block>
+  <block id="d5daca31a462e138266141f6d01ca814" category="list-text">南非北部</block>
+  <block id="92e19d728517dc371c0f37ee23fa9d03" category="list-text">阿拉伯聯合大公國北部</block>
+  <block id="343c78956fe2e30b58a341de94a8673a" category="list-text">中國北方 3.</block>
+  <block id="ee39417afe0e7b7726a65f6235448846" category="paragraph">如需所有區域的清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -381,6 +381,52 @@ BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在
 
 
 
+=== 2023 年 12 月 6 日
+
+
+
+==== Cloud Volumes ONTAP 9.14.1 RC1
+
+BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 。
+
+
+
+=== 2023 年 12 月 5 日
+
+我們進行了下列變更。
+
+
+
+==== Azure 的新區域支援
+
+
+
+===== 單一可用性區域區域支援
+
+以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度單一可用度區域部署：
+
+* 特拉維夫
+* 米蘭
+
+
+
+
+===== 支援多種可用性區域
+
+以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度多重可用度區域部署：
+
+* 印度中部
+* 挪威東部
+* 瑞士北部
+* 南非北部
+* 阿拉伯聯合大公國北部
+* 中國北方 3.
+
+
+如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
+
+
+
 === 2023 年 11 月 10 日
 
 在 3.9.35 版 Connector 中引入了以下變更。
@@ -390,34 +436,6 @@ BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在
 ==== Google Cloud 現在支援柏林地區
 
 現在、 Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援柏林地區。
-
-如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Google Cloud 下的全球區域地圖"^]。
-
-
-
-=== 2023 年 11 月 8 日
-
-在 3.9.35 版 Connector 中引入了以下變更。
-
-
-
-==== AWS 現在支援 Tel Aviv 區域
-
-AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援 Tel Aviv 區域。
-
-如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["AWS 下的 Global Regions Map"^]。
-
-
-
-=== 2023 年 11 月 1 日
-
-連接器 3.9.34 版隨附下列變更。
-
-
-
-==== Google Cloud 現在支援沙烏地阿拉伯地區
-
-現在、 Google Cloud for Cloud Volumes ONTAP 和 Connector for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援沙烏地阿拉伯地區。
 
 如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Google Cloud 下的全球區域地圖"^]。
 
