@@ -30,6 +30,23 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 
 
 
+=== 2023 年 12 月 5 日
+
+
+
+==== 私用模式版本
+
+BlueXP 現已推出新的私有模式版本。此版本包含 3.9.35 版的 Connector 、以及自 2023 年 10 月起以私有模式支援的 BlueXP 服務版本。
+
+此新版本可從 NetApp 支援網站 下載。
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#private-mode["瞭解隨附於私有模式的 BlueXP 服務"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["瞭解如何在使用私有模式時升級 Connector"]
+
+
+
+
 === 2023 年 11 月 8 日
 
 
@@ -47,21 +64,6 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 ==== 連接器 3.9.34
 
 此版本包含一些小改進和錯誤修復。
-
-
-
-=== 2023 年 9 月 10 日
-
-
-
-==== 連接器 3.9.33
-
-* 當您從 BlueXP 在 AWS 中建立 Connector 時、現在可以在金鑰配對欄位中搜尋、以便更輕鬆地找到您要與 Connector 執行個體搭配使用的金鑰配對。
-+
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-setup-admin/main/media/screenshot-connector-aws-key-pair.png["從 BlueXP 在 AWS 中建立連接器時、會出現在「網路」頁面上的「金鑰配對」欄位中搜尋選項的螢幕擷取畫面。"]
-
-* 此更新也包含錯誤修正。
-
 
 
 
@@ -475,6 +477,32 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2023 年 11 月 26 日
+
+
+
+==== 支援 Azure Blob 的 Cold 儲存等級
+
+建立同步關係時、便可使用冷藏 Azure Blob 層。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["深入瞭解建立同步關係。"]
+
+
+
+==== 支援 AWS 資料代理程式中的 Tel Aviv 區域
+
+在 AWS 中建立資料代理程式時、 Tel Aviv 現在是受支援的區域。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
+
+
+
+==== 資料代理程式的節點版本更新
+
+所有新的資料代理人現在都會使用節點版本 21.2.0 。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0 ）將不再適用於 BlueXP 複本與同步。
+
+
+
 === 2023 年 9 月 3 日
 
 
@@ -527,53 +555,25 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#googl
 
 
 
-=== 2023 年 7 月 9 日
-
-
-
-==== 一次移除多個同步關係
-
-使用者現在可以在 UI 中一次刪除多個同步關係。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-managing-relationships.html#deleting-relationships["深入瞭解如何刪除同步重新關聯。"]
-
-
-
-==== 僅複製 ACL
-
-使用者現在可以選擇其他選項、在 CIF 和 NFS 關係中複製 ACL 資訊。建立或管理同步關係時、您只能複製檔案、僅複製 ACL 資訊、或複製檔案和 ACL 資訊。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-copying-acls.html["深入瞭解複製 ACL 。"]
-
-
-
-==== 已更新至 Node.js 20
-
-複本與同步已更新至 Node.js 20 。所有可用的資料代理人將會更新。無法安裝與此更新不相容的作業系統、不相容的現有系統可能會發生效能問題。
-
-
-
-=== 2023 年 6 月 11 日
-
-
-
-==== 支援幾分鐘後自動中止
-
-現在可使用 *Sync Timeout* 功能在 15 分鐘後中止尚未完成的活動同步。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解同步處理逾時設定"]。
-
-
-
-==== 複製存取時間中繼資料
-
-在包括檔案系統在內的關係中、 * 複製物件 * 功能現在會複製存取時間中繼資料。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#settings["深入瞭解複製物件設定"]。
-
-
-
 == 數位顧問
+
+
+
+=== 2023 年 11 月 16 日
+
+
+
+=== 觀察名單
+
+現在您最多可以建立 100 個觀察名單。
+
+
+
+==== 規劃 Widget
+
+* 技術更新建議現在可在觀察清單、網站和群組儀表板中找到。
+* 當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。
+
 
 
 
@@ -583,7 +583,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 ==== 規劃 Widget
 
-「技術更新建議」計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。
+技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。
 
 
 
@@ -595,19 +595,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 * 您可以使用存取預設報價表的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：
 * 升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["瞭解如何產生及檢視升級計畫"]。
-
-
-
-
-=== 2023 年 7 月 16 日
-
-
-
-==== 儲存效率
-
-* 顯示效率比率的標籤 * 儲存效率 * 會重新命名為 * 資料減量 * 。
-* 標籤 * 儲存效率所儲存的資料 * 會重新命名為 * 資料減量節省 * 。
-* 切換「不使用 Snapshot 備份的節省」 * 會重新命名為 * 使用 Snapshot Copies * 、並變更其功能。 link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["深入瞭解"]。
 
 
 

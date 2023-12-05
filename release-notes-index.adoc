@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes-index.html 
 keywords: release notes 
-summary: 檢視每項個別服務的完整版本資訊。 
+summary: 檢視每個個別 BlueXP 服務的完整版本說明。 
 ---
 = 版本資訊索引
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 檢視每項個別服務的完整版本資訊。
 
 
 [role="lead"]
-檢視每項個別服務的完整版本資訊。
+檢視每個個別 BlueXP 服務的完整版本說明。
 
 
 
