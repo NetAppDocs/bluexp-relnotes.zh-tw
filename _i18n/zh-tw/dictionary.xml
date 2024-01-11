@@ -65,11 +65,6 @@
   <block id="43bc868f42929fd56604f4d757ff55ae" category="section-title">資料服務</block>
   <block id="7258e7251413465e0a3eb58094430bde" category="section-title">系統管理</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近的變更</block>
-  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
-  <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務提供版本說明</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">本頁</block>
   <block id="03e6ae21f561049c3e8010740c63aab3" category="inline-link">深入瞭Cloud Volumes ONTAP 解功能強化功能</block>
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正問題</block>
@@ -107,7 +102,6 @@
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
   <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">2022年11月6日</block>
-  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
   <block id="6beb41a356d9287866f0b22c4b4eadcb" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
   <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">2023年3月5日</block>
@@ -539,21 +533,6 @@
   <block id="a037be7aafc2f071c4517e8f2c6e58e9" category="section-title">2023 年 12 月 6 日</block>
   <block id="4a76045b19fb3233070f77ae414d5810" category="section-title">Cloud Volumes ONTAP 9.14.1 RC1</block>
   <block id="efb4d9478ba663f514e18b3310c2de65" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 。</block>
-  <block id="1fdbf90814a4e25f5b9e765470846181" category="paragraph">我們進行了下列變更。</block>
-  <block id="de3678aecacdbfc2cde1f365589103a8" category="section-title">Azure 的新區域支援</block>
-  <block id="2d87524b148f67773bbd84eaceabd1a8" category="section-title">單一可用性區域區域支援</block>
-  <block id="b778fb7051f3e08881d95bd99b033b37" category="paragraph">以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度單一可用度區域部署：</block>
-  <block id="b5eed9442adc540b3e59ae08aa129632" category="list-text">特拉維夫</block>
-  <block id="437d461430ecc08e2d51abbcf5ce9b3c" category="list-text">米蘭</block>
-  <block id="657afe0033330876ccc58b79bded6c83" category="section-title">支援多種可用性區域</block>
-  <block id="20576a03f90633178b591a3e73ee5d59" category="paragraph">以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度多重可用度區域部署：</block>
-  <block id="910918c80516a55b4ba940f0b485cea1" category="list-text">印度中部</block>
-  <block id="e57064b31b815fd4c1124aa7f2cc1fd4" category="list-text">挪威東部</block>
-  <block id="524a897e665c757be360f9ceaca6b0a5" category="list-text">瑞士北部</block>
-  <block id="d5daca31a462e138266141f6d01ca814" category="list-text">南非北部</block>
-  <block id="92e19d728517dc371c0f37ee23fa9d03" category="list-text">阿拉伯聯合大公國北部</block>
-  <block id="343c78956fe2e30b58a341de94a8673a" category="list-text">中國北方 3.</block>
-  <block id="ee39417afe0e7b7726a65f6235448846" category="paragraph">如需所有區域的清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024 年 1 月 11 日</block>
   <block id="dfbe132af57c8e3ca0aa9a94fc940839" category="section-title">連接器 3.9.36.</block>
   <block id="c86344b833d64024dcd801a79f3f366e" category="paragraph">此版本包括下列雲端區域中的輕微改善、錯誤修正及 Connector 支援：</block>
@@ -583,7 +562,6 @@
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">將其他群組 ID 設定為「開放給組織」</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">新增其他群組 ID 為「開放給組織」</block>
-  <block id="f51c5ae20e9943d0b0e6e5c5fff847e4" category="paragraph">現在、您可以在 NFS 中設定群組 ID 、使其在 BlueXP 分類中直接被視為「開放組織」、前提是這些 ID 一開始並未設定為具有該權限。瞭解如何操作<block ref="a69630de08e764820516472e7391212c" category="inline-link-rx"></block>。</block>
   <block id="fd9107be3db2a4144e054c68a7eab15f" category="section-title">2024 年 1 月 8 日</block>
   <block id="dba248d0d18e6170f9bd4a4286edda53" category="section-title">Azure 多個可用區域的新 VM</block>
   <block id="c8d113632e2ef2b901829a0843658f2c" category="paragraph">從 Cloud Volumes ONTAP 9.13.1 開始、下列 VM 類型支援 Azure 多個可用性區域、以進行新的和現有的高可用度配對部署：</block>
@@ -596,4 +574,10 @@
   <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024 年 1 月 3 日</block>
   <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
   <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
+  <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">現在您可以在 NFS 中設定群組 ID 、以便直接從 BlueXP 分類中將其視為「開放組織」、如果群組一開始沒有設定該權限。任何附加這些群組 ID 的檔案和資料夾、都會在「調查詳細資料」頁面中顯示為「開放給組織」。瞭解如何操作<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
+  <block id="35588fa7f53bdbd040bfa9c96c87bf3d" category="section-title">2024 年 1 月 16 日</block>
+  <block id="9ed7d4ae8d042664394e899e9c1f5e9a" category="section-title">BlueXP 中的修補程式版本</block>
+  <block id="5c04c0351e9f1e168f13ca5689c21d92" category="paragraph">BlueXP 中只有最新三個版本的 Cloud Volumes ONTAP 才提供修補程式版本。</block>
+  <block id="3a3843b2672bd389702bef2d50b13ac2" category="inline-link-macro">升級Cloud Volumes ONTAP</block>
+  <block id="debc8fcbe9103b95d21857d1276dbb26" category="paragraph"><block ref="debc8fcbe9103b95d21857d1276dbb26" category="inline-link-macro-rx"></block></block>
 </blocks>

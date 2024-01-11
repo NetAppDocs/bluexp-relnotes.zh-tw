@@ -19,24 +19,6 @@ sidebar:
     url: "/release-notes-index.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 新增功能
-    links:
-    - title: 最新的BlueXP變更
-      url: whats-new.html
-  - title: 按服務提供版本說明
-    links:
-    - title: 版本資訊索引
-      url: release-notes-index.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/Public-Cloud-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://bluexp.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

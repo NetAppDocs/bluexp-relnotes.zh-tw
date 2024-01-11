@@ -308,7 +308,7 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 ==== 將其他群組 ID 設定為「開放給組織」
 
-現在、您可以在 NFS 中設定群組 ID 、使其在 BlueXP 分類中直接被視為「開放組織」、前提是這些 ID 一開始並未設定為具有該權限。瞭解如何操作 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open["新增其他群組 ID 為「開放給組織」"]。
+現在您可以在 NFS 中設定群組 ID 、以便直接從 BlueXP 分類中將其視為「開放組織」、如果群組一開始沒有設定該權限。任何附加這些群組 ID 的檔案和資料夾、都會在「調查詳細資料」頁面中顯示為「開放給組織」。瞭解如何操作 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open.html["新增其他群組 ID 為「開放給組織」"]。
 
 
 
@@ -362,6 +362,18 @@ BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在
 
 
 
+=== 2024 年 1 月 16 日
+
+
+
+==== BlueXP 中的修補程式版本
+
+BlueXP 中只有最新三個版本的 Cloud Volumes ONTAP 才提供修補程式版本。
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#patch-releases["升級Cloud Volumes ONTAP"^]
+
+
+
 === 2024 年 1 月 8 日
 
 
@@ -387,42 +399,6 @@ link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-config
 ==== Cloud Volumes ONTAP 9.14.1 RC1
 
 BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 。
-
-
-
-=== 2023 年 12 月 5 日
-
-我們進行了下列變更。
-
-
-
-==== Azure 的新區域支援
-
-
-
-===== 單一可用性區域區域支援
-
-以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度單一可用度區域部署：
-
-* 特拉維夫
-* 米蘭
-
-
-
-
-===== 支援多種可用性區域
-
-以下地區現在支援 Azure 中 Cloud Volumes ONTAP 9.12.1 GA 及更新版本的高可用度多重可用度區域部署：
-
-* 印度中部
-* 挪威東部
-* 瑞士北部
-* 南非北部
-* 阿拉伯聯合大公國北部
-* 中國北方 3.
-
-
-如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
 
 
 
