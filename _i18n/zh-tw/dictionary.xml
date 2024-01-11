@@ -392,7 +392,6 @@
   <block id="0aa08047034186671d34875b5617b057" category="paragraph"><block ref="0aa08047034186671d34875b5617b057" category="inline-link-rx"></block></block>
   <block id="d687b97df8e082fb1a95e853c70aa1c2" category="section-title">2023 年 9 月 3 日</block>
   <block id="a0c145fadd8b464775a61d2f1a2e0474" category="paragraph">更新後的 BlueXP 移轉報告服務可提供報告資料的更新。報告現在包含已分配的容量。</block>
-  <block id="63ded913a4470920f93edd534ec90156" category="section-title">2023 年 9 月 11 日</block>
   <block id="101143ec501ddd03e76bf93ad136c2de" category="section-title">ONTAP 資料的新原則管理</block>
   <block id="d3744875712ea1e210c10ab00d139b5b" category="paragraph">此版本包含 UI 內的功能、可建立自訂的 Snapshot 原則、複寫原則、以及將 ONTAP 資料備份至物件儲存區的原則。</block>
   <block id="99a56480b438dfe7afa3558f8c8e61d0" category="inline-link">深入瞭解原則</block>
@@ -416,8 +415,6 @@
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023 年 9 月 27 日</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">升級顧問</block>
   <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10 月 4 日（版本 1.26 ）</block>
-  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023 年 10 月 6 日</block>
-  <block id="ce408175c3b7eaf6c3dfc910f3547833" category="section-title">連接器 3.9.34</block>
   <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">此版本包含一些小改進和錯誤修復。</block>
   <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">Connector 3.9.34 版隨附下列變更。</block>
   <block id="44d133359b344c4542acdebe6209e101" category="section-title">Cloud Volumes ONTAP 9.14.0%</block>
@@ -504,12 +501,6 @@
   <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">本版本已修正下列問題</block>
   <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">修正在儀表板中顯示系統掃描的檔案數量時出現不一致的情況。</block>
   <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">處理和報告名稱和中繼資料中含有特殊字元的檔案和目錄、以改善掃描行為。</block>
-  <block id="2bc724993144e8002899059117620062" category="inline-link">Google Cloud 下的全球區域地圖</block>
-  <block id="6a050b5b1c64124ef335bf9dbf64e03f" category="paragraph">如需所有區域的清單、請參閱<block ref="5328f934c7a30e2b8b67732fc162a525" category="inline-link-rx"></block>。</block>
-  <block id="e95c0c487a8aec79b7d3484dc5452526" category="section-title">2023 年 11 月 10 日</block>
-  <block id="8e40e7e4940e30b2ce260ff97ad74d25" category="paragraph">在 3.9.35 版 Connector 中引入了以下變更。</block>
-  <block id="1c13ec96dac1171608b6dbd65bb2245c" category="section-title">Google Cloud 現在支援柏林地區</block>
-  <block id="56e0da46254ac9c6f784da40f466bda0" category="paragraph">現在、 Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援柏林地區。</block>
   <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023 年 11 月 8 日</block>
   <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">此版本的 BlueXP 經濟效益包括一個新選項、可評估您的資產、並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。</block>
   <block id="aa4c67fd3731395f4450c9686b20f799" category="section-title">支援「工作監控」中的排程工作</block>
@@ -563,4 +554,46 @@
   <block id="92e19d728517dc371c0f37ee23fa9d03" category="list-text">阿拉伯聯合大公國北部</block>
   <block id="343c78956fe2e30b58a341de94a8673a" category="list-text">中國北方 3.</block>
   <block id="ee39417afe0e7b7726a65f6235448846" category="paragraph">如需所有區域的清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024 年 1 月 11 日</block>
+  <block id="dfbe132af57c8e3ca0aa9a94fc940839" category="section-title">連接器 3.9.36.</block>
+  <block id="c86344b833d64024dcd801a79f3f366e" category="paragraph">此版本包括下列雲端區域中的輕微改善、錯誤修正及 Connector 支援：</block>
+  <block id="5c4c535d51f9fbfc21f1baf9f449004c" category="list-text">AWS 中的以色列（特拉維夫）區域</block>
+  <block id="c53c95f8243560e843dabb8877e4d787" category="list-text">Google Cloud 中的沙烏地阿拉伯地區</block>
+  <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">2023 年 12 月 15 日</block>
+  <block id="7ab0753b80059fbad40a2fd72c4592ce" category="section-title">適用於本機 Snapshot 和複寫 Snapshot 複本的報告</block>
+  <block id="9e6cfaae073aa85c2c955e17e29074a8" category="paragraph">以前、您只能在備份複本上產生報告。現在、您也可以在本機 Snapshot 複本和複寫 Snapshot 複本上建立報告。</block>
+  <block id="df4821b02d035c9862b3a2ae32691ed8" category="paragraph">使用這些報告、您可以執行下列動作：</block>
+  <block id="bb80777a047b566ac3b10e32c370ca6a" category="list-text">確保關鍵資料受到組織原則的保護。</block>
+  <block id="4af8855be3acb3531c504c5560e50187" category="list-text">確保一組磁碟區的備份作業順利進行。</block>
+  <block id="21c3f5d157e063b8c2a027ddc88be774" category="list-text">為您的正式作業資料提供保護證明。</block>
+  <block id="7423bbe1d34880696cfb7dd51492349f" category="inline-link">報告資料保護涵蓋範圍</block>
+  <block id="eb6103dddc4e26822e765e4e36dce6cb" category="paragraph">請參閱<block ref="76fbdf5883fabf4a66bc2a9d2bdc8b58" category="inline-link-rx"></block>。</block>
+  <block id="e24cbc73c28ff71b40798b880015fb21" category="section-title">可在磁碟區上使用自訂標記進行排序和篩選</block>
+  <block id="080dddcbfae67093013a7e013a7a9bff" category="paragraph">您現在可以將自訂標記新增至 ONTAP 9.13.1 中的磁碟區、以便在工作環境中和跨工作環境將磁碟區分組在一起。如此一來、您就能在 BlueXP 備份與還原 UI 頁面中排序磁碟區、並在報告中篩選。</block>
+  <block id="6bc380f29d7a62cc8a2bd6b0b4dc9ccd" category="section-title">目錄備份保留 30 天</block>
+  <block id="2a7d8d5d92a8e8110b2bc2ab71c0c002" category="paragraph">以前、 Catalog.zip 備份會保留 7 天。現在、他們會保留 30 天。</block>
+  <block id="16f6196e265bdbd3f9da022848c51d8a" category="inline-link">在黑暗的站台中還原 BlueXP 備份與還原資料</block>
+  <block id="89b2c6f6be45f8f05d713b7bae69cd15" category="paragraph">請參閱<block ref="5596168e45150b1d53148898addeba07" category="inline-link-rx"></block>。</block>
+  <block id="08953d12d492df51bc90f2f43cd41a5e" category="section-title">將內部部署 ONTAP 資料備份至 StorageGRID 儲存區的保留量增加</block>
+  <block id="c07f9ba29ac424f316877aae26aa07b0" category="paragraph">StorageGRID 現在可在單一儲存區中、保留最多 30 個來自 BlueXP 備份與還原的內部部署 ONTAP 資料備份。以前、儲存庫中最多可有 7 個備份。</block>
+  <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">深入瞭解如何將內部部署ONTAP 的各項資料備份StorageGRID 到支援中心</block>
+  <block id="9fa7efa5e741bc1c7fa825541ca578ff" category="paragraph"><block ref="c5cc080595ac6d000b39fc62e24bb795" category="inline-link-rx"></block>。</block>
+  <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1 月 10 日（版本 1.27 ）</block>
+  <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
+  <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
+  <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">將其他群組 ID 設定為「開放給組織」</block>
+  <block id="617de59f0823cef046ababc40408cb92" category="inline-link">新增其他群組 ID 為「開放給組織」</block>
+  <block id="f51c5ae20e9943d0b0e6e5c5fff847e4" category="paragraph">現在、您可以在 NFS 中設定群組 ID 、使其在 BlueXP 分類中直接被視為「開放組織」、前提是這些 ID 一開始並未設定為具有該權限。瞭解如何操作<block ref="a69630de08e764820516472e7391212c" category="inline-link-rx"></block>。</block>
+  <block id="fd9107be3db2a4144e054c68a7eab15f" category="section-title">2024 年 1 月 8 日</block>
+  <block id="dba248d0d18e6170f9bd4a4286edda53" category="section-title">Azure 多個可用區域的新 VM</block>
+  <block id="c8d113632e2ef2b901829a0843658f2c" category="paragraph">從 Cloud Volumes ONTAP 9.13.1 開始、下列 VM 類型支援 Azure 多個可用性區域、以進行新的和現有的高可用度配對部署：</block>
+  <block id="ceac2355e7d70d7e31592bc8ded88ab3" category="list-text">L16s_v3</block>
+  <block id="2b89a58d3269391f70f9c7fb8d68f746" category="list-text">L32s_v3</block>
+  <block id="c7316b16841dc002d14d45c38a750287" category="list-text">L48s_v3</block>
+  <block id="b9f4aa39433f5232d4ce50f2a9a3c403" category="list-text">L64s_v3</block>
+  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link-macro">Azure支援的組態</block>
+  <block id="22342037237200e034fd29c9cfd5bfd4" category="paragraph"><block ref="22342037237200e034fd29c9cfd5bfd4" category="inline-link-macro-rx"></block></block>
+  <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024 年 1 月 3 日</block>
+  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
+  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
 </blocks>

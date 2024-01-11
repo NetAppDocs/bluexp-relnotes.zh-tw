@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp, google cloud, disaster recovery' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, kubernetes, reports, ontap clusters' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
 ---
 = 最新的BlueXP變更
@@ -30,6 +30,20 @@ NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud 
 
 
 
+=== 2024 年 1 月 11 日
+
+
+
+==== 連接器 3.9.36.
+
+此版本包括下列雲端區域中的輕微改善、錯誤修正及 Connector 支援：
+
+* AWS 中的以色列（特拉維夫）區域
+* Google Cloud 中的沙烏地阿拉伯地區
+
+
+
+
 === 2023 年 12 月 5 日
 
 
@@ -54,16 +68,6 @@ BlueXP 現已推出新的私有模式版本。此版本包含 3.9.35 版的 Conn
 ==== 連接器 3.9.35
 
 此版本包含較小的安全性改善和錯誤修正。
-
-
-
-=== 2023 年 10 月 6 日
-
-
-
-==== 連接器 3.9.34
-
-此版本包含一些小改進和錯誤修復。
 
 
 
@@ -177,6 +181,39 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2023 年 12 月 15 日
+
+
+
+==== 適用於本機 Snapshot 和複寫 Snapshot 複本的報告
+
+以前、您只能在備份複本上產生報告。現在、您也可以在本機 Snapshot 複本和複寫 Snapshot 複本上建立報告。
+
+使用這些報告、您可以執行下列動作：
+
+* 確保關鍵資料受到組織原則的保護。
+* 確保一組磁碟區的備份作業順利進行。
+* 為您的正式作業資料提供保護證明。
+
+
+請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-report-inventory.html["報告資料保護涵蓋範圍"]。
+
+
+
+==== 可在磁碟區上使用自訂標記進行排序和篩選
+
+您現在可以將自訂標記新增至 ONTAP 9.13.1 中的磁碟區、以便在工作環境中和跨工作環境將磁碟區分組在一起。如此一來、您就能在 BlueXP 備份與還原 UI 頁面中排序磁碟區、並在報告中篩選。
+
+
+
+==== 目錄備份保留 30 天
+
+以前、 Catalog.zip 備份會保留 7 天。現在、他們會保留 30 天。
+
+請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-backup-cbs-db-in-dark-site.html["在黑暗的站台中還原 BlueXP 備份與還原資料"]。
+
+
+
 === 2023 年 10 月 23 日
 
 
@@ -196,6 +233,14 @@ BlueXP 備份與還原現在提供從雲端儲存設備快速還原磁碟區至 
 Cloud Volumes ONTAP 目的地系統必須執行 ONTAP 9.13.0 版或更新版本。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解還原資料"]。
 
 BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相關資訊。
+
+
+
+==== 將內部部署 ONTAP 資料備份至 StorageGRID 儲存區的保留量增加
+
+StorageGRID 現在可在單一儲存區中、保留最多 30 個來自 BlueXP 備份與還原的內部部署 ONTAP 資料備份。以前、儲存庫中最多可有 7 個備份。
+
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["深入瞭解如何將內部部署ONTAP 的各項資料備份StorageGRID 到支援中心"]。
 
 
 
@@ -247,87 +292,23 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 
 
-=== 2023 年 9 月 11 日
-
-
-
-==== ONTAP 資料的新原則管理
-
-此版本包含 UI 內的功能、可建立自訂的 Snapshot 原則、複寫原則、以及將 ONTAP 資料備份至物件儲存區的原則。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["深入瞭解原則"]。
-
-
-
-==== 支援從 ONTAP S3 物件儲存區的磁碟區還原檔案和資料夾
-
-以前、當磁碟區備份到 ONTAP S3 物件儲存時、您無法使用「瀏覽與還原」功能還原檔案和資料夾。此版本可移除此限制。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解還原資料"]。
-
-
-
-==== 能夠立即歸檔備份資料、而非先寫入標準儲存設備
-
-現在您可以立即將備份檔案傳送至歸檔儲存設備、而非將資料寫入標準雲端儲存設備。這對很少需要從雲端備份存取資料的使用者或是更換磁帶環境備份的使用者而言特別有幫助。
-
-
-
-==== 額外支援備份與還原 SnapLock Volume
-
-備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["深入瞭解如何保護 ONTAP 資料"]。
-
-
-
-=== 2023 年 8 月 1 日
-
-[IMPORTANT]
-====
-* 由於 Connector 具備重要的安全性增強功能、因此現在需要透過外部網際網路存取額外的端點、才能在公有雲環境中管理備份與還原資源。如果此端點尚未新增至防火牆的「允許」清單、您會在 UI 中看到「服務無法使用」或「無法判斷服務狀態」的錯誤：
-+
-\https://netapp-cloud-account.auth0.com
-
-* 現在當您使用「 CVO 專業版」套件時、您必須訂閱備份與還原 PAYGO 、才能套裝 Cloud Volumes ONTAP 與 BlueXP 備份與還原。過去並不需要這麼做。符合資格的 Cloud Volumes ONTAP 系統的備份與還原訂閱不會產生任何費用、但在任何新磁碟區上設定備份時都需要付費。
-
-
-====
-
-
-==== 新增支援功能、可將磁碟區備份至 S3 組態 ONTAP 系統上的貯體
-
-現在您可以使用已設定為簡易儲存服務（ S3 ）的 ONTAP 系統、將磁碟區備份至物件儲存。內部部署 ONTAP 系統和 Cloud Volumes ONTAP 系統皆支援此功能。此組態可在雲端部署和內部部署位置中支援、無需網際網路存取（「私有」模式部署）。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-to-ontap-s3.html["深入瞭解"]。
-
-
-
-==== 現在您可以在備份檔案中加入受保護磁碟區的現有 Snapshot
-
-過去、您可以在初始備份檔案中將現有的 Snapshot 複本從讀寫磁碟區納入物件儲存區（而非從最新的 Snapshot 複本開始）。備份檔案中不包含來自唯讀磁碟區（資料保護磁碟區）的現有 Snapshot 複本。現在您可以選擇在「 DP 」磁碟區的備份檔案中包含較舊的 Snapshot 複本。
-
-備份精靈會在備份步驟結束時顯示提示、您可以在其中選取這些「現有的快照」。
-
-
-
-==== BlueXP 備份與還原不再支援未來新增的磁碟區自動備份
-
-以前、您可以勾選備份精靈中的方塊、將選取的備份原則套用至未來新增至叢集的所有磁碟區。此功能已根據使用者的意見反應及缺乏使用此功能而移除。您需要手動啟用新增至叢集的任何新磁碟區備份。
-
-
-
-==== 「工作監控」頁面已更新為新功能
-
-「工作監控」頁面現在提供有關 3-2-1 備份策略的更多資訊。此服務也會提供與備份策略相關的其他警示通知。
-
-「備份生命週期」類型篩選器已重新命名為「保留」。使用此篩選器可追蹤備份生命週期、並識別所有備份複本的到期日。「保留」工作類型會擷取在受 BlueXP 備份與還原保護的磁碟區上所起始的所有 Snapshot 刪除工作。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["深入瞭解更新的工作監控器"]。
-
-
-
 == 分類
+
+
+
+=== 1 月 10 日（版本 1.27 ）
+
+
+
+==== 調查頁面結果現在除了顯示項目總數之外、還會顯示總大小
+
+「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。
+
+
+
+==== 將其他群組 ID 設定為「開放給組織」
+
+現在、您可以在 NFS 中設定群組 ID 、使其在 BlueXP 分類中直接被視為「開放組織」、前提是這些 ID 一開始並未設定為具有該權限。瞭解如何操作 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open["新增其他群組 ID 為「開放給組織」"]。
 
 
 
@@ -381,6 +362,24 @@ BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在
 
 
 
+=== 2024 年 1 月 8 日
+
+
+
+==== Azure 多個可用區域的新 VM
+
+從 Cloud Volumes ONTAP 9.13.1 開始、下列 VM 類型支援 Azure 多個可用性區域、以進行新的和現有的高可用度配對部署：
+
+* L16s_v3
+* L32s_v3
+* L48s_v3
+* L64s_v3
+
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
+
+
+
 === 2023 年 12 月 6 日
 
 
@@ -424,20 +423,6 @@ BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud V
 
 
 如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
-
-
-
-=== 2023 年 11 月 10 日
-
-在 3.9.35 版 Connector 中引入了以下變更。
-
-
-
-==== Google Cloud 現在支援柏林地區
-
-現在、 Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本均支援柏林地區。
-
-如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Google Cloud 下的全球區域地圖"^]。
 
 
 
@@ -577,6 +562,16 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#googl
 
 
 
+=== 2024 年 1 月 3 日
+
+
+
+=== 升級顧問
+
+升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["瞭解如何檢視升級建議並產生升級計畫。"]
+
+
+
 === 2023 年 11 月 16 日
 
 
@@ -602,18 +597,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#googl
 ==== 規劃 Widget
 
 技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。
-
-
-
-=== 2023 年 9 月 27 日
-
-
-
-==== 升級顧問
-
-* 您可以使用存取預設報價表的 Upgrade Advisor 頁面 link:https://activeiq.netapp.com/redirect/upgrade-advisor["升級顧問"^] 連結：
-* 升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["瞭解如何產生及檢視升級計畫"]。
-
 
 
 
