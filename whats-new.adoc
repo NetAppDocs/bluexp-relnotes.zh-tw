@@ -175,6 +175,18 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2024 年 2 月 1 日
+
+
+
+==== 虛擬機器的 BlueXP 備份與還原增強功能
+
+* 支援將虛擬機器還原至其他位置
+* 支援不保護資料存放區
+
+
+
+
 === 2023 年 12 月 15 日
 
 
@@ -230,14 +242,6 @@ BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相�
 
 
 
-==== 將內部部署 ONTAP 資料備份至 StorageGRID 儲存區的保留量增加
-
-StorageGRID 現在可在單一儲存區中、保留最多 30 個來自 BlueXP 備份與還原的內部部署 ONTAP 資料備份。以前、儲存庫中最多可有 7 個備份。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["深入瞭解如何將內部部署ONTAP 的各項資料備份StorageGRID 到支援中心"]。
-
-
-
 ==== 支援「工作監控」中的排程工作
 
 BlueXP 備份與還原工作監控先前監控的排程磁碟區對物件儲存區備份與還原工作、但不是透過 UI 或 API 排程的本機 Snapshot 、複寫、備份與還原工作。
@@ -245,44 +249,6 @@ BlueXP 備份與還原工作監控先前監控的排程磁碟區對物件儲存�
 BlueXP 備份與還原工作監視器現在包含排程工作、可用於本機快照、複製及備份至物件儲存設備。
 
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["深入瞭解更新的工作監控器"]。
-
-
-
-=== 2023 年 10 月 13 日
-
-
-
-==== 應用程式（雲端原生）的 BlueXP 備份與還原功能增強功能
-
-* Microsoft SQL Server 資料庫
-+
-** 支援 Amazon FSX for NetApp ONTAP 上的 Microsoft SQL Server 資料庫備份、還原及還原
-** 所有作業只能透過 REST API 支援。
-
-
-* SAP HANA 系統
-+
-** 在系統重新整理期間、會使用工作流程而非指令碼來自動掛載和卸載磁碟區
-** 支援新增、移除、編輯、刪除、維護、 並使用 UI 升級外掛主機
-
-
-
-
-
-
-==== 應用程式（混合式） BlueXP 備份與還原的增強功能
-
-* 支援資料鎖定和勒索軟體保護
-* 支援將備份從 StorageGRID 移至歸檔層
-* 支援備份 MongoDB 、 MySQL 和 PostgreSQL 應用程式資料、從內部部署的 ONTAP 系統、到 Amazon Web Services 、 Microsoft Azure 、 Google Cloud Platform 和 StorageGRID 。您可以在必要時還原資料。
-
-
-
-
-==== 虛擬機器的 BlueXP 備份與還原增強功能
-
-* 支援 Connector Proxy 部署模式
-
 
 
 
@@ -334,6 +300,26 @@ Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 B
 
 
 
+=== 2024 年 2 月 2 日
+
+
+
+==== 支援 Azure 中的 Edv5 系列 VM
+
+Cloud Volumes ONTAP 現在支援從 9.14.1 版開始的下列 Edv5 系列 VM 。
+
+* E4ds_v5
+* E8ds_v5
+* E20s_v5
+* E32ds_v5
+* E48ds_v5
+* E64ds_v5
+
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
+
+
+
 === 2024 年 1 月 16 日
 
 
@@ -361,16 +347,6 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-onta
 
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
-
-
-
-=== 2023 年 12 月 6 日
-
-
-
-==== Cloud Volumes ONTAP 9.14.1 RC1
-
-BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 。
 
 
 

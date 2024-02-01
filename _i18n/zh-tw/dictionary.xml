@@ -88,7 +88,6 @@
   <block id="5bffab86d093605978b7c1efd3c0d337" category="inline-link">BlueXP中的更新版本資訊Cloud Volumes ONTAP</block>
   <block id="8d9e30572c7be0b05a6e777166ea7d0b" category="summary">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。</block>
   <block id="67d516de6d58e90ec46d8a36eecbf35a" category="doc">最新的BlueXP變更</block>
-  <block id="560c5ee7b92d80b3ef198362d8323824" category="section-title">介紹BlueXP</block>
   <block id="87448a3fa35fafb362a06b4d17cc1328" category="paragraph">本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。</block>
   <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：</block>
   <block id="d88ec9141ca0f799220b70e6188c8c33" category="section-title">2022年10月24日（2.1版）</block>
@@ -123,7 +122,6 @@
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">授權標籤已移除</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">分層索引標籤已重新命名、並已更新內容</block>
-  <block id="1d0a8122e5a250dbe5879cd7f8f5a495" category="inline-link">深入瞭解 BlueXP 的推出</block>
   <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023 年 4 月 5 日（ 2.2 版）</block>
   <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache</block>
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。</block>
@@ -188,7 +186,6 @@
   <block id="b58c4ddee0575cfc72a18936b05df78a" category="list-text"><block ref="b58c4ddee0575cfc72a18936b05df78a" category="inline-link-rx"></block></block>
   <block id="c821df2021ac7a846f6554ac1ed76719" category="list-text"><block ref="c821df2021ac7a846f6554ac1ed76719" category="inline-link-rx"></block></block>
   <block id="367cb072fdec82ba883d66fadac7fc54" category="list-text"><block ref="367cb072fdec82ba883d66fadac7fc54" category="inline-link-rx"></block></block>
-  <block id="98ffac9f61e6bf431d54a18e34b9a53d" category="paragraph">NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud Manager 所提供的功能。<block ref="c202e01c48134f154e0a38e5e6d1aed9" category="inline-link-rx"></block></block>
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
   <block id="45ee83d3cd24c8a79ff15330399da6a7" category="list-text"><block ref="45ee83d3cd24c8a79ff15330399da6a7" category="inline-link-rx"></block></block>
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>。</block>
@@ -371,7 +368,6 @@
   <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">從 BlueXP 在 AWS 中建立連接器時、會出現在「網路」頁面上的「金鑰配對」欄位中搜尋選項的螢幕擷取畫面。</block>
   <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="90641719c2018ef19f0a8140a88f5fee" category="list-text">此更新也包含錯誤修正。</block>
-  <block id="9d1bf1e07d6563a578988a0916d686ff" category="section-title">9 月 5 日（ 1.25 版）</block>
   <block id="a4338ca25ea7436675e99fe5320a9d8a" category="section-title">從「調查結果」頁面、最多可在 100 、 000 個項目上套用標記</block>
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">瞭解方法</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">識別檔案大小最小為 1 MB 的重複檔案</block>
@@ -423,7 +419,6 @@
   <block id="176b76bad16e5fd8729393946eb26540" category="paragraph">BlueXP 備份與還原現在提供從雲端儲存設備快速還原磁碟區至 Cloud Volumes ONTAP 系統的功能。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原可將中繼資料從備份檔案還原至磁碟區、而非還原整個備份檔案。</block>
   <block id="1d2fad969d5ec82be3bae65922e81ae0" category="paragraph">Cloud Volumes ONTAP 目的地系統必須執行 ONTAP 9.13.0 版或更新版本。<block ref="b1f838c6239cc5d42e2bbd74d1b6c2a2" category="inline-link-rx"></block>。</block>
   <block id="a508551aa743c3098667d5ae32149739" category="paragraph">BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相關資訊。</block>
-  <block id="eb018f0a377269905eb589a99448cf57" category="section-title">2023 年 10 月 13 日</block>
   <block id="197747cde80c31576877de78be696240" category="section-title">應用程式（雲端原生）的 BlueXP 備份與還原功能增強功能</block>
   <block id="d9a26494c95cbef43a71fa2585292af3" category="list-text">Microsoft SQL Server 資料庫</block>
   <block id="270a06ed19fec772bcfb084931cae13d" category="list-text">支援 Amazon FSX for NetApp ONTAP 上的 Microsoft SQL Server 資料庫備份、還原及還原</block>
@@ -530,9 +525,6 @@
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">技術更新建議現在可在觀察清單、網站和群組儀表板中找到。</block>
   <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</block>
   <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
-  <block id="a037be7aafc2f071c4517e8f2c6e58e9" category="section-title">2023 年 12 月 6 日</block>
-  <block id="4a76045b19fb3233070f77ae414d5810" category="section-title">Cloud Volumes ONTAP 9.14.1 RC1</block>
-  <block id="efb4d9478ba663f514e18b3310c2de65" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 。</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024 年 1 月 11 日</block>
   <block id="dfbe132af57c8e3ca0aa9a94fc940839" category="section-title">連接器 3.9.36.</block>
   <block id="c86344b833d64024dcd801a79f3f366e" category="paragraph">此版本包括下列雲端區域中的輕微改善、錯誤修正及 Connector 支援：</block>
@@ -553,10 +545,6 @@
   <block id="2a7d8d5d92a8e8110b2bc2ab71c0c002" category="paragraph">以前、 Catalog.zip 備份會保留 7 天。現在、他們會保留 30 天。</block>
   <block id="16f6196e265bdbd3f9da022848c51d8a" category="inline-link">在黑暗的站台中還原 BlueXP 備份與還原資料</block>
   <block id="89b2c6f6be45f8f05d713b7bae69cd15" category="paragraph">請參閱<block ref="5596168e45150b1d53148898addeba07" category="inline-link-rx"></block>。</block>
-  <block id="08953d12d492df51bc90f2f43cd41a5e" category="section-title">將內部部署 ONTAP 資料備份至 StorageGRID 儲存區的保留量增加</block>
-  <block id="c07f9ba29ac424f316877aae26aa07b0" category="paragraph">StorageGRID 現在可在單一儲存區中、保留最多 30 個來自 BlueXP 備份與還原的內部部署 ONTAP 資料備份。以前、儲存庫中最多可有 7 個備份。</block>
-  <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">深入瞭解如何將內部部署ONTAP 的各項資料備份StorageGRID 到支援中心</block>
-  <block id="9fa7efa5e741bc1c7fa825541ca578ff" category="paragraph"><block ref="c5cc080595ac6d000b39fc62e24bb795" category="inline-link-rx"></block>。</block>
   <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1 月 10 日（版本 1.27 ）</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
@@ -580,4 +568,16 @@
   <block id="5c04c0351e9f1e168f13ca5689c21d92" category="paragraph">BlueXP 中只有最新三個版本的 Cloud Volumes ONTAP 才提供修補程式版本。</block>
   <block id="3a3843b2672bd389702bef2d50b13ac2" category="inline-link-macro">升級Cloud Volumes ONTAP</block>
   <block id="debc8fcbe9103b95d21857d1276dbb26" category="paragraph"><block ref="debc8fcbe9103b95d21857d1276dbb26" category="inline-link-macro-rx"></block></block>
+  <block id="4e1f7d458412b18adef0e5ff0db2eee8" category="section-title">2024 年 2 月 1 日</block>
+  <block id="a409179aac0b12213b3fa77e0a22bd61" category="list-text">支援將虛擬機器還原至其他位置</block>
+  <block id="9c75b0f26dddf07ed827e32aaf28bee9" category="list-text">支援不保護資料存放區</block>
+  <block id="d4eb5b4412a01c5991086dff8c51a89f" category="section-title">2024 年 2 月 2 日</block>
+  <block id="4b2d018110adbf4819b09a7a28283445" category="section-title">支援 Azure 中的 Edv5 系列 VM</block>
+  <block id="d94bc26a7eea05003dc921a469161911" category="paragraph">Cloud Volumes ONTAP 現在支援從 9.14.1 版開始的下列 Edv5 系列 VM 。</block>
+  <block id="0ce1565dc58071deb098bde3e5a6a4b6" category="list-text">E4ds_v5</block>
+  <block id="625fbc51242c48d9e17a8b8b2fe6e5c7" category="list-text">E8ds_v5</block>
+  <block id="d6f19e3dc85d5a64809ab696a35a54ab" category="list-text">E20s_v5</block>
+  <block id="708880d509c52585ca0500cd17ef2166" category="list-text">E32ds_v5</block>
+  <block id="843cc0b63b36e79d0bdf4097a1b84b6a" category="list-text">E48ds_v5</block>
+  <block id="6ec5cb856eb24c85cf7368cdfd11627f" category="list-text">E64ds_v5</block>
 </blocks>
