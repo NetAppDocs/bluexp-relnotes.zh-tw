@@ -18,12 +18,6 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
-== 介紹BlueXP
-
-NetApp BlueXP 於 2022 年 11 月 1 日推出。BlueXP 可擴充並強化 Cloud Manager 所提供的功能。 https://docs.netapp.com/us-en/bluexp-family/concept-overview.html["深入瞭解 BlueXP 的推出"^]
-
-
-
 == 管理功能
 
 本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。
@@ -333,28 +327,6 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝 BlueXP 分類、並使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。
 
 目前、我們不支援使用 RHEL 9.x 進行暗點安裝或分散式掃描環境（使用主要和遠端掃描器節點）
-
-
-
-=== 9 月 5 日（ 1.25 版）
-
-
-
-==== 中小企業部署暫時無法使用
-
-當您在 AWS 中部署 BlueXP 分類執行個體時、目前無法使用選擇 * 部署 > 組態 * 並選擇中小型執行個體的選項。您仍然可以使用大型執行個體來部署執行個體、方法是選取 * 部署 > 部署 * 。
-
-
-
-==== 從「調查結果」頁面、最多可在 100 、 000 個項目上套用標記
-
-過去、您只能在「調查結果」頁面（ 20 個項目）中一次將標記套用至單一頁面。現在您可以在「調查結果」頁面中選取 * 所有 * 項目、並將標記套用至所有項目、一次最多可有 100,000 個項目。 https://docs.netapp.com/us-en/bluexp-classification/task-org-private-data.html#assigning-tags-to-files["瞭解方法"]。
-
-
-
-==== 識別檔案大小最小為 1 MB 的重複檔案
-
-BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在可以識別以 1 MB 開始的重複檔案。您可以使用「調查」頁面篩選「檔案大小」和「重複」、來查看環境中有哪些檔案大小的複本。
 
 
 
