@@ -117,7 +117,6 @@
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="section-title">經濟效益</block>
   <block id="88c49608e723add593f5becc8bd9a968" category="section-title">2023 年 4 月 2 日</block>
   <block id="efc0c4f71709b261c273fb935757cfae" category="section-title">營運恢復能力</block>
-  <block id="7907a1fccb5b8aa9b8df8283d3705052" category="list-text"><block ref="7907a1fccb5b8aa9b8df8283d3705052" category="inline-link-rx"></block></block>
   <block id="207aaa44f72ba634c18fcc9bae44d655" category="inline-link">瞭解如何檢視您帳戶中的已用容量</block>
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">授權標籤已移除</block>
@@ -315,7 +314,6 @@
   <block id="30fee46958559c602b944cc387c72292" category="paragraph">客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。</block>
   <block id="4a105824b6f84a35559612caf12c452d" category="inline-link-macro">Amazon FSX for NetApp ONTAP 現已在另外三個地區推出</block>
   <block id="e1203bb3756aaddbc1d40b7033d44bd1" category="paragraph">請參閱 <block ref="2ffac1c1fc93e8203aa3ebf9b3a6ff2d" category="inline-link-macro-rx"></block> 以取得完整詳細資料。</block>
-  <block id="a57bb636c3624bebb972f007b21fd8fb" category="section-title">2023 年 8 月 6 日</block>
   <block id="56a559acc9f9bd2fc9cf51154aef7ce5" category="section-title">建立資料代理程式時、請使用現有的 Azure 安全性群組</block>
   <block id="bf4bc301ccb8b2b21ef394a22e4afef6" category="paragraph">使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。</block>
   <block id="fd514a292e754d2839b0e90da5ac3514" category="paragraph">建立資料代理程式時所使用的服務帳戶必須具有下列權限：</block>
@@ -337,7 +335,6 @@
   <block id="2d81e61b650e87c484f1701ff4c00053" category="section-title">在所有 BlueXP Connector 上搜尋叢集</block>
   <block id="6a3a27c0cd9c23985f6e8260846d58bc" category="paragraph">如果您使用多個 Connectors 來管理環境中的所有儲存系統、則您要實作分層的某些叢集可能位於不同的 Connectors 。如果您不確定哪個 Connector 正在管理特定叢集、您可以使用 BlueXP 分層功能在所有 Connector 之間搜尋。<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block>。</block>
   <block id="857c228cf033cf46c4d3b643ed4db3a6" category="paragraph">稽核服務會記錄 BlueXP 服務所執行作業的相關資訊。這包括工作區、使用的連接器和其他遙測資料。您可以使用此資料來判斷執行的動作、執行者及執行時間。</block>
-  <block id="ca8395d0f02816c74d48e7e263466096" category="section-title">2023 年 8 月 1 日</block>
   <block id="94798620994cb827b675957027c80437" category="paragraph">由於 Connector 具備重要的安全性增強功能、因此現在需要透過外部網際網路存取額外的端點、才能在公有雲環境中管理備份與還原資源。如果此端點尚未新增至防火牆的「允許」清單、您會在 UI 中看到「服務無法使用」或「無法判斷服務狀態」的錯誤：</block>
   <block id="300f031c227ed1b4448a8bb51abec2bb" category="paragraph">\https://netapp-cloud-account.auth0.com</block>
   <block id="e752fa0925615f823987d88e457d59fd" category="section-title">新增支援功能、可將磁碟區備份至 S3 組態 ONTAP 系統上的貯體</block>
@@ -361,9 +358,6 @@
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">建立複寫計畫</block>
   <block id="7fad1567be7a7caec7818041fdf4a9c6" category="inline-link-macro">監控災難恢復工作</block>
   <block id="e1835ebe19023a9c7bf0e0e7dd756bf7" category="inline-link-macro">深入瞭解 BlueXP 災難恢復</block>
-  <block id="8454892d6268011bb79d98eedd4f8afb" category="paragraph"><block ref="10a687fb14a41a274bb5d883fcf5c124" category="inline-link-macro-rx"></block>。</block>
-  <block id="405e835e0544bb4cc8bbd26a2c840b54" category="section-title">2023 年 5 月 18 日</block>
-  <block id="acff175f1bababdb2baa1348412d501d" category="paragraph">這是 BlueXP 災難恢復的初始版本。</block>
   <block id="d8465669650730f887acd3754f3dea9f" category="list-text">當您從 BlueXP 在 AWS 中建立 Connector 時、現在可以在金鑰配對欄位中搜尋、以便更輕鬆地找到您要與 Connector 執行個體搭配使用的金鑰配對。</block>
   <block id="5fa35188b7dd9c428afc77ce84eeb10b" category="inline-image-macro">從 BlueXP 在 AWS 中建立連接器時、會出現在「網路」頁面上的「金鑰配對」欄位中搜尋選項的螢幕擷取畫面。</block>
   <block id="37570078060157a3624ff806701689b8" category="paragraph"><block ref="37570078060157a3624ff806701689b8" category="inline-image-macro-rx" type="image"></block></block>
@@ -402,9 +396,7 @@
   <block id="6ce2a7f72f88b0710fcd4fd7c8040621" category="section-title">中小企業部署暫時無法使用</block>
   <block id="6c7040f055c36964a640c88c62785b1b" category="paragraph">當您在 AWS 中部署 BlueXP 分類執行個體時、目前無法使用選擇 * 部署 &gt; 組態 * 並選擇中小型執行個體的選項。您仍然可以使用大型執行個體來部署執行個體、方法是選取 * 部署 &gt; 部署 * 。</block>
   <block id="a95484ffd76e2e97fc6d584af31d2888" category="paragraph">過去、您只能在「調查結果」頁面（ 20 個項目）中一次將標記套用至單一頁面。現在您可以在「調查結果」頁面中選取 * 所有 * 項目、並將標記套用至所有項目、一次最多可有 100,000 個項目。<block ref="3e9397a24d29fef2aa895562fb0169fb" category="inline-link-rx"></block>。</block>
-  <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">2023 年 9 月 27 日</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="section-title">升級顧問</block>
-  <block id="4b9f4d0e463502904f138e1d9f0014a4" category="section-title">10 月 4 日（版本 1.26 ）</block>
   <block id="0b440ac3de48c7d11ee5fad31e6b4f12" category="paragraph">此版本包含一些小改進和錯誤修復。</block>
   <block id="5612c729ea34f27969af31fd815184e0" category="paragraph">Connector 3.9.34 版隨附下列變更。</block>
   <block id="44d133359b344c4542acdebe6209e101" category="section-title">Cloud Volumes ONTAP 9.14.0%</block>
@@ -480,16 +472,11 @@
   <block id="df189cdccc86fb97d3dabac525f1ea4a" category="list-text">* 複寫驗證 * ：建立災難恢復或複寫計畫後、請在精靈中找出重複發生的情形、並啟動複寫至災難恢復站台、每 30 分鐘執行一次 BlueXP 災難恢復、就會驗證複寫是否確實根據計畫進行。您可以在「工作監控」頁面中監控進度。請參閱 <block ref="e2d34ab7e7f8a76fb6ba2dcd38a58bb2" category="inline-link-rx"></block>。</block>
   <block id="8b2ef00da71b5ca9de3b177a60a87cf4" category="list-text">* 複寫計畫顯示恢復點目標（ RPO ）傳輸排程 * ：建立災難恢復或複寫計畫時、您可以選取虛擬機器。在此版本中、您現在可以檢視與資料存放區或 VM 相關聯的每個磁碟區相關聯的 SnapMirror 。您也可以查看與 SnapMirror 排程相關的 RPO 傳輸排程。RPO 可協助您判斷備份排程是否足以在災難後恢復。請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
   <block id="7a1d90df184c04b8d0dc0ca260e46e67" category="list-text">* 工作監控更新 * ：「工作監控」頁面現在包含「重新整理」選項、可讓您取得最新的作業狀態。請參閱 <block ref="701085704c7bdf4268d7fbe3111fe8b9" category="inline-link-rx"></block>。</block>
-  <block id="25d037b5df7f2e04a4d6a1a3bc33caa7" category="paragraph">BlueXP 災難恢復是一種雲端型災難恢復服務、可自動化災難恢復工作流程。最初、透過 BlueXP 災難恢復預覽、您可以保護內部部署、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存設備、將其移轉至 VMware Cloud （ VMC ）、並搭配 Amazon FSX for ONTAP 。</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">您現在可以直接從 BlueXP 探索 E 系列系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
   <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
   <block id="d64cd771f2e77e7c0e4209d28afed019" category="section-title">2023 年 11 月 8 日</block>
   <block id="82a9cd2bfcf44ef6090c93dcb2ee0451" category="section-title">連接器 3.9.35</block>
   <block id="77fe99ef9ead4490d30142892f6b5fec" category="paragraph">此版本包含較小的安全性改善和錯誤修正。</block>
-  <block id="abff2804f60c6da51fe02e78167abad1" category="section-title">11 月 6 日（版本 1.26.3 ）</block>
-  <block id="e25bae53fb1951841531279fa78ee63a" category="section-title">本版本已修正下列問題</block>
-  <block id="299ea648aaf9c598beed6ef12a6ef415" category="list-text">修正在儀表板中顯示系統掃描的檔案數量時出現不一致的情況。</block>
-  <block id="c6e9efb915fb85dd556a71294988c99a" category="list-text">處理和報告名稱和中繼資料中含有特殊字元的檔案和目錄、以改善掃描行為。</block>
   <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023 年 11 月 8 日</block>
   <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">此版本的 BlueXP 經濟效益包括一個新選項、可評估您的資產、並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。</block>
   <block id="aa4c67fd3731395f4450c9686b20f799" category="section-title">支援「工作監控」中的排程工作</block>
@@ -545,18 +532,10 @@
   <block id="2a7d8d5d92a8e8110b2bc2ab71c0c002" category="paragraph">以前、 Catalog.zip 備份會保留 7 天。現在、他們會保留 30 天。</block>
   <block id="16f6196e265bdbd3f9da022848c51d8a" category="inline-link">在黑暗的站台中還原 BlueXP 備份與還原資料</block>
   <block id="89b2c6f6be45f8f05d713b7bae69cd15" category="paragraph">請參閱<block ref="5596168e45150b1d53148898addeba07" category="inline-link-rx"></block>。</block>
-  <block id="81c60fb26d30a0a1fa208bc6b7d14e6f" category="section-title">1 月 10 日（版本 1.27 ）</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">將其他群組 ID 設定為「開放給組織」</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">新增其他群組 ID 為「開放給組織」</block>
-  <block id="fd9107be3db2a4144e054c68a7eab15f" category="section-title">2024 年 1 月 8 日</block>
-  <block id="dba248d0d18e6170f9bd4a4286edda53" category="section-title">Azure 多個可用區域的新 VM</block>
-  <block id="c8d113632e2ef2b901829a0843658f2c" category="paragraph">從 Cloud Volumes ONTAP 9.13.1 開始、下列 VM 類型支援 Azure 多個可用性區域、以進行新的和現有的高可用度配對部署：</block>
-  <block id="ceac2355e7d70d7e31592bc8ded88ab3" category="list-text">L16s_v3</block>
-  <block id="2b89a58d3269391f70f9c7fb8d68f746" category="list-text">L32s_v3</block>
-  <block id="c7316b16841dc002d14d45c38a750287" category="list-text">L48s_v3</block>
-  <block id="b9f4aa39433f5232d4ce50f2a9a3c403" category="list-text">L64s_v3</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link-macro">Azure支援的組態</block>
   <block id="22342037237200e034fd29c9cfd5bfd4" category="paragraph"><block ref="22342037237200e034fd29c9cfd5bfd4" category="inline-link-macro-rx"></block></block>
   <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024 年 1 月 3 日</block>
@@ -580,4 +559,101 @@
   <block id="708880d509c52585ca0500cd17ef2166" category="list-text">E32ds_v5</block>
   <block id="843cc0b63b36e79d0bdf4097a1b84b6a" category="list-text">E48ds_v5</block>
   <block id="6ec5cb856eb24c85cf7368cdfd11627f" category="list-text">E64ds_v5</block>
+  <block id="5985540cd0cc5c0e58eaebe95659534e" category="section-title">2024 年 2 月 15 日</block>
+  <block id="875cabf7fcb6d8f631b842029efd2117" category="section-title">連接器 3.9.37</block>
+  <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。</block>
+  <block id="937efe0b961bcb892e05e19e0c147973" category="paragraph">目前、 3.9.37 版本適用於標準模式和受限模式。</block>
+  <block id="f1c2261d89d52febeed15edf1f34a5b7" category="section-title">編輯名稱</block>
+  <block id="c42458c54134318669b685ee8730a478" category="paragraph">如果您使用 NetApp 雲端認證登入 BlueXP 、現在您可以在 * 使用者設定 * 中編輯您的名稱。</block>
+  <block id="ab15c21485050b3b0c09a3b7b31d97d7" category="inline-image-macro">螢幕擷取畫面、顯示在使用者設定下編輯您的姓名的能力。</block>
+  <block id="daf15a33710ed6188d035a01c084bee9" category="paragraph"><block ref="daf15a33710ed6188d035a01c084bee9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a784443543a41df794122c52fae1df7" category="paragraph">如果您以同盟連線或 NetApp 支援網站 帳戶登入、則不支援編輯您的名稱。</block>
+  <block id="c7f67b21e0c8d093756f7b3a59e8d2e8" category="section-title">EC2 執行個體的 IMDSv1 需求</block>
+  <block id="09477b433fb18272d0d3ee6b7a7e23ad" category="paragraph">請注意、在 Amazon EC2 執行個體上、必須先使用執行個體中繼資料服務版本 1 （ IMDSv1 ）、才能在 AWS 中手動安裝 Connector 軟體。</block>
+  <block id="f8197842b4e7ad7b7b15ef36dcb4ae78" category="inline-link">深入瞭解 AWS 中的 IMDSv1 需求</block>
+  <block id="ae1d4316f9a8104fa910e65fd2096cb3" category="paragraph"><block ref="3fb75bc46ec80b0989f43707450cda37" category="inline-link-rx"></block>。</block>
+  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024 年 3 月 4 日（版本 1.29 ）</block>
+  <block id="2155776a968fa3c23d5147a57832435f" category="section-title">現在您可以排除位於特定資料來源目錄中的掃描資料</block>
+  <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果您想要 BlueXP 分類排除位於特定資料來源目錄中的掃描資料、您可以將這些目錄名稱新增至 BlueXP 分類處理的組態檔。此功能可讓您避免掃描不必要的目錄、或是導致傳回誤判的個人資料結果。</block>
+  <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>。</block>
+  <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024 年 1 月 10 日（版本 1.27 ）</block>
+  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023 年 12 月 14 日（版本 1.26.6 ）</block>
+  <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">此版本包含一些小的增強功能。</block>
+  <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">此版本也會暫時移除下列選項：</block>
+  <block id="aebeafb9d6b45d6e3629685737b0b510" category="inline-link-macro">監控及管理檔案存取事件</block>
+  <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">啟用稽核記錄集合的選項已停用。請參閱 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>。</block>
+  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link-macro">調查組織中儲存的資料</block>
+  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">在目錄調查期間、無法使用依目錄計算個人識別資訊（ PII ）資料數量的選項。請參閱 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>。</block>
+  <block id="e87b43c3f65a9e6b5fc0f778e155e091" category="inline-link-macro">組織您的私有資料</block>
+  <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">已停用使用 Azure Information Protection （ AIP ）標籤整合資料的選項。請參閱 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>。</block>
+  <block id="592997dde366d5775e7e052816854f74" category="section-title">2024 年 3 月 5 日</block>
+  <block id="cf8f238c2116738b5ed3bacdbd527d14" category="section-title">Cloud Volumes ONTAP 9.14.1 GA</block>
+  <block id="fc0f9e3eef3a6eff3efe2fe7cf358466" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 通用可用度版本。</block>
+  <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">2024 年 2 月 11 日</block>
+  <block id="66a743c4896414f00b485685ab377a19" category="section-title">依 regex 篩選目錄</block>
+  <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">使用者現在可以選擇使用 regex 來篩選目錄。</block>
+  <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">深入瞭解 * 排除目錄 * 功能。</block>
+  <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
+  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">2024 年 2 月 8 日</block>
+  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">永續發展儀表板</block>
+  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 連結：</block>
+  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">ClusterViewer</block>
+  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。</block>
+  <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP 災難恢復</block>
+  <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。</block>
+  <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">瞭解如何管理 BlueXP 資料服務的授權</block>
+  <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
+  <block id="23f1adcf87ca650c2ac077f4be520c97" category="paragraph">這是 BlueXP 災難恢復的一般可用度版本、其中包括下列更新。</block>
+  <block id="5751cbd481f2486866a7e6d4339df621" category="list-text">* 授權更新 * ：使用 BlueXP 災難恢復功能、您可以註冊 90 天免費試用版、或自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。BlueXP 災難恢復費用是根據資料存放區的已配置容量而定。</block>
+  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link">設定授權</block>
+  <block id="cba500373ea886a2bb3e508440756918" category="paragraph">如需設定 BlueXP 災難恢復授權的詳細資訊、請參閱<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>。</block>
+  <block id="c32aede135606fbfc51d8bd7581b4201" category="inline-link">管理所有 BlueXP 服務的授權</block>
+  <block id="4d2e644b683b6f34426a63ff3961ea9d" category="paragraph">如需管理 * 全部 * BlueXP 服務授權的詳細資訊、請參閱<block ref="834374a0b207d980c4d47827175a6637" category="inline-link-rx"></block>。</block>
+  <block id="5938c93734fbca9c12e3827aa5218ed8" category="list-text">* 編輯排程 * ：使用此版本、您現在可以設定排程來測試法規遵循和容錯移轉測試、確保它們能在您需要時正常運作。</block>
+  <block id="4b2bfa262e877a668b7102f58d207f63" category="inline-link">建立複寫計畫</block>
+  <block id="976dcedce9d4c9dc14db60abc49c5867" category="paragraph">如需詳細資訊、請參閱<block ref="8026234d3eaba16fdffb266108c2804b" category="inline-link-rx"></block>。</block>
+  <block id="578e9059da07f7d858d4746bbf9af55a" category="section-title">2024 年 2 月 1 日</block>
+  <block id="0468e5ced7eddf7112cb542d124a006f" category="paragraph">此 BlueXP 災難恢復預覽版本包含下列更新：</block>
+  <block id="c61970ed6417395a368e95032dbce932" category="list-text">* 網路增強 * ：現在您可以使用此版本調整 VM CPU 和 RAM 值的大小。您現在也可以為虛擬機器選取網路 DHCP 或靜態 IP 位址。</block>
+  <block id="bb3e5e687ab316872aaebfbeeb4a6605" category="list-text">DHCP ：如果您選擇此選項、則會提供 VM 的認證。</block>
+  <block id="302dd2d13eb7b51a95fccbe2fc1ba0b8" category="list-text">靜態 IP ：您可以從來源 VM 選取相同或不同的資訊。如果您選擇的來源相同、則不需要輸入認證。另一方面、如果您選擇使用來源的不同資訊、則可以提供認證、 IP 位址、子網路遮罩、 DNS 和閘道資訊。</block>
+  <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">如需詳細資訊、請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
+  <block id="18d156337647f6bf6b3408e6bf902c50" category="list-text">* 自訂指令碼 * 現在可以納入容錯移轉後程序。透過自訂指令碼、您可以在容錯移轉程序之後執行 BlueXP 災難恢復指令碼。例如、您可以使用自訂指令碼、在容錯移轉完成後恢復所有資料庫交易。</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link">容錯移轉至遠端站台</block>
+  <block id="162522900f68ffca5220e53ec0e2c907" category="paragraph">如需詳細資訊、請參閱<block ref="7cdfded96340b83fb1e5d3c286b13377" category="inline-link-rx"></block>。</block>
+  <block id="8d416397bb32c8298a01a75068b98f3c" category="list-text">*SnapMirror 關係 * ：您現在可以在開發複寫計畫時建立 SnapMirror 關係。以前、您必須在 BlueXP 災難恢復之外建立關係。</block>
+  <block id="1d73761c9dd4b9338f6974eee8d2a449" category="list-text">* 一致性群組 * ：建立複寫計畫時、您可以納入來自不同磁碟區和不同 SVM 的 VM 。BlueXP 災難恢復通過包括所有卷並更新所有輔助位置來創建一致性組快照。</block>
+  <block id="ed38b69c5713d5b42f77e9c3ec5872a8" category="list-text">* VM 開機延遲選項 * ：建立複寫計畫時、您可以將 VM 新增至資源群組。使用資源群組、您可以在每個 VM 上設定延遲、以便它們啟動延遲的順序。</block>
+  <block id="193634e2d37697e73e8a9d15d4dca73d" category="list-text">* 應用程式一致的 Snapshot 複本 * ：您可以指定建立應用程式一致的 Snapshot 複本。服務將會先將應用程式設為「自動快照」、然後再製作「快照」、以取得應用程式的一致狀態。</block>
+  <block id="77a292951e2cd7ee0d1bc7d3db0020ec" category="list-text">使用此版本、您可以更快速地從儀表板存取其他頁面上的資訊。</block>
+  <block id="8fb6114a69ebd8d03454bf88226c2699" category="inline-link">瞭解 BlueXP 災難恢復</block>
+  <block id="0f354958858456370fa7b64c5f2a913c" category="paragraph"><block ref="929628a652068d14da23775529f8803b" category="inline-link-rx"></block>。</block>
+  <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="section-title">勒索軟體保護</block>
+  <block id="5a62a1aba4b0b7df087f145049f2b71f" category="paragraph">此 BlueXP 勒索軟體保護的預覽版本包含下列更新：</block>
+  <block id="cf69a03aa5287886f0e8d3de1a6334cc" category="inline-link">深入瞭解管理原則</block>
+  <block id="2c32a45feb7d83419121ac60cd93f581" category="list-text">* 保護原則管理 * ：除了使用預先定義的原則之外、您現在還可以建立、變更及刪除原則。<block ref="b9442a8e5462552f8e91e8150e2b9935" category="inline-link-rx"></block>。</block>
+  <block id="ac623dda99022aa586562b6804c2f1b8" category="inline-link">深入瞭解如何建立保護原則</block>
+  <block id="0fd4c934346a4b20a9b03012b080912b" category="list-text">* 次要儲存設備（ DataLock ）的不可變性 * ：您現在可以使用物件存放區中的 NetApp DataLock 技術、在次要儲存設備中製作不可變的備份。<block ref="a216e61ae0b0740b7be8287c615fa066" category="inline-link-rx"></block>。</block>
+  <block id="732b7b17a4dd9ae4a4359cee4b9b391d" category="inline-link">深入瞭解設定備份目的地</block>
+  <block id="6baf05b01e83bd3d4b8a2024f16a20f6" category="list-text">* 自動備份至 NetApp StorageGRID * ：除了使用 AWS 之外、您現在可以選擇 StorageGRID 作為備份目的地。<block ref="563323d59981c5d050897f7686a7f9d8" category="inline-link-rx"></block>。</block>
+  <block id="9e599e81fbf58f35a4e8ea8d4d14b0f6" category="inline-link">深入瞭解如何回應偵測到的勒索軟體警示</block>
+  <block id="e3647ee6d2bf29ee74ee9f4e9ff4e201" category="list-text">* 調查潛在攻擊的其他功能 * ：您現在可以檢視更多鑑識詳細資料、以調查偵測到的潛在攻擊。<block ref="707fb9c7332f6aa933e8445c28830d7a" category="inline-link-rx"></block>。</block>
+  <block id="bda01efb679b0ca92bc4e76a23294328" category="inline-link">深入瞭解如何從勒索軟體攻擊中恢復（在事件被消除之後）</block>
+  <block id="1661fc233cecf8b9c070d8d398293283" category="list-text">* 恢復程序 * 。恢復程序已增強。現在、您可以在單一工作流程中、依磁碟區、工作負載的所有磁碟區、甚至是磁碟區的數個檔案來還原磁碟區。<block ref="a36a14eacaa464cdf2747d859c29de55" category="inline-link-rx"></block>。</block>
+  <block id="8aea370efa0da7f8c985a03488d3b9a7" category="inline-link">瞭解 BlueXP 勒索軟體保護</block>
+  <block id="41e5a42a8cc2023ceb0f8dd06cce7a27" category="paragraph"><block ref="5a80707c96309e25f4c73aee7d2327b1" category="inline-link-rx"></block>。</block>
+  <block id="69483d973a063c873a5a66f6edcc241c" category="section-title">2023 年 10 月 6 日</block>
+  <block id="ae98c30c78f5642e201d040b9e0b468c" category="paragraph">BlueXP 勒索軟體保護服務是 SaaS 解決方案、可保護資料、偵測潛在攻擊、以及從勒索軟體攻擊中恢復資料。</block>
+  <block id="4c77961875ba555ef50d5063c1b6fad0" category="paragraph">對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及個別 BlueXP 帳戶上 Cloud Volumes ONTAP on AWS （使用 NFS 傳輸協定）、並將資料備份至 Amazon Web Services 雲端儲存設備。</block>
+  <block id="75b67029f102f7aa5f52d85fbaeb59b1" category="paragraph">BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的資料安全管理員或安全營運工程師能夠達成下列目標：</block>
+  <block id="c97c8c1adb5529a50db916535c46fa2b" category="list-text">一眼就能檢視所有工作負載的勒索軟體保護。</block>
+  <block id="b6f8dc0dd7c16df94c4c9e61ea4c4dcf" category="list-text">深入瞭解勒索軟體保護建議</block>
+  <block id="39a3e38e85bba8b90ed1e5b7d1f36cb3" category="list-text">根據 BlueXP 勒索軟體保護建議、改善保護狀態。</block>
+  <block id="41315f1df6d709866390b219f4b1adac" category="list-text">指派勒索軟體保護原則來保護您的主要工作負載和高風險資料、防範勒索軟體攻擊。</block>
+  <block id="0f1fe9be7b1943507afe2ef939f76423" category="list-text">監控工作負載的健全狀況、防範尋找資料異常的勒索軟體攻擊。</block>
+  <block id="12bcfe65b7fb19c1dbe60c374599be1e" category="list-text">快速評估勒索軟體事件對工作負載的影響。</block>
+  <block id="f4d7f013aee4ff8dd19b36611ba3f3c6" category="list-text">透過還原資料並確保不會重新感染儲存的資料、以智慧方式從勒索軟體事件中恢復。</block>
+  <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
+  <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
 </blocks>

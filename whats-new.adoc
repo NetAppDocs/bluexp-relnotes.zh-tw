@@ -24,6 +24,36 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2024 年 2 月 15 日
+
+
+
+==== 連接器 3.9.37
+
+此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
+
+目前、 3.9.37 版本適用於標準模式和受限模式。
+
+
+
+==== 編輯名稱
+
+如果您使用 NetApp 雲端認證登入 BlueXP 、現在您可以在 * 使用者設定 * 中編輯您的名稱。
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-edit-name.png["螢幕擷取畫面、顯示在使用者設定下編輯您的姓名的能力。"]
+
+如果您以同盟連線或 NetApp 支援網站 帳戶登入、則不支援編輯您的名稱。
+
+
+
+==== EC2 執行個體的 IMDSv1 需求
+
+請注意、在 Amazon EC2 執行個體上、必須先使用執行個體中繼資料服務版本 1 （ IMDSv1 ）、才能在 AWS 中手動安裝 Connector 軟體。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-limitations.html["深入瞭解 AWS 中的 IMDSv1 需求"]。
+
+
+
 === 2024 年 1 月 11 日
 
 
@@ -256,7 +286,27 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 
 
-=== 1 月 10 日（版本 1.27 ）
+=== 2024 年 3 月 4 日（版本 1.29 ）
+
+
+
+==== 現在您可以排除位於特定資料來源目錄中的掃描資料
+
+如果您想要 BlueXP 分類排除位於特定資料來源目錄中的掃描資料、您可以將這些目錄名稱新增至 BlueXP 分類處理的組態檔。此功能可讓您避免掃描不必要的目錄、或是導致傳回誤判的個人資料結果。
+
+https://docs.netapp.com/us-en/bluexp-classification/task-exclude-scan-paths.html["深入瞭解"]。
+
+
+
+==== 6505788c29b47651fe2e94f0607a2ef7
+
+1647534ed4603d68f73fd3f261af9b65
+
+1b4f4b549e0860b1392190bfc2a23f81
+
+
+
+=== 2024 年 1 月 10 日（版本 1.27 ）
 
 
 
@@ -272,31 +322,30 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 
 
-=== 11 月 6 日（版本 1.26.3 ）
+=== 2023 年 12 月 14 日（版本 1.26.6 ）
 
+此版本包含一些小的增強功能。
 
+此版本也會暫時移除下列選項：
 
-==== 本版本已修正下列問題
+* 啟用稽核記錄集合的選項已停用。請參閱 link:task-manage-file-access-events.html["監控及管理檔案存取事件"]。
+* 在目錄調查期間、無法使用依目錄計算個人識別資訊（ PII ）資料數量的選項。請參閱 link:task-investigate-data.html#filter-data-by-sensitivity-and-content["調查組織中儲存的資料"]。
+* 已停用使用 Azure Information Protection （ AIP ）標籤整合資料的選項。請參閱 link:task-org-private-data.html["組織您的私有資料"]。
 
-* 修正在儀表板中顯示系統掃描的檔案數量時出現不一致的情況。
-* 處理和報告名稱和中繼資料中含有特殊字元的檔案和目錄、以改善掃描行為。
-
-
-
-
-=== 10 月 4 日（版本 1.26 ）
-
-
-
-==== 支援在 RHEL 第 9 版上內部部署安裝 BlueXP 分類
-
-Red Hat Enterprise Linux 第 8 版和第 9 版不支援 Docker 引擎、這是 BlueXP 分類安裝所需的。我們現在支援在 RHEL 9.0 、 9.1 和 9.2 上安裝 BlueXP 分類、並使用 Podman 版本 4 或更新版本做為容器基礎架構。如果您的環境需要使用最新版本的 RHEL 、現在您可以在使用 Podman 時安裝 BlueXP 分類（ 1.26 版或更新版本）。
-
-目前、我們不支援使用 RHEL 9.x 進行暗點安裝或分散式掃描環境（使用主要和遠端掃描器節點）
 
 
 
 == Cloud Volumes ONTAP
+
+
+
+=== 2024 年 3 月 5 日
+
+
+
+==== Cloud Volumes ONTAP 9.14.1 GA
+
+BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 通用可用度版本。
 
 
 
@@ -329,24 +378,6 @@ link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-config
 BlueXP 中只有最新三個版本的 Cloud Volumes ONTAP 才提供修補程式版本。
 
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#patch-releases["升級Cloud Volumes ONTAP"^]
-
-
-
-=== 2024 年 1 月 8 日
-
-
-
-==== Azure 多個可用區域的新 VM
-
-從 Cloud Volumes ONTAP 9.13.1 開始、下列 VM 類型支援 Azure 多個可用性區域、以進行新的和現有的高可用度配對部署：
-
-* L16s_v3
-* L32s_v3
-* L48s_v3
-* L64s_v3
-
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
 
 
 
@@ -404,6 +435,18 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024 年 2 月 11 日
+
+
+
+==== 依 regex 篩選目錄
+
+使用者現在可以選擇使用 regex 來篩選目錄。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["深入瞭解 * 排除目錄 * 功能。"]
+
+
+
 === 2023 年 11 月 26 日
 
 
@@ -450,39 +493,23 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creati
 
 
 
-=== 2023 年 8 月 6 日
-
-
-
-==== 建立資料代理程式時、請使用現有的 Azure 安全性群組
-
-使用者現在可以選擇在建立資料代理程式時使用現有的 Azure 安全性群組。
-
-建立資料代理程式時所使用的服務帳戶必須具有下列權限：
-
-* 「 Microsoft.Network/networkSecurityGroups/securityRules/read"
-* 「 Microsoft.Network/networkSecurityGroups/read"
-
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["深入瞭解如何在 Azure 中建立資料代理程式。"]
-
-
-
-==== 同步至 Google Storage 時加密資料
-
-現在、使用者可以選擇在建立與 Google Storage Bucket 的同步關係作為目標時、指定客戶管理的加密金鑰。您可以手動輸入金鑰、或從單一區域的金鑰清單中選擇。
-
-建立資料代理程式時所使用的服務帳戶必須具有下列權限：
-
-* cloudkms.cryptoKeys.list
-* cloudkms.keycles.list
-
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["深入瞭解 Google Cloud Storage 貯體需求。"]
-
-
-
 == 數位顧問
+
+
+
+=== 2024 年 2 月 8 日
+
+
+
+==== 永續發展儀表板
+
+您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 link:https://activeiq.netapp.com/redirect/sustainability["永續發展儀表板"^] 連結：
+
+
+
+==== ClusterViewer
+
+您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。
 
 
 
@@ -525,6 +552,18 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#googl
 
 
 == 數位錢包
+
+
+
+=== 2024 年 3 月 5 日
+
+
+
+==== BlueXP 災難恢復
+
+BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["瞭解如何管理 BlueXP 資料服務的授權"]
 
 
 
@@ -598,6 +637,75 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 
 
+=== 2024 年 3 月 5 日
+
+這是 BlueXP 災難恢復的一般可用度版本、其中包括下列更新。
+
+* * 授權更新 * ：使用 BlueXP 災難恢復功能、您可以註冊 90 天免費試用版、或自帶授權（ BYOL ）、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）您可以使用授權序號、在 BlueXP 數位錢包中啟動 BYOL 。BlueXP 災難恢復費用是根據資料存放區的已配置容量而定。
++
+如需設定 BlueXP 災難恢復授權的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定授權"]。
+
++
+如需管理 * 全部 * BlueXP 服務授權的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["管理所有 BlueXP 服務的授權"^]。
+
+
+
+* * 編輯排程 * ：使用此版本、您現在可以設定排程來測試法規遵循和容錯移轉測試、確保它們能在您需要時正常運作。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+
+
+
+
+=== 2024 年 2 月 1 日
+
+此 BlueXP 災難恢復預覽版本包含下列更新：
+
+* * 網路增強 * ：現在您可以使用此版本調整 VM CPU 和 RAM 值的大小。您現在也可以為虛擬機器選取網路 DHCP 或靜態 IP 位址。
++
+** DHCP ：如果您選擇此選項、則會提供 VM 的認證。
+** 靜態 IP ：您可以從來源 VM 選取相同或不同的資訊。如果您選擇的來源相同、則不需要輸入認證。另一方面、如果您選擇使用來源的不同資訊、則可以提供認證、 IP 位址、子網路遮罩、 DNS 和閘道資訊。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+
+
+* * 自訂指令碼 * 現在可以納入容錯移轉後程序。透過自訂指令碼、您可以在容錯移轉程序之後執行 BlueXP 災難恢復指令碼。例如、您可以使用自訂指令碼、在容錯移轉完成後恢復所有資料庫交易。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["容錯移轉至遠端站台"]。
+
+* *SnapMirror 關係 * ：您現在可以在開發複寫計畫時建立 SnapMirror 關係。以前、您必須在 BlueXP 災難恢復之外建立關係。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+* * 一致性群組 * ：建立複寫計畫時、您可以納入來自不同磁碟區和不同 SVM 的 VM 。BlueXP 災難恢復通過包括所有卷並更新所有輔助位置來創建一致性組快照。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+* * VM 開機延遲選項 * ：建立複寫計畫時、您可以將 VM 新增至資源群組。使用資源群組、您可以在每個 VM 上設定延遲、以便它們啟動延遲的順序。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+* * 應用程式一致的 Snapshot 複本 * ：您可以指定建立應用程式一致的 Snapshot 複本。服務將會先將應用程式設為「自動快照」、然後再製作「快照」、以取得應用程式的一致狀態。
++
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
+
+
+
+
+
+=== 2024 年 1 月 11 日
+
+此 BlueXP 災難恢復預覽版本包含下列更新：
+
+* 使用此版本、您可以更快速地從儀表板存取其他頁面上的資訊。
+
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["瞭解 BlueXP 災難恢復"]。
+
+
+
 === 2023 年 10 月 20 日
 
 此 BlueXP 災難恢復預覽版本包含下列更新。
@@ -608,74 +716,6 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 NOTE: 透過此預覽方案、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。
 
 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["深入瞭解 BlueXP 災難恢復"]。
-
-
-
-=== 2023 年 9 月 27 日
-
-此 BlueXP 災難恢復預覽版本包含下列更新：
-
-* * 儀表板更新 * ：您現在可以按一下儀表板上的選項、讓您更輕鬆地快速檢閱資訊。此外、儀表板現在也會顯示容錯移轉和移轉的狀態。
-+
-請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashboard-view.html["在儀表板上檢視災難恢復計畫的健全狀況"]。
-
-* * 複寫計畫更新 * ：
-+
-** * RPO * ：您現在可以在複寫計畫的資料存放區區區區段中輸入恢復點目標（ RPO ）和保留計數。這表示必須存在的資料量、其長度不得早於設定時間。例如、如果您將其設為 5 分鐘、則在發生災難而不影響業務關鍵需求的情況下、系統最多可能會遺失 5 分鐘的資料。
-+
-請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
-
-** * 網路功能增強 * ：當您在複寫計畫的虛擬機器區段中對應來源和目標位置之間的網路時、 BlueXP 災難恢復現在提供兩個選項： DHCP 或靜態 IP 。以前只支援 DHCP 。對於靜態 IP 、您可以設定子網路、閘道和 DNS 伺服器。此外、您現在可以輸入虛擬機器的認證。
-+
-請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
-
-** * 編輯排程 * ：您現在可以更新複寫計畫排程。
-+
-請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["管理資源"]。
-
-** *SnapMirror 自動化 * ：當您在此版本中建立複寫計畫時、您可以在下列其中一個組態中定義來源磁碟區與目標磁碟區之間的 SnapMirror 關係：
-+
-*** 1 對 1
-*** 在扇出架構中有 1 對多個
-*** 一致性群組中有多對 1
-*** 多到多
-+
-請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
-
-
-
-
-
-
-
-
-
-=== 2023 年 8 月 1 日
-
-BlueXP 災難恢復預覽是一種雲端型災難恢復服務、可自動化災難恢復工作流程。最初、透過 BlueXP 災難恢復預覽、您可以保護內部部署、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存設備、將其移轉至 VMware Cloud （ VMC ）、並搭配 Amazon FSX for ONTAP 。
-
-
-NOTE: 透過此預覽方案、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。
-
-https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["深入瞭解 BlueXP 災難恢復"]。
-
-此版本包含下列更新：
-
-* * 開機順序的資源群組更新 * ：建立災難恢復或複寫計畫時、您可以將虛擬機器新增至功能性資源群組。資源群組可讓您將一組相關的虛擬機器放入符合您需求的邏輯群組。例如、群組可能包含可在恢復時執行的開機順序。在此版本中、每個資源群組可以包含一或多個虛擬機器。虛擬機器將根據您將其納入計畫的順序來啟動。請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html#select-applications-to-replicate-and-assign-resource-groups["選取要複寫及指派資源群組的應用程式"]。
-* * 複寫驗證 * ：建立災難恢復或複寫計畫後、請在精靈中找出重複發生的情形、並啟動複寫至災難恢復站台、每 30 分鐘執行一次 BlueXP 災難恢復、就會驗證複寫是否確實根據計畫進行。您可以在「工作監控」頁面中監控進度。請參閱  https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/replicate.html["將應用程式複寫到另一個站台"]。
-* * 複寫計畫顯示恢復點目標（ RPO ）傳輸排程 * ：建立災難恢復或複寫計畫時、您可以選取虛擬機器。在此版本中、您現在可以檢視與資料存放區或 VM 相關聯的每個磁碟區相關聯的 SnapMirror 。您也可以查看與 SnapMirror 排程相關的 RPO 傳輸排程。RPO 可協助您判斷備份排程是否足以在災難後恢復。請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
-* * 工作監控更新 * ：「工作監控」頁面現在包含「重新整理」選項、可讓您取得最新的作業狀態。請參閱  https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/monitor-jobs.html["監控災難恢復工作"]。
-
-
-
-
-=== 2023 年 5 月 18 日
-
-這是 BlueXP 災難恢復的初始版本。
-
-BlueXP 災難恢復是一種雲端型災難恢復服務、可自動化災難恢復工作流程。最初、透過 BlueXP 災難恢復預覽、您可以保護內部部署、以 NFS 為基礎的 VMware 工作負載、在 AWS 上執行 NetApp 儲存設備、將其移轉至 VMware Cloud （ VMC ）、並搭配 Amazon FSX for ONTAP 。
-
-link:https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["深入瞭解 BlueXP 災難恢復"]。
 
 
 
@@ -901,6 +941,48 @@ NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能�
 營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。
 
 link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["深入瞭解 BlueXP 作業恢復能力"]。
+
+
+
+== 勒索軟體保護
+
+
+
+=== 2024 年 3 月 5 日
+
+此 BlueXP 勒索軟體保護的預覽版本包含下列更新：
+
+* * 保護原則管理 * ：除了使用預先定義的原則之外、您現在還可以建立、變更及刪除原則。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解管理原則"]。
+* * 次要儲存設備（ DataLock ）的不可變性 * ：您現在可以使用物件存放區中的 NetApp DataLock 技術、在次要儲存設備中製作不可變的備份。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何建立保護原則"]。
+
+
+* * 自動備份至 NetApp StorageGRID * ：除了使用 AWS 之外、您現在可以選擇 StorageGRID 作為備份目的地。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解設定備份目的地"]。
+* * 調查潛在攻擊的其他功能 * ：您現在可以檢視更多鑑識詳細資料、以調查偵測到的潛在攻擊。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["深入瞭解如何回應偵測到的勒索軟體警示"]。
+* * 恢復程序 * 。恢復程序已增強。現在、您可以在單一工作流程中、依磁碟區、工作負載的所有磁碟區、甚至是磁碟區的數個檔案來還原磁碟區。 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復（在事件被消除之後）"]。
+
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP 勒索軟體保護"]。
+
+
+
+=== 2023 年 10 月 6 日
+
+BlueXP 勒索軟體保護服務是 SaaS 解決方案、可保護資料、偵測潛在攻擊、以及從勒索軟體攻擊中恢復資料。
+
+對於預覽版本、此服務可保護 Oracle 、 MySQL 、 VM 資料存放區、內部部署 NAS 儲存設備上檔案共用的應用程式型工作負載、以及個別 BlueXP 帳戶上 Cloud Volumes ONTAP on AWS （使用 NFS 傳輸協定）、並將資料備份至 Amazon Web Services 雲端儲存設備。
+
+BlueXP 勒索軟體保護服務可充分運用多項 NetApp 技術、讓您的資料安全管理員或安全營運工程師能夠達成下列目標：
+
+* 一眼就能檢視所有工作負載的勒索軟體保護。
+* 深入瞭解勒索軟體保護建議
+* 根據 BlueXP 勒索軟體保護建議、改善保護狀態。
+* 指派勒索軟體保護原則來保護您的主要工作負載和高風險資料、防範勒索軟體攻擊。
+* 監控工作負載的健全狀況、防範尋找資料異常的勒索軟體攻擊。
+* 快速評估勒索軟體事件對工作負載的影響。
+* 透過還原資料並確保不會重新感染儲存的資料、以智慧方式從勒索軟體事件中恢復。
+
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP 勒索軟體保護"]。
 
 
 
