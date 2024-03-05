@@ -443,8 +443,6 @@
   <block id="9e8ed8cdd45e3d9bd3f546720545d06a" category="paragraph">如需支援多個可用區域的所有區域清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="500a97f33bcbe3073f32ba66331ac662" category="paragraph"><block ref="dc552a90a374cbb55f942fc8465d623a" category="inline-link-macro-rx"></block>
 <block ref="c6a2e575c9cd7913e0bdc96abdd66269" category="inline-link-macro-rx"></block></block>
-  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">2023 年 10 月 4 日</block>
-  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">規劃 Widget</block>
   <block id="2971377ab46c11db3998ef23731b52cf" category="section-title">2023 年 10 月 20 日</block>
   <block id="b56e223e6fc7ca1dfacb6233ed47b35e" category="paragraph">此 BlueXP 災難恢復預覽版本包含下列更新。</block>
   <block id="af242308972c98cd4207cc26ee6edaa9" category="paragraph">現在有了 BlueXP 災難恢復功能、除了公有雲之外、您還可以保護內部部署的 NFS 型 VMware 工作負載、使其免受災難影響、不受其他內部部署、 NFS 型 VMware 環境的影響。BlueXP 災難恢復可協調災難恢復計畫的完成。</block>
@@ -493,17 +491,8 @@
   <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>。</block>
   <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">資料代理程式的節點版本更新</block>
   <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">所有新的資料代理人現在都會使用節點版本 21.2.0 。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0 ）將不再適用於 BlueXP 複本與同步。</block>
-  <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">2023 年 11 月 16 日</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">觀察名單</block>
-  <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">現在您最多可以建立 100 個觀察名單。</block>
-  <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">技術更新建議現在可在觀察清單、網站和群組儀表板中找到。</block>
-  <block id="5abb66a3f2a4a3a5e6083eb0e9cb8016" category="list-text">當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。</block>
-  <block id="bd644bc36e5d6955b3d49189c83c45f3" category="paragraph">技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024 年 1 月 11 日</block>
-  <block id="dfbe132af57c8e3ca0aa9a94fc940839" category="section-title">連接器 3.9.36.</block>
-  <block id="c86344b833d64024dcd801a79f3f366e" category="paragraph">此版本包括下列雲端區域中的輕微改善、錯誤修正及 Connector 支援：</block>
-  <block id="5c4c535d51f9fbfc21f1baf9f449004c" category="list-text">AWS 中的以色列（特拉維夫）區域</block>
-  <block id="c53c95f8243560e843dabb8877e4d787" category="list-text">Google Cloud 中的沙烏地阿拉伯地區</block>
   <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">2023 年 12 月 15 日</block>
   <block id="7ab0753b80059fbad40a2fd72c4592ce" category="section-title">適用於本機 Snapshot 和複寫 Snapshot 複本的報告</block>
   <block id="9e6cfaae073aa85c2c955e17e29074a8" category="paragraph">以前、您只能在備份複本上產生報告。現在、您也可以在本機 Snapshot 複本和複寫 Snapshot 複本上建立報告。</block>
@@ -525,9 +514,6 @@
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">新增其他群組 ID 為「開放給組織」</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link-macro">Azure支援的組態</block>
   <block id="22342037237200e034fd29c9cfd5bfd4" category="paragraph"><block ref="22342037237200e034fd29c9cfd5bfd4" category="inline-link-macro-rx"></block></block>
-  <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">2024 年 1 月 3 日</block>
-  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
-  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">現在您可以在 NFS 中設定群組 ID 、以便直接從 BlueXP 分類中將其視為「開放組織」、如果群組一開始沒有設定該權限。任何附加這些群組 ID 的檔案和資料夾、都會在「調查詳細資料」頁面中顯示為「開放給組織」。瞭解如何操作<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
   <block id="4e1f7d458412b18adef0e5ff0db2eee8" category="section-title">2024 年 2 月 1 日</block>
   <block id="a409179aac0b12213b3fa77e0a22bd61" category="list-text">支援將虛擬機器還原至其他位置</block>
@@ -667,4 +653,47 @@
   <block id="4ac5b49185bd4b8f8b0ef6b8869d149f" category="paragraph">在 AWS 、 Cloud Volumes ONTAP 、 Mediator 和 Connector 中、現在所有功能都支援 Amazon Instant 中繼資料服務 v2 （ IMDSv2 ）。IMDSv2 提供更強大的保護功能、防範弱點。之前僅支援 IMDSv1 。</block>
   <block id="7fcd14ee7d62b2a6f712b7ed775cdbc3" category="inline-link-macro">用於管理現有連接器的 BlueXP 安裝與管理文件</block>
   <block id="6aec236f70c9d11e5073fa187bf36fd1" category="paragraph">如果您的安全性原則要求、您可以將 EC2 執行個體設定為使用 IMDSv2 。如需相關指示、請參閱 <block ref="437fb94a00c6c9b10a9ad9095b6680bc" category="inline-link-macro-rx"></block>。</block>
+  <block id="fe8fcef9d0fdb328fbc812d42b4ca2e7" category="section-title">2024 年 3 月 26 日</block>
+  <block id="3c16167b6c091087d9151aee3f52b379" category="section-title">私有模式版本（ 3.9.38 ）</block>
+  <block id="b7070cb9b31e0d402b92f5c1d4efa401" category="paragraph">BlueXP 現已推出新的私有模式版本。此版本包含下列支援私有模式的 BlueXP 服務版本。</block>
+  <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">服務</block>
+  <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">隨附版本</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">連接器</block>
+  <block id="0eff5e73304fb938a09633bd1b0cec70" category="cell">3.9.38.</block>
+  <block id="2d67cd05b64a3416bc8bae12b4ef5685" category="cell">2024 年 3 月 12 日</block>
+  <block id="9ee51d75827fcf6a985ed40e7418fea6" category="cell">2024 年 3 月 4 日</block>
+  <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Cloud Volumes ONTAP 管理</block>
+  <block id="900dd8f50d2294930a102034524e26b7" category="cell">內部部署 ONTAP 叢集管理</block>
+  <block id="ec34e91164e39c9df1bfb906cff07162" category="paragraph">此新版本可從 NetApp 支援網站 下載。</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">瞭解私有模式</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">瞭解如何以私有模式開始使用 BlueXP</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">瞭解如何在使用私有模式時升級 Connector</block>
+  <block id="4e208e7f54024bf731fae02025ce34d9" category="list-text"><block ref="4e208e7f54024bf731fae02025ce34d9" category="inline-link-rx"></block></block>
+  <block id="e713d6072685bf32f36150e9f76ce0c1" category="section-title">能夠從雲端備份到內部部署 ONTAP 磁碟區進行「快速還原」</block>
+  <block id="5a9ee632cba573d0f7355f7d12d908ca" category="paragraph">現在、您可以從雲端儲存區執行磁碟區的 _ 快速還原 _ 至內部部署的 ONTAP 目的地 Volume 。以前您只能對 Cloud Volumes ONTAP 系統執行快速還原。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原比完整磁碟區還原快得多；它會將中繼資料從雲端快照還原至 ONTAP 目的地磁碟區。來源可能來自 AWS S3 、 Azure Blob 、 Google Cloud Services 或 NetApp StorageGRID 。</block>
+  <block id="07f61dfe973846130f7066ef7bc459ef" category="paragraph">內部部署 ONTAP 目的地系統必須執行 ONTAP 9.14.1 版或更新版本。</block>
+  <block id="1a68bb97275f0f5acd506d7ad906fa05" category="paragraph">您可以使用「瀏覽與還原」程序、而非「搜尋與還原」程序來執行此作業。</block>
+  <block id="bb03c52ec2a68c9eed4513c8ecf6c24d" category="inline-link">從備份檔案還原 ONTAP 資料</block>
+  <block id="2c3b2694da8405de44d10ad024f9a37a" category="paragraph">如需詳細資訊、請參閱<block ref="d2c90c25b1a6379e29db7390401794cc" category="inline-link-rx"></block>。</block>
+  <block id="0b15186b9aa75ae921c55dd69591ae94" category="section-title">能夠從 Snapshot 和 Replication 複本還原檔案和資料夾</block>
+  <block id="8f859da29f9bc64e255dd02fc2821d0a" category="paragraph">以前、您只能從 AWS 、 Azure 和 Google Cloud Services 的備份複本還原檔案和資料夾。現在、您可以從本機 Snapshot 複本和複寫複本還原檔案和資料夾。</block>
+  <block id="71931edd27b41979c47f73ca3194f9c3" category="paragraph">您可以使用「搜尋與還原」程序來執行此功能、而非使用「瀏覽與還原」程序。</block>
+  <block id="434c0382d376982e5be3c7cf351f2ee1" category="section-title">2024 年 3 月 15 日</block>
+  <block id="32a07c6643e39bb3fe494292db9ae233" category="section-title">健康</block>
+  <block id="98f475d7aa8f966d87ccc93ba94fba94" category="inline-link-macro">分析儲存系統的永續性</block>
+  <block id="02a4f8fbb0ee7f45b63d85dd6999883c" category="list-text">Wellness 工作流程現在包含 Sustainability 小工具、可在客戶、報價表、網站和群組層級提供建議動作的數量。您可以按一下動作數目、在 Sustainability 儀表板上詳細檢視這些建議動作。若要深入瞭解、請參閱 <block ref="53ff1edd2c20f94d2a6e053c55aa3849" category="inline-link-macro-rx"></block>。</block>
+  <block id="6dca4e9566164889a09a5302487f229a" category="list-text">Wellness 工作流程中的安全漏洞和勒索軟體防禦小工具合併為單一小工具、現在稱為 Security &amp; 勒索軟體防禦。</block>
+  <block id="5bf96d52d5b39a06798b24dfa7469237" category="section-title">健全狀況檢查儀表板</block>
+  <block id="15853c3ab7376c7041427b2140bbd504" category="paragraph">技術案例的時間表已經過強化、可檢視 6 或 12 個月的完整案例記錄。</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">2024 年 2 月 29 日</block>
+  <block id="51832813a6cc95d32db002987711fdc7" category="paragraph">您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。</block>
+  <block id="bd43fc9501d9e9ddb964eda155be38b8" category="section-title">2024 年 3 月 14 日</block>
+  <block id="2910a4560c79f740cc97d113def24905" category="paragraph">如果您已有現有資產、並想要判斷是否需要更新技術、您可以使用 BlueXP 經濟效率技術更新選項。您可以檢閱目前工作負載的簡短評估並取得建議、或者如果您在過去 90 天內將 AutoSupport 記錄傳送至 NetApp 、該服務現在可以提供工作負載模擬、以瞭解工作負載在新硬體上的表現。</block>
+  <block id="10fa032662780ff6f01bd6647d92c626" category="paragraph">您也可以新增工作負載、並從模擬中排除現有的工作負載。</block>
+  <block id="7aea075f0d949c2526cea755a2dee13f" category="paragraph">以前、您只能評估資產、並確定是否建議進行技術更新。</block>
+  <block id="8006e6282233bdaa99ca3e9db65fc693" category="paragraph">這項功能現在已納入左側導覽中的技術更新選項。</block>
+  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="inline-link-macro">評估技術更新</block>
+  <block id="914b4ad9ada7977f36d427a9664a4235" category="paragraph">深入瞭解 <block ref="4305c0855ed1712385868c1ca4414cc5" category="inline-link-macro-rx"></block>。</block>
 </blocks>

@@ -24,6 +24,48 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2024 年 3 月 26 日
+
+
+
+==== 私有模式版本（ 3.9.38 ）
+
+BlueXP 現已推出新的私有模式版本。此版本包含下列支援私有模式的 BlueXP 服務版本。
+
+[cols="2*"]
+|===
+| 服務 | 隨附版本 
+
+
+| 連接器 | 3.9.38. 
+
+
+| 備份與還原 | 2024 年 3 月 12 日 
+
+
+| 分類 | 2024 年 3 月 4 日 
+
+
+| Cloud Volumes ONTAP 管理 | 2024 年 3 月 8 日 
+
+
+| 數位錢包 | 2023 年 7 月 30 日 
+
+
+| 內部部署 ONTAP 叢集管理 | 2023 年 7 月 30 日 
+
+
+| 複寫 | 2022年9月18日 
+|===
+此新版本可從 NetApp 支援網站 下載。
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解私有模式"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["瞭解如何在使用私有模式時升級 Connector"]
+
+
+
+
 === 2024 年 3 月 8 日
 
 
@@ -91,20 +133,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-edit-name.png["螢幕擷取畫面、顯示在使用者設定下編輯您的姓名的能力。"]
 
 如果您以同盟連線或 NetApp 支援網站 帳戶登入、則不支援編輯您的名稱。
-
-
-
-=== 2024 年 1 月 11 日
-
-
-
-==== 連接器 3.9.36.
-
-此版本包括下列雲端區域中的輕微改善、錯誤修正及 Connector 支援：
-
-* AWS 中的以色列（特拉維夫）區域
-* Google Cloud 中的沙烏地阿拉伯地區
-
 
 
 
@@ -215,6 +243,30 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 == 備份與還原
+
+
+
+=== 2024 年 3 月 12 日
+
+
+
+==== 能夠從雲端備份到內部部署 ONTAP 磁碟區進行「快速還原」
+
+現在、您可以從雲端儲存區執行磁碟區的 _ 快速還原 _ 至內部部署的 ONTAP 目的地 Volume 。以前您只能對 Cloud Volumes ONTAP 系統執行快速還原。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原比完整磁碟區還原快得多；它會將中繼資料從雲端快照還原至 ONTAP 目的地磁碟區。來源可能來自 AWS S3 、 Azure Blob 、 Google Cloud Services 或 NetApp StorageGRID 。
+
+內部部署 ONTAP 目的地系統必須執行 ONTAP 9.14.1 版或更新版本。
+
+您可以使用「瀏覽與還原」程序、而非「搜尋與還原」程序來執行此作業。
+
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["從備份檔案還原 ONTAP 資料"]。
+
+
+
+==== 能夠從 Snapshot 和 Replication 複本還原檔案和資料夾
+
+以前、您只能從 AWS 、 Azure 和 Google Cloud Services 的備份複本還原檔案和資料夾。現在、您可以從本機 Snapshot 複本和複寫複本還原檔案和資料夾。
+
+您可以使用「搜尋與還原」程序來執行此功能、而非使用「瀏覽與還原」程序。
 
 
 
@@ -510,6 +562,34 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creati
 
 
 
+=== 2024 年 3 月 15 日
+
+
+
+==== 健康
+
+* Wellness 工作流程現在包含 Sustainability 小工具、可在客戶、報價表、網站和群組層級提供建議動作的數量。您可以按一下動作數目、在 Sustainability 儀表板上詳細檢視這些建議動作。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["分析儲存系統的永續性"]。
+* Wellness 工作流程中的安全漏洞和勒索軟體防禦小工具合併為單一小工具、現在稱為 Security & 勒索軟體防禦。
+
+
+
+
+==== 健全狀況檢查儀表板
+
+技術案例的時間表已經過強化、可檢視 6 或 12 個月的完整案例記錄。
+
+
+
+=== 2024 年 2 月 29 日
+
+
+
+==== 觀察名單
+
+您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。
+
+
+
 === 2024 年 2 月 8 日
 
 
@@ -523,44 +603,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creati
 ==== ClusterViewer
 
 您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。
-
-
-
-=== 2024 年 1 月 3 日
-
-
-
-==== 升級顧問
-
-升級建議程式已增強、可針對單一叢集和多個叢集、提供自動化的不中斷升級計畫。您只能檢視單一叢集的升級建議、包括風險摘要、升級前檢查報告、以及新功能和增強功能的相關資訊。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["瞭解如何檢視升級建議並產生升級計畫。"]
-
-
-
-=== 2023 年 11 月 16 日
-
-
-
-==== 觀察名單
-
-現在您最多可以建立 100 個觀察名單。
-
-
-
-==== 規劃 Widget
-
-* 技術更新建議現在可在觀察清單、網站和群組儀表板中找到。
-* 當技術更新建議數量為零時、您現在可以檢視潛在的技術更新候選項目。
-
-
-
-
-=== 2023 年 10 月 4 日
-
-
-
-==== 規劃 Widget
-
-技術更新建議計數包含在客戶層級儀表板的規劃小工具中。這些建議有助於在硬體支援不足或即將結束支援時、規劃硬體技術更新活動。
 
 
 
@@ -747,6 +789,20 @@ https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html
 
 
 == 經濟效益
+
+
+
+=== 2024 年 3 月 14 日
+
+如果您已有現有資產、並想要判斷是否需要更新技術、您可以使用 BlueXP 經濟效率技術更新選項。您可以檢閱目前工作負載的簡短評估並取得建議、或者如果您在過去 90 天內將 AutoSupport 記錄傳送至 NetApp 、該服務現在可以提供工作負載模擬、以瞭解工作負載在新硬體上的表現。
+
+您也可以新增工作負載、並從模擬中排除現有的工作負載。
+
+以前、您只能評估資產、並確定是否建議進行技術更新。
+
+這項功能現在已納入左側導覽中的技術更新選項。
+
+深入瞭解 link:../use/tech-refresh.html["評估技術更新"]。
 
 
 
