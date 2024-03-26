@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-relnotes | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/zh-tw/bluexp-relnotes/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/zh-tw/bluexp-relnotes</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>zh-tw</language>
+    <ttl>60</ttl>
+    <pubDate>Tue, 26 Mar 2024 16:39:21 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Mar 2024 16:39:21 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>最新的BlueXP變更 (26 Mar 2024)</title>
+      <pubDate>Tue, 26 Mar 2024 16:35:43 +0000</pubDate>
+      <link>https://docs.netapp.com/zh-tw/bluexp-relnotes/whats-new.html?time=1711470943</link>
+      <guid isPermaLink="false">Tue, 26 Mar 2024 16:35:43 +0000</guid>
+      <description><![CDATA[ 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。 ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
