@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, cloud manager, bluexp, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, kubernetes, reports, ontap clusters' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, kubernetes, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, kubernetes, reports, ontap clusters' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需詳細資料、請參閱每項個別服務的完整版本資訊。 
 ---
 = 最新的BlueXP變更
@@ -351,6 +351,40 @@ https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.ht
 
 
 
+=== 2024 年 4 月 1 日（ 1.30 版）
+
+
+
+==== 新增 RHEL v8.8 和 v9.3 BlueXP 分類支援
+
+此版本除了先前支援的 9.x 以外、也支援 Red Hat Enterprise Linux v8.8 和 v9.3 、這需要 Podman 、而非 Docker 引擎。這適用於 BlueXP 分類的任何內部部署手動安裝。
+
+下列作業系統需要使用 Podman Container 引擎、而且需要 BlueXP 分類版本 1.30 或更新版本： Red Hat Enterprise Linux 版本 8.8 、 9.0 、 9.1 、 9.2 及 9.3 。
+
+深入瞭解 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-overview.html["BlueXP 分類部署總覽"]。
+
+
+
+==== 選項可啟動已移除的稽核記錄集合
+
+啟用稽核記錄集合的選項已停用。
+
+
+
+==== 掃描速度更快
+
+二次掃描儀節點上的掃描效能已改善。如果您需要額外的處理能力來進行掃描、您可以新增更多掃描器節點。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["在可存取網際網路的主機上安裝 BlueXP 分類"]。
+
+
+
+==== 自動升級
+
+如果您在可存取網際網路的系統上部署 BlueXP 分類、系統會自動升級。之前、升級是在上次使用者活動之後經過一段特定時間之後進行。在此版本中、如果當地時間介於上午 1 ： 00 至上午 5 ： 00 之間、 BlueXP 分類會自動升級。如果本地時間超出這些時間、則升級會在上次使用者活動之後經過一段特定時間後進行。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["安裝在可存取網際網路的Linux主機上"]。
+
+如果您部署的 BlueXP 分類沒有網際網路存取、則需要手動升級。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-dark-site.html["在無法存取網際網路的 Linux 主機上安裝 BlueXP 分類"]。
+
+
+
 === 2024 年 3 月 4 日（版本 1.29 ）
 
 
@@ -384,19 +418,6 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 ==== 將其他群組 ID 設定為「開放給組織」
 
 現在您可以在 NFS 中設定群組 ID 、以便直接從 BlueXP 分類中將其視為「開放組織」、如果群組一開始沒有設定該權限。任何附加這些群組 ID 的檔案和資料夾、都會在「調查詳細資料」頁面中顯示為「開放給組織」。瞭解如何操作 https://docs.netapp.com/us-en/bluexp-classification/task-add-group-id-as-open.html["新增其他群組 ID 為「開放給組織」"]。
-
-
-
-=== 2023 年 12 月 14 日（版本 1.26.6 ）
-
-此版本包含一些小的增強功能。
-
-此版本也會暫時移除下列選項：
-
-* 啟用稽核記錄集合的選項已停用。請參閱 link:task-manage-file-access-events.html["監控及管理檔案存取事件"]。
-* 在目錄調查期間、無法使用依目錄計算個人識別資訊（ PII ）資料數量的選項。請參閱 link:task-investigate-data.html#filter-data-by-sensitivity-and-content["調查組織中儲存的資料"]。
-* 已停用使用 Azure Information Protection （ AIP ）標籤整合資料的選項。請參閱 link:task-org-private-data.html["組織您的私有資料"]。
-
 
 
 
@@ -500,6 +521,18 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024 年 4 月 8 日
+
+
+
+==== 支援 RHEL 8.9
+
+現在、執行 Red Hat Enterprise Linux 8.9 的主機支援資料代理程式。
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["檢視 Linux 主機需求"]。
+
+
+
 === 2024 年 2 月 11 日
 
 
@@ -538,27 +571,17 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating
 
 
 
-=== 2023 年 9 月 3 日
-
-
-
-==== 根據 regex 排除檔案
-
-使用者現在可以選擇使用 regex 排除檔案。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["深入瞭解 * 排除檔案副檔名 * 功能。"]
-
-
-
-==== 建立 Azure 資料代理程式時新增 S3 金鑰
-
-使用者現在可以在建立 Azure 資料代理程式時新增 AWS S3 存取金鑰和秘密金鑰。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["深入瞭解如何在 Azure 中建立資料代理程式。"]
-
-
-
 == 數位顧問
+
+
+
+=== 2024 年 3 月 28 日
+
+
+
+==== 升級顧問
+
+升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["瞭解如何檢視升級建議並產生升級計畫。"]
 
 
 
@@ -587,22 +610,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creati
 ==== 觀察名單
 
 您現在可以根據 Keystone 訂閱號碼建立報價表、並使用訂閱號碼或報價表名稱的前三個字元來搜尋 Keystone 訂閱。
-
-
-
-=== 2024 年 2 月 8 日
-
-
-
-==== 永續發展儀表板
-
-您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 link:https://activeiq.netapp.com/redirect/sustainability["永續發展儀表板"^] 連結：
-
-
-
-==== ClusterViewer
-
-您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。
 
 
 

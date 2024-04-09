@@ -366,7 +366,6 @@
   <block id="22f62cdf0824b945602b7808b1cb329f" category="inline-link">瞭解方法</block>
   <block id="d0b71ca8d45c425a9eafb601e1eb4c3c" category="section-title">識別檔案大小最小為 1 MB 的重複檔案</block>
   <block id="40733cb3233c3b83d0f3ecc4ee6fed65" category="paragraph">BlueXP 分類僅在檔案大小為 50 MB 時用於識別重複的檔案。現在可以識別以 1 MB 開始的重複檔案。您可以使用「調查」頁面篩選「檔案大小」和「重複」、來查看環境中有哪些檔案大小的複本。</block>
-  <block id="18cf4605db6670514e116119da7de0a0" category="section-title">2023 年 9 月 3 日</block>
   <block id="84a4e9be01e1e0b2123f0992743bb3be" category="section-title">根據 regex 排除檔案</block>
   <block id="8a2aa0d6caae0bb9fe34491d59f66a36" category="paragraph">使用者現在可以選擇使用 regex 排除檔案。</block>
   <block id="1f3154fef8201e2bc88bd5111528535c" category="inline-link">深入瞭解 * 排除檔案副檔名 * 功能。</block>
@@ -541,15 +540,6 @@
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果您想要 BlueXP 分類排除位於特定資料來源目錄中的掃描資料、您可以將這些目錄名稱新增至 BlueXP 分類處理的組態檔。此功能可讓您避免掃描不必要的目錄、或是導致傳回誤判的個人資料結果。</block>
   <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>。</block>
   <block id="402607c1b30a68385dcfbd12111327c1" category="section-title">2024 年 1 月 10 日（版本 1.27 ）</block>
-  <block id="7cda33697c25a4972bdbfab414004cc2" category="section-title">2023 年 12 月 14 日（版本 1.26.6 ）</block>
-  <block id="5cc6a6599bfa6671ce515940a0badce7" category="paragraph">此版本包含一些小的增強功能。</block>
-  <block id="176a42de7f70d82ff8506b6739d7b290" category="paragraph">此版本也會暫時移除下列選項：</block>
-  <block id="aebeafb9d6b45d6e3629685737b0b510" category="inline-link-macro">監控及管理檔案存取事件</block>
-  <block id="39b6848535d4f2679ee032ca465bba8c" category="list-text">啟用稽核記錄集合的選項已停用。請參閱 <block ref="01ac4154b50639da0a94f22ce7059c7f" category="inline-link-macro-rx"></block>。</block>
-  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-link-macro">調查組織中儲存的資料</block>
-  <block id="ea2bddf8f5366e4e19e9f92e993db900" category="list-text">在目錄調查期間、無法使用依目錄計算個人識別資訊（ PII ）資料數量的選項。請參閱 <block ref="5f0cc912e1424f54004e4ab3376e7552" category="inline-link-macro-rx"></block>。</block>
-  <block id="e87b43c3f65a9e6b5fc0f778e155e091" category="inline-link-macro">組織您的私有資料</block>
-  <block id="95f502d77f0f99fc7fc8414116a3b796" category="list-text">已停用使用 Azure Information Protection （ AIP ）標籤整合資料的選項。請參閱 <block ref="1f3e517a67b0b53387aa4b447bd4c674" category="inline-link-macro-rx"></block>。</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024 年 3 月 5 日</block>
   <block id="cf8f238c2116738b5ed3bacdbd527d14" category="section-title">Cloud Volumes ONTAP 9.14.1 GA</block>
   <block id="fc0f9e3eef3a6eff3efe2fe7cf358466" category="paragraph">BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 通用可用度版本。</block>
@@ -558,12 +548,6 @@
   <block id="df5c4f17d479f00c828a9edc617f2277" category="paragraph">使用者現在可以選擇使用 regex 來篩選目錄。</block>
   <block id="32d736bf69b032967c9ca2f284cd6218" category="inline-link">深入瞭解 * 排除目錄 * 功能。</block>
   <block id="9afa1c757f9d9c1d7a951ff852629645" category="paragraph"><block ref="9afa1c757f9d9c1d7a951ff852629645" category="inline-link-rx"></block></block>
-  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">2024 年 2 月 8 日</block>
-  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
-  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">永續發展儀表板</block>
-  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">您現在可以使用直接存取預設儀表板或報價表的 Sustainability 計量 <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> 連結：</block>
-  <block id="8d1c3a552ad49163efb4753de2a95773" category="section-title">ClusterViewer</block>
-  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">您現在可以在「磁碟摘要」區段中檢視磁碟 RPM 資訊、此區段可在「儲存」索引標籤和 ClusterViewer 報告中找到。</block>
   <block id="c08885153d0680dab7349b930f5310c4" category="section-title">BlueXP 災難恢復</block>
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">瞭解如何管理 BlueXP 資料服務的授權</block>
@@ -696,4 +680,28 @@
   <block id="8006e6282233bdaa99ca3e9db65fc693" category="paragraph">這項功能現在已納入左側導覽中的技術更新選項。</block>
   <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="inline-link-macro">評估技術更新</block>
   <block id="914b4ad9ada7977f36d427a9664a4235" category="paragraph">深入瞭解 <block ref="4305c0855ed1712385868c1ca4414cc5" category="inline-link-macro-rx"></block>。</block>
+  <block id="1e3ff9766d4708d7de4568322138b5f8" category="section-title">2024 年 4 月 1 日（ 1.30 版）</block>
+  <block id="1f2986b833ebc6f322deb045aeee0ad8" category="section-title">新增 RHEL v8.8 和 v9.3 BlueXP 分類支援</block>
+  <block id="bed0a63060826a7b1ed8cba91cb12ba6" category="paragraph">此版本除了先前支援的 9.x 以外、也支援 Red Hat Enterprise Linux v8.8 和 v9.3 、這需要 Podman 、而非 Docker 引擎。這適用於 BlueXP 分類的任何內部部署手動安裝。</block>
+  <block id="2c435ff16ae089dc2d457e7776588268" category="paragraph">下列作業系統需要使用 Podman Container 引擎、而且需要 BlueXP 分類版本 1.30 或更新版本： Red Hat Enterprise Linux 版本 8.8 、 9.0 、 9.1 、 9.2 及 9.3 。</block>
+  <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link">BlueXP 分類部署總覽</block>
+  <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">深入瞭解<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>。</block>
+  <block id="efdeb6220b979140e56f16caceb1d7e9" category="section-title">選項可啟動已移除的稽核記錄集合</block>
+  <block id="bd387dbe20d15a2a0ff5e7602549388e" category="paragraph">啟用稽核記錄集合的選項已停用。</block>
+  <block id="6cf7e053021d02a6a394c1e69f8e8352" category="section-title">掃描速度更快</block>
+  <block id="0989b495229f449df36968cf973306ca" category="inline-link">在可存取網際網路的主機上安裝 BlueXP 分類</block>
+  <block id="9d343bee917ed42deed4a08429d2e86f" category="paragraph">二次掃描儀節點上的掃描效能已改善。如果您需要額外的處理能力來進行掃描、您可以新增更多掃描器節點。如需詳細資訊、請參閱<block ref="bccb2247e180b6227640eec7d70d0351" category="inline-link-rx"></block>。</block>
+  <block id="747585a36be1e14a4dd3ff25c4bf1e48" category="section-title">自動升級</block>
+  <block id="7c454725651fa93e75c3603da01e3ae2" category="inline-link">安裝在可存取網際網路的Linux主機上</block>
+  <block id="5908128f01988745be85a67845195980" category="paragraph">如果您在可存取網際網路的系統上部署 BlueXP 分類、系統會自動升級。之前、升級是在上次使用者活動之後經過一段特定時間之後進行。在此版本中、如果當地時間介於上午 1 ： 00 至上午 5 ： 00 之間、 BlueXP 分類會自動升級。如果本地時間超出這些時間、則升級會在上次使用者活動之後經過一段特定時間後進行。如需詳細資訊、請參閱<block ref="ec7f7d5f354f2c39e4e863a85c31a7f9" category="inline-link-rx"></block>。</block>
+  <block id="f943db85a7c2edd799890ddb18f29cab" category="inline-link">在無法存取網際網路的 Linux 主機上安裝 BlueXP 分類</block>
+  <block id="7adcca7abf8ead9407a9511a195904c3" category="paragraph">如果您部署的 BlueXP 分類沒有網際網路存取、則需要手動升級。如需詳細資訊、請參閱<block ref="9aedc51770264f0d93a81417a0d08768" category="inline-link-rx"></block>。</block>
+  <block id="8580342935824bb5edc626fa6371115e" category="section-title">2024 年 4 月 8 日</block>
+  <block id="cd5e0880386a1f1f9deebd1fe0422847" category="section-title">支援 RHEL 8.9</block>
+  <block id="b2eb229bee01785cca939d890a06b37c" category="paragraph">現在、執行 Red Hat Enterprise Linux 8.9 的主機支援資料代理程式。</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">檢視 Linux 主機需求</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
+  <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">2024 年 3 月 28 日</block>
+  <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
+  <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
 </blocks>
