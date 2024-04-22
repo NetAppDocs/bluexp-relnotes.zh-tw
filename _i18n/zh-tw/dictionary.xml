@@ -12,14 +12,6 @@
   <block id="de5b4c52cc860c2f7cacca0bb7f4265f" category="section-title">動態變更服務層級</block>
   <block id="65ade213f17aabb636c7c98c83fa9121" category="paragraph">您現在可以動態變更磁碟區的服務層級、以滿足工作負載需求並最佳化成本。該磁碟區會移至其他容量集區、而不會影響該磁碟區。</block>
   <block id="f89e84889d5fd0c46e9997ddb21ac922" category="inline-link">瞭解如何變更Volume的服務層級</block>
-  <block id="95fa237a7a6265df02b6172c4be387f7" category="section-title">2020年8月3日</block>
-  <block id="629ca03a8a495acd7bc18927ca4da6cc" category="section-title">設定與管理Azure NetApp Files</block>
-  <block id="51faca1c58439a1d1223104a28f554cc" category="paragraph">直接從Cloud Manager設定及管理Azure NetApp Files 功能。建立Azure NetApp Files 一個不完整的工作環境之後、您可以完成下列工作：</block>
-  <block id="a42ed9034f13a0f6a3660f2c241f605f" category="list-text">建立NFS和SMB磁碟區。</block>
-  <block id="0d293213ebed3e92e24e1624dfd19aa2" category="list-text">管理容量資源池和Volume快照</block>
-  <block id="e54595e40dfd177a2a9e671c794a3a4d" category="paragraph">Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立新的容量集區、並指定其服務層級。</block>
-  <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">變更磁碟區的大小及管理標記、以編輯磁碟區。</block>
-  <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">直接Azure NetApp Files 從Cloud Manager建立及管理功能可取代先前的資料移轉功能。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="section-title">Amazon FSX for ONTAP Sf</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="section-title">Cloud Volumes ONTAP</block>
@@ -147,14 +139,6 @@
   <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">高階使用率</block>
   <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">儲存 VM 使用率</block>
   <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume 使用量</block>
-  <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023 年 5 月 4 日</block>
-  <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">啟用 BlueXP 備份與還原</block>
-  <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">深入瞭解如何啟用 BlueXP 備份與還原</block>
-  <block id="b4dac87ad594b04c0dcd76d4227b5f53" category="paragraph">從 ONTAP 9.13.1 開始、如果您使用 Connector 探索到叢集、就可以使用系統管理員（進階檢視）來啟用 BlueXP 備份與還原。 <block ref="e052ae4f2be0dcbae408a5e7fa45055e" category="inline-link-macro-rx"></block></block>
-  <block id="f3d662d271f05f454f32718233b273b8" category="section-title">升級 ONTAP 版本映像和硬體韌體</block>
-  <block id="31599c36bc63510a259d9bd99e50d225" category="inline-link-macro">深入瞭解如何升級 ONTAP 和韌體</block>
-  <block id="8fc7dd0bb44c44f9797d86872cb017cc" category="paragraph">從 ONTAP 9.10.1 開始、您可以使用系統管理員（進階檢視）來升級 ONTAP 版本映像和硬體韌體。您可以選擇接收自動升級以保持最新狀態、也可以從本機機器或使用 BlueXP 存取的伺服器手動進行更新。 <block ref="d994c74c98eb05bb27c8a6afc3cc2159" category="inline-link-macro-rx"></block></block>
-  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="admonition">如果您沒有連接器、則無法從本機機器進行更新、只能從使用 BlueXP 存取的伺服器進行更新。</block>
   <block id="6e3d9df489c437a2601f627a5b8935c9" category="paragraph">授權標籤已從 BlueXP 分層介面中移除。所有隨用隨付（ PAYGO ）訂閱授權都可立即從 BlueXP 內部部署分層儀表板存取。您也可以從該頁面連結至 BlueXP 數位錢包、以便檢視和管理任何 BlueXP 分層自帶授權（ BYOL ）。</block>
   <block id="f6e3b39522072e9cb3b0ffb8cecf9b0b" category="paragraph">「叢集儀表板」索引標籤已重新命名為「叢集」、「內部部署儀表板」索引標籤已重新命名為「內部部署儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。</block>
   <block id="b2bc6f51638406715d089920f0b12029" category="paragraph"><block ref="b2bc6f51638406715d089920f0b12029" category="inline-link-rx"></block></block>
@@ -476,21 +460,10 @@
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">將其他群組 ID 設定為「開放給組織」</block>
   <block id="617de59f0823cef046ababc40408cb92" category="inline-link">新增其他群組 ID 為「開放給組織」</block>
-  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link-macro">Azure支援的組態</block>
-  <block id="22342037237200e034fd29c9cfd5bfd4" category="paragraph"><block ref="22342037237200e034fd29c9cfd5bfd4" category="inline-link-macro-rx"></block></block>
   <block id="a6523313c047adabe12f8226b1c17a58" category="paragraph">現在您可以在 NFS 中設定群組 ID 、以便直接從 BlueXP 分類中將其視為「開放組織」、如果群組一開始沒有設定該權限。任何附加這些群組 ID 的檔案和資料夾、都會在「調查詳細資料」頁面中顯示為「開放給組織」。瞭解如何操作<block ref="1de46bddc056a512b561c93990312fff" category="inline-link-rx"></block>。</block>
   <block id="4e1f7d458412b18adef0e5ff0db2eee8" category="section-title">2024 年 2 月 1 日</block>
   <block id="a409179aac0b12213b3fa77e0a22bd61" category="list-text">支援將虛擬機器還原至其他位置</block>
   <block id="9c75b0f26dddf07ed827e32aaf28bee9" category="list-text">支援不保護資料存放區</block>
-  <block id="d4eb5b4412a01c5991086dff8c51a89f" category="section-title">2024 年 2 月 2 日</block>
-  <block id="4b2d018110adbf4819b09a7a28283445" category="section-title">支援 Azure 中的 Edv5 系列 VM</block>
-  <block id="d94bc26a7eea05003dc921a469161911" category="paragraph">Cloud Volumes ONTAP 現在支援從 9.14.1 版開始的下列 Edv5 系列 VM 。</block>
-  <block id="0ce1565dc58071deb098bde3e5a6a4b6" category="list-text">E4ds_v5</block>
-  <block id="625fbc51242c48d9e17a8b8b2fe6e5c7" category="list-text">E8ds_v5</block>
-  <block id="d6f19e3dc85d5a64809ab696a35a54ab" category="list-text">E20s_v5</block>
-  <block id="708880d509c52585ca0500cd17ef2166" category="list-text">E32ds_v5</block>
-  <block id="843cc0b63b36e79d0bdf4097a1b84b6a" category="list-text">E48ds_v5</block>
-  <block id="6ec5cb856eb24c85cf7368cdfd11627f" category="list-text">E64ds_v5</block>
   <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024 年 3 月 4 日（版本 1.29 ）</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">現在您可以排除位於特定資料來源目錄中的掃描資料</block>
   <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果您想要 BlueXP 分類排除位於特定資料來源目錄中的掃描資料、您可以將這些目錄名稱新增至 BlueXP 分類處理的組態檔。此功能可讓您避免掃描不必要的目錄、或是導致傳回誤判的個人資料結果。</block>
@@ -663,4 +636,22 @@
   <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">備份至物件原則設定</block>
   <block id="9e59a4332ff7e195837a4721f8adaf92" category="list-text"><block ref="9e59a4332ff7e195837a4721f8adaf92" category="inline-link-rx"></block></block>
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 補救服務已於 2024 年 4 月 22 日移除。</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
+  <block id="31e2ca9cb7755d06bc40e30fd8e408d3" category="section-title">2024 年 4 月 23 日</block>
+  <block id="a2fefc65df2136938b995f8abbe643c2" category="section-title">Azure 支援多個可用區域部署的新區域</block>
+  <block id="0cc914ed23f0f7d6bc902ae731843213" category="paragraph">以下地區現在支援 Azure 中的 HA 多重可用性區域部署、適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本：</block>
+  <block id="1dab3491cdeeb2a6d567b21ee3063ae4" category="list-text">德國中西部</block>
+  <block id="26b4bdc11dfead08029a688129c42cf9" category="list-text">波蘭中部</block>
+  <block id="64fb50bb758fe12b94faa568a567e13c" category="list-text">美國西部 3.</block>
+  <block id="eb1aea8107eeeb90c841d5710262dd52" category="list-text">以色列中部</block>
+  <block id="6c2cb03afda0af373b8df47f9dc47ed7" category="list-text">義大利北部</block>
+  <block id="1d0f99876d748759fce5e852f79fca96" category="list-text">加拿大中部</block>
+  <block id="ee39417afe0e7b7726a65f6235448846" category="paragraph">如需所有區域的清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="0b745a8416b0a8e3b89e7e01ba13af65" category="section-title">Google Cloud 現在支援約翰內斯堡地區</block>
+  <block id="ec826289e3407edb59d3c5ed0aca5c74" category="paragraph">約翰內斯堡地區 <block ref="6d1d2d77b70fb38d060e5653977838a2" prefix="(" category="inline-code"></block> Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在均支援區域）。</block>
+  <block id="2bc724993144e8002899059117620062" category="inline-link">Google Cloud 下的全球區域地圖</block>
+  <block id="6a050b5b1c64124ef335bf9dbf64e03f" category="paragraph">如需所有區域的清單、請參閱<block ref="5328f934c7a30e2b8b67732fc162a525" category="inline-link-rx"></block>。</block>
+  <block id="ee94ea94211470599a81d49f8c4b586f" category="section-title">不再支援 Volume 範本和標籤</block>
+  <block id="96b0b2a19dd9deb6b94e53f2e29f4387" category="paragraph">您無法再從範本建立磁碟區、也無法編輯磁碟區的標籤。這些動作與 BlueXP 補救服務相關聯、而 BlueXP 補救服務已無法使用。</block>
 </blocks>

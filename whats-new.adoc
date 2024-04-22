@@ -128,6 +128,16 @@ BlueXP 現已推出新的私有模式版本。此版本包含下列支援私有�
 
 
 
+=== 2024 年 4 月 22 日
+
+
+
+==== 不再支援 Volume 範本
+
+您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。
+
+
+
 === 2021年4月11日
 
 
@@ -151,26 +161,6 @@ BlueXP 現已推出新的私有模式版本。此版本包含下列支援私有�
 您現在可以動態變更磁碟區的服務層級、以滿足工作負載需求並最佳化成本。該磁碟區會移至其他容量集區、而不會影響該磁碟區。
 
 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level["瞭解如何變更Volume的服務層級"]。
-
-
-
-=== 2020年8月3日
-
-
-
-==== 設定與管理Azure NetApp Files
-
-直接從Cloud Manager設定及管理Azure NetApp Files 功能。建立Azure NetApp Files 一個不完整的工作環境之後、您可以完成下列工作：
-
-* 建立NFS和SMB磁碟區。
-* 管理容量資源池和Volume快照
-+
-Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立新的容量集區、並指定其服務層級。
-
-* 變更磁碟區的大小及管理標記、以編輯磁碟區。
-
-
-直接Azure NetApp Files 從Cloud Manager建立及管理功能可取代先前的資料移轉功能。
 
 
 
@@ -353,6 +343,40 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 
 
 
+=== 2024 年 4 月 23 日
+
+
+
+==== Azure 支援多個可用區域部署的新區域
+
+以下地區現在支援 Azure 中的 HA 多重可用性區域部署、適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本：
+
+* 德國中西部
+* 波蘭中部
+* 美國西部 3.
+* 以色列中部
+* 義大利北部
+* 加拿大中部
+
+
+如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
+
+
+
+==== Google Cloud 現在支援約翰內斯堡地區
+
+約翰內斯堡地區 (`africa-south1` Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在均支援區域）。
+
+如需所有區域的清單、請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Google Cloud 下的全球區域地圖"^]。
+
+
+
+==== 不再支援 Volume 範本和標籤
+
+您無法再從範本建立磁碟區、也無法編輯磁碟區的標籤。這些動作與 BlueXP 補救服務相關聯、而 BlueXP 補救服務已無法使用。
+
+
+
 === 2024 年 3 月 8 日
 
 
@@ -372,26 +396,6 @@ https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.htm
 ==== Cloud Volumes ONTAP 9.14.1 GA
 
 BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.14.1 通用可用度版本。
-
-
-
-=== 2024 年 2 月 2 日
-
-
-
-==== 支援 Azure 中的 Edv5 系列 VM
-
-Cloud Volumes ONTAP 現在支援從 9.14.1 版開始的下列 Edv5 系列 VM 。
-
-* E4ds_v5
-* E8ds_v5
-* E20s_v5
-* E32ds_v5
-* E48ds_v5
-* E64ds_v5
-
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
 
 
 
@@ -889,6 +893,16 @@ link:https://docs.netapp.com/us-en/bluexp-reports/get-started/intro.html["深入
 
 
 
+=== 2024 年 4 月 22 日
+
+
+
+==== 不再支援 Volume 範本
+
+您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。
+
+
+
 === 2023 年 7 月 30 日
 
 
@@ -912,25 +926,6 @@ link:https://docs.netapp.com/us-en/bluexp-reports/get-started/intro.html["深入
 您現在可以從 * 畫布 > My 遺產 * 中探索內部部署的 ONTAP 叢集、方法是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集、選取 BlueXP 預先探索的叢集。
 
 https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["從「我的資產」頁面瞭解如何探索叢集"]。
-
-
-
-=== 2023 年 5 月 4 日
-
-
-
-==== 啟用 BlueXP 備份與還原
-
-從 ONTAP 9.13.1 開始、如果您使用 Connector 探索到叢集、就可以使用系統管理員（進階檢視）來啟用 BlueXP 備份與還原。 link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["深入瞭解如何啟用 BlueXP 備份與還原"^]
-
-
-
-==== 升級 ONTAP 版本映像和硬體韌體
-
-從 ONTAP 9.10.1 開始、您可以使用系統管理員（進階檢視）來升級 ONTAP 版本映像和硬體韌體。您可以選擇接收自動升級以保持最新狀態、也可以從本機機器或使用 BlueXP 存取的伺服器手動進行更新。 link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["深入瞭解如何升級 ONTAP 和韌體"^]
-
-
-NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能從使用 BlueXP 存取的伺服器進行更新。
 
 
 
