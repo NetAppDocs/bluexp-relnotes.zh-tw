@@ -24,6 +24,38 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2024 年 4 月 22 日
+
+
+
+==== 連接器 3.9.39
+
+此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
+
+目前、 3.9.39 版本適用於標準模式和受限模式。
+
+
+
+==== AWS 建立 Connector 的權限
+
+現在需要兩個額外權限才能從 BlueXP 在 AWS 中建立 Connector ：
+
+[source, json]
+----
+"ec2:DescribeLaunchTemplates",
+"ec2:CreateLaunchTemplate",
+----
+若要在 Connector 的 EC2 執行個體上啟用 IMDSv2 、必須具備這些權限。
+
+我們在建立 Connector 時、 BlueXP 使用者介面中所顯示的原則中、以及文件中所提供的相同原則中、都包含這些權限。
+
+
+NOTE: 此原則僅包含從BlueXP啟動AWS中Connector執行個體所需的權限。這與指派給 Connector 執行個體的原則不同。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-aws-bluexp.html#step-2-set-up-aws-permissions["瞭解如何設定 AWS 權限、從 AWS 建立 Connector"]。
+
+
+
 === 2024 年 4 月 11 日
 
 
@@ -75,54 +107,6 @@ BlueXP 現已推出新的私有模式版本。此版本包含下列支援私有�
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#upgrade-the-connector-when-using-private-mode["瞭解如何在使用私有模式時升級 Connector"]
 
-
-
-
-=== 2024 年 3 月 8 日
-
-
-
-==== 連接器 3.9.38
-
-目前、 3.9.38 版本適用於標準模式和受限模式。此版本包括 AWS 中的 IMDSv2 支援和 AWS 權限更新。
-
-
-
-===== 支援 IMDSv2
-
-BlueXP 現在支援 Amazon EC2 執行個體中繼資料服務版本 2 （ IMDSv2 ）與 Connector 執行個體及 Cloud Volumes ONTAP 執行個體。IMDSv2 提供更強大的保護功能、防範弱點。之前僅支援 IMDSv1 。
-
-https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/["從 AWS 安全性部落格深入瞭解 IMDSv2"^]
-
-在 EC2 執行個體上、執行個體中繼資料服務（ IMDS ）的啟用方式如下：
-
-* 適用於從 BlueXP 或使用的新 Connector 部署 https://docs.netapp.com/us-en/bluexp-automation/automate/overview.html["Terraform 指令碼"^]、根據預設、 EC2 執行個體上會啟用 IMDSv2 。
-* 如果您在 AWS 中啟動新的 EC2 執行個體、然後手動安裝 Connector 軟體、則預設也會啟用 IMDSv2 。
-* 對於現有的 Connectors 、仍支援 IMDSv1 、但您可以視需要在 EC2 執行個體上手動設定 IMDSv2 。
-* 對於 Cloud Volumes ONTAP 、根據預設、會在新的和現有的執行個體上啟用 IMDSv1 。您可以視需要在 EC2 執行個體上手動設定 IMDSv2 。
-
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html#require-the-use-of-imdsv2-on-amazon-ec2-instances["瞭解如何在現有執行個體上設定 IMDSv2"]。
-
-
-
-===== AWS 權限更新
-
-我們更新了 AWS 的 Connector 原則、以納入「 EC2 ： DescrubeAvailabilityZones 」權限。即將發行的版本需要此權限。我們會在發行版本推出時更新版本資訊、提供更多詳細資料。
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-aws.html["檢視 Connector 的 AWS 權限"]。
-
-
-
-==== Proxy 設定和 Cloud Volumes ONTAP 設定
-
-Connector 的 Proxy 伺服器設定現在可從「 * 管理連接器 * 」頁面（標準模式）或「 * 編輯連接器 * 」頁面（限制模式和私有模式）取得。
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-configuring-proxy.html["瞭解如何設定 Connector 以使用 Proxy 伺服器"]。
-
-此外、我們將 * 連接器設定 * 頁面重新命名為 * Cloud Volumes ONTAP 設定 * 。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-cvo-settings.png["螢幕擷取畫面、顯示「設定」功能表中可用的「 Cloud Volumes ONTAP 設定」選項。"]
 
 
 
@@ -236,6 +220,25 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 
 
 
+=== 2024 年 4 月 4 日
+
+
+
+==== 能夠啟用或停用勒索軟體掃描
+
+以前、當您在備份原則中啟用勒索軟體偵測時、會在建立第一個備份時、以及還原備份時自動進行掃描。以前、服務會掃描所有 Snapshot 複本、您無法停用掃描。
+
+使用此版本、您現在可以使用「進階設定」頁面上的選項、在最新的 Snapshot 複本上啟用或停用勒索軟體掃描。如果啟用、預設會每週執行掃描。
+
+如需詳細資訊、請參閱下列資訊：
+
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-manage-backup-settings-ontap.html["管理備份設定"]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["管理 ONTAP 磁碟區的原則"]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-cloud-backup-policies.html["備份至物件原則設定"]
+
+
+
+
 === 2024 年 3 月 12 日
 
 
@@ -269,71 +272,6 @@ Cloud Manager可讓您建立、刪除及還原Volume快照。您也可以建立�
 * 支援將虛擬機器還原至其他位置
 * 支援不保護資料存放區
 
-
-
-
-=== 2023 年 12 月 15 日
-
-
-
-==== 適用於本機 Snapshot 和複寫 Snapshot 複本的報告
-
-以前、您只能在備份複本上產生報告。現在、您也可以在本機 Snapshot 複本和複寫 Snapshot 複本上建立報告。
-
-使用這些報告、您可以執行下列動作：
-
-* 確保關鍵資料受到組織原則的保護。
-* 確保一組磁碟區的備份作業順利進行。
-* 為您的正式作業資料提供保護證明。
-
-
-請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-report-inventory.html["報告資料保護涵蓋範圍"]。
-
-
-
-==== 可在磁碟區上使用自訂標記進行排序和篩選
-
-您現在可以將自訂標記新增至 ONTAP 9.13.1 中的磁碟區、以便在工作環境中和跨工作環境將磁碟區分組在一起。如此一來、您就能在 BlueXP 備份與還原 UI 頁面中排序磁碟區、並在報告中篩選。
-
-
-
-==== 目錄備份保留 30 天
-
-以前、 Catalog.zip 備份會保留 7 天。現在、他們會保留 30 天。
-
-請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/reference-backup-cbs-db-in-dark-site.html["在黑暗的站台中還原 BlueXP 備份與還原資料"]。
-
-
-
-=== 2023 年 10 月 23 日
-
-
-
-==== 在備份啟動期間建立 3-2-1 備份原則
-
-之前、您必須先建立自訂原則、才能啟動 Snapshot 、複寫或備份。現在您可以使用 BlueXP 備份與還原 UI 、在備份啟動程序期間建立原則。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-create-policies-ontap.html["深入瞭解原則"]。
-
-
-
-==== 支援隨需快速還原 ONTAP 磁碟區
-
-BlueXP 備份與還原現在提供從雲端儲存設備快速還原磁碟區至 Cloud Volumes ONTAP 系統的功能。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原可將中繼資料從備份檔案還原至磁碟區、而非還原整個備份檔案。
-
-Cloud Volumes ONTAP 目的地系統必須執行 ONTAP 9.13.0 版或更新版本。 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解還原資料"]。
-
-BlueXP 備份與還原工作監視器也會顯示快速還原工作進度的相關資訊。
-
-
-
-==== 支援「工作監控」中的排程工作
-
-BlueXP 備份與還原工作監控先前監控的排程磁碟區對物件儲存區備份與還原工作、但不是透過 UI 或 API 排程的本機 Snapshot 、複寫、備份與還原工作。
-
-BlueXP 備份與還原工作監視器現在包含排程工作、可用於本機快照、複製及備份至物件儲存設備。
-
-https://docs.netapp.com/us-en/bluexp-backup-recovery/task-monitor-backup-jobs.html["深入瞭解更新的工作監控器"]。
 
 
 
@@ -1054,43 +992,7 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-pr
 
 == 補救
 
-
-
-=== 2022年3月3日
-
-
-
-==== 現在您可以建立範本來尋找特定的工作環境
-
-使用「尋找現有資源」動作、您可以識別工作環境、然後使用其他範本動作（例如建立磁碟區）、輕鬆在現有的工作環境中執行動作。 https://docs.netapp.com/us-en/bluexp-remediation/task-define-templates.html#examples-of-finding-existing-resources-and-enabling-services-using-templates["如需詳細資料、請前往此處"]。
-
-
-
-==== 能夠在Cloud Volumes ONTAP AWS中建立一個功能不只是功能不一的HA工作環境
-
-目前在Cloud Volumes ONTAP AWS中建立功能完善的環境、除了建立單一節點系統之外、還包括建立高可用度系統。 https://docs.netapp.com/us-en/bluexp-remediation/task-define-templates.html#create-a-template-for-a-cloud-volumes-ontap-working-environment["瞭解如何建立Cloud Volumes ONTAP 適用於各種作業環境的範本"]。
-
-
-
-=== 2022年2月9日
-
-
-
-==== 現在、您可以建立範本來尋找特定的現有磁碟區、然後啟用Cloud Backup
-
-使用新的「尋找資源」動作、您可以識別要啟用Cloud Backup的所有磁碟區、然後使用Cloud Backup動作來啟用這些磁碟區上的備份。
-
-目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。 https://docs.netapp.com/us-en/bluexp-remediation/task-define-templates.html#find-existing-volumes-and-activate-bluexp-backup-and-recovery["如需詳細資料、請前往此處"]。
-
-
-
-=== 2021年10月31日
-
-
-
-==== 現在您可以標記同步關係、以便將其分組或分類、以便輕鬆存取
-
-https://docs.netapp.com/us-en/bluexp-remediation/concept-tagging.html["深入瞭解資源標記"]。
+BlueXP 補救服務已於 2024 年 4 月 22 日移除。
 
 
 

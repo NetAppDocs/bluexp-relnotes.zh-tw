@@ -59,7 +59,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理
 * https://docs.netapp.com/us-en/bluexp-edge-caching/whats-new.html["邊緣快取"^]
 * https://docs.netapp.com/us-en/bluexp-operational-resiliency/release-notes/whats-new.html["營運恢復能力"^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/whats-new.html["勒索軟體保護"^]
-* https://docs.netapp.com/us-en/bluexp-remediation/whats-new.html["補救"^]
 * https://docs.netapp.com/us-en/bluexp-replication/whats-new.html["複寫"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/whats-new.html["分層"^]
 * https://docs.netapp.com/us-en/bluexp-volume-caching/release-notes/cache-whats-new.html["Volume 快取"^]

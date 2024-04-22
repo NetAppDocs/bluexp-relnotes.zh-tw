@@ -21,17 +21,6 @@
   <block id="5054d68a0b2f03dece3eb72cfaa09427" category="list-text">變更磁碟區的大小及管理標記、以編輯磁碟區。</block>
   <block id="396a3c9fb559d38e68f68ea139b3539a" category="paragraph">直接Azure NetApp Files 從Cloud Manager建立及管理功能可取代先前的資料移轉功能。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="section-title">Amazon FSX for ONTAP Sf</block>
-  <block id="784044bd2af30d58bbb0dbcea3adbad6" category="section-title">2021年10月31日</block>
-  <block id="983a4e7f5913304ec713a249baf7be47" category="section-title">2022年3月3日</block>
-  <block id="400480e0d45c783abec0a0fffbb005a6" category="section-title">現在您可以建立範本來尋找特定的工作環境</block>
-  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">如需詳細資料、請前往此處</block>
-  <block id="411448f8702bbfa858b0a2ba2ee94014" category="section-title">能夠在Cloud Volumes ONTAP AWS中建立一個功能不只是功能不一的HA工作環境</block>
-  <block id="6eed6fdcaa0bf2c22f0c8e78ff686d29" category="inline-link">瞭解如何建立Cloud Volumes ONTAP 適用於各種作業環境的範本</block>
-  <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">2022年2月9日</block>
-  <block id="f1f7e50301c1e57e30e795fa8928ee8f" category="section-title">現在、您可以建立範本來尋找特定的現有磁碟區、然後啟用Cloud Backup</block>
-  <block id="98b343467576e58f6658965bc67f83c1" category="paragraph">使用新的「尋找資源」動作、您可以識別要啟用Cloud Backup的所有磁碟區、然後使用Cloud Backup動作來啟用這些磁碟區上的備份。</block>
-  <block id="70c889b200c3ef8dbb491ca542d1d091" category="section-title">現在您可以標記同步關係、以便將其分組或分類、以便輕鬆存取</block>
-  <block id="049ebb609707e4c76f578eb98777ffdc" category="inline-link">深入瞭解資源標記</block>
   <block id="d798cbf5a08fbeb9fdd3652e5b00bb4c" category="section-title">2021年9月2日</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="section-title">Cloud Volumes ONTAP</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020年9月9日</block>
@@ -182,7 +171,6 @@
   <block id="ed6f4d59069b65b41bfb3cfba797ee42" category="list-text"><block ref="ed6f4d59069b65b41bfb3cfba797ee42" category="inline-link-rx"></block></block>
   <block id="35ab587d29d669683f08424c60051957" category="list-text"><block ref="35ab587d29d669683f08424c60051957" category="inline-link-rx"></block></block>
   <block id="d5bd7276f5a8c8218f75aba64cdfdeb0" category="list-text"><block ref="d5bd7276f5a8c8218f75aba64cdfdeb0" category="inline-link-rx"></block></block>
-  <block id="b58c4ddee0575cfc72a18936b05df78a" category="list-text"><block ref="b58c4ddee0575cfc72a18936b05df78a" category="inline-link-rx"></block></block>
   <block id="c821df2021ac7a846f6554ac1ed76719" category="list-text"><block ref="c821df2021ac7a846f6554ac1ed76719" category="inline-link-rx"></block></block>
   <block id="367cb072fdec82ba883d66fadac7fc54" category="list-text"><block ref="367cb072fdec82ba883d66fadac7fc54" category="inline-link-rx"></block></block>
   <block id="a80baf4fa5d71b9ef418edfcaebd2759" category="list-text"><block ref="a80baf4fa5d71b9ef418edfcaebd2759" category="inline-link-rx"></block></block>
@@ -194,10 +182,6 @@
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
   <block id="4e4ff5b7850bf0aae4966bf2353d2764" category="list-text">您現在可以了 <block ref="79330a9a9d35860d426f0d48c9f654a7" category="inline-link-macro-rx"></block> 是使用 Trident 運算子或 BlueXP 安裝的。</block>
   <block id="08dbc554156c2764d1696fe55d768aed" category="paragraph">何時 <block ref="c5aa031d705396e63c7e52a97cf56f86" category="inline-link-macro-rx"></block>、您現在可以為區塊或檔案系統儲存設備啟用儲存等級的經濟效益。</block>
-  <block id="6036aba79be1763af24e9806bf6aa269" category="paragraph">使用「尋找現有資源」動作、您可以識別工作環境、然後使用其他範本動作（例如建立磁碟區）、輕鬆在現有的工作環境中執行動作。<block ref="1cc8e92b4ee69f285158646e972eb8d0" category="inline-link-rx"></block>。</block>
-  <block id="4bf671cced86fd4534b1e46341c4d33e" category="paragraph">目前在Cloud Volumes ONTAP AWS中建立功能完善的環境、除了建立單一節點系統之外、還包括建立高可用度系統。<block ref="4e312d070157c43d2c155d9ef416aea0" category="inline-link-rx"></block>。</block>
-  <block id="3ce8031a2a5efd8807d29dc5391ac03a" category="paragraph">目前支援Cloud Volumes ONTAP 的是在內部部署ONTAP 的不支援系統上的大量資料。<block ref="71acbc1e86413ca32a85c458baf53529" category="inline-link-rx"></block>。</block>
-  <block id="c3f9f5f3154c847ae51038b02652e769" category="paragraph"><block ref="ebf81513d87da0002a3ac7ea6ee056cb" category="inline-link-rx"></block>。</block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
   <block id="2b3e8f910d66604cd77f93b333670468" category="inline-link">Azure Blob 儲存設備</block>
   <block id="a1182a2fefa3fdd8128a983a3d666611" category="list-text"><block ref="a1182a2fefa3fdd8128a983a3d666611" category="inline-link-rx"></block></block>
@@ -403,7 +387,6 @@
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">您可以使用存取預設報價表的 Upgrade Advisor 頁面 <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> 連結：</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">瞭解如何產生及檢視升級計畫</block>
   <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">升級計畫經過最佳化、可移除備援升級步驟、並簡化退貨計畫。叢集中所有節點的一般步驟均已整合、並可在升級計畫的一般資訊區段中取得。 <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>。</block>
-  <block id="fb2530f9293a4ba59cfd3ca6492bb972" category="section-title">2023 年 10 月 23 日</block>
   <block id="f1d5b892646c28fdb747b890f0787976" category="section-title">在備份啟動期間建立 3-2-1 備份原則</block>
   <block id="1a169799fb63ccdda2e672c25d0ab2d2" category="paragraph">之前、您必須先建立自訂原則、才能啟動 Snapshot 、複寫或備份。現在您可以使用 BlueXP 備份與還原 UI 、在備份啟動程序期間建立原則。</block>
   <block id="09aac1469e7bc1d8f162de80ea67cdc3" category="section-title">支援隨需快速還原 ONTAP 磁碟區</block>
@@ -473,9 +456,6 @@
   <block id="75cbcf1dd82ddd4349696999b639377f" category="paragraph"><block ref="75cbcf1dd82ddd4349696999b639377f" category="inline-link-macro-rx"></block></block>
   <block id="41e96c41b82196674a6b6c99d0c0b8ad" category="section-title">2023 年 11 月 8 日</block>
   <block id="c4cd570753ca79cf809d24d7723c0e82" category="paragraph">此版本的 BlueXP 經濟效益包括一個新選項、可評估您的資產、並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。</block>
-  <block id="aa4c67fd3731395f4450c9686b20f799" category="section-title">支援「工作監控」中的排程工作</block>
-  <block id="314b40130d46a229c3a19dc5e2e23aa4" category="paragraph">BlueXP 備份與還原工作監控先前監控的排程磁碟區對物件儲存區備份與還原工作、但不是透過 UI 或 API 排程的本機 Snapshot 、複寫、備份與還原工作。</block>
-  <block id="04c6b318fe9c7f19ae925a90e52c6569" category="paragraph">BlueXP 備份與還原工作監視器現在包含排程工作、可用於本機快照、複製及備份至物件儲存設備。</block>
   <block id="35214f9b3df21ed35db22cb765a9b147" category="section-title">2023 年 11 月 13 日</block>
   <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">您現在可以為使用 SMB/CIFS 通訊協定的磁碟區建立報告。</block>
   <block id="563cbb5befcc35d67fb204c94be0bffb" category="summary">檢視每個個別 BlueXP 服務的完整版本說明。</block>
@@ -492,21 +472,6 @@
   <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">所有新的資料代理人現在都會使用節點版本 21.2.0 。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0 ）將不再適用於 BlueXP 複本與同步。</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">觀察名單</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024 年 1 月 11 日</block>
-  <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">2023 年 12 月 15 日</block>
-  <block id="7ab0753b80059fbad40a2fd72c4592ce" category="section-title">適用於本機 Snapshot 和複寫 Snapshot 複本的報告</block>
-  <block id="9e6cfaae073aa85c2c955e17e29074a8" category="paragraph">以前、您只能在備份複本上產生報告。現在、您也可以在本機 Snapshot 複本和複寫 Snapshot 複本上建立報告。</block>
-  <block id="df4821b02d035c9862b3a2ae32691ed8" category="paragraph">使用這些報告、您可以執行下列動作：</block>
-  <block id="bb80777a047b566ac3b10e32c370ca6a" category="list-text">確保關鍵資料受到組織原則的保護。</block>
-  <block id="4af8855be3acb3531c504c5560e50187" category="list-text">確保一組磁碟區的備份作業順利進行。</block>
-  <block id="21c3f5d157e063b8c2a027ddc88be774" category="list-text">為您的正式作業資料提供保護證明。</block>
-  <block id="7423bbe1d34880696cfb7dd51492349f" category="inline-link">報告資料保護涵蓋範圍</block>
-  <block id="eb6103dddc4e26822e765e4e36dce6cb" category="paragraph">請參閱<block ref="76fbdf5883fabf4a66bc2a9d2bdc8b58" category="inline-link-rx"></block>。</block>
-  <block id="e24cbc73c28ff71b40798b880015fb21" category="section-title">可在磁碟區上使用自訂標記進行排序和篩選</block>
-  <block id="080dddcbfae67093013a7e013a7a9bff" category="paragraph">您現在可以將自訂標記新增至 ONTAP 9.13.1 中的磁碟區、以便在工作環境中和跨工作環境將磁碟區分組在一起。如此一來、您就能在 BlueXP 備份與還原 UI 頁面中排序磁碟區、並在報告中篩選。</block>
-  <block id="6bc380f29d7a62cc8a2bd6b0b4dc9ccd" category="section-title">目錄備份保留 30 天</block>
-  <block id="2a7d8d5d92a8e8110b2bc2ab71c0c002" category="paragraph">以前、 Catalog.zip 備份會保留 7 天。現在、他們會保留 30 天。</block>
-  <block id="16f6196e265bdbd3f9da022848c51d8a" category="inline-link">在黑暗的站台中還原 BlueXP 備份與還原資料</block>
-  <block id="89b2c6f6be45f8f05d713b7bae69cd15" category="paragraph">請參閱<block ref="5596168e45150b1d53148898addeba07" category="inline-link-rx"></block>。</block>
   <block id="be8658cdca9524eb49f00560785f3ab7" category="section-title">調查頁面結果現在除了顯示項目總數之外、還會顯示總大小</block>
   <block id="81b243d81f786faa99d42ef659adac3a" category="paragraph">「調查」頁面中的篩選結果現在除了顯示檔案總數之外、還會顯示項目的總大小。這有助於移動檔案、刪除檔案等。</block>
   <block id="bb5b2f81c2aa7d8df9263c590efda3e6" category="section-title">將其他群組 ID 設定為「開放給組織」</block>
@@ -596,33 +561,9 @@
   <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
   <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
   <block id="4a1a05ee22994e328d9ec0402052b926" category="section-title">2024 年 3 月 8 日</block>
-  <block id="00d14f718aca7db50368d8fc7008b41a" category="section-title">連接器 3.9.38</block>
-  <block id="d39d3f642c13ecde9b0fc02889aa6386" category="paragraph">目前、 3.9.38 版本適用於標準模式和受限模式。此版本包括 AWS 中的 IMDSv2 支援和 AWS 權限更新。</block>
-  <block id="b8048e9aa508d6c9379607c39c84e904" category="section-title">支援 IMDSv2</block>
-  <block id="727615b8adbd72d276572a4469f7c09d" category="paragraph">BlueXP 現在支援 Amazon EC2 執行個體中繼資料服務版本 2 （ IMDSv2 ）與 Connector 執行個體及 Cloud Volumes ONTAP 執行個體。IMDSv2 提供更強大的保護功能、防範弱點。之前僅支援 IMDSv1 。</block>
-  <block id="824e7fae55f361d08bb9bd5bdf494ff0" category="inline-link">從 AWS 安全性部落格深入瞭解 IMDSv2</block>
-  <block id="8035ec6377ab933cc4bc2a70b5416a29" category="paragraph"><block ref="8035ec6377ab933cc4bc2a70b5416a29" category="inline-link-rx"></block></block>
-  <block id="89f5243637c4f72512944130a95ee3e5" category="paragraph">在 EC2 執行個體上、執行個體中繼資料服務（ IMDS ）的啟用方式如下：</block>
-  <block id="baebea4bbd59d6c8efcae96586b2e199" category="inline-link">Terraform 指令碼</block>
-  <block id="0319f9ec57f9eeb8250ac949896c30fd" category="list-text">如果您在 AWS 中啟動新的 EC2 執行個體、然後手動安裝 Connector 軟體、則預設也會啟用 IMDSv2 。</block>
-  <block id="1fac08ada9902743d92641fbbd32d13f" category="list-text">對於現有的 Connectors 、仍支援 IMDSv1 、但您可以視需要在 EC2 執行個體上手動設定 IMDSv2 。</block>
-  <block id="d0371cc329d08bb54c28e8881cc93db7" category="list-text">對於 Cloud Volumes ONTAP 、根據預設、會在新的和現有的執行個體上啟用 IMDSv1 。您可以視需要在 EC2 執行個體上手動設定 IMDSv2 。</block>
-  <block id="e064a507c52bd5a195428edf98b8aecb" category="inline-link">瞭解如何在現有執行個體上設定 IMDSv2</block>
-  <block id="4cc078461f1763cdb13efec9da8a6a3f" category="section-title">AWS 權限更新</block>
-  <block id="5b208d0b88475ec99f06a7e55104a566" category="paragraph">我們更新了 AWS 的 Connector 原則、以納入「 EC2 ： DescrubeAvailabilityZones 」權限。即將發行的版本需要此權限。我們會在發行版本推出時更新版本資訊、提供更多詳細資料。</block>
-  <block id="7595af352964f2b06057ab6310fdff44" category="inline-link">檢視 Connector 的 AWS 權限</block>
-  <block id="bad85d32b5f3e46e956809c13b502817" category="paragraph"><block ref="7e42187d6259f740c2e1915df5429efc" category="inline-link-rx"></block>。</block>
-  <block id="9796f4649a0c963c7b6019196c7f14f0" category="section-title">Proxy 設定和 Cloud Volumes ONTAP 設定</block>
-  <block id="1697d0f8a0936757a7bb28b4fa2eacd1" category="paragraph">Connector 的 Proxy 伺服器設定現在可從「 * 管理連接器 * 」頁面（標準模式）或「 * 編輯連接器 * 」頁面（限制模式和私有模式）取得。</block>
-  <block id="50770490f832c2b93de5aff17e5102b5" category="inline-link">瞭解如何設定 Connector 以使用 Proxy 伺服器</block>
-  <block id="d58ba1e11f305c91632d6e86e3515966" category="paragraph"><block ref="f2fec40748e9e912170fdd2984d9b989" category="inline-link-rx"></block>。</block>
-  <block id="d560347c8aaf0de44ab17132b9923b1c" category="paragraph">此外、我們將 * 連接器設定 * 頁面重新命名為 * Cloud Volumes ONTAP 設定 * 。</block>
-  <block id="79c73187c699b08002880f70fb88a0a8" category="inline-image-macro">螢幕擷取畫面、顯示「設定」功能表中可用的「 Cloud Volumes ONTAP 設定」選項。</block>
-  <block id="1a1ed66dc9bfcad0fc9c0c7fa6b4f0ca" category="paragraph"><block ref="1a1ed66dc9bfcad0fc9c0c7fa6b4f0ca" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6505788c29b47651fe2e94f0607a2ef7" category="section-title">超大型執行個體支援現已符合資格</block>
   <block id="1647534ed4603d68f73fd3f261af9b65" category="paragraph">如果您需要 BlueXP 分類來掃描超過 2.5 億個檔案、您可以在雲端部署或內部部署安裝中使用超大型執行個體。這類系統最多可掃描 5 億個檔案。</block>
   <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>。</block>
-  <block id="7c3d026f5f0bf0d01848d386f69159eb" category="paragraph"><block ref="7295f02a3c546b103864aa8261ac9cab" category="inline-link-rx"></block>。</block>
   <block id="1582ce9c3a0b0079717e0b0c6edf2347" category="section-title">Amazon Instant 中繼資料服務 v2 支援</block>
   <block id="4ac5b49185bd4b8f8b0ef6b8869d149f" category="paragraph">在 AWS 、 Cloud Volumes ONTAP 、 Mediator 和 Connector 中、現在所有功能都支援 Amazon Instant 中繼資料服務 v2 （ IMDSv2 ）。IMDSv2 提供更強大的保護功能、防範弱點。之前僅支援 IMDSv1 。</block>
   <block id="7fcd14ee7d62b2a6f712b7ed775cdbc3" category="inline-link-macro">用於管理現有連接器的 BlueXP 安裝與管理文件</block>
@@ -699,5 +640,27 @@
   <block id="0427fd4cf4edaa5749da5792252fcd70" category="paragraph">我們已更新 Docker Engine 需求、以指定 Connector 上支援的最大版本、即 25.0.0 。支援的最低版本仍為 19.3.1 。</block>
   <block id="a7d713b0c0233ee2a3bbb328d82ba606" category="inline-link">View Connector 主機需求</block>
   <block id="10f6464912ab27695ba4f7df57c14783" category="paragraph"><block ref="19b43e2419dde639b2fba3d57b5bca52" category="inline-link-rx"></block>。</block>
-  <block id="91c7ed7e9c640df79f6bf153c6642ae5" category="list-text">適用於從 BlueXP 或使用的新 Connector 部署<block ref="d5789cbcfe02eb67db017173bcddbe49" category="inline-link-rx"></block>、根據預設、 EC2 執行個體上會啟用 IMDSv2 。</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
+  <block id="1389c5e279a667948337a56d97caf570" category="section-title">連接器 3.9.39</block>
+  <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。</block>
+  <block id="103f00dbabbbaa84ff4ad44e1ae8f0e0" category="paragraph">目前、 3.9.39 版本適用於標準模式和受限模式。</block>
+  <block id="dcaa3e92176845b160207f9f0d80aef3" category="section-title">AWS 建立 Connector 的權限</block>
+  <block id="492d5f07c90a7db03029f9a6c5532ce3" category="paragraph">現在需要兩個額外權限才能從 BlueXP 在 AWS 中建立 Connector ：</block>
+  <block id="d563c67cb5d34e4276aadadd838867f8" category="paragraph">若要在 Connector 的 EC2 執行個體上啟用 IMDSv2 、必須具備這些權限。</block>
+  <block id="99c957a89e85bd737f02914924c399b3" category="paragraph">我們在建立 Connector 時、 BlueXP 使用者介面中所顯示的原則中、以及文件中所提供的相同原則中、都包含這些權限。</block>
+  <block id="679562c52996a8e2a4db9524251394f4" category="admonition">此原則僅包含從BlueXP啟動AWS中Connector執行個體所需的權限。這與指派給 Connector 執行個體的原則不同。</block>
+  <block id="1c51e24c3b44b362001f3c1a6c51b065" category="inline-link">瞭解如何設定 AWS 權限、從 AWS 建立 Connector</block>
+  <block id="16a785388c44f1116fdb34f01d8816bb" category="paragraph"><block ref="53bbefe6872cea40f97befa74964b71d" category="inline-link-rx"></block>。</block>
+  <block id="22c5942eb497ecdc45ab31895da620cb" category="section-title">2024 年 4 月 4 日</block>
+  <block id="58ca11ae6c2b33188443fbfd95e6b93d" category="section-title">能夠啟用或停用勒索軟體掃描</block>
+  <block id="6dc490eff019755a2978212c0ff0515d" category="paragraph">以前、當您在備份原則中啟用勒索軟體偵測時、會在建立第一個備份時、以及還原備份時自動進行掃描。以前、服務會掃描所有 Snapshot 複本、您無法停用掃描。</block>
+  <block id="d48498af5a5419c6130b506ce86226aa" category="paragraph">使用此版本、您現在可以使用「進階設定」頁面上的選項、在最新的 Snapshot 複本上啟用或停用勒索軟體掃描。如果啟用、預設會每週執行掃描。</block>
+  <block id="d7e0995e5e0ecfb32470e10070175d63" category="paragraph">如需詳細資訊、請參閱下列資訊：</block>
+  <block id="cb79697c10a273ae05f814fdc378a3b6" category="inline-link">管理備份設定</block>
+  <block id="b9efb0b81ee5dede04d703accaa3ac50" category="list-text"><block ref="b9efb0b81ee5dede04d703accaa3ac50" category="inline-link-rx"></block></block>
+  <block id="6b28ac02ff2a9de6b423b9f57d6a4d09" category="inline-link">管理 ONTAP 磁碟區的原則</block>
+  <block id="4987d2d58127a881e304bbe4ce3b5f7b" category="list-text"><block ref="4987d2d58127a881e304bbe4ce3b5f7b" category="inline-link-rx"></block></block>
+  <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">備份至物件原則設定</block>
+  <block id="9e59a4332ff7e195837a4721f8adaf92" category="list-text"><block ref="9e59a4332ff7e195837a4721f8adaf92" category="inline-link-rx"></block></block>
+  <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 補救服務已於 2024 年 4 月 22 日移除。</block>
 </blocks>
