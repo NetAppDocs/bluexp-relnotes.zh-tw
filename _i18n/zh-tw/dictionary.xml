@@ -686,4 +686,32 @@
   <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">如需 NetApp 全域檔案快取終止可用度的詳細資料、請參閱</block>
   <block id="84037427a2c8d669a1e7b95e23492189" category="paragraph">NetApp 將持續為現有客戶支援這些產品至少 3 年。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
   <block id="ce6cf9ea6138c79aab74ff110d376b23" category="paragraph">此外、從 BlueXP 使用者介面啟用、部署及管理全域檔案快取元件的功能也已移除。</block>
+  <block id="74ee4e65950c57ed59a7a33de5a179e6" category="section-title">2024 年 6 月 4 日</block>
+  <block id="87174c130fb334601e88a5630bf24478" category="section-title">私有模式版本（ 3.9.40 ）</block>
+  <block id="3a88f5b91fe23c6da00e330b440f9fd7" category="paragraph">現在可從 NetApp 支援網站 下載新的私有模式版本。此版本包含下列支援私有模式的 BlueXP 服務版本。</block>
+  <block id="4f56b8c7a0f62edc59659cfaecc68958" category="paragraph">請注意、此私有模式版本不支援連接器搭配 Red Hat Enterprise Linux 8 和 9 。</block>
+  <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">服務</block>
+  <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">隨附版本</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">連接器</block>
+  <block id="f691a3ef752f6e51a74183a6b7b1c432" category="cell">3.9.40</block>
+  <block id="918de91f5332dad6620331712ef5c21d" category="cell">2024 年 5 月 15 日（版本 1.31 ）</block>
+  <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Cloud Volumes ONTAP 管理</block>
+  <block id="900dd8f50d2294930a102034524e26b7" category="cell">內部部署 ONTAP 叢集管理</block>
+  <block id="64cc8195fcb01e582343c910736d1abd" category="paragraph">若要深入瞭解這些 BlueXP 服務版本中包含的內容、請參閱每項 BlueXP 服務的版本資訊。</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">瞭解私有模式</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">瞭解如何以私有模式開始使用 BlueXP</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">瞭解如何在使用私有模式時升級 Connector</block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="451cc12943297b25b1cf250cc5d0e60a" category="inline-link">瞭解 BlueXP 備份與還原的新功能</block>
+  <block id="d846859679a4eca86e97e1887623b347" category="list-text"><block ref="d846859679a4eca86e97e1887623b347" category="inline-link-rx"></block></block>
+  <block id="dd890c1f1f06a084e8274154f3f07ebe" category="inline-link">瞭解 BlueXP 分類的新功能</block>
+  <block id="0dcda936d538d36f9e02f54b88ffefca" category="list-text"><block ref="0dcda936d538d36f9e02f54b88ffefca" category="inline-link-rx"></block></block>
+  <block id="d06e6f96135d8cd2fa9fea9a4d9de16b" category="inline-link">瞭解 BlueXP 中 Cloud Volumes ONTAP 管理的新功能</block>
+  <block id="29e66847d781138b54aa8aa55b70fb20" category="list-text"><block ref="29e66847d781138b54aa8aa55b70fb20" category="inline-link-rx"></block></block>
+  <block id="d4cffcdfb4fe4fc69dc234950d0f4151" category="admonition">在標準模式下使用 BlueXP 時、支援 AWS 本機區域。目前、在受限模式或私有模式下使用 BlueXP 時、並不支援 AWS 本機區域。</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
+  <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">設定</block>
+  <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 備份與還原 * ：不再需要在工作環境中啟用 BlueXP 備份與還原服務。請參閱 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
 </blocks>
