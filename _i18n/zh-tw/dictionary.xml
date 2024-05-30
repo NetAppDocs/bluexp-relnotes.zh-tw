@@ -424,10 +424,6 @@
   <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">您現在可以為使用 SMB/CIFS 通訊協定的磁碟區建立報告。</block>
   <block id="563cbb5befcc35d67fb204c94be0bffb" category="summary">檢視每個個別 BlueXP 服務的完整版本說明。</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">觀察名單</block>
-  <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024 年 3 月 4 日（版本 1.29 ）</block>
-  <block id="2155776a968fa3c23d5147a57832435f" category="section-title">現在您可以排除位於特定資料來源目錄中的掃描資料</block>
-  <block id="81e333e3a0fd82b01c14e8eb52437152" category="paragraph">如果您想要 BlueXP 分類排除位於特定資料來源目錄中的掃描資料、您可以將這些目錄名稱新增至 BlueXP 分類處理的組態檔。此功能可讓您避免掃描不必要的目錄、或是導致傳回誤判的個人資料結果。</block>
-  <block id="1566e9c70755185a01fd5ae6296dca7b" category="paragraph"><block ref="2b616ef681b794b63b03f66a13723ff8" category="inline-link-rx"></block>。</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024 年 3 月 5 日</block>
   <block id="4b51a8df678b7448fbc55b79ad365ed7" category="section-title">2024 年 2 月 11 日</block>
   <block id="66a743c4896414f00b485685ab377a19" category="section-title">依 regex 篩選目錄</block>
@@ -487,9 +483,6 @@
   <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
   <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
   <block id="4a1a05ee22994e328d9ec0402052b926" category="section-title">2024 年 3 月 8 日</block>
-  <block id="6505788c29b47651fe2e94f0607a2ef7" category="section-title">超大型執行個體支援現已符合資格</block>
-  <block id="1647534ed4603d68f73fd3f261af9b65" category="paragraph">如果您需要 BlueXP 分類來掃描超過 2.5 億個檔案、您可以在雲端部署或內部部署安裝中使用超大型執行個體。這類系統最多可掃描 5 億個檔案。</block>
-  <block id="1b4f4b549e0860b1392190bfc2a23f81" category="paragraph"><block ref="1eef614f77c6908f78f84cb1847e2ab8" category="inline-link-rx"></block>。</block>
   <block id="1582ce9c3a0b0079717e0b0c6edf2347" category="section-title">Amazon Instant 中繼資料服務 v2 支援</block>
   <block id="4ac5b49185bd4b8f8b0ef6b8869d149f" category="paragraph">在 AWS 、 Cloud Volumes ONTAP 、 Mediator 和 Connector 中、現在所有功能都支援 Amazon Instant 中繼資料服務 v2 （ IMDSv2 ）。IMDSv2 提供更強大的保護功能、防範弱點。之前僅支援 IMDSv1 。</block>
   <block id="7fcd14ee7d62b2a6f712b7ed775cdbc3" category="inline-link-macro">用於管理現有連接器的 BlueXP 安裝與管理文件</block>
@@ -597,7 +590,6 @@
   <block id="32d1e3d3ebe78d37dbdfcf9933b0cf90" category="paragraph">此版本的 BlueXP Connector 支援額外的作業系統、輕微的安全性改善、以及錯誤修正。</block>
   <block id="94f95548313e6f5528b5011a7d10e19f" category="paragraph">目前、 3.9.40 版本適用於標準模式和受限模式。</block>
   <block id="a5dacfcdb1adb3167b081f091b368732" category="section-title">支援 RHEL 8 和 9</block>
-  <block id="9788cee19c4b5d5971c7a99e340846e8" category="paragraph">現在、在執行下列 Red Hat Enterprise Linux 版本且安裝 _new_ Connector 的主機上支援 Connector ：</block>
   <block id="f335f00e1188cffe57c3d9416ce23c84" category="list-text">8.6 至 8.9</block>
   <block id="d80ef147e70626ef64e723b33860d715" category="list-text">9.1 至 9.3</block>
   <block id="00ed051332ed28fe5b1ab0a4ae7aa4f6" category="paragraph">這些作業系統需要使用 Podman 作為容器協調工具。</block>
@@ -714,4 +706,32 @@
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
   <block id="fb197ee87a0f850dc3b7bb98fe408518" category="inline-link-macro">設定</block>
   <block id="8b003b58b4532bbf9f07c58827819319" category="list-text">* BlueXP 備份與還原 * ：不再需要在工作環境中啟用 BlueXP 備份與還原服務。請參閱 <block ref="7cc100a4e35b42109d34b0d1c6d432c9" category="inline-link-macro-rx"></block>。BlueXP 勒索軟體保護服務可透過「設定」選項協助設定備份目的地。請參閱 <block ref="522f9942d2238ef69c22ece6b9af5205" category="inline-link-macro-rx"></block>。</block>
+  <block id="3eb0b1a8f5c259c6baffd4acbc27dc9b" category="paragraph">在標準模式或受限模式下使用 BlueXP 時、執行下列 Red Hat Enterprise Linux 版本且安裝 _new_ Connector 的主機現在支援 Connector ：</block>
+  <block id="bf5237098b7bb15bc07f1d47863a9b8a" category="section-title">2024 年 6 月 5 日（版本 1.32 ）</block>
+  <block id="b9620e9aadf9827ac9bb29001772b3f0" category="paragraph">此版本包含下列更新。</block>
+  <block id="b83927d03444ee961e834ea1c3b0581b" category="section-title">對應掃描會收集中繼資料</block>
+  <block id="6c7aa72b096dc637dbeefccf15ca45f8" category="paragraph">下列中繼資料會在對應掃描期間從檔案中擷取、並顯示在 Governance 、 Compliance 和 Investigation 儀表板上：</block>
+  <block id="16627cf42947f5240556f0586110db9b" category="list-text">工作環境</block>
+  <block id="6c63358fa61dbacebcb3b3cabf06b4f3" category="list-text">工作環境類型</block>
+  <block id="8e1608d6951087912c426bcb53d12280" category="list-text">儲存儲存庫</block>
+  <block id="6622c14ce91b6b9683505626a5eebdd2" category="list-text">檔案類型</block>
+  <block id="10fd66f5b4802aee3a88de2a537a57b4" category="list-text">已用容量</block>
+  <block id="18de356008c3efffac62590fd7849509" category="list-text">檔案數量</block>
+  <block id="1908624a0bca678cd26b99bfd405324e" category="list-text">檔案大小</block>
+  <block id="50ec28434e3dc1b37a0577b6d3f9bfe6" category="list-text">檔案建立</block>
+  <block id="cc7296b3deecc7ff6216732368393311" category="list-text">檔案上次存取</block>
+  <block id="a1870449a3811abcc8d02d43cec49cf2" category="list-text">上次修改的檔案</block>
+  <block id="5752d1aca2fb066ca51eb98052561289" category="list-text">檔案探索時間</block>
+  <block id="d9dc47834e451d5a23b2dd5638b1310b" category="list-text">權限擷取</block>
+  <block id="240625d3ff2ba7b1a3949f7ddfb468d3" category="section-title">儀表板中的其他資料</block>
+  <block id="43ac3190fe70b3bdb1f5d5b7083f374a" category="paragraph">此版本會在地圖繪製掃描期間、更新 Governance 、 Compliance 和 Investigation 儀表板中顯示的資料。</block>
+  <block id="9b28a6e87457a6a3bfb03009dcd0b84a" category="inline-link">對應和分類掃描之間有何差異</block>
+  <block id="c7fb92ca31125e81e2a4f2982bc6a806" category="paragraph">如需詳細資訊、請參閱<block ref="4062fc8e6e6df1b01a1de644d8a7eeca" category="inline-link-rx"></block></block>
+  <block id="7910c8307cac3d62eca8ac0d42301b38" category="section-title">「組態」頁面中的「新對應」狀態欄</block>
+  <block id="cfbaa8108dcd3c438f032a03ea5c380b" category="paragraph">此版本現在會在「組態」頁面中顯示新的「對應」狀態欄。新欄可協助您識別對應是否正在執行、佇列中、暫停或更多。</block>
+  <block id="6195c7a1534de8abb0c4706e15d24a3c" category="inline-link">變更掃描設定</block>
+  <block id="2f94c0116c501abdbd5c76ddef86d94a" category="paragraph">有關狀態的說明，請參閱<block ref="cacd3972a6d9bfb8b2d3cde3ba576e77" category="inline-link-rx"></block>。</block>
+  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
+  <block id="8934fed115a0b826a4b438906a11bfa9" category="inline-link-macro">永續性儀表板總覽</block>
+  <block id="0108740b4afbf178bb60484e5406b8b8" category="paragraph">E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請參閱 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>。</block>
 </blocks>

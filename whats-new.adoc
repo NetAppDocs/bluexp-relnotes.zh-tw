@@ -85,7 +85,7 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 ===== 支援 RHEL 8 和 9
 
-現在、在執行下列 Red Hat Enterprise Linux 版本且安裝 _new_ Connector 的主機上支援 Connector ：
+在標準模式或受限模式下使用 BlueXP 時、執行下列 Red Hat Enterprise Linux 版本且安裝 _new_ Connector 的主機現在支援 Connector ：
 
 * 8.6 至 8.9
 * 9.1 至 9.3
@@ -345,6 +345,48 @@ BlueXP Connector 3.9.40 版支援某些版本的 Red Hat Enterprise Linux 第 8 
 
 
 
+=== 2024 年 6 月 5 日（版本 1.32 ）
+
+此版本包含下列更新。
+
+
+
+==== 對應掃描會收集中繼資料
+
+下列中繼資料會在對應掃描期間從檔案中擷取、並顯示在 Governance 、 Compliance 和 Investigation 儀表板上：
+
+* 工作環境
+* 工作環境類型
+* 儲存儲存庫
+* 檔案類型
+* 已用容量
+* 檔案數量
+* 檔案大小
+* 檔案建立
+* 檔案上次存取
+* 上次修改的檔案
+* 檔案探索時間
+* 權限擷取
+
+
+
+
+==== 儀表板中的其他資料
+
+此版本會在地圖繪製掃描期間、更新 Governance 、 Compliance 和 Investigation 儀表板中顯示的資料。
+
+如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#whats-the-difference-between-mapping-and-classification-scans["對應和分類掃描之間有何差異"]
+
+
+
+==== 「組態」頁面中的「新對應」狀態欄
+
+此版本現在會在「組態」頁面中顯示新的「對應」狀態欄。新欄可協助您識別對應是否正在執行、佇列中、暫停或更多。
+
+有關狀態的說明，請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html["變更掃描設定"]。
+
+
+
 === 2024 年 5 月 15 日（版本 1.31 ）
 
 
@@ -390,26 +432,6 @@ link:reference-free-paid.html["深入瞭解過時的功能"]。
 如果您在可存取網際網路的系統上部署 BlueXP 分類、系統會自動升級。之前、升級是在上次使用者活動之後經過一段特定時間之後進行。在此版本中、如果當地時間介於上午 1 ： 00 至上午 5 ： 00 之間、 BlueXP 分類會自動升級。如果本地時間超出這些時間、則升級會在上次使用者活動之後經過一段特定時間後進行。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-onprem.html["安裝在可存取網際網路的Linux主機上"]。
 
 如果您部署的 BlueXP 分類沒有網際網路存取、則需要手動升級。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-deploy-compliance-dark-site.html["在無法存取網際網路的 Linux 主機上安裝 BlueXP 分類"]。
-
-
-
-=== 2024 年 3 月 4 日（版本 1.29 ）
-
-
-
-==== 現在您可以排除位於特定資料來源目錄中的掃描資料
-
-如果您想要 BlueXP 分類排除位於特定資料來源目錄中的掃描資料、您可以將這些目錄名稱新增至 BlueXP 分類處理的組態檔。此功能可讓您避免掃描不必要的目錄、或是導致傳回誤判的個人資料結果。
-
-https://docs.netapp.com/us-en/bluexp-classification/task-exclude-scan-paths.html["深入瞭解"]。
-
-
-
-==== 超大型執行個體支援現已符合資格
-
-如果您需要 BlueXP 分類來掃描超過 2.5 億個檔案、您可以在雲端部署或內部部署安裝中使用超大型執行個體。這類系統最多可掃描 5 億個檔案。
-
-https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html#using-a-smaller-instance-type["深入瞭解"]。
 
 
 
@@ -563,6 +585,16 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#
 
 
 == 數位顧問
+
+
+
+=== 2024 年 5 月 15 日
+
+
+
+==== 永續發展儀表板
+
+E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請參閱 link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["永續性儀表板總覽"^]。
 
 
 
