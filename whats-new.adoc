@@ -482,6 +482,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024 年 6 月 2 日
+
+BlueXP 複本與同步服務已更新、以修正幾個錯誤。資料代理程式也已更新以套用安全性更新。新的資料代理版本為 1.0.52 。
+
+
+
 === 2024 年 4 月 8 日
 
 
@@ -503,32 +509,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 使用者現在可以選擇使用 regex 來篩選目錄。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["深入瞭解 * 排除目錄 * 功能。"]
-
-
-
-=== 2023 年 11 月 26 日
-
-
-
-==== 支援 Azure Blob 的 Cold 儲存等級
-
-建立同步關係時、便可使用冷藏 Azure Blob 層。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html["深入瞭解建立同步關係。"]
-
-
-
-==== 支援 AWS 資料代理程式中的 Tel Aviv 區域
-
-在 AWS 中建立資料代理程式時、 Tel Aviv 現在是受支援的區域。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-aws.html#creating-the-data-broker["深入瞭解如何在AWS中建立資料代理程式"]。
-
-
-
-==== 資料代理程式的節點版本更新
-
-所有新的資料代理人現在都會使用節點版本 21.2.0 。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0 ）將不再適用於 BlueXP 複本與同步。
 
 
 
@@ -783,6 +763,16 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 
 
 
+=== 2024 年 5 月 31 日
+
+NetApp 已宣布終止 NetApp 全域檔案快取的可用度（ EOA ）、截止日期為 2024 年 5 月 31 日。EOA 會影響所有 NetApp 全域檔案快取產品、包括獨立式全域檔案快取軟體訂閱、以及 NetApp Cloud Volumes ONTAP 的全域檔案快取套裝解決方案、稱為 NetApp 雲端 Volume Edge Cache 。
+
+NetApp 將持續為現有客戶支援這些產品至少 3 年。 https://mysupport.netapp.com/info/communications/CPC-00578.html["如需 NetApp 全域檔案快取終止可用度的詳細資料、請參閱"^]。
+
+此外、從 BlueXP 使用者介面啟用、部署及管理全域檔案快取元件的功能也已移除。
+
+
+
 === 2024 年 5 月 6 日（ 2.4 版）
 
 此版本可修正一些小問題。更新的軟體套件可在以下網址取得： https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。
@@ -792,28 +782,6 @@ link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/get-started/intro.
 === 2023 年 8 月 1 日（ 2.3 版）
 
 此版本可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。
-
-
-
-=== 2023 年 4 月 5 日（ 2.2 版）
-
-此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。
-
-
-
-==== 在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache
-
-在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#packages["深入瞭解Edge Cache授權套件。"]
-
-
-
-==== 設定精靈和 GFC 組態 UI 已增強、可執行 NetApp 授權登錄
-
-
-
-==== 增強的 Optimus PSM 可設定 Edge Sync 功能
 
 
 

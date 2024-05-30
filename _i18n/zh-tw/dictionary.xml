@@ -51,7 +51,6 @@
   <block id="a720f7f5208abaac19d4db46d3bc0a7b" category="inline-link">修正問題</block>
   <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">2022年7月31日</block>
   <block id="d59048f21fd887ad520398ce677be586" category="inline-link">深入瞭解</block>
-  <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">深入瞭解Edge Cache授權套件。</block>
   <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">定義儲存類別</block>
   <block id="b42dff6de52c55fe0d6831817d6b309d" category="section-title">FSX for ONTAP Sfor Sfor the Data來源</block>
   <block id="0f8ffeac5211fc4e0dfb43c430753ef2" category="paragraph">您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：</block>
@@ -91,11 +90,6 @@
   <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">解除安裝 Astra Trident</block>
   <block id="2e79231a13ecf62585403e20da2dea4a" category="section-title">授權標籤已移除</block>
   <block id="66a0b4752150538292b81c073ca0b83b" category="section-title">分層索引標籤已重新命名、並已更新內容</block>
-  <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023 年 4 月 5 日（ 2.2 版）</block>
-  <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache</block>
-  <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。</block>
-  <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">設定精靈和 GFC 組態 UI 已增強、可執行 NetApp 授權登錄</block>
-  <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">增強的 Optimus PSM 可設定 Edge Sync 功能</block>
   <block id="ae74e3db3615f676968300b7cc6e8ae1" category="paragraph">營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。</block>
   <block id="6d924727c00a77a63749e2f8aa0860d4" category="summary">這些版本資訊說明 BlueXP 中雲端服務的最新增強功能。每項個別服務的完整版本資訊均提供連結。</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="inline-link">設定與管理</block>
@@ -151,8 +145,6 @@
   <block id="50677882efe321e7fec19456f58faadc" category="paragraph"><block ref="536037d368170de6e6fbdb576d167663" category="inline-link-rx"></block>。</block>
   <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>。</block>
   <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
-  <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
   <block id="4e4ff5b7850bf0aae4966bf2353d2764" category="list-text">您現在可以了 <block ref="79330a9a9d35860d426f0d48c9f654a7" category="inline-link-macro-rx"></block> 是使用 Trident 運算子或 BlueXP 安裝的。</block>
   <block id="08dbc554156c2764d1696fe55d768aed" category="paragraph">何時 <block ref="c5aa031d705396e63c7e52a97cf56f86" category="inline-link-macro-rx"></block>、您現在可以為區塊或檔案系統儲存設備啟用儲存等級的經濟效益。</block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
@@ -431,17 +423,6 @@
   <block id="35214f9b3df21ed35db22cb765a9b147" category="section-title">2023 年 11 月 13 日</block>
   <block id="c14af667110ffb482c0adaaed623dbe2" category="paragraph">您現在可以為使用 SMB/CIFS 通訊協定的磁碟區建立報告。</block>
   <block id="563cbb5befcc35d67fb204c94be0bffb" category="summary">檢視每個個別 BlueXP 服務的完整版本說明。</block>
-  <block id="a76b69f0eac891a6dad210c8c894f70c" category="section-title">2023 年 11 月 26 日</block>
-  <block id="5dbbe39e8d4eedbcb5aafdf7e0e66a80" category="section-title">支援 Azure Blob 的 Cold 儲存等級</block>
-  <block id="2be7473e47d2102f9d51ff1a3cd36305" category="paragraph">建立同步關係時、便可使用冷藏 Azure Blob 層。</block>
-  <block id="6e90305f3ad22c32d20c662a0bb06726" category="inline-link">深入瞭解建立同步關係。</block>
-  <block id="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="paragraph"><block ref="2bfe6803528ed3d1b4758e7bc6eb4cb6" category="inline-link-rx"></block></block>
-  <block id="e35f035cdd0e53d6ac8e57e89c9a3994" category="section-title">支援 AWS 資料代理程式中的 Tel Aviv 區域</block>
-  <block id="bc601240bd77a257f82ad29245da02ee" category="paragraph">在 AWS 中建立資料代理程式時、 Tel Aviv 現在是受支援的區域。</block>
-  <block id="f296e44bbf15ea94dfcce2d2a4649e6d" category="inline-link">深入瞭解如何在AWS中建立資料代理程式</block>
-  <block id="48938ec2ae208dc89827f9e55c8f1c41" category="paragraph"><block ref="42f00e873b388cac01d84d3ba1605497" category="inline-link-rx"></block>。</block>
-  <block id="e24f754057dce2d0f9791240fec7d494" category="section-title">資料代理程式的節點版本更新</block>
-  <block id="a020a6afcaa5c0d333b5cfb93c8d4d79" category="paragraph">所有新的資料代理人現在都會使用節點版本 21.2.0 。與此更新不相容的資料代理程式（例如 CentOS 7.0 和 Ubuntu Server 18.0 ）將不再適用於 BlueXP 複本與同步。</block>
   <block id="e057979f7791f37ec4a8704baa00923d" category="section-title">觀察名單</block>
   <block id="71dc9fd1ff423f10c9820171aaeabf3c" category="section-title">2024 年 3 月 4 日（版本 1.29 ）</block>
   <block id="2155776a968fa3c23d5147a57832435f" category="section-title">現在您可以排除位於特定資料來源目錄中的掃描資料</block>
@@ -698,4 +679,11 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">BlueXP部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="6849ea484f5664c887acc6f1ff990dfd" category="section-title">2024 年 6 月 2 日</block>
+  <block id="cfa477f3b89d95c12ff30d6390b89dd9" category="paragraph">BlueXP 複本與同步服務已更新、以修正幾個錯誤。資料代理程式也已更新以套用安全性更新。新的資料代理版本為 1.0.52 。</block>
+  <block id="fc31bdab270f34f9dbc1c826f879ec7a" category="section-title">2024 年 5 月 31 日</block>
+  <block id="a38c9755f3e363e5fcc012f982f27744" category="paragraph">NetApp 已宣布終止 NetApp 全域檔案快取的可用度（ EOA ）、截止日期為 2024 年 5 月 31 日。EOA 會影響所有 NetApp 全域檔案快取產品、包括獨立式全域檔案快取軟體訂閱、以及 NetApp Cloud Volumes ONTAP 的全域檔案快取套裝解決方案、稱為 NetApp 雲端 Volume Edge Cache 。</block>
+  <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">如需 NetApp 全域檔案快取終止可用度的詳細資料、請參閱</block>
+  <block id="84037427a2c8d669a1e7b95e23492189" category="paragraph">NetApp 將持續為現有客戶支援這些產品至少 3 年。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
+  <block id="ce6cf9ea6138c79aab74ff110d376b23" category="paragraph">此外、從 BlueXP 使用者介面啟用、部署及管理全域檔案快取元件的功能也已移除。</block>
 </blocks>
