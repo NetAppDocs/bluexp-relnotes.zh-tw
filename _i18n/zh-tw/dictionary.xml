@@ -683,4 +683,6 @@
   <block id="9863ce048fc9f300b1fbc248aa66783e" category="list-text">* 檢視文件 * 連結現在已包含在 UI 中。您可以從儀表板垂直 * 動作 * 選項存取此文件 <block ref="03b376f37073f981f38dc4d6f450c046" category="inline-image-macro-rx" type="image"></block> 。選取 * 新功能 * 以檢視版本說明中的詳細資料、或 * 文件 * 以檢視 BlueXP 勒索軟體保護文件首頁。</block>
   <block id="ea8652a0fce10e4424e5611e6298f09b" category="list-text">* 設定選項 * ：您現在可以在 BlueXP 勒索軟體保護設定中設定備份目的地。</block>
   <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">從 Connector 3.9.40 版本開始支援 RHEL 8.10 。</block>
+  <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024 年 7 月 14 日</block>
+  <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.53 。</block>
 </blocks>
