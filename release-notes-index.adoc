@@ -39,8 +39,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-service-gcp/whats-new.html["適用於 Google Cloud Cloud Volumes Service"^]
 * https://docs.netapp.com/us-en/bluexp-e-series/whats-new.html["E系列系統"^]
 * https://docs.netapp.com/us-en/bluexp-google-cloud-storage/whats-new.html["Google Cloud Storage"^]
-* https://docs.netapp.com/us-en/bluexp-kubernetes/whats-new.html["Kubernetes叢集"^]
-* https://docs.netapp.com/us-en/bluexp-reports/release-notes/whats-new.html["移轉報告"^]
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/whats-new.html["內部 ONTAP 部署的叢集"^]
 * https://docs.netapp.com/us-en/bluexp-storagegrid/whats-new.html["StorageGRID"^]
 
@@ -56,7 +54,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理
 * https://docs.netapp.com/us-en/bluexp-digital-wallet/index.html["數位錢包"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/release-notes/dr-whats-new.html["災難恢復"^]
 * https://docs.netapp.com/us-en/bluexp-economic-efficiency/release-notes/whats-new.html["經濟效益"^]
-* https://docs.netapp.com/us-en/bluexp-edge-caching/whats-new.html["邊緣快取"^]
 * https://docs.netapp.com/us-en/bluexp-operational-resiliency/release-notes/whats-new.html["營運恢復能力"^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/whats-new.html["勒索軟體保護"^]
 * https://docs.netapp.com/us-en/bluexp-replication/whats-new.html["複寫"^]
