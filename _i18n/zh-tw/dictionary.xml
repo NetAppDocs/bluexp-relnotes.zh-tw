@@ -453,22 +453,6 @@
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 補救服務已於 2024 年 4 月 22 日移除。</block>
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
-  <block id="31e2ca9cb7755d06bc40e30fd8e408d3" category="section-title">2024 年 4 月 23 日</block>
-  <block id="a2fefc65df2136938b995f8abbe643c2" category="section-title">Azure 支援多個可用區域部署的新區域</block>
-  <block id="0cc914ed23f0f7d6bc902ae731843213" category="paragraph">以下地區現在支援 Azure 中的 HA 多重可用性區域部署、適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本：</block>
-  <block id="1dab3491cdeeb2a6d567b21ee3063ae4" category="list-text">德國中西部</block>
-  <block id="26b4bdc11dfead08029a688129c42cf9" category="list-text">波蘭中部</block>
-  <block id="64fb50bb758fe12b94faa568a567e13c" category="list-text">美國西部 3.</block>
-  <block id="eb1aea8107eeeb90c841d5710262dd52" category="list-text">以色列中部</block>
-  <block id="6c2cb03afda0af373b8df47f9dc47ed7" category="list-text">義大利北部</block>
-  <block id="1d0f99876d748759fce5e852f79fca96" category="list-text">加拿大中部</block>
-  <block id="ee39417afe0e7b7726a65f6235448846" category="paragraph">如需所有區域的清單、請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
-  <block id="0b745a8416b0a8e3b89e7e01ba13af65" category="section-title">Google Cloud 現在支援約翰內斯堡地區</block>
-  <block id="ec826289e3407edb59d3c5ed0aca5c74" category="paragraph">約翰內斯堡地區 <block ref="6d1d2d77b70fb38d060e5653977838a2" prefix="(" category="inline-code"></block> Google Cloud for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在均支援區域）。</block>
-  <block id="2bc724993144e8002899059117620062" category="inline-link">Google Cloud 下的全球區域地圖</block>
-  <block id="6a050b5b1c64124ef335bf9dbf64e03f" category="paragraph">如需所有區域的清單、請參閱<block ref="5328f934c7a30e2b8b67732fc162a525" category="inline-link-rx"></block>。</block>
-  <block id="ee94ea94211470599a81d49f8c4b586f" category="section-title">不再支援 Volume 範本和標籤</block>
-  <block id="96b0b2a19dd9deb6b94e53f2e29f4387" category="paragraph">您無法再從範本建立磁碟區、也無法編輯磁碟區的標籤。這些動作與 BlueXP 補救服務相關聯、而 BlueXP 補救服務已無法使用。</block>
   <block id="0a9bbb6e81dd21b77886235f2ce33af9" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需完整的發行記錄、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024 年 5 月 17 日</block>
   <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">瞭解 Connector 對 RHEL 8 和 9 的支援</block>
@@ -704,4 +688,40 @@
   <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">您現在可以在從 BlueXP  探索 StorageGRID 系統時、檢閱及核准 StorageGRID 管理介面憑證。您也可以在探索到的網格上檢閱及核准最新的 StorageGRID 管理介面憑證。</block>
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">瞭解如何在系統探索期間檢閱及核准伺服器憑證。</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">軟體更新</block>
+  <block id="7c26a70dd4c64672aaff5da10a3afaec" category="list-text"><block ref="7c26a70dd4c64672aaff5da10a3afaec" category="inline-link-rx"></block></block>
+  <block id="9cc3df8e0a65f95d62b0d0dc557d0fa9" category="section-title">2024 年 8 月 8 日</block>
+  <block id="34c56ac41d4e5a004cc5b7c87b0e2d87" category="section-title">連接器 3.9.43</block>
+  <block id="be1b4db310d7b6590c7af9eb4751b6ce" category="paragraph">此版本包括小幅改良、錯誤修正、以及新 Azure 權限的需求。</block>
+  <block id="05797637e0cfec59d8a5478eba1acfdf" category="paragraph">3.9.43 版本適用於標準模式和受限模式。</block>
+  <block id="45c4fb485dfa6a5d0af975aa668648a9" category="section-title">更新 CPU 和 RAM 需求</block>
+  <block id="07279af47b8b78d8d96257fb42d7c5d9" category="paragraph">為了提供更高的可靠性、並改善 BlueXP  和 Connector 的效能、我們現在需要額外的 CPU 和 RAM 來搭配 Connector 虛擬機器：</block>
+  <block id="ab0a05181cb2ac15cc8151f858731517" category="list-text">CPU ： 8 個核心或 8 個 vCPU （先前的需求為 4 個）</block>
+  <block id="f8cac741f7a99da8594b5802a47567ab" category="list-text">RAM ： 32 GB （先前的需求為 14 GB ）</block>
+  <block id="de1d56fb73daa2b65c2efd1f73d24a1b" category="paragraph">由於這項變更、從 BlueXP  或雲端供應商市場部署 Connector 時的預設 VM 執行個體類型如下：</block>
+  <block id="43a4336ace07071a0817d23211d30402" category="list-text">AWS ： t3.2 x 大</block>
+  <block id="70e7db9a896d903493a8716aa3885ee7" category="list-text">Azure ： Standard_D8s_v3</block>
+  <block id="1a0e003291457a847a85677ad5244c4e" category="list-text">Google Cloud ： n2-Standard-8.</block>
+  <block id="7ef0b49c93a0c955c309b5fea693d698" category="paragraph">此要求適用於新的和現有的連接器。</block>
+  <block id="fecbdb7e41beb7c2b4125b62d71b116d" category="section-title">支援採用 RHEL 8.10 的 Podman 4.9.4</block>
+  <block id="601e92646453def880eec16da18e4390" category="paragraph">在 Red Hat Enterprise Linux 8.10 主機上安裝 Connector 時、現在支援 Podman 4.9.4 版。</block>
+  <block id="18ecc589a4f329e3ba95ac4e285b4504" category="section-title">身分識別聯盟的使用者驗證</block>
+  <block id="8b71299c32997f38948f7e56b11d69b8" category="paragraph">如果您使用與 BlueXP  的身分識別聯盟、首次登入 BlueXP  的每位使用者都必須填寫快速表單、以驗證其身分。</block>
+  <block id="e84c1e70dc9a2186ec21e22a3e9cbda0" category="section-title">Edge Cache 授權套件已過時</block>
+  <block id="882b50ca44d46bfb8d9502390cfeaf96" category="paragraph">Edge Cache 容量型授權套件將不再適用於未來部署的 Cloud Volumes ONTAP 。不過、您可以使用 API 來使用此功能。</block>
+  <block id="a5729938408dc232ea97fb5d7d00b71c" category="section-title">Azure 上 Flash Cache 支援的最低 ONTAP 版本</block>
+  <block id="9eed4224485f0ec8f22ac2ca0b031514" category="paragraph">在 Azure 上設定 Flash Cache 所需的最低 ONTAP 版本為 9.13.1 GA 。只有 ONTAP 9.13.1 GA 和更新版本可用於在適用於 Azure 的 Cloud Volumes ONTAP 系統上部署 Flash Cache 。</block>
+  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Azure支援的組態</block>
+  <block id="2936dc7efe93e6248aca38d21b92cc62" category="paragraph">如需支援的組態、請參閱<block ref="10c1bb30d666a83202b9e687d7b06d1b" category="inline-link-rx"></block>。</block>
+  <block id="bc5af032a5cd69ef4ac57b8c2cd1f1d6" category="section-title">市場訂閱的免費試用版已過時</block>
+  <block id="860dc5e7395e0f2c15a42ffdef98eca4" category="paragraph">Cloud Volumes ONTAP 不再提供雲端供應商市場的隨用隨付訂閱 30 天自動免費試用。任何類型的市場訂閱（ PAYGO 或年度合約）的收費將從首次使用開始啟動、不需任何免費試用期。</block>
+  <block id="2c8ad7deb621eae9ecb23ccf84d9c22c" category="section-title">加拿大西部地區現在支援 AWS</block>
+  <block id="184c928c73aa00c7569ba55c0b9e0064" category="paragraph">AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援加拿大西部地區。</block>
+  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS 下的 Global Regions Map</block>
+  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">如需所有區域的清單，請參閱<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>。</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024 年 8 月 7 日</block>
+  <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 更新</block>
+  <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  軟體更新服務可降低風險、確保客戶能充分運用 ONTAP 功能、為使用者提供順暢的更新體驗。</block>
+  <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  軟體更新</block>
+  <block id="3b51dbc206ff39db31b586cff27b62b6" category="paragraph">深入瞭解 <block ref="5932964ef1a5389f9863c988396d1e93" category="inline-link-macro-rx"></block>。</block>
 </blocks>
