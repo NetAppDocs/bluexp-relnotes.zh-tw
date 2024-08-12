@@ -589,6 +589,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024 年 8 月 11 日
+
+我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.54 。
+
+
+
 === 2024 年 7 月 14 日
 
 我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.53 。
@@ -598,30 +604,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 === 2024 年 6 月 2 日
 
 BlueXP 複本與同步服務已更新、以修正幾個錯誤。資料代理程式也已更新以套用安全性更新。新的資料代理版本為 1.0.52 。
-
-
-
-=== 2024 年 4 月 8 日
-
-
-
-==== 支援 RHEL 8.9
-
-現在、執行 Red Hat Enterprise Linux 8.9 的主機支援資料代理程式。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["檢視 Linux 主機需求"]。
-
-
-
-=== 2024 年 2 月 11 日
-
-
-
-==== 依 regex 篩選目錄
-
-使用者現在可以選擇使用 regex 來篩選目錄。
-
-https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["深入瞭解 * 排除目錄 * 功能。"]
 
 
 
