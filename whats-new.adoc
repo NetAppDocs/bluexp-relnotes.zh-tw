@@ -42,7 +42,7 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 ----
 Cloud Volumes ONTAP 支援虛擬機器磅秤集需要這些權限。如果您有現有的 Connectors 、而且想要使用這項新功能、則必須將這些權限新增至與 Azure 認證相關聯的自訂角色。
 
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["瞭解 Cloud Volumes ONTAP 對虛擬機器擴充集的支援"^]
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["瞭解 Cloud Volumes ONTAP 9.15.1 版本"^]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html["檢視 Connector 的 Azure 權限"]。
 
 
@@ -497,6 +497,18 @@ link:reference-free-paid.html["深入瞭解過時的功能"]。
 
 
 == Cloud Volumes ONTAP
+
+
+
+=== 2024 年 8 月 23 日
+
+
+
+==== 加拿大西部地區現在支援 AWS
+
+AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援加拿大西部地區。
+
+如需所有區域的清單，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["AWS 下的 Global Regions Map"^]。
 
 
 

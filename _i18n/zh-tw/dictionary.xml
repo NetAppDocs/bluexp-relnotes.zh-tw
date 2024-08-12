@@ -711,8 +711,6 @@
   <block id="262115d0d4a65fe9bcd074ab5666018a" category="paragraph">我們更新了 Connector 以支援 Cloud Volumes ONTAP 9.15.1 版本。</block>
   <block id="ede74fed38968a6f0c0dcebc3102b859" category="paragraph">此版本的支援包括更新 Azure 的 Connector 原則。此原則現在包含下列權限：</block>
   <block id="c78a856f5972910d86f9b588fe9783e6" category="paragraph">Cloud Volumes ONTAP 支援虛擬機器磅秤集需要這些權限。如果您有現有的 Connectors 、而且想要使用這項新功能、則必須將這些權限新增至與 Azure 認證相關聯的自訂角色。</block>
-  <block id="33deee49118b5c8f42cddf68ea82eb12" category="inline-link">瞭解 Cloud Volumes ONTAP 對虛擬機器擴充集的支援</block>
-  <block id="d68b9311c71dab46bbfe2456fb69212b" category="list-text"><block ref="d68b9311c71dab46bbfe2456fb69212b" category="inline-link-rx"></block></block>
   <block id="21952e368aec0a06297b408b56d39588" category="inline-link">檢視 Connector 的 Azure 權限</block>
   <block id="aee78f717e27d8af727663a423980af9" category="list-text"><block ref="30ea7e04713feb92caddbe86eeb922d8" category="inline-link-rx"></block>。</block>
   <block id="bfe1024d3c9f1a02aa5dd1d7e5dccb34" category="section-title">2024 年 8 月 22 日</block>
@@ -724,4 +722,11 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">軟體版本支援</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">升級以 7-Mode 模式運作的 Data ONTAP 儲存系統</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">由於 7-Mode 系統已達到有限支援的結尾、因此 *7-Mode Upgrade Advisor Plans * 報告將不再提供使用。如需更多資訊、請參閱 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。深入瞭解 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b41af4e937fd3b48c53451988ba06b5" category="inline-link">瞭解 Cloud Volumes ONTAP 9.15.1 版本</block>
+  <block id="dcc26903c10160517882b9dad3e9f26f" category="list-text"><block ref="dcc26903c10160517882b9dad3e9f26f" category="inline-link-rx"></block></block>
+  <block id="caf47538a5b97cacf4aba3098b6f9924" category="section-title">2024 年 8 月 23 日</block>
+  <block id="2c8ad7deb621eae9ecb23ccf84d9c22c" category="section-title">加拿大西部地區現在支援 AWS</block>
+  <block id="184c928c73aa00c7569ba55c0b9e0064" category="paragraph">AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援加拿大西部地區。</block>
+  <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS 下的 Global Regions Map</block>
+  <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">如需所有區域的清單，請參閱<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>。</block>
 </blocks>
