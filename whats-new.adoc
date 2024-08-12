@@ -24,6 +24,30 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2024 年 22 月 8 日
+
+
+
+==== 連接器3.9.43修補程式
+
+我們更新了 Connector 以支援 Cloud Volumes ONTAP 9.15.1 版本。
+
+此版本的支援包括更新 Azure 的 Connector 原則。此原則現在包含下列權限：
+
+[source, json]
+----
+"Microsoft.Compute/virtualMachineScaleSets/write",
+"Microsoft.Compute/virtualMachineScaleSets/read",
+"Microsoft.Compute/virtualMachineScaleSets/delete"
+----
+Cloud Volumes ONTAP 支援虛擬機器磅秤集需要這些權限。如果您有現有的 Connectors 、而且想要使用這項新功能、則必須將這些權限新增至與 Azure 認證相關聯的自訂角色。
+
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes["瞭解 Cloud Volumes ONTAP 對虛擬機器擴充集的支援"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-azure.html["檢視 Connector 的 Azure 權限"]。
+
+
+
+
 === 2024 年 8 月 8 日
 
 
@@ -476,6 +500,18 @@ link:reference-free-paid.html["深入瞭解過時的功能"]。
 
 
 
+=== 2024 年 8 月 22 日
+
+
+
+==== Cloud Volumes ONTAP 9.15.1 GA
+
+BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.15.1 通用可用度版本。
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
+
+
+
 === 2024 年 8 月 8 日
 
 
@@ -488,7 +524,7 @@ Edge Cache 容量型授權套件將不再適用於未來部署的 Cloud Volumes 
 
 ==== Azure 上 Flash Cache 支援的最低 ONTAP 版本
 
-在 Azure 上設定 Flash Cache 所需的最低 ONTAP 版本為 9.13.1 GA 。只有 ONTAP 9.13.1 GA 和更新版本可用於在適用於 Azure 的 Cloud Volumes ONTAP 系統上部署 Flash Cache 。
+在 Azure 上設定 Flash Cache 所需的最低 ONTAP 版本為 9.13.1 GA 。您只能使用 ONTAP 9 。 13.1 GA 和更新版本、在適用於 Azure 的 Cloud Volumes ONTAP 系統上部署 Flash Cache 。
 
 如需支援的組態、請參閱 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#single-node-systems["Azure支援的組態"^]。
 
@@ -497,14 +533,6 @@ Edge Cache 容量型授權套件將不再適用於未來部署的 Cloud Volumes 
 ==== 市場訂閱的免費試用版已過時
 
 Cloud Volumes ONTAP 不再提供雲端供應商市場的隨用隨付訂閱 30 天自動免費試用。任何類型的市場訂閱（ PAYGO 或年度合約）的收費將從首次使用開始啟動、不需任何免費試用期。
-
-
-
-==== 加拿大西部地區現在支援 AWS
-
-AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援加拿大西部地區。
-
-如需所有區域的清單，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["AWS 下的 Global Regions Map"^]。
 
 
 
@@ -517,21 +545,6 @@ AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援加拿大西部
 BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.15.0 。
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-=== 2024 年 5 月 17 日
-
-
-
-==== Amazon Web Services 本機區域支援
-
-Cloud Volumes ONTAP HA 部署現在支援 AWS 本機區域。AWS 本機區域是一種基礎架構部署、其中儲存、運算、資料庫和其他精選 AWS 服務都位於大城市和產業區域附近。
-
-
-NOTE: 在標準模式下使用 BlueXP 時、支援 AWS 本機區域。目前、在受限模式或私有模式下使用 BlueXP 時、並不支援 AWS 本機區域。
-
-如需更多關於具有 HA 部署的 AWS 本機區域的資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha.html#aws-local-zones["AWS 本機區域"^]。
 
 
 
@@ -608,6 +621,16 @@ BlueXP 複本與同步服務已更新、以修正幾個錯誤。資料代理程�
 
 
 == 數位顧問
+
+
+
+=== 2024 年 8 月 21 日
+
+
+
+==== 報告
+
+由於 7-Mode 系統已達到有限支援的結尾、因此 *7-Mode Upgrade Advisor Plans * 報告將不再提供使用。如需更多資訊、請參閱 link:https://mysupport.netapp.com/site/info/version-support["軟體版本支援"^]。深入瞭解 link:https://docs.netapp.com/a/ontap/7-mode/8.2.1/Upgrade-And-Revert-Or-Downgrade-Guide-For-7-Mode.pdf["升級以 7-Mode 模式運作的 Data ONTAP 儲存系統"^]。
 
 
 
