@@ -406,16 +406,6 @@
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="section-title">勒索軟體保護</block>
   <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
   <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
-  <block id="2d67cd05b64a3416bc8bae12b4ef5685" category="cell">2024 年 3 月 12 日</block>
-  <block id="e713d6072685bf32f36150e9f76ce0c1" category="section-title">能夠從雲端備份到內部部署 ONTAP 磁碟區進行「快速還原」</block>
-  <block id="5a9ee632cba573d0f7355f7d12d908ca" category="paragraph">現在、您可以從雲端儲存區執行磁碟區的 _ 快速還原 _ 至內部部署的 ONTAP 目的地 Volume 。以前您只能對 Cloud Volumes ONTAP 系統執行快速還原。如果您需要儘快提供對磁碟區的存取、快速還原是災難恢復的理想選擇。快速還原比完整磁碟區還原快得多；它會將中繼資料從雲端快照還原至 ONTAP 目的地磁碟區。來源可能來自 AWS S3 、 Azure Blob 、 Google Cloud Services 或 NetApp StorageGRID 。</block>
-  <block id="07f61dfe973846130f7066ef7bc459ef" category="paragraph">內部部署 ONTAP 目的地系統必須執行 ONTAP 9.14.1 版或更新版本。</block>
-  <block id="1a68bb97275f0f5acd506d7ad906fa05" category="paragraph">您可以使用「瀏覽與還原」程序、而非「搜尋與還原」程序來執行此作業。</block>
-  <block id="bb03c52ec2a68c9eed4513c8ecf6c24d" category="inline-link">從備份檔案還原 ONTAP 資料</block>
-  <block id="2c3b2694da8405de44d10ad024f9a37a" category="paragraph">如需詳細資訊、請參閱<block ref="d2c90c25b1a6379e29db7390401794cc" category="inline-link-rx"></block>。</block>
-  <block id="0b15186b9aa75ae921c55dd69591ae94" category="section-title">能夠從 Snapshot 和 Replication 複本還原檔案和資料夾</block>
-  <block id="8f859da29f9bc64e255dd02fc2821d0a" category="paragraph">以前、您只能從 AWS 、 Azure 和 Google Cloud Services 的備份複本還原檔案和資料夾。現在、您可以從本機 Snapshot 複本和複寫複本還原檔案和資料夾。</block>
-  <block id="71931edd27b41979c47f73ca3194f9c3" category="paragraph">您可以使用「搜尋與還原」程序來執行此功能、而非使用「瀏覽與還原」程序。</block>
   <block id="bd43fc9501d9e9ddb964eda155be38b8" category="section-title">2024 年 3 月 14 日</block>
   <block id="2910a4560c79f740cc97d113def24905" category="paragraph">如果您已有現有資產、並想要判斷是否需要更新技術、您可以使用 BlueXP 經濟效率技術更新選項。您可以檢閱目前工作負載的簡短評估並取得建議、或者如果您在過去 90 天內將 AutoSupport 記錄傳送至 NetApp 、該服務現在可以提供工作負載模擬、以瞭解工作負載在新硬體上的表現。</block>
   <block id="10fa032662780ff6f01bd6647d92c626" category="paragraph">您也可以新增工作負載、並從模擬中排除現有的工作負載。</block>
@@ -427,17 +417,7 @@
   <block id="888059a12fa3532d54872d17517e780c" category="inline-link-macro">瞭解如何檢視升級建議並產生升級計畫。</block>
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">升級建議程式的舊版現已過時。您可以使用升級建議程式的增強版本、為單一叢集和多個叢集產生升級計畫。 <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
-  <block id="22c5942eb497ecdc45ab31895da620cb" category="section-title">2024 年 4 月 4 日</block>
-  <block id="58ca11ae6c2b33188443fbfd95e6b93d" category="section-title">能夠啟用或停用勒索軟體掃描</block>
-  <block id="6dc490eff019755a2978212c0ff0515d" category="paragraph">以前、當您在備份原則中啟用勒索軟體偵測時、會在建立第一個備份時、以及還原備份時自動進行掃描。以前、服務會掃描所有 Snapshot 複本、您無法停用掃描。</block>
-  <block id="d48498af5a5419c6130b506ce86226aa" category="paragraph">使用此版本、您現在可以使用「進階設定」頁面上的選項、在最新的 Snapshot 複本上啟用或停用勒索軟體掃描。如果啟用、預設會每週執行掃描。</block>
-  <block id="d7e0995e5e0ecfb32470e10070175d63" category="paragraph">如需詳細資訊、請參閱下列資訊：</block>
-  <block id="cb79697c10a273ae05f814fdc378a3b6" category="inline-link">管理備份設定</block>
-  <block id="b9efb0b81ee5dede04d703accaa3ac50" category="list-text"><block ref="b9efb0b81ee5dede04d703accaa3ac50" category="inline-link-rx"></block></block>
-  <block id="6b28ac02ff2a9de6b423b9f57d6a4d09" category="inline-link">管理 ONTAP 磁碟區的原則</block>
-  <block id="4987d2d58127a881e304bbe4ce3b5f7b" category="list-text"><block ref="4987d2d58127a881e304bbe4ce3b5f7b" category="inline-link-rx"></block></block>
   <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">備份至物件原則設定</block>
-  <block id="9e59a4332ff7e195837a4721f8adaf92" category="list-text"><block ref="9e59a4332ff7e195837a4721f8adaf92" category="inline-link-rx"></block></block>
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 補救服務已於 2024 年 4 月 22 日移除。</block>
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
@@ -445,10 +425,6 @@
   <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024 年 5 月 17 日</block>
   <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">瞭解 Connector 對 RHEL 8 和 9 的支援</block>
   <block id="5fb3739fbc4ea4c4f6ecf12db77ae604" category="paragraph"><block ref="a34a36a25f711a4d3e7acd813af66ea1" category="inline-link-rx"></block>。</block>
-  <block id="701c188698e8adc8e0dffa2a107bf9f4" category="section-title">2024 年 4 月 30 日</block>
-  <block id="24c8d17b3d2e5d56e90675c0755252e0" category="section-title">能夠啟用或停用排程的勒索軟體掃描</block>
-  <block id="1d5d9f598ed0ef9d579321fc5f2dea76" category="paragraph">以前、您可以啟用或停用勒索軟體掃描、但無法在排程掃描中執行此動作。</block>
-  <block id="c05a6e1c401ef496decb0a82c8e569e3" category="paragraph">使用此版本、您現在可以使用「進階設定」頁面上的選項、在最新的 Snapshot 複本上啟用或停用排程的勒索軟體掃描。如果啟用、預設會每週執行掃描。您可以將排程變更為天或週、或停用、節省成本。</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">深入瞭解設定授權</block>
   <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block>。</block>
   <block id="c817ad6139f116906ee3d7991cfdcba9" category="section-title">在內部部署 Connector 上使用 RHEL 8 和 RHEL 9 時的限制</block>
@@ -494,13 +470,6 @@
   <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="inline-link-macro">永續性儀表板總覽</block>
   <block id="73cb3e305b75665c1f29817b70dd8a1f" category="summary">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。</block>
-  <block id="5bde46ec5f2d435355447c38b00c1d9c" category="section-title">2024 年 7 月 15 日</block>
-  <block id="415b27bc5d78b639dc8c74a6e8f93e19" category="section-title">支援 RHEL 8.10</block>
-  <block id="562442342bba071ba7f2e5fa834d4464" category="paragraph">BlueXP 現在支援在使用標準模式或受限模式的 Red Hat Enterprise Linux 8.10 主機上安裝 Connector 。</block>
-  <block id="8d330209f05c51bacefbee76e24d82e9" category="section-title">2024 年 7 月 8 日</block>
-  <block id="cfcc30e7f5ca49191957ff6a4f02c34d" category="section-title">連接器 3.9.42</block>
-  <block id="b1360a775c6891602e0321f2a2a1aa2b" category="paragraph">此版本包含小型的改良、錯誤修正、以及 AWS Canada West （ Calgary ）地區的 Connector 支援。</block>
-  <block id="096051910b67309e40aa0d0e1d279007" category="paragraph">3.9.42 版本適用於標準模式和受限模式。</block>
   <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">2024 年 6 月 12 日</block>
   <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">需要新權限</block>
   <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">現在需要具備下列權限才能從 BlueXP 管理 Azure NetApp Files 磁碟區：</block>
@@ -512,7 +481,6 @@
   <block id="3b08fbca8f3b3deaf466cedfd425cfc6" category="section-title">2024 年 7 月 1 日（版本 1.33 ）</block>
   <block id="d61892207457d808cffbfc18b9dcd8ad" category="section-title">支援 Ubuntu</block>
   <block id="0db04e76c6afbdb79f128758ee937013" category="paragraph">此版本支援 Ubuntu 24.04 Linux 平台。</block>
-  <block id="8009eebf05fd33b87750f8b4048986f7" category="section-title">2024 年 6 月 10 日</block>
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024 年 7 月 4 日</block>
   <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>參閱。</block>
@@ -546,41 +514,21 @@
   <block id="5bc0cd3e3204e2ab72bd03661373648f" category="inline-link">深入瞭解如何保護工作負載及管理勒索軟體保護策略</block>
   <block id="20eb1918e9de308789133c5a0b0cc2c4" category="paragraph"><block ref="88ddee768f79e382777baf84277fe57c" category="inline-link-rx"></block>。</block>
   <block id="4c57408166809e028adf9be27b861c0a" category="paragraph">此版本的 BlueXP 勒索軟體保護包括下列更新：</block>
-  <block id="01a9b44907bcb1139b6868b9fe7073d0" category="paragraph">從 Connector 3.9.40 版本開始支援 RHEL 8.10 。</block>
   <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024 年 7 月 14 日</block>
   <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.53 。</block>
-  <block id="4f11400d5bfc49418f8fe9e78ffbc58c" category="section-title">2024 年 7 月 31 日</block>
-  <block id="b9cf377931ad2ee7b1d42618c6c12fa5" category="section-title">私有模式版本（ 3.9.42 ）</block>
   <block id="5d515ef1c3774ed67ad6115621a1ca59" category="paragraph">現在可從 NetApp 支援網站 下載新的私有模式版本。</block>
-  <block id="a5dacfcdb1adb3167b081f091b368732" category="section-title">支援 RHEL 8 和 9</block>
-  <block id="de4d4b8489d091cd028889fa8739a4a3" category="paragraph">此版本支援在以私有模式使用 BlueXP 時、在 Red Hat Enterprise Linux 8 或 9 主機上安裝 Connector 。支援下列 RHEL 版本：</block>
   <block id="597f1630cd21d22c527f63002e42f059" category="list-text">8.6 至 8.10</block>
-  <block id="d80ef147e70626ef64e723b33860d715" category="list-text">9.1 至 9.3</block>
-  <block id="00ed051332ed28fe5b1ab0a4ae7aa4f6" category="paragraph">這些作業系統需要使用 Podman 作為容器協調工具。</block>
-  <block id="3d007e1710eb9efcb8c51296efc8eb4f" category="paragraph">您應該瞭解 Podman 的需求、已知限制、作業系統支援摘要、如果您有 RHEL 7 主機該怎麼做、如何開始使用等。</block>
-  <block id="2791ae5af0f1b2a708aaa92b1fddb49e" category="section-title">此版本中包含的版本</block>
-  <block id="ee91704d04c9c24001ba7aa413122767" category="paragraph">此版本包含下列支援私有模式的 BlueXP 服務版本。</block>
   <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">服務</block>
   <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">隨附版本</block>
   <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">連接器</block>
-  <block id="58660abbd738b63f91f751c0fcd3787d" category="cell">3.9.42</block>
-  <block id="09fcc3c3a46a63684b907c89bb2e4b7b" category="cell">2024 年 7 月 18 日</block>
-  <block id="4736cb006ef02fa673f618379e2106bd" category="cell">2024 年 7 月 1 日（版本 1.33 ）</block>
   <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Cloud Volumes ONTAP 管理</block>
   <block id="900dd8f50d2294930a102034524e26b7" category="cell">內部部署 ONTAP 叢集管理</block>
-  <block id="64cc8195fcb01e582343c910736d1abd" category="paragraph">若要深入瞭解這些 BlueXP 服務版本中包含的內容、請參閱每項 BlueXP 服務的版本資訊。</block>
   <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">瞭解私有模式</block>
   <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
   <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">瞭解如何以私有模式開始使用 BlueXP</block>
   <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">瞭解如何在使用私有模式時升級 Connector</block>
   <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
-  <block id="451cc12943297b25b1cf250cc5d0e60a" category="inline-link">瞭解 BlueXP 備份與還原的新功能</block>
-  <block id="d846859679a4eca86e97e1887623b347" category="list-text"><block ref="d846859679a4eca86e97e1887623b347" category="inline-link-rx"></block></block>
-  <block id="dd890c1f1f06a084e8274154f3f07ebe" category="inline-link">瞭解 BlueXP 分類的新功能</block>
-  <block id="0dcda936d538d36f9e02f54b88ffefca" category="list-text"><block ref="0dcda936d538d36f9e02f54b88ffefca" category="inline-link-rx"></block></block>
-  <block id="d06e6f96135d8cd2fa9fea9a4d9de16b" category="inline-link">瞭解 BlueXP 中 Cloud Volumes ONTAP 管理的新功能</block>
-  <block id="29e66847d781138b54aa8aa55b70fb20" category="list-text"><block ref="29e66847d781138b54aa8aa55b70fb20" category="inline-link-rx"></block></block>
   <block id="ba874eb3ffbdba518b95ce26bc81a861" category="section-title">2024 年 7 月 22 日</block>
   <block id="9d5f0e2f1682000ac365243e21301823" category="section-title">還原小於 1 GB 的磁碟區</block>
   <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">使用此版本、您現在可以還原在 ONTAP 中建立的小於 1 GB 的磁碟區。您可以使用 ONTAP 建立的最小磁碟區大小為 20 MB 。</block>
@@ -648,21 +596,6 @@
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
   <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">軟體更新</block>
   <block id="7c26a70dd4c64672aaff5da10a3afaec" category="list-text"><block ref="7c26a70dd4c64672aaff5da10a3afaec" category="inline-link-rx"></block></block>
-  <block id="9cc3df8e0a65f95d62b0d0dc557d0fa9" category="section-title">2024 年 8 月 8 日</block>
-  <block id="34c56ac41d4e5a004cc5b7c87b0e2d87" category="section-title">連接器 3.9.43</block>
-  <block id="05797637e0cfec59d8a5478eba1acfdf" category="paragraph">3.9.43 版本適用於標準模式和受限模式。</block>
-  <block id="45c4fb485dfa6a5d0af975aa668648a9" category="section-title">更新 CPU 和 RAM 需求</block>
-  <block id="07279af47b8b78d8d96257fb42d7c5d9" category="paragraph">為了提供更高的可靠性、並改善 BlueXP  和 Connector 的效能、我們現在需要額外的 CPU 和 RAM 來搭配 Connector 虛擬機器：</block>
-  <block id="ab0a05181cb2ac15cc8151f858731517" category="list-text">CPU ： 8 個核心或 8 個 vCPU （先前的需求為 4 個）</block>
-  <block id="f8cac741f7a99da8594b5802a47567ab" category="list-text">RAM ： 32 GB （先前的需求為 14 GB ）</block>
-  <block id="de1d56fb73daa2b65c2efd1f73d24a1b" category="paragraph">由於這項變更、從 BlueXP  或雲端供應商市場部署 Connector 時的預設 VM 執行個體類型如下：</block>
-  <block id="43a4336ace07071a0817d23211d30402" category="list-text">AWS ： t3.2 x 大</block>
-  <block id="70e7db9a896d903493a8716aa3885ee7" category="list-text">Azure ： Standard_D8s_v3</block>
-  <block id="1a0e003291457a847a85677ad5244c4e" category="list-text">Google Cloud ： n2-Standard-8.</block>
-  <block id="fecbdb7e41beb7c2b4125b62d71b116d" category="section-title">支援採用 RHEL 8.10 的 Podman 4.9.4</block>
-  <block id="601e92646453def880eec16da18e4390" category="paragraph">在 Red Hat Enterprise Linux 8.10 主機上安裝 Connector 時、現在支援 Podman 4.9.4 版。</block>
-  <block id="18ecc589a4f329e3ba95ac4e285b4504" category="section-title">身分識別聯盟的使用者驗證</block>
-  <block id="8b71299c32997f38948f7e56b11d69b8" category="paragraph">如果您使用與 BlueXP  的身分識別聯盟、首次登入 BlueXP  的每位使用者都必須填寫快速表單、以驗證其身分。</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024 年 8 月 7 日</block>
   <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 更新</block>
   <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  軟體更新服務可降低風險、確保客戶能充分運用 ONTAP 功能、為使用者提供順暢的更新體驗。</block>
@@ -715,8 +648,6 @@
   <block id="b0c050c316c776928b8b8bc0c327449e" category="list-text"><block ref="aff0e765a5d2f4e281feabd61d1dd500" category="inline-link-rx"></block>。</block>
   <block id="2f036a4385aa02ab7c67e7932bd4036f" category="inline-link">瞭解 Azure 政策有何改變</block>
   <block id="31fa3b726cc2ab8e192bc70a792168a7" category="list-text"><block ref="c65ef862e4776cf4a66f5e1d7163d89e" category="inline-link-rx"></block>。</block>
-  <block id="d30916c53949113e97a8033f02e41364" category="paragraph">此版本包含輕微的改善和錯誤修正。</block>
-  <block id="9d97f1d57b6500707266656cdf2bf526" category="paragraph">更新後的 CPU 和 RAM 需求適用於所有新的連接器。對於現有的連接器、建議增加 CPU 和 RAM 、以改善效能和可靠性。</block>
   <block id="597f26a63507bfee99f67909c68d5354" category="section-title">2024 年 9 月 2 日（版本 1 ． 5 ）</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">掃描 StorageGRID 資料</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">BlueXP  分類現在可以掃描 StorageGRID 中的資料。</block>
@@ -755,4 +686,39 @@
   <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>。</block>
   <block id="577f5f9474f1f4f6f56c1fb216328baf" category="section-title">2024 年 9 月 16 日</block>
   <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。</block>
+  <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024 年 30 月 9 日</block>
+  <block id="0beb94109608ff82d313b33947162f96" category="section-title">私有模式版本（ 3.9.44 ）</block>
+  <block id="f1fb6fd189345cf04ef77974b58bcbfc" category="paragraph">此版本包含下列支援私有模式的 BlueXP  元件和服務版本。</block>
+  <block id="8dd8dbe371973ff01954f1d0db6a6c30" category="cell">3.9.44</block>
+  <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="cell">2024 年 9 月 27 日</block>
+  <block id="918de91f5332dad6620331712ef5c21d" category="cell">2024 年 5 月 15 日（版本 1.31 ）</block>
+  <block id="48f2931f061b9d56d7805eddf6969cea" category="paragraph">對於 Connector 、 3.9.44 私有模式版本包含 2024 年 8 月和 2024 年 9 月版本中推出的更新。最值得注意的是、支援 Red Hat Enterprise Linux 9.4 。</block>
+  <block id="288ce8ff800de0648500c62f0658b96c" category="paragraph">若要深入瞭解這些 BlueXP  元件和服務版本中包含的內容、請參閱每項 BlueXP  服務的版本資訊：</block>
+  <block id="65439cdb7546ae11a93a141421129d1a" category="inline-link">Connector 2024 年 9 月版本的新功能</block>
+  <block id="46c02b08a8d12f7b5b9a43c01b252fe0" category="list-text"><block ref="46c02b08a8d12f7b5b9a43c01b252fe0" category="inline-link-rx"></block></block>
+  <block id="c531086859410bbf7d79b1d007644e8c" category="inline-link">Connector 2024 年 8 月版本的新功能</block>
+  <block id="3447cde4c00b98b6428bff77da46fd8c" category="list-text"><block ref="3447cde4c00b98b6428bff77da46fd8c" category="inline-link-rx"></block></block>
+  <block id="116a2755907d33cc76c6cdc442c467b0" category="inline-link">BlueXP  備份與還原的新功能</block>
+  <block id="4e02af58c02d9f0704b79eb4e000eb20" category="list-text"><block ref="4e02af58c02d9f0704b79eb4e000eb20" category="inline-link-rx"></block></block>
+  <block id="cdcec1bb4c8f6524979a702b1691d4f7" category="inline-link">BlueXP  分類的新功能</block>
+  <block id="9212eddb7e41302606e7873d754ab3aa" category="list-text"><block ref="9212eddb7e41302606e7873d754ab3aa" category="inline-link-rx"></block></block>
+  <block id="00dc7f0b165829f9f81bfaf12a8db2e4" category="inline-link">BlueXP  Cloud Volumes ONTAP 管理的新功能</block>
+  <block id="941cdb6d27c83c929d4abe28f2321665" category="list-text"><block ref="941cdb6d27c83c929d4abe28f2321665" category="inline-link-rx"></block></block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：</block>
+  <block id="aa6a53998d98bae73a6913ff1c2eecbc" category="section-title">透過瀏覽與還原、在 RHEL 8 或 9 上支援 Podman</block>
+  <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">BlueXP  備份與還原現在支援在使用 Podman 引擎的 Red Hat Enterprise Linux （ RHEL ）第 8 版和第 9 版上進行檔案與資料夾還原。這適用於 BlueXP  備份與還原瀏覽與還原方法。</block>
+  <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">BlueXP  Connector 3.9.40 版支援某些版本的 Red Hat Enterprise Linux 第 8 版和第 9 版、可在 RHEL 8 或 9 主機上手動安裝 Connector 軟體、而不受中所述作業系統以外的位置<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block>限制。這些較新的 RHEL 版本需要使用 Podman 引擎、而非 Docker 引擎。以前、 BlueXP  備份與還原在使用 Podman 引擎時有兩項限制。這些限制已移除。</block>
+  <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">深入瞭解如何從備份檔案還原 ONTAP 資料</block>
+  <block id="007a407431de4321913728dae6423904" category="paragraph"><block ref="056f97dce802386385ce3734740613e1" category="inline-link-rx"></block>。</block>
+  <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">目錄索引速度更快、可改善搜尋與還原</block>
+  <block id="9353e94049314c6236b51712848f2572" category="paragraph">此版本包含改良的目錄索引、可更快完成基準索引。快速索引可讓您更快速地使用「搜尋與還原」功能。</block>
+  <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024 年 9 月 20 日</block>
+  <block id="ee811bd919a27bd2eb705f65ed45e4f6" category="paragraph">此 BlueXP  災難恢復版本包含下列更新。</block>
+  <block id="b077aa4f9a421cc2e2782608fb5caf4f" category="list-text">* 支援內部部署到內部部署的 VMware VMFS 資料存放區 * ：此版本支援安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區上的虛擬機器、適用於受內部部署儲存保護的 iSCSI 和 FC 。此服務先前提供 _ 技術預覽 _ 、支援 iSCSI 和 FC 的 VMFS 資料存放區。</block>
+  <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">以下是 iSCSI 和 FC 通訊協定的其他考量事項：</block>
+  <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC 支援適用於用戶端前端通訊協定、而非複寫。</block>
+  <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  災難恢復每個 ONTAP 磁碟區僅支援單一 LUN 。磁碟區不應有多個 LUN 。</block>
+  <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">對於任何複寫計畫、目的地 ONTAP Volume 應使用與主控受保護 VM 的來源 ONTAP Volume 相同的傳輸協定。例如、如果來源使用 FC 傳輸協定、則目的地也應該使用 FC 。</block>
+  <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組</block>
+  <block id="1784b8aa983497f6e69069b3b862287f" category="list-text">* 自訂檔案共用工作負載群組 * ：使用此版本、您現在可以將檔案共用分組、以便更輕鬆地保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。<block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>。</block>
 </blocks>
