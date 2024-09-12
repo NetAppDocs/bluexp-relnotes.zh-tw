@@ -36,13 +36,13 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
-===== f258c97f55e85bfbd607e70e86d840dc
+===== 支援 Docker Engine 26 的全新安裝
 
-5c968eab53d6065ccf63e9766935cb7b
+從 Connector 3.9.44 版開始、 Docker Engine 26 現在可在 Ubuntu 主機上安裝 _new_ Connector 。
 
-0e80b6146d7736683cb1292a9c1ba4af
+如果您在 3.9.44 版本之前建立現有的 Connector 、 Docker Engine 25.0.5 仍是 Ubuntu 主機上支援的最大版本。
 
-395f31b2f1bc9cb3993acbb14cf4fb1f
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html#step-1-review-host-requirements["深入瞭解 Docker Engine 需求"]。
 
 
 
@@ -661,9 +661,9 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
-=== 577f5f9474f1f4f6f56c1fb216328baf
+=== 2024 年 9 月 16 日
 
-bc2c6ba9505b9e6d38d9f10c18186d1c
+我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。
 
 
 

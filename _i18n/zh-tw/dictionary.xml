@@ -748,4 +748,11 @@
   <block id="98f1cb1ebd09ccf6e678d5bae1920213" category="list-text">* 角色型存取控制 * ：您現在可以使用角色型存取控制（ RBAC ）來限制特定活動的存取。BlueXP  勒索軟體保護使用兩種 BlueXP  角色： BlueXP  帳戶管理員和非帳戶管理員（檢視器）。</block>
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">角色型存取控制 Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">如需每個角色可執行之動作的詳細資訊，請參閱<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>。</block>
+  <block id="f258c97f55e85bfbd607e70e86d840dc" category="section-title">支援 Docker Engine 26 的全新安裝</block>
+  <block id="5c968eab53d6065ccf63e9766935cb7b" category="paragraph">從 Connector 3.9.44 版開始、 Docker Engine 26 現在可在 Ubuntu 主機上安裝 _new_ Connector 。</block>
+  <block id="0e80b6146d7736683cb1292a9c1ba4af" category="paragraph">如果您在 3.9.44 版本之前建立現有的 Connector 、 Docker Engine 25.0.5 仍是 Ubuntu 主機上支援的最大版本。</block>
+  <block id="c64c773fbe16e4df6ae417c106a467ef" category="inline-link">深入瞭解 Docker Engine 需求</block>
+  <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>。</block>
+  <block id="577f5f9474f1f4f6f56c1fb216328baf" category="section-title">2024 年 9 月 16 日</block>
+  <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。</block>
 </blocks>
