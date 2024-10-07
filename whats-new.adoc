@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。 
 ---
 = 最新的BlueXP變更
@@ -250,6 +250,65 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-connector-operating-s
 
 
 
+== 警示
+
+
+
+=== 2024 年 10 月 7 日
+
+此 BlueXP  警示的初始版本包含下列功能：
+
+* * BlueXP  警示清單頁面 * ：您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、並識別安全性風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。
+* * 警示詳細資料 * ：您可以深入瞭解警示詳細資料並尋找建議。
+* * 檢視連結至系統管理員 * 的叢集詳細資料：透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 NetApp 系統管理員的詳細資料。
+
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP  警示"]。
+
+
+
+== Amazon FSX for ONTAP Sf
+
+
+
+=== 2023 年 7 月 30 日
+
+客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。
+
+請參閱 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["Amazon FSX for NetApp ONTAP 現已在另外三個地區推出"^] 以取得完整詳細資料。
+
+
+
+=== 2023 年 7 月 2 日
+
+* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
+* 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
+
+
+
+
+=== 2023 年 6 月 4 日
+
+* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
+* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
+
+
+
+
+== Amazon S3儲存設備
+
+
+
+=== 2023年3月5日
+
+
+
+==== 能夠從BlueXP新增庫位
+
+您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何新增Amazon S3儲存庫"^]。
+
+
+
 == Azure Blob 儲存設備
 
 
@@ -310,48 +369,6 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-== Amazon FSX for ONTAP Sf
-
-
-
-=== 2023 年 7 月 30 日
-
-客戶現在可以在三個新的 AWS 區域建立適用於 NetApp ONTAP 檔案系統的 Amazon FSX ：歐洲（蘇黎世）、歐洲（西班牙）和亞太（海德拉巴）。
-
-請參閱 link:https://aws.amazon.com/about-aws/whats-new/2023/04/amazon-fsx-netapp-ontap-three-regions/#:~:text=Customers%20can%20now%20create%20Amazon,file%20systems%20in%20the%20cloud["Amazon FSX for NetApp ONTAP 現已在另外三個地區推出"^] 以取得完整詳細資料。
-
-
-
-=== 2023 年 7 月 2 日
-
-* 您現在可以了 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-svm.html["新增儲存 VM"] 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。
-* 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
-
-
-
-
-=== 2023 年 6 月 4 日
-
-* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
-* 何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
-
-
-
-
-== Amazon S3儲存設備
-
-
-
-=== 2023年3月5日
-
-
-
-==== 能夠從BlueXP新增庫位
-
-您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在、您可以直接從BlueXP新增新的儲存格並變更現有儲存格的內容。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何新增Amazon S3儲存庫"^]。
-
-
-
 == 備份與還原
 
 
@@ -401,8 +418,6 @@ DataLock 功能可保護您的備份檔案、避免在指定的時間內遭到�
 Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles Anywhere 服務可讓您為工作負載（ AWS 外部）使用 IAM 角色和短期認證、以安全的方式存取 AWS API 、就像您在工作負載上使用 IAM 角色一樣。當您在任何位置使用 IAM 角色的私密金鑰基礎架構和 AWS Token 時、您不需要長期 AWS 存取金鑰和秘密金鑰。這可讓您更頻繁地輪換認證、進而提升安全性。
 
 在此版本中、 AWS IAM 角色 Anywhere 服務的支援是技術預覽。
-
-這適用於備份 link:task-backup-to-s3.html["將 Cloud Volumes ONTAP 備份至 AWS"] 和 link:task-backup-onprem-to-aws.html["將內部部署的 ONTAP 資料備份至 AWS"]。
 
 請參閱 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-July-2024-Release/ba-p/453993["BlueXP 備份與還原 2024 年 7 月版本部落格"]。
 
@@ -514,6 +529,18 @@ BlueXP  分類已將適用於 Microsoft Azure 和 Google Cloud Platform （ GCP
 
 
 
+=== 2024 年 10 月 7 日
+
+
+
+==== 在選擇升級版本時、增強使用者體驗
+
+從本版本開始、當您嘗試使用 BlueXP  通知來升級 Cloud Volumes ONTAP 時、將會收到使用預設、最新及相容版本的指引。此外、您現在也可以選取與 Cloud Volumes ONTAP 執行個體相容的最新修補程式或主要版本、或手動輸入要升級的版本。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-from-bluexp-notifications["升級Cloud Volumes ONTAP 版軟體"^]
+
+
+
 === 2024 年 9 月 9 日
 
 
@@ -546,18 +573,6 @@ WORM （一次寫入多次讀取）和 ARP （自動勒索軟體保護）的內�
 AWS for Cloud Volumes ONTAP 9.12.1 GA 及更新版本現在支援加拿大西部地區。
 
 如需所有區域的清單，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["AWS 下的 Global Regions Map"^]。
-
-
-
-=== 2024 年 8 月 22 日
-
-
-
-==== Cloud Volumes ONTAP 9.15.1 GA
-
-BlueXP 現在可以在 AWS 、 Azure 和 Google Cloud 中部署和管理 Cloud Volumes ONTAP 9.15.1 通用可用度版本。
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
 
 
 

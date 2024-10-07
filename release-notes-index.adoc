@@ -47,6 +47,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理
 
 == 資料服務
 
+* https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["警示"^]
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["備份與還原"^]
 * https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["分類"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-ops/whats-new.html["雲端作業"^]
