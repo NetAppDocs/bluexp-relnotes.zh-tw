@@ -970,11 +970,15 @@ BlueXP  移轉報告服務已於 2024 年 8 月 7 日移除。
 
 ==== 支援 ASA R2 系統
 
-您現在可以在 BlueXP  中探索 NetApp ASA R2 系統。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。
+現在您可以在 BlueXP  中探索 NetApp ASA R2 系統、以標準模式或私有模式使用 BlueXP  。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。
 
 ASA R2 系統沒有其他管理選項可用。您無法使用標準檢視、也無法啟用 BlueXP 服務。
 
-https://docs.netapp.com/us-en/asa-r2/index.html["深入瞭解 ASA R2 系統"^]
+在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["深入瞭解 ASA R2 系統"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解 BlueXP 部署模式"^]
+
 
 
 

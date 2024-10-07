@@ -723,7 +723,6 @@
   <block id="6a9f822bb587b015bf3224364464cbed" category="section-title">支援服務</block>
   <block id="65077e068c20e8afeca74c12711e893e" category="paragraph">NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">支援 ASA R2 系統</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">您現在可以在 BlueXP  中探索 NetApp ASA R2 系統。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 系統沒有其他管理選項可用。您無法使用標準檢視、也無法啟用 BlueXP 服務。</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">深入瞭解 ASA R2 系統</block>
   <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
@@ -757,4 +756,8 @@
   <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">深入瞭解<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>。</block>
   <block id="7062dd46798946172bc9078744756dfc" category="section-title">改善掃描效能</block>
   <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">此版本可改善掃描效能。</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">現在您可以在 BlueXP  中探索 NetApp ASA R2 系統、以標準模式或私有模式使用 BlueXP  。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">瞭解 BlueXP 部署模式</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
