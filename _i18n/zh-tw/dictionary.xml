@@ -423,8 +423,6 @@
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
   <block id="0a9bbb6e81dd21b77886235f2ce33af9" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需完整的發行記錄、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
   <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024 年 5 月 17 日</block>
-  <block id="4d3035dcb7b114e2c87c82e5ae7e626c" category="inline-link">瞭解 Connector 對 RHEL 8 和 9 的支援</block>
-  <block id="5fb3739fbc4ea4c4f6ecf12db77ae604" category="paragraph"><block ref="a34a36a25f711a4d3e7acd813af66ea1" category="inline-link-rx"></block>。</block>
   <block id="a0f248fceae83613cf99c651e3c24be5" category="inline-link">深入瞭解設定授權</block>
   <block id="17f6ba003825118fb67d19c8c26be794" category="paragraph"><block ref="36f38233d2460bc4dacb6b4bd4fd46ab" category="inline-link-rx"></block>。</block>
   <block id="c817ad6139f116906ee3d7991cfdcba9" category="section-title">在內部部署 Connector 上使用 RHEL 8 和 RHEL 9 時的限制</block>
@@ -517,7 +515,6 @@
   <block id="9fc076386261ca80bfc67f7f57c641d3" category="section-title">2024 年 7 月 14 日</block>
   <block id="c18c776847f6d7588ddeab0632527364" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.53 。</block>
   <block id="5d515ef1c3774ed67ad6115621a1ca59" category="paragraph">現在可從 NetApp 支援網站 下載新的私有模式版本。</block>
-  <block id="597f1630cd21d22c527f63002e42f059" category="list-text">8.6 至 8.10</block>
   <block id="c2ba7e785c49050f48da9aacc45c2b85" category="cell">服務</block>
   <block id="b742a03d26cdd3a73daedbab8ce0898b" category="cell">隨附版本</block>
   <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">連接器</block>
@@ -609,29 +606,7 @@
   <block id="0970aa81dd486fe1c8e03549b29f3d46" category="inline-link">AWS 下的 Global Regions Map</block>
   <block id="96c6a6277896e4ed7c2cef558b5542c1" category="paragraph">如需所有區域的清單，請參閱<block ref="24faa078890c2d8c97de1a6b5a5789e3" category="inline-link-rx"></block>。</block>
   <block id="c842acaca9e3ea9ec2dc61f28e69ea15" category="section-title">2024 年 9 月 9 日</block>
-  <block id="2e5948b55d019081bde9b17268d72c2c" category="section-title">連接器 3.9.44</block>
-  <block id="eef503d0bc4de5d76d47f4691b412e15" category="paragraph">此版本包含 Docker Engine 26 支援、 SSL 憑證增強功能、以及錯誤修正。</block>
-  <block id="8e05f2728c2c4042bd5165b33b122aa7" category="paragraph">3.9.44 版本適用於標準模式和受限模式。</block>
-  <block id="15ba9bb026c53a148756b12826c46f8b" category="section-title">已更新 SSL 憑證以供本機 UI 存取</block>
-  <block id="b96edd49155123375756b26e44b38121" category="paragraph">當您以受限模式或私有模式使用 BlueXP  時、使用者介面可從部署在雲端區域或內部部署的 Connector 虛擬機器存取。根據預設、 BlueXP  會使用自我簽署的 SSL 憑證、提供安全的 HTTPS 存取、以存取在 Connector 上執行的網路型主控台。</block>
-  <block id="2737440e84d6c8a13a097fa583a6e67a" category="paragraph">在此版本中、我們針對新連接器和現有連接器變更了 SSL 憑證：</block>
-  <block id="6cb49682fd1f125736d18f28cbce1f23" category="list-text">憑證的一般名稱現在與簡短主機名稱相符</block>
-  <block id="982638142d38ac9441736ff5402f4e2a" category="list-text">憑證主體替代名稱是主機機器的完整網域名稱（ FQDN ）</block>
   <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">支援 RHEL 9.4</block>
-  <block id="70a7dd17e18fef168a9d377653df73ca" category="paragraph">BlueXP  現在支援在標準模式或受限模式下使用 BlueXP  時、在 Red Hat Enterprise Linux 9.4 主機上安裝 Connector 。</block>
-  <block id="2ba7632ac1d83ea5ae8e4c11321eb1d3" category="paragraph">從 Connector 3.9.40 版本開始支援 RHEL 9.4 。</block>
-  <block id="d624d762d93c33c9dde16183d90a90e0" category="paragraph">標準模式和受限模式支援 RHEL 版本的更新清單現在包括下列項目：</block>
-  <block id="94d03d842e38bfc8ebeb1cd5999b1321" category="list-text">9.1 至 9.4</block>
-  <block id="7a8260cd47a221886a3337b85ff2ec45" category="section-title">支援所有 RHEL 版本的 Podman 4.9.4</block>
-  <block id="3a5941c5e1e3e3c4cb703b2d9d78963c" category="paragraph">所有支援版本的 Red Hat Enterprise Linux 現在都支援 Podman 4.9.4 。4.9.4 版先前僅支援 RHEL 8.10 。</block>
-  <block id="d0f584a070c78efb8fff64b377dbf729" category="paragraph">支援的 Podman 版本更新清單包含 4.6.1 和 4.9.4 與 Red Hat Enterprise Linux 主機。</block>
-  <block id="fef89f8fc6e9d583565954d5abe02ec4" category="paragraph">從 Connector 3.9.40 版本開始、 RHEL 主機需要使用 Podman 。</block>
-  <block id="842ce6e5c3bdb8cf81ffbd4f90a57649" category="section-title">更新 AWS 和 Azure 權限</block>
-  <block id="c1f46e9419a384f29f23682739cc8d58" category="paragraph">我們更新了 Connector 的 AWS 和 Azure 原則、以移除不再需要的權限。這些權限與 BlueXP  邊緣快取、探索及管理 Kubernetes 叢集有關、截至 2024 年 8 月為止、這些叢集不再受到支援。</block>
-  <block id="d201eff65f4516de2c618efea5a7edde" category="inline-link">瞭解 AWS 原則有哪些變更</block>
-  <block id="b0c050c316c776928b8b8bc0c327449e" category="list-text"><block ref="aff0e765a5d2f4e281feabd61d1dd500" category="inline-link-rx"></block>。</block>
-  <block id="2f036a4385aa02ab7c67e7932bd4036f" category="inline-link">瞭解 Azure 政策有何改變</block>
-  <block id="31fa3b726cc2ab8e192bc70a792168a7" category="list-text"><block ref="c65ef862e4776cf4a66f5e1d7163d89e" category="inline-link-rx"></block>。</block>
   <block id="597f26a63507bfee99f67909c68d5354" category="section-title">2024 年 9 月 2 日（版本 1 ． 5 ）</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">掃描 StorageGRID 資料</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">BlueXP  分類現在可以掃描 StorageGRID 中的資料。</block>
@@ -662,11 +637,6 @@
   <block id="98f1cb1ebd09ccf6e678d5bae1920213" category="list-text">* 角色型存取控制 * ：您現在可以使用角色型存取控制（ RBAC ）來限制特定活動的存取。BlueXP  勒索軟體保護使用兩種 BlueXP  角色： BlueXP  帳戶管理員和非帳戶管理員（檢視器）。</block>
   <block id="c7038711405bbbe2f0f37c53c5eb81ad" category="inline-link">角色型存取控制 Privileges</block>
   <block id="edf15150f2ed24145a29e67792372ecc" category="paragraph">如需每個角色可執行之動作的詳細資訊，請參閱<block ref="03cd1069228e8895d221bed8eef34f69" category="inline-link-rx"></block>。</block>
-  <block id="f258c97f55e85bfbd607e70e86d840dc" category="section-title">支援 Docker Engine 26 的全新安裝</block>
-  <block id="5c968eab53d6065ccf63e9766935cb7b" category="paragraph">從 Connector 3.9.44 版開始、 Docker Engine 26 現在可在 Ubuntu 主機上安裝 _new_ Connector 。</block>
-  <block id="0e80b6146d7736683cb1292a9c1ba4af" category="paragraph">如果您在 3.9.44 版本之前建立現有的 Connector 、 Docker Engine 25.0.5 仍是 Ubuntu 主機上支援的最大版本。</block>
-  <block id="c64c773fbe16e4df6ae417c106a467ef" category="inline-link">深入瞭解 Docker Engine 需求</block>
-  <block id="395f31b2f1bc9cb3993acbb14cf4fb1f" category="paragraph"><block ref="724b4d6e1bb3e6bea768572a2ce7c10e" category="inline-link-rx"></block>。</block>
   <block id="577f5f9474f1f4f6f56c1fb216328baf" category="section-title">2024 年 9 月 16 日</block>
   <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。</block>
   <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024 年 30 月 9 日</block>
@@ -776,4 +746,15 @@
   <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>。</block>
   <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>參閱。</block>
   <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">如需詳細資訊、請<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>參閱。</block>
+  <block id="a1fe52ea216874a5214f41ae7e5bbd63" category="section-title">2024 年 10 月 10 日</block>
+  <block id="9071c576479353103106b574601bd920" category="section-title">連接器3.9.45修補程式</block>
+  <block id="d8497d3046f15c93d3e5c40856129331" category="paragraph">此修補程式包含錯誤修正。</block>
+  <block id="e75804de09e19a35ad3cd360d45cd0fb" category="section-title">2024 年 10 月 10 日（版本 1.36 ）</block>
+  <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">此 BlueXP  分類版本包含下列更新。</block>
+  <block id="409886e91bb1c98ce7537a6ea025aa8e" category="paragraph">除了先前支援的版本之外、此版本還支援 Red Hat Enterprise Linux v9.4 。這適用於任何手動內部部署的 BlueXP  分類安裝、包括暗點部署。</block>
+  <block id="a851e95484895c6e743c9be7755facd2" category="paragraph">下列作業系統需要使用 Podman Container 引擎、而且需要 BlueXP  分類 1.30 版或更新版本： Red Hat Enterprise Linux 8.8 版、 9.0 版、 9.1 版、 9.2 版、 9.3 版和 9.4 版。</block>
+  <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link">BlueXP 分類部署總覽</block>
+  <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">深入瞭解<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>。</block>
+  <block id="7062dd46798946172bc9078744756dfc" category="section-title">改善掃描效能</block>
+  <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">此版本可改善掃描效能。</block>
 </blocks>
