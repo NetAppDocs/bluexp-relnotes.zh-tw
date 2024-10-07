@@ -534,7 +534,6 @@
   <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">使用此版本、您現在可以還原在 ONTAP 中建立的小於 1 GB 的磁碟區。您可以使用 ONTAP 建立的最小磁碟區大小為 20 MB 。</block>
   <block id="ccbf8c45039ba817be81bbf5fa2a7521" category="section-title">如何降低 DataLock 成本的秘訣</block>
   <block id="f959c5a51fb8f2a9e9c0063bbb8adb63" category="paragraph">DataLock 功能可保護您的備份檔案、避免在指定的時間內遭到修改或刪除。這有助於保護您的檔案免受勒索軟體攻擊。</block>
-  <block id="4822bd9fd85c6d5438ecd9963b5c6897" category="paragraph">如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請 <block ref="d72e0969f8971a4b91ad44a04438bfb9" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="79cfacda817c1e599649823ffa32c8d7" category="section-title">AWS IAM 角色隨處整合</block>
   <block id="bebfb016f9defe9a78fff65f418f213b" category="paragraph">Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles Anywhere 服務可讓您為工作負載（ AWS 外部）使用 IAM 角色和短期認證、以安全的方式存取 AWS API 、就像您在工作負載上使用 IAM 角色一樣。當您在任何位置使用 IAM 角色的私密金鑰基礎架構和 AWS Token 時、您不需要長期 AWS 存取金鑰和秘密金鑰。這可讓您更頻繁地輪換認證、進而提升安全性。</block>
   <block id="24c6cf6b2747b390a5d9eb672e1d54d4" category="paragraph">在此版本中、 AWS IAM 角色 Anywhere 服務的支援是技術預覽。</block>
@@ -544,7 +543,6 @@
   <block id="a821e6c079044462f6ffc9a01ed28fc9" category="paragraph">以前、 FlexVol 磁碟區可以還原、但您無法還原 FlexGroup 資料夾或目錄。使用 ONTAP 9.15.1 P2 、您可以使用「瀏覽與還原」選項來還原 FlexGroup 資料夾。</block>
   <block id="cd4619af82dfe7627dc934e29e85a6e9" category="paragraph">在此版本中、支援 FlexGroup 資料夾還原是技術預覽。</block>
   <block id="abbf2484b45da9fd7be677fe96c511eb" category="inline-link-macro">使用瀏覽擴大機還原資料夾和檔案；還原</block>
-  <block id="9b7af6cb2e410e55ce793003b7110047" category="paragraph">如需詳細資訊、請 <block ref="07023d18b01371174abc5a157da41b99" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="707304f314bfa71975e8ffb352535092" category="paragraph">如需手動啟用的詳細資料、請<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>參閱。</block>
   <block id="70d1ac1a529ac546d3e60b81ee464a1d" category="paragraph">此 BlueXP  分類版本包含下列更新。</block>
   <block id="44a73383773bebac3194e73bd06397a8" category="section-title">從 CentOS 變更為 Ubuntu</block>
@@ -694,7 +692,6 @@
   <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">BlueXP  備份與還原現在支援在使用 Podman 引擎的 Red Hat Enterprise Linux （ RHEL ）第 8 版和第 9 版上進行檔案與資料夾還原。這適用於 BlueXP  備份與還原瀏覽與還原方法。</block>
   <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">BlueXP  Connector 3.9.40 版支援某些版本的 Red Hat Enterprise Linux 第 8 版和第 9 版、可在 RHEL 8 或 9 主機上手動安裝 Connector 軟體、而不受中所述作業系統以外的位置<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block>限制。這些較新的 RHEL 版本需要使用 Podman 引擎、而非 Docker 引擎。以前、 BlueXP  備份與還原在使用 Podman 引擎時有兩項限制。這些限制已移除。</block>
   <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">深入瞭解如何從備份檔案還原 ONTAP 資料</block>
-  <block id="007a407431de4321913728dae6423904" category="paragraph"><block ref="056f97dce802386385ce3734740613e1" category="inline-link-rx"></block>。</block>
   <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">目錄索引速度更快、可改善搜尋與還原</block>
   <block id="9353e94049314c6236b51712848f2572" category="paragraph">此版本包含改良的目錄索引、可更快完成基準索引。快速索引可讓您更快速地使用「搜尋與還原」功能。</block>
   <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024 年 9 月 20 日</block>
@@ -726,7 +723,6 @@
   <block id="402601978c4c05e28bf41ea74b2c118a" category="list-text">_ 合規檢視器 _ 現在是 _ 分類檢視器 _</block>
   <block id="396758cef44fe7d4ebed2010a8ee7761" category="list-text">在「設定」下、您可以存取 BlueXP  身分識別與存取管理、以利用這些增強功能</block>
   <block id="0909fc2dd5049052e70dfa0e18f7fbcf" category="inline-image-macro">BlueXP  的螢幕擷取畫面、顯示可從介面頂端選取的組織和專案、以及可從「設定」功能表取得的身分識別和存取管理。</block>
-  <block id="bc9b550d1734b431c662a14aa92c06df" category="paragraph"><block ref="bc9b550d1734b431c662a14aa92c06df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
   <block id="d9c4ef914f4f136c37c3df051aaedb70" category="list-text">您現有的使用者或工作環境沒有任何變更。</block>
   <block id="31243c2d285073a1e31df388c65d726f" category="list-text">雖然角色名稱已變更、但從權限觀點來看、並無差異。使用者將繼續享有與以往相同的工作環境存取權。</block>
@@ -739,9 +735,7 @@
   <block id="a737f6ac26156f3770a49e30a21f7d73" category="paragraph">在標準模式下使用 BlueXP  時、支援 BlueXP  IAM 。如果您是以受限模式或私人模式使用 BlueXP  、則會繼續使用 BlueXP  _account_ 來管理工作區、使用者和資源。</block>
   <block id="3163b3d4dc92f42d04ad4c79906dcdc3" category="section-title">下一步</block>
   <block id="a5a81005322e1187e396e2f1252dca71" category="inline-link-macro">瞭解 BlueXP  IAM</block>
-  <block id="0a3f88a939958973fc19097a4507c320" category="list-text"><block ref="0a3f88a939958973fc19097a4507c320" category="inline-link-macro-rx"></block></block>
   <block id="c12e8c3134a6d5ff2ec2657f6357e8ec" category="inline-link-macro">BlueXP  IAM 入門</block>
-  <block id="8e537ea51347d673ce98d63017478ab1" category="list-text"><block ref="8e537ea51347d673ce98d63017478ab1" category="inline-link-macro-rx"></block></block>
   <block id="52b3f16d7e534fa9f1eb5be8603ccd2e" category="section-title">連接器 3.9.45</block>
   <block id="7cecac935b533838cda5bd0fc68012c1" category="paragraph">此版本包含擴充的作業系統支援和錯誤修正。</block>
   <block id="5a45d9d610a1bb698a260ef7f9494081" category="paragraph">3.9.45 版本適用於標準模式和受限模式。</block>
@@ -776,4 +770,10 @@
   <block id="2182ff9388484137699eb937c0df0141" category="inline-link">升級Cloud Volumes ONTAP 版軟體</block>
   <block id="c2f5c6d8ccd2cc8bdc92db0ad0c79342" category="paragraph"><block ref="c2f5c6d8ccd2cc8bdc92db0ad0c79342" category="inline-link-rx"></block></block>
   <block id="c5686848892b4de33534dcc294c33fff" category="paragraph">WORM （一次寫入多次讀取）和 ARP （自動勒索軟體保護）的內建資料保護與安全功能、將免費提供 Cloud Volumes ONTAP 授權。新的定價模式同時適用於 AWS 、 Azure 和 Google Cloud 的全新和現有 BYOL 和 PAYGO/ 市場訂閱。容量型和節點型授權都包含 ARP 和 WORM 、適用於所有組態、包括單一節點和高可用度（ HA ）配對、不需額外付費。</block>
+  <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
+  <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
+  <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>。</block>
+  <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>參閱。</block>
+  <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">如需詳細資訊、請<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>參閱。</block>
 </blocks>
