@@ -430,9 +430,6 @@
   <block id="b682afa0ff8a1d136b51d3115421ac1b" category="list-text"><block ref="b682afa0ff8a1d136b51d3115421ac1b" category="inline-link-rx"></block></block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024 年 5 月 15 日</block>
   <block id="9df62cb4d6f151b560e84723841bd523" category="paragraph">此 BlueXP 災難恢復版本包含下列更新：</block>
-  <block id="7f1d1e9df7ef6953a6e373e29826ca55" category="list-text">* 將 VMware 工作負載從內部部署複製到內部部署 * 、現在已成為一般可用度功能。以前、這是一項功能有限的技術預覽。</block>
-  <block id="b7005516f0c1f875afae2146a2fb3617" category="list-text">* 授權更新 * ： 有了 BlueXP 災難恢復功能、您可以註冊 90 天免費試用版、向 Amazon Marketplace 購買隨用隨付（ PAYGO ）訂閱、或自帶授權（ BYOL ）、這是您從 NetApp 銷售代表或 NetApp 支援網站 （ NSS ）取得的 NetApp 授權檔案（ NLF ）。</block>
-  <block id="eb9506998f4dca4bcb82fe962448b79b" category="paragraph">如需設定 BlueXP 災難恢復授權的詳細資訊、請參閱 <block ref="eaa54a57026891d12cbf928afd176564" category="inline-link-macro-rx"></block>。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務提供版本說明</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
@@ -475,23 +472,9 @@
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">2024 年 7 月 4 日</block>
   <block id="5e63fb298525a46837cedfd7fc3c5002" category="paragraph">環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">E 系列和 StorageGRID 系統現在支援永續性。您可以從這些系統的 Sustainability 儀表板檢視建議動作和環境指標的清單、以顯示電力預測、直接碳使用量和熱能。若要深入瞭解、請 <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>參閱。</block>
-  <block id="d8e45589bc9d86b39aed3bcde52935ac" category="section-title">2024 年 7 月 5 日</block>
-  <block id="7ee40b46e664d0d7baaad4da422c7457" category="list-text">* 支援 AFF A 系列 * ：此版本支援 NetApp AFF A 系列硬體平台。</block>
-  <block id="a1961f9eb07acee12f93a3f0b929745e" category="list-text">* 支援內部部署到內部部署的 VMware VMFS 資料存放區 * ：此版本包含對安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區（受保護於內部部署儲存區）上的虛擬機器的支援（技術預覽）。此版本支援災難恢復功能、可在內部部署 VMware 工作負載的技術預覽中進行、並可在內部部署 VMware 環境中使用 VMFS 資料存放區。</block>
   <block id="710abd7c1d5a2a3be1aa4c7dbff890cf" category="admonition">NetApp 不收取任何預覽工作負載容量的費用。</block>
-  <block id="a1975f713c38b2cbf1c095ed7dbadabe" category="list-text">* 編輯複寫計畫 * ：此版本增強了容錯移轉對應頁面、以提高清晰度。</block>
-  <block id="e9558a079e21d43034f54a99b19f2ad7" category="inline-link">管理計畫</block>
-  <block id="583edef1d12ac8fcf925b864da2d76c6" category="paragraph">請參閱<block ref="a8a4a23c947d3e2e3dc169027b7cac12" category="inline-link-rx"></block>。</block>
-  <block id="2343906acc207119786e118da0bbadf7" category="list-text">* 編輯 VMS* ：在此版本中、規劃中的虛擬機器編輯程序包括一些小的 UI 改善。</block>
-  <block id="5f1df9fa6d6ce95c36680ae870250af7" category="inline-link">管理 VM</block>
-  <block id="f7e4cafc0e54e03cc0ff738b39e333cb" category="paragraph">請參閱<block ref="1d44a072309f2a4f38fd6e17ed7eb631" category="inline-link-rx"></block>。</block>
-  <block id="51c73608632a284eecfb3fce29106b26" category="list-text">* 容錯移轉更新 * ：在啟動容錯移轉之前、您現在可以判斷 VM 的狀態、以及 VM 的電源是開啟還是關閉。現在、容錯移轉程序可讓您立即拍攝快照、或選擇快照。</block>
   <block id="b1fb5b4805d079fc23dedcbe4848437e" category="inline-link">將應用程式容錯移轉至遠端站台</block>
   <block id="ab132121a366abdd7667443cc98f3a69" category="paragraph">請參閱<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>。</block>
-  <block id="66dacd6d538323484187ed3f8c9ef650" category="list-text">* 容錯移轉測試排程 * ：您現在可以編輯容錯移轉測試、並設定每日、每週和每月的容錯移轉測試排程。</block>
-  <block id="42b40c3ce2e25adae8327795c655116d" category="list-text">* 先決條件資訊的更新 * ： BlueXP 災難恢復先決條件資訊已更新。</block>
-  <block id="ccf3c2f4a4ab48adb4cc5352e480655c" category="inline-link">BlueXP 災難恢復先決條件</block>
-  <block id="8a62eb7f743049ce2523fe7eb67fb48f" category="paragraph">請參閱<block ref="dfd63f4ad4adb15a66b44e212e2488b7" category="inline-link-rx"></block>。</block>
   <block id="16ec862fdbc31bf15f7d944ad60dd33f" category="section-title">2024 年 7 月 1 日</block>
   <block id="fdb1f5ab91dd63ebda3ff72247aa7b2b" category="list-text">* 自帶授權（ BYOL ） * ：此版本可讓您使用 BYOL 授權、這是您從 NetApp 銷售代表處取得的 NetApp 授權檔案（ NLF ）</block>
   <block id="0c379e4399020bc48ac7da5510998e1a" category="list-text">* 在檔案層級還原應用程式工作負載 * ：在檔案層級還原應用程式工作負載之前、您現在可以檢視可能受攻擊影響的檔案清單、並識別您要還原的檔案。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。</block>
@@ -544,24 +527,11 @@
   <block id="b9dbe1e85847c069664ebe888e76d35c" category="list-text">* 工作取消 * ：使用此版本、您現在可以在工作監控 UI 中取消工作。</block>
   <block id="4639d0e2e2909a747265c2f704128bca" category="inline-link">監控工作</block>
   <block id="5ef55533619d84d0298304b37a76eeff" category="paragraph">請參閱<block ref="786959fe8223b685d5c08f8e62246672" category="inline-link-rx"></block>。</block>
-  <block id="f4c84d2d214fb7f3e3cae921398c8e4a" category="section-title">2024 年 7 月 17 日</block>
-  <block id="e96e73e43a84335e9de1d02f80f7d655" category="list-text">* 容錯移轉測試排程 * ：此版本包含容錯移轉測試排程結構的更新、這是支援每日和每週排程所需的。此更新需要您停用並重新啟用所有現有的複寫計畫、才能使用新的每日和每週容錯移轉測試排程。這是一次性要求。</block>
   <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">方法如下：</block>
   <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">從上方功能表中、選取 * 複寫計畫 * 。</block>
   <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">選取計畫、然後選取「動作」圖示以顯示下拉式功能表。</block>
   <block id="dbf8ea65a71d9e2042b03a97a0da4095" category="list-text">選擇*停用*。</block>
   <block id="9ffe587f372d96c9b0db66cfe333c0cf" category="list-text">幾分鐘後、選取 * 啟用 * 。</block>
-  <block id="dc6efda4f2a86706d886df508f873039" category="list-text">* 複寫計畫更新 * ：此版本包含複寫計畫資料的更新、可解決「找不到快照」的問題。這需要您將所有複寫計畫中的保留計數變更為 1 、然後啟動隨需快照。此程序會建立新的備份、並移除所有較舊的備份。</block>
-  <block id="3d3e2652059a9417e7a9b8801e83b99d" category="list-text">選取複寫計畫、按一下 * 容錯移轉對應 * 標籤、然後按一下 * 編輯 * 鉛筆圖示。</block>
-  <block id="f05351f8a712da4ff1e724d342c4670b" category="list-text">按一下 * 資料存放區 * 箭號加以展開。</block>
-  <block id="ee9e0fb0a09a468f33fa6f2dabc4ff49" category="inline-image-macro">編輯容錯移轉對應頁面</block>
-  <block id="7cbc4647aa042fa4dbc711ee9aa94612" category="paragraph"><block ref="7cbc4647aa042fa4dbc711ee9aa94612" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d59b78804ed5feec9399254629a60f1" category="list-text">請注意複寫計畫中保留計數的值。完成這些步驟後、您必須恢復此原始值。</block>
-  <block id="e9c686cd7f0fc0f9a24375142cf2639b" category="list-text">將數量減至 1 。</block>
-  <block id="94eec0eecc897e0613b4dca05f1db3b5" category="list-text">啟動隨選快照。若要這麼做、請在「複寫計畫」頁面上選取計畫、按一下「動作」圖示、然後選取 * 立即擷取快照 * 。</block>
-  <block id="4be920e5d3a5c6a1a13e6a9ed1ea0d96" category="list-text">快照工作成功完成後、請將複寫計畫中的計數增加回您在第一步中記下的原始值。</block>
-  <block id="fcf0bc475de9e6576c18ef6dcf5d7506" category="list-text">對所有現有的複寫計畫重複這些步驟。</block>
-  <block id="7967654ba38c10467e0d83677de0e180" category="list-text">* 複寫計畫更新 * ：您可以在「應用程式」頁面上依資料存放區篩選 VM 、並選擇 / / 參閱、以更輕鬆地新增複寫計畫 <block ref="8aa3c94c171b2c9d7252afb28ee019a7" category="inline-link-macro-rx"></block>。請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。 在資源對應頁面上顯示更多目標詳細資料。</block>
   <block id="9b4b29c7522dc70822a6513f530beb14" category="paragraph">BlueXP  邊緣快取服務已於 2024 年 8 月 7 日移除。</block>
   <block id="4ac75c7e9ef3301446bb1108a0761fd8" category="paragraph">探索及管理 Kubernetes 叢集的支援已於 2024 年 8 月 7 日移除。</block>
   <block id="2476ee901bdc6e29b6118470b13e2339" category="paragraph">BlueXP  移轉報告服務已於 2024 年 8 月 7 日移除。</block>
@@ -775,4 +745,23 @@
   <block id="648169096ce56c8569ce36a4abebe9c7" category="admonition">在受限模式下使用 BlueXP  時不支援 AWS 本機區域。</block>
   <block id="e0b08acf0828bf4594a0b9bd6411df1b" category="inline-link-macro">AWS 本機區域</block>
   <block id="b75accaa363606f733ab4203f45f8193" category="paragraph">如需更多關於 AWS 本機區域與 HA 部署的<block ref="6830ae69d7be576a68a954338edafef9" category="inline-link-macro-rx"></block>資訊、請參閱。</block>
+  <block id="1992f2f9fa5c0cbd3b61255b9dd507bd" category="section-title">2024 年 10 月 30 日</block>
+  <block id="51ca1579fc5d4f066bdbf640a4814d76" category="list-text">* 報告 * ：有了此版本、您現在可以產生及下載報告、協助您分析您的環境。預先設計的報告會摘要容錯移轉和容錯移轉、顯示所有站台的複寫詳細資料、以及顯示過去七天的工作詳細資料。</block>
+  <block id="054b753af44fc4eeee43c9ba6037caaa" category="inline-link">建立災難恢復報告</block>
+  <block id="023cf8170104660fc796a64fdad98afa" category="paragraph">請參閱<block ref="cca93cc3cfc082fe882eefc731706487" category="inline-link-rx"></block>。</block>
+  <block id="978337672bd8dff65bfbecb42cf21f9d" category="list-text">* 30 天免費試用 * ：有了此版本、您現在可以註冊免費試用 30 天的 BlueXP  災難恢復。以前、免費試用期為 90 天。</block>
+  <block id="1cb57fbf1f1452e87f62dd668ea03759" category="paragraph">請參閱<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>。</block>
+  <block id="7c63c33c2146d3ce95c7487c1ebbe27e" category="list-text">* 停用及啟用複寫計畫 * ：先前版本包含容錯移轉測試排程結構的更新、這是支援每日和每週排程所需的。此更新需要您停用並重新啟用所有現有的複寫計畫、才能使用新的每日和每週容錯移轉測試排程。這是一次性要求。</block>
+  <block id="128ecd2ba12e92192724c8e3ed360ffc" category="list-text">* 資料夾對應 * ：建立複寫計畫並對應運算資源時、您現在可以對應資料夾、以便將 VM 恢復到您指定的資料夾中、以供資料中心、叢集和主機使用。</block>
+  <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">如需詳細資訊、請<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>參閱。</block>
+  <block id="b7d245c9fa7100d1b04bb8e37530f630" category="list-text">* VM 詳細資料可用於容錯移轉、容錯回復及測試容錯移轉 * ：當發生故障且您正在啟動容錯移轉、執行容錯回復或測試容錯移轉時、您現在可以查看 VM 的詳細資料、並識別哪些 VM 未重新啟動。</block>
+  <block id="5b7e4b08598b495e5e802015cfda0817" category="list-text">* 依順序開機順序的 VM 開機延遲 * ：建立複寫計畫時、您現在可以為計畫中的每個 VM 設定開機延遲。這可讓您設定 VM 開始的順序、以確保在啟動後續優先順序 VM 之前、有一個 VM 正在執行所有優先順序。</block>
+  <block id="6bf75b2b973c4e4b2e97cb286b4a0b22" category="list-text">* VM 作業系統資訊 * ：建立複寫計畫時、您現在可以在計畫中看到每個 VM 的作業系統。這有助於決定如何將 VM 群組在資源群組中。</block>
+  <block id="c216ae779db45238ce5f187a4e9efc0e" category="list-text">* 虛擬機器名稱別名 * ：建立複寫計畫時、您現在可以在災難恢復站點的虛擬機器名稱中新增字首和字尾。這可讓您在計畫中為 VM 使用更具描述性的名稱。</block>
+  <block id="0b0c4a58a22974b8eb46383cdfabf354" category="list-text">* 清除舊的快照 * ：使用此版本、您可以刪除超出指定保留數的任何不再需要的快照。快照可能會隨著時間而累積、因此您可以減少快照保留數量、然後移除快照以釋出空間。您可以隨時視需要或刪除複寫計畫來執行此作業。</block>
+  <block id="3eddfb488d257605e7713c24d210beee" category="inline-link">管理站台、資源群組、複寫計畫、資料存放區和虛擬機器資訊</block>
+  <block id="310c40c0ef022c90f1370d1fe91ca720" category="paragraph">如需詳細資訊、請<block ref="db7c318fcbcad8cfb9a44ac897b870b2" category="inline-link-rx"></block>參閱。</block>
+  <block id="718c1087c683dccc1ea79ed6fa0fd10b" category="list-text">* 同步化快照 * ：使用此版本、您現在可以協調來源與目標之間不同步的快照。如果在 BlueXP  災難恢復之外的目標上刪除快照、可能會發生這種情況。服務會每 24 小時自動刪除來源上的快照。不過、您可以隨需執行此作業。此功能可讓您確保所有站台的快照一致。</block>
+  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link">管理複寫計畫</block>
+  <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">如需詳細資訊、請<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block>參閱。</block>
 </blocks>
