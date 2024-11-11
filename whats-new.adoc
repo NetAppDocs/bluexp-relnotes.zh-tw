@@ -184,6 +184,10 @@ ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX"^]
 
+如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。
+
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。"]
+
 
 
 === 2023 年 7 月 30 日
@@ -459,6 +463,60 @@ BlueXP  分類現在可以掃描 StorageGRID 中的資料。
 
 
 
+=== 2024 年 11 月 11 日
+
+
+
+==== 終止節點型授權的可用度
+
+NetApp 已規劃終止供應（ EOA ）和終止支援（ EOS ）的 Cloud Volumes ONTAP 節點型授權。自 2024 年 11 月 11 日起，節點型授權的有限可用度已終止。節點型授權支援將於 2024 年 12 月 31 日終止。在節點型授權的 EOA 之後，您應該使用 BlueXP  授權轉換工具，轉換為容量型授權。
+
+若為年度或長期承諾， NetApp 建議您在 EOA 日期或授權到期日之前聯絡 NetApp 代表，以確保移轉的先決條件已就緒。如果您沒有 Cloud Volumes ONTAP 節點的長期合約，而且是根據隨選 PAYGO 訂閱來執行系統，請務必在 EOS 日期之前規劃您的轉換。對於長期合約和 PAYGO 訂閱，您可以使用 BlueXP  授權轉換工具進行無縫轉換。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["終止節點型授權的可用性"^] https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-convert-node-capacity.html["將節點型授權轉換為容量型"^]
+
+
+
+==== 從 BlueXP  移除節點型部署
+
+使用節點型授權來部署 Cloud Volumes ONTAP 系統的選項在 BlueXP  上已過時。除了少數特殊情況，您無法為任何雲端供應商使用節點型授權來部署 Cloud Volumes ONTAP 。
+
+NetApp 瞭解下列符合合約義務和營運需求的獨特授權要求，並將在這些情況下繼續支援節點型授權：
+
+* USPS 客戶
+* 以私有模式部署
+* 在 AWS 中部署 Cloud Volumes ONTAP 的中國地區
+* 如果您擁有有效且未過期的個別節點，請自行攜帶授權（ BYOL 授權）
+
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["終止節點型授權的可用性"^]
+
+
+
+==== 在 Azure Blob 儲存設備上新增 Cloud Volumes ONTAP 資料的 Cold 層
+
+BlueXP  現在可讓您選取一個冷層，將非作用中容量層資料儲存在 Azure Blob 儲存設備上。在現有的熱和冷卻層中加入冷層，可為您提供更經濟實惠的儲存選項，並提升成本效率。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html#data-tiering-in-azure["Azure 中的資料分層"^]
+
+
+
+==== 選項可限制 Azure 儲存帳戶的公開存取
+
+您現在可以選擇限制對 Azure 上 Cloud Volumes ONTAP 系統的儲存帳戶進行公開存取。停用存取功能後，即使在同一個 vnet 內也能保護私有 IP 位址不受洩漏，只要您需要遵守組織的安全原則即可。此選項也會停用 Cloud Volumes ONTAP 系統的資料分層功能，並同時適用於單一節點和高可用度配對。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/reference-networking-azure.html#security-group-rules["安全性群組規則"^]。
+
+
+
+==== 部署 Cloud Volumes ONTAP 之後啟用 WORM
+
+之前，您可以在 BlueXP  上建立 Cloud Volumes ONTAP 工作環境時啟用 WORM 儲存。現在， BlueXP  提供您在工作環境中啟用 WORM 的選項，即使在建立時未啟用 WORM 也沒問題。啟用後，您就無法停用 WORM 。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabling-worm-on-a-cloud-volumes-ontap-working-environment["在 Cloud Volumes ONTAP 工作環境中啟用 WORM"^]
+
+
+
 === 2024 年 10 月 25 日
 
 
@@ -491,29 +549,6 @@ NOTE: 在受限模式下使用 BlueXP  時不支援 AWS 本機區域。
 從本版本開始、當您嘗試使用 BlueXP  通知來升級 Cloud Volumes ONTAP 時、將會收到使用預設、最新及相容版本的指引。此外、您現在也可以選取與 Cloud Volumes ONTAP 執行個體相容的最新修補程式或主要版本、或手動輸入要升級的版本。
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html#upgrade-from-bluexp-notifications["升級Cloud Volumes ONTAP 版軟體"]
-
-
-
-=== 2024 年 9 月 9 日
-
-
-
-==== WORM 和 ARP 功能不再收費
-
-WORM （一次寫入多次讀取）和 ARP （自動勒索軟體保護）的內建資料保護與安全功能、將免費提供 Cloud Volumes ONTAP 授權。新的定價模式同時適用於 AWS 、 Azure 和 Google Cloud 的全新和現有 BYOL 和 PAYGO/ 市場訂閱。容量型和節點型授權都包含 ARP 和 WORM 、適用於所有組態、包括單一節點和高可用度（ HA ）配對、不需額外付費。
-
-簡化的定價可為您帶來以下好處：
-
-* 目前包含 WORM 和 ARP 的帳戶將不再需要支付這些功能的費用。接下來、您的帳單將只會收取容量使用費、就像此變更之前一樣。WORM 和 ARP 將不再包含在您未來的帳單中。
-* 如果您目前的帳戶不包含這些功能、您現在可以選擇不需額外成本的 WORM 和 ARP 。
-* 任何新帳戶的所有 Cloud Volumes ONTAP 產品都將排除 WORM 和 ARP 費用。
-
-
-深入瞭解這些功能：
-
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-protecting-ransomware.html["改善防範勒索軟體的能力"]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html["WORM 儲存設備"]
-
 
 
 

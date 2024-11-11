@@ -475,19 +475,10 @@
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">軟體版本支援</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">升級以 7-Mode 模式運作的 Data ONTAP 儲存系統</block>
   <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">由於 7-Mode 系統已達到有限支援的結尾、因此 *7-Mode Upgrade Advisor Plans * 報告將不再提供使用。如需更多資訊、請參閱 <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>。深入瞭解 <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>。</block>
-  <block id="c842acaca9e3ea9ec2dc61f28e69ea15" category="section-title">2024 年 9 月 9 日</block>
   <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">支援 RHEL 9.4</block>
   <block id="4f13d17cc7a60ec8546d7892c87e3acf" category="section-title">掃描 StorageGRID 資料</block>
   <block id="83bceb987dd495cde1a148944580e473" category="paragraph">BlueXP  分類現在可以掃描 StorageGRID 中的資料。</block>
   <block id="60c09f1a3afdb367fc787929a52bce2c" category="paragraph">如需詳細資訊、請 <block ref="01dac562b0502c43b97eebbd4bf4b35d" category="inline-link-macro-rx"></block>參閱。</block>
-  <block id="cdd78645b017b927a25b5449e345f823" category="section-title">WORM 和 ARP 功能不再收費</block>
-  <block id="9dab6b96899670128353b1e92c2b8997" category="paragraph">簡化的定價可為您帶來以下好處：</block>
-  <block id="000f6c26eec43af35931bc5e6fbf9f49" category="list-text">目前包含 WORM 和 ARP 的帳戶將不再需要支付這些功能的費用。接下來、您的帳單將只會收取容量使用費、就像此變更之前一樣。WORM 和 ARP 將不再包含在您未來的帳單中。</block>
-  <block id="3817bf50b7761fc5155c59e4a334d37a" category="list-text">如果您目前的帳戶不包含這些功能、您現在可以選擇不需額外成本的 WORM 和 ARP 。</block>
-  <block id="1974af11cb1ac87d0b58d8696f893e4d" category="list-text">任何新帳戶的所有 Cloud Volumes ONTAP 產品都將排除 WORM 和 ARP 費用。</block>
-  <block id="0e3986fb787ff1e55f1d15206f8b39d9" category="paragraph">深入瞭解這些功能：</block>
-  <block id="0c0c93dcca58dc6ba5a46ef2bf56980b" category="inline-link">改善防範勒索軟體的能力</block>
-  <block id="8aca368ccd90320c96e8a69a43545003" category="inline-link">WORM 儲存設備</block>
   <block id="ec6210d470db7cd7b6f5408f088e1c02" category="paragraph">部分 BlueXP  經濟效益功能已暫時停用：</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">技術更新</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">增加容量</block>
@@ -579,7 +570,6 @@
   <block id="1b658f77da3dfa84be0559359889c6d1" category="section-title">在選擇升級版本時、增強使用者體驗</block>
   <block id="76723ae6fdfacae29242fdb7085394b0" category="paragraph">從本版本開始、當您嘗試使用 BlueXP  通知來升級 Cloud Volumes ONTAP 時、將會收到使用預設、最新及相容版本的指引。此外、您現在也可以選取與 Cloud Volumes ONTAP 執行個體相容的最新修補程式或主要版本、或手動輸入要升級的版本。</block>
   <block id="2182ff9388484137699eb937c0df0141" category="inline-link">升級Cloud Volumes ONTAP 版軟體</block>
-  <block id="c5686848892b4de33534dcc294c33fff" category="paragraph">WORM （一次寫入多次讀取）和 ARP （自動勒索軟體保護）的內建資料保護與安全功能、將免費提供 Cloud Volumes ONTAP 授權。新的定價模式同時適用於 AWS 、 Azure 和 Google Cloud 的全新和現有 BYOL 和 PAYGO/ 市場訂閱。容量型和節點型授權都包含 ARP 和 WORM 、適用於所有組態、包括單一節點和高可用度（ HA ）配對、不需額外付費。</block>
   <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
   <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
@@ -654,8 +644,6 @@
   <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">版本 1.36</block>
   <block id="2808185c0a48de3cd5dcc0d92f453531" category="section-title">版本 1.35</block>
   <block id="448c087351c52cb72f971666e2159491" category="paragraph"><block ref="448c087351c52cb72f971666e2159491" category="inline-link-rx"></block></block>
-  <block id="7a73f560e215c4ff952d3384c5435ae9" category="list-text"><block ref="7a73f560e215c4ff952d3384c5435ae9" category="inline-link-rx"></block></block>
-  <block id="c8eac8ecc3bb9bb52e4fa6b3d34c3c38" category="list-text"><block ref="c8eac8ecc3bb9bb52e4fa6b3d34c3c38" category="inline-link-rx"></block></block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">錯誤修正</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">支援服務</block>
   <block id="38d80ed5e3a33df19ee71c05059b6258" category="paragraph">環境指標可深入瞭解儲存系統的環境健全狀況、現在可根據先進的預測模型、提供更精確的預測用電量、直接碳使用量和熱能排放值。若要深入瞭解、請 <block ref="093aadbd7a28ff730cdbe5efbf5b8c02" category="inline-link-macro-rx"></block>參閱。</block>
@@ -736,4 +724,33 @@
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">您現在可以從使用工作負載工廠<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>。BlueXP  主控台體驗提供與工作負載原廠主控台相同的功能。</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">瞭解如何從 BlueXP  主控台存取工作負載工廠</block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。</block>
+  <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。</block>
+  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="059b6fdd2ea839d9327c322a4c87e168" category="section-title">終止節點型授權的可用度</block>
+  <block id="73dfeef5d38f87e4c1d9e4b6417db109" category="paragraph">NetApp 已規劃終止供應（ EOA ）和終止支援（ EOS ）的 Cloud Volumes ONTAP 節點型授權。自 2024 年 11 月 11 日起，節點型授權的有限可用度已終止。節點型授權支援將於 2024 年 12 月 31 日終止。在節點型授權的 EOA 之後，您應該使用 BlueXP  授權轉換工具，轉換為容量型授權。</block>
+  <block id="412842ace3db013f5cc3f99342aac206" category="paragraph">若為年度或長期承諾， NetApp 建議您在 EOA 日期或授權到期日之前聯絡 NetApp 代表，以確保移轉的先決條件已就緒。如果您沒有 Cloud Volumes ONTAP 節點的長期合約，而且是根據隨選 PAYGO 訂閱來執行系統，請務必在 EOS 日期之前規劃您的轉換。對於長期合約和 PAYGO 訂閱，您可以使用 BlueXP  授權轉換工具進行無縫轉換。</block>
+  <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">終止節點型授權的可用性</block>
+  <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link">將節點型授權轉換為容量型</block>
+  <block id="2293617fe352e42e5a1e5d757463cb39" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block> <block ref="5987d844b1ad687ea551a96a31c7c0df" category="inline-link-rx"></block></block>
+  <block id="a4b4a128b8ea43df8551a18d37b0bfcd" category="section-title">從 BlueXP  移除節點型部署</block>
+  <block id="04b144a0be31129b4ac9a0f2751271d9" category="paragraph">使用節點型授權來部署 Cloud Volumes ONTAP 系統的選項在 BlueXP  上已過時。除了少數特殊情況，您無法為任何雲端供應商使用節點型授權來部署 Cloud Volumes ONTAP 。</block>
+  <block id="11c97a8e296f1428a1d4c9a2253b1bfb" category="paragraph">NetApp 瞭解下列符合合約義務和營運需求的獨特授權要求，並將在這些情況下繼續支援節點型授權：</block>
+  <block id="57389c1aef6c1264d9ad4bbe74640b2e" category="list-text">USPS 客戶</block>
+  <block id="43b1a7bfd4243a44cf321f03e7878ffd" category="list-text">以私有模式部署</block>
+  <block id="bbef1435f544b56bbed0e1c536c2515e" category="list-text">在 AWS 中部署 Cloud Volumes ONTAP 的中國地區</block>
+  <block id="e6eb4bcca3ad358d710ea99dd5c577d1" category="list-text">如果您擁有有效且未過期的個別節點，請自行攜帶授權（ BYOL 授權）</block>
+  <block id="677ce77d69762bd9f63d8a2760e6a0c4" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block></block>
+  <block id="02077474df02850d5f691ab4c25f3b7c" category="section-title">在 Azure Blob 儲存設備上新增 Cloud Volumes ONTAP 資料的 Cold 層</block>
+  <block id="b37931f01938eae6736d1bea8fd72fed" category="paragraph">BlueXP  現在可讓您選取一個冷層，將非作用中容量層資料儲存在 Azure Blob 儲存設備上。在現有的熱和冷卻層中加入冷層，可為您提供更經濟實惠的儲存選項，並提升成本效率。</block>
+  <block id="176cd61977ca55fd13eff7c7ba3659f5" category="inline-link">Azure 中的資料分層</block>
+  <block id="2ede20fe3152113b3c27cd841c879ccf" category="paragraph"><block ref="2ede20fe3152113b3c27cd841c879ccf" category="inline-link-rx"></block></block>
+  <block id="7a315b4592c0ed57964da376a6b04868" category="section-title">選項可限制 Azure 儲存帳戶的公開存取</block>
+  <block id="c11ad5eeb4b3088d2c151593e9c1204e" category="paragraph">您現在可以選擇限制對 Azure 上 Cloud Volumes ONTAP 系統的儲存帳戶進行公開存取。停用存取功能後，即使在同一個 vnet 內也能保護私有 IP 位址不受洩漏，只要您需要遵守組織的安全原則即可。此選項也會停用 Cloud Volumes ONTAP 系統的資料分層功能，並同時適用於單一節點和高可用度配對。</block>
+  <block id="390a3dfacd9551e05363b9eb09a0464c" category="inline-link">安全性群組規則</block>
+  <block id="69e89afe4b2013c34ff51df883ddc022" category="paragraph"><block ref="9064ea2dae3c9dc76b91a834ab88d8bf" category="inline-link-rx"></block>。</block>
+  <block id="f87269f0bcffd4dd379148db58c41b11" category="section-title">部署 Cloud Volumes ONTAP 之後啟用 WORM</block>
+  <block id="8d9d085ab6acd5074907258fafcff341" category="paragraph">之前，您可以在 BlueXP  上建立 Cloud Volumes ONTAP 工作環境時啟用 WORM 儲存。現在， BlueXP  提供您在工作環境中啟用 WORM 的選項，即使在建立時未啟用 WORM 也沒問題。啟用後，您就無法停用 WORM 。</block>
+  <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">在 Cloud Volumes ONTAP 工作環境中啟用 WORM</block>
+  <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
 </blocks>
