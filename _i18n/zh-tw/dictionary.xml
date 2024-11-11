@@ -130,8 +130,6 @@
   <block id="62f5b0396e259b44122ad3fd5f9581e0" category="inline-link-macro">深入瞭解 BlueXP Volume 快取</block>
   <block id="2ffe4affb627afa20f3783de7a26c8af" category="paragraph"><block ref="c926d704a05a7f256c6c14f4d9e77466" category="inline-link-macro-rx"></block>。</block>
   <block id="942e802a236d6542c0c6f797428d8abb" category="section-title">2023 年 7 月 2 日</block>
-  <block id="d41b120a4f792ebe6195de3355c6309a" category="inline-link-macro">新增儲存 VM</block>
-  <block id="ef4fe9904a05c0168f433db5ef979256" category="list-text">您現在可以了 <block ref="73429b7c98363ef2dcc9eca20bd224e7" category="inline-link-macro-rx"></block> 使用 BlueXP 的 Amazon FSX for NetApp ONTAP 檔案系統。</block>
   <block id="c835313828dae8f6f2e19118949a05ce" category="list-text">「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。</block>
   <block id="9f97c3125a701942b4e6e648146819fc" category="inline-link">深入瞭Cloud Volumes ONTAP 解本版的更新功能</block>
   <block id="28acda3f8bdb20220a5658f1cd81f226" category="section-title">2023 年 7 月 4 日</block>
@@ -753,4 +751,5 @@
   <block id="8d9d085ab6acd5074907258fafcff341" category="paragraph">之前，您可以在 BlueXP  上建立 Cloud Volumes ONTAP 工作環境時啟用 WORM 儲存。現在， BlueXP  提供您在工作環境中啟用 WORM 的選項，即使在建立時未啟用 WORM 也沒問題。啟用後，您就無法停用 WORM 。</block>
   <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">在 Cloud Volumes ONTAP 工作環境中啟用 WORM</block>
   <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
+  <block id="2cce67162f5e7dda1e726a6c1514801d" category="paragraph">您現在可以使用 BlueXP  將儲存 VM 新增至 Amazon FSX for NetApp ONTAP 檔案系統。</block>
 </blocks>
