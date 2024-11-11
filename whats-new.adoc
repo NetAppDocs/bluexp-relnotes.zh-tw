@@ -296,32 +296,6 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-=== 2024 年 6 月 11 日
-
-
-
-==== SnapLock Compliance 和 SnapLock Enterprise 保護模式
-
-BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
-
-請參閱中支援磁碟區的完整清單 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["瞭解 BlueXP 備份與還原"]。
-
-
-
-==== 「磁碟區」頁面上的「搜尋與還原程序索引」
-
-在使用搜尋與還原之前、您必須在每個要從中還原Volume資料的來源工作環境上啟用「索引」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：
-
-* 索引：已建立磁碟區索引。
-* 進行中
-* 非索引
-* 索引已暫停
-* 錯誤
-* 未啟用
-
-
-
-
 === 2024 年 9 月 27 日
 
 
@@ -483,7 +457,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#
 
 NetApp 瞭解下列符合合約義務和營運需求的獨特授權要求，並將在這些情況下繼續支援節點型授權：
 
-* USPS 客戶
+* 美國公家機關客戶
 * 以私有模式部署
 * 在 AWS 中部署 Cloud Volumes ONTAP 的中國地區
 * 如果您擁有有效且未過期的個別節點，請自行攜帶授權（ BYOL 授權）
@@ -606,6 +580,16 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 
 
 
+=== 2024 年 27 月 10 日
+
+
+
+==== 錯誤修正
+
+我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.56 。
+
+
+
 === 2024 年 9 月 16 日
 
 
@@ -623,16 +607,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/s
 ==== 錯誤修正
 
 我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.54 。
-
-
-
-=== 2024 年 7 月 14 日
-
-
-
-==== 錯誤修正
-
-我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.53 。
 
 
 
@@ -1024,73 +998,99 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 === 2024 年 11 月 7 日
 
-此 BlueXP  勒索軟體保護版本包含下列更新。
 
-* * 啟用資料分類並掃描個人識別資訊（ PII ） * ：此版本可讓 BlueXP  系列的核心元件 BlueXP  分類功能，掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
-+
+
+==== 啟用資料分類，並掃描個人識別資訊（ PII ）
+
+在此版本中，您可以啟用 BlueXP  分類，這是 BlueXP  系列的核心元件，來掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
+
 部署 BlueX 分類的客戶通常可以掃描 BlueXP  勒索軟體保護中的 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
 
-+
 BlueXP  分類也可部署為 SaaS 模式，作為技術預覽的一部分。若要啟用「預覽」功能，請使用 BlueXP  勒索軟體保護 * 設定 * 選項。如果您啟用「預覽」，「保護」頁面上的 * 隱私權曝光 * 欄旁邊會出現「預覽」標籤，以及其他位置。
 
-+
 請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
 
-+
 若要開始掃描，請在「保護」頁面上，按一下「隱私權曝險」欄位中的 * 識別曝光 * 。
 
-+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用 BlueXP  分類掃描個人識別敏感資料"]。
 
-* * 在即將推出的 Preview 功能發佈之前先試用 * ：您現在可以先試用一些標示為「 Preview 」的功能，再發行這些功能。若要這麼做，請使用 * 設定 * 選項來顯示這些標記有「預覽」標籤的功能。
-+
+
+
+==== 在即將推出的 Preview 功能發佈之前，請先試用這些功能
+
+您現在可以在發行前試用一些標示為「 Preview 」的功能。若要這麼做，請使用 * 設定 * 選項來顯示這些標記有「預覽」標籤的功能。
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
 
-* * SIEM 與 Microsoft Sentinel* 整合：您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ）進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
-+
+
+
+==== SIEM 與 Microsoft Sentinel 整合
+
+您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ），以進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
 
 
 
-* * 免費試用 30 天 * ：此版本推出後， BlueXP  勒索軟體保護的新部署現在可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
-* * 在 Podman* 的檔案層級還原應用程式工作負載：在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
-+
+==== 30 天免費試用
+
+在此版本中， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
+
+
+
+==== 在 Podman 的檔案層級還原應用程式工作負載
+
+在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受到攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復"]。
-
-
 
 
 
 === 2024 年 30 月 9 日
 
-此 BlueXP  勒索軟體保護版本包含下列更新。
 
-* * 自訂檔案共用工作負載群組 * ：使用此版本、您現在可以將檔案共用分組、以便更輕鬆地保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組"]。
 
+==== 自訂檔案共用工作負載群組
+
+有了這個版本，您現在可以將檔案共用分組，讓您更容易保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。
+
+https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組"]。
 
 
 
 === 2024 年 9 月 2 日
 
-此 BlueXP  勒索軟體保護版本包含下列更新。
 
-* * 數位顧問 * 提供的安全風險評估： BlueXP  勒索軟體保護現在可從 NetApp 數位顧問收集與叢集相關的高關鍵安全風險資訊。如果發現任何風險、 BlueXP  勒索軟體保護會在儀表板的 * 建議動作 * 窗格中提供建議：「修正叢集 <name> 上的已知安全性弱點。」在儀表板上的建議中、按一下 * 檢閱與修正 * 、建議檢閱 Digital Advisor 和常見弱點（ CVE ）文章、以解決安全性風險。如果存在多種安全風險、請檢閱 Digital Advisor 中的資訊。
-+
+
+==== Digital Advisor 的安全風險評估
+
+BlueXP  勒索軟體保護現在可從 NetApp 數位顧問收集與叢集相關的高關鍵安全風險資訊。如果發現任何風險、 BlueXP  勒索軟體保護會在儀表板的 * 建議動作 * 窗格中提供建議：「修正叢集 <name> 上的已知安全性弱點。」在儀表板上的建議中、按一下 * 檢閱與修正 * 、建議檢閱 Digital Advisor 和常見弱點（ CVE ）文章、以解決安全性風險。如果存在多種安全風險、請檢閱 Digital Advisor 中的資訊。
+
 請參閱 https://docs.netapp.com/us-en/active-iq/index.html["數位顧問文件"^]。
 
-* * 備份至 Google Cloud Platform * ：使用此版本、您可以將備份目的地設定為 Google Cloud Platform 儲存庫。之前、您只能將備份目的地新增至 NetApp StorageGRID 、 Amazon Web Services 和 Microsoft Azure 。
-+
+
+
+==== 備份至 Google Cloud Platform
+
+透過此版本，您可以將備份目的地設定為 Google Cloud Platform 儲存庫。之前、您只能將備份目的地新增至 NetApp StorageGRID 、 Amazon Web Services 和 Microsoft Azure 。
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
 
-* * 支援 Google Cloud Platform * ：此服務現在支援 Cloud Volumes ONTAP for Google Cloud Platform 以保護儲存。此服務先前僅支援 Amazon Web Services 和 Microsoft Azure 的 Cloud Volumes ONTAP 、以及內部部署的 NAS 。
-+
+
+
+==== 支援 Google Cloud Platform
+
+這項服務現在支援 Cloud Volumes ONTAP for Google Cloud Platform 以保護儲存設備。此服務先前僅支援 Amazon Web Services 和 Microsoft Azure 的 Cloud Volumes ONTAP 、以及內部部署的 NAS 。
+
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP  勒索軟體保護及支援的資料來源、備份目的地及工作環境"]。
 
-* * 角色型存取控制 * ：您現在可以使用角色型存取控制（ RBAC ）來限制特定活動的存取。BlueXP  勒索軟體保護使用兩種 BlueXP  角色： BlueXP  帳戶管理員和非帳戶管理員（檢視器）。
-+
+
+
+==== 角色型存取控制
+
+您現在可以使用角色型存取控制（ RBAC ）來限制特定活動的存取。BlueXP  勒索軟體保護使用兩種 BlueXP  角色： BlueXP  帳戶管理員和非帳戶管理員（檢視器）。
+
 如需每個角色可執行之動作的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["角色型存取控制 Privileges"]。
-
-
 
 
 
