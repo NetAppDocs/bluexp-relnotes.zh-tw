@@ -24,6 +24,26 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2024 年 11 月 11 日
+
+
+
+==== 連接器 3.9.46
+
+此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
+
+目前、 3.9.46 版本適用於標準模式和受限模式。
+
+
+
+==== IAM 專案的 ID
+
+您現在可以從 BlueXP  身分識別與存取管理檢視專案的 ID 。進行 API 呼叫時，您可能需要使用 ID 。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-folders-projects.html#project-id["瞭解如何取得專案的 ID"]。
+
+
+
 === 2024 年 10 月 10 日
 
 
@@ -122,61 +142,6 @@ https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_s
 
 
 
-=== 2024 年 30 月 9 日
-
-
-
-==== 私有模式版本（ 3.9.44 ）
-
-現在可從 NetApp 支援網站 下載新的私有模式版本。
-
-此版本包含下列支援私有模式的 BlueXP  元件和服務版本。
-
-[cols="2*"]
-|===
-| 服務 | 隨附版本 
-
-
-| 連接器 | 3.9.44 
-
-
-| 備份與還原 | 2024 年 9 月 27 日 
-
-
-| 分類 | 2024 年 5 月 15 日（版本 1.31 ） 
-
-
-| Cloud Volumes ONTAP 管理 | 2024 年 9 月 9 日 
-
-
-| 數位錢包 | 2023 年 7 月 30 日 
-
-
-| 內部部署 ONTAP 叢集管理 | 2024 年 4 月 22 日 
-
-
-| 複寫 | 2022年9月18日 
-|===
-對於 Connector 、 3.9.44 私有模式版本包含 2024 年 8 月和 2024 年 9 月版本中推出的更新。最值得注意的是、支援 Red Hat Enterprise Linux 9.4 。
-
-若要深入瞭解這些 BlueXP  元件和服務版本中包含的內容、請參閱每項 BlueXP  服務的版本資訊：
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#9-september-2024["Connector 2024 年 9 月版本的新功能"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#8-august-2024["Connector 2024 年 8 月版本的新功能"]
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  備份與還原的新功能"^]
-* https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP  分類的新功能"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP  Cloud Volumes ONTAP 管理的新功能"^]
-
-
-如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解私有模式"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["瞭解如何在使用私有模式時升級 Connector"]
-
-
-
-
 == 警示
 
 
@@ -209,6 +174,18 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP 
 
 
 
+=== 2024 年 11 月 11 日
+
+
+
+==== 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合
+
+ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX"^]
+
+
+
 === 2023 年 7 月 30 日
 
 
@@ -234,22 +211,6 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP 
 ==== ** 我的商機 ** 索引標籤現在是 ** 我的資產 **
 
 「我的商機」 ** 標籤現在是「我的資產」 ** 。更新文件以反映新名稱。
-
-
-
-=== 2023 年 6 月 4 日
-
-
-
-==== 維護期間開始時間
-
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-creating-fsx-working-environment.html#create-an-amazon-fsx-for-netapp-ontap-working-environment["創造工作環境"]、您可以指定每週 30 分鐘維護時間的開始時間、以確保維護不會與關鍵業務活動發生衝突。
-
-
-
-==== 使用 FlexGroups 散佈 Volume 資料
-
-何時 link:https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-add-fsx-volumes.html["建立 Volume"]、您可以建立 FlexGroup 來跨磁碟區散佈資料、藉此啟用資料最佳化。
 
 
 
@@ -328,6 +289,32 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 == 備份與還原
+
+
+
+=== 2024 年 6 月 11 日
+
+
+
+==== SnapLock Compliance 和 SnapLock Enterprise 保護模式
+
+BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
+
+請參閱中支援磁碟區的完整清單 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["瞭解 BlueXP 備份與還原"]。
+
+
+
+==== 「磁碟區」頁面上的「搜尋與還原程序索引」
+
+在使用搜尋與還原之前、您必須在每個要從中還原Volume資料的來源工作環境上啟用「索引」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：
+
+* 索引：已建立磁碟區索引。
+* 進行中
+* 非索引
+* 索引已暫停
+* 錯誤
+* 未啟用
+
 
 
 
@@ -1241,3 +1228,19 @@ Volume 快取是 ONTAP 9 軟體的一項功能、是一項遠端快取功能、�
 有了 BlueXP Volume 快取、您就能擁有雲端的快取功能、特別是適用於 NetApp ONTAP 、 Cloud Volumes ONTAP 的 Amazon FSX 、以及內部部署的工作環境。
 
 link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["深入瞭解 BlueXP Volume 快取"]。
+
+
+
+== 工作負載工廠
+
+
+
+=== 2024 年 11 月 11 日
+
+
+
+==== BlueXP  主控台中的工作負載原廠整合
+
+您現在可以從使用工作負載工廠link:https://console.bluexp.netapp.com["BlueXP主控台"^]。BlueXP  主控台體驗提供與工作負載原廠主控台相同的功能。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["瞭解如何從 BlueXP  主控台存取工作負載工廠"]

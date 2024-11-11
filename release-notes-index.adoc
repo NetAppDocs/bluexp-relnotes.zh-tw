@@ -59,4 +59,5 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理
 * https://docs.netapp.com/us-en/bluexp-software-updates/release-notes/whats-new.html["軟體更新"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/whats-new.html["分層"^]
 * https://docs.netapp.com/us-en/bluexp-volume-caching/release-notes/cache-whats-new.html["Volume 快取"^]
+* https://docs.netapp.com/us-en/workload-relnotes/whats-new.html["工作負載工廠"^]
 
