@@ -385,17 +385,7 @@
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
   <block id="0a9bbb6e81dd21b77886235f2ce33af9" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需完整的發行記錄、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
-  <block id="188fd7f75e50a8a882a75c15dcb630a1" category="section-title">2024 年 5 月 17 日</block>
-  <block id="c817ad6139f116906ee3d7991cfdcba9" category="section-title">在內部部署 Connector 上使用 RHEL 8 和 RHEL 9 時的限制</block>
   <block id="5462103113dfca7582cf43f266db09a2" category="inline-link">主機需求</block>
-  <block id="6aa3862f9073595cb60208eb918da431" category="paragraph">BlueXP Connector 3.9.40 版支援某些版本的 Red Hat Enterprise Linux 第 8 版和第 9 版、可在 RHEL 8 或 9 主機上手動安裝 Connector 軟體、無論中提及的作業系統以外的位置為何<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block>。這些較新的 RHEL 版本需要使用 Podman 引擎、而非 Docker 引擎。目前、 BlueXP 備份與還原在使用 Podman 引擎時有兩項限制。</block>
-  <block id="9e767927964c6ec4f221f081786309ff" category="inline-link">備份與還原限制</block>
-  <block id="a12249435e2897b8262bf872eceb315c" category="paragraph">請參閱<block ref="b39c49af0833241002651f8610590fbf" category="inline-link-rx"></block> 以取得詳細資料。</block>
-  <block id="c6472844da6003c7b7e74ed16527d122" category="paragraph">下列程序包含新的 Podcast 說明：</block>
-  <block id="64d3d37e27efd6f22e6fa648ce465b2e" category="inline-link">重新啟動 BlueXP 備份與還原</block>
-  <block id="92617b18f6079084c5380cf97f72f43a" category="list-text"><block ref="92617b18f6079084c5380cf97f72f43a" category="inline-link-rx"></block></block>
-  <block id="5e8c098d325749413b23d5eba5837aad" category="inline-link">在黑暗的站台中還原 BlueXP 備份與還原資料</block>
-  <block id="b682afa0ff8a1d136b51d3115421ac1b" category="list-text"><block ref="b682afa0ff8a1d136b51d3115421ac1b" category="inline-link-rx"></block></block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">2024 年 5 月 15 日</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務提供版本說明</block>
@@ -501,51 +491,6 @@
   <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">對於任何複寫計畫、目的地 ONTAP Volume 應使用與主控受保護 VM 的來源 ONTAP Volume 相同的傳輸協定。例如、如果來源使用 FC 傳輸協定、則目的地也應該使用 FC 。</block>
   <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024 年 10 月 7 日</block>
-  <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="section-title">BlueXP  身分識別與存取管理</block>
-  <block id="cfb96b15394efa48725d4b6de4d3529b" category="paragraph">BlueXP  身分識別與存取管理（ IAM ）是一種新的資源與存取管理模式、可在標準模式下使用 BlueXP  時、取代並強化 BlueXP  帳戶先前提供的功能。</block>
-  <block id="3a3009b65a0b76e5f313a7be507a533e" category="paragraph">BlueXP  IAM 提供更精細的資源與權限管理：</block>
-  <block id="97bcbb158b23b5f59aa77340528d8c84" category="list-text">頂層組織 _ 可讓您管理各種專案的存取權。</block>
-  <block id="9b574c17fafa6f5e59e653eedc50bdfa" category="list-text">_Folders_ 可讓您將相關專案分組在一起。</block>
-  <block id="0c2ed2a0d470adb6e0ba50cfe426d09a" category="list-text">增強的資源管理功能可讓您將資源與一或多個資料夾或專案建立關聯。</block>
-  <block id="5b61ed8de2f8ed0eccd9e6f8653cc6aa" category="paragraph">例如、您可以將 Cloud Volumes ONTAP 系統與多個專案建立關聯。</block>
-  <block id="8113bddacffcd2a7f7d52f8c0403f7fc" category="list-text">增強的存取管理功能可讓您將角色指派給組織階層不同層級的成員。</block>
-  <block id="a1bd1f0136afa3d8ee4ccdec799667f8" category="paragraph">這些增強功能可更有效地控制使用者可以執行的動作及其可存取的資源。</block>
-  <block id="32fe53941bc1e6c5b14aa6ac28b141f9" category="section-title">BlueXP  IAM 如何影響您現有的帳戶</block>
-  <block id="18b2a40b23f88190866bbbf028cac95c" category="paragraph">登入 BlueXP  時、您會注意到這些變更：</block>
-  <block id="33d31192b5c1247904766afc81b1ef60" category="list-text">您的 _account_ 現在稱為 _ 組織 _</block>
-  <block id="2a235898ea8ace7ac6030edb3a2e88de" category="list-text">您的 _ 工作區 _ 現在稱為 _projects_</block>
-  <block id="ba6e308134546bb71f87228ecaaef82c" category="list-text">使用者角色名稱已變更：</block>
-  <block id="b8c7132579d69d219fb874942670a635" category="list-text">帳戶管理員 _ 現在是 _ 組織管理員 _</block>
-  <block id="27fd174b0e5c48a667a61eb059ff2ad8" category="list-text">_Workspace admin_ 現在是 _ 資料夾或專案管理 _</block>
-  <block id="402601978c4c05e28bf41ea74b2c118a" category="list-text">_ 合規檢視器 _ 現在是 _ 分類檢視器 _</block>
-  <block id="396758cef44fe7d4ebed2010a8ee7761" category="list-text">在「設定」下、您可以存取 BlueXP  身分識別與存取管理、以利用這些增強功能</block>
-  <block id="0909fc2dd5049052e70dfa0e18f7fbcf" category="inline-image-macro">BlueXP  的螢幕擷取畫面、顯示可從介面頂端選取的組織和專案、以及可從「設定」功能表取得的身分識別和存取管理。</block>
-  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
-  <block id="d9c4ef914f4f136c37c3df051aaedb70" category="list-text">您現有的使用者或工作環境沒有任何變更。</block>
-  <block id="31243c2d285073a1e31df388c65d726f" category="list-text">雖然角色名稱已變更、但從權限觀點來看、並無差異。使用者將繼續享有與以往相同的工作環境存取權。</block>
-  <block id="694ce83c478c161c3ac05490450e107e" category="list-text">您登入 BlueXP  的方式沒有變更。BlueXP  IAM 可與 NetApp 雲端登入、 NetApp 支援網站認證和聯盟連線搭配運作、就像 BlueXP  帳戶一樣。</block>
-  <block id="dfc4954338c7ff2d3998dbe991b1e115" category="list-text">如果您有多個 BlueXP  帳戶、現在您有多個 BlueXP  組織。</block>
-  <block id="733cd47965367380792385cdc0bf4492" category="section-title">BlueXP  IAM 的 API</block>
-  <block id="2047b2bd03a68b861064ed837a1828ad" category="inline-link">瞭解 BlueXP  IAM 的 API</block>
-  <block id="ed819704d51143ca1736581a234a1365" category="paragraph">這項變更為 BlueXP  IAM 引進了新的 API 、但與先前的租賃 API 向下相容。<block ref="100827e03f9a10b65527b59fa5323ff6" category="inline-link-rx"></block></block>
-  <block id="8e3876adf8f21b1509ebcb0486d5bc9c" category="section-title">支援的部署模式</block>
-  <block id="a737f6ac26156f3770a49e30a21f7d73" category="paragraph">在標準模式下使用 BlueXP  時、支援 BlueXP  IAM 。如果您是以受限模式或私人模式使用 BlueXP  、則會繼續使用 BlueXP  _account_ 來管理工作區、使用者和資源。</block>
-  <block id="3163b3d4dc92f42d04ad4c79906dcdc3" category="section-title">下一步</block>
-  <block id="a5a81005322e1187e396e2f1252dca71" category="inline-link-macro">瞭解 BlueXP  IAM</block>
-  <block id="c12e8c3134a6d5ff2ec2657f6357e8ec" category="inline-link-macro">BlueXP  IAM 入門</block>
-  <block id="52b3f16d7e534fa9f1eb5be8603ccd2e" category="section-title">連接器 3.9.45</block>
-  <block id="7cecac935b533838cda5bd0fc68012c1" category="paragraph">此版本包含擴充的作業系統支援和錯誤修正。</block>
-  <block id="5a45d9d610a1bb698a260ef7f9494081" category="paragraph">3.9.45 版本適用於標準模式和受限模式。</block>
-  <block id="6c2d90476cc3623edfaa0c9e3a4266e2" category="section-title">支援 Ubuntu 24.04 LTS</block>
-  <block id="1c774c8907085ea9b2475fb3bce13a77" category="paragraph">從 3.9.45 版本開始、 BlueXP  現在支援在標準模式或受限模式下使用 BlueXP  時、在 Ubuntu 24.04 LTS 主機上安裝新的 Connector 。</block>
-  <block id="a7d713b0c0233ee2a3bbb328d82ba606" category="inline-link">View Connector 主機需求</block>
-  <block id="10f6464912ab27695ba4f7df57c14783" category="paragraph"><block ref="19b43e2419dde639b2fba3d57b5bca52" category="inline-link-rx"></block>。</block>
-  <block id="f560a10aaa5bd96f550a8cbc7a892bc0" category="section-title">支援使用 RHEL 主機的 SELinux</block>
-  <block id="7fba1f5b73846f256d223e6eac8ba54d" category="paragraph">BlueXP  現在支援 Connector 搭配 Red Hat Enterprise Linux 主機、這些主機已在強制模式或允許模式下啟用 SELinux 。</block>
-  <block id="dcfe6274f3d2ae157aaa8d48b7f48951" category="paragraph">支援 SELinux 從標準模式和受限模式的 3.9.40 版本開始、以及私有模式的 3.9.42 版本開始。</block>
-  <block id="69613b7c17d10062f3fcc9393553d449" category="paragraph">BlueXP  不支援使用 Ubuntu 主機的 SELinux 。</block>
-  <block id="a86bab47fe0d1d4772388e14bf7532a0" category="inline-link">深入瞭解 SELinux</block>
-  <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
   <block id="67f165f48588df98eb8f59d8a7c512d8" category="section-title">2024 年 9 月 23 日</block>
   <block id="65077e068c20e8afeca74c12711e893e" category="paragraph">NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">支援 ASA R2 系統</block>
@@ -559,9 +504,6 @@
   <block id="1b658f77da3dfa84be0559359889c6d1" category="section-title">在選擇升級版本時、增強使用者體驗</block>
   <block id="76723ae6fdfacae29242fdb7085394b0" category="paragraph">從本版本開始、當您嘗試使用 BlueXP  通知來升級 Cloud Volumes ONTAP 時、將會收到使用預設、最新及相容版本的指引。此外、您現在也可以選取與 Cloud Volumes ONTAP 執行個體相容的最新修補程式或主要版本、或手動輸入要升級的版本。</block>
   <block id="2182ff9388484137699eb937c0df0141" category="inline-link">升級Cloud Volumes ONTAP 版軟體</block>
-  <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
-  <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
   <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>。</block>
   <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>參閱。</block>
   <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">如需詳細資訊、請<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>參閱。</block>
@@ -589,8 +531,6 @@
   <block id="d7a02621d52c29a3c5f7895e817cba5b" category="inline-link">自動化目錄</block>
   <block id="4201d45b889a30d645c44cd087e150b0" category="list-text"><block ref="4201d45b889a30d645c44cd087e150b0" category="inline-link-rx"></block></block>
   <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
-  <block id="f728ea34fcbb13e7fd98fc40d7498dfc" category="paragraph">請注意下列限制：</block>
-  <block id="3ad7f37470dd6a33dee8070e9cccbeb4" category="list-text">在作業系統上啟用 SELinux 的 Connectors 不支援管理 Cloud Volumes ONTAP 系統。</block>
   <block id="479422755a82da93d381b0baab5f8fe7" category="section-title">支援另外三個區域</block>
   <block id="4343b2bdc884cb638429641e12c0514c" category="section-title">新增儲存 VM</block>
   <block id="c63d5220743c53eaddaae4ea5f0511e7" category="section-title">** 我的商機 ** 索引標籤現在是 ** 我的資產 **</block>
@@ -700,7 +640,6 @@
   <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
   <block id="059b6fdd2ea839d9327c322a4c87e168" category="section-title">終止節點型授權的可用度</block>
   <block id="73dfeef5d38f87e4c1d9e4b6417db109" category="paragraph">NetApp 已規劃終止供應（ EOA ）和終止支援（ EOS ）的 Cloud Volumes ONTAP 節點型授權。自 2024 年 11 月 11 日起，節點型授權的有限可用度已終止。節點型授權支援將於 2024 年 12 月 31 日終止。在節點型授權的 EOA 之後，您應該使用 BlueXP  授權轉換工具，轉換為容量型授權。</block>
-  <block id="412842ace3db013f5cc3f99342aac206" category="paragraph">若為年度或長期承諾， NetApp 建議您在 EOA 日期或授權到期日之前聯絡 NetApp 代表，以確保移轉的先決條件已就緒。如果您沒有 Cloud Volumes ONTAP 節點的長期合約，而且是根據隨選 PAYGO 訂閱來執行系統，請務必在 EOS 日期之前規劃您的轉換。對於長期合約和 PAYGO 訂閱，您可以使用 BlueXP  授權轉換工具進行無縫轉換。</block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">終止節點型授權的可用性</block>
   <block id="342dcce6bda294bb4b60fc9333bcafbe" category="inline-link">將節點型授權轉換為容量型</block>
   <block id="2293617fe352e42e5a1e5d757463cb39" category="paragraph"><block ref="677ce77d69762bd9f63d8a2760e6a0c4" category="inline-link-rx"></block> <block ref="5987d844b1ad687ea551a96a31c7c0df" category="inline-link-rx"></block></block>
@@ -720,7 +659,6 @@
   <block id="390a3dfacd9551e05363b9eb09a0464c" category="inline-link">安全性群組規則</block>
   <block id="69e89afe4b2013c34ff51df883ddc022" category="paragraph"><block ref="9064ea2dae3c9dc76b91a834ab88d8bf" category="inline-link-rx"></block>。</block>
   <block id="f87269f0bcffd4dd379148db58c41b11" category="section-title">部署 Cloud Volumes ONTAP 之後啟用 WORM</block>
-  <block id="8d9d085ab6acd5074907258fafcff341" category="paragraph">之前，您可以在 BlueXP  上建立 Cloud Volumes ONTAP 工作環境時啟用 WORM 儲存。現在， BlueXP  提供您在工作環境中啟用 WORM 的選項，即使在建立時未啟用 WORM 也沒問題。啟用後，您就無法停用 WORM 。</block>
   <block id="664bf259381c1fa1513c4c79450fb0f4" category="inline-link">在 Cloud Volumes ONTAP 工作環境中啟用 WORM</block>
   <block id="42009eda159da22132429f44bf400e6c" category="paragraph"><block ref="42009eda159da22132429f44bf400e6c" category="inline-link-rx"></block></block>
   <block id="2cce67162f5e7dda1e726a6c1514801d" category="paragraph">您現在可以使用 BlueXP  將儲存 VM 新增至 Amazon FSX for NetApp ONTAP 檔案系統。</block>
@@ -748,4 +686,52 @@
   <block id="1a5bbf622fa944b888ced1dd36e43b20" category="paragraph">這項服務現在支援 Cloud Volumes ONTAP for Google Cloud Platform 以保護儲存設備。此服務先前僅支援 Amazon Web Services 和 Microsoft Azure 的 Cloud Volumes ONTAP 、以及內部部署的 NAS 。</block>
   <block id="01ab8fe0565c01eb93456b579d969d66" category="section-title">角色型存取控制</block>
   <block id="1431c64521322df79808c76466af3b70" category="paragraph">您現在可以使用角色型存取控制（ RBAC ）來限制特定活動的存取。BlueXP  勒索軟體保護使用兩種 BlueXP  角色： BlueXP  帳戶管理員和非帳戶管理員（檢視器）。</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024 年 26 月 11 日</block>
+  <block id="64a7a8a4f820d38dc5cedd70930717c0" category="section-title">私有模式版本（ 3.9.46 ）</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">現在可從下載新的私有模式版本<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="579c9c5aad40c47e8203472b55439941" category="paragraph">3.9.46 版本包含下列 BlueXP  元件和服務的更新。</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">元件或服務</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">此版本隨附的版本</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">自上一次私有模式版本以來所做的變更</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">連接器</block>
+  <block id="3d93fe525e5005a3aa89376ce36eaf7d" category="cell">3.9.46.</block>
+  <block id="2e6f33758bf126679d5a0225c22673d3" category="cell">輕微的安全性改善和錯誤修正</block>
+  <block id="008c6d012aabba0e44e2b94f8259635c" category="cell">2024 年 22 月 11 日</block>
+  <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP  備份與還原頁面的新功能</block>
+  <block id="cc73bd495467f0768e5ab6fbca8c9fc3" category="cell">前往<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block>並參閱 2024 年 11 月版本中所包含的變更</block>
+  <block id="d9865720c88f775c3c7aa2407f42807e" category="cell">2024 年 11 月 4 日（版本 1.37 ）</block>
+  <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP  分類頁面的新功能</block>
+  <block id="3634786b3e46e41488029a1f5adcfb51" category="cell">請移至，<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block>並參閱 1.32 至 1.37 版本中所包含的變更</block>
+  <block id="20f71c84b5a0e44a35f3a8c4207c85a9" category="cell">Cloud Volumes ONTAP 管理</block>
+  <block id="5cee96e11788b0260fca227a2882f413" category="inline-link">Cloud Volumes ONTAP 管理頁面的新功能</block>
+  <block id="2b06273c345679e8396f450bec75502c" category="cell">前往<block ref="90e3b44730452fe495e75ab6e2b7eb58" category="inline-link-rx"></block>並參閱 2024 年 10 月和 2024 年 11 月版本中所包含的變更</block>
+  <block id="900dd8f50d2294930a102034524e26b7" category="cell">內部部署 ONTAP 叢集管理</block>
+  <block id="4f2f9aa2e4b010fbcd8cded5bf523370" category="inline-link">內部部署 ONTAP 叢集管理頁面的新功能</block>
+  <block id="bad4efa38c7fe2023ac7a25606d5f186" category="cell">前往<block ref="bb047968fd3a98ed3e45ad4e39500b8b" category="inline-link-rx"></block>並參閱 2024 年 11 月版本中所包含的變更</block>
+  <block id="93c9916354f3f5fa45f4019fd081f12a" category="paragraph">雖然 BlueXP  數位錢包和 BlueXP  複寫也包含在私有模式中，但與先前的私有模式版本相比，沒有任何變更。</block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">瞭解私有模式</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">瞭解如何以私有模式開始使用 BlueXP</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">瞭解如何在使用私有模式時升級 Connector</block>
+  <block id="cd33b497651f0d35a9b546fed113bac9" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block>S</block>
+  <block id="3c97d3b45dd14b2958c1e0e304230aa0" category="paragraph">此 BlueXP  備份與還原版本包含下列更新。</block>
+  <block id="517624d736bd2a385ee8cda71584112f" category="section-title">SnapLock Compliance 和 SnapLock Enterprise 保護模式</block>
+  <block id="139da935670a9f985194d3241917c359" category="paragraph">BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。</block>
+  <block id="ba48140a3394818b661e6fd497e203a7" category="inline-link">瞭解 BlueXP 備份與還原</block>
+  <block id="9ddb3e6714694f5c7f619d474fec8169" category="paragraph">請參閱中支援磁碟區的完整清單<block ref="9e68a582cc487ad29425f5a4796c9e45" category="inline-link-rx"></block>。</block>
+  <block id="fec92c3dfb6a0b3db498488c7f4d2f29" category="section-title">「磁碟區」頁面上的「搜尋與還原程序索引」</block>
+  <block id="20d3b0b7cfe7a9f3dcfdb0faa9398efd" category="paragraph">在使用搜尋與還原之前、您必須在每個要從中還原Volume資料的來源工作環境上啟用「索引」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：</block>
+  <block id="cd9b31737e78e0a0a755acc12151f766" category="list-text">索引：已建立磁碟區索引。</block>
+  <block id="02e4eb80c967f3b9add2ba16a690eef2" category="list-text">進行中</block>
+  <block id="838534d879f74e7af515a7de57e72b71" category="list-text">非索引</block>
+  <block id="73d4d0de3c5f56849f3c1a290a6681f2" category="list-text">索引已暫停</block>
+  <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="list-text">錯誤</block>
+  <block id="cb48cbf342305a9ae53e02e21fcb644c" category="list-text">未啟用</block>
+  <block id="ff98fd719f758a17955852024475db39" category="paragraph">若為年度或長期承諾， NetApp 建議您在 EOA 日期或授權到期日之前聯絡 NetApp 代表，以確保移轉的先決條件已就緒。如果您沒有 Cloud Volumes ONTAP 節點的長期合約，而且是根據隨選隨付隨用（ PAYGO ）訂閱來執行系統，請務必在 EOS 日期之前規劃您的轉換。對於長期合約和 PAYGO 訂閱，您可以使用 BlueXP  授權轉換工具進行無縫轉換。</block>
+  <block id="6ecba12db0576e8891316b6674fda716" category="paragraph">您現在可以在現有的 Cloud Volumes ONTAP 系統上使用 BlueXP  啟動一次寫入，讀取多次（ WORM ）儲存設備。此功能可讓您靈活地在工作環境中啟用 WORM ，即使在其建立期間未啟用 WORM 。一旦啟用，您就無法停用 WORM 。</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="section-title">支援採用私有模式的 ASA R2 系統</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。</block>
 </blocks>
