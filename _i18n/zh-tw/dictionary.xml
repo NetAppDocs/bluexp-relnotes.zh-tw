@@ -787,4 +787,33 @@
   <block id="bbc4e3ff648912e4a892f88fcb03c65b" category="list-text">備份（一致性群組）作業，包括 SnapMirror 自動化</block>
   <block id="7e13cc5491f076161e0aefc0728bf351" category="paragraph">BlueXP  災難恢復中對 ASA R2 的支援使用 ONTAP 9.16.1 。</block>
   <block id="60a0836359d058db16981cf45c24594f" category="paragraph">雖然資料存放區可以掛載在 ONTAP 磁碟區或 ASA R2 儲存單元上，但 BlueXP  災難恢復中的資源群組不能同時包含來自 ONTAP 的資料存放區和來自 ASA R2 的資料存放區。您可以從 ONTAP 選取資料存放區，或從資源群組中的 ASA R2 選取資料存放區。</block>
+  <block id="09d7c2dac047caa965175fead07159aa" category="section-title">2025 年 21 月 2 日</block>
+  <block id="9126fc20b93ed61d342990460cdaaa43" category="section-title">高效能索引</block>
+  <block id="c31a2ae5c0b165eb1cee78223b508907" category="paragraph">BlueXP  備份與還原引進更新的索引功能，可讓來源工作環境上的資料索引更有效率。新的索引功能包括 UI 更新，還原資料的「搜尋與還原」方法效能提升，全球搜尋功能升級，擴充性更佳。</block>
+  <block id="135dcb5e7fddaabc736ce2d72074e3bf" category="paragraph">以下是改善項目的細目：</block>
+  <block id="2fd910d863c39557d994a40fedd27b38" category="list-text">* 資料夾整合 * ：更新版本會使用包含特定識別碼的名稱將資料夾群組在一起，使索引程序更順暢。</block>
+  <block id="415e39ccfe49c5161a2a27cbc19cbaac" category="list-text">* 硬碟檔案壓縮 * ：更新版本可減少用於建立每個磁碟區索引的檔案數量，簡化程序並免除額外資料庫的需求。</block>
+  <block id="c53ca191fcf89c8c42d05fd203ce3d03" category="list-text">* 以更多工作階段進行橫向擴充 * ：新版本新增更多工作階段來處理索引工作，加速程序。</block>
+  <block id="9ad2108ab54a2f84cdce51c70aedf218" category="list-text">* 支援多個索引容器 * ：新版本使用多個容器來更好地管理及散佈索引工作。</block>
+  <block id="4a3dba07ec28235aef40beaad924f29a" category="list-text">* 分割索引工作流程 * ：新版本將索引程序分為兩個部分，以提升效率。</block>
+  <block id="4524da26c6e536d9203dad25cbe67e46" category="list-text">* 改善的並行處理 * ：新版本可同時刪除或移動目錄，加速索引程序。</block>
+  <block id="4cd005b9bd7832f2f50d7bfa9ef8c5bd" category="paragraph-title">誰能從這項功能中獲益？</block>
+  <block id="c0b0a9d9f7b65ce3e277b13bce1241d3" category="paragraph">所有新客戶都能使用新的索引功能。</block>
+  <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">如何啟用索引？</block>
+  <block id="1928ef25d05266e1052541c930f2737c" category="paragraph">在您使用「搜尋與還原」方法還原資料之前，您必須先在每個準備還原磁碟區或檔案的來源工作環境上啟用「索引」。這可讓「索引型錄」追蹤每個磁碟區和每個備份檔案，讓您的搜尋快速又有效率。</block>
+  <block id="d28994d1a9691ce26fcae71b9a05d1bc" category="paragraph">執行「搜尋與還原」時，選取「啟用索引」選項，即可在來源工作環境上啟用索引。</block>
+  <block id="6b14c6e0d643870ea727335d7739df30" category="inline-link">如何使用搜尋擴大機還原 ONTAP 資料；還原</block>
+  <block id="9031cfd1bcd3de043cd6391f098dc91b" category="paragraph">有關詳細信息，請參閱文檔<block ref="7ae860a58fb7c028461eb3a0f3043711" category="inline-link-rx"></block>。</block>
+  <block id="2d31667baed414ccd330141663dac284" category="paragraph-title">支援的擴充</block>
+  <block id="b2ec30cb49afbacbac6cc89a95133887" category="paragraph">新的索引功能支援下列項目：</block>
+  <block id="3201cddda2c272104ed2ef30674f361a" category="list-text">不到 3 分鐘即可達到全域搜尋效率</block>
+  <block id="5386e74ecf10139fea9af2308674b2f3" category="list-text">多達 50 億個檔案</block>
+  <block id="ed6f4100c4fab2301cff975ad76b4882" category="list-text">每個叢集最多 5000 個磁碟區</block>
+  <block id="1154c1f5439a3f20019e89d49f3ba075" category="list-text">每個磁碟區最多可有 1 ，上限的快照</block>
+  <block id="bca4b5a9086c6c17f64be092486e45ad" category="list-text">基準索引的最長時間少於 7 天。實際時間會因您的環境而異。</block>
+  <block id="783d72b35e6b2ea46fd074f6f0960e45" category="section-title">全球搜尋效能提升</block>
+  <block id="66fba34c17d26bb2c0e9b396915f9a4f" category="paragraph">此版本也包含全球搜尋效能的增強功能。現在您將看到進度指標和更詳細的搜尋結果，包括檔案數和搜尋所需時間。專屬的搜尋和索引容器可確保在五分鐘內完成全域搜尋。</block>
+  <block id="ba7df4741bd77385c236fcf981dd357a" category="paragraph">請注意下列與全域搜尋相關的考量事項：</block>
+  <block id="03602fc4621dad9ee00f9e5d533ff5ea" category="list-text">新索引不會在標示為每小時的快照上執行。</block>
+  <block id="2bacd7c8c96302172c5d0324d784cf03" category="list-text">新的索引功能僅適用於 FlexVols 上的快照，不適用於 FlexGroups 上的快照。</block>
 </blocks>
