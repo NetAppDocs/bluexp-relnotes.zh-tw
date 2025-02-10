@@ -441,9 +441,6 @@
   <block id="a262e6e8b2140ed65b4662f6ea3826e9" category="section-title">ONTAP 更新</block>
   <block id="bfcca17c4ea8c7320a1a54960ce35444" category="paragraph">BlueXP  軟體更新服務可降低風險、確保客戶能充分運用 ONTAP 功能、為使用者提供順暢的更新體驗。</block>
   <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  軟體更新</block>
-  <block id="a5cfb1c769f5b79bb515811f8e2d3256" category="section-title">2024 年 8 月 11 日</block>
-  <block id="91c579c47837abf6f4d04e29b24b1d72" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.54 。</block>
-  <block id="44b53ed30a4c420b95b8adba575b84a6" category="section-title">支援 RHEL 9.4</block>
   <block id="ec6210d470db7cd7b6f5408f088e1c02" category="paragraph">部分 BlueXP  經濟效益功能已暫時停用：</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">技術更新</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">增加容量</block>
@@ -477,14 +474,7 @@
   <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>。</block>
   <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>參閱。</block>
   <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">如需詳細資訊、請<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>參閱。</block>
-  <block id="a1fe52ea216874a5214f41ae7e5bbd63" category="section-title">2024 年 10 月 10 日</block>
   <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">此 BlueXP  分類版本包含下列更新。</block>
-  <block id="409886e91bb1c98ce7537a6ea025aa8e" category="paragraph">除了先前支援的版本之外、此版本還支援 Red Hat Enterprise Linux v9.4 。這適用於任何手動內部部署的 BlueXP  分類安裝、包括暗點部署。</block>
-  <block id="a851e95484895c6e743c9be7755facd2" category="paragraph">下列作業系統需要使用 Podman Container 引擎、而且需要 BlueXP  分類 1.30 版或更新版本： Red Hat Enterprise Linux 8.8 版、 9.0 版、 9.1 版、 9.2 版、 9.3 版和 9.4 版。</block>
-  <block id="fae29fbaffa78fbfd6537b0feec1a925" category="inline-link">BlueXP 分類部署總覽</block>
-  <block id="b7f7cb3b83ae19c923f62035dd4305fd" category="paragraph">深入瞭解<block ref="cea7a7dae9f7d88b97fa434e79201c9b" category="inline-link-rx"></block>。</block>
-  <block id="7062dd46798946172bc9078744756dfc" category="section-title">改善掃描效能</block>
-  <block id="8455b67ff73ad2f75c922d81e0449780" category="paragraph">此版本可改善掃描效能。</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">瞭解 BlueXP 部署模式</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
@@ -499,16 +489,6 @@
   <block id="d7a02621d52c29a3c5f7895e817cba5b" category="inline-link">自動化目錄</block>
   <block id="4201d45b889a30d645c44cd087e150b0" category="list-text"><block ref="4201d45b889a30d645c44cd087e150b0" category="inline-link-rx"></block></block>
   <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
-  <block id="479422755a82da93d381b0baab5f8fe7" category="section-title">支援另外三個區域</block>
-  <block id="2bb8a9ed1433f0f845b92c7da5440dea" category="section-title">2024 年 10 月 25 日</block>
-  <block id="1bb0d11a534c8ee967cd62e4d75e3da3" category="paragraph">在 Google Cloud 中部署新的 Cloud Volumes ONTAP 執行個體時、 BlueXP  不再提供 N1 系列機器供您選擇。N1 系列機器將僅保留在舊版現有系統中、並受到支援。Cloud Volumes ONTAP 的新部署僅從 9.8 版開始支援 Google Cloud 。建議您切換至與 Cloud Volumes ONTAP 9.8 及更新版本相容的 n2 系列機器類型。不過、 N1 系列機器將可用於透過 API 執行的新部署。</block>
-  <block id="9e931b1cee40a7346d1f06dd6a75ba8e" category="inline-link">Google Cloud支援的組態</block>
-  <block id="e55067e1e9c0716bdbc0866b4393aa68" category="paragraph"><block ref="55218e2079fe45aad8bd65bcb61a1a9f" category="inline-link-rx"></block>。</block>
-  <block id="e8ae21b110baed89680dca18585c158c" category="section-title">本機區域在私有模式中支援 Amazon Web Services</block>
-  <block id="b32702079d81c2fd1e39448319edfa06" category="paragraph">BlueXP  現在支援 AWS 本機區域、以私有模式進行 Cloud Volumes ONTAP 高可用度（ HA ）部署。先前僅限於標準模式的支援現在已延伸至包含私有模式。</block>
-  <block id="648169096ce56c8569ce36a4abebe9c7" category="admonition">在受限模式下使用 BlueXP  時不支援 AWS 本機區域。</block>
-  <block id="e0b08acf0828bf4594a0b9bd6411df1b" category="inline-link-macro">AWS 本機區域</block>
-  <block id="b75accaa363606f733ab4203f45f8193" category="paragraph">如需更多關於 AWS 本機區域與 HA 部署的<block ref="6830ae69d7be576a68a954338edafef9" category="inline-link-macro-rx"></block>資訊、請參閱。</block>
   <block id="1992f2f9fa5c0cbd3b61255b9dd507bd" category="section-title">2024 年 10 月 30 日</block>
   <block id="054b753af44fc4eeee43c9ba6037caaa" category="inline-link">建立災難恢復報告</block>
   <block id="023cf8170104660fc796a64fdad98afa" category="paragraph">請參閱<block ref="cca93cc3cfc082fe882eefc731706487" category="inline-link-rx"></block>。</block>
@@ -535,7 +515,6 @@
   <block id="2b569c1a8e17ba534c2e1f57f9d1bbe9" category="paragraph">深入瞭解<block ref="491ed29a13fdb2b66f8e1bbeefef79a5" category="inline-link-rx"></block>。</block>
   <block id="a7e418c0221e06b9bb3fa8ebc082ece2" category="paragraph-title">支援 NFS v4.1</block>
   <block id="f1a9c2f106d86fe27271e4f8f0c0bd59" category="paragraph">除了先前支援的版本之外、此版本也支援 NFS v4.1 。</block>
-  <block id="5413a43995a4a97a249b7b24fbf3e785" category="section-title">版本 1.36</block>
   <block id="2a81eb3b4a7f22fb1fdb159561b71f3f" category="section-title">錯誤修正</block>
   <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">支援服務</block>
   <block id="c5562ce2e22a86c247849904ecef3dc8" category="section-title">報告</block>
@@ -583,11 +562,6 @@
   <block id="dc13de95ece93019b115a46e9259730f" category="paragraph">ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。</block>
   <block id="67c7aeb67508aad4a1a5b35bdab67864" category="inline-link-macro">瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX</block>
   <block id="9043e597fd1a3537f95cd09a004d83dc" category="paragraph"><block ref="9043e597fd1a3537f95cd09a004d83dc" category="inline-link-macro-rx"></block></block>
-  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="section-title">BlueXP  主控台中的工作負載原廠整合</block>
-  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP主控台</block>
-  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">您現在可以從使用工作負載工廠<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>。BlueXP  主控台體驗提供與工作負載原廠主控台相同的功能。</block>
-  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">瞭解如何從 BlueXP  主控台存取工作負載工廠</block>
-  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。</block>
   <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。</block>
   <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
@@ -647,19 +621,11 @@
   <block id="613fbbb3f2dbf238c8527a537252e8ed" category="section-title">支援採用私有模式的 ASA R2 系統</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。</block>
   <block id="1f86b1e4048d088ce153a6f451fb30d6" category="section-title">2024 年 12 月 9 日</block>
-  <block id="7e0cee63c771cb3be42ccae3ca1f4360" category="section-title">連接器 3.9.47</block>
-  <block id="ea3677612bfa26ac44a6df6f71a061c7" category="paragraph">此版本的 BlueXP  Connector 包含錯誤修正，以及在 Connector 安裝期間所接觸的端點變更。</block>
-  <block id="ab5ae75402aef055e2d366aca1b4d6b9" category="paragraph">目前、 3.9.47 版本適用於標準模式和受限模式。</block>
-  <block id="e075de7d507df6ab190b10bc690c9148" category="paragraph-title">端點，在安裝期間聯絡 NetApp 支援部門</block>
-  <block id="1aba7245086f9fd7cc09aa3efc3bf6c3" category="paragraph">當您手動安裝 Connector 時，安裝程式將不再與 \https://support NetApp .com 聯絡。</block>
-  <block id="2b595e935d43f3d843783e855ec947b7" category="paragraph">安裝程式仍會聯絡 \https://mysupport 。 NetApp .com 。</block>
   <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="section-title">BlueXP  身分識別與存取管理</block>
-  <block id="624278dc2f533755332cf0c1ebe752d5" category="paragraph">「連接器」頁面僅列出目前可用的「連接器」。它不再顯示您已移除的連接器。</block>
   <block id="497e698cad27d6346959de7394ab5df8" category="section-title">更新 Azure 支援虛擬機器的清單，以符合最佳實務做法</block>
   <block id="a295598082ec4c1c06fb5a3e2ad3e1d1" category="paragraph">在 Azure 中部署新的 Cloud Volumes ONTAP 執行個體時， DS_v2 和 ES_v3 機器系列不再適用於 BlueXP  。這些系列將僅保留在舊的現有系統中，並提供支援。Azure 僅支援 9.12.1 版的 Cloud Volumes ONTAP 新部署。建議您切換至 ES_v4 或任何其他與 Cloud Volumes ONTAP 9.12.1 及更新版本相容的系列。不過， DS_v2 和 ES_v3 系列機器將可用於透過 API 進行的新部署。</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Azure支援的組態</block>
   <block id="ef57b1c89cee8819c5de2b079e4b0640" category="paragraph"><block ref="ef57b1c89cee8819c5de2b079e4b0640" category="inline-link-rx"></block></block>
-  <block id="fa055d94084c7095d6c7ec354ec44857" category="section-title">更新 Google Cloud 支援的 VM 清單，以符合最佳實務做法</block>
   <block id="3406306d1e826f71d49547332136491d" category="paragraph">部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024 年 16 月 12 日</block>
   <block id="ab83866f9abfe93d14a14fa21b156b05" category="section-title">新的安全端點，以取得 Connector 映像</block>
@@ -719,9 +685,112 @@
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">探索先前所選工作環境的新建立工作負載。</block>
   <block id="bd03ede87c82adb65c788a5ae08c50b6" category="inline-link">探索工作負載</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">請參閱<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
-  <block id="37b8354fe553b0151888468751ea8eb0" category="section-title">2025 年 1 月 05 日</block>
   <block id="5baf4417d867f07ce7f16e7810f044d7" category="section-title">支援 BlueXP  工作負載工廠的服務帳戶</block>
   <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">BlueXP  工作負載工廠現在支援服務帳戶。您可以建立服務帳戶，做為自動化基礎架構作業的機器使用者。</block>
   <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">建立及管理服務帳戶</block>
   <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
+  <block id="c523b074da0b63e607578686184d5981" category="section-title">2025 年 10 月 2 日</block>
+  <block id="8e64dfb0168516c0e7f7880ae745072a" category="section-title">連接器 3.9.49</block>
+  <block id="f5c64d3f640238b8d1e1ed7062c5561f" category="paragraph">目前、 3.9.49 版本適用於標準模式和受限模式。</block>
+  <block id="99acbaa3cb87e4fe6650072fa6b0a905" category="section-title">BlueXP  身分識別與存取管理（ IAM ）</block>
+  <block id="36cef198e9fac4b4a194f5e01017b8d1" category="list-text">支援指派多個角色給使用者。</block>
+  <block id="6708a31732ccaf29d9ba72b524255e3e" category="list-text">角色現在與以下三種類別之一相關聯：平台，應用程式和資料服務。</block>
+  <block id="035261365b324f2942fd56c2f10f6ed5" category="inline-link">瞭解 IAM 角色</block>
+  <block id="ff73dba782f434133f0fc81382cc8398" category="list-text">兩個新角色與應用程式類別相關聯：儲存檢視器和儲存管理員。<block ref="ac81447e1825c80c6c47ed7167f706b3" category="inline-link-rx"></block></block>
+  <block id="67012c1335c677ff94cd2d777a3c7213" category="list-text">IAM 現已用於 BlueXP  受限模式</block>
+  <block id="2a3e7caa563b2592e27f3890e8d21765" category="section-title">受限模式現在使用 BlueXP  IAM</block>
+  <block id="4fafa85612a8b2fff96d593213d6a0ec" category="paragraph">BlueXP  身分識別與存取管理（ IAM ）現已在限制模式下使用。</block>
+  <block id="2f73a8cbcbf617bd5a78738929bbe5b3" category="paragraph">BlueXP  身分識別與存取管理（ IAM ）是一種資源與存取管理模式，可在標準模式和受限模式下使用 BlueXP  時，取代並強化 BlueXP  帳戶先前提供的功能。</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="list-title">相關資訊</block>
+  <block id="a5a81005322e1187e396e2f1252dca71" category="inline-link">瞭解 BlueXP  IAM</block>
+  <block id="4d3e366c7ef57f5c2037203fa77c103c" category="list-text"><block ref="4d3e366c7ef57f5c2037203fa77c103c" category="inline-link-rx"></block></block>
+  <block id="c12e8c3134a6d5ff2ec2657f6357e8ec" category="inline-link">BlueXP  IAM 入門</block>
+  <block id="6b7b64b4bdd6080baf05e2c37372258a" category="list-text"><block ref="6b7b64b4bdd6080baf05e2c37372258a" category="inline-link-rx"></block></block>
+  <block id="3a3009b65a0b76e5f313a7be507a533e" category="paragraph">BlueXP  IAM 提供更精細的資源與權限管理：</block>
+  <block id="97bcbb158b23b5f59aa77340528d8c84" category="list-text">頂層組織 _ 可讓您管理各種專案的存取權。</block>
+  <block id="9b574c17fafa6f5e59e653eedc50bdfa" category="list-text">_Folders_ 可讓您將相關專案分組在一起。</block>
+  <block id="0c2ed2a0d470adb6e0ba50cfe426d09a" category="list-text">增強的資源管理功能可讓您將資源與一或多個資料夾或專案建立關聯。</block>
+  <block id="5b61ed8de2f8ed0eccd9e6f8653cc6aa" category="paragraph">例如、您可以將 Cloud Volumes ONTAP 系統與多個專案建立關聯。</block>
+  <block id="8113bddacffcd2a7f7d52f8c0403f7fc" category="list-text">增強的存取管理功能可讓您將角色指派給組織階層不同層級的成員。</block>
+  <block id="a1bd1f0136afa3d8ee4ccdec799667f8" category="paragraph">這些增強功能可更有效地控制使用者可以執行的動作及其可存取的資源。</block>
+  <block id="029ade287eade250f2c9612d148e1fad" category="paragraph-title">BlueXP  IAM 如何在受限模式下影響您現有的帳戶</block>
+  <block id="18b2a40b23f88190866bbbf028cac95c" category="paragraph">登入 BlueXP  時、您會注意到這些變更：</block>
+  <block id="33d31192b5c1247904766afc81b1ef60" category="list-text">您的 _account_ 現在稱為 _ 組織 _</block>
+  <block id="2a235898ea8ace7ac6030edb3a2e88de" category="list-text">您的 _ 工作區 _ 現在稱為 _projects_</block>
+  <block id="ba6e308134546bb71f87228ecaaef82c" category="list-text">使用者角色名稱已變更：</block>
+  <block id="b8c7132579d69d219fb874942670a635" category="list-text">帳戶管理員 _ 現在是 _ 組織管理員 _</block>
+  <block id="27fd174b0e5c48a667a61eb059ff2ad8" category="list-text">_Workspace admin_ 現在是 _ 資料夾或專案管理 _</block>
+  <block id="402601978c4c05e28bf41ea74b2c118a" category="list-text">_ 合規檢視器 _ 現在是 _ 分類檢視器 _</block>
+  <block id="396758cef44fe7d4ebed2010a8ee7761" category="list-text">在「設定」下、您可以存取 BlueXP  身分識別與存取管理、以利用這些增強功能</block>
+  <block id="0909fc2dd5049052e70dfa0e18f7fbcf" category="inline-image-macro">BlueXP  的螢幕擷取畫面、顯示可從介面頂端選取的組織和專案、以及可從「設定」功能表取得的身分識別和存取管理。</block>
+  <block id="f08676e8a1e41f582ac0537747703230" category="paragraph"><block ref="f08676e8a1e41f582ac0537747703230" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d9c4ef914f4f136c37c3df051aaedb70" category="list-text">您現有的使用者或工作環境沒有任何變更。</block>
+  <block id="31243c2d285073a1e31df388c65d726f" category="list-text">雖然角色名稱已變更、但從權限觀點來看、並無差異。使用者將繼續享有與以往相同的工作環境存取權。</block>
+  <block id="694ce83c478c161c3ac05490450e107e" category="list-text">您登入 BlueXP  的方式沒有變更。BlueXP  IAM 可與 NetApp 雲端登入、 NetApp 支援網站認證和聯盟連線搭配運作、就像 BlueXP  帳戶一樣。</block>
+  <block id="dfc4954338c7ff2d3998dbe991b1e115" category="list-text">如果您有多個 BlueXP  帳戶、現在您有多個 BlueXP  組織。</block>
+  <block id="733cd47965367380792385cdc0bf4492" category="paragraph-title">BlueXP  IAM 的 API</block>
+  <block id="2047b2bd03a68b861064ed837a1828ad" category="inline-link">瞭解 BlueXP  IAM 的 API</block>
+  <block id="ed819704d51143ca1736581a234a1365" category="paragraph">這項變更為 BlueXP  IAM 引進了新的 API 、但與先前的租賃 API 向下相容。<block ref="100827e03f9a10b65527b59fa5323ff6" category="inline-link-rx"></block></block>
+  <block id="8e3876adf8f21b1509ebcb0486d5bc9c" category="paragraph-title">支援的部署模式</block>
+  <block id="8f2f21c16dc203c77301e868fae6ff8c" category="paragraph">在標準和受限模式下使用 BlueXP  時，支援 BlueXP  IAM 。如果您是以私人模式使用 BlueXP  ，則會繼續使用 BlueXP  _account_ 來管理工作區，使用者和資源。</block>
+  <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025 年 02 月 2 日</block>
+  <block id="8f0b3ce2b96f337852fd1c252724a612" category="section-title">將適用於 ONTAP 檔案系統的 FSX 與 BlueXP  中的工作區建立關聯</block>
+  <block id="da3003c64aba681511ac42ea840639fa" category="paragraph">在 2024 年 11 月 BlueXP  整合之後，新建立的 ONTAP 檔案系統 FSX 並未與 BlueXP  中的一個工作區相關聯。現在當您建立或探索 ONTAP 檔案系統的 FSX 時，這些檔案系統會與 BlueXP  帳戶中的一個工作區相關聯。</block>
+  <block id="4716735cca1c0ec4ab6acb97d14dcaa7" category="inline-link-macro">利用 NetApp 支援建立案例</block>
+  <block id="f0100d47b49cbe11e6a325bdee8db6ff" category="paragraph">如果您現有的適用於 ONTAP 檔案系統的 FSX 未與工作區相關聯，我們將協助您將其與 BlueXP  中的工作區相關聯。您可以<block ref="d0e0ce62131d959daa6f062d97c0d6a8" category="inline-link-macro-rx"></block>在 BlueXP  主控台內進行。選取 * 工作負載 Factory * 作為服務。</block>
+  <block id="ca67d4d470c8d498e9ac0294cf4f7805" category="section-title">從 BlueXP  畫布移除檔案系統</block>
+  <block id="b93cfe5d8c5b8d31c6e277f9086d4e40" category="paragraph">您現在可以從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個 BlueXP  帳戶內的另一個工作區建立關聯。</block>
+  <block id="181840612e9e637bf9dbbc740a738a45" category="inline-link-macro">瞭解如何從 BlueXP  的工作區中移除適用於 ONTAP 檔案系統的 FSX</block>
+  <block id="e3d09410dae9543aebfcc83b7bceebc5" category="paragraph"><block ref="e3d09410dae9543aebfcc83b7bceebc5" category="inline-link-macro-rx"></block></block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">Tracker 可用於監控及追蹤作業</block>
+  <block id="ce9be95deabee3be9356a5b5de8e7b0b" category="paragraph">BlueXP  Amazon FSX for NetApp ONTAP 提供全新的監控功能 Tracker 。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。</block>
+  <block id="0672b60d374d87a810fa73810e4a0a82" category="inline-link-macro">瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX</block>
+  <block id="d3626ed21f71a99d578970f5e4960cdc" category="paragraph"><block ref="d3626ed21f71a99d578970f5e4960cdc" category="inline-link-macro-rx"></block></block>
+  <block id="27a901c04d21dffe48f2fc38150f7c5c" category="section-title">CloudShell 適用於 BlueXP  工作負載</block>
+  <block id="30e5906a069abe8bb88f1aed916b358b" category="paragraph">當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。</block>
+  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">使用 CloudShell</block>
+  <block id="03efd4c623255859d8f24cea1414ca80" category="paragraph"><block ref="03efd4c623255859d8f24cea1414ca80" category="inline-link-macro-rx"></block></block>
+  <block id="009d2060a609114df262eff04e83f241" category="section-title">2025 年 1 月 22 日</block>
+  <block id="0a401367ec8a2cd84bb197e6d12c99af" category="section-title">版本 1.39</block>
+  <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">此 BlueXP  分類版本會更新資料調查報告的匯出程序。此匯出更新可用於對資料執行其他分析，在資料上建立其他視覺效果，或與他人分享資料調查結果。</block>
+  <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">以前，資料調查報告匯出限制為 10 ， 000 列。此版本已移除限制，您可以匯出所有資料。這項變更可讓您從資料調查報告匯出更多資料，讓您在資料分析時更有彈性。</block>
+  <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">您可以選擇工作環境，磁碟區，目的地資料夾，以及 JSON 或 CSV 格式。匯出的檔案名稱包含時間戳記，可協助您識別資料匯出的時間。</block>
+  <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">支援的工作環境包括：</block>
+  <block id="36df1b975561708b246ef1801ea416e5" category="list-text">FSX ONTAP</block>
+  <block id="253b40ae359ba25b56231803430c4873" category="list-text">ONTAP</block>
+  <block id="a512cd9b163bcb1be6bf96aa95fdfe74" category="list-text">共用群組</block>
+  <block id="d3fdc77553ad7d05684cea9b7806dac8" category="paragraph">從「資料調查」報告匯出資料具有下列限制：</block>
+  <block id="d33a90467b78849917ec44b3e694a192" category="list-text">每種類型（檔案，目錄和表格）的最大記錄下載量為 5 億筆。</block>
+  <block id="9720aabb6c8d5eb9cfcffd189ef86ed1" category="list-text">100 萬筆記錄預計需要 35 分鐘才能匯出。</block>
+  <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">調查儲存在組織中的資料</block>
+  <block id="e771ad044e30754f4af0addbc217531d" category="paragraph">如需資料調查與報告的詳細資訊，請參閱<block ref="5490a248bca38f18b55b559976dbad47" category="inline-link-rx"></block>。</block>
+  <block id="f196d25aadb7411a1f827c0ca0317cfb" category="section-title">已啟用使用者驗證，可從 BlueXP  存取系統管理員</block>
+  <block id="7a44ab81762cf5f3e018d99190cfe8ac" category="paragraph">身為 BlueXP  管理員，您現在可以啟動 ONTAP 使用者從 BlueXP  存取 ONTAP 系統管理員的驗證。您可以編輯 BlueXP  Connector 設定來啟用此選項。此選項適用於標準和私有模式。</block>
+  <block id="850fbc77665f926253af01767262460f" category="inline-link-macro">使用系統管理員管理 Cloud Volumes ONTAP</block>
+  <block id="58250d8c5d6f1e1a4d093e353f99e712" category="paragraph"><block ref="e2de8aa0d2ccd88dfc6febee51855766" category="inline-link-macro-rx"></block>。</block>
+  <block id="0f52c9a8aa841036bf7aaae893336a9b" category="section-title">BlueXP  進階檢視已重新命名為系統管理員</block>
+  <block id="d34aa8cf529fee89c49e6c7c38dbf1e7" category="paragraph">透過 ONTAP 系統管理員從 BlueXP  進階管理 Cloud Volumes ONTAP 的選項已從 * 進階檢視 * 重新命名為 * 系統管理員 * 。</block>
+  <block id="75b76b021da36b8e8bf9678596449aa4" category="section-title">介紹更簡單的 BlueXP  數位錢包管理授權的方法</block>
+  <block id="5fbce01b2fa5bcad467f74186949bef5" category="paragraph">現在，您可以在 BlueXP  數位錢包中使用改良的導覽點，體驗 Cloud Volumes ONTAP 授權的簡化管理：</block>
+  <block id="c89199b5a7b291ade2b859c6b2e0e726" category="list-text">您可以透過 *Governance &gt; Digital Pallet &gt; Overview / Data Service licenses * 標籤輕鬆存取 Cloud Volumes ONTAP 授權資訊。</block>
+  <block id="e174e60d72b9816750ae5ea0588ea579" category="list-text">按一下「 * 總覽 * 」標籤中「 Cloud Volume ONTAP 」面板上的 * 檢視 * ，即可全面瞭解容量型授權。這項進階檢視可提供詳細的授權與訂閱資訊。</block>
+  <block id="210fb26ce941226a0e2a9726db671e8a" category="list-text">如果您偏好先前的介面，可以按一下 * 切換至舊版檢視 * 按鈕，依類型檢視授權詳細資料，並修改授權的收費方法。</block>
+  <block id="56a50532d8da2bebb09d6190c126140c" category="inline-link-macro">管理容量型授權</block>
+  <block id="62c835233e6bcf50084b7f7f3bfe8ee0" category="paragraph"><block ref="5aa81dcb1871cc4d565005ce5abe331d" category="inline-link-macro-rx"></block>。</block>
+  <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025 年 2 月 2 日</block>
+  <block id="83f73c94bb5f748ce272fa98b9d62582" category="section-title">新的作業系統支援資料代理程式</block>
+  <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">現在，執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機支援資料代理程式。</block>
+  <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">檢視 Linux 主機需求</block>
+  <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
+  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="section-title">CloudShell 可在 BlueXP  工作負載原廠主控台取得</block>
+  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell 可從 BlueXP  工作負載原廠主控台的任何位置取得。CloudShell 可讓您使用 BlueXP  帳戶提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。</block>
+  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">資料庫的權限更新</block>
+  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">現在，下列權限可在 _read_ 模式下用於資料庫：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
+  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="ca475a2b63c70fedcf8f6650024d480b" category="section-title">BlueXP  工作負載原廠權限</block>
+  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。</block>
+  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
+  <block id="bd901b05034bb9be1d918012998e8f7b" category="section-title">2025 年 1 月 5 日</block>
 </blocks>
