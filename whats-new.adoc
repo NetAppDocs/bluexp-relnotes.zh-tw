@@ -536,6 +536,9 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 . 若要重試所有失敗的掃描，請選取 * 重試所有掃描 * 。
 
 
+.改善分類模型準確度
+的機器學習模型準確度link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-sensitive-personal-datapredefined-categories["預先定義的類別"]已提升 11% 。
+
 
 
 === 2025 年 1 月 22 日
