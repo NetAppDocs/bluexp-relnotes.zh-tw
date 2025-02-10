@@ -39,14 +39,17 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 ==== BlueXP  身分識別與存取管理（ IAM ）
 
 * 支援指派多個角色給使用者。
+* 角色現在與平台和資料服務這兩個類別之一相關聯。
+
+
+[]
+====
 * 角色現在與以下三種類別之一相關聯：平台，應用程式和資料服務。
 * 兩個新角色與應用程式類別相關聯：儲存檢視器和儲存管理員。 https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["瞭解 IAM 角色"]
 * IAM 現已用於 BlueXP  受限模式
 
 
-
-
-===== 受限模式現在使用 BlueXP  IAM
+=== 受限模式現在使用 BlueXP  IAM
 
 BlueXP  身分識別與存取管理（ IAM ）現已在限制模式下使用。
 
@@ -101,29 +104,21 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 .支援的部署模式
 在標準和受限模式下使用 BlueXP  時，支援 BlueXP  IAM 。如果您是以私人模式使用 BlueXP  ，則會繼續使用 BlueXP  _account_ 來管理工作區，使用者和資源。
 
+= 2025 年 1 月 13 日
 
-
-=== 2025 年 1 月 13 日
-
-
-
-==== 連接器 3.9.48
+=== 連接器 3.9.48
 
 此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
 
 目前、 3.9.48 版本適用於標準模式和受限模式。
 
-
-
-==== BlueXP  身分識別與存取管理
+=== BlueXP  身分識別與存取管理
 
 * 「資源」頁面現在會顯示未探索到的資源。未探索到的資源是 BlueXP  所知的儲存資源，但您尚未為其建立工作環境。例如，在數位顧問中顯示但尚未有工作環境的資源，會在「資源」頁面上顯示為未探索到的資源。
 * Amazon FSX for NetApp ONTAP 資源不會顯示在「 IAM 資源」頁面上，因為您無法將它們與 IAM 角色建立關聯。您可以在各自的畫布或工作負載上檢視這些資源。
 
 
-
-
-==== 為其他 BlueXP  服務建立支援案例
+=== 為其他 BlueXP  服務建立支援案例
 
 註冊 BlueXP  以取得支援後，您可以直接從 BlueXP  網路型主控台建立支援案例。建立案例時，您需要選取問題所關聯的服務。
 
@@ -135,13 +130,9 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media
 
 https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["深入瞭解如何建立支援案例"]。
 
+= 2024 年 12 月 16 日
 
-
-=== 2024 年 16 月 12 日
-
-
-
-==== 新的安全端點，以取得 Connector 映像
+=== 新的安全端點以取得 Connector 映像
 
 當您安裝 Connector 或進行自動升級時， Connector 會聯絡儲存庫，以下載安裝或升級的映像。依預設， Connector 一律會連絡下列端點：
 
@@ -176,95 +167,41 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["深入瞭�
 
 
 
+= 警示
 
+= 2024 年 10 月 7 日 = = BlueXP  警示清單頁面您可以快速識別容量低或效能低的 ONTAP 叢集，評估可用度並識別安全風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。
 
-== 警示
+=== 警示詳細資料您可以深入瞭解警示詳細資料並尋找建議。
 
-
-
-=== 2024 年 10 月 7 日
-
-
-
-==== BlueXP  警示清單頁面
-
-您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度並識別安全風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。
-
-
-
-==== 警示詳細資料
-
-您可以深入瞭解警示詳細資料並尋找建議。
-
-
-
-==== 檢視連結至 System Manager 的叢集詳細資料
-
-透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 ONTAP 系統管理員的詳細資料。
+=== 檢視連結至系統管理員的叢集詳細資料，並使用 BlueXP  警示，您可以檢視與 ONTAP 儲存環境相關的警示，並深入瞭解連結至 ONTAP 系統管理員的詳細資料。
 
 https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP  警示"]。
 
+= Amazon FSX for ONTAP
 
-
-== Amazon FSX for ONTAP Sf
-
-
-
-=== 2025 年 02 月 2 日
-
-
-
-==== 將適用於 ONTAP 檔案系統的 FSX 與 BlueXP  中的工作區建立關聯
-
-在 2024 年 11 月 BlueXP  整合之後，新建立的 ONTAP 檔案系統 FSX 並未與 BlueXP  中的一個工作區相關聯。現在當您建立或探索 ONTAP 檔案系統的 FSX 時，這些檔案系統會與 BlueXP  帳戶中的一個工作區相關聯。
+=== 2025 年 2 月 2 日 === 將 ONTAP 檔案系統的 FSX 與 2024 年 11 月 BlueXP  整合後的 BlueXP  工作區關聯，新建立的 ONTAP 檔案系統的 FSX 並未與 BlueXP  中的一個工作區關聯。現在當您建立或探索 ONTAP 檔案系統的 FSX 時，這些檔案系統會與 BlueXP  帳戶中的一個工作區相關聯。
 
 如果您現有的適用於 ONTAP 檔案系統的 FSX 未與工作區相關聯，我們將協助您將其與 BlueXP  中的工作區相關聯。您可以link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["利用 NetApp 支援建立案例"^]在 BlueXP  主控台內進行。選取 * 工作負載 Factory * 作為服務。
 
-
-
-==== 從 BlueXP  畫布移除檔案系統
-
-您現在可以從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個 BlueXP  帳戶內的另一個工作區建立關聯。
+=== 從 BlueXP  畫布移除檔案系統您現在可以從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個 BlueXP  帳戶內的另一個工作區建立關聯。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-remove-filesystem.html["瞭解如何從 BlueXP  的工作區中移除適用於 ONTAP 檔案系統的 FSX"^]
 
-
-
-==== Tracker 可用於監控及追蹤作業
-
-BlueXP  Amazon FSX for NetApp ONTAP 提供全新的監控功能 Tracker 。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。
+= 追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤追蹤功能是一項全新的監控功能，可在 BlueXP  Amazon FSX for NetApp ONTAP 中取得。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX"^]
 
-
-
-==== CloudShell 適用於 BlueXP  工作負載
+=== CloudShell 可用於 BlueXP  工作負載
 
 當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"^]
 
-
-
-=== 2025 年 1 月 06 日
-
-
-
-==== NetApp 會釋出其他 CloudForgation 資源
-
-NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。
+=== NetApp 於 2025 年 1 月 6 日發佈額外的 CloudForgation 資源 NetApp 現在提供 CloudForgation 資源，可讓客戶利用 AWS 主控台未公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["使用 CloudForgation 管理適用於 NetApp ONTAP 檔案系統的 Amazon FSX"]
 
-
-
-=== 2024 年 11 月 11 日
-
-
-
-==== 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合
-
-ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。
+= 2024 年 11 月 11 日 = 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合，適用於 ONTAP 檔案系統管理工作，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX"^]
 
@@ -272,55 +209,29 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#featu
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。"]
 
+= Amazon S3 儲存設備
 
+= 2023 年 3 月 5 日
 
-== Amazon S3儲存設備
-
-
-
-=== 2023年3月5日
-
-
-
-==== 能夠從BlueXP新增庫位
+=== 從 BlueXP  新增儲存區的能力
 
 您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["瞭解如何新增Amazon S3儲存庫"]。
 
+= Azure Blob 儲存設備
 
+=2023 年 6 月 5 日：圖示：字型： imagesdir ： ../media/
 
-== Azure Blob 儲存設備
-
-
-
-=== 2023 年 6 月 5 日
-
-
-
-==== 能夠從 BlueXP 新增儲存帳戶
+=== 從 BlueXP  新增儲存帳戶的能力
 
 您已有一段時間可以在 BlueXP Canvas 上檢視 Azure Blob Storage 。現在您可以直接從 BlueXP  新增儲存帳戶、並變更現有儲存帳戶的內容。 https://docs.netapp.com/us-en/bluexp-blob-storage/task-add-blob-storage.html["瞭解如何新增 Azure Blob 儲存帳戶"]。
 
+= Azure NetApp Files
 
+= 2025 年 1 月 13 日
 
-== Azure NetApp Files
+=== BlueXP  目前支援的網路功能從 BlueXP  在 Azure NetApp Files 中設定磁碟區時，您現在可以指定網路功能。這與原生 Azure NetApp Files 中可用的功能一致。
 
-
-
-=== 2025 年 1 月 13 日
-
-
-
-==== BlueXP  目前支援的網路功能
-
-從 BlueXP  在 Azure NetApp Files 中設定 Volume 時，您現在可以指定網路功能。這與原生 Azure NetApp Files 中可用的功能一致。
-
-
-
-=== 2024 年 6 月 12 日
-
-
-
-==== 需要新權限
+= 2024 年 6 月 12 日 = = 需要新權限
 
 現在需要具備下列權限才能從 BlueXP 管理 Azure NetApp Files 磁碟區：
 
@@ -332,39 +243,21 @@ Microsoft.Network/virtualNetworks/subnets/read
 
 https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["瞭解如何設定 Microsoft Entra 應用程式、以及檢視自訂角色權限"]。
 
-
-
-=== 2024 年 4 月 22 日
-
-
-
-==== 不再支援 Volume 範本
+=== 不再支援 Volume 範本 2024 年 4 月 22 日
 
 您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。
 
+= 備份與還原
 
+= 2024 年 11 月 22 日此 BlueXP  備份與還原版本包含下列更新。
 
-== 備份與還原
-
-
-
-=== 2024 年 22 月 11 日
-
-此 BlueXP  備份與還原版本包含下列更新。
-
-
-
-==== SnapLock Compliance 和 SnapLock Enterprise 保護模式
+=== SnapLock Compliance 和 SnapLock Enterprise 保護模式
 
 BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
 
 請參閱中支援磁碟區的完整清單 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["瞭解 BlueXP 備份與還原"]。
 
-
-
-==== 「磁碟區」頁面上的「搜尋與還原程序索引」
-
-在使用搜尋與還原之前、您必須在每個要從中還原Volume資料的來源工作環境上啟用「索引」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：
+=== 「 Volume 」頁面上的「搜尋與還原程序索引」，您必須在每個要還原 Volume 資料的來源工作環境上啟用「索引」，才能使用「搜尋與還原」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：
 
 * 索引：已建立磁碟區索引。
 * 進行中
@@ -374,51 +267,31 @@ BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLoc
 * 未啟用
 
 
+= 2024 年 9 月 27 日此 BlueXP  備份與還原版本包含下列更新。
 
-
-=== 2024 年 9 月 27 日
-
-此 BlueXP  備份與還原版本包含下列更新。
-
-
-
-==== 透過瀏覽與還原、在 RHEL 8 或 9 上支援 Podman
-
-BlueXP  備份與還原現在支援在使用 Podman 引擎的 Red Hat Enterprise Linux （ RHEL ）第 8 版和第 9 版上進行檔案與資料夾還原。這適用於 BlueXP  備份與還原瀏覽與還原方法。
+=== 在 RHEL 8 或 9 上使用瀏覽與還原 BlueXP  備份與還原的 Podman 支援，現在可在使用 Podman 引擎的 Red Hat Enterprise Linux （ RHEL ）第 8 和第 9 版上支援檔案與資料夾還原。這適用於 BlueXP  備份與還原瀏覽與還原方法。
 
 BlueXP  Connector 3.9.40 版支援某些版本的 Red Hat Enterprise Linux 第 8 版和第 9 版、可在 RHEL 8 或 9 主機上手動安裝 Connector 軟體、而不受中所述作業系統以外的位置 https://docs.netapp.com/us-en/bluexp-setup-admin/task-prepare-private-mode.html#step-3-review-host-requirements["主機需求"^]限制。這些較新的 RHEL 版本需要使用 Podman 引擎、而非 Docker 引擎。以前、 BlueXP  備份與還原在使用 Podman 引擎時有兩項限制。這些限制已移除。
 
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解如何從備份檔案還原 ONTAP 資料"]。
 
-
-
-==== 目錄索引速度更快、可改善搜尋與還原
-
-此版本包含改良的目錄索引、可更快完成基準索引。快速索引可讓您更快速地使用「搜尋與還原」功能。
+=== 目錄索引更快速改善搜尋與還原此版本包含改良的目錄索引，可更快完成基準索引。快速索引可讓您更快速地使用「搜尋與還原」功能。
 
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html["深入瞭解如何從備份檔案還原 ONTAP 資料"]。
 
+= 2024 年 22 月 7 日
 
-
-=== 2024 年 7 月 22 日
-
-
-
-==== 還原小於 1 GB 的磁碟區
+=== 還原容量少於 1 GB
 
 使用此版本、您現在可以還原在 ONTAP 中建立的小於 1 GB 的磁碟區。您可以使用 ONTAP 建立的最小磁碟區大小為 20 MB 。
 
-
-
-==== 如何降低 DataLock 成本的秘訣
+=== 如何降低 DataLock 成本的秘訣
 
 DataLock 功能可保護您的備份檔案、避免在指定的時間內遭到修改或刪除。這有助於保護您的檔案免受勒索軟體攻擊。
 
 如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-cloud-backup-policies.html["備份至物件原則設定"]參閱。
 
-
-
-==== AWS IAM 角色隨處整合
+=== AWS IAM 角色隨處整合
 
 Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles Anywhere 服務可讓您為工作負載（ AWS 外部）使用 IAM 角色和短期認證、以安全的方式存取 AWS API 、就像您在工作負載上使用 IAM 角色一樣。當您在任何位置使用 IAM 角色的私密金鑰基礎架構和 AWS Token 時、您不需要長期 AWS 存取金鑰和秘密金鑰。這可讓您更頻繁地輪換認證、進而提升安全性。
 
@@ -426,11 +299,7 @@ Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles
 
 請參閱 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-July-2024-Release/ba-p/453993["BlueXP 備份與還原 2024 年 7 月版本部落格"]。
 
-
-
-==== FlexGroup 資料夾或目錄還原功能現已可供使用
-
-以前、 FlexVol 磁碟區可以還原、但您無法還原 FlexGroup 資料夾或目錄。使用 ONTAP 9.15.1 P2 、您可以使用「瀏覽與還原」選項來還原 FlexGroup 資料夾。
+=== FlexGroup 資料夾或目錄還原功能（先前已提供）， FlexVol 磁碟區可以還原，但您無法還原 FlexGroup 資料夾或目錄。使用 ONTAP 9.15.1 P2 、您可以使用「瀏覽與還原」選項來還原 FlexGroup 資料夾。
 
 在此版本中、支援 FlexGroup 資料夾還原是技術預覽。
 
@@ -438,19 +307,9 @@ Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles
 
 如需手動啟用的詳細資料、請 https://community.netapp.com/t5/Tech-ONTAP-Blogs/BlueXP-Backup-and-Recovery-July-2024-Release/ba-p/453993["BlueXP 備份與還原 2024 年 7 月版本部落格"]參閱。
 
+= 分類
 
-
-== 分類
-
-
-
-=== 2025 年 1 月 22 日
-
-
-
-==== 版本 1.39
-
-此 BlueXP  分類版本會更新資料調查報告的匯出程序。此匯出更新可用於對資料執行其他分析，在資料上建立其他視覺效果，或與他人分享資料調查結果。
+= 2025 年 1 月 22 日 = 版本 1.39 此 BlueXP  分類版本會更新資料調查報告的匯出程序。此匯出更新可用於對資料執行其他分析，在資料上建立其他視覺效果，或與他人分享資料調查結果。
 
 以前，資料調查報告匯出限制為 10 ， 000 列。此版本已移除限制，您可以匯出所有資料。這項變更可讓您從資料調查報告匯出更多資料，讓您在資料分析時更有彈性。
 
@@ -472,25 +331,9 @@ Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles
 
 如需資料調查與報告的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["調查儲存在組織中的資料"]。
 
+=== 2024 年 12 月 16 日 === 版本 1.38 此 BlueXP  分類版本包含一般改良功能與錯誤修正。
 
-
-=== 2024 年 16 月 12 日
-
-
-
-==== 版本 1.38
-
-此 BlueXP  分類版本包含一般改良功能和錯誤修正。
-
-
-
-=== 2024 年 11 月 4 日
-
-
-
-==== 版本 1.37
-
-此 BlueXP  分類版本包含下列更新。
+=== 2024 年 11 月 4 日 === 1.37 版此 BlueXP  分類版本包含下列更新。
 
 .支援 RHEL 8.10
 除了先前支援的版本之外、此版本還支援 Red Hat Enterprise Linux v8.10 。這適用於任何手動內部部署的 BlueXP  分類安裝、包括暗點部署。
@@ -504,35 +347,17 @@ Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles
 
 深入瞭解 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXP 分類"]。
 
+= Cloud Volumes ONTAP
 
-
-== Cloud Volumes ONTAP
-
-
-
-=== 2025 年 10 月 2 日
-
-
-
-==== 已啟用使用者驗證，可從 BlueXP  存取系統管理員
-
-身為 BlueXP  管理員，您現在可以啟動 ONTAP 使用者從 BlueXP  存取 ONTAP 系統管理員的驗證。您可以編輯 BlueXP  Connector 設定來啟用此選項。此選項適用於標準和私有模式。
+== 2025 年 2 月 10 日 === 使用者驗證已啟用，可從 BlueXP  以 BlueXP  管理員身分存取系統管理員，您現在可以啟動 ONTAP 使用者從 BlueXP  存取 ONTAP 系統管理員的驗證。您可以編輯 BlueXP  Connector 設定來啟用此選項。此選項適用於標準和私有模式。
 
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["使用系統管理員管理 Cloud Volumes ONTAP"^]。
 
-
-
-==== BlueXP  進階檢視已重新命名為系統管理員
-
-透過 ONTAP 系統管理員從 BlueXP  進階管理 Cloud Volumes ONTAP 的選項已從 * 進階檢視 * 重新命名為 * 系統管理員 * 。
+=== BlueXP  進階檢視已重新命名為系統管理員透過 ONTAP 系統管理員從 BlueXP  進階管理 Cloud Volumes ONTAP 的選項已從 * 進階檢視 * 重新命名為 * 系統管理員 * 。
 
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-advanced-view.html["使用系統管理員管理 Cloud Volumes ONTAP"^]。
 
-
-
-==== 介紹更簡單的 BlueXP  數位錢包管理授權的方法
-
-現在，您可以在 BlueXP  數位錢包中使用改良的導覽點，體驗 Cloud Volumes ONTAP 授權的簡化管理：
+= = 使用 BlueXP  數位電子錢包來提供更簡單的授權管理方法，現在您可以使用 BlueXP  數位錢包內改良的導覽點，體驗簡化的 Cloud Volumes ONTAP 授權管理：
 
 * 您可以透過 *Governance > Digital Pallet > Overview / Data Service licenses * 標籤輕鬆存取 Cloud Volumes ONTAP 授權資訊。
 * 按一下「 * 總覽 * 」標籤中「 Cloud Volume ONTAP 」面板上的 * 檢視 * ，即可全面瞭解容量型授權。這項進階檢視可提供詳細的授權與訂閱資訊。
@@ -541,25 +366,15 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-ad
 
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["管理容量型授權"^]。
 
+= 2024 年 12 月 9 日
 
-
-=== 2024 年 12 月 9 日
-
-
-
-==== 更新 Azure 支援虛擬機器的清單，以符合最佳實務做法
+=== 更新 Azure 支援虛擬機器清單，以符合最佳實務做法
 
 在 Azure 中部署新的 Cloud Volumes ONTAP 執行個體時， DS_v2 和 ES_v3 機器系列不再適用於 BlueXP  。這些系列將僅保留在舊的現有系統中，並提供支援。Azure 僅支援 9.12.1 版的 Cloud Volumes ONTAP 新部署。建議您切換至 ES_v4 或任何其他與 Cloud Volumes ONTAP 9.12.1 及更新版本相容的系列。不過， DS_v2 和 ES_v3 系列機器將可用於透過 API 進行的新部署。
 
 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
 
-
-
-=== 2024 年 11 月 11 日
-
-
-
-==== 終止節點型授權的可用度
+= 2024 年 11 月 11 日 = 終止節點型授權的可用度
 
 NetApp 已規劃終止供應（ EOA ）和終止支援（ EOS ）的 Cloud Volumes ONTAP 節點型授權。自 2024 年 11 月 11 日起，節點型授權的有限可用度已終止。節點型授權支援將於 2024 年 12 月 31 日終止。在節點型授權的 EOA 之後，您應該使用 BlueXP  授權轉換工具，轉換為容量型授權。
 
@@ -567,11 +382,7 @@ NetApp 已規劃終止供應（ EOA ）和終止支援（ EOS ）的 Cloud Volum
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["終止節點型授權的可用性"^] https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-convert-node-capacity.html["將節點型授權轉換為容量型"^]
 
-
-
-==== 從 BlueXP  移除節點型部署
-
-使用節點型授權來部署 Cloud Volumes ONTAP 系統的選項在 BlueXP  上已過時。除了少數特殊情況，您無法為任何雲端供應商使用節點型授權來部署 Cloud Volumes ONTAP 。
+=== 從 BlueXP  移除節點型部署使用節點型授權來部署 Cloud Volumes ONTAP 系統的選項在 BlueXP  上已過時。除了少數特殊情況，您無法為任何雲端供應商使用節點型授權來部署 Cloud Volumes ONTAP 。
 
 NetApp 瞭解下列符合合約義務和營運需求的獨特授權要求，並將在這些情況下繼續支援節點型授權：
 
@@ -583,41 +394,27 @@ NetApp 瞭解下列符合合約義務和營運需求的獨特授權要求，並�
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["終止節點型授權的可用性"^]
 
-
-
-==== 在 Azure Blob 儲存設備上新增 Cloud Volumes ONTAP 資料的 Cold 層
+=== 在 Azure Blob 儲存設備上新增 Cloud Volumes ONTAP 資料的 Cold 層
 
 BlueXP  現在可讓您選取一個冷層，將非作用中容量層資料儲存在 Azure Blob 儲存設備上。在現有的熱和冷卻層中加入冷層，可為您提供更經濟實惠的儲存選項，並提升成本效率。
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html#data-tiering-in-azure["Azure 中的資料分層"^]
 
-
-
-==== 選項可限制 Azure 儲存帳戶的公開存取
-
-您現在可以選擇限制對 Azure 上 Cloud Volumes ONTAP 系統的儲存帳戶進行公開存取。停用存取功能後，即使在同一個 vnet 內也能保護私有 IP 位址不受洩漏，只要您需要遵守組織的安全原則即可。此選項也會停用 Cloud Volumes ONTAP 系統的資料分層功能，並同時適用於單一節點和高可用度配對。
+=== 選項若要限制對 Azure 儲存帳戶的公開存取，您現在可以選擇限制 Azure 上 Cloud Volumes ONTAP 系統的公開存取您的儲存帳戶。停用存取功能後，即使在同一個 vnet 內也能保護私有 IP 位址不受洩漏，只要您需要遵守組織的安全原則即可。此選項也會停用 Cloud Volumes ONTAP 系統的資料分層功能，並同時適用於單一節點和高可用度配對。
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/reference-networking-azure.html#security-group-rules["安全性群組規則"^]。
 
-
-
-==== 部署 Cloud Volumes ONTAP 之後啟用 WORM
+=== 部署 Cloud Volumes ONTAP 後實現 WORM
 
 您現在可以在現有的 Cloud Volumes ONTAP 系統上使用 BlueXP  啟動一次寫入，讀取多次（ WORM ）儲存設備。此功能可讓您靈活地在工作環境中啟用 WORM ，即使在其建立期間未啟用 WORM 。一旦啟用，您就無法停用 WORM 。
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabling-worm-on-a-cloud-volumes-ontap-working-environment["在 Cloud Volumes ONTAP 工作環境中啟用 WORM"^]
 
+= Cloud Volumes Service for Google Cloud
 
+= 2020 年 9 月 9 日
 
-== 適用於 Google Cloud Cloud Volumes Service
-
-
-
-=== 2020年9月9日
-
-
-
-==== 支援Cloud Volumes Service for Google Cloud
+= 支援 Cloud Volumes Service for Google Cloud
 
 您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：
 
@@ -627,29 +424,15 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-worm.html#enabl
 * 建立、刪除及還原Volume快照
 
 
+= 雲端運算
 
-
-== 雲端作業
-
-
-
-=== 2020年12月7日
-
-
-
-==== 在Cloud Manager和Spot之間進行導覽
+= 2020 年 12 月 7 日 = 雲端管理程式與 Spot 之間的導覽
 
 現在、您可以更輕鬆地在 Cloud Manager 和 Spot 之間進行瀏覽。
 
 全新的「 * 儲存作業 * 」區段可讓您直接導覽至 Cloud Manager 。完成後、您可以從 Cloud Manager 的 * Compute * 索引標籤找到答案。
 
-
-
-=== 2020年10月18日
-
-
-
-==== 運算服務簡介
+= 2020 年 10 月 18 日 = 推出運算服務
 
 善用資源 https://spot.io/products/cloud-analyzer/["Spot Cloud Analyzer 的功能"^]Cloud Manager現在可以針對您的雲端運算支出進行高階成本分析、並找出可能的節約效益。此資訊可從Cloud Manager * Compute *服務取得。
 
@@ -657,129 +440,57 @@ https://docs.netapp.com/us-en/bluexp-cloud-ops/concept-compute.html["深入瞭�
 
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/screenshot_compute_dashboard.gif["在Cloud Manager中顯示「成本分析」頁面的快照"]
 
+= 複製與同步
 
-
-== 複製與同步
-
-
-
-=== 2025 年 2 月 2 日
-
-
-
-==== 新的作業系統支援資料代理程式
-
-現在，執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機支援資料代理程式。
+= 2025 年 2 月 2 日 = 資料代理程式的新作業系統支援：資料代理程式目前支援在執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機上使用。
 
 https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-host-requirements["檢視 Linux 主機需求"]。
 
-
-
-=== 2024 年 27 月 10 日
-
-
-
-==== 錯誤修正
+= 2024 年 10 月 27 日 = 錯誤修正
 
 我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.56 。
 
+= 2024 年 9 月 16 日 = 錯誤修正我們更新了 BlueXP  複本與同步服務，以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。
 
+= 數位顧問
 
-=== 2024 年 9 月 16 日
+= 2024 年 12 月 12 日
 
+=== 升級顧問您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["瞭解如何檢視韌體更新建議"]。
 
+= 2024 年 12 月 04 日
 
-==== 錯誤修正
+=== AutoSupport Widget AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。
 
-我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。
+= 2024 年 9 月 23 日
 
+=== 支援方案 NetApp SupportEdge Basic 服務現在包括 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能，但完整堆疊拓撲（ VMware ）除外，即使已啟用，也無法提供 VMware 完整堆疊監控的可見度。
 
+= 數位錢包
 
-== 數位顧問
-
-
-
-=== 2024 年 12 月 12 日
-
-
-
-==== 升級顧問
-
-您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["瞭解如何檢視韌體更新建議"]。
-
-
-
-=== 2024 年 04 月 12 日
-
-
-
-==== AutoSupport Widget
-
-AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。
-
-
-
-=== 2024 年 9 月 23 日
-
-
-
-==== 支援服務
-
-NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。
-
-
-
-== 數位錢包
-
-
-
-=== 2025 年 10 月 2 日
+= 2025 年 2 月 10 日
 
 BlueXP  數位錢包經過重新設計，易於使用，現在提供額外的訂閱和授權管理功能。
 
+=== 全新概觀儀表板數位電子錢包首頁上有更新的儀表板，內含您的 NetApp 授權與市場訂閱，可深入瞭解特定服務，授權類型及必要行動。
 
+=== 設定認證訂閱 BlueXP  數位電子錢包現在可讓您設定訂閱供應商認證。一般而言，當您第一次訂閱 Marketplace 訂閱或年度合約時，就會這麼做。先前只能在「認證」頁面上變更訂閱的認證。
 
-==== 全新概觀儀表板
+= = 將訂閱與組織建立關聯，您現在可以從數位錢包直接更新訂閱所關聯的組織。
 
-數位電子錢包首頁提供 NetApp 授權與 Marketplace 訂閱的更新儀表板，可深入瞭解特定服務，授權類型及必要行動。
+=== 管理雲端 Volume ONTAP 授權您現在可以透過首頁或 * 資料服務授權 * 索引標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
 
+= 2024 年 3 月 5 日
 
-
-==== 設定認證訂閱
-
-BlueXP  數位電子錢包現在可讓您設定訂閱供應商認證。一般而言，當您第一次訂閱 Marketplace 訂閱或年度合約時，就會這麼做。先前只能在「認證」頁面上變更訂閱的認證。
-
-
-
-==== 將訂閱與組織建立關聯
-
-您現在可以更新訂閱直接從數位錢包關聯的組織。
-
-
-
-==== 管理 Cloud Volume ONTAP 授權
-
-您現在可以透過首頁或 * 資料服務授權 * 標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
-
-
-
-=== 2024 年 3 月 5 日
-
-
-
-==== BlueXP 災難恢復
+=== BlueXP  災難恢復
 
 BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["瞭解如何管理 BlueXP 資料服務的授權"]
 
+= 2023 年 30 月 7 日
 
-
-=== 2023 年 7 月 30 日
-
-
-
-==== 使用報告增強功能
+=== 使用報告增強功能
 
 Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 
@@ -793,35 +504,17 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 
 如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"]。
 
+= 災難恢復
 
-
-== 災難恢復
-
-
-
-=== 2024 年 10 月 30 日
-
-
-
-==== 報告
-
-您現在可以產生及下載報告、以協助您分析環境。預先設計的報告會摘要容錯移轉和容錯移轉、顯示所有站台的複寫詳細資料、以及顯示過去七天的工作詳細資料。
+= 2024 年 10 月 30 日 = 報告現在您可以產生及下載報告，協助您分析您的環境。預先設計的報告會摘要容錯移轉和容錯移轉、顯示所有站台的複寫詳細資料、以及顯示過去七天的工作詳細資料。
 
 請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/reports.html["建立災難恢復報告"]。
 
-
-
-==== 30 天免費試用
-
-您現在可以註冊免費試用 30 天的 BlueXP  災難恢復。以前、免費試用期為 90 天。
+=== 30 天免費試用版您現在可以報名參加 30 天免費試用版 BlueXP  災難恢復。以前、免費試用期為 90 天。
 
 請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["設定授權"]。
 
-
-
-==== 停用及啟用複寫計畫
-
-先前版本包含容錯移轉測試排程結構的更新、這是支援每日和每週排程所需的更新。此更新需要您停用並重新啟用所有現有的複寫計畫、才能使用新的每日和每週容錯移轉測試排程。這是一次性要求。
+=== 停用及啟用複寫計畫先前版本包含容錯移轉測試排程結構的更新，這是支援每日和每週排程所需的更新。此更新需要您停用並重新啟用所有現有的複寫計畫、才能使用新的每日和每週容錯移轉測試排程。這是一次性要求。
 
 方法如下：
 
@@ -831,71 +524,37 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 . 幾分鐘後、選取 * 啟用 * 。
 
 
-
-
-==== 資料夾對應
-
-建立複寫計畫和對應運算資源時、您現在可以對應資料夾、以便將 VM 恢復到您指定的資料夾中、以供資料中心、叢集和主機使用。
+=== 資料夾對應建立複寫計畫及對應運算資源時，您現在可以對應資料夾，以便將 VM 恢復到您指定的資料夾中，以供資料中心，叢集和主機使用。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]參閱。
 
-
-
-==== VM 詳細資料可用於容錯移轉、容錯回復及測試容錯移轉
-
-當發生故障、而您正在啟動容錯移轉、執行容錯回復或測試容錯移轉時、您現在可以查看 VM 的詳細資料、並識別哪些 VM 未重新啟動。
+=== 可用於容錯移轉，容錯回復及測試容錯移轉的 VM 詳細資料當發生故障時，您正在啟動容錯移轉，執行容錯回復或測試容錯移轉，現在您可以查看 VM 的詳細資料，並識別哪些 VM 未重新啟動。
 
 請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["將應用程式容錯移轉至遠端站台"]。
 
-
-
-==== VM 開機延遲、並依序執行開機順序
-
-建立複寫計畫時、您現在可以為計畫中的每個 VM 設定開機延遲。這可讓您設定 VM 開始的順序、以確保在啟動後續優先順序 VM 之前、有一個 VM 正在執行所有優先順序。
+=== 依序開機順序的 VM 開機延遲建立複寫計畫時，您現在可以為計畫中的每個 VM 設定開機延遲。這可讓您設定 VM 開始的順序、以確保在啟動後續優先順序 VM 之前、有一個 VM 正在執行所有優先順序。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]參閱。
 
-
-
-==== VM 作業系統資訊
-
-當您建立複寫計畫時、現在可以在計畫中看到每個 VM 的作業系統。這有助於決定如何將 VM 群組在資源群組中。
+=== 虛擬機器作業系統資訊建立複寫計畫時，您現在可以在計畫中看到每個虛擬機器的作業系統。這有助於決定如何將 VM 群組在資源群組中。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]參閱。
 
-
-
-==== VM 名稱別名
-
-當您建立複寫計畫時、現在可以在災難恢復會議上新增 VM 名稱的前置字元和後置字元。這可讓您在計畫中為 VM 使用更具描述性的名稱。
+=== 虛擬機器名稱別名建立複寫計畫時，您現在可以在災難恢復站點的虛擬機器名稱中新增字首和字尾。這可讓您在計畫中為 VM 使用更具描述性的名稱。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]參閱。
 
-
-
-==== 清理舊的快照
-
-您可以刪除任何超出指定保留數量的不再需要的快照。快照可能會隨著時間而累積、因此您可以減少快照保留數量、然後移除快照以釋出空間。您可以隨時視需要或刪除複寫計畫來執行此作業。
+=== 清理舊的快照您可以刪除超出指定保留數的任何不再需要的快照。快照可能會隨著時間而累積、因此您可以減少快照保留數量、然後移除快照以釋出空間。您可以隨時視需要或刪除複寫計畫來執行此作業。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["管理站台、資源群組、複寫計畫、資料存放區和虛擬機器資訊"]參閱。
 
-
-
-==== 協調快照
-
-您現在可以協調來源和目標之間不同步的快照。如果在 BlueXP  災難恢復之外的目標上刪除快照、可能會發生這種情況。服務會每 24 小時自動刪除來源上的快照。不過、您可以隨需執行此作業。此功能可讓您確保所有站台的快照一致。
+=== 同步快照您現在可以協調來源與目標之間不同步的快照。如果在 BlueXP  災難恢復之外的目標上刪除快照、可能會發生這種情況。服務會每 24 小時自動刪除來源上的快照。不過、您可以隨需執行此作業。此功能可讓您確保所有站台的快照一致。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["管理複寫計畫"]參閱。
 
+= 2024 年 9 月 20 日
 
-
-=== 2024 年 9 月 20 日
-
-
-
-==== 支援內部部署到內部部署的 VMware VMFS 資料存放區
-
-此版本支援安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區上的虛擬機器、以供 iSCSI 和 FC 受內部部署儲存保護。此服務先前提供 _ 技術預覽 _ 、支援 iSCSI 和 FC 的 VMFS 資料存放區。
+= 支援內部部署到內部部署的 VMware VMFS 資料存放區此版本支援安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區上的 VM ，適用於 iSCSI 和 FC ，並可保護到內部部署儲存設備。此服務先前提供 _ 技術預覽 _ 、支援 iSCSI 和 FC 的 VMFS 資料存放區。
 
 以下是 iSCSI 和 FC 通訊協定的其他考量事項：
 
@@ -904,68 +563,36 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 * 對於任何複寫計畫、目的地 ONTAP Volume 應使用與主控受保護 VM 的來源 ONTAP Volume 相同的傳輸協定。例如、如果來源使用 FC 傳輸協定、則目的地也應該使用 FC 。
 
 
+= 2024 年 2 月 8 日
 
-
-=== 2024 年 8 月 2 日
-
-
-
-==== 支援內部部署到內部部署的 VMware VMFS FC 資料存放區
-
-此版本包含 _ 技術預覽 _ 、可支援安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區上的 VM 、以供 FC 保護至內部部署儲存設備。此服務先前提供技術預覽、可支援 iSCSI 的 VMFS 資料存放區。
+= 支援內部部署到內部部署的 FC VMware VMFS 資料存放區此版本包含 _ 技術預覽 _ ，可支援安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區上的虛擬機器，以供 FC 保護到內部部署儲存設備。此服務先前提供技術預覽、可支援 iSCSI 的 VMFS 資料存放區。
 
 
 NOTE: NetApp 不收取任何預覽工作負載容量的費用。
 
-
-
-==== 工作取消
-
-使用此版本、您現在可以在工作監控 UI 中取消工作。
+=== 此版本的工作取消，您現在可以在工作監控 UI 中取消工作。
 
 請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/monitor-jobs.html["監控工作"]。
 
+= E 系列系統
 
+= 2022 年 9 月 18 日
 
-== E系列系統
+= 支援 E 系列，現在您可以直接從 BlueXP  探索 E 系列系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。
 
+= 經濟效益
 
+= 2024 年 15 月 5 日
 
-=== 2022年9月18日
-
-
-
-==== 支援E系列
-
-您現在可以直接從 BlueXP 探索 E 系列系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。
-
-
-
-== 經濟效益
-
-
-
-=== 2024 年 5 月 15 日
-
-
-
-==== 停用的功能
-
-部分 BlueXP  經濟效益功能已暫時停用：
+=== 停用功能部分 BlueXP  經濟效益功能已暫時停用：
 
 * 技術更新
 * 增加容量
 
 
+= 2024 年 3 月 14 日
 
-
-=== 2024 年 3 月 14 日
-
-
-
-==== 技術更新選項
-
-如果您已有現有資產、並想要判斷是否需要更新技術、您可以使用 BlueXP 經濟效率技術更新選項。您可以檢閱目前工作負載的簡短評估並取得建議、或者如果您在過去 90 天內將 AutoSupport 記錄傳送至 NetApp 、該服務現在可以提供工作負載模擬、以瞭解工作負載在新硬體上的表現。
+=== 技術更新選項如果您已有現有資產，且想要判斷是否需要更新技術，您可以使用 BlueXP  經濟效率技術更新選項。您可以檢閱目前工作負載的簡短評估並取得建議、或者如果您在過去 90 天內將 AutoSupport 記錄傳送至 NetApp 、該服務現在可以提供工作負載模擬、以瞭解工作負載在新硬體上的表現。
 
 您也可以新增工作負載、並從模擬中排除現有的工作負載。
 
@@ -975,59 +602,33 @@ NOTE: NetApp 不收取任何預覽工作負載容量的費用。
 
 深入瞭解 https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["評估技術更新"]。
 
+= 2023 年 11 月 08 日
 
+= = 技術更新此 BlueXP  經濟效益版本包含一項新選項，可評估您的資產，並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。
 
-=== 2023 年 11 月 8 日
-
-
-
-==== 技術更新
-
-此版本的 BlueXP 經濟效益包括一個新選項、可評估您的資產、並識別是否建議更新技術。此服務包含左側導覽中的新 Tech Refresh 選項、您可以在其中評估目前工作負載和資產的新頁面、以及提供建議的報告。
-
-
-
-== 邊緣快取
+= Edge 快取
 
 BlueXP  邊緣快取服務已於 2024 年 8 月 7 日移除。
 
+= Google Cloud Storage
 
+= 2023 年 10 月 7 日
 
-== Google Cloud Storage
+= 能夠從 BlueXP  新增新的儲存區和管理現有的儲存區，您已經能夠在 BlueXP  Canvas 上檢視 Google Cloud 儲存區一段時間了。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["瞭解如何新增 Google Cloud Storage 貯體"]。
 
-
-
-=== 2023 年 7 月 10 日
-
-
-
-==== 能夠從 BlueXP 新增庫位並管理現有的庫位
-
-您已有一段時間可以在 BlueXP Canvas 上檢視 Google Cloud Storage 儲存貯體。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。 https://docs.netapp.com/us-en/bluexp-google-cloud-storage/task-add-gcp-bucket.html["瞭解如何新增 Google Cloud Storage 貯體"]。
-
-
-
-== Kubernetes
+= Kubernetes
 
 探索及管理 Kubernetes 叢集的支援已於 2024 年 8 月 7 日移除。
 
-
-
-== 移轉報告
+= 移轉報告
 
 BlueXP  移轉報告服務已於 2024 年 8 月 7 日移除。
 
+= 內部部署 ONTAP 叢集
 
+= 2024 年 11 月 26 日
 
-== 內部 ONTAP 部署的叢集
-
-
-
-=== 2024 年 26 月 11 日
-
-
-
-==== 支援採用私有模式的 ASA R2 系統
+=== 支援採用私有模式的 ASA R2 系統
 
 現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。
 
@@ -1035,13 +636,9 @@ BlueXP  移轉報告服務已於 2024 年 8 月 7 日移除。
 * https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解 BlueXP 部署模式"^]
 
 
+= 2024 年 10 月 7 日
 
-
-=== 2024 年 10 月 7 日
-
-
-
-==== 支援 ASA R2 系統
+= 支援 ASA R2 系統
 
 在標準模式或受限模式下使用 BlueXP  時、您現在可以在 BlueXP  中探索 NetApp ASA R2 系統。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。
 
@@ -1053,45 +650,25 @@ ASA R2 系統沒有其他管理選項可用。您無法使用標準檢視、也�
 * https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解 BlueXP 部署模式"^]
 
 
+= 2024 年 4 月 22 日
 
+=== Volume 範本不再受支援，您無法再從範本建立 Volume 。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。
 
-=== 2024 年 4 月 22 日
+= 營運恢復能力
 
+= 2023 年 4 月 02 日
 
-
-==== 不再支援 Volume 範本
-
-您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。
-
-
-
-== 營運恢復能力
-
-
-
-=== 2023 年 4 月 2 日
-
-
-
-==== BlueXP  營運恢復服務
-
-您可以使用新的 BlueXP 作業恢復服務及其自動化 IT 作業風險補救建議、在發生中斷或故障之前實作建議的修正。
+=== BlueXP  營運恢復服務使用新的 BlueXP  營運恢復服務及其自動化 IT 營運風險補救建議，您可以在發生中斷或故障之前實作建議的修正。
 
 營運恢復能力是一項服務、可協助您分析警示和事件、以維持服務和解決方案的健全狀況、正常運作時間和效能。
 
 link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/intro.html["深入瞭解 BlueXP 作業恢復能力"]。
 
+= 勒索軟體保護
 
+= 2024 年 12 月 16 日
 
-== 勒索軟體保護
-
-
-
-=== 2024 年 16 月 12 日
-
-
-
-==== 使用 Data Infrastructure Insights Storage Workload Security 偵測異常的使用者行為
+=== 使用 Data Infrastructure Insights Storage Workload Security 偵測異常的使用者行為
 
 在此版本中，您可以使用 Data Infrastructure Insights Storage Workload Security 來偵測儲存工作負載中異常的使用者行為。此功能可協助您識別潛在的安全威脅，並封鎖潛在的惡意使用者，以保護您的資料。
 
@@ -1101,9 +678,7 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
 
-
-
-==== 選取要探索及保護的工作負載
+=== 選擇要探索及保護的工作負載
 
 使用此版本，您現在可以執行下列動作：
 
@@ -1114,15 +689,7 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索工作負載"]。
 
-
-
-=== 2024 年 11 月 7 日
-
-
-
-==== 啟用資料分類，並掃描個人識別資訊（ PII ）
-
-在此版本中，您可以啟用 BlueXP  分類，這是 BlueXP  系列的核心元件，來掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
+== 2024 年 11 月 7 日 === 在此版本中啟用資料分類及掃描個人識別資訊（ PII ），您可以啟用 BlueXP  分類（ BlueXP  系列的核心元件），來掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
 
 部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
 
@@ -1132,71 +699,35 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用 BlueXP  分類掃描個人識別敏感資料"]。
 
-
-
-==== SIEM 與 Microsoft Sentinel 整合
-
-您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ），以進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
+=== SIEM 與 Microsoft Sentinel 整合，您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ），以進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
 
+=== 免費試用 30 天，現在推出全新 BlueXP  勒索軟體保護部署，現在可免費試用 30 天。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
 
-
-==== 30 天免費試用
-
-在此版本中， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
-
-
-
-==== 在 Podman 的檔案層級還原應用程式工作負載
-
-在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受到攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
+=== 在您還原檔案層級的應用程式工作負載之前，先在 Podman 的檔案層級還原應用程式工作負載，現在您可以檢視可能受到攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復"]。
 
-
-
-=== 2024 年 30 月 9 日
-
-
-
-==== 自訂檔案共用工作負載群組
-
-有了這個版本，您現在可以將檔案共用分組，讓您更容易保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。
+== 2024 年 9 月 30 日 === 此版本自訂檔案共用工作負載分組，您現在可以將檔案共用分組，以便更輕鬆地保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組"]。
 
-
-
-== 補救
+= 補救
 
 BlueXP 補救服務已於 2024 年 4 月 22 日移除。
 
+= 複寫
 
+= 2022 年 9 月 18 日
 
-== 複寫
-
-
-
-=== 2022年9月18日
-
-
-
-==== FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP
-
-您現在可以將資料從Amazon FSX for ONTAP Sfor Sfor Sfor Sf供 檔案系統複寫至Cloud Volumes ONTAP 支援功能。
+= 適用於 ONTAP 的 FSX 至 Cloud Volumes ONTAP ，您現在可以將資料從適用於 ONTAP 檔案系統的 Amazon FSX 複寫至 Cloud Volumes ONTAP 。
 
 https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
 
+= 2022 年 31 月 7 日
 
-
-=== 2022年7月31日
-
-
-
-==== FSX for ONTAP Sfor Sfor the Data來源
-
-您現在可以將資料從Amazon FSX for ONTAP Sfingfile系統複寫到下列目的地：
+=== ONTAP 的 FSX 作為資料來源，您現在可以將資料從 Amazon FSX for ONTAP 檔案系統複寫到下列目的地：
 
 * Amazon FSX for ONTAP Sf
 * 內部部署 ONTAP 的叢集
@@ -1204,184 +735,90 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭
 
 https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
 
+= 2021 年 9 月 2 日
 
-
-=== 2021年9月2日
-
-
-
-==== 支援Amazon FSX for ONTAP Sfy
-
-您現在可以將資料從Cloud Volumes ONTAP 一套不間斷的系統或內部部署ONTAP 的一套功能的叢集複寫到Amazon FSX for ONTAP 整個檔案系統。
+= 支援 Amazon FSX for ONTAP 您現在可以將資料從 Cloud Volumes ONTAP 系統或內部部署 ONTAP 叢集複寫到 Amazon FSX for ONTAP 檔案系統。
 
 https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭解如何設定資料複寫"]。
 
+= 軟體更新
 
+= 2024 年 07 月 8 日
 
-== 軟體更新
-
-
-
-=== 2024 年 8 月 7 日
-
-
-
-==== ONTAP 更新
-
-BlueXP  軟體更新服務可降低風險、確保客戶能充分運用 ONTAP 功能、為使用者提供順暢的更新體驗。
+=== ONTAP 更新 BlueXP  軟體更新服務可降低風險，確保客戶能充分運用 ONTAP 功能，為使用者提供順暢的更新體驗。
 
 深入瞭解 link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["BlueXP  軟體更新"]。
 
+= StorageGRID
 
+= 2024 年 7 月 8 日
 
-== StorageGRID
-
-
-
-=== 2024 年 8 月 7 日
-
-
-
-==== 全新進階檢視
-
-從 StorageGRID 11.8 開始、您可以使用熟悉的 Grid Manager 介面、從 BlueXP  管理您的 StorageGRID 系統。
+=== 全新進階檢視，從 StorageGRID 11.8 開始，您可以使用熟悉的 Grid Manager 介面，從 BlueXP  管理 StorageGRID 系統。
 
 https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["瞭解如何使用進階檢視來管理 StorageGRID"]。
 
-
-
-==== 能夠檢閱及核准 StorageGRID 管理介面憑證
-
-您現在可以在從 BlueXP  探索 StorageGRID 系統時、檢閱及核准 StorageGRID 管理介面憑證。您也可以在探索到的網格上檢閱及核准最新的 StorageGRID 管理介面憑證。
+=== 能夠檢閱及核准 StorageGRID 管理介面憑證您現在可以在從 BlueXP  探索 StorageGRID 系統時，檢閱及核准 StorageGRID 管理介面憑證。您也可以在探索到的網格上檢閱及核准最新的 StorageGRID 管理介面憑證。
 
 https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["瞭解如何在系統探索期間檢閱及核准伺服器憑證。"]
 
+= 2022 年 9 月 18 日
 
+=== StorageGRID 支援您現在可以直接從 BlueXP  探索 StorageGRID 系統。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。
 
-=== 2022年9月18日
+= 分層
 
+= 2023 年 9 月 8 日
 
+=== 在過去定義貯體名稱時，您需要使用預設的「光纖集區」前置字元，例如 _Fabric Pool Bucket1_ 。現在、您可以在命名貯體時使用自訂首碼。只有在將資料分層至 Amazon S3 時，才能使用此功能。 https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["深入瞭解"]。
 
-==== 支援StorageGRID 功能
+=== 搜尋所有 BlueXP  連接器之間的叢集如果您使用多個連接器來管理環境中的所有儲存系統，則您要實作分層的某些叢集可能位於不同的連接器中。如果您不確定哪個 Connector 正在管理某個叢集，您可以使用 BlueXP  分層功能在所有連接器之間進行搜尋。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["深入瞭解"]。
 
-您現在StorageGRID 可以直接從BlueXP探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。
+= 2023 年 4 月 7 日
 
+=== 調整頻寬以傳輸非使用中資料當您啟動 BlueXP  分層時， ONTAP 可以使用無限量的網路頻寬，將非使用中資料從叢集的磁碟區傳輸至物件儲存區。如果您注意到分層流量會影響一般使用者工作負載，您可以限制傳輸期間可使用的頻寬量。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["深入瞭解"]。
 
-
-== 分層
-
-
-
-=== 2023 年 8 月 9 日
-
-
-
-==== 使用自訂字首作為貯體名稱
-
-在過去、您需要在定義貯體名稱時使用預設的「 Fabric Pool 」前置詞、例如 _Fabric Pool Bucket1_ 。現在、您可以在命名貯體時使用自訂首碼。只有在將資料分層至 Amazon S3 時、才能使用此功能。 https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-aws.html#prepare-your-aws-environment["深入瞭解"]。
-
-
-
-==== 在所有 BlueXP Connector 上搜尋叢集
-
-如果您使用多個 Connectors 來管理環境中的所有儲存系統、則您要實作分層的某些叢集可能位於不同的 Connectors 。如果您不確定哪個 Connector 正在管理特定叢集、您可以使用 BlueXP 分層功能在所有 Connector 之間搜尋。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["深入瞭解"]。
-
-
-
-=== 2023 年 7 月 4 日
-
-
-
-==== 調整頻寬以傳輸非使用中資料
-
-當您啟動 BlueXP 分層時、 ONTAP 可以使用無限量的網路頻寬、將非作用中的資料從叢集中的磁碟區傳輸到物件儲存區。如果您注意到分層流量會影響一般使用者工作負載、您可以限制傳輸期間可使用的頻寬量。 https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["深入瞭解"]。
-
-
-
-==== 通知中心中顯示的分層事件
-
-現在當叢集分層處理少於 20% 的冷資料（包括無資料分層的叢集）時、會出現分層事件「將額外資料從叢集 <name> 分層到物件儲存設備以提高儲存效率」、以作為通知。
+=== 通知中心所顯示的分層事件當叢集分層處理少於 20% 的冷資料（包括不分層處理任何資料的叢集）時，現在會顯示分層事件「將額外資料從叢集 <name> 分層到物件儲存設備，以提高儲存效率」。
 
 此通知是一項「建議」、可協助您提高系統效率、並節省儲存成本。它提供的連結 https://bluexp.netapp.com/cloud-tiering-service-tco["BlueXP 分層總擁有成本和節約計算機"^] 協助您計算成本節約效益。
 
+= 2023 年 4 月 3 日
 
+=== 授權標籤已移除 BlueXP  分層介面中的授權標籤。所有隨用隨付（ PAYGO ）訂閱授權都可立即從 BlueXP 內部部署分層儀表板存取。您也可以從該頁面連結至 BlueXP 數位錢包、以便檢視和管理任何 BlueXP 分層自帶授權（ BYOL ）。
 
-=== 2023年4月3日
+=== 分層索引標籤已重新命名並更新「叢集儀表板」索引標籤已重新命名為「叢集」，「內部部署儀表板概觀」索引標籤已重新命名為「內部部署儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。
 
+= Volume 快取
 
+= 2023 年 6 月 04 日
 
-==== 授權標籤已移除
-
-授權標籤已從 BlueXP 分層介面中移除。所有隨用隨付（ PAYGO ）訂閱授權都可立即從 BlueXP 內部部署分層儀表板存取。您也可以從該頁面連結至 BlueXP 數位錢包、以便檢視和管理任何 BlueXP 分層自帶授權（ BYOL ）。
-
-
-
-==== 分層索引標籤已重新命名及更新
-
-「叢集儀表板」索引標籤已重新命名為「叢集」、「內部部署儀表板」索引標籤已重新命名為「內部部署儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。
-
-
-
-== Volume 快取
-
-
-
-=== 2023 年 6 月 4 日
-
-
-
-==== Volume 快取
-
-Volume 快取是 ONTAP 9 軟體的一項功能、是一項遠端快取功能、可簡化檔案發佈、減少 WAN 延遲、讓資源更接近使用者和運算資源的位置、並降低 WAN 頻寬成本。Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。
+= Volume 快取 Volume 快取是 ONTAP 9 軟體的一項功能，是一項遠端快取功能，可簡化檔案發佈，減少 WAN 延遲，讓資源更接近使用者和運算資源的位置，並降低 WAN 頻寬成本。Volume 快取可在遠端位置提供持續且可寫入的 Volume 。您可以使用 BlueXP 磁碟區快取來加速資料存取、或卸載大量存取磁碟區的流量。快取磁碟區是讀取密集工作負載的理想選擇、尤其是用戶端需要重複存取相同資料的地方。
 
 有了 BlueXP Volume 快取、您就能擁有雲端的快取功能、特別是適用於 NetApp ONTAP 、 Cloud Volumes ONTAP 的 Amazon FSX 、以及內部部署的工作環境。
 
 link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro.html["深入瞭解 BlueXP Volume 快取"]。
 
+= 工作負載工廠
 
+= 2025 年 2 月 02 日
 
-== 工作負載工廠
-
-
-
-=== 2025 年 02 月 2 日
-
-
-
-==== CloudShell 可在 BlueXP  工作負載原廠主控台取得
-
-CloudShell 可從 BlueXP  工作負載原廠主控台的任何位置取得。CloudShell 可讓您使用 BlueXP  帳戶提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
+= 可在 BlueXP  工作負載原廠主控台 CloudShell 中使用 CloudShell ，可從 BlueXP  工作負載原廠主控台的任何位置取得。CloudShell 可讓您使用 BlueXP  帳戶提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
 
-
-
-==== 資料庫的權限更新
-
-現在，下列權限可在 _read_ 模式下用於資料庫： `iam:SimulatePrincipalPolicy`。
+=== 資料庫權限更新資料庫的下列權限現在可在 _read_ 模式中取得 `iam:SimulatePrincipalPolicy`：。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"]
 
+= 2025 年 1 月 22 日
 
-
-=== 2025 年 1 月 22 日
-
-
-
-==== BlueXP  工作負載原廠權限
-
-您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。
+=== BlueXP  工作負載原廠權限您現在可以檢視 BlueXP  工作負載原廠用來執行各種作業的權限，從探索儲存環境到在儲存設備中部署 AWS 資源，或是在 GenAI 工作負載的知識庫中部署 AWS 資源。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  工作負載原廠權限"]
 
+= 2025 年 1 月 5 日
 
-
-=== 2025 年 1 月 5 日
-
-
-
-==== 支援 BlueXP  工作負載工廠的服務帳戶
-
-BlueXP  工作負載工廠現在支援服務帳戶。您可以建立服務帳戶，做為自動化基礎架構作業的機器使用者。
+=== BlueXP  工作負載原廠服務帳戶的服務帳戶支援現在已在 BlueXP  工作負載工廠中受到支援。您可以建立服務帳戶，做為自動化基礎架構作業的機器使用者。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["建立及管理服務帳戶"]
+
+====
