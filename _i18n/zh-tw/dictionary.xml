@@ -422,22 +422,7 @@
   <block id="cb48cbf342305a9ae53e02e21fcb644c" category="list-text">未啟用</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。</block>
   <block id="3406306d1e826f71d49547332136491d" category="paragraph">部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
-  <block id="78efdac7339a3a2a767f54e63e415b79" category="paragraph">當您安裝 Connector 或進行自動升級時， Connector 會聯絡儲存庫，以下載安裝或升級的映像。依預設， Connector 一律會連絡下列端點：</block>
-  <block id="f55e31da35f47937201bdbf54e964315" category="list-text">\https://*.blob.core.windows.net</block>
-  <block id="9dcb0a1d3281e001a6085626a264be49" category="list-text">\https://cloudmanagerinfraprod.azurecr.io</block>
-  <block id="e5eb8016a9764345b2f3dd5672e2f245" category="paragraph">第一個端點包含萬用字元，因為我們無法提供明確的位置。儲存庫的負載平衡是由服務供應商管理，這表示下載可能會從不同的端點進行。</block>
-  <block id="5a04f5940b391aa471ffcf2f682f6390" category="paragraph">為了提高安全性， Connector 現在可以從專用端點下載安裝和升級映像：</block>
-  <block id="534d469c55031860cef85b868a9332d8" category="list-text">\https://bluexpinfraprod.eastus2.data.azurecr.io</block>
-  <block id="a86a33f4f6d9c203eb747987b6d104ca" category="list-text">\https://bluexpinfraprod.azurecr.io</block>
-  <block id="6265c6aedeb8e4c15d99cb681317d569" category="paragraph">我們建議您從防火牆規則中移除現有端點，並允許新端點，以開始使用這些新端點。</block>
-  <block id="0569478319ea7c217c7aeaef42de04a2" category="paragraph">從 3.9.47 版本的 Connector 開始支援這些新端點。與先前版本的 Connector 沒有回溯相容性。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
-  <block id="b7045cdc7261ab3a7b9e78efb0461bfa" category="list-text">仍支援現有的端點。如果您不想使用新的端點，則不需要變更。</block>
-  <block id="4cd508d6b82e76524216714f78d79d2c" category="list-text">Connector 會先聯絡現有的端點。如果無法存取這些端點， Connector 會自動連絡新的端點。</block>
-  <block id="a5f507c0714656865b1f8986b83613de" category="list-text">下列案例不支援新的端點：</block>
-  <block id="6b4d63c99144b38df035c167f8c99b23" category="list-text">如果 Connector 安裝在政府區域。</block>
-  <block id="b90e6d21a82e89d9e93683b887fce78e" category="list-text">如果您使用 Connector 搭配 BlueXP  備份與還原，或 BlueXP  勒索軟體保護。</block>
-  <block id="8ad91183ee4d83d215423d96651219b3" category="paragraph">對於這兩種情況，您可以繼續使用現有的端點。</block>
   <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">瞭解如何檢視韌體更新建議</block>
   <block id="33596391cf2ec8b74b76bf635ea4c6e2" category="paragraph">此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。</block>
   <block id="4d83c70b301d09d322c3d604e361a689" category="paragraph">目前、 3.9.48 版本適用於標準模式和受限模式。</block>
@@ -466,7 +451,6 @@
   <block id="8e64dfb0168516c0e7f7880ae745072a" category="section-title">連接器 3.9.49</block>
   <block id="f5c64d3f640238b8d1e1ed7062c5561f" category="paragraph">目前、 3.9.49 版本適用於標準模式和受限模式。</block>
   <block id="99acbaa3cb87e4fe6650072fa6b0a905" category="section-title">BlueXP  身分識別與存取管理（ IAM ）</block>
-  <block id="36cef198e9fac4b4a194f5e01017b8d1" category="list-text">支援指派多個角色給使用者。</block>
   <block id="4fafa85612a8b2fff96d593213d6a0ec" category="paragraph">BlueXP  身分識別與存取管理（ IAM ）現已在限制模式下使用。</block>
   <block id="2f73a8cbcbf617bd5a78738929bbe5b3" category="paragraph">BlueXP  身分識別與存取管理（ IAM ）是一種資源與存取管理模式，可在標準模式和受限模式下使用 BlueXP  時，取代並強化 BlueXP  帳戶先前提供的功能。</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="list-title">相關資訊</block>
@@ -521,13 +505,6 @@
   <block id="9720aabb6c8d5eb9cfcffd189ef86ed1" category="list-text">100 萬筆記錄預計需要 35 分鐘才能匯出。</block>
   <block id="e7b42111154b9b878df538017c7943a0" category="inline-link">調查儲存在組織中的資料</block>
   <block id="e771ad044e30754f4af0addbc217531d" category="paragraph">如需資料調查與報告的詳細資訊，請參閱<block ref="5490a248bca38f18b55b559976dbad47" category="inline-link-rx"></block>。</block>
-  <block id="850fbc77665f926253af01767262460f" category="inline-link-macro">使用系統管理員管理 Cloud Volumes ONTAP</block>
-  <block id="58250d8c5d6f1e1a4d093e353f99e712" category="paragraph"><block ref="e2de8aa0d2ccd88dfc6febee51855766" category="inline-link-macro-rx"></block>。</block>
-  <block id="c89199b5a7b291ade2b859c6b2e0e726" category="list-text">您可以透過 *Governance &gt; Digital Pallet &gt; Overview / Data Service licenses * 標籤輕鬆存取 Cloud Volumes ONTAP 授權資訊。</block>
-  <block id="e174e60d72b9816750ae5ea0588ea579" category="list-text">按一下「 * 總覽 * 」標籤中「 Cloud Volume ONTAP 」面板上的 * 檢視 * ，即可全面瞭解容量型授權。這項進階檢視可提供詳細的授權與訂閱資訊。</block>
-  <block id="210fb26ce941226a0e2a9726db671e8a" category="list-text">如果您偏好先前的介面，可以按一下 * 切換至舊版檢視 * 按鈕，依類型檢視授權詳細資料，並修改授權的收費方法。</block>
-  <block id="56a50532d8da2bebb09d6190c126140c" category="inline-link-macro">管理容量型授權</block>
-  <block id="62c835233e6bcf50084b7f7f3bfe8ee0" category="paragraph"><block ref="5aa81dcb1871cc4d565005ce5abe331d" category="inline-link-macro-rx"></block>。</block>
   <block id="403a870c3777a3434883cf3338197e1e" category="inline-link">檢視 Linux 主機需求</block>
   <block id="33437394afeba112bc78a89e1164345e" category="paragraph"><block ref="bddca2b75222059ea164cace70f493c0" category="inline-link-rx"></block>。</block>
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
@@ -543,7 +520,6 @@
   <block id="3d725c77d5fb40a1e06f0ec1f3adb6bf" category="section-title">BlueXP  身分識別與存取管理</block>
   <block id="441419ddc3a341f3081b481a3084eef7" category="section-title">為其他 BlueXP  服務建立支援案例</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024 年 12 月 16 日</block>
-  <block id="ab83866f9abfe93d14a14fa21b156b05" category="section-title">新的安全端點，以取得 Connector 映像</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024 年 10 月 7 日</block>
   <block id="f4b2cfc6ddef927318d045f16b38d151" category="section-title">BlueXP  警示清單頁面</block>
   <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度並識別安全風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。</block>
@@ -593,12 +569,6 @@
   <block id="5ae300808387123005a76abbd5a99f46" category="section-title">版本 1.38</block>
   <block id="074f06822cc9864b1be34066c52ec21d" category="paragraph">此 BlueXP  分類版本包含一般改良功能和錯誤修正。</block>
   <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">此 BlueXP  分類版本包含下列更新。</block>
-  <block id="f196d25aadb7411a1f827c0ca0317cfb" category="section-title">已啟用使用者驗證，可從 BlueXP  存取系統管理員</block>
-  <block id="7a44ab81762cf5f3e018d99190cfe8ac" category="paragraph">身為 BlueXP  管理員，您現在可以啟動 ONTAP 使用者從 BlueXP  存取 ONTAP 系統管理員的驗證。您可以編輯 BlueXP  Connector 設定來啟用此選項。此選項適用於標準和私有模式。</block>
-  <block id="0f52c9a8aa841036bf7aaae893336a9b" category="section-title">BlueXP  進階檢視已重新命名為系統管理員</block>
-  <block id="d34aa8cf529fee89c49e6c7c38dbf1e7" category="paragraph">透過 ONTAP 系統管理員從 BlueXP  進階管理 Cloud Volumes ONTAP 的選項已從 * 進階檢視 * 重新命名為 * 系統管理員 * 。</block>
-  <block id="75b76b021da36b8e8bf9678596449aa4" category="section-title">介紹更簡單的 BlueXP  數位錢包管理授權的方法</block>
-  <block id="5fbce01b2fa5bcad467f74186949bef5" category="paragraph">現在，您可以在 BlueXP  數位錢包中使用改良的導覽點，體驗 Cloud Volumes ONTAP 授權的簡化管理：</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020 年 9 月 9 日</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支援Cloud Volumes Service for Google Cloud</block>
   <block id="7ee45649520b61796809750e472a8000" category="section-title">2020 年 12 月 7 日</block>
@@ -805,7 +775,25 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker 中的 CloudShell 事件</block>
   <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。</block>
   <block id="4fbdcdf3c2d8694d5e358b3175b867da" category="section-title">2025 年 3 月 03 日</block>
-  <block id="62c9277e75aee50ddfb792de79bd94d3" category="section-title">Azure 現在支援紐西蘭北部地區</block>
   <block id="81ae8423a213b8c9bbcb79aee6ae0af8" category="paragraph">Azure 現在支援紐西蘭北部地區的單一節點和高可用度（ HA ）組態，適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。請注意，此區域不支援 Lsv3 執行個體類型。</block>
   <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">如需所有支援區域的清單，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="278edfabbac204688aa13f79c6f52497" category="section-title">2025 年 3 月 6 日</block>
+  <block id="66a5f69d070814deb69bf917dd07a6af" category="section-title">Connector 3.9.49 更新</block>
+  <block id="00d64ff7da906ec5530c4e990fb334cb" category="section-title">當 BlueXP  使用連接器時， ONTAP 系統管理員即可存取</block>
+  <block id="b539e86fbaa7eae465366a0142624ec2" category="paragraph">BlueXP  管理員（具有組織管理員角色的使用者）可以設定 BlueXP  ，以提示使用者輸入其 ONTAP 認證，以便存取 ONTAP 系統管理員。啟用此設定時，使用者每次都需要輸入其 ONTAP 認證，因為這些認證並未儲存在 BlueXP  中。</block>
+  <block id="990a2328425e217648ea5dd2ae370ffb" category="inline-link-macro">瞭解如何設定認證設定。</block>
+  <block id="65ac46c0fd2260c1febd841aed98d599" category="paragraph">此功能可在 Connector 3.9.49 版及更高版本中使用。<block ref="3a5e8b35a098e08d607fb27978dec106" category="inline-link-macro-rx"></block>。</block>
+  <block id="a03c6dfbb1d64911f1090d54175ff8d3" category="section-title">Connector 3.9.48 更新</block>
+  <block id="1697b2b05dc5c7ad63e22e713e94ba7c" category="section-title">可停用 Connector 的自動升級設定</block>
+  <block id="91f4c340492e583f80db57f970516c1f" category="paragraph">您可以停用 Connector 的自動升級功能。</block>
+  <block id="459e65cb3fcf9e226149b023791951b2" category="paragraph">當您在標準模式或受限模式下使用 BlueXP  時，只要連接器具有連出網際網路存取權以取得軟體更新， BlueXP  就會自動將您的連接器升級至最新版本。如果您需要在連接器升級時手動管理，現在可以停用標準模式或限制模式的自動升級。</block>
+  <block id="01d6125faf020265bf432216c335698c" category="admonition">此變更不會影響 BlueXP  私有模式，您必須自行升級連接器。</block>
+  <block id="0e9ee8d377b683ca8ac77de05c3539d9" category="paragraph">此功能可在 Connector 3.9.48 版及更高版本中使用。</block>
+  <block id="355c51d49cd780f57fe417fdede5f61c" category="inline-link-macro">瞭解如何停用 Connector 的自動升級。</block>
+  <block id="530a13d3dc2fccc16ebe8e25a47286a1" category="paragraph"><block ref="530a13d3dc2fccc16ebe8e25a47286a1" category="inline-link-macro-rx"></block></block>
+  <block id="4bbf2de0e52eb20a42e04cf23bdb1683" category="list-text">支援指派多個角色給 BlueXP  使用者。</block>
+  <block id="0608305ed5721ad4a69c3643b176e371" category="list-text">支援在 BlueXP  組織的多個資源上指派角色（組織 / 資料夾 / 專案）</block>
+  <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
+  <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">您現在可以使用 BlueXP  在 Azure 和 Google Cloud 中部署及管理 Cloud Volumes ONTAP 9.16.1 一般可用度版本。不過，此版本無法在 AWS 中進行部署和升級。</block>
+  <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">支援 Azure 中的紐西蘭北部地區</block>
 </blocks>
