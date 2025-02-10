@@ -81,15 +81,6 @@
   <block id="0a6c67d82675687d876fd5170168f147" category="paragraph">您可以使用新的 BlueXP 作業恢復服務及其自動化 IT 作業風險補救建議、在發生中斷或故障之前實作建議的修正。</block>
   <block id="070849913b65c4cb130cf632f0ac2008" category="inline-link-macro">深入瞭解 BlueXP 作業恢復能力</block>
   <block id="6bea546ba36c0c8c8bed5d22ed6af63d" category="paragraph"><block ref="d51dda3e944cc19bf96c07e1874304d0" category="inline-link-macro-rx"></block>。</block>
-  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023 年 5 月 7 日</block>
-  <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloud 私有優惠</block>
-  <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。</block>
-  <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">充電使用量明細</block>
-  <block id="d0f5a029263e80e902caf444fa5e9080" category="paragraph">現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。</block>
-  <block id="ed54fb55b53f11e61f612ff99520f4bc" category="list-text">Cloud Volumes ONTAP 套件使用率</block>
-  <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">高階使用率</block>
-  <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">儲存 VM 使用率</block>
-  <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">Volume 使用量</block>
   <block id="6e3d9df489c437a2601f627a5b8935c9" category="paragraph">授權標籤已從 BlueXP 分層介面中移除。所有隨用隨付（ PAYGO ）訂閱授權都可立即從 BlueXP 內部部署分層儀表板存取。您也可以從該頁面連結至 BlueXP 數位錢包、以便檢視和管理任何 BlueXP 分層自帶授權（ BYOL ）。</block>
   <block id="f6e3b39522072e9cb3b0ffb8cecf9b0b" category="paragraph">「叢集儀表板」索引標籤已重新命名為「叢集」、「內部部署儀表板」索引標籤已重新命名為「內部部署儀表板」。這些頁面新增了一些資訊、可協助您評估是否能利用額外的分層組態來最佳化儲存空間。</block>
   <block id="b2bc6f51638406715d089920f0b12029" category="paragraph"><block ref="b2bc6f51638406715d089920f0b12029" category="inline-link-rx"></block></block>
@@ -793,4 +784,13 @@
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="bd901b05034bb9be1d918012998e8f7b" category="section-title">2025 年 1 月 5 日</block>
+  <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP  數位錢包經過重新設計，易於使用，現在提供額外的訂閱和授權管理功能。</block>
+  <block id="abbf3397e656c62394e67cdc1337be3c" category="section-title">全新概觀儀表板</block>
+  <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">數位電子錢包首頁提供 NetApp 授權與 Marketplace 訂閱的更新儀表板，可深入瞭解特定服務，授權類型及必要行動。</block>
+  <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">設定認證訂閱</block>
+  <block id="a2aa4487721a3b63f1893d33bdb67c28" category="paragraph">BlueXP  數位電子錢包現在可讓您設定訂閱供應商認證。一般而言，當您第一次訂閱 Marketplace 訂閱或年度合約時，就會這麼做。先前只能在「認證」頁面上變更訂閱的認證。</block>
+  <block id="175fca0ca5f306258c490378dc2367db" category="section-title">將訂閱與組織建立關聯</block>
+  <block id="a5f7678a307b711643d239d80564147c" category="paragraph">您現在可以更新訂閱直接從數位錢包關聯的組織。</block>
+  <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">管理 Cloud Volume ONTAP 授權</block>
+  <block id="78ab02ef4a4fa36c21e9d7181ab77517" category="paragraph">您現在可以透過首頁或 * 資料服務授權 * 標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。</block>
 </blocks>

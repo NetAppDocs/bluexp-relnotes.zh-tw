@@ -733,6 +733,36 @@ NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 Suppor
 
 
 
+=== 2025 年 10 月 2 日
+
+BlueXP  數位錢包經過重新設計，易於使用，現在提供額外的訂閱和授權管理功能。
+
+
+
+==== 全新概觀儀表板
+
+數位電子錢包首頁提供 NetApp 授權與 Marketplace 訂閱的更新儀表板，可深入瞭解特定服務，授權類型及必要行動。
+
+
+
+==== 設定認證訂閱
+
+BlueXP  數位電子錢包現在可讓您設定訂閱供應商認證。一般而言，當您第一次訂閱 Marketplace 訂閱或年度合約時，就會這麼做。先前只能在「認證」頁面上變更訂閱的認證。
+
+
+
+==== 將訂閱與組織建立關聯
+
+您現在可以更新訂閱直接從數位錢包關聯的組織。
+
+
+
+==== 管理 Cloud Volume ONTAP 授權
+
+您現在可以透過首頁或 * 資料服務授權 * 標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
+
+
+
 === 2024 年 3 月 5 日
 
 
@@ -759,30 +789,6 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 * 工作環境名稱現在已包含在儲存 VM 和 Volume 使用量報告中。
 * 現在、磁碟區類型 _file_ 會標示為 _ 主要（讀取 / 寫入） _ 。
 * Volume 類型 _secondary_ 現在標示為 _Secondary （ DP ） _ 。
-
-
-如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"]。
-
-
-
-=== 2023 年 5 月 7 日
-
-
-
-==== Google Cloud 私有優惠
-
-BlueXP 數位電子錢包現在會識別與私有方案相關的 Google Cloud Marketplace 訂閱、並顯示訂閱的結束日期和期限。這項增強功能可讓您確認您已成功接受私人優惠、並驗證其條款。
-
-
-
-==== 充電使用量明細
-
-現在、您可以瞭解訂閱容量型授權時所需支付的費用。以下類型的使用報告可從 BlueXP 數位錢包下載。使用報告會提供您訂閱的容量詳細資料、並告訴您如何為 Cloud Volumes ONTAP 訂閱中的資源收取費用。可下載的報告可輕鬆與他人共用。
-
-* Cloud Volumes ONTAP 套件使用率
-* 高階使用率
-* 儲存 VM 使用率
-* Volume 使用量
 
 
 如需使用報告的詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["下載使用報告"]。
