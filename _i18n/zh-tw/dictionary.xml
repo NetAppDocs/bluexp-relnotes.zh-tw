@@ -796,4 +796,10 @@
   <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
   <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">您現在可以使用 BlueXP  在 Azure 和 Google Cloud 中部署及管理 Cloud Volumes ONTAP 9.16.1 一般可用度版本。不過，此版本無法在 AWS 中進行部署和升級。</block>
   <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">支援 Azure 中的紐西蘭北部地區</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
+  <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">版本 1.41</block>
+  <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此 BlueXP  分類版本包含一般改良功能和錯誤修正。其中也包括：</block>
+  <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">掃描狀態</block>
+  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。</block>
+  <block id="dea24de819351c63f66685576d21ee25" category="paragraph">若要檢視掃描的狀態，請瀏覽至 BlueXP  分類中的「 ** 組態 ** 」，然後選取「 ** 工作環境組態 ** 」。每個磁碟區的進度會以行顯示。</block>
 </blocks>
