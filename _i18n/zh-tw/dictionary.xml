@@ -409,11 +409,6 @@
   <block id="cf3625b0846a5497dd36ab2220da602a" category="paragraph">深入瞭解 <block ref="4ef0c81e219f07a508ae115770245e4e" category="inline-link-macro-rx"></block>。</block>
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">工作負載工廠</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
-  <block id="67c7aeb67508aad4a1a5b35bdab67864" category="inline-link-macro">瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX</block>
-  <block id="9043e597fd1a3537f95cd09a004d83dc" category="paragraph"><block ref="9043e597fd1a3537f95cd09a004d83dc" category="inline-link-macro-rx"></block></block>
-  <block id="622ad6297367666ca450d994236cbc2d" category="paragraph">如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。</block>
-  <block id="50a397404296b3dd547fbabeb18e9092" category="inline-image-macro">選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。</block>
-  <block id="66cff4f3970f46872862ee60b7f0a832" category="paragraph"><block ref="66cff4f3970f46872862ee60b7f0a832" category="inline-image-macro-rx" type="image"></block></block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.56 。</block>
   <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>。</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。</block>
@@ -426,9 +421,6 @@
   <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="list-text">錯誤</block>
   <block id="cb48cbf342305a9ae53e02e21fcb644c" category="list-text">未啟用</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。</block>
-  <block id="a295598082ec4c1c06fb5a3e2ad3e1d1" category="paragraph">在 Azure 中部署新的 Cloud Volumes ONTAP 執行個體時， DS_v2 和 ES_v3 機器系列不再適用於 BlueXP  。這些系列將僅保留在舊的現有系統中，並提供支援。Azure 僅支援 9.12.1 版的 Cloud Volumes ONTAP 新部署。建議您切換至 ES_v4 或任何其他與 Cloud Volumes ONTAP 9.12.1 及更新版本相容的系列。不過， DS_v2 和 ES_v3 系列機器將可用於透過 API 進行的新部署。</block>
-  <block id="e4b60b51b40a0907e38b3293d36780e6" category="inline-link">Azure支援的組態</block>
-  <block id="ef57b1c89cee8819c5de2b079e4b0640" category="paragraph"><block ref="ef57b1c89cee8819c5de2b079e4b0640" category="inline-link-rx"></block></block>
   <block id="3406306d1e826f71d49547332136491d" category="paragraph">部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。</block>
   <block id="78efdac7339a3a2a767f54e63e415b79" category="paragraph">當您安裝 Connector 或進行自動升級時， Connector 會聯絡儲存庫，以下載安裝或升級的映像。依預設， Connector 一律會連絡下列端點：</block>
   <block id="f55e31da35f47937201bdbf54e964315" category="list-text">\https://*.blob.core.windows.net</block>
@@ -569,9 +561,6 @@
   <block id="13ac5039f81a1aa4ae7419bf17b5b6a0" category="section-title">2025 年 1 月 06 日</block>
   <block id="16e305f77c7a0272aceac8c95312d98a" category="section-title">NetApp 會釋出其他 CloudForgation 資源</block>
   <block id="c043b3439543ebfc027a3c1fcb5613a5" category="paragraph">NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。</block>
-  <block id="ecbeaffbfe15c72e3bf702b0d0bf9694" category="section-title">2024 年 11 月 11 日</block>
-  <block id="844ae8089b7faaed0a2b7abc588969d9" category="section-title">適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合</block>
-  <block id="dc13de95ece93019b115a46e9259730f" category="paragraph">ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023 年 3 月 5 日</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能夠從BlueXP新增庫位</block>
   <block id="3bec690d07df1a3a36c8a3122654fc24" category="section-title">2023 年 6 月 5 日</block>
@@ -610,8 +599,6 @@
   <block id="d34aa8cf529fee89c49e6c7c38dbf1e7" category="paragraph">透過 ONTAP 系統管理員從 BlueXP  進階管理 Cloud Volumes ONTAP 的選項已從 * 進階檢視 * 重新命名為 * 系統管理員 * 。</block>
   <block id="75b76b021da36b8e8bf9678596449aa4" category="section-title">介紹更簡單的 BlueXP  數位錢包管理授權的方法</block>
   <block id="5fbce01b2fa5bcad467f74186949bef5" category="paragraph">現在，您可以在 BlueXP  數位錢包中使用改良的導覽點，體驗 Cloud Volumes ONTAP 授權的簡化管理：</block>
-  <block id="1f86b1e4048d088ce153a6f451fb30d6" category="section-title">2024 年 12 月 9 日</block>
-  <block id="497e698cad27d6346959de7394ab5df8" category="section-title">更新 Azure 支援虛擬機器的清單，以符合最佳實務做法</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020 年 9 月 9 日</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支援Cloud Volumes Service for Google Cloud</block>
   <block id="7ee45649520b61796809750e472a8000" category="section-title">2020 年 12 月 7 日</block>
@@ -814,4 +801,11 @@
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">改善分類模型準確度</block>
   <block id="19c8ed5c1b936813e368bc7d83dbccf2" category="inline-link-macro">預先定義的類別</block>
   <block id="f436ec850a6acc51f2281d01c1b289da" category="paragraph">的機器學習模型準確度<block ref="fff0603fda0aac9c86fd12605ac8a06f" category="inline-link-macro-rx"></block>已提升 11% 。</block>
+  <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025 年 3 月 02 日</block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker 中的 CloudShell 事件</block>
+  <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。</block>
+  <block id="4fbdcdf3c2d8694d5e358b3175b867da" category="section-title">2025 年 3 月 03 日</block>
+  <block id="62c9277e75aee50ddfb792de79bd94d3" category="section-title">Azure 現在支援紐西蘭北部地區</block>
+  <block id="81ae8423a213b8c9bbcb79aee6ae0af8" category="paragraph">Azure 現在支援紐西蘭北部地區的單一節點和高可用度（ HA ）組態，適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。請注意，此區域不支援 Lsv3 執行個體類型。</block>
+  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">如需所有支援區域的清單，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
 </blocks>

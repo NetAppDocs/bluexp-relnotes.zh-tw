@@ -208,6 +208,18 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP 
 
 
 
+=== 2025 年 3 月 02 日
+
+
+
+==== Tracker 中的 CloudShell 事件
+
+每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。
+
+link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX"^]
+
+
+
 === 2025 年 2 月 02 日
 
 
@@ -253,22 +265,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使
 NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["使用 CloudForgation 管理適用於 NetApp ONTAP 檔案系統的 Amazon FSX"]
-
-
-
-=== 2024 年 11 月 11 日
-
-
-
-==== 適用於 ONTAP 的 FSX 與 BlueXP  工作負載工廠的儲存設備整合
-
-ONTAP 檔案系統管理工作的 FSX ，例如新增磁碟區，擴充檔案系統容量，以及管理儲存 VM ，現在都在 BlueXP  工作負載工廠進行管理，這是 NetApp 和 Amazon FSX for NetApp ONTAP 提供的新服務。您可以像以前一樣使用現有的認證和權限。不同之處在於，您現在可以從 BlueXP  工作負載工廠執行更多工作，以管理檔案系統。當您從 BlueXP  畫布開啟適用於 ONTAP 的 FSX 工作環境時，您將直接前往 BlueXP  工作負載工廠。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/learn-fsx-ontap.html#features["瞭解 BlueXP  工作負載工廠中適用於 ONTAP 功能的 FSX"^]
-
-如果您想要使用 _advanced view_ 選項來管理使用 ONTAP 系統管理員的 ONTAP 檔案系統 FSX ，現在您可以在選取工作環境之後，從 BlueXP  畫布中找到該選項。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-fsx-ontap/main/media/screenshot-system-manager.png["選取顯示系統管理員選項的工作環境之後， BlueXP  Canvas 右側面板的螢幕擷取畫面。"]
 
 
 
@@ -585,6 +581,18 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025 年 3 月 03 日
+
+
+
+==== Azure 現在支援紐西蘭北部地區
+
+Azure 現在支援紐西蘭北部地區的單一節點和高可用度（ HA ）組態，適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。請注意，此區域不支援 Lsv3 執行個體類型。
+
+如需所有支援區域的清單，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
+
+
+
 === 2025 年 18 月 2 日
 
 
@@ -629,18 +637,6 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-administer-ad
 
 
 link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["管理容量型授權"^]。
-
-
-
-=== 2024 年 12 月 9 日
-
-
-
-==== 更新 Azure 支援虛擬機器的清單，以符合最佳實務做法
-
-在 Azure 中部署新的 Cloud Volumes ONTAP 執行個體時， DS_v2 和 ES_v3 機器系列不再適用於 BlueXP  。這些系列將僅保留在舊的現有系統中，並提供支援。Azure 僅支援 9.12.1 版的 Cloud Volumes ONTAP 新部署。建議您切換至 ES_v4 或任何其他與 Cloud Volumes ONTAP 9.12.1 及更新版本相容的系列。不過， DS_v2 和 ES_v3 系列機器將可用於透過 API 進行的新部署。
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]
 
 
 
