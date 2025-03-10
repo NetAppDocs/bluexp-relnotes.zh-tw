@@ -313,11 +313,9 @@
   <block id="7aea075f0d949c2526cea755a2dee13f" category="paragraph">以前、您只能評估資產、並確定是否建議進行技術更新。</block>
   <block id="8006e6282233bdaa99ca3e9db65fc693" category="paragraph">這項功能現在已納入左側導覽中的技術更新選項。</block>
   <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="inline-link-macro">評估技術更新</block>
-  <block id="17c54e9ba828968f120b82b8cd07abfa" category="inline-link">備份至物件原則設定</block>
   <block id="4df3ea515a84d83efad2c0e3bc03c438" category="paragraph">BlueXP 補救服務已於 2024 年 4 月 22 日移除。</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
   <block id="0a9bbb6e81dd21b77886235f2ce33af9" category="paragraph">瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。如需完整的發行記錄、請前往 <block ref="1e9f4589e5d2713376df79f13fc9ba0a" category="inline-link-macro-rx"></block> 針對每項個別服務。</block>
-  <block id="5462103113dfca7582cf43f266db09a2" category="inline-link">主機需求</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="f5f7a4d1535be1d0940e398b2997dfc0" category="sidebar">按服務提供版本說明</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
@@ -335,15 +333,6 @@
   <block id="ab132121a366abdd7667443cc98f3a69" category="paragraph">請參閱<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>。</block>
   <block id="f013b90a0fd96db59795b7cb0b9d2d1b" category="inline-link">深入瞭解如何從勒索軟體攻擊中恢復</block>
   <block id="48e006c40a370e7b0dcc3f4f1e42eda7" category="paragraph"><block ref="17c138513bf5a78d755bed4038999b20" category="inline-link-rx"></block>。</block>
-  <block id="a429eb8c690c0a48131f4ae1267eafd1" category="paragraph">使用此版本、您現在可以還原在 ONTAP 中建立的小於 1 GB 的磁碟區。您可以使用 ONTAP 建立的最小磁碟區大小為 20 MB 。</block>
-  <block id="f959c5a51fb8f2a9e9c0063bbb8adb63" category="paragraph">DataLock 功能可保護您的備份檔案、避免在指定的時間內遭到修改或刪除。這有助於保護您的檔案免受勒索軟體攻擊。</block>
-  <block id="bebfb016f9defe9a78fff65f418f213b" category="paragraph">Amazon Web Services （ AWS ） Identity and Access Management （ IAM ） Roles Anywhere 服務可讓您為工作負載（ AWS 外部）使用 IAM 角色和短期認證、以安全的方式存取 AWS API 、就像您在工作負載上使用 IAM 角色一樣。當您在任何位置使用 IAM 角色的私密金鑰基礎架構和 AWS Token 時、您不需要長期 AWS 存取金鑰和秘密金鑰。這可讓您更頻繁地輪換認證、進而提升安全性。</block>
-  <block id="24c6cf6b2747b390a5d9eb672e1d54d4" category="paragraph">在此版本中、 AWS IAM 角色 Anywhere 服務的支援是技術預覽。</block>
-  <block id="ddc7fe4301c8a4aa6a14e1843c25f30b" category="inline-link">BlueXP 備份與還原 2024 年 7 月版本部落格</block>
-  <block id="f1db3a8ee789ee9607754f5f8a9871b1" category="paragraph">請參閱<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>。</block>
-  <block id="cd4619af82dfe7627dc934e29e85a6e9" category="paragraph">在此版本中、支援 FlexGroup 資料夾還原是技術預覽。</block>
-  <block id="abbf2484b45da9fd7be677fe96c511eb" category="inline-link-macro">使用瀏覽擴大機還原資料夾和檔案；還原</block>
-  <block id="707304f314bfa71975e8ffb352535092" category="paragraph">如需手動啟用的詳細資料、請<block ref="7de2d0863d92330816fac8b7768edb68" category="inline-link-rx"></block>參閱。</block>
   <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">方法如下：</block>
   <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">從上方功能表中、選取 * 複寫計畫 * 。</block>
   <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">選取計畫、然後選取「動作」圖示以顯示下拉式功能表。</block>
@@ -363,8 +352,6 @@
   <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  軟體更新</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">技術更新</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">增加容量</block>
-  <block id="f5d370ee9e029c4d62db915f308e04c0" category="paragraph">BlueXP  Connector 3.9.40 版支援某些版本的 Red Hat Enterprise Linux 第 8 版和第 9 版、可在 RHEL 8 或 9 主機上手動安裝 Connector 軟體、而不受中所述作業系統以外的位置<block ref="9b2a96babeed2ab711a4327ec7f34b5c" category="inline-link-rx"></block>限制。這些較新的 RHEL 版本需要使用 Podman 引擎、而非 Docker 引擎。以前、 BlueXP  備份與還原在使用 Podman 引擎時有兩項限制。這些限制已移除。</block>
-  <block id="6111aa812639d5e432842ceca200ea78" category="inline-link">深入瞭解如何從備份檔案還原 ONTAP 資料</block>
   <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">以下是 iSCSI 和 FC 通訊協定的其他考量事項：</block>
   <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC 支援適用於用戶端前端通訊協定、而非複寫。</block>
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  災難恢復每個 ONTAP 磁碟區僅支援單一 LUN 。磁碟區不應有多個 LUN 。</block>
@@ -376,9 +363,6 @@
   <block id="4f721f83f0a49dae4f329f77ae2221d5" category="list-text"><block ref="4f721f83f0a49dae4f329f77ae2221d5" category="inline-link-rx"></block></block>
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">瞭解 BlueXP  警示</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>。</block>
-  <block id="84142ff06d4e9d4646fc2a3b18cc1d91" category="paragraph"><block ref="a21af64035213e0424a2bf24b7431646" category="inline-link-rx"></block>。</block>
-  <block id="2f080abae9949a746e32fbd78d3382f7" category="paragraph">如需有關 DataLock 的詳細資訊及如何降低相關成本的秘訣，請<block ref="116b2987b0e6fcf4c15ff7c1a1a47ed3" category="inline-link-rx"></block>參閱。</block>
-  <block id="b1b12c3c76c5dc414df3c68e8a811c2a" category="paragraph">如需詳細資訊、請<block ref="ef40acf6b73cf65ed40d9b8f7f6be1c3" category="inline-link-rx"></block>參閱。</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">瞭解 BlueXP 部署模式</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
@@ -550,17 +534,6 @@
   <block id="517624d736bd2a385ee8cda71584112f" category="section-title">SnapLock Compliance 和 SnapLock Enterprise 保護模式</block>
   <block id="fec92c3dfb6a0b3db498488c7f4d2f29" category="section-title">「磁碟區」頁面上的「搜尋與還原程序索引」</block>
   <block id="20d3b0b7cfe7a9f3dcfdb0faa9398efd" category="paragraph">在使用搜尋與還原之前、您必須在每個要從中還原Volume資料的來源工作環境上啟用「索引」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：</block>
-  <block id="5fcc5d3ffc4bbbcf6d018ab4a9639205" category="section-title">2024 年 9 月 27 日</block>
-  <block id="aa6a53998d98bae73a6913ff1c2eecbc" category="section-title">透過瀏覽與還原、在 RHEL 8 或 9 上支援 Podman</block>
-  <block id="c6bad3b272d5eeec569990b050d88123" category="paragraph">BlueXP  備份與還原現在支援在使用 Podman 引擎的 Red Hat Enterprise Linux （ RHEL ）第 8 版和第 9 版上進行檔案與資料夾還原。這適用於 BlueXP  備份與還原瀏覽與還原方法。</block>
-  <block id="3abe4a789c1c33e285d9452cca8c493b" category="section-title">目錄索引速度更快、可改善搜尋與還原</block>
-  <block id="9353e94049314c6236b51712848f2572" category="paragraph">此版本包含改良的目錄索引、可更快完成基準索引。快速索引可讓您更快速地使用「搜尋與還原」功能。</block>
-  <block id="ba874eb3ffbdba518b95ce26bc81a861" category="section-title">2024 年 22 月 7 日</block>
-  <block id="9d5f0e2f1682000ac365243e21301823" category="section-title">還原小於 1 GB 的磁碟區</block>
-  <block id="ccbf8c45039ba817be81bbf5fa2a7521" category="section-title">如何降低 DataLock 成本的秘訣</block>
-  <block id="79cfacda817c1e599649823ffa32c8d7" category="section-title">AWS IAM 角色隨處整合</block>
-  <block id="5ab4d79a28b46b39467c24096b99316f" category="section-title">FlexGroup 資料夾或目錄還原功能現已可供使用</block>
-  <block id="a821e6c079044462f6ffc9a01ed28fc9" category="paragraph">以前、 FlexVol 磁碟區可以還原、但您無法還原 FlexGroup 資料夾或目錄。使用 ONTAP 9.15.1 P2 、您可以使用「瀏覽與還原」選項來還原 FlexGroup 資料夾。</block>
   <block id="009d2060a609114df262eff04e83f241" category="section-title">2025 年 1 月 22 日</block>
   <block id="0a401367ec8a2cd84bb197e6d12c99af" category="section-title">版本 1.39</block>
   <block id="1a58f9988f87b599ed71b9c7430034c2" category="paragraph">此 BlueXP  分類版本會更新資料調查報告的匯出程序。此匯出更新可用於對資料執行其他分析，在資料上建立其他視覺效果，或與他人分享資料調查結果。</block>
@@ -801,7 +774,6 @@
   <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">此版本包含選擇性探索和重新探索程序的增強功能：</block>
   <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">使用此版本，您可以探索新增至先前所選工作環境的新建立工作負載。</block>
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">您也可以在此版本中選取 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。</block>
-  <block id="3b7810e8427f006590b006af43d016ef" category="list-text">如果您想要選擇所有探索到的工作負載，您可以使用 * 全選 * 選項來執行。</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">探索先前所選工作環境的新建立工作負載</block>
   <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">使用「設定」選項設定擷取</block>
@@ -815,4 +787,17 @@
   <block id="2e168141b8f719cbd37e6beec663b599" category="list-text">美國中部</block>
   <block id="7a6df46ff8e25ac610f60f312512afa4" category="list-text">美國政府維吉尼亞州（美國政府地區 - 維吉尼亞州）</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有區域的列表，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
+  <block id="499d067ffbbd553e23809aa38aa67bfa" category="section-title">2025 年 3 月 17 日</block>
+  <block id="30ba4ee29fda0b7285b4297943459cf9" category="section-title">SMB 快照瀏覽</block>
+  <block id="024bc4989e66777454fa98cbaf9a7d3e" category="paragraph">此 BlueXP  備份與還原更新解決了一項問題，使客戶無法在 SMB 環境中瀏覽本機快照。</block>
+  <block id="151a83fcfdad3b420d256dbc19095068" category="section-title">AWS GovCloud 環境更新</block>
+  <block id="c4ff0af994997811a9867969c1b26bf3" category="paragraph">此 BlueXP  備份與還原更新解決了由於 TLS 憑證錯誤而導致 UI 無法連線至 AWS GovCloud 環境的問題。此問題已透過使用 BlueXP  Connector 主機名稱而非 IP 位址來解決。</block>
+  <block id="a758068ed72f0a6858316a7ff791b4ba" category="section-title">備份原則保留限制</block>
+  <block id="7937af8bb9aecdab11a666bfc7946c61" category="paragraph">以前， BlueXP  備份與還原 UI 將備份限制為 999 份，而 CLI 則允許更多複本。現在，您可以將多達 4 ， 000 個磁碟區附加至備份原則，並包含 1 ， 018 個未附加至備份原則的磁碟區。此更新包含其他驗證，可避免超過這些限制。</block>
+  <block id="d5479e738a91b3a64956ed9f9e81bc5a" category="section-title">SnapMirror 雲端重新同步</block>
+  <block id="06476618a5631fabf79c4d5ebe8b60b0" category="paragraph">此更新可確保在刪除 SnapMirror 關係之後，無法從不支援的 ONTAP 版本的 BlueXP  備份與還原啟動 SnapMirror 雲端重新同步。</block>
+  <block id="322a339b221056f32120ffd18077d44d" category="section-title">透過 Azure 中的 API 自動建立儲存 VM</block>
+  <block id="aa1c2167957b1092da7e43e77867748c" category="paragraph">您現在可以使用 BlueXP  API 來為 Azure 中的 Cloud Volumes ONTAP 建立，重新命名及刪除其他資料服務儲存 VM 。如果您需要使用儲存 VM 進行管理，使用 API 可自動化儲存 VM 的建立程序，包括必要的網路介面，生命週期和管理 LIF 的組態。</block>
+  <block id="65cc3fef2113d2e1d1f636ab8cb02386" category="inline-link">在Cloud Volumes ONTAP Azure中建立資料服務儲存VM以供其使用</block>
+  <block id="5fc68a139fdd05790792b12eb853e84d" category="paragraph"><block ref="5fc68a139fdd05790792b12eb853e84d" category="inline-link-rx"></block></block>
 </blocks>
