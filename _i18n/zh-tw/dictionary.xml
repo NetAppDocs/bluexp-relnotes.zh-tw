@@ -808,4 +808,11 @@
   <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>。</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">偵測到高加密時發出警示</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">此版本可讓您在工作負載上偵測到高加密時，檢視警示，即使沒有高副檔名變更也沒問題。此功能使用 ONTAP 自主勒索軟體保護（ ARP ） AI ，可協助您識別有勒索軟體攻擊風險的工作負載。使用此功能，下載包含或不含副檔名變更的受影響檔案的完整清單。</block>
+  <block id="23b3b711859803a815b81aca1cc4811c" category="section-title">連接器 3.9.50</block>
+  <block id="0de5f5ade75808b90faefd69873b4b3c" category="section-title">2025 年 3 月 12 日</block>
+  <block id="a2fefc65df2136938b995f8abbe643c2" category="section-title">Azure 支援多個可用區域部署的新區域</block>
+  <block id="0cc914ed23f0f7d6bc902ae731843213" category="paragraph">以下地區現在支援 Azure 中的 HA 多重可用性區域部署、適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本：</block>
+  <block id="2e168141b8f719cbd37e6beec663b599" category="list-text">美國中部</block>
+  <block id="7a6df46ff8e25ac610f60f312512afa4" category="list-text">美國政府維吉尼亞州（美國政府地區 - 維吉尼亞州）</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有區域的列表，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
 </blocks>

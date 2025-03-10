@@ -28,7 +28,7 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
-==== 23b3b711859803a815b81aca1cc4811c
+==== 連接器 3.9.50
 
 此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
 
@@ -609,19 +609,19 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
-=== 0de5f5ade75808b90faefd69873b4b3c
+=== 2025 年 3 月 12 日
 
 
 
-==== a2fefc65df2136938b995f8abbe643c2
+==== Azure 支援多個可用區域部署的新區域
 
-0cc914ed23f0f7d6bc902ae731843213
+以下地區現在支援 Azure 中的 HA 多重可用性區域部署、適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本：
 
-* 2e168141b8f719cbd37e6beec663b599
-* 7a6df46ff8e25ac610f60f312512afa4
+* 美國中部
+* 美國政府維吉尼亞州（美國政府地區 - 維吉尼亞州）
 
 
-91aba3afcaafb3ecbed8f358c30b8a7a
+有關所有區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
 
 
 
