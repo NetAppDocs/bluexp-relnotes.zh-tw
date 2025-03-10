@@ -369,7 +369,6 @@
   <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC 支援適用於用戶端前端通訊協定、而非複寫。</block>
   <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  災難恢復每個 ONTAP 磁碟區僅支援單一 LUN 。磁碟區不應有多個 LUN 。</block>
   <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">對於任何複寫計畫、目的地 ONTAP Volume 應使用與主控受保護 VM 的來源 ONTAP Volume 相同的傳輸協定。例如、如果來源使用 FC 傳輸協定、則目的地也應該使用 FC 。</block>
-  <block id="a1c75029051cebc5ca5ea85a84cfc065" category="inline-link">深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 系統沒有其他管理選項可用。您無法使用標準檢視、也無法啟用 BlueXP 服務。</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">深入瞭解 ASA R2 系統</block>
   <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
@@ -410,7 +409,6 @@
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">工作負載工廠</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
   <block id="43cb17f8c706e2a2a7e4c81a5cb2d17b" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.56 。</block>
-  <block id="9a2ed93898be76fbc237cf9fca13d650" category="paragraph"><block ref="8790005620a6e0339d9d5a6985b6f062" category="inline-link-rx"></block>。</block>
   <block id="139da935670a9f985194d3241917c359" category="paragraph">BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。</block>
   <block id="ba48140a3394818b661e6fd497e203a7" category="inline-link">瞭解 BlueXP 備份與還原</block>
   <block id="9ddb3e6714694f5c7f619d474fec8169" category="paragraph">請參閱中支援磁碟區的完整清單<block ref="9e68a582cc487ad29425f5a4796c9e45" category="inline-link-rx"></block>。</block>
@@ -658,9 +656,6 @@
   <block id="31e5266d7eefb6e39e445571b556a4b6" category="paragraph">在此版本中， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。</block>
   <block id="131dcf966228f0c4a90e6e64618c8def" category="section-title">在 Podman 的檔案層級還原應用程式工作負載</block>
   <block id="b4a1818e2de3da83b0e71c710c96525c" category="paragraph">在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受到攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。</block>
-  <block id="964635dcf6206ebb279b58d13cf69a92" category="section-title">2024 年 9 月 30 日</block>
-  <block id="4d330e714e6183f0c61932d7c00a8ff3" category="section-title">自訂檔案共用工作負載群組</block>
-  <block id="52a2bb712de6112a9a5d29a047f3a073" category="paragraph">有了這個版本，您現在可以將檔案共用分組，讓您更容易保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">補救</block>
   <block id="638be56d4cf930b576e6dc1300c7c33b" category="section-title">2022年9月18日</block>
   <block id="168c5915eb40be2beb0ac04f286489ba" category="section-title">FSX for ONTAP Sfor Sfto Cloud Volumes ONTAP</block>
@@ -724,13 +719,6 @@
   <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">您現在可以使用「 ** 全部重試」功能，在批次作業中重新嘗試掃描。如果分類掃描因網路中斷等暫時性問題而失敗，您可以使用單一按鈕同時重試所有掃描，而無需個別重試。掃描可視需要重試多次。</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">若要重試所有掃描：</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">若要重試所有失敗的掃描，請選取 * 重試所有掃描 * 。</block>
-  <block id="df3f743aae5476a7b16bbbc329251f85" category="section-title">2025 年 18 月 2 日</block>
-  <block id="880b804508da0afe757f8198fd3eb1c3" category="section-title">隆重介紹 Azure 市場直接部署</block>
-  <block id="365aa2bac7413987a05e356d504aee0f" category="paragraph">您現在可以利用 Azure 市場直接部署，從 Azure 市場直接輕鬆快速地部署 Cloud Volumes ONTAP 。使用這種精簡的方法，您可以探索環境中 Cloud Volumes ONTAP 的核心功能，而無需設定 BlueXP  Connector ，或是符合透過 BlueXP  部署 Cloud Volumes ONTAP 所需的其他就職條件。</block>
-  <block id="f56439b6bdbca147476a375ebacfef1d" category="inline-link">瞭解 Azure 中的 Cloud Volumes ONTAP 部署選項</block>
-  <block id="29a97b99a51928e5b93f84b989f0c2a0" category="list-text"><block ref="29a97b99a51928e5b93f84b989f0c2a0" category="inline-link-rx"></block></block>
-  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">從 Azure 市場部署 Cloud Volumes ONTAP</block>
-  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="list-text"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
   <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">版本 4.2</block>
   <block id="ca716ff875c64c5d237c8e862b62065c" category="section-title">ASA R2 支援 VMFS 儲存設備上的 VM 和資料存放區</block>
   <block id="1979efa5817be86acee4a8fbdf309a1a" category="paragraph">此版本的 BlueXP  災難恢復可為 VMFS 儲存設備上的虛擬機器和資料存放區提供 ASA R2 支援。在 ASA R2 系統上， ONTAP 軟體支援基本的 SAN 功能，同時移除 SAN 環境中不支援的功能。</block>
@@ -774,9 +762,6 @@
   <block id="2d5a4b914acb6c2f03d312067c73ce32" category="section-title">2025 年 3 月 02 日</block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker 中的 CloudShell 事件</block>
   <block id="de57e19ed3d5b873e357689269de25a1" category="paragraph">每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。</block>
-  <block id="4fbdcdf3c2d8694d5e358b3175b867da" category="section-title">2025 年 3 月 03 日</block>
-  <block id="81ae8423a213b8c9bbcb79aee6ae0af8" category="paragraph">Azure 現在支援紐西蘭北部地區的單一節點和高可用度（ HA ）組態，適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。請注意，此區域不支援 Lsv3 執行個體類型。</block>
-  <block id="b717ddfb2f9a28b7e4673751144693cc" category="paragraph">如需所有支援區域的清單，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="278edfabbac204688aa13f79c6f52497" category="section-title">2025 年 3 月 6 日</block>
   <block id="66a5f69d070814deb69bf917dd07a6af" category="section-title">Connector 3.9.49 更新</block>
   <block id="00d64ff7da906ec5530c4e990fb334cb" category="section-title">當 BlueXP  使用連接器時， ONTAP 系統管理員即可存取</block>
@@ -795,11 +780,17 @@
   <block id="0608305ed5721ad4a69c3643b176e371" category="list-text">支援在 BlueXP  組織的多個資源上指派角色（組織 / 資料夾 / 專案）</block>
   <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
   <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">您現在可以使用 BlueXP  在 Azure 和 Google Cloud 中部署及管理 Cloud Volumes ONTAP 9.16.1 一般可用度版本。不過，此版本無法在 AWS 中進行部署和升級。</block>
-  <block id="e622e2ddfce6c06eca3078953e9e6186" category="section-title">支援 Azure 中的紐西蘭北部地區</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">版本 1.41</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此 BlueXP  分類版本包含一般改良功能和錯誤修正。其中也包括：</block>
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">掃描狀態</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">若要檢視掃描的狀態，請瀏覽至 BlueXP  分類中的「 ** 組態 ** 」，然後選取「 ** 工作環境組態 ** 」。每個磁碟區的進度會以行顯示。</block>
+  <block id="256d8753a695f4395908c9903ae723b2" category="paragraph">目前、 3.9.50 版本適用於標準模式和受限模式。</block>
+  <block id="3f45680fc0523f726aa3afe05af65c63" category="section-title">BlueXP  提供 NetApp Keystone 試用版</block>
+  <block id="6bcb702faf24747c517b58ba5f3b8a99" category="paragraph">NetApp Keystone 即將從 BlueXP  推出，現已推出試用版。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">能夠移除訂閱</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">檢視 Marketplace 訂閱的使用容量</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">檢視 PAYGO 訂閱時，您現在可以檢視訂閱的使用容量。</block>
 </blocks>

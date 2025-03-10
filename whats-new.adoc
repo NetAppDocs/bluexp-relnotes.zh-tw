@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, cloud, cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features,cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。 
 ---
 = 最新的BlueXP變更
@@ -21,6 +21,24 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 == 管理功能
 
 本節說明與BlueXP管理功能相關的新功能：帳戶、連接器、雲端供應商認證等。
+
+
+
+=== 2025 年 3 月 10 日
+
+
+
+==== 23b3b711859803a815b81aca1cc4811c
+
+此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
+
+目前、 3.9.50 版本適用於標準模式和受限模式。
+
+
+
+==== BlueXP  提供 NetApp Keystone 試用版
+
+NetApp Keystone 即將從 BlueXP  推出，現已推出試用版。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。
 
 
 
@@ -591,6 +609,34 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
+=== 0de5f5ade75808b90faefd69873b4b3c
+
+
+
+==== a2fefc65df2136938b995f8abbe643c2
+
+0cc914ed23f0f7d6bc902ae731843213
+
+* 2e168141b8f719cbd37e6beec663b599
+* 7a6df46ff8e25ac610f60f312512afa4
+
+
+91aba3afcaafb3ecbed8f358c30b8a7a
+
+
+
+=== 2025 年 3 月 10 日
+
+
+
+==== 322a339b221056f32120ffd18077d44d
+
+aa1c2167957b1092da7e43e77867748c
+
+5fc68a139fdd05790792b12eb853e84d
+
+
+
 === 2025 年 3 月 6 日
 
 
@@ -600,32 +646,6 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 您現在可以使用 BlueXP  在 Azure 和 Google Cloud 中部署及管理 Cloud Volumes ONTAP 9.16.1 一般可用度版本。不過，此版本無法在 AWS 中進行部署和升級。
 
 link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
-
-
-
-=== 2025 年 3 月 03 日
-
-
-
-==== 支援 Azure 中的紐西蘭北部地區
-
-Azure 現在支援紐西蘭北部地區的單一節點和高可用度（ HA ）組態，適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。請注意，此區域不支援 Lsv3 執行個體類型。
-
-如需所有支援區域的清單，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
-
-
-
-=== 2025 年 18 月 2 日
-
-
-
-==== 隆重介紹 Azure 市場直接部署
-
-您現在可以利用 Azure 市場直接部署，從 Azure 市場直接輕鬆快速地部署 Cloud Volumes ONTAP 。使用這種精簡的方法，您可以探索環境中 Cloud Volumes ONTAP 的核心功能，而無需設定 BlueXP  Connector ，或是符合透過 BlueXP  部署 Cloud Volumes ONTAP 所需的其他就職條件。
-
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-azure-mktplace-direct.html["瞭解 Azure 中的 Cloud Volumes ONTAP 部署選項"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["從 Azure 市場部署 Cloud Volumes ONTAP"^]
-
 
 
 
@@ -750,6 +770,22 @@ NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 Suppor
 
 
 == 數位錢包
+
+
+
+=== 2025 年 3 月 10 日
+
+
+
+==== 能夠移除訂閱
+
+如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。
+
+
+
+==== 檢視 Marketplace 訂閱的使用容量
+
+檢視 PAYGO 訂閱時，您現在可以檢視訂閱的使用容量。
 
 
 
@@ -1108,6 +1144,40 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
+=== 2025 年 3 月 10 日
+
+
+
+==== ad84f24c65dd6930a049e0903256dc97
+
+6cadf1d9d5289622136d042488809e73
+
+9b1eb2dbe181e9f7b73db8a0785c0419
+
+
+
+==== d36ca1f9466b055dd6adb80de5cce7d4
+
+61541c0b99aec5f11fccef5bcb3fe5a1
+
+* cb3c0a83218c46d38ab0842ce49a7e6e
+* 6a4c9cc76f7f432efa274c3ff0dae3dd
+* 3b7810e8427f006590b006af43d016ef
+* 28573ff4f820730a3eeae9cdd51b54d4
+
+
+98e6e30b63e5242616c686684a17c03b
+
+
+
+==== d957d0c80017f235b131c557ae0876b1
+
+8c8c1a747835015c86248b11a2097c02
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["回應偵測到的勒索軟體警示"]參閱。
+
+
+
 === 2024 年 12 月 16 日
 
 
@@ -1174,18 +1244,6 @@ https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html[
 在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受到攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
 
 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復"]。
-
-
-
-=== 2024 年 9 月 30 日
-
-
-
-==== 自訂檔案共用工作負載群組
-
-有了這個版本，您現在可以將檔案共用分組，讓您更容易保護資料資產。此服務可同時保護群組中的所有磁碟區。以前、您需要分別保護每個磁碟區。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["深入瞭解如何在勒索軟體保護策略中將檔案共用工作負載分組"]。
 
 
 
