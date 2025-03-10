@@ -793,4 +793,19 @@
   <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。</block>
   <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">檢視 Marketplace 訂閱的使用容量</block>
   <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">檢視 PAYGO 訂閱時，您現在可以檢視訂閱的使用容量。</block>
+  <block id="ad84f24c65dd6930a049e0903256dc97" category="section-title">模擬攻擊和回應</block>
+  <block id="6cadf1d9d5289622136d042488809e73" category="paragraph">在此版本中，模擬勒索軟體攻擊，測試您對勒索軟體警示的回應。此功能可測試警示通知，回應和還原程序，協助您瞭解在發生實際勒索軟體攻擊時，您已做好準備。</block>
+  <block id="50b24b085ac9888ffc4b0ba727107bd7" category="inline-link">進行勒索軟體攻擊準備訓練</block>
+  <block id="9b1eb2dbe181e9f7b73db8a0785c0419" category="paragraph">如需詳細資訊、請<block ref="83090590e567818593b829ba2ced1db1" category="inline-link-rx"></block>參閱。</block>
+  <block id="d36ca1f9466b055dd6adb80de5cce7d4" category="section-title">探索程序的增強功能</block>
+  <block id="61541c0b99aec5f11fccef5bcb3fe5a1" category="paragraph">此版本包含選擇性探索和重新探索程序的增強功能：</block>
+  <block id="cb3c0a83218c46d38ab0842ce49a7e6e" category="list-text">使用此版本，您可以探索新增至先前所選工作環境的新建立工作負載。</block>
+  <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">您也可以在此版本中選取 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。</block>
+  <block id="3b7810e8427f006590b006af43d016ef" category="list-text">如果您想要選擇所有探索到的工作負載，您可以使用 * 全選 * 選項來執行。</block>
+  <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。</block>
+  <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">探索先前所選工作環境的新建立工作負載</block>
+  <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">使用「設定」選項設定擷取</block>
+  <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>。</block>
+  <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">偵測到高加密時發出警示</block>
+  <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">此版本可讓您在工作負載上偵測到高加密時，檢視警示，即使沒有高副檔名變更也沒問題。此功能使用 ONTAP 自主勒索軟體保護（ ARP ） AI ，可協助您識別有勒索軟體攻擊風險的工作負載。使用此功能，下載包含或不含副檔名變更的受影響檔案的完整清單。</block>
 </blocks>
