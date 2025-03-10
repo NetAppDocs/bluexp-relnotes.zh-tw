@@ -9,12 +9,6 @@
   <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">為Linux和UNIX用戶端建立及管理NFSv3和NFSv4.1磁碟區</block>
   <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">為Windows用戶端建立及管理SMB 3.x磁碟區</block>
   <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">建立、刪除及還原Volume快照</block>
-  <block id="429b7972d23af5e411304108791f1c6c" category="paragraph">現在、您可以更輕鬆地在 Cloud Manager 和 Spot 之間進行瀏覽。</block>
-  <block id="6673d1ba63d3b88416bb57a52f24edaf" category="paragraph">全新的「 * 儲存作業 * 」區段可讓您直接導覽至 Cloud Manager 。完成後、您可以從 Cloud Manager 的 * Compute * 索引標籤找到答案。</block>
-  <block id="8ecc68a9339de03fc0f6e65490a53645" category="inline-link">Spot Cloud Analyzer 的功能</block>
-  <block id="94bdad82453d71da22fcd69f47559c1c" category="paragraph">善用資源<block ref="f6403c1f0596662bb11f11c4ddde243f" category="inline-link-rx"></block>Cloud Manager現在可以針對您的雲端運算支出進行高階成本分析、並找出可能的節約效益。此資訊可從Cloud Manager * Compute *服務取得。</block>
-  <block id="0947726e3c301f45f25d6d4b3295fcec" category="inline-link">深入瞭解運算服務</block>
-  <block id="6ae18045fc1ab0bf7898b13f3ef31c9a" category="inline-image-macro">在Cloud Manager中顯示「成本分析」頁面的快照</block>
   <block id="d0f1687c68ee0f0d9bac765716d18923" category="section-title">內部 ONTAP 部署的叢集</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="section-title">複寫</block>
   <block id="40f78d193b858589ad7df4dd4ce61ad6" category="inline-link">瞭解如何設定資料複寫</block>
@@ -66,8 +60,6 @@
   <block id="35ab587d29d669683f08424c60051957" category="list-text"><block ref="35ab587d29d669683f08424c60051957" category="inline-link-rx"></block></block>
   <block id="c821df2021ac7a846f6554ac1ed76719" category="list-text"><block ref="c821df2021ac7a846f6554ac1ed76719" category="inline-link-rx"></block></block>
   <block id="367cb072fdec82ba883d66fadac7fc54" category="list-text"><block ref="367cb072fdec82ba883d66fadac7fc54" category="inline-link-rx"></block></block>
-  <block id="9cb4f066718ada1a845659033318004c" category="paragraph"><block ref="19c68668f7d6a95b64e909c5da1cb9b0" category="inline-link-rx"></block>。</block>
-  <block id="16364877a101c1787c34f2fe604ef9e9" category="paragraph"><block ref="16364877a101c1787c34f2fe604ef9e9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="51959da1122b405c90c18be52282f18f" category="paragraph"><block ref="1bc1e485e9f9d41e344f0d10f6ad3511" category="inline-link-rx"></block>。</block>
   <block id="2b3e8f910d66604cd77f93b333670468" category="inline-link">Azure Blob 儲存設備</block>
   <block id="a1182a2fefa3fdd8128a983a3d666611" category="list-text"><block ref="a1182a2fefa3fdd8128a983a3d666611" category="inline-link-rx"></block></block>
@@ -427,8 +419,6 @@
   <block id="c6ac79f6ec82abd57b723ae67e39d12b" category="list-text">探索先前所選工作環境的新建立工作負載。</block>
   <block id="bd03ede87c82adb65c788a5ae08c50b6" category="inline-link">探索工作負載</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">請參閱<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
-  <block id="f932d2619edea0dc69b40e9be53abdc4" category="inline-link-macro">建立及管理服務帳戶</block>
-  <block id="3d6080aa10267e8c67d5c76a2bc1a9f3" category="paragraph"><block ref="3d6080aa10267e8c67d5c76a2bc1a9f3" category="inline-link-macro-rx"></block></block>
   <block id="c523b074da0b63e607578686184d5981" category="section-title">2025 年 10 月 2 日</block>
   <block id="8e64dfb0168516c0e7f7880ae745072a" category="section-title">連接器 3.9.49</block>
   <block id="f5c64d3f640238b8d1e1ed7062c5561f" category="paragraph">目前、 3.9.49 版本適用於標準模式和受限模式。</block>
@@ -542,10 +532,6 @@
   <block id="e5450ac8535429efc574bc7d9388dd9a" category="paragraph">此 BlueXP  分類版本包含下列更新。</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020 年 9 月 9 日</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支援Cloud Volumes Service for Google Cloud</block>
-  <block id="7ee45649520b61796809750e472a8000" category="section-title">2020 年 12 月 7 日</block>
-  <block id="9dc245f64def9d62941e9ee3f4af4adb" category="section-title">在Cloud Manager和Spot之間進行導覽</block>
-  <block id="3d54f0f13a2b982305cfb676b5efc25c" category="section-title">2020 年 10 月 18 日</block>
-  <block id="776903deac41433ca593263c8812b21c" category="section-title">運算服務簡介</block>
   <block id="723559e2f2e86e612c412da00a435eea" category="section-title">2025 年 2 月 2 日</block>
   <block id="83f73c94bb5f748ce272fa98b9d62582" category="section-title">新的作業系統支援資料代理程式</block>
   <block id="726c1f4efc6286c68c0e686bb97c19c5" category="paragraph">現在，執行 Red Hat Enterprise 9.4 ， Ubuntu 23.04 和 Ubuntu 24.04 的主機支援資料代理程式。</block>
@@ -558,9 +544,6 @@
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024 年 12 月 04 日</block>
   <block id="998e01ff2383d2b9e06b55738a27346b" category="section-title">AutoSupport Widget</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。</block>
-  <block id="67f165f48588df98eb8f59d8a7c512d8" category="section-title">2024 年 9 月 23 日</block>
-  <block id="cd0b2a52b53e1925d55439a6132bad52" category="section-title">支援服務</block>
-  <block id="65077e068c20e8afeca74c12711e893e" category="paragraph">NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。</block>
   <block id="abbf3397e656c62394e67cdc1337be3c" category="section-title">全新概觀儀表板</block>
   <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">數位電子錢包首頁提供 NetApp 授權與 Marketplace 訂閱的更新儀表板，可深入瞭解特定服務，授權類型及必要行動。</block>
   <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">設定認證訂閱</block>
@@ -668,9 +651,6 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">資料庫的權限更新</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">現在，下列權限可在 _read_ 模式下用於資料庫：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。</block>
-  <block id="bd901b05034bb9be1d918012998e8f7b" category="section-title">2025 年 1 月 5 日</block>
-  <block id="5baf4417d867f07ce7f16e7810f044d7" category="section-title">支援 BlueXP  工作負載工廠的服務帳戶</block>
-  <block id="369af9c9eae8f9673850f588a7ed5272" category="paragraph">BlueXP  工作負載工廠現在支援服務帳戶。您可以建立服務帳戶，做為自動化基礎架構作業的機器使用者。</block>
   <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">檢視連結至 ONTAP 系統管理員的叢集詳細資料</block>
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025 年 19 月 2 日</block>
   <block id="6b9d9a04ff593ff427731819f0c3618f" category="section-title">版本 1.40</block>
@@ -682,7 +662,6 @@
   <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">依預設，掃描會根據其啟動順序排入佇列。現在您可以將掃描排定優先順序，將掃描移到佇列的最前面。可以優先處理多個掃描。優先順序是以先出的順序指定，也就是您優先處理的第一次掃描會移到佇列前方；您優先處理的第二次掃描會成為佇列中的第二次掃描，依此類推。</block>
   <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">優先順序是一次性授予。自動重新掃描對應資料會依預設順序進行。</block>
   <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">僅對應掃描</block>
-  <block id="92fbf5243922258219f1e304b1549560" category="paragraph">優先順序僅限於<block ref="4fb1432e3e9b17c8a7a21683abcd7d6c" category="inline-link-macro-rx"></block>；不適用於地圖和分類掃描。</block>
   <block id="42968807986d9cd74ea7703d63bf3408" category="paragraph">若要變更優先順序：</block>
   <block id="09d7e52dfc68f84cd7ef45e3c26a0389" category="list-text">從 BlueXP  分類功能表中，選取 * 組態 * 。</block>
   <block id="9ad22d134d0b57050c5d4d4a8e861bf9" category="list-text">選取您要排定優先順序的資源。</block>
@@ -751,8 +730,6 @@
   <block id="530a13d3dc2fccc16ebe8e25a47286a1" category="paragraph"><block ref="530a13d3dc2fccc16ebe8e25a47286a1" category="inline-link-macro-rx"></block></block>
   <block id="4bbf2de0e52eb20a42e04cf23bdb1683" category="list-text">支援指派多個角色給 BlueXP  使用者。</block>
   <block id="0608305ed5721ad4a69c3643b176e371" category="list-text">支援在 BlueXP  組織的多個資源上指派角色（組織 / 資料夾 / 專案）</block>
-  <block id="5781bb449b503c5fcaefb20bfaa81cc4" category="section-title">Cloud Volumes ONTAP 9.16.1 GA</block>
-  <block id="efa5e5522cbd4457ef4e551fb5d60491" category="paragraph">您現在可以使用 BlueXP  在 Azure 和 Google Cloud 中部署及管理 Cloud Volumes ONTAP 9.16.1 一般可用度版本。不過，此版本無法在 AWS 中進行部署和升級。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025 年 3 月 10 日</block>
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">版本 1.41</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此 BlueXP  分類版本包含一般改良功能和錯誤修正。其中也包括：</block>
@@ -776,8 +753,6 @@
   <block id="6a4c9cc76f7f432efa274c3ff0dae3dd" category="list-text">您也可以在此版本中選取 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。</block>
   <block id="28573ff4f820730a3eeae9cdd51b54d4" category="list-text">您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。</block>
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">探索先前所選工作環境的新建立工作負載</block>
-  <block id="16e3b92f9b1f5d1c29b18c748e6a228e" category="inline-link">使用「設定」選項設定擷取</block>
-  <block id="98e6e30b63e5242616c686684a17c03b" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="026d9da5e400c1054ac1084b0f63056d" category="inline-link-rx"></block>。</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">偵測到高加密時發出警示</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">此版本可讓您在工作負載上偵測到高加密時，檢視警示，即使沒有高副檔名變更也沒問題。此功能使用 ONTAP 自主勒索軟體保護（ ARP ） AI ，可協助您識別有勒索軟體攻擊風險的工作負載。使用此功能，下載包含或不含副檔名變更的受影響檔案的完整清單。</block>
   <block id="23b3b711859803a815b81aca1cc4811c" category="section-title">連接器 3.9.50</block>
@@ -798,6 +773,45 @@
   <block id="06476618a5631fabf79c4d5ebe8b60b0" category="paragraph">此更新可確保在刪除 SnapMirror 關係之後，無法從不支援的 ONTAP 版本的 BlueXP  備份與還原啟動 SnapMirror 雲端重新同步。</block>
   <block id="322a339b221056f32120ffd18077d44d" category="section-title">透過 Azure 中的 API 自動建立儲存 VM</block>
   <block id="aa1c2167957b1092da7e43e77867748c" category="paragraph">您現在可以使用 BlueXP  API 來為 Azure 中的 Cloud Volumes ONTAP 建立，重新命名及刪除其他資料服務儲存 VM 。如果您需要使用儲存 VM 進行管理，使用 API 可自動化儲存 VM 的建立程序，包括必要的網路介面，生命週期和管理 LIF 的組態。</block>
-  <block id="65cc3fef2113d2e1d1f636ab8cb02386" category="inline-link">在Cloud Volumes ONTAP Azure中建立資料服務儲存VM以供其使用</block>
-  <block id="5fc68a139fdd05790792b12eb853e84d" category="paragraph"><block ref="5fc68a139fdd05790792b12eb853e84d" category="inline-link-rx"></block></block>
+  <block id="5f2734b84896bdabcf7fd3574325d116" category="section-title">2025 年 3 月 28 日</block>
+  <block id="4da9a5d0cff1ab5f795fbdd68c2eedc2" category="section-title">私有模式版本（ 3.9.50 ）</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp 支援網站</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">現在可從下載新的私有模式版本<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="3ed9698e266f4060e99b8c0f2f38b027" category="paragraph">3.9.50 版本包含下列 BlueXP  元件和服務的更新。</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">元件或服務</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">此版本隨附的版本</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">自上一次私有模式版本以來所做的變更</block>
+  <block id="edf21d7ecb364e8210ddd3dfaeca6fbf" category="cell">連接器</block>
+  <block id="5820ebbb1da4e36bc0eb0db564450b99" category="cell">3.9.50 ， 3.9.49</block>
+  <block id="03f247630aa241e4b15df35baf8f5fd1" category="inline-link">BlueXP  Connector 網頁的新功能</block>
+  <block id="e411690e8dc95cbf79272f1e53cce845" category="cell">請參閱<block ref="291fbb881b3918f162f476bad9d0c478" category="inline-link-rx"></block>，並參閱 3.9.50 和 3.9.49 版所包含的變更。</block>
+  <block id="57d300ca1fdd6058fd2a0882b05ba831" category="inline-link">BlueXP  備份與還原頁面的新功能</block>
+  <block id="0e231d3391a335865e696150143618bc" category="cell">前往<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block>並參閱 2024 年 3 月版本中所包含的變更。</block>
+  <block id="10c518409c3dfbdd5e9839d2076ed5da" category="cell">2025 年 3 月 10 日（版本 1.41 ）</block>
+  <block id="79d6fb7fcd1197d45638c77f96548314" category="inline-link">BlueXP  分類頁面的新功能</block>
+  <block id="49e0c1b5be27dbeb84e3a7ca1d634276" category="cell">請移至，<block ref="bb3538c6013ff73961739d7c28fee95d" category="inline-link-rx"></block>並參閱 1.38 至 1.371.41 版本中所包含的變更。</block>
+  <block id="6aa6935f7c0067aba2624a4ad2862e39" category="paragraph">如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：</block>
+  <block id="a52b83d1b32a42f8a6aff3771048ba3c" category="inline-link">瞭解私有模式</block>
+  <block id="cdeb608610a882c24cefcb7daa878a1d" category="list-text"><block ref="cdeb608610a882c24cefcb7daa878a1d" category="inline-link-rx"></block></block>
+  <block id="8156defa13b44a36e67cab400c3b8bd4" category="inline-link">瞭解如何以私有模式開始使用 BlueXP</block>
+  <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
+  <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">瞭解如何在使用私有模式時升級 Connector</block>
+  <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
+  <block id="c00e1d18d877d030ee92aec3422b1aeb" category="paragraph">優先順序僅限於<block ref="377ae34afcc76614c5602798befc8a4b" category="inline-link-macro-rx"></block>；不適用於地圖和分類掃描。</block>
+  <block id="5920daf334ecef8057dd1e1d15f6124e" category="section-title">啟用 Cloud Volumes ONTAP 9.14.1 的私有模式部署</block>
+  <block id="f2035db09bb2be2db0508915fa584149" category="paragraph">您現在可以在 AWS ， Azure 和 Google Cloud 中以私有模式部署 Cloud Volumes ONTAP 9.14.1 。Cloud Volumes ONTAP 9.14.1 的單一節點和高可用度（ HA ）部署均啟用私有模式。</block>
+  <block id="dc748283e7593515df9e8f2759a85349" category="paragraph">如需有關私有模式部署的詳細資訊<block ref="312f421b6dd5cf62286ecf6a82a8132e" category="inline-link-rx"></block>，請參閱。</block>
+  <block id="4a688a36b1b8761ed6587867f87a2cc3" category="inline-link">管理 Azure 中 Cloud Volumes ONTAP 的資料服務儲存 VM</block>
+  <block id="efef8f9f364ee7668a530080a3464383" category="paragraph"><block ref="efef8f9f364ee7668a530080a3464383" category="inline-link-rx"></block></block>
+  <block id="3bc16ca089e94f59f68f327af0c3b646" category="paragraph">&lt;stdin&gt; 中的 unresolved 指令 - 包括： https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/whats-new.adoc[tag=whats-new,leveloffset=+1]</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025 年 3 月 05 日</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。</block>
+  <block id="210e4b14373af6b033275b95f93f9177" category="inline-link">使用「設定」選項設定功能</block>
+  <block id="b094aa2183c533f36783add64e674cad" category="paragraph">如需詳細資訊，請<block ref="7d31e5b11cc548279f7c20a9569ec8fc" category="inline-link-rx"></block>參閱和<block ref="852406c43f066a159f215dbd2c4abfc1" category="inline-link-rx"></block>。</block>
+  <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025 年 3 月 30 日</block>
+  <block id="ef74d01649997b60252254da8a1573fd" category="section-title">CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應</block>
+  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用 CloudShell 時，每次您發出 ONTAP CLI 命令並發生錯誤時，您都可以取得 AI 產生的錯誤回應，包括故障說明，故障原因及詳細解決方法。</block>
+  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM ： SimulatePermissionPolicy 權限更新</block>
+  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">現在您可以在工作負載原廠主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。</block>
 </blocks>

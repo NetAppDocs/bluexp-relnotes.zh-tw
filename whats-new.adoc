@@ -24,6 +24,38 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2025 年 3 月 28 日
+
+
+
+==== 私有模式版本（ 3.9.50 ）
+
+現在可從下載新的私有模式版本 https://mysupport.netapp.com/site/downloads["NetApp 支援網站"^]
+
+3.9.50 版本包含下列 BlueXP  元件和服務的更新。
+
+[cols="3*"]
+|===
+| 元件或服務 | 此版本隨附的版本 | 自上一次私有模式版本以來所做的變更 
+
+
+| 連接器 | 3.9.50 ， 3.9.49 | 請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXP  Connector 網頁的新功能"]，並參閱 3.9.50 和 3.9.49 版所包含的變更。 
+
+
+| 備份與還原 | 2025 年 3 月 17 日 | 前往 https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  備份與還原頁面的新功能"^]並參閱 2024 年 3 月版本中所包含的變更。 
+
+
+| 分類 | 2025 年 3 月 10 日（版本 1.41 ） | 請移至， https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP  分類頁面的新功能"^]並參閱 1.38 至 1.371.41 版本中所包含的變更。 
+|===
+如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解私有模式"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["瞭解如何在使用私有模式時升級 Connector"]
+
+
+
+
 === 2025 年 3 月 10 日
 
 
@@ -506,7 +538,7 @@ BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進
 
 優先順序是一次性授予。自動重新掃描對應資料會依預設順序進行。
 
-優先順序僅限於link:concept-cloud-compliance.md#whats-the-difference-between-mapping-and-classification-scans["僅對應掃描"]；不適用於地圖和分類掃描。
+優先順序僅限於link:concept-cloud-compliance.html["僅對應掃描"]；不適用於地圖和分類掃描。
 
 若要變更優先順序：
 
@@ -575,6 +607,18 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025 年 3 月 28 日
+
+
+
+==== 啟用 Cloud Volumes ONTAP 9.14.1 的私有模式部署
+
+您現在可以在 AWS ， Azure 和 Google Cloud 中以私有模式部署 Cloud Volumes ONTAP 9.14.1 。Cloud Volumes ONTAP 9.14.1 的單一節點和高可用度（ HA ）部署均啟用私有模式。
+
+如需有關私有模式部署的詳細資訊https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["瞭解 BlueXP 部署模式"^]，請參閱。
+
+
+
 === 2025 年 3 月 12 日
 
 
@@ -599,19 +643,7 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 您現在可以使用 BlueXP  API 來為 Azure 中的 Cloud Volumes ONTAP 建立，重新命名及刪除其他資料服務儲存 VM 。如果您需要使用儲存 VM 進行管理，使用 API 可自動化儲存 VM 的建立程序，包括必要的網路介面，生命週期和管理 LIF 的組態。
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["在Cloud Volumes ONTAP Azure中建立資料服務儲存VM以供其使用"^]
-
-
-
-=== 2025 年 3 月 6 日
-
-
-
-==== Cloud Volumes ONTAP 9.16.1 GA
-
-您現在可以使用 BlueXP  在 Azure 和 Google Cloud 中部署及管理 Cloud Volumes ONTAP 9.16.1 一般可用度版本。不過，此版本無法在 AWS 中進行部署和升級。
-
-link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud Volumes ONTAP 解本版的更新功能"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["管理 Azure 中 Cloud Volumes ONTAP 的資料服務儲存 VM"^]
 
 
 
@@ -637,31 +669,7 @@ link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/["深入瞭Cloud
 
 == 雲端作業
 
-
-
-=== 2020 年 12 月 7 日
-
-
-
-==== 在Cloud Manager和Spot之間進行導覽
-
-現在、您可以更輕鬆地在 Cloud Manager 和 Spot 之間進行瀏覽。
-
-全新的「 * 儲存作業 * 」區段可讓您直接導覽至 Cloud Manager 。完成後、您可以從 Cloud Manager 的 * Compute * 索引標籤找到答案。
-
-
-
-=== 2020 年 10 月 18 日
-
-
-
-==== 運算服務簡介
-
-善用資源 https://spot.io/products/cloud-analyzer/["Spot Cloud Analyzer 的功能"^]Cloud Manager現在可以針對您的雲端運算支出進行高階成本分析、並找出可能的節約效益。此資訊可從Cloud Manager * Compute *服務取得。
-
-https://docs.netapp.com/us-en/bluexp-cloud-ops/concept-compute.html["深入瞭解運算服務"]。
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/media/screenshot_compute_dashboard.gif["在Cloud Manager中顯示「成本分析」頁面的快照"]
+<stdin> 中的 unresolved 指令 - 包括： https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
 
 
 
@@ -705,6 +713,18 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 
 
+=== 2025 年 3 月 05 日
+
+
+
+==== 升級顧問
+
+* 現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。
+* 我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。
+
+
+
+
 === 2024 年 12 月 12 日
 
 
@@ -722,16 +742,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 ==== AutoSupport Widget
 
 AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。
-
-
-
-=== 2024 年 9 月 23 日
-
-
-
-==== 支援服務
-
-NetApp SupportEdge Basic 服務產品現在包含 SupportEdge Advisor 和 SupportEdge Expert 中所有可用的數位顧問功能、但完整堆疊拓撲（ VMware ）除外、即使啟用此功能、也無法提供 VMware 完整堆疊監控的可見度。
 
 
 
@@ -1131,7 +1141,7 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 * 您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。
 
 
-如需詳細資訊，請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索先前所選工作環境的新建立工作負載"]參閱和 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["使用「設定」選項設定擷取"]。
+如需詳細資訊，請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索先前所選工作環境的新建立工作負載"]參閱和 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["使用「設定」選項設定功能"]。
 
 
 
@@ -1388,6 +1398,26 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 
 
+=== 2025 年 3 月 30 日
+
+
+
+==== CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應
+
+使用 CloudShell 時，每次您發出 ONTAP CLI 命令並發生錯誤時，您都可以取得 AI 產生的錯誤回應，包括故障說明，故障原因及詳細解決方法。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"]
+
+
+
+==== IAM ： SimulatePermissionPolicy 權限更新
+
+現在您可以在工作負載原廠主控台管理 `iam:SimulatePrincipalPolicy`權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"]
+
+
+
 === 2025 年 2 月 02 日
 
 
@@ -1417,15 +1447,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  工作負載原廠權限"]
-
-
-
-=== 2025 年 1 月 5 日
-
-
-
-==== 支援 BlueXP  工作負載工廠的服務帳戶
-
-BlueXP  工作負載工廠現在支援服務帳戶。您可以建立服務帳戶，做為自動化基礎架構作業的機器使用者。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["建立及管理服務帳戶"]
