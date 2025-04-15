@@ -136,6 +136,46 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP 
 
 
 
+=== 2025 年 04 月 5 日
+
+
+
+==== Tracker 回應支援
+
+Tracker 現在提供 API 回應，讓您可以查看與工作相關的 REST API 輸出。
+
+
+
+==== AWS Secrets Manager 的連結驗證支援
+
+您現在可以選擇使用 AWS Secrets Manager 的機密來驗證連結，這樣就不需要使用儲存在 BlueXP  工作負載中的認證資料。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
+
+
+
+==== 為 ONTAP 檔案系統實作 FSX 的最佳實務做法
+
+BlueXP  工作負載提供儀表板，讓您檢視檔案系統組態架構良好的狀態。您可以利用此分析，為 ONTAP 檔案系統的 FSX 實作最佳實務做法。檔案系統組態分析包括下列組態： SSD 容量臨界值，排程本機快照， ONTAP 備份排程的 FSX ，資料分層和遠端資料複寫。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["瞭解檔案系統組態的架構良好分析"]
+* link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_well-architected/improve-configurations.html["為您的檔案系統實作最佳實務做法"]
+
+
+
+
+==== 架構良好的檔案系統問題通知
+
+在 BlueXP  主控台中，架構良好問題的 ONTAP 檔案系統適用的 FSX 現在會在 Canvas 中顯示通知，指出檔案系統何時有問題需要修正。
+
+
+
+==== 更新的權限術語
+
+工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。
+
+
+
 === 2025 年 3 月 30 日
 
 
@@ -157,42 +197,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 每當您使用 CloudShell 從 BlueXP  工作負載執行適用於 ONTAP 作業的 FSX 時，事件都會顯示在 Tracker 中。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX"^]
-
-
-
-=== 2025 年 2 月 02 日
-
-
-
-==== 將適用於 ONTAP 檔案系統的 FSX 與 BlueXP  中的工作區建立關聯
-
-在 2024 年 11 月 BlueXP  整合之後，新建立的 ONTAP 檔案系統 FSX 並未與 BlueXP  中的一個工作區相關聯。現在當您建立或探索 ONTAP 檔案系統的 FSX 時，這些檔案系統會與 BlueXP  帳戶中的一個工作區相關聯。
-
-如果您現有的適用於 ONTAP 檔案系統的 FSX 未與工作區相關聯，我們將協助您將其與 BlueXP  中的工作區相關聯。您可以link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html#create-a-case-with-netapp-support["利用 NetApp 支援建立案例"^]在 BlueXP  主控台內進行。選取 * 工作負載 Factory * 作為服務。
-
-
-
-==== 從 BlueXP  畫布移除檔案系統
-
-您現在可以從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個 BlueXP  帳戶內的另一個工作區建立關聯。
-
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-remove-filesystem.html["瞭解如何從 BlueXP  的工作區中移除適用於 ONTAP 檔案系統的 FSX"^]
-
-
-
-==== Tracker 可用於監控及追蹤作業
-
-BlueXP  Amazon FSX for NetApp ONTAP 提供全新的監控功能 Tracker 。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。
-
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.html["瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX"^]
-
-
-
-==== CloudShell 適用於 BlueXP  工作負載
-
-當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"^]
 
 
 
@@ -434,6 +438,48 @@ BlueXP  備份與還原引進更新的索引功能，可讓來源工作環境�
 
 
 
+=== 2025 年 12 月 5 日
+
+
+
+==== 版本 1.43
+
+此 BlueXP  分類版本包括：
+
+.排定分類掃描的優先順序
+BlueXP  分類現在可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。
+
+如需更多資訊、請參閱 link:task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
+
+.支援加拿大個人識別資訊（ PII ）資料類別
+BlueXP  分類掃描現在可識別加拿大 PII 資料類別，以取得所有省 / 地區的銀行資訊，護照號碼，社會保險號碼，以及駕照號碼和健康卡號碼。
+
+如需更多詳細資訊xref:reference-private-data-categories.adoc#types-of-personal-data[個人資料類別]，請參閱。
+
+.自訂分類（預覽）
+BlueXP  分類現在支援自訂地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以擷取組織專屬的資料，確保符合規則運算式。此功能目前正在預覽中。
+
+如需更多資訊、請參閱 xref:task-custom-classification.adoc[新增自訂分類]。
+
+.儲存的搜尋索引標籤
+**Policies ** 選項卡已重命名xref:task-using-policies.html[** 儲存的搜尋 **]。功能相同。
+
+.傳送掃描事件至稽核記錄
+BlueXP  掃描事件現在可以傳送至xref:task-audit-data-sense-actions.html[稽核日誌]。BlueXP  分類也支援傳送分類事件（當掃描開始及結束時）至link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  時間表"^]。只有工作環境才支援將分類掃描事件傳送至 BlueXP  時間表。
+
+.安全性更新
+* Keras 套件已更新，可減輕資訊安全風險（ BDSA-2025-0107 和 BDSA-2025-1984 ）。
+* Docker Container 組態已更新。容器不再能夠存取主機的網路介面來連接原始網路封包。透過減少不必要的存取，此更新可降低潛在的安全風險。
+
+
+.效能增強
+已實作程式碼增強功能，以減少 RAM 使用量，並改善 BlueXP  分類的整體效能。
+
+.錯誤修正
+導致 StorageGRID 掃描失敗的錯誤，無法載入調查頁面篩選選項，以及無法下載大量評估的資料探索評估已修正。
+
+
+
 === 2025 年 4 月 14 日
 
 
@@ -551,6 +597,26 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025 年 12 月 5 日
+
+
+
+==== 探索透過 BlueXP  中的 Azure 市場所進行的部署
+
+BlueXP  現在能夠探索直接透過 Azure 市場部署的 Cloud Volumes ONTAP 系統。這表示您現在可以將這些系統新增及管理為 BlueXP  中的工作環境，就像任何其他 Cloud Volumes ONTAP 系統一樣。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-mktplc.html["從 Azure 市場部署 Cloud Volumes ONTAP"^]
+
+
+
+==== 能夠為 Azure 租戶分層資料
+
+您現在可以在由一個租戶建立 Cloud Volumes ONTAP 工作環境，並由另一個租戶建立 BlueXP  Connector 的情況下，為 Azure 租戶啟用分層。您可以使用此功能，為多個 Azure 租戶使用相同的 Connector 來分層資料。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html#requirements-to-tier-data-for-an-azure-tenant["Azure 租戶的分層資料需求"^]
+
+
+
 === 2025 年 4 月 16 日
 
 
@@ -576,18 +642,6 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 您現在可以使用 BlueXP  API ，在 Google Cloud 中自動建立儲存 VM 。您已在 Cloud Volumes ONTAP 高可用度（ HA ）組態中使用此功能，現在您也可以在單一節點部署中使用此功能。透過 BlueXP  API ，您可以在 Google Cloud 環境中輕鬆建立，重新命名及刪除其他資料服務儲存 VM ，而無需手動設定所需的網路介面，生命和管理生命。這項自動化可簡化儲存 VM 的管理程序。
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-gcp.html["在 Google Cloud 中管理 Cloud Volumes ONTAP 的資料服務儲存 VM"^]
-
-
-
-=== 2025 年 4 月 3 日
-
-
-
-==== 支援 AWS 中的 Cloud Volumes ONTAP 9.13.1 在中國地區
-
-您現在可以在中國地區的 AWS 中部署 Cloud Volumes ONTAP 9.13.1 。這包括支援單一節點和高可用度（ HA ）部署。部署 Cloud Volumes ONTAP 9.13.1 之後，即可將其升級至更新版本。僅支援直接從 NetApp 購買的授權。
-
-如需區域供應狀況，請 https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]參閱。
 
 
 
@@ -771,7 +825,7 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 
 === 2025 年 4 月 16 日
 
-版本 4.3
+版本 4.2.2
 
 
 
@@ -808,6 +862,34 @@ BlueXP  災難恢復每 24 小時執行一次發現。有了這個版本，您�
 ==== 服務更新通知
 
 在此版本中，頂端會出現橫幅，表示服務正在升級，且服務處於維護模式。升級服務時會顯示橫幅，升級完成後會消失。雖然您可以在升級進行期間繼續在 UI 中工作，但您無法提交新工作。排程工作會在更新完成後執行，服務會返回正式作業模式。
+
+
+
+=== 2025 年 3 月 10 日
+
+版本 4.2.1
+
+
+
+==== 智慧型 Proxy 支援
+
+BlueXP  Connector 支援智慧型 Proxy 。智慧型 Proxy 是一種輕量，安全且有效率的方法，可將內部環境連線至 BlueXP  服務。它可在您的環境和 BlueXP  服務之間提供安全連線，而不需要 VPN 或直接網際網路存取。這項最佳化的 Proxy 實作可卸載本機網路內的 API 流量。
+
+設定 Proxy 時， BlueXP  災難恢復會嘗試直接與 VMware 或 ONTAP 通訊，並在直接通訊失敗時使用設定的 Proxy 。
+
+BlueXP  災難恢復 Proxy 實作需要連接器與任何 vCenter Server 和 ONTAP 陣列之間使用 HTTPS 通訊協定進行連接埠 443 通訊。Connector 內的 BlueXP  災難恢復代理程式在執行任何動作時，會直接與 VMware vSphere ， VC 或 ONTAP 通訊。
+
+如需 BlueXP  災難恢復智慧型 Proxy 的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-setup.html["為 BlueXP 災難恢復設定基礎架構"]。
+
+如需在 BlueXP  中設定一般 Proxy 的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/task-configuring-proxy.html["設定連接器以使用Proxy伺服器"^]。
+
+
+
+==== 隨時結束免費試用
+
+您可以在任何時間停止免費試用，也可以等到試用期到期。
+
+請參閱。 https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html#end-the-free-trial["結束免費試用"]
 
 
 
@@ -1390,6 +1472,22 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 
 
+=== 2025 年 04 月 5 日
+
+
+
+==== CloudShell 自動完整支援
+
+使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。
+
+
+
+==== 更新的權限術語
+
+工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。
+
+
+
 === 2025 年 3 月 30 日
 
 
@@ -1427,15 +1525,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使
 現在，下列權限可在 _read_ 模式下用於資料庫： `iam:SimulatePrincipalPolicy`。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"]
-
-
-
-=== 2025 年 1 月 22 日
-
-
-
-==== BlueXP  工作負載原廠權限
-
-您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  工作負載原廠權限"]

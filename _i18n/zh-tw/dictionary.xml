@@ -388,15 +388,9 @@
   <block id="bd03ede87c82adb65c788a5ae08c50b6" category="inline-link">探索工作負載</block>
   <block id="9ac7153dab130e828e160c247e5ccb61" category="paragraph">請參閱<block ref="24a34ebfc2a0852de6406d8f5a18bd02" category="inline-link-rx"></block>。</block>
   <block id="c523b074da0b63e607578686184d5981" category="section-title">2025 年 10 月 2 日</block>
-  <block id="4716735cca1c0ec4ab6acb97d14dcaa7" category="inline-link-macro">利用 NetApp 支援建立案例</block>
-  <block id="f0100d47b49cbe11e6a325bdee8db6ff" category="paragraph">如果您現有的適用於 ONTAP 檔案系統的 FSX 未與工作區相關聯，我們將協助您將其與 BlueXP  中的工作區相關聯。您可以<block ref="d0e0ce62131d959daa6f062d97c0d6a8" category="inline-link-macro-rx"></block>在 BlueXP  主控台內進行。選取 * 工作負載 Factory * 作為服務。</block>
-  <block id="181840612e9e637bf9dbbc740a738a45" category="inline-link-macro">瞭解如何從 BlueXP  的工作區中移除適用於 ONTAP 檔案系統的 FSX</block>
-  <block id="e3d09410dae9543aebfcc83b7bceebc5" category="paragraph"><block ref="e3d09410dae9543aebfcc83b7bceebc5" category="inline-link-macro-rx"></block></block>
   <block id="0672b60d374d87a810fa73810e4a0a82" category="inline-link-macro">瞭解如何在 BlueXP  中監控和追蹤適用於 ONTAP 作業的 FSX</block>
   <block id="d3626ed21f71a99d578970f5e4960cdc" category="paragraph"><block ref="d3626ed21f71a99d578970f5e4960cdc" category="inline-link-macro-rx"></block></block>
-  <block id="30e5906a069abe8bb88f1aed916b358b" category="paragraph">當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。</block>
   <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">使用 CloudShell</block>
-  <block id="03efd4c623255859d8f24cea1414ca80" category="paragraph"><block ref="03efd4c623255859d8f24cea1414ca80" category="inline-link-macro-rx"></block></block>
   <block id="a4a7057d917e03803441c79badd6d519" category="paragraph">以前，資料調查報告匯出限制為 10 ， 000 列。此版本已移除限制，您可以匯出所有資料。這項變更可讓您從資料調查報告匯出更多資料，讓您在資料分析時更有彈性。</block>
   <block id="72fa9e7ff6f311a170ad8d720dff3f2f" category="paragraph">您可以選擇工作環境，磁碟區，目的地資料夾，以及 JSON 或 CSV 格式。匯出的檔案名稱包含時間戳記，可協助您識別資料匯出的時間。</block>
   <block id="7afa5ec6a3f715e47b3c6fa2655f18b0" category="paragraph">支援的工作環境包括：</block>
@@ -413,8 +407,6 @@
   <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">權限參考變更記錄</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="ca475a2b63c70fedcf8f6650024d480b" category="section-title">BlueXP  工作負載原廠權限</block>
-  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP  數位錢包經過重新設計，易於使用，現在提供額外的訂閱和授權管理功能。</block>
   <block id="2b513ec32615ab736c1cab315db516f8" category="section-title">2025 年 1 月 13 日</block>
   <block id="c33f35ab44944cc0d09e5bb702125592" category="section-title">2024 年 12 月 16 日</block>
@@ -425,13 +417,6 @@
   <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">您可以深入瞭解警示詳細資料並尋找建議。</block>
   <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 ONTAP 系統管理員的詳細資料。</block>
   <block id="986aee2caba870111e5ce3c5571c82de" category="section-title">2025 年 2 月 02 日</block>
-  <block id="8f0b3ce2b96f337852fd1c252724a612" category="section-title">將適用於 ONTAP 檔案系統的 FSX 與 BlueXP  中的工作區建立關聯</block>
-  <block id="da3003c64aba681511ac42ea840639fa" category="paragraph">在 2024 年 11 月 BlueXP  整合之後，新建立的 ONTAP 檔案系統 FSX 並未與 BlueXP  中的一個工作區相關聯。現在當您建立或探索 ONTAP 檔案系統的 FSX 時，這些檔案系統會與 BlueXP  帳戶中的一個工作區相關聯。</block>
-  <block id="ca67d4d470c8d498e9ac0294cf4f7805" category="section-title">從 BlueXP  畫布移除檔案系統</block>
-  <block id="b93cfe5d8c5b8d31c6e277f9086d4e40" category="paragraph">您現在可以從 BlueXP  畫布的工作區中移除適用於 ONTAP 檔案系統的 FSX 。此作業會將檔案系統與一個工作區分離，以便您將其與同一個 BlueXP  帳戶內的另一個工作區建立關聯。</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">Tracker 可用於監控及追蹤作業</block>
-  <block id="ce9be95deabee3be9356a5b5de8e7b0b" category="paragraph">BlueXP  Amazon FSX for NetApp ONTAP 提供全新的監控功能 Tracker 。您可以使用 Tracker 來監控和追蹤認證，儲存和連結作業的進度和狀態，檢閱作業工作和子任務的詳細資料，診斷任何問題或失敗，編輯失敗作業的參數，以及重試失敗的作業。</block>
-  <block id="27a901c04d21dffe48f2fc38150f7c5c" category="section-title">CloudShell 適用於 BlueXP  工作負載</block>
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023 年 3 月 5 日</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">能夠從BlueXP新增庫位</block>
   <block id="3bec690d07df1a3a36c8a3122654fc24" category="section-title">2023 年 6 月 5 日</block>
@@ -556,7 +541,6 @@
   <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">CloudShell 可從 BlueXP  工作負載原廠主控台的任何位置取得。CloudShell 可讓您使用 BlueXP  帳戶提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。</block>
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">資料庫的權限更新</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">現在，下列權限可在 _read_ 模式下用於資料庫：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
-  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">您現在可以檢視 BlueXP  工作負載工廠用來執行各種作業的權限，從探索儲存環境到部署 AWS 資源，例如儲存設備中的檔案系統，或是 GenAI 工作負載的知識庫。您可以檢視儲存，資料庫， VMware 和 GenAI 工作負載的 IAM 原則和權限。</block>
   <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">檢視連結至 ONTAP 系統管理員的叢集詳細資料</block>
   <block id="79043fd5ff3b61216207b60882cd72cd" category="section-title">2025 年 19 月 2 日</block>
   <block id="6b9d9a04ff593ff427731819f0c3618f" category="section-title">版本 1.40</block>
@@ -730,7 +714,6 @@
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">在 BlueXP  軟體更新的摘要區段中，您現在可以檢視作業系統更新可減輕的風險總數。這可讓使用者評估其安裝基礎上的安全性與穩定性改善。</block>
   <block id="198726f3c4a7290d3254fd163158a5d0" category="list-text">沒有組織管理員，資料夾或專案管理員的使用者，必須指派勒索軟體保護角色，才能存取勒索軟體保護。您可以指派使用者兩種角色之一：勒索軟體保護管理員或勒索軟體保護檢視器。</block>
   <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025 年 4 月 16 日</block>
-  <block id="e1b61136672bccd13e6828fe7987e4f6" category="paragraph">版本 4.3</block>
   <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">虛擬機器排程探索</block>
   <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">BlueXP  災難恢復每 24 小時執行一次發現。有了這個版本，您現在可以自訂探索排程，以滿足您的需求，並在需要時降低對效能的影響。例如，如果您有大量 VM ，則可以將探索排程設定為每 48 小時執行一次。如果 VM 數量不多，您可以將探索排程設定為每 12 小時執行一次。</block>
   <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">如果您不想排程探索，您可以停用排程探索選項，並隨時手動重新整理探索。</block>
@@ -784,11 +767,6 @@
   <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">您現在可以在以下地區的單一和多個可用性區域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。這包括支援單一節點和高可用度（ HA ）部署。</block>
   <block id="db0cdd3af654aa7b69312d9b6154a9de" category="list-text">西班牙中部</block>
   <block id="ef87967149148a309569bd7d04467de6" category="list-text">墨西哥中部</block>
-  <block id="f0d468a1074534e3b37c7322f2e97bb1" category="section-title">2025 年 4 月 3 日</block>
-  <block id="b77891a5294c25aca8a6fda943805ecf" category="section-title">支援 AWS 中的 Cloud Volumes ONTAP 9.13.1 在中國地區</block>
-  <block id="3899c7c0df13a38296f1334779a1dfe7" category="paragraph">您現在可以在中國地區的 AWS 中部署 Cloud Volumes ONTAP 9.13.1 。這包括支援單一節點和高可用度（ HA ）部署。部署 Cloud Volumes ONTAP 9.13.1 之後，即可將其升級至更新版本。僅支援直接從 NetApp 購買的授權。</block>
-  <block id="abe88f95b23156cb29c433c9ebe92a00" category="inline-link">全球區域地圖Cloud Volumes ONTAP 、供您使用</block>
-  <block id="10df570a0447a18b299f516b2e8498c2" category="paragraph">如需區域供應狀況，請<block ref="f76c632bc8b9c4e032a9d48fcbfa8dc1" category="inline-link-rx"></block>參閱。</block>
   <block id="8855742ef7ac60d26f35536e1d09aef9" category="section-title">2025 年 4 月 29 日</block>
   <block id="f65bfe10577ea64b648eddd04f107545" category="section-title">支援Amazon FSX for NetApp ONTAP 功能</block>
   <block id="24964ea0918b681c02283685b1da1438" category="paragraph">此版本支援 Amazon FSX for NetApp ONTAP 。此功能可透過 BlueXP  勒索軟體保護，協助您保護適用於 ONTAP 工作負載的 FSX 。</block>
@@ -802,4 +780,70 @@
   <block id="280931b406a1e00d83a4a8faa2e537a0" category="paragraph">如需詳細資訊、請<block ref="4517bbdfa51110822f93ef44df6a4f92" category="inline-link-rx"></block>參閱。</block>
   <block id="08ceca9f9a853977a5c71c8c66b68b55" category="inline-link">BlueXP  勒索軟體保護限制</block>
   <block id="eb745462fc54b055b8087d694fb01b5f" category="paragraph">如需支援選項的相關資訊，請參閱<block ref="875047b763859105fc2c6e622181cfbb" category="inline-link-rx"></block>。</block>
+  <block id="822748e99c70e9162ce5432b2e1eff5c" category="section-title">2025 年 04 月 5 日</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">Tracker 回應支援</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">Tracker 現在提供 API 回應，讓您可以查看與工作相關的 REST API 輸出。</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">AWS Secrets Manager 的連結驗證支援</block>
+  <block id="73ecd40a86b02acff9f56b3a1ac74d7f" category="paragraph">您現在可以選擇使用 AWS Secrets Manager 的機密來驗證連結，這樣就不需要使用儲存在 BlueXP  工作負載中的認證資料。</block>
+  <block id="37b002845528ac0296b86d28bb71e5a5" category="inline-link-macro">使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX</block>
+  <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">為 ONTAP 檔案系統實作 FSX 的最佳實務做法</block>
+  <block id="bf66fc8532837c2f341b98d92d40bd27" category="paragraph">BlueXP  工作負載提供儀表板，讓您檢視檔案系統組態架構良好的狀態。您可以利用此分析，為 ONTAP 檔案系統的 FSX 實作最佳實務做法。檔案系統組態分析包括下列組態： SSD 容量臨界值，排程本機快照， ONTAP 備份排程的 FSX ，資料分層和遠端資料複寫。</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">瞭解檔案系統組態的架構良好分析</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">為您的檔案系統實作最佳實務做法</block>
+  <block id="a04ab86f504e47221c279d8c74e9697c" category="list-text"><block ref="a04ab86f504e47221c279d8c74e9697c" category="inline-link-macro-rx"></block></block>
+  <block id="dad34f5734adb85d9981374c4c32d1d5" category="section-title">架構良好的檔案系統問題通知</block>
+  <block id="16ca2e92ee84ccef4088c5d2a61cd8d2" category="paragraph">在 BlueXP  主控台中，架構良好問題的 ONTAP 檔案系統適用的 FSX 現在會在 Canvas 中顯示通知，指出檔案系統何時有問題需要修正。</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新的權限術語</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">工作負載原廠使用者介面與文件現在使用「唯讀」來指稱讀取權限，而「讀取寫入」則指自動化權限。</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025 年 12 月 5 日</block>
+  <block id="67840d2b3ccd99d7c6db2904273f95ef" category="section-title">版本 1.43</block>
+  <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">排定分類掃描的優先順序</block>
+  <block id="0dc348cb820b479010800e3c6cddc127" category="paragraph">BlueXP  分類現在可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。</block>
+  <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">支援加拿大個人識別資訊（ PII ）資料類別</block>
+  <block id="25afe4e8f395663d2442297e33aa8a20" category="paragraph">BlueXP  分類掃描現在可識別加拿大 PII 資料類別，以取得所有省 / 地區的銀行資訊，護照號碼，社會保險號碼，以及駕照號碼和健康卡號碼。</block>
+  <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">個人資料類別</block>
+  <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">如需更多詳細資訊<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>，請參閱。</block>
+  <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">自訂分類（預覽）</block>
+  <block id="e43dc9231ca750651c1b2d09176b0bc3" category="paragraph">BlueXP  分類現在支援自訂地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以擷取組織專屬的資料，確保符合規則運算式。此功能目前正在預覽中。</block>
+  <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">新增自訂分類</block>
+  <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">如需更多資訊、請參閱 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>。</block>
+  <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">儲存的搜尋索引標籤</block>
+  <block id="1005b3a447fe9caf1ce373cf96b4dc01" category="inline-xref-macro">** 儲存的搜尋 **</block>
+  <block id="619964fa6c4dc175f106697cd53cd93b" category="paragraph">**Policies ** 選項卡已重命名<block ref="57cf69bfb5ee6dec8716152c342ad94c" category="inline-xref-macro-rx"></block>。功能相同。</block>
+  <block id="260ad9aa0619e900a957ec4498a7084d" category="paragraph-title">傳送掃描事件至稽核記錄</block>
+  <block id="decaf26b476fc5aad56ba857036660b7" category="inline-link-macro">BlueXP  時間表</block>
+  <block id="7d71019726dccc04ceb52b94f892b7f6" category="inline-xref-macro">稽核日誌</block>
+  <block id="1c6653b6dfd13a16237efa3ea5c87e2a" category="paragraph">BlueXP  掃描事件現在可以傳送至<block ref="e7616c9e5375866db0d455d96b016998" category="inline-xref-macro-rx"></block>。BlueXP  分類也支援傳送分類事件（當掃描開始及結束時）至<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。只有工作環境才支援將分類掃描事件傳送至 BlueXP  時間表。</block>
+  <block id="ddba4621d4e9a4c39c38ef2131834760" category="list-title">安全性更新</block>
+  <block id="0a39c7bc14a0f00de22f1ead79c18b0c" category="list-text">Keras 套件已更新，可減輕資訊安全風險（ BDSA-2025-0107 和 BDSA-2025-1984 ）。</block>
+  <block id="408f8b982d641a307784a27c0fb6d9c9" category="list-text">Docker Container 組態已更新。容器不再能夠存取主機的網路介面來連接原始網路封包。透過減少不必要的存取，此更新可降低潛在的安全風險。</block>
+  <block id="4a02475d909bd7464565a63664e4dc8b" category="paragraph-title">效能增強</block>
+  <block id="247e7f07f0a97b367563cc22c1a529cb" category="paragraph">已實作程式碼增強功能，以減少 RAM 使用量，並改善 BlueXP  分類的整體效能。</block>
+  <block id="223594359ca2e5c0c959aa756dea2d50" category="paragraph">導致 StorageGRID 掃描失敗的錯誤，無法載入調查頁面篩選選項，以及無法下載大量評估的資料探索評估已修正。</block>
+  <block id="462848e89fbcd7fc117ed7c36b47f6f3" category="section-title">探索透過 BlueXP  中的 Azure 市場所進行的部署</block>
+  <block id="cb52ca43108f98673f7dcc6c4bc528f6" category="paragraph">BlueXP  現在能夠探索直接透過 Azure 市場部署的 Cloud Volumes ONTAP 系統。這表示您現在可以將這些系統新增及管理為 BlueXP  中的工作環境，就像任何其他 Cloud Volumes ONTAP 系統一樣。</block>
+  <block id="e94250a733abb8fd0b0ca35ccdcc534f" category="inline-link">從 Azure 市場部署 Cloud Volumes ONTAP</block>
+  <block id="2f3a59a024a5fa5e6d9049c44506f8b0" category="paragraph"><block ref="2f3a59a024a5fa5e6d9049c44506f8b0" category="inline-link-rx"></block></block>
+  <block id="d2e69d0efb90eba181fe1aff16489eba" category="section-title">能夠為 Azure 租戶分層資料</block>
+  <block id="6a86c1cc6c3338bb337a5e643e80da8e" category="paragraph">您現在可以在由一個租戶建立 Cloud Volumes ONTAP 工作環境，並由另一個租戶建立 BlueXP  Connector 的情況下，為 Azure 租戶啟用分層。您可以使用此功能，為多個 Azure 租戶使用相同的 Connector 來分層資料。</block>
+  <block id="879e91c0a0fa09577c58d0330291ff06" category="inline-link">Azure 租戶的分層資料需求</block>
+  <block id="215678b43321c729a07cabb64971f83c" category="paragraph"><block ref="215678b43321c729a07cabb64971f83c" category="inline-link-rx"></block></block>
+  <block id="848964f0743e2416b5d061a5e088ca73" category="paragraph">版本 4.2.2</block>
+  <block id="ae493f6fb938d3c8c6db8b5a9e623794" category="paragraph">版本 4.2.1</block>
+  <block id="78e5de64c036a105265b3f447a5fbbca" category="section-title">智慧型 Proxy 支援</block>
+  <block id="12430fc7d9e2c156fb2dc1af2bf60126" category="paragraph">BlueXP  Connector 支援智慧型 Proxy 。智慧型 Proxy 是一種輕量，安全且有效率的方法，可將內部環境連線至 BlueXP  服務。它可在您的環境和 BlueXP  服務之間提供安全連線，而不需要 VPN 或直接網際網路存取。這項最佳化的 Proxy 實作可卸載本機網路內的 API 流量。</block>
+  <block id="2baae43f4fa62104c66585e956c51e1e" category="paragraph">設定 Proxy 時， BlueXP  災難恢復會嘗試直接與 VMware 或 ONTAP 通訊，並在直接通訊失敗時使用設定的 Proxy 。</block>
+  <block id="a115e6ab8acfcda534f22a18d1d6940d" category="paragraph">BlueXP  災難恢復 Proxy 實作需要連接器與任何 vCenter Server 和 ONTAP 陣列之間使用 HTTPS 通訊協定進行連接埠 443 通訊。Connector 內的 BlueXP  災難恢復代理程式在執行任何動作時，會直接與 VMware vSphere ， VC 或 ONTAP 通訊。</block>
+  <block id="7297a33a5c9a50db535ceb180e4e6c29" category="inline-link">為 BlueXP 災難恢復設定基礎架構</block>
+  <block id="a7a0475144b255eccfff4d2ee3e7a5c4" category="paragraph">如需 BlueXP  災難恢復智慧型 Proxy 的詳細資訊，請參閱<block ref="bf1bf7a536149f2406a2eab17db3a297" category="inline-link-rx"></block>。</block>
+  <block id="146adb7944757e88795676b780c31811" category="inline-link">設定連接器以使用Proxy伺服器</block>
+  <block id="635abfb2f80497d39998f2a81dfecd7e" category="paragraph">如需在 BlueXP  中設定一般 Proxy 的詳細資訊，請參閱<block ref="4d83a369cd8d5456206d71335578eaaa" category="inline-link-rx"></block>。</block>
+  <block id="7469dc0d82ce9411c03b852f2163d515" category="section-title">隨時結束免費試用</block>
+  <block id="38567a6024618c3687de90b3e2cff86e" category="paragraph">您可以在任何時間停止免費試用，也可以等到試用期到期。</block>
+  <block id="8d4d6551ee286317b2a4f297766952f5" category="inline-link">結束免費試用</block>
+  <block id="b618f30aeca114d464120de119b19ced" category="paragraph">請參閱。<block ref="5f37f8bd4230e4b629c60b7dc23a5850" category="inline-link-rx"></block></block>
+  <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 自動完整支援</block>
+  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
 </blocks>
