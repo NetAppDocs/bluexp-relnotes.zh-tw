@@ -264,6 +264,59 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
+=== 2025 年 4 月 16 日
+
+此 BlueXP  備份與還原版本包含下列更新。
+
+
+
+==== 增強型 Volume Dashboard （預覽）
+
+Volume Dashboard 現在可在 10 秒內完成載入，提供更快，更有效率的介面。此預覽版本可提供給特定客戶，讓他們及早瞭解這些改善項目。
+
+
+
+==== UI 改善
+
+此版本可簡化介面，提升您的使用體驗：
+
+* 將 Aggregate 資料行從 Volumes 資料表中移除，以及從 V2 Dashboard 的 Volume 資料表中移除 Snapshot Policy ， Backup Policy 和 Replication Policy 資料行，將會產生更精簡的配置。
+* 從下拉式清單中排除未啟動的工作環境，可減少介面雜亂，導覽效率更高，載入速度更快。
+* 在標記欄上排序已停用時，您仍可檢視標記，確保重要資訊仍可輕鬆存取。
+* 移除保護圖示上的標籤有助於更簡潔的外觀，並減少載入時間。
+* 在工作環境啟動程序期間，對話方塊會顯示一個載入圖示，以提供意見回饋，直到探索程序完成為止，以提高系統作業的透明度和信心。
+
+
+
+
+==== 支援第三方 WASBI 物件存放區（預覽）
+
+BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主要著重於 WASBI 。這項新的預覽功能可讓您運用任何與 S3 相容的物件儲存區，滿足備份與還原需求。
+
+
+
+===== WASBI 入門
+
+若要開始使用此功能，您必須在 BlueXP  UI 中啟用旗標。然後，您可以輸入第三方物件存放區的連線詳細資料，並將其整合至備份與還原工作流程。
+
+
+
+===== 預覽模式限制
+
+在預覽此功能時，請考慮下列限制：
+
+* 不支援自帶鏟斗（ BYOB ）。
+* 不支援在原則中啟用 DataLock 。
+* 不支援在原則中啟用歸檔模式。
+* 僅支援內部部署 ONTAP 環境。
+* 不支援 MetroCluster 。
+* 不支援啟用貯體層級加密的選項。
+
+
+在此預覽期間，我們鼓勵您探索這項新功能，並在完整功能推出之前，提供與協力廠商物件存放區整合的意見反應。
+
+
+
 === 2025 年 3 月 17 日
 
 此 BlueXP  備份與還原版本包含下列更新。
@@ -344,34 +397,6 @@ BlueXP  備份與還原引進更新的索引功能，可讓來源工作環境�
 
 * 新索引不會在標示為每小時的快照上執行。
 * 新的索引功能僅適用於 FlexVols 上的快照，不適用於 FlexGroups 上的快照。
-
-
-
-
-=== 2024 年 11 月 22 日
-
-此 BlueXP  備份與還原版本包含下列更新。
-
-
-
-==== SnapLock Compliance 和 SnapLock Enterprise 保護模式
-
-BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLock Enterprise 保護模式設定的 FlexVol 和 FlexGroup 內部部署磁碟區。您的叢集必須執行 ONTAP 9.14 或更新版本、才能獲得此支援。自 ONTAP 9.11.1 版起、就支援使用 SnapLock 企業模式備份 FlexVol Volume 。較早的 ONTAP 版本不支援備份 SnapLock 保護磁碟區。
-
-請參閱中支援磁碟區的完整清單 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["瞭解 BlueXP 備份與還原"]。
-
-
-
-==== 「磁碟區」頁面上的「搜尋與還原程序索引」
-
-在使用搜尋與還原之前、您必須在每個要從中還原Volume資料的來源工作環境上啟用「索引」。這可讓 Indexed Catalog 追蹤每個磁碟區的備份檔案。「 Volume 」頁面現在會顯示索引狀態：
-
-* 索引：已建立磁碟區索引。
-* 進行中
-* 非索引
-* 索引已暫停
-* 錯誤
-* 未啟用
 
 
 
