@@ -812,10 +812,7 @@
   <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">儲存的搜尋索引標籤</block>
   <block id="1005b3a447fe9caf1ce373cf96b4dc01" category="inline-xref-macro">** 儲存的搜尋 **</block>
   <block id="619964fa6c4dc175f106697cd53cd93b" category="paragraph">**Policies ** 選項卡已重命名<block ref="57cf69bfb5ee6dec8716152c342ad94c" category="inline-xref-macro-rx"></block>。功能相同。</block>
-  <block id="260ad9aa0619e900a957ec4498a7084d" category="paragraph-title">傳送掃描事件至稽核記錄</block>
   <block id="decaf26b476fc5aad56ba857036660b7" category="inline-link-macro">BlueXP  時間表</block>
-  <block id="7d71019726dccc04ceb52b94f892b7f6" category="inline-xref-macro">稽核日誌</block>
-  <block id="1c6653b6dfd13a16237efa3ea5c87e2a" category="paragraph">BlueXP  掃描事件現在可以傳送至<block ref="e7616c9e5375866db0d455d96b016998" category="inline-xref-macro-rx"></block>。BlueXP  分類也支援傳送分類事件（當掃描開始及結束時）至<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。只有工作環境才支援將分類掃描事件傳送至 BlueXP  時間表。</block>
   <block id="ddba4621d4e9a4c39c38ef2131834760" category="list-title">安全性更新</block>
   <block id="0a39c7bc14a0f00de22f1ead79c18b0c" category="list-text">Keras 套件已更新，可減輕資訊安全風險（ BDSA-2025-0107 和 BDSA-2025-1984 ）。</block>
   <block id="408f8b982d641a307784a27c0fb6d9c9" category="list-text">Docker Container 組態已更新。容器不再能夠存取主機的網路介面來連接原始網路封包。透過減少不必要的存取，此更新可降低潛在的安全風險。</block>
@@ -846,4 +843,6 @@
   <block id="b618f30aeca114d464120de119b19ced" category="paragraph">請參閱。<block ref="5f37f8bd4230e4b629c60b7dc23a5850" category="inline-link-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 自動完整支援</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
+  <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">將掃描事件傳送至 BlueXP  時間表</block>
+  <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">BlueXP  分類現在支援傳送分類事件（當掃描開始及結束時）至<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
 </blocks>

@@ -464,8 +464,8 @@ BlueXP  分類現在支援自訂地圖分類和分類掃描。使用自訂分�
 .儲存的搜尋索引標籤
 **Policies ** 選項卡已重命名xref:task-using-policies.html[** 儲存的搜尋 **]。功能相同。
 
-.傳送掃描事件至稽核記錄
-BlueXP  掃描事件現在可以傳送至xref:task-audit-data-sense-actions.html[稽核日誌]。BlueXP  分類也支援傳送分類事件（當掃描開始及結束時）至link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  時間表"^]。只有工作環境才支援將分類掃描事件傳送至 BlueXP  時間表。
+.將掃描事件傳送至 BlueXP  時間表
+BlueXP  分類現在支援傳送分類事件（當掃描開始及結束時）至link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  時間表"^]。
 
 .安全性更新
 * Keras 套件已更新，可減輕資訊安全風險（ BDSA-2025-0107 和 BDSA-2025-1984 ）。
