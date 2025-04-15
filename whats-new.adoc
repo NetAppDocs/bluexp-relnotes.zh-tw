@@ -24,6 +24,31 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2025 年 4 月 14 日
+
+
+
+==== 連接器 3.9.51
+
+此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
+
+目前、 3.9.51 版本適用於標準模式和受限模式。
+
+
+
+==== BlueXP  身分識別與存取管理（ IAM ）
+
+* 沒有組織管理員，資料夾或專案管理員的使用者，必須指派勒索軟體保護角色，才能存取勒索軟體保護。您可以指派使用者兩種角色之一：勒索軟體保護管理員或勒索軟體保護檢視器。
+* 沒有組織管理員，資料夾或專案管理員的使用者必須指派 Keystone 角色，才能存取 Keystone 。您可以指派使用者兩個角色之一： Keystone 管理員或 Keystone 檢視器。
+
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["瞭解存取角色。"^]
+
+* 如果您具有組織管理員或資料夾或專案管理員角色，現在您可以將 Keystone 訂閱與 IAM 專案建立關聯。將 Keystone 訂閱與 IAM 專案建立關聯可讓您控制 BlueXP  中 Keystone 的存取。
+
+
+
+
 === 2025 年 3 月 28 日
 
 
@@ -39,7 +64,7 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 | 元件或服務 | 此版本隨附的版本 | 自上一次私有模式版本以來所做的變更 
 
 
-| 連接器 | 3.9.50 ， 3.9.49 | 請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXP  Connector 網頁的新功能"]，並參閱 3.9.50 和 3.9.49 版所包含的變更。 
+| 連接器 | 3.9.50 ， 3.9.49 | 請移至， https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXP  Connector 網頁的新功能"]並參閱 3.9.50 和 3.9.49 版隨附的變更。 
 
 
 | 備份與還原 | 2025 年 3 月 17 日 | 前往 https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  備份與還原頁面的新功能"^]並參閱 2024 年 3 月版本中所包含的變更。 
@@ -74,153 +99,6 @@ NetApp Keystone 即將從 BlueXP  推出，現已推出試用版。您可以從
 
 
 
-=== 2025 年 3 月 6 日
-
-
-
-==== Connector 3.9.49 更新
-
-
-
-===== 當 BlueXP  使用連接器時， ONTAP 系統管理員即可存取
-
-BlueXP  管理員（具有組織管理員角色的使用者）可以設定 BlueXP  ，以提示使用者輸入其 ONTAP 認證，以便存取 ONTAP 系統管理員。啟用此設定時，使用者每次都需要輸入其 ONTAP 認證，因為這些認證並未儲存在 BlueXP  中。
-
-此功能可在 Connector 3.9.49 版及更高版本中使用。link:task-ontap-access-connector.html["瞭解如何設定認證設定。"^]。
-
-
-
-==== Connector 3.9.48 更新
-
-
-
-===== 可停用 Connector 的自動升級設定
-
-您可以停用 Connector 的自動升級功能。
-
-當您在標準模式或受限模式下使用 BlueXP  時，只要連接器具有連出網際網路存取權以取得軟體更新， BlueXP  就會自動將您的連接器升級至最新版本。如果您需要在連接器升級時手動管理，現在可以停用標準模式或限制模式的自動升級。
-
-
-NOTE: 此變更不會影響 BlueXP  私有模式，您必須自行升級連接器。
-
-此功能可在 Connector 3.9.48 版及更高版本中使用。
-
-link:task-upgrade-connector.html["瞭解如何停用 Connector 的自動升級。"^]
-
-
-
-=== 2025 年 10 月 2 日
-
-
-
-==== 連接器 3.9.49
-
-此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
-
-目前、 3.9.49 版本適用於標準模式和受限模式。
-
-
-
-==== BlueXP  身分識別與存取管理（ IAM ）
-
-* 支援指派多個角色給 BlueXP  使用者。
-* 支援在 BlueXP  組織的多個資源上指派角色（組織 / 資料夾 / 專案）
-* 角色現在與平台和資料服務這兩個類別之一相關聯。
-
-
-
-
-===== 受限模式現在使用 BlueXP  IAM
-
-BlueXP  身分識別與存取管理（ IAM ）現已在限制模式下使用。
-
-BlueXP  身分識別與存取管理（ IAM ）是一種資源與存取管理模式，可在標準模式和受限模式下使用 BlueXP  時，取代並強化 BlueXP  帳戶先前提供的功能。
-
-.相關資訊
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-identity-and-access-management.html["瞭解 BlueXP  IAM"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-get-started.html["BlueXP  IAM 入門"]
-
-
-BlueXP  IAM 提供更精細的資源與權限管理：
-
-* 頂層組織 _ 可讓您管理各種專案的存取權。
-* _Folders_ 可讓您將相關專案分組在一起。
-* 增強的資源管理功能可讓您將資源與一或多個資料夾或專案建立關聯。
-+
-例如、您可以將 Cloud Volumes ONTAP 系統與多個專案建立關聯。
-
-* 增強的存取管理功能可讓您將角色指派給組織階層不同層級的成員。
-
-
-這些增強功能可更有效地控制使用者可以執行的動作及其可存取的資源。
-
-.BlueXP  IAM 如何在受限模式下影響您現有的帳戶
-登入 BlueXP  時、您會注意到這些變更：
-
-* 您的 _account_ 現在稱為 _ 組織 _
-* 您的 _ 工作區 _ 現在稱為 _projects_
-* 使用者角色名稱已變更：
-+
-** 帳戶管理員 _ 現在是 _ 組織管理員 _
-** _Workspace admin_ 現在是 _ 資料夾或專案管理 _
-** _ 合規檢視器 _ 現在是 _ 分類檢視器 _
-
-
-* 在「設定」下、您可以存取 BlueXP  身分識別與存取管理、以利用這些增強功能
-
-
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-setup-admin/main/media/screenshot-iam-introduction.png["BlueXP  的螢幕擷取畫面、顯示可從介面頂端選取的組織和專案、以及可從「設定」功能表取得的身分識別和存取管理。"]
-
-請注意下列事項：
-
-* 您現有的使用者或工作環境沒有任何變更。
-* 雖然角色名稱已變更、但從權限觀點來看、並無差異。使用者將繼續享有與以往相同的工作環境存取權。
-* 您登入 BlueXP  的方式沒有變更。BlueXP  IAM 可與 NetApp 雲端登入、 NetApp 支援網站認證和聯盟連線搭配運作、就像 BlueXP  帳戶一樣。
-* 如果您有多個 BlueXP  帳戶、現在您有多個 BlueXP  組織。
-
-
-.BlueXP  IAM 的 API
-這項變更為 BlueXP  IAM 引進了新的 API 、但與先前的租賃 API 向下相容。 https://docs.netapp.com/us-en/bluexp-automation/tenancyv4/overview.html["瞭解 BlueXP  IAM 的 API"^]
-
-.支援的部署模式
-在標準和受限模式下使用 BlueXP  時，支援 BlueXP  IAM 。如果您是以私人模式使用 BlueXP  ，則會繼續使用 BlueXP  _account_ 來管理工作區，使用者和資源。
-
-
-
-=== 2025 年 1 月 13 日
-
-
-
-==== 連接器 3.9.48
-
-此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
-
-目前、 3.9.48 版本適用於標準模式和受限模式。
-
-
-
-==== BlueXP  身分識別與存取管理
-
-* 「資源」頁面現在會顯示未探索到的資源。未探索到的資源是 BlueXP  所知的儲存資源，但您尚未為其建立工作環境。例如，在數位顧問中顯示但尚未有工作環境的資源，會在「資源」頁面上顯示為未探索到的資源。
-* Amazon FSX for NetApp ONTAP 資源不會顯示在「 IAM 資源」頁面上，因為您無法將它們與 IAM 角色建立關聯。您可以在各自的畫布或工作負載上檢視這些資源。
-
-
-
-
-==== 為其他 BlueXP  服務建立支援案例
-
-註冊 BlueXP  以取得支援後，您可以直接從 BlueXP  網路型主控台建立支援案例。建立案例時，您需要選取問題所關聯的服務。
-
-從此版本開始，您現在可以建立支援案例，並將其與其他 BlueXP  服務建立關聯：
-
-* BlueXP 災難恢復
-* BlueXP 勒索軟體保護
-
-
-https://docs.netapp.com/us-en/bluexp-setup-admin/task-get-help.html["深入瞭解如何建立支援案例"]。
-
-
-
 == 警示
 
 
@@ -250,6 +128,18 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP 
 
 
 == Amazon FSX for ONTAP Sf
+
+
+
+=== 2025 年 3 月 30 日
+
+
+
+==== IAM ： SimulatePermissionPolicy 權限更新
+
+現在，您可以在新增額外的 AWS 帳戶認證或新增 GenAI 工作負載等新工作負載功能時，從 BlueXP  主控台管理 `iam:SimulatePrincipalPolicy`權限。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["權限參考變更記錄"^]
 
 
 
@@ -298,18 +188,6 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-monitor-operations.
 當您在 BlueXP  主控台的 BlueXP  工作負載中時， CloudShell 就能使用。CloudShell 可讓您使用您在 BlueXP  帳戶中提供的 AWS 和 ONTAP 認證，並在類似 Shell 的環境中執行 AWS CLI 命令或 ONTAP CLI 命令。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用 CloudShell"^]
-
-
-
-=== 2025 年 1 月 06 日
-
-
-
-==== NetApp 會釋出其他 CloudForgation 資源
-
-NetApp 現在提供 CloudForgation 資源，可讓客戶利用未在 AWS 主控台公開的進階 ONTAP 元件。CloudForgation 是 AWS 的基礎架構即程式碼機制。您將能夠建立複寫關係， CIFS 共用， NFS 匯出原則，快照等。
-
-link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html["使用 CloudForgation 管理適用於 NetApp ONTAP 檔案系統的 Amazon FSX"]
 
 
 
@@ -503,6 +381,24 @@ BlueXP  備份與還原現在可以備份使用 SnapLock Compliance 或 SnapLoc
 
 
 
+=== 2025 年 4 月 14 日
+
+
+
+==== 版本 1.42
+
+此 BlueXP  分類版本包括：
+
+.大量掃描工作環境
+BlueXP  分類現在支援工作環境的大量作業。您可以選擇啟用「對應掃描」，啟用「對應和分類掃描」，停用掃描，或在工作環境中跨磁碟區建立自訂組態。如果您為個別的 Volume 進行選擇，則會覆寫大量選擇。若要執行大量作業，請瀏覽至「 ** 組態 ** 」頁面並進行選擇。
+
+.請在本機下載調查報告
+BlueXP  分類現在支援從本機下載資料調查報告，以便在瀏覽器中檢視。如果您選擇本機選項，則資料調查只能以 CSV 格式進行，而且只會顯示前 10 ， 000 列的資料。
+
+如需更多資訊、請參閱 link:task-investigate-data.html#create-the-data-investigation-report["使用 BlueXP  分類來調查組織中儲存的資料"]。
+
+
+
 === 2025 年 3 月 10 日
 
 
@@ -531,7 +427,7 @@ BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進
 
 下列作業系統需要使用 Podman Container 引擎，而且需要 BlueXP  分類 1.30 版或更新版本： Red Hat Enterprise Linux 8.8 ， 8.10 ， 9.0 ， 9.1 ， 9.2 ， 9.3 ， 9.4 和 9.5 版。
 
-.排定掃描的優先順序
+.排定僅對應掃描的優先順序
 執行僅對應掃描時，您可以優先處理最重要的掃描。當您有許多工作環境，且想要確保先完成高優先順序掃描時，此功能會有所幫助。
 
 依預設，掃描會根據其啟動順序排入佇列。現在您可以將掃描排定優先順序，將掃描移到佇列的最前面。可以優先處理多個掃描。優先順序是以先出的順序指定，也就是您優先處理的第一次掃描會移到佇列前方；您優先處理的第二次掃描會成為佇列中的第二次掃描，依此類推。
@@ -540,12 +436,7 @@ BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進
 
 優先順序僅限於link:concept-cloud-compliance.html["僅對應掃描"]；不適用於地圖和分類掃描。
 
-若要變更優先順序：
-
-. 從 BlueXP  分類功能表中，選取 * 組態 * 。
-. 選取您要排定優先順序的資源。
-. 從 Actions ... （操作 ... ）選項中，選擇 * 優先掃描 * 。
-
+如需更多資訊、請參閱 link:task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
 
 .重試所有掃描
 BlueXP  分類現在支援批次重試所有失敗掃描的功能。
@@ -607,6 +498,18 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025 年 4 月 14 日
+
+
+
+==== 透過 Google Cloud 中的 API 自動建立儲存 VM
+
+您現在可以使用 BlueXP  API ，在 Google Cloud 中自動建立儲存 VM 。您已在 Cloud Volumes ONTAP 高可用度（ HA ）組態中使用此功能，現在您也可以在單一節點部署中使用此功能。透過 BlueXP  API ，您可以在 Google Cloud 環境中輕鬆建立，重新命名及刪除其他資料服務儲存 VM ，而無需手動設定所需的網路介面，生命和管理生命。這項自動化可簡化儲存 VM 的管理程序。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-gcp.html["在 Google Cloud 中管理 Cloud Volumes ONTAP 的資料服務儲存 VM"^]
+
+
+
 === 2025 年 3 月 28 日
 
 
@@ -635,18 +538,6 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
-=== 2025 年 3 月 10 日
-
-
-
-==== 透過 Azure 中的 API 自動建立儲存 VM
-
-您現在可以使用 BlueXP  API 來為 Azure 中的 Cloud Volumes ONTAP 建立，重新命名及刪除其他資料服務儲存 VM 。如果您需要使用儲存 VM 進行管理，使用 API 可自動化儲存 VM 的建立程序，包括必要的網路介面，生命週期和管理 LIF 的組態。
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azure.html["管理 Azure 中 Cloud Volumes ONTAP 的資料服務儲存 VM"^]
-
-
-
 == 適用於 Google Cloud Cloud Volumes Service
 
 
@@ -664,12 +555,6 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azur
 * 為Windows用戶端建立及管理SMB 3.x磁碟區
 * 建立、刪除及還原Volume快照
 
-
-
-
-== 雲端作業
-
-<stdin> 中的 unresolved 指令 - 包括： https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-ops/main/whats-new.adoc[tag=whats-new,leveloffset=+1]
 
 
 
@@ -791,7 +676,7 @@ BlueXP  數位電子錢包現在可讓您設定訂閱供應商認證。一般�
 
 ==== 管理 Cloud Volume ONTAP 授權
 
-您現在可以透過首頁或 * 資料服務授權 * 標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
+您現在可以透過首頁或「 * 直接授權 * 」標籤來管理 Cloud Volumes ONTAP 授權。使用 * Marketplace 訂閱 * 索引標籤檢視您的訂閱資訊。
 
 
 
@@ -1120,6 +1005,38 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
+=== 2025 年 4 月 14 日
+
+
+
+==== 準備度訓練報告
+
+此版本可讓您檢閱勒索軟體攻擊準備度訓練報告。整備訓練可讓您模擬對新建立的範例工作負載進行勒索軟體攻擊。然後，調查模擬攻擊並恢復範例工作負載。此功能可測試警示通知，回應和還原程序，協助您瞭解在發生實際勒索軟體攻擊時，您已做好準備。
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["進行勒索軟體攻擊準備訓練"]參閱。
+
+
+
+==== 新的角色型存取控制角色和權限
+
+以前，您可以根據使用者的職責，將角色和權限指派給使用者，以協助您管理使用者對 BlueXP  勒索軟體保護的存取。在此版本中， BlueXP  勒索軟體保護有兩個新的角色，其中包含更新的權限。新角色包括：
+
+* 勒索軟體保護管理員
+* 勒索軟體保護檢視器
+
+
+如需權限的詳細資訊，請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-roles.html["BlueXP  勒索軟體保護功能的角色型存取"]參閱。
+
+
+
+==== 付款改善
+
+此版本包含多項付款程序的改善功能。
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定授權和付款選項"]參閱。
+
+
+
 === 2025 年 3 月 10 日
 
 
@@ -1182,46 +1099,6 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
-=== 2024 年 11 月 7 日
-
-
-
-==== 啟用資料分類，並掃描個人識別資訊（ PII ）
-
-在此版本中，您可以啟用 BlueXP  分類，這是 BlueXP  系列的核心元件，來掃描及分類檔案共用工作負載中的資料。分類資料有助於識別資料是否包含個人或私人資訊、進而增加安全風險。此程序也會影響工作負載的重要性，並協助您確保以適當的保護層級來保護工作負載。
-
-部署 BlueXP  分類的客戶通常可以使用 BlueXP  勒索軟體保護來掃描 PII 資料。BlueXP  分類是 BlueXP  平台的一部分，不需額外付費，可在內部部署或客戶雲端部署。
-
-請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
-
-若要開始掃描，請在「保護」頁面上，按一下「隱私權曝險」欄位中的 * 識別曝光 * 。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect-classify.html["使用 BlueXP  分類掃描個人識別敏感資料"]。
-
-
-
-==== SIEM 與 Microsoft Sentinel 整合
-
-您現在可以使用 Microsoft Sentinel 將資料傳送至安全與事件管理系統（ SIEM ），以進行威脅分析與偵測。以前，您可以選擇 AWS Security Hub 或 Splunk Cloud 做為 SIEM 。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["深入瞭解如何設定 BlueXP  勒索軟體保護設定"]。
-
-
-
-==== 30 天免費試用
-
-在此版本中， BlueXP  勒索軟體保護的新部署現在有 30 天免費試用。以前， BlueXP  勒索軟體保護提供 90 天免費試用期。如果您已經參加 90 天免費試用，該方案將持續 90 天。
-
-
-
-==== 在 Podman 的檔案層級還原應用程式工作負載
-
-在檔案層級還原應用程式工作負載之前，您現在可以檢視可能受到攻擊影響的檔案清單，並識別您要還原的檔案。以前，如果組織中的 BlueXP  Connectors （前身為帳戶）使用 Podman ，則此功能已停用。現在已啟用 Podman 。您可以讓 BlueXP 勒索軟體保護選擇要還原的檔案、上傳 CSV 檔案來列出受警示影響的所有檔案、或手動識別要還原的檔案。
-
-https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-recover.html["深入瞭解如何從勒索軟體攻擊中恢復"]。
-
-
-
 == 補救
 
 BlueXP 補救服務已於 2024 年 4 月 22 日移除。
@@ -1273,6 +1150,16 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["瞭
 
 
 == 軟體更新
+
+
+
+=== 2025 年 4 月 02 日
+
+
+
+==== 降低風險
+
+在 BlueXP  軟體更新的摘要區段中，您現在可以檢視作業系統更新可減輕的風險總數。這可讓使用者評估其安裝基礎上的安全性與穩定性改善。
 
 
 
