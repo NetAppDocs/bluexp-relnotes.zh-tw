@@ -24,6 +24,30 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2025 年 12 月 5 日
+
+
+
+==== 連接器 3.9.52
+
+此版本的 BlueXP  Connector 包括少量的安全性改善和錯誤修正，以及一些其他更新。
+
+目前、 3.9.52 版本適用於標準模式和受限模式。
+
+
+
+===== 支援 Docker 27 和 Docker 28
+
+Connector 現在支援 Docker 27 和 Docker 28 。
+
+
+
+==== BlueXP  中提供 Keystone 管理功能
+
+BlueXP  中的 NetApp Keystone 試用版已新增對 Keystone 管理的存取權。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。
+
+
+
 === 2025 年 4 月 14 日
 
 
@@ -77,30 +101,6 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-r
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
 * https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["瞭解如何在使用私有模式時升級 Connector"]
 
-
-
-
-=== 2025 年 3 月 10 日
-
-
-
-==== 連接器 3.9.50
-
-此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
-
-* 在作業系統上啟用 SELinux 的 Connectors 現在支援 Cloud Volumes ONTAP 系統的管理。
-+
-https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux["深入瞭解 SELinux"^]
-
-
-
-目前、 3.9.50 版本適用於標準模式和受限模式。
-
-
-
-==== BlueXP  提供 NetApp Keystone 試用版
-
-NetApp Keystone 即將從 BlueXP  推出，現已推出試用版。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。
 
 
 
@@ -820,6 +820,62 @@ Cloud Volumes ONTAP 使用率報告現在有幾項改善功能：
 
 
 == 災難恢復
+
+
+
+=== 2025 年 13 月 5 日
+
+版本 4.2.3
+
+
+
+==== 子網路對應
+
+在此版本中，您可以使用子網路對應，以新的方式管理容錯移轉時的 IP 位址，讓您為每個 vCenter 新增子網路。這樣做時，您可以定義每個虛擬網路的 IPv4 CIDR ，預設閘道和 DNS 。
+
+在容錯移轉時， BlueXP  災難恢復會查看為對應虛擬網路提供的 CIDR ，並使用它來衍生新的 IP 位址，藉此判斷每個 vNIC 的適當 IP 位址。
+
+例如：
+
+* 網路 A = 10.1.1.0/24
+* 網路 B = 192.168.1.0/24
+
+
+VM1 具有連接至網路 A 的 VNIC （ 10.1.1.50 ）。網路 A 會對應到複寫計畫設定中的網路 B 。
+
+在容錯移轉時， BlueXP  災難恢復會取代原始 IP 位址（ 10.1.1 ）的網路部分，並保留原始 IP 位址（ 10.1.1.50 ）的主機位址（ .50 ）。對於 VM1 ， BlueXP  災難恢復會查看網路 B 的 CIDR 設定，並使用網路 B 網路部份 192.168.1 ，同時保留主機部份（ .50 ）來為 VM1 建立新的 IP 位址。新 IP 會變成 192.168.1.50 。
+
+總而言之，主機位址保持不變，而網路位址則會取代站台子網路對應中所設定的任何項目。這可讓您更輕鬆地在容錯移轉時管理 IP 位址重新指派，尤其是當您有數百個網路和數千個 VM 需要管理時。
+
+有關在站點中包括子網映射的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/sites-add.html["新增 vCenter 伺服器站台"]。
+
+
+
+==== 跳過保護
+
+您現在可以略過保護，這樣在複寫計畫容錯移轉之後，服務就不會自動建立反向保護關係。如果您想要在還原的網站上執行其他作業，然後在 BlueXP  災難恢復中將其重新上線，這項功能就很實用。
+
+當您啟動容錯移轉時，如果原始來源站台在線上，依預設，服務會自動為複寫計畫中的每個磁碟區建立反向保護關係。這表示該服務會從目標站台建立 SnapMirror 關係，並將其還原至來源站台。當您啟動容錯回復時，服務也會自動反轉 SnapMirror 關係。
+
+啟動容錯移轉時，您現在可以選擇 * 略過保護 * 選項。如此一來，服務就不會自動反轉 SnapMirror 關係。而是將可寫入的磁碟區保留在複寫計畫的兩側。
+
+原始來源網站恢復上線後，您可以從「複寫計畫動作」功能表中選取「 * 保護資源 * 」，以建立反向保護。這會嘗試為計畫中的每個磁碟區建立反向複寫關係。您可以重複執行此工作，直到還原保護為止。還原保護時，您可以依照一般方式啟動容錯回復。
+
+有關跳過保護的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/failover.html["將應用程式容錯移轉至遠端站台"]。
+
+
+
+==== SnapMirror 會在複寫計畫中排程更新
+
+BlueXP  災難恢復現在支援使用外部快照管理解決方案，例如原生 ONTAP SnapMirror 原則排程器或與 ONTAP 的協力廠商整合。如果複寫計畫中的每個資料存放區（ Volume ）都已有 SnapMirror 關係，而該關係正在其他地方管理，您可以將這些快照作為 BlueXP  災難恢復的恢復點。
+
+若要設定，請在「複寫計畫」 > 「資源對應」區段中，勾選「設定資料存放區對應時，使用平台管理的備份和保留排程 * 」核取方塊。
+
+選取此選項時， BlueXP  災難恢復不會設定備份排程。不過，您仍需要設定保留排程，因為仍可能需要拍攝快照來執行測試，容錯移轉和容錯回復作業。
+
+設定此選項之後，服務不會定期擷取任何排程的快照，而是仰賴外部實體來拍攝和更新這些快照。
+
+如需在複寫計畫中使用外部快照解決方案的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["建立複寫計畫"]。
 
 
 

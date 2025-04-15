@@ -606,9 +606,6 @@
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">掃描狀態</block>
   <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">若要檢視掃描的狀態，請瀏覽至 BlueXP  分類中的「 ** 組態 ** 」，然後選取「 ** 工作環境組態 ** 」。每個磁碟區的進度會以行顯示。</block>
-  <block id="256d8753a695f4395908c9903ae723b2" category="paragraph">目前、 3.9.50 版本適用於標準模式和受限模式。</block>
-  <block id="3f45680fc0523f726aa3afe05af65c63" category="section-title">BlueXP  提供 NetApp Keystone 試用版</block>
-  <block id="6bcb702faf24747c517b58ba5f3b8a99" category="paragraph">NetApp Keystone 即將從 BlueXP  推出，現已推出試用版。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。</block>
   <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">能夠移除訂閱</block>
   <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。</block>
   <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">檢視 Marketplace 訂閱的使用容量</block>
@@ -625,7 +622,6 @@
   <block id="33e99171183cf72ac66db77d8dd5792a" category="inline-link">探索先前所選工作環境的新建立工作負載</block>
   <block id="d957d0c80017f235b131c557ae0876b1" category="section-title">偵測到高加密時發出警示</block>
   <block id="8c8c1a747835015c86248b11a2097c02" category="paragraph">此版本可讓您在工作負載上偵測到高加密時，檢視警示，即使沒有高副檔名變更也沒問題。此功能使用 ONTAP 自主勒索軟體保護（ ARP ） AI ，可協助您識別有勒索軟體攻擊風險的工作負載。使用此功能，下載包含或不含副檔名變更的受影響檔案的完整清單。</block>
-  <block id="23b3b711859803a815b81aca1cc4811c" category="section-title">連接器 3.9.50</block>
   <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">有關所有區域的列表，請參閱<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>。</block>
   <block id="499d067ffbbd553e23809aa38aa67bfa" category="section-title">2025 年 3 月 17 日</block>
   <block id="30ba4ee29fda0b7285b4297943459cf9" category="section-title">SMB 快照瀏覽</block>
@@ -749,9 +745,6 @@
   <block id="5ba05bcaf18ef618c0ef794d4ae3e855" category="list-text">不支援 MetroCluster 。</block>
   <block id="2a9854e98da75bbc07132378bef6de4d" category="list-text">不支援啟用貯體層級加密的選項。</block>
   <block id="f98d5407ffd34a829996a4bb36d6e582" category="paragraph">在此預覽期間，我們鼓勵您探索這項新功能，並在完整功能推出之前，提供與協力廠商物件存放區整合的意見反應。</block>
-  <block id="490e13bea5876f4583d326593619ee16" category="list-text">在作業系統上啟用 SELinux 的 Connectors 現在支援 Cloud Volumes ONTAP 系統的管理。</block>
-  <block id="a86bab47fe0d1d4772388e14bf7532a0" category="inline-link">深入瞭解 SELinux</block>
-  <block id="612eef26819f532944539f99d535f8c6" category="paragraph"><block ref="612eef26819f532944539f99d535f8c6" category="inline-link-rx"></block></block>
   <block id="0c9e9a971e295d08b39001ef71ddfca9" category="paragraph">若要開始使用第三方儲存設備做為物件存放區，您必須在 BlueXP  Connector 中啟用旗標。然後，您可以輸入第三方物件存放區的連線詳細資料，並將其整合至備份與還原工作流程。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="09c224692df6f6a3d6045847d63b5e86" category="list-text">SSH 連接到您的連接器。</block>
@@ -845,4 +838,35 @@
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">將掃描事件傳送至 BlueXP  時間表</block>
   <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">BlueXP  分類現在支援傳送分類事件（當掃描開始及結束時）至<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
+  <block id="f4136fdf902ca32b4530c7a614c0ed71" category="section-title">連接器 3.9.52</block>
+  <block id="aa9f9a6b10a3fcd2209035620051306c" category="paragraph">此版本的 BlueXP  Connector 包括少量的安全性改善和錯誤修正，以及一些其他更新。</block>
+  <block id="6f9b6bb76caa4f1e59bff34c9ae037fe" category="paragraph">目前、 3.9.52 版本適用於標準模式和受限模式。</block>
+  <block id="66b821747bf772a5a92a60270143558a" category="section-title">支援 Docker 27 和 Docker 28</block>
+  <block id="01bd213c78b554183ce88619eeb02cce" category="paragraph">Connector 現在支援 Docker 27 和 Docker 28 。</block>
+  <block id="ab83fd01c3620a62252ab67adbc06a91" category="section-title">BlueXP  中提供 Keystone 管理功能</block>
+  <block id="4359bea5882e2896e306955792589a33" category="paragraph">BlueXP  中的 NetApp Keystone 試用版已新增對 Keystone 管理的存取權。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。</block>
+  <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025 年 13 月 5 日</block>
+  <block id="5a31c17caa12408e3b6093ed864c9821" category="paragraph">版本 4.2.3</block>
+  <block id="c362166d3b35c5afaa0ddfbe7e69494b" category="section-title">子網路對應</block>
+  <block id="2418e16fab8ca1ca0d50d0811f88b6eb" category="paragraph">在此版本中，您可以使用子網路對應，以新的方式管理容錯移轉時的 IP 位址，讓您為每個 vCenter 新增子網路。這樣做時，您可以定義每個虛擬網路的 IPv4 CIDR ，預設閘道和 DNS 。</block>
+  <block id="eb784040bffb80024e0c56694e09283d" category="paragraph">在容錯移轉時， BlueXP  災難恢復會查看為對應虛擬網路提供的 CIDR ，並使用它來衍生新的 IP 位址，藉此判斷每個 vNIC 的適當 IP 位址。</block>
+  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">例如：</block>
+  <block id="7f1dd179b7af043e895b4af287c713da" category="list-text">網路 A = 10.1.1.0/24</block>
+  <block id="130ee01552bdfbbae122682d96ada96f" category="list-text">網路 B = 192.168.1.0/24</block>
+  <block id="c8512209d54525f96f71aef40bda4d89" category="paragraph">VM1 具有連接至網路 A 的 VNIC （ 10.1.1.50 ）。網路 A 會對應到複寫計畫設定中的網路 B 。</block>
+  <block id="54f173771463f16f3b7367756ee8a6df" category="paragraph">在容錯移轉時， BlueXP  災難恢復會取代原始 IP 位址（ 10.1.1 ）的網路部分，並保留原始 IP 位址（ 10.1.1.50 ）的主機位址（ .50 ）。對於 VM1 ， BlueXP  災難恢復會查看網路 B 的 CIDR 設定，並使用網路 B 網路部份 192.168.1 ，同時保留主機部份（ .50 ）來為 VM1 建立新的 IP 位址。新 IP 會變成 192.168.1.50 。</block>
+  <block id="726a53952ba1f868d3ec9d1d32a62b2e" category="paragraph">總而言之，主機位址保持不變，而網路位址則會取代站台子網路對應中所設定的任何項目。這可讓您更輕鬆地在容錯移轉時管理 IP 位址重新指派，尤其是當您有數百個網路和數千個 VM 需要管理時。</block>
+  <block id="e28871dd1f9f31bb54d653e42ab61487" category="paragraph">有關在站點中包括子網映射的詳細信息，請參閱<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>。</block>
+  <block id="a16eb72c6e9708bc4bdfd310db9a1760" category="section-title">跳過保護</block>
+  <block id="18a26d8a69342321f82f23b0b9667a2b" category="paragraph">您現在可以略過保護，這樣在複寫計畫容錯移轉之後，服務就不會自動建立反向保護關係。如果您想要在還原的網站上執行其他作業，然後在 BlueXP  災難恢復中將其重新上線，這項功能就很實用。</block>
+  <block id="83f2c5047d69bb49c6372714354b223e" category="paragraph">當您啟動容錯移轉時，如果原始來源站台在線上，依預設，服務會自動為複寫計畫中的每個磁碟區建立反向保護關係。這表示該服務會從目標站台建立 SnapMirror 關係，並將其還原至來源站台。當您啟動容錯回復時，服務也會自動反轉 SnapMirror 關係。</block>
+  <block id="39adaab4c8da99c378ac7814cd837b82" category="paragraph">啟動容錯移轉時，您現在可以選擇 * 略過保護 * 選項。如此一來，服務就不會自動反轉 SnapMirror 關係。而是將可寫入的磁碟區保留在複寫計畫的兩側。</block>
+  <block id="0ed1a7f2cfa308cb3f608d5a24b47b8f" category="paragraph">原始來源網站恢復上線後，您可以從「複寫計畫動作」功能表中選取「 * 保護資源 * 」，以建立反向保護。這會嘗試為計畫中的每個磁碟區建立反向複寫關係。您可以重複執行此工作，直到還原保護為止。還原保護時，您可以依照一般方式啟動容錯回復。</block>
+  <block id="981aed0e5104e08339386a1c5379d13f" category="paragraph">有關跳過保護的詳細信息，請參閱<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>。</block>
+  <block id="bc1bbd522e7b060cf5530955a21a60e0" category="section-title">SnapMirror 會在複寫計畫中排程更新</block>
+  <block id="c8c9a99c726a6f5a1158a1753fb72b2a" category="paragraph">BlueXP  災難恢復現在支援使用外部快照管理解決方案，例如原生 ONTAP SnapMirror 原則排程器或與 ONTAP 的協力廠商整合。如果複寫計畫中的每個資料存放區（ Volume ）都已有 SnapMirror 關係，而該關係正在其他地方管理，您可以將這些快照作為 BlueXP  災難恢復的恢復點。</block>
+  <block id="51b94dd4c3836facc3789590ed219960" category="paragraph">若要設定，請在「複寫計畫」 &gt; 「資源對應」區段中，勾選「設定資料存放區對應時，使用平台管理的備份和保留排程 * 」核取方塊。</block>
+  <block id="a104b856c104ac1d20a94ca4ed8ba3f8" category="paragraph">選取此選項時， BlueXP  災難恢復不會設定備份排程。不過，您仍需要設定保留排程，因為仍可能需要拍攝快照來執行測試，容錯移轉和容錯回復作業。</block>
+  <block id="84c71600543673f6d7dd403d3e7a164a" category="paragraph">設定此選項之後，服務不會定期擷取任何排程的快照，而是仰賴外部實體來拍攝和更新這些快照。</block>
+  <block id="05861d9bf485f3b7dc6f56871ad28892" category="paragraph">如需在複寫計畫中使用外部快照解決方案的詳細資訊，請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
 </blocks>
