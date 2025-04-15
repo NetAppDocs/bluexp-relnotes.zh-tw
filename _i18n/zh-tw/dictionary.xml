@@ -340,10 +340,6 @@
   <block id="8e28797de414b72e6beab6ed5932133f" category="inline-link-macro">BlueXP  軟體更新</block>
   <block id="d519fe60b31330425fdb5e1c21309f78" category="list-text">技術更新</block>
   <block id="dbaae314ffc8b46919877d02b85696cb" category="list-text">增加容量</block>
-  <block id="0eb65976c0b0c5ffa90b07d4a062e509" category="paragraph">以下是 iSCSI 和 FC 通訊協定的其他考量事項：</block>
-  <block id="d671bd2f503deef1e03581ce8d516507" category="list-text">FC 支援適用於用戶端前端通訊協定、而非複寫。</block>
-  <block id="cf1967c6d778937fae37b9e43582b1b6" category="list-text">BlueXP  災難恢復每個 ONTAP 磁碟區僅支援單一 LUN 。磁碟區不應有多個 LUN 。</block>
-  <block id="f3a37c3560d0027bc0f49abfab4ab0e3" category="list-text">對於任何複寫計畫、目的地 ONTAP Volume 應使用與主控受保護 VM 的來源 ONTAP Volume 相同的傳輸協定。例如、如果來源使用 FC 傳輸協定、則目的地也應該使用 FC 。</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 系統沒有其他管理選項可用。您無法使用標準檢視、也無法啟用 BlueXP 服務。</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">深入瞭解 ASA R2 系統</block>
   <block id="a7c7539e11570decc041c60258667032" category="paragraph"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
@@ -510,9 +506,6 @@
   <block id="61a7f53a93554e648fe2eb9ad8dd6468" category="paragraph">您可以刪除任何超出指定保留數量的不再需要的快照。快照可能會隨著時間而累積、因此您可以減少快照保留數量、然後移除快照以釋出空間。您可以隨時視需要或刪除複寫計畫來執行此作業。</block>
   <block id="8cd43e146a4fc163d690bdc8bdc47fc6" category="section-title">協調快照</block>
   <block id="4472d2b5ab8a2ba1ff5429790d72930f" category="paragraph">您現在可以協調來源和目標之間不同步的快照。如果在 BlueXP  災難恢復之外的目標上刪除快照、可能會發生這種情況。服務會每 24 小時自動刪除來源上的快照。不過、您可以隨需執行此作業。此功能可讓您確保所有站台的快照一致。</block>
-  <block id="eaecda6db64f5346d5c63bfe0094e040" category="section-title">2024 年 9 月 20 日</block>
-  <block id="5d95f17e7ddbf703465910039fd80c35" category="section-title">支援內部部署到內部部署的 VMware VMFS 資料存放區</block>
-  <block id="089160f6b14935d2f39adf9a95c5da5a" category="paragraph">此版本支援安裝在 VMware vSphere 虛擬機器檔案系統（ VMFS ）資料存放區上的虛擬機器、以供 iSCSI 和 FC 受內部部署儲存保護。此服務先前提供 _ 技術預覽 _ 、支援 iSCSI 和 FC 的 VMFS 資料存放區。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022 年 9 月 18 日</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">支援E系列</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">您現在可以直接從 BlueXP 探索 E 系列系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
@@ -718,7 +711,6 @@
   <block id="1fa6d342759ba5c5a8f23c210cac048c" category="section-title">連接器 3.9.51</block>
   <block id="44cd288eedf76c78c5b3b26935538537" category="paragraph">目前、 3.9.51 版本適用於標準模式和受限模式。</block>
   <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP  身分識別與存取管理（ IAM ）</block>
-  <block id="38469cab8f7065ff2b3a663e28381c62" category="list-text">沒有組織管理員，資料夾或專案管理員的使用者，必須指派勒索軟體保護角色，才能存取勒索軟體保護。您可以指派使用者兩種角色之一：勒索軟體保護管理員或勒索軟體保護檢視器。</block>
   <block id="a9632ee5411be0309684063f13ba77a8" category="list-text">沒有組織管理員，資料夾或專案管理員的使用者必須指派 Keystone 角色，才能存取 Keystone 。您可以指派使用者兩個角色之一： Keystone 管理員或 Keystone 檢視器。</block>
   <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">瞭解存取角色。</block>
   <block id="5a4d408bd57f7cf7efbd6cf878c737a7" category="paragraph"><block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
@@ -757,4 +749,21 @@
   <block id="47388f68695ab5799ff2adfb33bca00d" category="section-title">2025 年 4 月 02 日</block>
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">降低風險</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">在 BlueXP  軟體更新的摘要區段中，您現在可以檢視作業系統更新可減輕的風險總數。這可讓使用者評估其安裝基礎上的安全性與穩定性改善。</block>
+  <block id="198726f3c4a7290d3254fd163158a5d0" category="list-text">沒有組織管理員，資料夾或專案管理員的使用者，必須指派勒索軟體保護角色，才能存取勒索軟體保護。您可以指派使用者兩種角色之一：勒索軟體保護管理員或勒索軟體保護檢視器。</block>
+  <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025 年 4 月 16 日</block>
+  <block id="e1b61136672bccd13e6828fe7987e4f6" category="paragraph">版本 4.3</block>
+  <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">虛擬機器排程探索</block>
+  <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">BlueXP  災難恢復每 24 小時執行一次發現。有了這個版本，您現在可以自訂探索排程，以滿足您的需求，並在需要時降低對效能的影響。例如，如果您有大量 VM ，則可以將探索排程設定為每 48 小時執行一次。如果 VM 數量不多，您可以將探索排程設定為每 12 小時執行一次。</block>
+  <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">如果您不想排程探索，您可以停用排程探索選項，並隨時手動重新整理探索。</block>
+  <block id="d04fa3ae362a3ea46fde26bdba81b204" category="inline-link">新增 vCenter 伺服器站台</block>
+  <block id="0002b275859484d6cdca867fbab8e165" category="paragraph">如需詳細資訊、請<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>參閱。</block>
+  <block id="84307a139104b06aba6c6de9c728b2ff" category="section-title">資源群組資料存放區支援</block>
+  <block id="ed0d134f0d7b751b80633ad848722c7a" category="paragraph">以前，您只能由 VM 建立資源群組。在此版本中，您可以依資料存放區建立資源群組。當您建立複寫計畫並為該計畫建立資源群組時，資料存放區中的所有 VM 都會列出。如果您有大量虛擬機器，而且想要依資料存放區將其分組，這項功能就很實用。</block>
+  <block id="84ae8aaf40a4b59fed9a4fa741ccf225" category="paragraph">您可以使用下列方式建立具有資料存放區的資源群組：</block>
+  <block id="ee64b17e5379b689c5eb4ab50027f625" category="list-text">當您使用資料存放區新增資源群組時，可以看到資料存放區清單。您可以選取一或多個資料存放區來建立資源群組。</block>
+  <block id="3043e1ee38988e4248b9d1966e6dd1a4" category="list-text">當您建立複寫計畫並在計畫中建立資源群組時，可以在資料存放區中看到 VM 。</block>
+  <block id="f7a1d657a7b8993c917f63602c0774a1" category="section-title">免費試用或授權到期通知</block>
+  <block id="38a9b45e86982c8330edcb875da55284" category="paragraph">此版本會通知您免費試用將在 60 天內到期，以確保您有時間取得授權。此版本也會在授權到期日提供通知。</block>
+  <block id="5d940e67e8d433508306c751ff0ea678" category="section-title">服務更新通知</block>
+  <block id="9bdd52eb995b6f47a02ffa6aa4318399" category="paragraph">在此版本中，頂端會出現橫幅，表示服務正在升級，且服務處於維護模式。升級服務時會顯示橫幅，升級完成後會消失。雖然您可以在升級進行期間繼續在 UI 中工作，但您無法提交新工作。排程工作會在更新完成後執行，服務會返回正式作業模式。</block>
 </blocks>
