@@ -274,6 +274,53 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
+=== 2025 年 13 月 5 日
+
+此 BlueXP  備份與還原版本包含下列更新。
+
+
+
+==== SnapMirror 到雲端的重新同步功能，可進行大量移轉
+
+SnapMirror 至雲端重新同步功能可簡化 NetApp 環境中磁碟區移轉期間的資料保護與持續運作。當使用 SnapMirror 邏輯複寫（ LRSE ），從內部部署的 NetApp 部署移轉到另一個部署，或移轉到雲端型解決方案（例如 Cloud Volumes ONTAP 或 Cloud Volumes Service ）時， SnapMirror 到雲端重新同步可確保現有的雲端備份保持完整且正常運作。
+
+這項功能不需要耗時且資源密集的重新基準作業，讓備份作業能夠在移轉後繼續進行。此功能在工作負載移轉案例中非常重要，可同時支援 FlexVols 和 FlexGroups ，並可從 ONTAP 9.16.1 版開始使用。
+
+SnapMirror to Cloud Resync 可維持跨環境的備份持續運作，進而提升營運效率，並降低混合式和多雲端資料管理的複雜度。
+
+如需如何執行重新同步作業的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-migrate-volumes-snapmirror-cloud-resync.html["使用 SnapMirror 移轉磁碟區至雲端重新同步"]。
+
+
+
+==== 支援第三方 MinIO 物件存放區（預覽）
+
+BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主要著重於 MinIO 。這項新的預覽功能可讓您運用任何與 S3 相容的物件儲存區，滿足備份與還原需求。
+
+使用此預覽版本，我們希望能在完整功能推出之前，確保與協力廠商物件儲存區緊密整合。我們鼓勵您探索這項新功能，並提供意見回饋，以協助提升服務品質。
+
+
+IMPORTANT: 此功能不應用於正式作業。
+
+* 預覽模式限制 *
+
+在預覽此功能時，有某些限制：
+
+* 不支援自帶鏟斗（ BYOB ）。
+* 不支援在原則中啟用 DataLock 。
+* 不支援在原則中啟用歸檔模式。
+* 僅支援內部部署 ONTAP 環境。
+* 不支援 MetroCluster 。
+* 不支援啟用貯體層級加密的選項。
+
+
+* 快速入門 *
+
+若要開始使用此預覽功能，您必須在 BlueXP  Connector 上啟用旗標。接著，您可以在備份區段中選擇 * 協力廠商相容 * 物件存放區，在保護工作流程中輸入 MinIO 協力廠商物件存放區的連線詳細資料。
+
+如需如何啟用預覽功能的指示，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-preview-enable.html["啟用 BlueXP  備份與還原的預覽功能"]。
+
+
+
 === 2025 年 4 月 16 日
 
 此 BlueXP  備份與還原版本包含下列更新。
@@ -1218,6 +1265,31 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 == 勒索軟體保護
+
+
+
+=== 2025 年 13 月 5 日
+
+
+
+==== 報告 BlueXP  勒索軟體保護中不受支援的工作環境
+
+在探索工作流程期間，當您將游標移到支援或不支援的工作負載上時， BlueXP  勒索軟體保護會報告更多詳細資料。這將有助於您瞭解為何部分工作負載或工作環境不屬於儀表板的一部分，或是由勒索軟體保護服務管理。BlueXP  勒索軟體保護服務目前不支援下列工作環境。
+
+* Azure NetApp Files
+* Cloud Volumes Service
+* E 系列
+* Google Cloud Platform（GCP）
+* ONTAP 9.11.1 及更早版本
+* 非由 BlueXP  Connector 管理的 ONTAP 直接內部部署叢集
+* StorageGRID
+
+
+您可以在初始探索期間檢視不受支援的工作環境，或是稍後從「設定」頁面中的 * 工作負載探索 * 選項檢視。服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。
+
+您可以在探索後下載探索程序的結果。
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索 BlueXP 勒索軟體保護的工作負載"]參閱。
 
 
 

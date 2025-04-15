@@ -869,4 +869,33 @@
   <block id="a104b856c104ac1d20a94ca4ed8ba3f8" category="paragraph">選取此選項時， BlueXP  災難恢復不會設定備份排程。不過，您仍需要設定保留排程，因為仍可能需要拍攝快照來執行測試，容錯移轉和容錯回復作業。</block>
   <block id="84c71600543673f6d7dd403d3e7a164a" category="paragraph">設定此選項之後，服務不會定期擷取任何排程的快照，而是仰賴外部實體來拍攝和更新這些快照。</block>
   <block id="05861d9bf485f3b7dc6f56871ad28892" category="paragraph">如需在複寫計畫中使用外部快照解決方案的詳細資訊，請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
+  <block id="89f166f25960d4442ee3cf41fb712de0" category="section-title">SnapMirror 到雲端的重新同步功能，可進行大量移轉</block>
+  <block id="f3afa2391337e5c71f0a9b02dedc2753" category="paragraph">SnapMirror 至雲端重新同步功能可簡化 NetApp 環境中磁碟區移轉期間的資料保護與持續運作。當使用 SnapMirror 邏輯複寫（ LRSE ），從內部部署的 NetApp 部署移轉到另一個部署，或移轉到雲端型解決方案（例如 Cloud Volumes ONTAP 或 Cloud Volumes Service ）時， SnapMirror 到雲端重新同步可確保現有的雲端備份保持完整且正常運作。</block>
+  <block id="9de9a72e99be1fee8dc0790411738dd4" category="paragraph">這項功能不需要耗時且資源密集的重新基準作業，讓備份作業能夠在移轉後繼續進行。此功能在工作負載移轉案例中非常重要，可同時支援 FlexVols 和 FlexGroups ，並可從 ONTAP 9.16.1 版開始使用。</block>
+  <block id="9c69774894ac0ae0f2bbae9b12964cfe" category="paragraph">SnapMirror to Cloud Resync 可維持跨環境的備份持續運作，進而提升營運效率，並降低混合式和多雲端資料管理的複雜度。</block>
+  <block id="5746bb5eeaa153936151cb52823109e6" category="inline-link">使用 SnapMirror 移轉磁碟區至雲端重新同步</block>
+  <block id="3a55cfa97f4682f930352f0f81220899" category="paragraph">如需如何執行重新同步作業的詳細資訊，請參閱<block ref="207dcf1aaf014b22c1836348f392f25c" category="inline-link-rx"></block>。</block>
+  <block id="d7aa9347c7a241e0b5959147e0834507" category="section-title">支援第三方 MinIO 物件存放區（預覽）</block>
+  <block id="74f850f0e7d77a9dfb658a6664c11580" category="paragraph">BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主要著重於 MinIO 。這項新的預覽功能可讓您運用任何與 S3 相容的物件儲存區，滿足備份與還原需求。</block>
+  <block id="fba2533d6fb852f662ab27cb8831c6c2" category="paragraph">使用此預覽版本，我們希望能在完整功能推出之前，確保與協力廠商物件儲存區緊密整合。我們鼓勵您探索這項新功能，並提供意見回饋，以協助提升服務品質。</block>
+  <block id="3d1e2e322f867e2abdc8070d562a4fe2" category="admonition">此功能不應用於正式作業。</block>
+  <block id="992cf3dc32e72bdb90286b4c5941d343" category="paragraph">* 預覽模式限制 *</block>
+  <block id="252d166070160d49f855fee5ec9639fc" category="paragraph">在預覽此功能時，有某些限制：</block>
+  <block id="2a42543b31a44385d9801b2e6d715417" category="list-text">不支援在原則中啟用 DataLock 。</block>
+  <block id="bd38f0d8ed5d82f6a34eef6f60e82afc" category="list-text">不支援在原則中啟用歸檔模式。</block>
+  <block id="7f4d22b3de45045172408ddd711a85a1" category="paragraph">* 快速入門 *</block>
+  <block id="5955ccac697a810563b00d68d2e643a8" category="paragraph">若要開始使用此預覽功能，您必須在 BlueXP  Connector 上啟用旗標。接著，您可以在備份區段中選擇 * 協力廠商相容 * 物件存放區，在保護工作流程中輸入 MinIO 協力廠商物件存放區的連線詳細資料。</block>
+  <block id="3e49d780723839a4238980f0ed8f0e54" category="inline-link">啟用 BlueXP  備份與還原的預覽功能</block>
+  <block id="e4d99443f32762da8fffc177c52518aa" category="paragraph">如需如何啟用預覽功能的指示，請參閱<block ref="918e5958ca0f0d47162ab1a4f8ffabd1" category="inline-link-rx"></block>。</block>
+  <block id="3c2a45fff6f8bee383d20bf70ff8535a" category="section-title">報告 BlueXP  勒索軟體保護中不受支援的工作環境</block>
+  <block id="b42180eb0fa303da5a11adbc08be431f" category="paragraph">在探索工作流程期間，當您將游標移到支援或不支援的工作負載上時， BlueXP  勒索軟體保護會報告更多詳細資料。這將有助於您瞭解為何部分工作負載或工作環境不屬於儀表板的一部分，或是由勒索軟體保護服務管理。BlueXP  勒索軟體保護服務目前不支援下列工作環境。</block>
+  <block id="200b74de2e12f861dad63aa0de84ec6c" category="list-text">Cloud Volumes Service</block>
+  <block id="c8e90ee73047c3063b54a44eae9d4af6" category="list-text">E 系列</block>
+  <block id="8496bc8fa09162b4a1d6b5482545d7e5" category="list-text">Google Cloud Platform（GCP）</block>
+  <block id="48b747470192bb1f3eb893cd89cddb83" category="list-text">ONTAP 9.11.1 及更早版本</block>
+  <block id="9b705ea007b3ac220c55a333054a1e7c" category="list-text">非由 BlueXP  Connector 管理的 ONTAP 直接內部部署叢集</block>
+  <block id="579848aa0d8bdd4f7904793483675637" category="paragraph">您可以在初始探索期間檢視不受支援的工作環境，或是稍後從「設定」頁面中的 * 工作負載探索 * 選項檢視。服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。</block>
+  <block id="4c47a495695584c11b9bc39a46126b3f" category="paragraph">您可以在探索後下載探索程序的結果。</block>
+  <block id="40ed4b70f990ecbd2b29cdd99fe63ea3" category="inline-link">探索 BlueXP 勒索軟體保護的工作負載</block>
+  <block id="61583743ac80f4ba16bec0d30aa9b643" category="paragraph">如需詳細資訊、請<block ref="fccc7436e00c13bc9cd8b09f936b4c8c" category="inline-link-rx"></block>參閱。</block>
 </blocks>
