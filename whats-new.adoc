@@ -88,6 +88,12 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-r
 
 此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
 
+* 在作業系統上啟用 SELinux 的 Connectors 現在支援 Cloud Volumes ONTAP 系統的管理。
++
+https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/using_selinux/getting-started-with-selinux_using-selinux["深入瞭解 SELinux"^]
+
+
+
 目前、 3.9.50 版本適用於標準模式和受限模式。
 
 
@@ -270,12 +276,6 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
-==== 增強型 Volume Dashboard （預覽）
-
-Volume Dashboard 現在可在 10 秒內完成載入，提供更快，更有效率的介面。此預覽版本可提供給特定客戶，讓他們及早瞭解這些改善項目。
-
-
-
 ==== UI 改善
 
 此版本可簡化介面，提升您的使用體驗：
@@ -289,6 +289,12 @@ Volume Dashboard 現在可在 10 秒內完成載入，提供更快，更有效�
 
 
 
+==== 增強型 Volume Dashboard （預覽）
+
+Volume Dashboard 現在可在 10 秒內完成載入，提供更快，更有效率的介面。此預覽版本可提供給特定客戶，讓他們及早瞭解這些改善項目。
+
+
+
 ==== 支援第三方 WASBI 物件存放區（預覽）
 
 BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主要著重於 WASBI 。這項新的預覽功能可讓您運用任何與 S3 相容的物件儲存區，滿足備份與還原需求。
@@ -297,7 +303,30 @@ BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主�
 
 ===== WASBI 入門
 
-若要開始使用此功能，您必須在 BlueXP  UI 中啟用旗標。然後，您可以輸入第三方物件存放區的連線詳細資料，並將其整合至備份與還原工作流程。
+若要開始使用第三方儲存設備做為物件存放區，您必須在 BlueXP  Connector 中啟用旗標。然後，您可以輸入第三方物件存放區的連線詳細資料，並將其整合至備份與還原工作流程。
+
+.步驟
+. SSH 連接到您的連接器。
+. 進入 BlueXP  備份與恢復 CBS 伺服器容器：
++
+[listing]
+----
+docker exec -it cloudmanager_cbs sh
+----
+. 透過 VIM 或任何其他編輯器開啟 `default.json`資料夾內的檔案 `config`：
++
+[listing]
+----
+vi default.json
+----
+. 修改 `allow-s3-compatible`： false 至 `allow-s3-compatible`： true 。
+. 儲存變更。
+. 從容器結束。
+. 重新啟動 BlueXP  備份與恢復 CBS 伺服器容器。
+
+
+.結果
+容器再次開啟後，開啟 BlueXP  備份與還原 UI 。當您開始備份或編輯備份策略時，您會看到新的供應商「 S3 相容」清單，以及 AWS ， Microsoft Azure ， Google Cloud ， StorageGRID 和 ONTAP S3 的其他備份供應商。
 
 
 
@@ -522,6 +551,22 @@ BlueXP  分類現在支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025 年 4 月 16 日
+
+
+
+==== Azure 支援的新區域
+
+您現在可以在以下地區的單一和多個可用性區域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。這包括支援單一節點和高可用度（ HA ）部署。
+
+* 西班牙中部
+* 墨西哥中部
+
+
+有關所有區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
+
+
+
 === 2025 年 4 月 14 日
 
 
@@ -534,31 +579,15 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-gcp.
 
 
 
-=== 2025 年 3 月 28 日
+=== 2025 年 4 月 3 日
 
 
 
-==== 啟用 Cloud Volumes ONTAP 9.14.1 的私有模式部署
+==== 支援 AWS 中的 Cloud Volumes ONTAP 9.13.1 在中國地區
 
-您現在可以在 AWS ， Azure 和 Google Cloud 中以私有模式部署 Cloud Volumes ONTAP 9.14.1 。Cloud Volumes ONTAP 9.14.1 的單一節點和高可用度（ HA ）部署均啟用私有模式。
+您現在可以在中國地區的 AWS 中部署 Cloud Volumes ONTAP 9.13.1 。這包括支援單一節點和高可用度（ HA ）部署。部署 Cloud Volumes ONTAP 9.13.1 之後，即可將其升級至更新版本。僅支援直接從 NetApp 購買的授權。
 
-如需有關私有模式部署的詳細資訊https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["瞭解 BlueXP 部署模式"^]，請參閱。
-
-
-
-=== 2025 年 3 月 12 日
-
-
-
-==== Azure 支援多個可用區域部署的新區域
-
-以下地區現在支援 Azure 中的 HA 多重可用性區域部署、適用於 Cloud Volumes ONTAP 9.12.1 GA 及更新版本：
-
-* 美國中部
-* 美國政府維吉尼亞州（美國政府地區 - 維吉尼亞州）
-
-
-有關所有區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
+如需區域供應狀況，請 https://bluexp.netapp.com/cloud-volumes-global-regions["全球區域地圖Cloud Volumes ONTAP 、供您使用"^]參閱。
 
 
 
@@ -1051,6 +1080,33 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 == 勒索軟體保護
+
+
+
+=== 2025 年 4 月 29 日
+
+
+
+==== 支援Amazon FSX for NetApp ONTAP 功能
+
+此版本支援 Amazon FSX for NetApp ONTAP 。此功能可透過 BlueXP  勒索軟體保護，協助您保護適用於 ONTAP 工作負載的 FSX 。
+
+適用於 ONTAP 的 FSX 是一項完全託管的服務，可在雲端提供 NetApp ONTAP 儲存設備的強大功能。它提供與內部部署相同的功能，效能和管理功能，以及原生 AWS 服務的敏捷度和擴充性。
+
+BlueXP  勒索軟體保護工作流程已進行下列變更：
+
+* 探索包括適用於 ONTAP 9.15 工作環境的 FSX 中的工作負載。
+* Protection 索引標籤會顯示適用於 ONTAP 環境的 FSX 中的工作負載。在此環境中，您應該使用適用於 ONTAP 備份服務的 FSX 執行備份作業。您可以使用 BlueXP  勒索軟體保護快照來還原這些工作負載。
++
+
+TIP: 無法在 BlueXP  中設定在適用於 ONTAP 的 FSX 上執行之工作負載的備份原則。在 Amazon FSX for NetApp ONTAP 中設定的任何現有備份原則都會保持不變。
+
+* 警示事件會顯示適用於 ONTAP 工作環境的全新 FSX 。
+
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/concept-ransomware-protection.html["瞭解 BlueXP  勒索軟體保護與工作環境"]參閱。
+
+如需支援選項的相關資訊，請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-reference-limitations.html["BlueXP  勒索軟體保護限制"]。
 
 
 
