@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features,cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features,cloud manager, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery' 
 summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一部分。 
 ---
 = 最新的BlueXP變更
@@ -57,6 +57,12 @@ BlueXP  中的 NetApp Keystone 試用版已新增對 Keystone 管理的存取�
 此版本的 BlueXP Connector 包括少量的安全性改善和錯誤修正。
 
 目前、 3.9.51 版本適用於標準模式和受限模式。
+
+
+
+===== Connector 下載的安全端點現在支援備份與還原，以及勒索軟體保護
+
+如果您使用備份與還原或勒索軟體保護，現在可以使用安全端點進行 Connector 下載。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#new-secure-endpoints-to-obtain-connector-images["瞭解 Connector 下載的安全端點。"^]
 
 
 
@@ -494,17 +500,17 @@ BlueXP  備份與還原引進更新的索引功能，可讓來源工作環境�
 此 BlueXP  分類版本包括：
 
 .排定分類掃描的優先順序
-BlueXP  分類現在可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。
+BlueXP  分類可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。
 
 如需更多資訊、請參閱 link:task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
 
 .支援加拿大個人識別資訊（ PII ）資料類別
-BlueXP  分類掃描現在可識別加拿大 PII 資料類別，以取得所有省 / 地區的銀行資訊，護照號碼，社會保險號碼，以及駕照號碼和健康卡號碼。
+BlueXP  分類掃描可識別加拿大 PII 資料類別。這些類別包括銀行資訊，護照號碼，社群保險號碼，駕照號碼，以及所有加拿大省 / 地區的健康卡號碼。
 
-如需更多詳細資訊xref:reference-private-data-categories.adoc#types-of-personal-data[個人資料類別]，請參閱。
+如需更多資訊、請參閱 xref:reference-private-data-categories.adoc#types-of-personal-data[個人資料類別]。
 
 .自訂分類（預覽）
-BlueXP  分類現在支援自訂地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以擷取組織專屬的資料，確保符合規則運算式。此功能目前正在預覽中。
+BlueXP  分類可支援自訂的地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以使用規則運算式擷取組織特有的資料。此功能目前正在預覽中。
 
 如需更多資訊、請參閱 xref:task-custom-classification.adoc[新增自訂分類]。
 
@@ -512,7 +518,7 @@ BlueXP  分類現在支援自訂地圖分類和分類掃描。使用自訂分�
 **Policies ** 選項卡已重命名xref:task-using-policies.html[** 儲存的搜尋 **]。功能相同。
 
 .將掃描事件傳送至 BlueXP  時間表
-BlueXP  分類現在支援傳送分類事件（當掃描開始及結束時）至link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  時間表"^]。
+BlueXP  分類可支援傳送分類事件（當掃描開始及結束時）至link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  時間表"^]。
 
 .安全性更新
 * Keras 套件已更新，可減輕資訊安全風險（ BDSA-2025-0107 和 BDSA-2025-1984 ）。
@@ -536,10 +542,10 @@ BlueXP  分類現在支援傳送分類事件（當掃描開始及結束時）�
 此 BlueXP  分類版本包括：
 
 .大量掃描工作環境
-BlueXP  分類現在支援工作環境的大量作業。您可以選擇啟用「對應掃描」，啟用「對應和分類掃描」，停用掃描，或在工作環境中跨磁碟區建立自訂組態。如果您為個別的 Volume 進行選擇，則會覆寫大量選擇。若要執行大量作業，請瀏覽至「 ** 組態 ** 」頁面並進行選擇。
+BlueXP  分類可支援工作環境的大量作業。您可以選擇啟用「對應掃描」，啟用「對應和分類掃描」，停用掃描，或在工作環境中跨磁碟區建立自訂組態。如果您為個別的 Volume 進行選擇，則會覆寫大量選擇。若要執行大量作業，請瀏覽至「 ** 組態 ** 」頁面並進行選擇。
 
 .請在本機下載調查報告
-BlueXP  分類現在支援從本機下載資料調查報告，以便在瀏覽器中檢視。如果您選擇本機選項，則資料調查只能以 CSV 格式進行，而且只會顯示前 10 ， 000 列的資料。
+BlueXP  分類可支援從本機下載資料調查報告，以便在瀏覽器中檢視。如果您選擇本機選項，則資料調查只能以 CSV 格式進行，而且只會顯示前 10 ， 000 列的資料。
 
 如需更多資訊、請參閱 link:task-investigate-data.html#create-the-data-investigation-report["使用 BlueXP  分類來調查組織中儲存的資料"]。
 
@@ -554,7 +560,7 @@ BlueXP  分類現在支援從本機下載資料調查報告，以便在瀏覽�
 此 BlueXP  分類版本包含一般改良功能和錯誤修正。其中也包括：
 
 .掃描狀態
-BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。
+BlueXP  分類可追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。
 
 若要檢視掃描的狀態，請瀏覽至 BlueXP  分類中的「 ** 組態 ** 」，然後選取「 ** 工作環境組態 ** 」。每個磁碟區的進度會以行顯示。
 
@@ -576,7 +582,7 @@ BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進
 .排定僅對應掃描的優先順序
 執行僅對應掃描時，您可以優先處理最重要的掃描。當您有許多工作環境，且想要確保先完成高優先順序掃描時，此功能會有所幫助。
 
-依預設，掃描會根據其啟動順序排入佇列。現在您可以將掃描排定優先順序，將掃描移到佇列的最前面。可以優先處理多個掃描。優先順序是以先出的順序指定，也就是您優先處理的第一次掃描會移到佇列前方；您優先處理的第二次掃描會成為佇列中的第二次掃描，依此類推。
+依預設，掃描會根據其啟動順序排入佇列。有了優先處理掃描的能力，您就可以將掃描移到佇列的前方。可以優先處理多個掃描。優先順序是以先出的順序指定，也就是您優先處理的第一次掃描會移到佇列前方；您優先處理的第二次掃描會成為佇列中的第二次掃描，依此類推。
 
 優先順序是一次性授予。自動重新掃描對應資料會依預設順序進行。
 
@@ -585,9 +591,9 @@ BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進
 如需更多資訊、請參閱 link:task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
 
 .重試所有掃描
-BlueXP  分類現在支援批次重試所有失敗掃描的功能。
+BlueXP  分類支援批次重試所有失敗掃描的功能。
 
-您現在可以使用「 ** 全部重試」功能，在批次作業中重新嘗試掃描。如果分類掃描因網路中斷等暫時性問題而失敗，您可以使用單一按鈕同時重試所有掃描，而無需個別重試。掃描可視需要重試多次。
+您可以使用「 ** 全部重試」功能，在批次作業中重新嘗試掃描。如果分類掃描因網路中斷等暫時性問題而失敗，您可以使用單一按鈕同時重試所有掃描，而無需個別重試。掃描可視需要重試多次。
 
 若要重試所有掃描：
 
@@ -752,6 +758,28 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 
 
+=== 2025 年 08 月 5 日
+
+
+
+==== AutoSupport Widget
+
+AutoSupport Widget 已經過強化，包括快顯視窗，可提供已停止傳送 AutoSupport 資料之系統的詳細資料。啟用 AutoSupport 可降低停機風險，並支援主動式系統健全狀況管理。
+
+
+
+==== 支援合約報告
+
+支援合約報告已經過強化，納入新的 ASP / LSG 旗標欄位。此欄位可讓您篩選及識別由授權支援合作夥伴所涵蓋的系統，也稱為生命週期服務認證。
+
+
+
+==== 永續發展儀表板
+
+您現在可以使用 Sustainability 簡報中所包含的連結來啟動 Sustainability 儀表板。
+
+
+
 === 2025 年 3 月 05 日
 
 
@@ -771,16 +799,6 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 ==== 升級顧問
 
 您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["瞭解如何檢視韌體更新建議"]。
-
-
-
-=== 2024 年 12 月 04 日
-
-
-
-==== AutoSupport Widget
-
-AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。
 
 
 

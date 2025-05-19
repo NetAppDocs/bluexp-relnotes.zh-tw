@@ -445,9 +445,6 @@
   <block id="bc2c6ba9505b9e6d38d9f10c18186d1c" category="paragraph">我們更新了 BlueXP 複本與同步服務、以及資料代理程式來修正一些錯誤。新的資料代理版本為 1.0.55 。</block>
   <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">2024 年 12 月 12 日</block>
   <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。<block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>。</block>
-  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">2024 年 12 月 04 日</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="section-title">AutoSupport Widget</block>
-  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">AutoSupport Widget 已新增至主儀表板畫面，以警示客戶有關 AutoSupport 狀態相關問題的資訊。</block>
   <block id="abbf3397e656c62394e67cdc1337be3c" category="section-title">全新概觀儀表板</block>
   <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">數位電子錢包首頁提供 NetApp 授權與 Marketplace 訂閱的更新儀表板，可深入瞭解特定服務，授權類型及必要行動。</block>
   <block id="f0d1256b3b97280543cbb16be1fea4b3" category="section-title">設定認證訂閱</block>
@@ -548,13 +545,10 @@
   <block id="1d26b47b0bf4a8a52ca8e66bcb8661dc" category="paragraph">除了先前支援的版本之外、此版本還支援 Red Hat Enterprise Linux v9.5 。這適用於任何手動內部部署的 BlueXP  分類安裝、包括暗點部署。</block>
   <block id="3461c6d70dff5780cf443e0892f0b5af" category="paragraph">下列作業系統需要使用 Podman Container 引擎，而且需要 BlueXP  分類 1.30 版或更新版本： Red Hat Enterprise Linux 8.8 ， 8.10 ， 9.0 ， 9.1 ， 9.2 ， 9.3 ， 9.4 和 9.5 版。</block>
   <block id="ce7ca903497eb6081e95129584ddf094" category="paragraph-title">排定掃描的優先順序</block>
-  <block id="03b61f1818fbb0c7e0a356c942abdc31" category="paragraph">依預設，掃描會根據其啟動順序排入佇列。現在您可以將掃描排定優先順序，將掃描移到佇列的最前面。可以優先處理多個掃描。優先順序是以先出的順序指定，也就是您優先處理的第一次掃描會移到佇列前方；您優先處理的第二次掃描會成為佇列中的第二次掃描，依此類推。</block>
   <block id="e04ee48d980fd3722fe28400afcc0416" category="paragraph">優先順序是一次性授予。自動重新掃描對應資料會依預設順序進行。</block>
   <block id="c92ddb2e7e35e5bd406e62b822c22b14" category="inline-link-macro">僅對應掃描</block>
   <block id="09d7e52dfc68f84cd7ef45e3c26a0389" category="list-text">從 BlueXP  分類功能表中，選取 * 組態 * 。</block>
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">重試所有掃描</block>
-  <block id="06243660aeb549bac73e7c160d2d2a70" category="paragraph">BlueXP  分類現在支援批次重試所有失敗掃描的功能。</block>
-  <block id="18dfe95c4c66dde6d275ff14f1c99ea9" category="paragraph">您現在可以使用「 ** 全部重試」功能，在批次作業中重新嘗試掃描。如果分類掃描因網路中斷等暫時性問題而失敗，您可以使用單一按鈕同時重試所有掃描，而無需個別重試。掃描可視需要重試多次。</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">若要重試所有掃描：</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">若要重試所有失敗的掃描，請選取 * 重試所有掃描 * 。</block>
   <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">版本 4.2</block>
@@ -604,7 +598,6 @@
   <block id="4fce1192bdd8d2ff506dd6d380e85fdd" category="section-title">版本 1.41</block>
   <block id="3bc103100363af5c774f4610f1cd7eec" category="paragraph">此 BlueXP  分類版本包含一般改良功能和錯誤修正。其中也包括：</block>
   <block id="52c386a5357f2ccbc556ebac8ae2b5f2" category="paragraph-title">掃描狀態</block>
-  <block id="9f4be2ee88f8d600b3db6a9021b88d97" category="paragraph">BlueXP  分類現在會追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。</block>
   <block id="dea24de819351c63f66685576d21ee25" category="paragraph">若要檢視掃描的狀態，請瀏覽至 BlueXP  分類中的「 ** 組態 ** 」，然後選取「 ** 工作環境組態 ** 」。每個磁碟區的進度會以行顯示。</block>
   <block id="626a42c4b175379d9d0e723ada0cf740" category="section-title">能夠移除訂閱</block>
   <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">如果您已取消訂閱，現在可以從數位電子錢包中移除訂閱。</block>
@@ -680,9 +673,7 @@
   <block id="33fc2a8f6921fec02571495993aa2c6c" category="section-title">版本 1.42</block>
   <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">此 BlueXP  分類版本包括：</block>
   <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">大量掃描工作環境</block>
-  <block id="57e954d06c81eea089fcb04e61b1c429" category="paragraph">BlueXP  分類現在支援工作環境的大量作業。您可以選擇啟用「對應掃描」，啟用「對應和分類掃描」，停用掃描，或在工作環境中跨磁碟區建立自訂組態。如果您為個別的 Volume 進行選擇，則會覆寫大量選擇。若要執行大量作業，請瀏覽至「 ** 組態 ** 」頁面並進行選擇。</block>
   <block id="7c021042892d25e3e5d4271749e03344" category="paragraph-title">請在本機下載調查報告</block>
-  <block id="a8539b02096aea65d2e102c01a482c71" category="paragraph">BlueXP  分類現在支援從本機下載資料調查報告，以便在瀏覽器中檢視。如果您選擇本機選項，則資料調查只能以 CSV 格式進行，而且只會顯示前 10 ， 000 列的資料。</block>
   <block id="6b41c846432704bbeebdc71cd92e0ac2" category="inline-link-macro">使用 BlueXP  分類來調查組織中儲存的資料</block>
   <block id="95403a677c140fea03f157c2edb41c85" category="paragraph">如需更多資訊、請參閱 <block ref="55ff936b35b23a6f6693627bfb444c62" category="inline-link-macro-rx"></block>。</block>
   <block id="9340ce8741905e7d6ff4c0ca07a7a39a" category="paragraph-title">排定僅對應掃描的優先順序</block>
@@ -793,13 +784,9 @@
   <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025 年 12 月 5 日</block>
   <block id="67840d2b3ccd99d7c6db2904273f95ef" category="section-title">版本 1.43</block>
   <block id="3e05db4c28329af069ba30406ce8330c" category="paragraph-title">排定分類掃描的優先順序</block>
-  <block id="0dc348cb820b479010800e3c6cddc127" category="paragraph">BlueXP  分類現在可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。</block>
   <block id="d58e3b3044e314bd5b914f8e22d6a0a8" category="paragraph-title">支援加拿大個人識別資訊（ PII ）資料類別</block>
-  <block id="25afe4e8f395663d2442297e33aa8a20" category="paragraph">BlueXP  分類掃描現在可識別加拿大 PII 資料類別，以取得所有省 / 地區的銀行資訊，護照號碼，社會保險號碼，以及駕照號碼和健康卡號碼。</block>
   <block id="841ba72ee4bfb55c34ecc91bca130388" category="inline-xref-macro">個人資料類別</block>
-  <block id="8ac2e225945f40bbf038dd67449b1841" category="paragraph">如需更多詳細資訊<block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>，請參閱。</block>
   <block id="0faf34dc58fa8cc3526b8a0a51850b2b" category="paragraph-title">自訂分類（預覽）</block>
-  <block id="e43dc9231ca750651c1b2d09176b0bc3" category="paragraph">BlueXP  分類現在支援自訂地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以擷取組織專屬的資料，確保符合規則運算式。此功能目前正在預覽中。</block>
   <block id="68fcca37a232a8993c6b392c92803de3" category="inline-xref-macro">新增自訂分類</block>
   <block id="293ef51708e6a5ff00afa3b03fc38173" category="paragraph">如需更多資訊、請參閱 <block ref="5c3ba05e723fa646f41c75d6d8a263d3" category="inline-xref-macro-rx"></block>。</block>
   <block id="dcc61fc6bf6aa17ea807ec107b3f9682" category="paragraph-title">儲存的搜尋索引標籤</block>
@@ -837,7 +824,6 @@
   <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 自動完整支援</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">將掃描事件傳送至 BlueXP  時間表</block>
-  <block id="2fb6ac863fbf4be01901268bf08e147f" category="paragraph">BlueXP  分類現在支援傳送分類事件（當掃描開始及結束時）至<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
   <block id="f4136fdf902ca32b4530c7a614c0ed71" category="section-title">連接器 3.9.52</block>
   <block id="aa9f9a6b10a3fcd2209035620051306c" category="paragraph">此版本的 BlueXP  Connector 包括少量的安全性改善和錯誤修正，以及一些其他更新。</block>
   <block id="6f9b6bb76caa4f1e59bff34c9ae037fe" category="paragraph">目前、 3.9.52 版本適用於標準模式和受限模式。</block>
@@ -893,4 +879,25 @@
   <block id="670b6a838a9eab9baafd717669b2bcc5" category="paragraph">在探索工作流程期間，當您將游標移到支援或不支援的工作負載上時， BlueXP  勒索軟體保護會報告更多詳細資料。這將有助於您瞭解為何 BlueXP  勒索軟體保護服務無法探索您的部分工作負載。</block>
   <block id="960c5f3106f70ebe4000fa5d5121f60f" category="paragraph">服務不支援工作環境的原因有很多，例如，您工作環境中的 ONTAP 版本可能低於所需的版本。當您將游標移至不受支援的工作環境時，工具提示會顯示原因。</block>
   <block id="e7aba228bdeba9407e415c5afb1137a2" category="paragraph">您可以在初始探索期間檢視不支援的工作環境，也可以下載結果。您也可以從「設定」頁面中的 * 工作負載探索 * 選項，檢視探索結果。</block>
+  <block id="7dd4f26252edc5554ac1671370b55f2e" category="section-title">Connector 下載的安全端點現在支援備份與還原，以及勒索軟體保護</block>
+  <block id="fa3ad4e82d26203dad8cb93a91e5c448" category="inline-link-macro">瞭解 Connector 下載的安全端點。</block>
+  <block id="65a207edfe2ea4576ceb53eb1d7a6caa" category="paragraph">如果您使用備份與還原或勒索軟體保護，現在可以使用安全端點進行 Connector 下載。 <block ref="037b27fad48ee4136808e628650ebfff" category="inline-link-macro-rx"></block></block>
+  <block id="36df48405a6f112e4df550bf1db8906b" category="paragraph">BlueXP  分類可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。</block>
+  <block id="162e654adac435300128c485423d9e97" category="paragraph">BlueXP  分類掃描可識別加拿大 PII 資料類別。這些類別包括銀行資訊，護照號碼，社群保險號碼，駕照號碼，以及所有加拿大省 / 地區的健康卡號碼。</block>
+  <block id="24b795aa1c931b8beb71a1bad521912d" category="paragraph">如需更多資訊、請參閱 <block ref="918fde1c1c3c4433556923cc965488af" category="inline-xref-macro-rx"></block>。</block>
+  <block id="779a8744af84c09c0b82c029307690b7" category="paragraph">BlueXP  分類可支援自訂的地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以使用規則運算式擷取組織特有的資料。此功能目前正在預覽中。</block>
+  <block id="ef37a49c1c224f5d438865198ffa4329" category="paragraph">BlueXP  分類可支援傳送分類事件（當掃描開始及結束時）至<block ref="bf2e0502217ecef5db4e8e3a077fc733" category="inline-link-macro-rx"></block>。</block>
+  <block id="530bfca85ebf27593e2eac002245d941" category="paragraph">BlueXP  分類可支援工作環境的大量作業。您可以選擇啟用「對應掃描」，啟用「對應和分類掃描」，停用掃描，或在工作環境中跨磁碟區建立自訂組態。如果您為個別的 Volume 進行選擇，則會覆寫大量選擇。若要執行大量作業，請瀏覽至「 ** 組態 ** 」頁面並進行選擇。</block>
+  <block id="5914525550e0efce454828b3fc5f9313" category="paragraph">BlueXP  分類可支援從本機下載資料調查報告，以便在瀏覽器中檢視。如果您選擇本機選項，則資料調查只能以 CSV 格式進行，而且只會顯示前 10 ， 000 列的資料。</block>
+  <block id="6a5c0bfd72f9b6c51f4f17f0d32a0bf5" category="paragraph">BlueXP  分類可追蹤捲上 _initial_ 對應和分類掃描的即時進度。獨立的漸進式長條可追蹤對應和分類掃描，顯示掃描的檔案總數百分比。您也可以將游標暫留在進度列上，以檢視掃描的檔案數和檔案總數。追蹤掃描狀態可深入瞭解掃描進度，讓您更妥善地規劃掃描並瞭解資源分配。</block>
+  <block id="cb79cf2c786ed3992ebf9c4489793af5" category="paragraph">依預設，掃描會根據其啟動順序排入佇列。有了優先處理掃描的能力，您就可以將掃描移到佇列的前方。可以優先處理多個掃描。優先順序是以先出的順序指定，也就是您優先處理的第一次掃描會移到佇列前方；您優先處理的第二次掃描會成為佇列中的第二次掃描，依此類推。</block>
+  <block id="fc758db0d443b9a8e3de231c43de89d5" category="paragraph">BlueXP  分類支援批次重試所有失敗掃描的功能。</block>
+  <block id="ce19c0b7b750b810547f423b2290cfd8" category="paragraph">您可以使用「 ** 全部重試」功能，在批次作業中重新嘗試掃描。如果分類掃描因網路中斷等暫時性問題而失敗，您可以使用單一按鈕同時重試所有掃描，而無需個別重試。掃描可視需要重試多次。</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">2025 年 08 月 5 日</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="section-title">AutoSupport Widget</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">AutoSupport Widget 已經過強化，包括快顯視窗，可提供已停止傳送 AutoSupport 資料之系統的詳細資料。啟用 AutoSupport 可降低停機風險，並支援主動式系統健全狀況管理。</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">支援合約報告</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">支援合約報告已經過強化，納入新的 ASP / LSG 旗標欄位。此欄位可讓您篩選及識別由授權支援合作夥伴所涵蓋的系統，也稱為生命週期服務認證。</block>
+  <block id="072d1a387472fb47fdfa33e48ff08ffd" category="section-title">永續發展儀表板</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">您現在可以使用 Sustainability 簡報中所包含的連結來啟動 Sustainability 儀表板。</block>
 </blocks>
