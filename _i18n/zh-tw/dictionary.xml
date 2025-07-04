@@ -613,8 +613,6 @@
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">現在您可以在工作負載原廠主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025 年 4 月 14 日</block>
   <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP  身分識別與存取管理（ IAM ）</block>
-  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">瞭解存取角色。</block>
-  <block id="5a4d408bd57f7cf7efbd6cf878c737a7" category="paragraph"><block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
   <block id="b84cda7d6006e8abb6e6264e292b13c0" category="paragraph">現在，您可以在新增額外的 AWS 帳戶認證或新增 GenAI 工作負載等新工作負載功能時，從 BlueXP  主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限。</block>
   <block id="8ee0913e940253bb841c1a05228d81e5" category="paragraph"><block ref="8ee0913e940253bb841c1a05228d81e5" category="inline-link-macro-rx"></block></block>
   <block id="33fc2a8f6921fec02571495993aa2c6c" category="section-title">版本 1.42</block>
@@ -765,13 +763,6 @@
   <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 自動完整支援</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">將掃描事件傳送至 BlueXP  時間表</block>
-  <block id="f4136fdf902ca32b4530c7a614c0ed71" category="section-title">連接器 3.9.52</block>
-  <block id="aa9f9a6b10a3fcd2209035620051306c" category="paragraph">此版本的 BlueXP  Connector 包括少量的安全性改善和錯誤修正，以及一些其他更新。</block>
-  <block id="6f9b6bb76caa4f1e59bff34c9ae037fe" category="paragraph">目前、 3.9.52 版本適用於標準模式和受限模式。</block>
-  <block id="66b821747bf772a5a92a60270143558a" category="section-title">支援 Docker 27 和 Docker 28</block>
-  <block id="01bd213c78b554183ce88619eeb02cce" category="paragraph">Connector 現在支援 Docker 27 和 Docker 28 。</block>
-  <block id="ab83fd01c3620a62252ab67adbc06a91" category="section-title">BlueXP  中提供 Keystone 管理功能</block>
-  <block id="4359bea5882e2896e306955792589a33" category="paragraph">BlueXP  中的 NetApp Keystone 試用版已新增對 Keystone 管理的存取權。您可以從 BlueXP  左側導覽列存取 NetApp Keystone Beta 的登錄頁面。</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025 年 13 月 5 日</block>
   <block id="5a31c17caa12408e3b6093ed864c9821" category="paragraph">版本 4.2.3</block>
   <block id="c362166d3b35c5afaa0ddfbe7e69494b" category="section-title">子網路對應</block>
@@ -855,7 +846,6 @@
   <block id="29e615c9125f030edfca48f5dd489a27" category="inline-link-macro">了解 BlueXP 中的 Keystone 訂閱管理。</block>
   <block id="b449211baca42f6cd385865db145f827" category="paragraph"><block ref="b449211baca42f6cd385865db145f827" category="inline-link-macro-rx"></block></block>
   <block id="2519e52723b63d73b91fe9567002e2ad" category="section-title">多因素驗證（MFA）</block>
-  <block id="079da054a19d880b356cedc5deeaf9e3" category="paragraph">非聯合用戶現在可以為其 BlueXP 帳戶啟用多重身份驗證 (MFA)，從而增強帳戶安全性。 BlueXP管理員可以管理使用者的 MFA 設置，並根據需要為各個使用者重置或停用 MFA。這僅在標準模式下支援。</block>
   <block id="9950fd493db1cd52e6769f96bf27cc78" category="inline-link-macro">了解如何為自己設定多重身份驗證。</block>
   <block id="8b6178443fc25355a974613e3d6951b4" category="inline-link-macro">了解如何為使用者管理多重身份驗證。</block>
   <block id="432ca61a502f036a7c9fe7850d55f376" category="paragraph"><block ref="b5f93708cb2e7c8499feb8c2a3a457d0" category="inline-link-macro-rx"></block> <block ref="1104a8a08c217b6a8c157f716ea4a98c" category="inline-link-macro-rx"></block></block>
@@ -868,22 +858,6 @@
   <block id="d29240cb60727e796e55d4bf8ac33966" category="cell">請移至，<block ref="291fbb881b3918f162f476bad9d0c478" category="inline-link-rx"></block>並參閱 3.9.52 和 3.9.50 版隨附的變更。</block>
   <block id="fb6bee0c273267d6fdde07008552b62f" category="cell">前往<block ref="d08346bd70ea49c38d1ac500c69dd11c" category="inline-link-rx"></block>並參考 2025 年 5 月版本中包含的變更。</block>
   <block id="3e18ba454ff1bfb5aee5e5d425b20ea3" category="cell">2025 年 5 月 12 日（版本 1.43 ）</block>
-  <block id="1cb98a955a2cc6db0fd659024f067adb" category="paragraph">當連接器不合規或停機超過 14 天時，Cloud Volumes ONTAP 節點不再關閉。當 Cloud Volumes ONTAP 失去對連接器的存取權限時，它仍會發送事件管理訊息。此變更是為了確保即使連接器長時間處於停機狀態，Cloud Volumes ONTAP 仍可繼續運作。它不會改變連接器的合規性要求。</block>
-  <block id="b2a4dd9da503b6b927d0278084e6ea56" category="section-title">新的儲存管理角色</block>
-  <block id="bf593570fbef026982251facf0c215e1" category="paragraph">儲存管理員、系統健康專家和儲存檢視器角色可用，可以指派給使用者。</block>
-  <block id="9e8f8caceb21ce13b88d4160e465e2a5" category="paragraph">這些角色使您能夠管理組織中的誰可以發現和管理儲存資源，以及查看儲存健康資訊和執行軟體更新。</block>
-  <block id="1640c7bcb4a85ded2f136361a51dd52e" category="paragraph">這些角色支援控制對以下儲存資源的存取：</block>
-  <block id="7fcb7f97cbc710b693fef37b5e86770f" category="list-text">系統StorageGRID</block>
-  <block id="d0a39c85bb5fdaacac18ed6c4e5b511f" category="list-text">內部部署ONTAP 的作業系統</block>
-  <block id="b80ffca4d1f83e77193d4613c9044556" category="paragraph">您也可以使用這些角色來控制對下列 BlueXP 服務的存取：</block>
-  <block id="19bea5bec76c66ef8bd189aa23a4c860" category="list-text">永續性</block>
-  <block id="a594a24eac9dea3cdb34c6d3c35b39a6" category="paragraph">已新增以下角色：</block>
-  <block id="98d63ffef525e1f04dd3ec407ff57b30" category="list-text">*存儲管理員*</block>
-  <block id="f1aeec4f24299e314aab97d634337c25" category="paragraph">管理組織內儲存資源的儲存健康、治理和發現。該角色還可以對儲存資源執行軟體更新。</block>
-  <block id="24bae3be890c130e5ac1c22d16f741bd" category="list-text">*系統健康專家*</block>
-  <block id="3886b56eea2fe550b4e6b51dc07a1911" category="paragraph">管理組織內儲存資源的儲存健康和治理。該角色還可以對儲存資源執行軟體更新。此角色不能修改或刪除工作環境。</block>
-  <block id="4172ddc56d4e9fa18f3ae18bdb0184b5" category="list-text">*儲存檢視器*</block>
-  <block id="c4bd9bd2263d800e3d498cc0849de57f" category="paragraph">查看儲存健康資訊和治理資料。</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025 年 6 月 29 日</block>
   <block id="737f8adcd33c506f811980c79df8aa51" category="section-title">憑證更新</block>
   <block id="e7bb6404e9b51c8163ba1ed57cf3a336" category="paragraph">為 FSx for ONTAP 檔案系統設定憑證和權限後，您將被重新導向至 BlueXP 憑證頁面。在此頁面，您可以重新命名或刪除 FSx for ONTAP 憑證。</block>
@@ -987,4 +961,40 @@
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">配置 BlueXP 工作負載工廠通知</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
   <block id="0e42c2b565849349fc544a0196ef1b6a" category="section-title">2025 年 6 月 10 日</block>
+  <block id="f2673d4a3fe0162a501d43f5168ae950" category="section-title">2025 年 14 月 7 日</block>
+  <block id="f7b353257b71afef5402701e6c93dc8a" category="section-title">連接器 3.9.54</block>
+  <block id="98b6a9150dc84b6f02a11b49d3f18c05" category="paragraph">此版本的BlueXP Connector 包括安全性改進、錯誤修復以及以下新功能：</block>
+  <block id="0e0a4ccfeecf6ead97d3838c2dc57d40" category="inline-link-macro">了解有關配置透明代理的更多資訊。</block>
+  <block id="313ef52bd65a76709d5fc69694074f0c" category="list-text">支援專用於支援Cloud Volumes ONTAP服務的連接器的透明代理。 <block ref="139e9d43e4ebdf2d28d8a7ff0c85548a" category="inline-link-macro-rx"></block></block>
+  <block id="4439ae12e6cc703b73c18fa22032bcff" category="list-text">當連接器部署在 Google Cloud 環境中時，能夠使用網路標籤來協助路由連接器流量。</block>
+  <block id="a72a5a23a9089a372f557a0032363d4e" category="list-text">用於連接器健康監控的附加產品內通知，包括 CPU 和 RAM 使用情況。</block>
+  <block id="86c10fecfc44ffe6d27d3e73e9158cad" category="paragraph">目前、 3.9.54 版本適用於標準模式和受限模式。</block>
+  <block id="3c3f3f8da4e73401360151d23584f1ea" category="paragraph">BlueXP中的身分和存取管理現在提供以下功能：</block>
+  <block id="ac7f0ef250a867a5ecb5c25482b98e18" category="list-text">支援私有模式下的 IAM，讓您管理BlueXP服務和應用程式的使用者存取和權限。</block>
+  <block id="24d91e6aa8972e7e5bb12c6d94624a97" category="list-text">簡化身份聯合的管理，包括更輕鬆的導航、更清晰的聯合連接配置選項以及更好的現有聯合的可見性。</block>
+  <block id="db77c29257701c4d25faf6a7f5c4d6d5" category="list-text">存取BlueXP backup and recovery、 BlueXP disaster recovery和聯合管理的角色。</block>
+  <block id="90d9add65845a3ac3f06a9c505d3ca8c" category="section-title">支援私有模式下的 IAM</block>
+  <block id="3f9f69d84e5d45c59f976ad54eb76e25" category="paragraph">BlueXP現已支援私有模式下的 IAM，讓您能夠管理BlueXP服務和應用程式的使用者存取和權限。此項增強功能使私有模式客戶能夠利用基於角色的存取控制 (RBAC) 來提高安全性和合規性。</block>
+  <block id="45420c71b7c178f6317117fccb2ff617" category="inline-link-macro">了解有關BlueXP中的 IAM 的更多資訊。</block>
+  <block id="b1f1212b2b71340bea9d195625f740ec" category="paragraph"><block ref="b1f1212b2b71340bea9d195625f740ec" category="inline-link-macro-rx"></block></block>
+  <block id="1a63a8b8fcf7d631a5e1fa8067ab9b08" category="section-title">簡化身份聯合管理</block>
+  <block id="a7cc903fc36eaee51a699d9d59b1496c" category="paragraph">BlueXP現在提供更直覺的身份聯合管理介面。這包括更便捷的導航、更清晰的聯合連接配置選項，以及更強大的現有聯合可見性。</block>
+  <block id="c06fd8d559af4ac97a50afd1857f0e4e" category="paragraph">透過身分聯合啟用單一登入 (SSO)，使用者可以使用其公司憑證登入BlueXP 。這提高了安全性，減少了密碼使用量，並簡化了使用者入職流程。</block>
+  <block id="62532a5520311cce692e8abb3a619189" category="inline-link-macro">了解有關將現有聯合連接導入BlueXP 的更多資訊。</block>
+  <block id="09de16a2da9f0884c7445f0a40b10aa4" category="paragraph">系統將提示您將所有現有的聯合連線匯入新介面，以取得新的管理功能。這樣，您無需重新建立聯合連接即可充分利用最新的增強功能。 <block ref="172066467f700483f74d71d92d89ce7c" category="inline-link-macro-rx"></block></block>
+  <block id="35db97c0083a9f24d4de60744f2ae08c" category="paragraph">改進的聯合管理允許您：</block>
+  <block id="c7cfa37b557dec5d42fe4ae1f33a84a9" category="list-text">將多個已驗證的網域新增至聯合連接，可讓您將多個網域與同一個身分提供者 (IdP) 一起使用。</block>
+  <block id="b4a4e2a03df0b0c5b7847629f778c654" category="list-text">在需要時停用或刪除聯合連接，讓您控制使用者存取和安全性。</block>
+  <block id="77f3e518793db250165393f568090955" category="list-text">使用 IAM 角色控制對聯合管理的存取。</block>
+  <block id="ac784304eb7a6a12a493cf93b5cef5a9" category="inline-link-macro">了解有關BlueXP中的身份聯合的更多資訊。</block>
+  <block id="7970bfbac6093d2cbee1b40bcff193c3" category="paragraph"><block ref="7970bfbac6093d2cbee1b40bcff193c3" category="inline-link-macro-rx"></block></block>
+  <block id="e16a950fa56f1c93596e628653af0177" category="section-title">BlueXP backup and recovery、 BlueXP disaster recovery和聯合管理的新存取角色</block>
+  <block id="f4b57a3793a05b2b72338f8e9fcc9496" category="paragraph">BlueXP現在支援使用 IAM 角色實現以下功能和資料服務：</block>
+  <block id="ede1cce9f240fed5ecc4264bd699cee1" category="list-text">BlueXP 備份與還原</block>
+  <block id="43db2a9bc6b7310c67fd6873bb6ca7a4" category="list-text">聯邦</block>
+  <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">了解有關使用訪問角色的更多資訊。</block>
+  <block id="10bab6385b6290f87ce28199462adf76" category="paragraph"><block ref="10bab6385b6290f87ce28199462adf76" category="inline-link-macro-rx"></block></block>
+  <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">非聯合用戶可以為其BlueXP帳戶啟用 MFA 以提高安全性。管理員可以管理 MFA 設置，包括根據需要為使用者重置或停用 MFA。這僅在標準模式下支援。</block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">需要BlueXP訪問角色</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。 <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
 </blocks>
