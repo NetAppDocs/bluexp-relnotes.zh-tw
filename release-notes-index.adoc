@@ -41,6 +41,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html["設定與管理
 
 
 
+== 儲存即服務
+
+* https://docs.netapp.com/us-en/keystone-staas/whats-new.html["基礎概念"^]
+
+
+
+
 == 資料服務
 
 * https://docs.netapp.com/us-en/bluexp-alerts/whats-new.html["警示"^]
