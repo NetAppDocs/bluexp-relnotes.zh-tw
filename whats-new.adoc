@@ -24,6 +24,31 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2025 年 21 月 7 日
+
+
+
+==== 支援Google Cloud NetApp Volumes
+
+現在您可以在BlueXP中查看Google Cloud NetApp Volumes 。 link:https://docs.netapp.com/us-en//bluexp-google-cloud-netapp-volumes/index.html/index.html["了解有關Google Cloud NetApp Volumes 的更多資訊。"]
+
+
+
+==== BlueXP  身分識別與存取管理（ IAM ）
+
+
+
+===== Google Cloud NetApp Volumes的新訪問角色
+
+BlueXP現在支援對以下儲存系統使用存取角色：
+
+* Google Cloud NetApp Volumes
+
+
+link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["了解有關使用訪問角色的更多資訊。"]
+
+
+
 === 2025 年 14 月 7 日
 
 
@@ -404,13 +429,13 @@ NOTE: 本文檔是關於保護微軟 SQL SERVER 工作負載的，作為技術�
 
 索引目錄可以追蹤每個捲和備份文件，使您的搜尋快速且有效率。
 
-如需更多資訊、請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-restore-backups-ontap.html#restore-ontap-data-using-search-restore["如何使用搜尋擴大機還原 ONTAP 資料；還原"]。
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-restore.html["啟用搜尋和還原索引"]參閱。
 
 
 
 ==== Azure 專用連結終結點與服務終點
 
-通常，BlueXP 備份和復原會與雲端供應商建立私有端點，以處理各種保護任務。此版本引入了一項可選設置，可讓您啟用或停用 BlueXP 備份和恢復自動建立私有端點的功能。如果您希望更好地控制私有端點的建立流程，這項設定可能會對您有所幫助。
+通常， BlueXP backup and recovery會與雲端提供者建立一個私有端點來處理保護任務。此版本引入了一項可選設置，可讓您啟用或停用 BlueXP 備份和恢復自動建立私有端點的功能。如果您希望更好地控制私有端點的建立流程，這項設定可能會對您有所幫助。
 
 您可以在啟用保護或開始復原程序時啟用或停用此選項。
 
@@ -428,7 +453,7 @@ NOTE: 本文檔是關於保護微軟 SQL SERVER 工作負載的，作為技術�
 
 當您在物件儲存中為工作環境建立備份檔案時，BlueXP 備份和復原功能會預設在您設定的物件儲存帳戶中為備份檔案建立容器（儲存桶或儲存帳戶）。之前，您可以覆寫此設置，並為 Amazon S3、Azure Blob Storage 和 Google Cloud Storage 指定您自己的容器。在此版本中，您現在可以自備 StorageGRID 物件儲存容器。
 
-請參閱。 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-protection-journey.html#do-you-want-to-create-your-own-object-storage-container["建立您自己的物件儲存容器"]
+請參閱。 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html["建立您自己的物件儲存容器"]
 
 
 
@@ -446,7 +471,7 @@ SnapMirror 至雲端重新同步功能可簡化 NetApp 環境中磁碟區移轉�
 
 SnapMirror to Cloud Resync 可維持跨環境的備份持續運作，進而提升營運效率，並降低混合式和多雲端資料管理的複雜度。
 
-如需如何執行重新同步作業的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-migrate-volumes-snapmirror-cloud-resync.html["使用 SnapMirror 移轉磁碟區至雲端重新同步"]。
+如需如何執行重新同步作業的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-migrate-resync.html["使用 SnapMirror 移轉磁碟區至雲端重新同步"]。
 
 
 
@@ -474,84 +499,6 @@ IMPORTANT: 此功能不應用於正式作業。
 * 快速入門 *
 
 若要開始使用此預覽功能，您必須在 BlueXP  Connector 上啟用旗標。接著，您可以在備份區段中選擇 * 協力廠商相容 * 物件存放區，在保護工作流程中輸入 MinIO 協力廠商物件存放區的連線詳細資料。
-
-如需如何啟用預覽功能的指示，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-preview-enable.html["啟用 BlueXP  備份與還原的預覽功能"]。
-
-
-
-=== 2025 年 4 月 16 日
-
-此 BlueXP  備份與還原版本包含下列更新。
-
-
-
-==== UI 改善
-
-此版本可簡化介面，提升您的使用體驗：
-
-* 將 Aggregate 資料行從 Volumes 資料表中移除，以及從 V2 Dashboard 的 Volume 資料表中移除 Snapshot Policy ， Backup Policy 和 Replication Policy 資料行，將會產生更精簡的配置。
-* 從下拉式清單中排除未啟動的工作環境，可減少介面雜亂，導覽效率更高，載入速度更快。
-* 在標記欄上排序已停用時，您仍可檢視標記，確保重要資訊仍可輕鬆存取。
-* 移除保護圖示上的標籤有助於更簡潔的外觀，並減少載入時間。
-* 在工作環境啟動程序期間，對話方塊會顯示一個載入圖示，以提供意見回饋，直到探索程序完成為止，以提高系統作業的透明度和信心。
-
-
-
-
-==== 增強型 Volume Dashboard （預覽）
-
-Volume Dashboard 現在可在 10 秒內完成載入，提供更快，更有效率的介面。此預覽版本可提供給特定客戶，讓他們及早瞭解這些改善項目。
-
-
-
-==== 支援第三方 WASBI 物件存放區（預覽）
-
-BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主要著重於 WASBI 。這項新的預覽功能可讓您運用任何與 S3 相容的物件儲存區，滿足備份與還原需求。
-
-
-
-===== WASBI 入門
-
-若要開始使用第三方儲存設備做為物件存放區，您必須在 BlueXP  Connector 中啟用旗標。然後，您可以輸入第三方物件存放區的連線詳細資料，並將其整合至備份與還原工作流程。
-
-.步驟
-. SSH 連接到您的連接器。
-. 進入 BlueXP  備份與恢復 CBS 伺服器容器：
-+
-[listing]
-----
-docker exec -it cloudmanager_cbs sh
-----
-. 透過 VIM 或任何其他編輯器開啟 `default.json`資料夾內的檔案 `config`：
-+
-[listing]
-----
-vi default.json
-----
-. 修改 `allow-s3-compatible`： false 至 `allow-s3-compatible`： true 。
-. 儲存變更。
-. 從容器結束。
-. 重新啟動 BlueXP  備份與恢復 CBS 伺服器容器。
-
-
-.結果
-容器再次開啟後，開啟 BlueXP  備份與還原 UI 。當您開始備份或編輯備份策略時，您會看到新的供應商「 S3 相容」清單，以及 AWS ， Microsoft Azure ， Google Cloud ， StorageGRID 和 ONTAP S3 的其他備份供應商。
-
-
-
-===== 預覽模式限制
-
-在預覽此功能時，請考慮下列限制：
-
-* 不支援自帶鏟斗（ BYOB ）。
-* 不支援在原則中啟用 DataLock 。
-* 不支援在原則中啟用歸檔模式。
-* 僅支援內部部署 ONTAP 環境。
-* 不支援 MetroCluster 。
-* 不支援啟用貯體層級加密的選項。
-
-
-在此預覽期間，我們鼓勵您探索這項新功能，並在完整功能推出之前，提供與協力廠商物件存放區整合的意見反應。
 
 
 
@@ -916,6 +863,24 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 
 
+=== 2025 年 09 月 7 日
+
+
+
+==== 升級顧問
+
+* 升級顧問計畫新增了多格式下載選項，以簡化ONTAP升級規劃並解決潛在的阻礙或警告。現在，您可以下載 Excel、PDF 和 JSON 格式的升級顧問方案。
+* 在升級顧問計畫的 Excel 格式中，進行了以下增強：
++
+** 您可以查看在叢集上執行的預檢查，並使用「通過」、「失敗」或「跳過」等指示標記結果。這可確保叢集處於最佳狀態，以完成ONTAP升級。
+** 您可以查看適用於叢集的建議最新韌體更新，以及ONTAP目標版本隨附的版本。
+** 新增了一個選項卡，用於檢查 SAN 叢集的互通性。此選項卡可顯示所選目標ONTAP版本支援的主機作業系統版本。
+
+
+
+
+
+
 === 2025 年 08 月 5 日
 
 
@@ -947,16 +912,6 @@ AutoSupport Widget 已經過強化，包括快顯視窗，可提供已停止傳�
 * 現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。
 * 我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。
 
-
-
-
-=== 2024 年 12 月 12 日
-
-
-
-==== 升級顧問
-
-您現在可以檢視建議更新的儲存韌體， SP / BMC 韌體和自動勒索軟體套件（ ARP ）。link:https://docs.netapp.com/us-en/active-iq/view-firmware-update-recommendations.html["瞭解如何檢視韌體更新建議"]。
 
 
 
