@@ -541,8 +541,6 @@
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">現在您可以在工作負載原廠主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限，只要新增額外的 AWS 帳戶認證，或新增 GenAI 工作負載等新工作負載功能即可。</block>
   <block id="4409983c60e456858bb3e9ef5737f98a" category="section-title">2025 年 4 月 14 日</block>
   <block id="5c4a2c71456e5295a9492bb06d95be3d" category="section-title">BlueXP  身分識別與存取管理（ IAM ）</block>
-  <block id="b84cda7d6006e8abb6e6264e292b13c0" category="paragraph">現在，您可以在新增額外的 AWS 帳戶認證或新增 GenAI 工作負載等新工作負載功能時，從 BlueXP  主控台管理<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>權限。</block>
-  <block id="8ee0913e940253bb841c1a05228d81e5" category="paragraph"><block ref="8ee0913e940253bb841c1a05228d81e5" category="inline-link-macro-rx"></block></block>
   <block id="33fc2a8f6921fec02571495993aa2c6c" category="section-title">版本 1.42</block>
   <block id="83962582dc3c189ba60063fe7990755c" category="paragraph">此 BlueXP  分類版本包括：</block>
   <block id="2dcf334efa4f886393cac0e44ff5a917" category="paragraph-title">大量掃描工作環境</block>
@@ -951,13 +949,13 @@
   <block id="1e4e512c953bb68c6492ac3e8c1ea138" category="inline-link-macro">BlueXP 勒索軟體保護先決條件</block>
   <block id="b0be1d6aabf21f92b904023f7be7a58f" category="paragraph">如需詳細資訊、請 <block ref="33be8222deb74c9ad42f0bbaa1bb9ee8" category="inline-link-macro-rx"></block>參閱。</block>
   <block id="e155741c288e2488f325db0165488b59" category="section-title">改進的工作負載保護</block>
-  <block id="6221ab5554b5d3e0db095000c99ba117" category="paragraph">此版本改善了保護工作負載的工作流程，無論是否啟用資料保護。如果您使用其他NetApp資料保護工具（例如SnapCenter或BlueXP backup and recovery）來處理快照或備份， BlueXP ransomware protection會發現這些工具，並允許您保留控制這些工具的策略。在這個版本中，您可以將這些策略替換為BlueXP ransomware protection策略，也可以繼續使用現有策略。</block>
   <block id="bf4011ddd9ae5a6521f75843972999ab" category="inline-link">保護工作負載</block>
-  <block id="93fc7709d1644ed6e29ed01f149bda1b" category="paragraph">如需詳細資訊、請<block ref="188a19487c814fdd2606d06b97bea154" category="inline-link-rx"></block>參閱。</block>
   <block id="a67ce68ccac082ad54a552bdbcb6ecd7" category="section-title">電子郵件通知</block>
-  <block id="3a60790dda30a91a55583973f6b71ca1" category="paragraph">如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向您設定的電子郵件地址發送電子郵件。該服務也會立即啟動快照。</block>
-  <block id="fa5ea5d07e6e245b2470f85837725f54" category="paragraph">此時，您應該查看電子郵件，其中列出了嚴重性和受影響的資源，並查看BlueXP ransomware protection*警報* 標籤中的潛在風險。</block>
-  <block id="284b692777b519f280cdc038cca76279" category="paragraph">如果您在BlueXP ransomware protection中配置了安全性和事件管理 (SIEM)，該服務會向您的 SIEM 系統發送警報詳細資訊。</block>
   <block id="62addb7514a50d7194a434db543d1e3f" category="inline-link">處理偵測到的勒索軟體警報</block>
-  <block id="c9919fb4d12ef0868dc54924ba92c214" category="paragraph">如需詳細資訊、請<block ref="f5c08491560330056ed27a3a5a41c318" category="inline-link-rx"></block>參閱。</block>
+  <block id="9bd93ada9b2fbfbf189c8da933c74698" category="paragraph">此版本改進了使用其他NetApp工具（例如SnapCenter或BlueXP backup and recovery）的快照和備份策略的工作負載的設定流程。在先前的版本中， BlueXP ransomware protection會發現其他工具的策略，因此您只能變更偵測策略。在這個版本中，您現在可以將快照和備份策略替換為BlueXP ransomware protection策略，也可以繼續使用其他工具的策略。</block>
+  <block id="e987acfdc962b0eb42352c6d8ec215e7" category="paragraph">如需詳細資訊、請 <block ref="dbda711c6a230fdddbe71a22c957db68" category="inline-link-macro-rx"></block>參閱。</block>
+  <block id="2e56c79ddae096c75542884a58378a73" category="paragraph">如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中會出現通知，並且會向您設定的電子郵件地址發送電子郵件。</block>
+  <block id="bc3b495f0e6ccbb6814f27f401bf0cfd" category="paragraph">該電子郵件包含有關嚴重程度、受影響工作負載的信息，以及指向BlueXP ransomware protection「警報」標籤中警報的連結。</block>
+  <block id="a10971f24efc7a9c00402bf3e28fa1f0" category="paragraph">如果您在BlueXP ransomware protection中配置了安全性和事件管理 (SIEM) 系統，該服務會向您的 SIEM 系統發送警報詳細資訊。</block>
+  <block id="473c570ea2acf44ac968aff271fe6ce8" category="paragraph">如需詳細資訊、請 <block ref="8a71d50b7ca933f633225cea05d9764f" category="inline-link-macro-rx"></block>參閱。</block>
 </blocks>
