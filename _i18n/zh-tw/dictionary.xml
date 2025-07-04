@@ -870,7 +870,6 @@
   <block id="f7b353257b71afef5402701e6c93dc8a" category="section-title">連接器 3.9.54</block>
   <block id="98b6a9150dc84b6f02a11b49d3f18c05" category="paragraph">此版本的BlueXP Connector 包括安全性改進、錯誤修復以及以下新功能：</block>
   <block id="0e0a4ccfeecf6ead97d3838c2dc57d40" category="inline-link-macro">了解有關配置透明代理的更多資訊。</block>
-  <block id="313ef52bd65a76709d5fc69694074f0c" category="list-text">支援專用於支援Cloud Volumes ONTAP服務的連接器的透明代理。 <block ref="139e9d43e4ebdf2d28d8a7ff0c85548a" category="inline-link-macro-rx"></block></block>
   <block id="4439ae12e6cc703b73c18fa22032bcff" category="list-text">當連接器部署在 Google Cloud 環境中時，能夠使用網路標籤來協助路由連接器流量。</block>
   <block id="a72a5a23a9089a372f557a0032363d4e" category="list-text">用於連接器健康監控的附加產品內通知，包括 CPU 和 RAM 使用情況。</block>
   <block id="86c10fecfc44ffe6d27d3e73e9158cad" category="paragraph">目前、 3.9.54 版本適用於標準模式和受限模式。</block>
@@ -886,19 +885,16 @@
   <block id="a7cc903fc36eaee51a699d9d59b1496c" category="paragraph">BlueXP現在提供更直覺的身份聯合管理介面。這包括更便捷的導航、更清晰的聯合連接配置選項，以及更強大的現有聯合可見性。</block>
   <block id="c06fd8d559af4ac97a50afd1857f0e4e" category="paragraph">透過身分聯合啟用單一登入 (SSO)，使用者可以使用其公司憑證登入BlueXP 。這提高了安全性，減少了密碼使用量，並簡化了使用者入職流程。</block>
   <block id="62532a5520311cce692e8abb3a619189" category="inline-link-macro">了解有關將現有聯合連接導入BlueXP 的更多資訊。</block>
-  <block id="09de16a2da9f0884c7445f0a40b10aa4" category="paragraph">系統將提示您將所有現有的聯合連線匯入新介面，以取得新的管理功能。這樣，您無需重新建立聯合連接即可充分利用最新的增強功能。 <block ref="172066467f700483f74d71d92d89ce7c" category="inline-link-macro-rx"></block></block>
   <block id="35db97c0083a9f24d4de60744f2ae08c" category="paragraph">改進的聯合管理允許您：</block>
   <block id="c7cfa37b557dec5d42fe4ae1f33a84a9" category="list-text">將多個已驗證的網域新增至聯合連接，可讓您將多個網域與同一個身分提供者 (IdP) 一起使用。</block>
   <block id="b4a4e2a03df0b0c5b7847629f778c654" category="list-text">在需要時停用或刪除聯合連接，讓您控制使用者存取和安全性。</block>
   <block id="77f3e518793db250165393f568090955" category="list-text">使用 IAM 角色控制對聯合管理的存取。</block>
   <block id="ac784304eb7a6a12a493cf93b5cef5a9" category="inline-link-macro">了解有關BlueXP中的身份聯合的更多資訊。</block>
-  <block id="7970bfbac6093d2cbee1b40bcff193c3" category="paragraph"><block ref="7970bfbac6093d2cbee1b40bcff193c3" category="inline-link-macro-rx"></block></block>
   <block id="e16a950fa56f1c93596e628653af0177" category="section-title">BlueXP backup and recovery、 BlueXP disaster recovery和聯合管理的新存取角色</block>
   <block id="f4b57a3793a05b2b72338f8e9fcc9496" category="paragraph">BlueXP現在支援使用 IAM 角色實現以下功能和資料服務：</block>
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="list-text">BlueXP 備份與還原</block>
   <block id="43db2a9bc6b7310c67fd6873bb6ca7a4" category="list-text">聯邦</block>
   <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">了解有關使用訪問角色的更多資訊。</block>
-  <block id="10bab6385b6290f87ce28199462adf76" category="paragraph"><block ref="10bab6385b6290f87ce28199462adf76" category="inline-link-macro-rx"></block></block>
   <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">非聯合用戶可以為其BlueXP帳戶啟用 MFA 以提高安全性。管理員可以管理 MFA 設置，包括根據需要為使用者重置或停用 MFA。這僅在標準模式下支援。</block>
   <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">需要BlueXP訪問角色</block>
   <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。 <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
@@ -940,4 +936,8 @@
   <block id="3a92c0f069a6fb7a0d4811f90afdd47c" category="list-text">如果複製計畫中使用了 NFS FQDN， BlueXP disaster recovery現在會將其解析為 IP 位址。如果災難復原網站無法解析 FQDN，則此更新非常有用。</block>
   <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 對齊改進</block>
   <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功發現後，記錄擷取 vCenter 大小詳細資訊的日誌改進</block>
+  <block id="5e976f8888129db7a70ab686bfcc86b9" category="list-text">支援專用於支援Cloud Volumes ONTAP服務的連接器的透明代理。 <block ref="addeb9305f92d41fc2dd640d1ef810f0" category="inline-link-macro-rx"></block></block>
+  <block id="a930f8ca18589b33c946f81801d0bbf6" category="paragraph">系統將提示您將所有現有的聯合連線匯入新介面，以取得新的管理功能。這樣，您無需重新建立聯合連接即可充分利用最新的增強功能。 <block ref="374020c220651e051317a80c1b5ae1db" category="inline-link-macro-rx"></block></block>
+  <block id="b658b3504fd725bf7abab622b28f1851" category="paragraph"><block ref="b658b3504fd725bf7abab622b28f1851" category="inline-link-macro-rx"></block></block>
+  <block id="12abdfb9ba5fcfe154c4363eb977b22b" category="paragraph"><block ref="12abdfb9ba5fcfe154c4363eb977b22b" category="inline-link-macro-rx"></block></block>
 </blocks>
