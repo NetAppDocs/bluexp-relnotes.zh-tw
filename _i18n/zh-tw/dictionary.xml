@@ -297,7 +297,6 @@
   <block id="1804830d648adf9126d51f4a827ca950" category="paragraph">BlueXP 數位錢包現在可讓您管理 BlueXP 災難恢復的授權。您可以新增授權、更新授權、以及檢視授權容量的詳細資料。</block>
   <block id="85bdddc8ce218c6365f105f9d309d898" category="inline-link">瞭解如何管理 BlueXP 資料服務的授權</block>
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link">設定授權</block>
   <block id="7478f8f98c41fc2f5747e6f31892fe6f" category="section-title">勒索軟體保護</block>
   <block id="c615da36d364061ce672b091d8aa7d3b" category="list-text"><block ref="c615da36d364061ce672b091d8aa7d3b" category="inline-link-rx"></block></block>
   <block id="19532230e3ff8a5fc0c27cc8389cac67" category="list-text"><block ref="19532230e3ff8a5fc0c27cc8389cac67" category="inline-link-rx"></block></block>
@@ -321,13 +320,6 @@
   <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">如果您目前是從 BlueXP 管理 Azure NetApp Files 、則需要將此權限新增至與您先前建立的 Microsoft Entra 應用程式相關聯的自訂角色。</block>
   <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">瞭解如何設定 Microsoft Entra 應用程式、以及檢視自訂角色權限</block>
   <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>。</block>
-  <block id="b1fb5b4805d079fc23dedcbe4848437e" category="inline-link">將應用程式容錯移轉至遠端站台</block>
-  <block id="ab132121a366abdd7667443cc98f3a69" category="paragraph">請參閱<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>。</block>
-  <block id="7043d4fb27c94bc9a206c106cef9d80c" category="paragraph">方法如下：</block>
-  <block id="eff6d6d4d66ab65f33be5de8b62e16d3" category="list-text">從上方功能表中、選取 * 複寫計畫 * 。</block>
-  <block id="2ae04d8f24d0c8f552b0d3857c0953b3" category="list-text">選取計畫、然後選取「動作」圖示以顯示下拉式功能表。</block>
-  <block id="dbf8ea65a71d9e2042b03a97a0da4095" category="list-text">選擇*停用*。</block>
-  <block id="9ffe587f372d96c9b0db66cfe333c0cf" category="list-text">幾分鐘後、選取 * 啟用 * 。</block>
   <block id="9b4b29c7522dc70822a6513f530beb14" category="paragraph">BlueXP  邊緣快取服務已於 2024 年 8 月 7 日移除。</block>
   <block id="4ac75c7e9ef3301446bb1108a0761fd8" category="paragraph">探索及管理 Kubernetes 叢集的支援已於 2024 年 8 月 7 日移除。</block>
   <block id="2476ee901bdc6e29b6118470b13e2339" category="paragraph">BlueXP  移轉報告服務已於 2024 年 8 月 7 日移除。</block>
@@ -357,14 +349,7 @@
   <block id="d7a02621d52c29a3c5f7895e817cba5b" category="inline-link">自動化目錄</block>
   <block id="4201d45b889a30d645c44cd087e150b0" category="list-text"><block ref="4201d45b889a30d645c44cd087e150b0" category="inline-link-rx"></block></block>
   <block id="4cdceaadddc0af73837f8fb074294edc" category="list-text"><block ref="4cdceaadddc0af73837f8fb074294edc" category="inline-link-rx"></block></block>
-  <block id="054b753af44fc4eeee43c9ba6037caaa" category="inline-link">建立災難恢復報告</block>
-  <block id="023cf8170104660fc796a64fdad98afa" category="paragraph">請參閱<block ref="cca93cc3cfc082fe882eefc731706487" category="inline-link-rx"></block>。</block>
-  <block id="1cb57fbf1f1452e87f62dd668ea03759" category="paragraph">請參閱<block ref="7585b54fad00f1219b8233730153156f" category="inline-link-rx"></block>。</block>
   <block id="1a390a4e18b059462c8f07ea2ea02106" category="paragraph">如需詳細資訊、請<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>參閱。</block>
-  <block id="3eddfb488d257605e7713c24d210beee" category="inline-link">管理站台、資源群組、複寫計畫、資料存放區和虛擬機器資訊</block>
-  <block id="310c40c0ef022c90f1370d1fe91ca720" category="paragraph">如需詳細資訊、請<block ref="db7c318fcbcad8cfb9a44ac897b870b2" category="inline-link-rx"></block>參閱。</block>
-  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link">管理複寫計畫</block>
-  <block id="9a3a6422d384602f3e19e123263dc99f" category="paragraph">如需詳細資訊、請<block ref="59c3623215c45197e971057378c86d42" category="inline-link-rx"></block>參閱。</block>
   <block id="7e4353e591e7ee71b0cc70a66b02ee7a" category="paragraph">您已能在BlueXP畫版上檢視Amazon S3時段長時間。現在您可以直接從 BlueXP  新增新的貯體、並變更現有貯體的屬性。<block ref="f5358cf9e8e537088a631ff4313d8401" category="inline-link-rx"></block>。</block>
   <block id="3e9d2d36df8c91d7e9151cc5775042a8" category="paragraph">您已有一段時間可以在 BlueXP Canvas 上檢視 Azure Blob Storage 。現在您可以直接從 BlueXP  新增儲存帳戶、並變更現有儲存帳戶的內容。<block ref="432ae671c636de993f8b5290b51ad53f" category="inline-link-rx"></block>。</block>
   <block id="bff48bc8f1cd9f08f36e8d0c4fa810ff" category="paragraph">深入瞭解<block ref="a53ad2061326060987afe3d1fd22d00d" category="inline-link-rx"></block>。</block>
@@ -451,27 +436,6 @@
   <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">管理 Cloud Volume ONTAP 授權</block>
   <block id="592997dde366d5775e7e052816854f74" category="section-title">2024 年 3 月 5 日</block>
   <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023 年 30 月 7 日</block>
-  <block id="1992f2f9fa5c0cbd3b61255b9dd507bd" category="section-title">2024 年 10 月 30 日</block>
-  <block id="c5562ce2e22a86c247849904ecef3dc8" category="section-title">報告</block>
-  <block id="5139de9c5a9b2b36569213d7e9b32f21" category="paragraph">您現在可以產生及下載報告、以協助您分析環境。預先設計的報告會摘要容錯移轉和容錯移轉、顯示所有站台的複寫詳細資料、以及顯示過去七天的工作詳細資料。</block>
-  <block id="5ef05167488611c5bd4ff0f410595ce4" category="section-title">30 天免費試用</block>
-  <block id="7a9cfed0d96577c6b811d11dfc152202" category="paragraph">您現在可以註冊免費試用 30 天的 BlueXP  災難恢復。以前、免費試用期為 90 天。</block>
-  <block id="3d1d28bb2a74cb6e16888dd71e05374a" category="section-title">停用及啟用複寫計畫</block>
-  <block id="6f963c01bb5a207fe21d3d9137892d53" category="paragraph">先前版本包含容錯移轉測試排程結構的更新、這是支援每日和每週排程所需的更新。此更新需要您停用並重新啟用所有現有的複寫計畫、才能使用新的每日和每週容錯移轉測試排程。這是一次性要求。</block>
-  <block id="2c4b676c68e03ba0114109310daeb0bb" category="section-title">資料夾對應</block>
-  <block id="3bdb4d4a16c6f952e581bc706b1882f1" category="paragraph">建立複寫計畫和對應運算資源時、您現在可以對應資料夾、以便將 VM 恢復到您指定的資料夾中、以供資料中心、叢集和主機使用。</block>
-  <block id="ddf914c371b7feb4383b7444a99b5fd7" category="section-title">VM 詳細資料可用於容錯移轉、容錯回復及測試容錯移轉</block>
-  <block id="363712ac31c5614bfddfdcfad95b6a12" category="paragraph">當發生故障、而您正在啟動容錯移轉、執行容錯回復或測試容錯移轉時、您現在可以查看 VM 的詳細資料、並識別哪些 VM 未重新啟動。</block>
-  <block id="5f20b8908706e397cd745a0bb1264de2" category="section-title">VM 開機延遲、並依序執行開機順序</block>
-  <block id="7e15dbae84fa8dee12ba906ffe20a1d1" category="paragraph">建立複寫計畫時、您現在可以為計畫中的每個 VM 設定開機延遲。這可讓您設定 VM 開始的順序、以確保在啟動後續優先順序 VM 之前、有一個 VM 正在執行所有優先順序。</block>
-  <block id="bb121112267374f0e2c29742b8091ab6" category="section-title">VM 作業系統資訊</block>
-  <block id="1df70ff252045f8a47784f3a1371818c" category="paragraph">當您建立複寫計畫時、現在可以在計畫中看到每個 VM 的作業系統。這有助於決定如何將 VM 群組在資源群組中。</block>
-  <block id="09a63cfb0d6c3a3392c3872099b3fba5" category="section-title">VM 名稱別名</block>
-  <block id="dcdfd42c566ed1c481f3c772573f39e0" category="paragraph">當您建立複寫計畫時、現在可以在災難恢復會議上新增 VM 名稱的前置字元和後置字元。這可讓您在計畫中為 VM 使用更具描述性的名稱。</block>
-  <block id="126e7b7b7fdb43e70f3e1542c1f0b51a" category="section-title">清理舊的快照</block>
-  <block id="61a7f53a93554e648fe2eb9ad8dd6468" category="paragraph">您可以刪除任何超出指定保留數量的不再需要的快照。快照可能會隨著時間而累積、因此您可以減少快照保留數量、然後移除快照以釋出空間。您可以隨時視需要或刪除複寫計畫來執行此作業。</block>
-  <block id="8cd43e146a4fc163d690bdc8bdc47fc6" category="section-title">協調快照</block>
-  <block id="4472d2b5ab8a2ba1ff5429790d72930f" category="paragraph">您現在可以協調來源和目標之間不同步的快照。如果在 BlueXP  災難恢復之外的目標上刪除快照、可能會發生這種情況。服務會每 24 小時自動刪除來源上的快照。不過、您可以隨需執行此作業。此功能可讓您確保所有站台的快照一致。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022 年 9 月 18 日</block>
   <block id="532b36a42fa02f3df85b0e70d519a9ac" category="section-title">支援E系列</block>
   <block id="8060a341461a61edc489285d4c464062" category="paragraph">您現在可以直接從 BlueXP 探索 E 系列系統。探索E系列系統可讓您完整檢視混合式多雲端的資料。</block>
@@ -548,14 +512,6 @@
   <block id="c3f4889bec03e0a3ba10184db92b3b07" category="paragraph-title">重試所有掃描</block>
   <block id="c50aaae687f0c98cc88e1445aecee2d4" category="paragraph">若要重試所有掃描：</block>
   <block id="8e66898002589c26f968e6fd94a57988" category="list-text">若要重試所有失敗的掃描，請選取 * 重試所有掃描 * 。</block>
-  <block id="c3687f641cfdd19b41b8fe6f7cb68897" category="paragraph">版本 4.2</block>
-  <block id="ca716ff875c64c5d237c8e862b62065c" category="section-title">ASA R2 支援 VMFS 儲存設備上的 VM 和資料存放區</block>
-  <block id="1979efa5817be86acee4a8fbdf309a1a" category="paragraph">此版本的 BlueXP  災難恢復可為 VMFS 儲存設備上的虛擬機器和資料存放區提供 ASA R2 支援。在 ASA R2 系統上， ONTAP 軟體支援基本的 SAN 功能，同時移除 SAN 環境中不支援的功能。</block>
-  <block id="d154d7f159ffe4fedd65f7894a405e59" category="paragraph">此版本支援 ASA R2 的下列功能：</block>
-  <block id="38e9022b7f95524a99b3126af89eb640" category="list-text">主要儲存設備的一致性群組資源配置（僅限平面一致性群組，表示只有一個層級沒有階層式結構）</block>
-  <block id="bbc4e3ff648912e4a892f88fcb03c65b" category="list-text">備份（一致性群組）作業，包括 SnapMirror 自動化</block>
-  <block id="7e13cc5491f076161e0aefc0728bf351" category="paragraph">BlueXP  災難恢復中對 ASA R2 的支援使用 ONTAP 9.16.1 。</block>
-  <block id="60a0836359d058db16981cf45c24594f" category="paragraph">雖然資料存放區可以掛載在 ONTAP 磁碟區或 ASA R2 儲存單元上，但 BlueXP  災難恢復中的資源群組不能同時包含來自 ONTAP 的資料存放區和來自 ASA R2 的資料存放區。您可以從 ONTAP 選取資料存放區，或從資源群組中的 ASA R2 選取資料存放區。</block>
   <block id="eb3dc66c3f5547559da4bd69622b70f1" category="paragraph-title">如何啟用索引？</block>
   <block id="6b14c6e0d643870ea727335d7739df30" category="inline-link">如何使用搜尋擴大機還原 ONTAP 資料；還原</block>
   <block id="70c351474b2828e2c0dff97793686bc4" category="paragraph-title">改善分類模型準確度</block>
@@ -641,20 +597,6 @@
   <block id="f50a226c5a51111405309ae78236d95d" category="section-title">降低風險</block>
   <block id="66fa090892a2bd81c896ab6fbf156b19" category="paragraph">在 BlueXP  軟體更新的摘要區段中，您現在可以檢視作業系統更新可減輕的風險總數。這可讓使用者評估其安裝基礎上的安全性與穩定性改善。</block>
   <block id="801c0fa0d304ca22d8afec06189bcf93" category="section-title">2025 年 4 月 16 日</block>
-  <block id="f2265cb494c0b6dc346cf3703718b766" category="section-title">虛擬機器排程探索</block>
-  <block id="a1cc1dbaf027adca720112f5a8c48e4d" category="paragraph">BlueXP  災難恢復每 24 小時執行一次發現。有了這個版本，您現在可以自訂探索排程，以滿足您的需求，並在需要時降低對效能的影響。例如，如果您有大量 VM ，則可以將探索排程設定為每 48 小時執行一次。如果 VM 數量不多，您可以將探索排程設定為每 12 小時執行一次。</block>
-  <block id="7e2d4377602fe8c7a718d5ef8759c008" category="paragraph">如果您不想排程探索，您可以停用排程探索選項，並隨時手動重新整理探索。</block>
-  <block id="d04fa3ae362a3ea46fde26bdba81b204" category="inline-link">新增 vCenter 伺服器站台</block>
-  <block id="0002b275859484d6cdca867fbab8e165" category="paragraph">如需詳細資訊、請<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>參閱。</block>
-  <block id="84307a139104b06aba6c6de9c728b2ff" category="section-title">資源群組資料存放區支援</block>
-  <block id="ed0d134f0d7b751b80633ad848722c7a" category="paragraph">以前，您只能由 VM 建立資源群組。在此版本中，您可以依資料存放區建立資源群組。當您建立複寫計畫並為該計畫建立資源群組時，資料存放區中的所有 VM 都會列出。如果您有大量虛擬機器，而且想要依資料存放區將其分組，這項功能就很實用。</block>
-  <block id="84ae8aaf40a4b59fed9a4fa741ccf225" category="paragraph">您可以使用下列方式建立具有資料存放區的資源群組：</block>
-  <block id="ee64b17e5379b689c5eb4ab50027f625" category="list-text">當您使用資料存放區新增資源群組時，可以看到資料存放區清單。您可以選取一或多個資料存放區來建立資源群組。</block>
-  <block id="3043e1ee38988e4248b9d1966e6dd1a4" category="list-text">當您建立複寫計畫並在計畫中建立資源群組時，可以在資料存放區中看到 VM 。</block>
-  <block id="f7a1d657a7b8993c917f63602c0774a1" category="section-title">免費試用或授權到期通知</block>
-  <block id="38a9b45e86982c8330edcb875da55284" category="paragraph">此版本會通知您免費試用將在 60 天內到期，以確保您有時間取得授權。此版本也會在授權到期日提供通知。</block>
-  <block id="5d940e67e8d433508306c751ff0ea678" category="section-title">服務更新通知</block>
-  <block id="9bdd52eb995b6f47a02ffa6aa4318399" category="paragraph">在此版本中，頂端會出現橫幅，表示服務正在升級，且服務處於維護模式。升級服務時會顯示橫幅，升級完成後會消失。雖然您可以在升級進行期間繼續在 UI 中工作，但您無法提交新工作。排程工作會在更新完成後執行，服務會返回正式作業模式。</block>
   <block id="46c8a90c914cf567466d573545fb57d9" category="section-title">增強型 Volume Dashboard （預覽）</block>
   <block id="d4400da5c041019019538ea47e6a4d7e" category="paragraph">Volume Dashboard 現在可在 10 秒內完成載入，提供更快，更有效率的介面。此預覽版本可提供給特定客戶，讓他們及早瞭解這些改善項目。</block>
   <block id="a43e01afb7862afba8cef123bb022bd8" category="section-title">UI 改善</block>
@@ -746,47 +688,10 @@
   <block id="6a86c1cc6c3338bb337a5e643e80da8e" category="paragraph">您現在可以在由一個租戶建立 Cloud Volumes ONTAP 工作環境，並由另一個租戶建立 BlueXP  Connector 的情況下，為 Azure 租戶啟用分層。您可以使用此功能，為多個 Azure 租戶使用相同的 Connector 來分層資料。</block>
   <block id="879e91c0a0fa09577c58d0330291ff06" category="inline-link">Azure 租戶的分層資料需求</block>
   <block id="215678b43321c729a07cabb64971f83c" category="paragraph"><block ref="215678b43321c729a07cabb64971f83c" category="inline-link-rx"></block></block>
-  <block id="848964f0743e2416b5d061a5e088ca73" category="paragraph">版本 4.2.2</block>
-  <block id="ae493f6fb938d3c8c6db8b5a9e623794" category="paragraph">版本 4.2.1</block>
-  <block id="78e5de64c036a105265b3f447a5fbbca" category="section-title">智慧型 Proxy 支援</block>
-  <block id="12430fc7d9e2c156fb2dc1af2bf60126" category="paragraph">BlueXP  Connector 支援智慧型 Proxy 。智慧型 Proxy 是一種輕量，安全且有效率的方法，可將內部環境連線至 BlueXP  服務。它可在您的環境和 BlueXP  服務之間提供安全連線，而不需要 VPN 或直接網際網路存取。這項最佳化的 Proxy 實作可卸載本機網路內的 API 流量。</block>
-  <block id="2baae43f4fa62104c66585e956c51e1e" category="paragraph">設定 Proxy 時， BlueXP  災難恢復會嘗試直接與 VMware 或 ONTAP 通訊，並在直接通訊失敗時使用設定的 Proxy 。</block>
-  <block id="a115e6ab8acfcda534f22a18d1d6940d" category="paragraph">BlueXP  災難恢復 Proxy 實作需要連接器與任何 vCenter Server 和 ONTAP 陣列之間使用 HTTPS 通訊協定進行連接埠 443 通訊。Connector 內的 BlueXP  災難恢復代理程式在執行任何動作時，會直接與 VMware vSphere ， VC 或 ONTAP 通訊。</block>
-  <block id="7297a33a5c9a50db535ceb180e4e6c29" category="inline-link">為 BlueXP 災難恢復設定基礎架構</block>
-  <block id="a7a0475144b255eccfff4d2ee3e7a5c4" category="paragraph">如需 BlueXP  災難恢復智慧型 Proxy 的詳細資訊，請參閱<block ref="bf1bf7a536149f2406a2eab17db3a297" category="inline-link-rx"></block>。</block>
-  <block id="146adb7944757e88795676b780c31811" category="inline-link">設定連接器以使用Proxy伺服器</block>
-  <block id="635abfb2f80497d39998f2a81dfecd7e" category="paragraph">如需在 BlueXP  中設定一般 Proxy 的詳細資訊，請參閱<block ref="4d83a369cd8d5456206d71335578eaaa" category="inline-link-rx"></block>。</block>
-  <block id="7469dc0d82ce9411c03b852f2163d515" category="section-title">隨時結束免費試用</block>
-  <block id="38567a6024618c3687de90b3e2cff86e" category="paragraph">您可以在任何時間停止免費試用，也可以等到試用期到期。</block>
-  <block id="8d4d6551ee286317b2a4f297766952f5" category="inline-link">結束免費試用</block>
-  <block id="b618f30aeca114d464120de119b19ced" category="paragraph">請參閱。<block ref="5f37f8bd4230e4b629c60b7dc23a5850" category="inline-link-rx"></block></block>
   <block id="74d516ef8dfa098bb4cd92313c403475" category="section-title">CloudShell 自動完整支援</block>
   <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用 BlueXP  工作負載原廠 CloudShell 時，您可以開始輸入命令，然後按 Tab 鍵檢視可用選項。如果存在多種可能性， CLI 會顯示建議清單。此功能可將錯誤降至最低，並加速命令執行，進而提升生產力。</block>
   <block id="17fd2e7ebeeede6a03f9340d8abb7cb1" category="paragraph-title">將掃描事件傳送至 BlueXP  時間表</block>
   <block id="71df7d09aaee8e6796df0c3d10989fbd" category="section-title">2025 年 13 月 5 日</block>
-  <block id="5a31c17caa12408e3b6093ed864c9821" category="paragraph">版本 4.2.3</block>
-  <block id="c362166d3b35c5afaa0ddfbe7e69494b" category="section-title">子網路對應</block>
-  <block id="2418e16fab8ca1ca0d50d0811f88b6eb" category="paragraph">在此版本中，您可以使用子網路對應，以新的方式管理容錯移轉時的 IP 位址，讓您為每個 vCenter 新增子網路。這樣做時，您可以定義每個虛擬網路的 IPv4 CIDR ，預設閘道和 DNS 。</block>
-  <block id="eb784040bffb80024e0c56694e09283d" category="paragraph">在容錯移轉時， BlueXP  災難恢復會查看為對應虛擬網路提供的 CIDR ，並使用它來衍生新的 IP 位址，藉此判斷每個 vNIC 的適當 IP 位址。</block>
-  <block id="506c2c0c7f5b70af3df68c45c46f45a7" category="paragraph">例如：</block>
-  <block id="7f1dd179b7af043e895b4af287c713da" category="list-text">網路 A = 10.1.1.0/24</block>
-  <block id="130ee01552bdfbbae122682d96ada96f" category="list-text">網路 B = 192.168.1.0/24</block>
-  <block id="c8512209d54525f96f71aef40bda4d89" category="paragraph">VM1 具有連接至網路 A 的 VNIC （ 10.1.1.50 ）。網路 A 會對應到複寫計畫設定中的網路 B 。</block>
-  <block id="54f173771463f16f3b7367756ee8a6df" category="paragraph">在容錯移轉時， BlueXP  災難恢復會取代原始 IP 位址（ 10.1.1 ）的網路部分，並保留原始 IP 位址（ 10.1.1.50 ）的主機位址（ .50 ）。對於 VM1 ， BlueXP  災難恢復會查看網路 B 的 CIDR 設定，並使用網路 B 網路部份 192.168.1 ，同時保留主機部份（ .50 ）來為 VM1 建立新的 IP 位址。新 IP 會變成 192.168.1.50 。</block>
-  <block id="726a53952ba1f868d3ec9d1d32a62b2e" category="paragraph">總而言之，主機位址保持不變，而網路位址則會取代站台子網路對應中所設定的任何項目。這可讓您更輕鬆地在容錯移轉時管理 IP 位址重新指派，尤其是當您有數百個網路和數千個 VM 需要管理時。</block>
-  <block id="e28871dd1f9f31bb54d653e42ab61487" category="paragraph">有關在站點中包括子網映射的詳細信息，請參閱<block ref="54555db921feb31b73553520fa282341" category="inline-link-rx"></block>。</block>
-  <block id="a16eb72c6e9708bc4bdfd310db9a1760" category="section-title">跳過保護</block>
-  <block id="18a26d8a69342321f82f23b0b9667a2b" category="paragraph">您現在可以略過保護，這樣在複寫計畫容錯移轉之後，服務就不會自動建立反向保護關係。如果您想要在還原的網站上執行其他作業，然後在 BlueXP  災難恢復中將其重新上線，這項功能就很實用。</block>
-  <block id="83f2c5047d69bb49c6372714354b223e" category="paragraph">當您啟動容錯移轉時，如果原始來源站台在線上，依預設，服務會自動為複寫計畫中的每個磁碟區建立反向保護關係。這表示該服務會從目標站台建立 SnapMirror 關係，並將其還原至來源站台。當您啟動容錯回復時，服務也會自動反轉 SnapMirror 關係。</block>
-  <block id="39adaab4c8da99c378ac7814cd837b82" category="paragraph">啟動容錯移轉時，您現在可以選擇 * 略過保護 * 選項。如此一來，服務就不會自動反轉 SnapMirror 關係。而是將可寫入的磁碟區保留在複寫計畫的兩側。</block>
-  <block id="0ed1a7f2cfa308cb3f608d5a24b47b8f" category="paragraph">原始來源網站恢復上線後，您可以從「複寫計畫動作」功能表中選取「 * 保護資源 * 」，以建立反向保護。這會嘗試為計畫中的每個磁碟區建立反向複寫關係。您可以重複執行此工作，直到還原保護為止。還原保護時，您可以依照一般方式啟動容錯回復。</block>
-  <block id="981aed0e5104e08339386a1c5379d13f" category="paragraph">有關跳過保護的詳細信息，請參閱<block ref="1cbf59ee3e77dd0082612a21b0900f81" category="inline-link-rx"></block>。</block>
-  <block id="bc1bbd522e7b060cf5530955a21a60e0" category="section-title">SnapMirror 會在複寫計畫中排程更新</block>
-  <block id="c8c9a99c726a6f5a1158a1753fb72b2a" category="paragraph">BlueXP  災難恢復現在支援使用外部快照管理解決方案，例如原生 ONTAP SnapMirror 原則排程器或與 ONTAP 的協力廠商整合。如果複寫計畫中的每個資料存放區（ Volume ）都已有 SnapMirror 關係，而該關係正在其他地方管理，您可以將這些快照作為 BlueXP  災難恢復的恢復點。</block>
-  <block id="51b94dd4c3836facc3789590ed219960" category="paragraph">若要設定，請在「複寫計畫」 &gt; 「資源對應」區段中，勾選「設定資料存放區對應時，使用平台管理的備份和保留排程 * 」核取方塊。</block>
-  <block id="a104b856c104ac1d20a94ca4ed8ba3f8" category="paragraph">選取此選項時， BlueXP  災難恢復不會設定備份排程。不過，您仍需要設定保留排程，因為仍可能需要拍攝快照來執行測試，容錯移轉和容錯回復作業。</block>
-  <block id="84c71600543673f6d7dd403d3e7a164a" category="paragraph">設定此選項之後，服務不會定期擷取任何排程的快照，而是仰賴外部實體來拍攝和更新這些快照。</block>
-  <block id="05861d9bf485f3b7dc6f56871ad28892" category="paragraph">如需在複寫計畫中使用外部快照解決方案的詳細資訊，請參閱<block ref="5cf2140f2775e5f1ccc24bb836a069a3" category="inline-link-rx"></block>。</block>
   <block id="89f166f25960d4442ee3cf41fb712de0" category="section-title">SnapMirror 到雲端的重新同步功能，可進行大量移轉</block>
   <block id="f3afa2391337e5c71f0a9b02dedc2753" category="paragraph">SnapMirror 至雲端重新同步功能可簡化 NetApp 環境中磁碟區移轉期間的資料保護與持續運作。當使用 SnapMirror 邏輯複寫（ LRSE ），從內部部署的 NetApp 部署移轉到另一個部署，或移轉到雲端型解決方案（例如 Cloud Volumes ONTAP 或 Cloud Volumes Service ）時， SnapMirror 到雲端重新同步可確保現有的雲端備份保持完整且正常運作。</block>
   <block id="9de9a72e99be1fee8dc0790411738dd4" category="paragraph">這項功能不需要耗時且資源密集的重新基準作業，讓備份作業能夠在移轉後繼續進行。此功能在工作負載移轉案例中非常重要，可同時支援 FlexVols 和 FlexGroups ，並可從 ONTAP 9.16.1 版開始使用。</block>
@@ -997,4 +902,42 @@
   <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">非聯合用戶可以為其BlueXP帳戶啟用 MFA 以提高安全性。管理員可以管理 MFA 設置，包括根據需要為使用者重置或停用 MFA。這僅在標準模式下支援。</block>
   <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">需要BlueXP訪問角色</block>
   <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。 <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="section-title">版本 1.45</block>
+  <block id="8321b9867214f5caa9d5a37197549cfb" category="paragraph">此BlueXP classification版本包括優化資源利用率的程式碼變更以及：</block>
+  <block id="8f993d1847870bf5334f9e8a709029c8" category="paragraph-title">改進了新增文件共用進行掃描的工作流程</block>
+  <block id="7363f98210e80281886d9b88b644899c" category="paragraph">將文件共用新增至文件共用組的工作流程已簡化。該流程現在還根據身份驗證類型（Kerberos 或 NTLM）區分 CIFS 協定支援。</block>
+  <block id="628bc6ea752b2d2bd10bc4f22b8cfcca" category="inline-xref-macro">掃描檔案共用</block>
+  <block id="1ac63d916d77b3c107f8a8cfa12fb2bb" category="paragraph">如需更多資訊、請參閱 <block ref="828b8ad7e27c62fe81ed86d552495069" category="inline-xref-macro-rx"></block>。</block>
+  <block id="2cc1f0459a8aa18da26c0c17c08edd37" category="paragraph-title">增強文件所有者信息</block>
+  <block id="11960942a6824585cdbadbb9ccfaa7b2" category="paragraph">現在，您可以查看“調查”標籤中捕獲文件的文件所有者的更多資訊。在「調查」標籤中檢視檔案的元資料時，找到檔案擁有者，然後選擇「檢視詳細資料」即可查看使用者名稱、電子郵件和 SAM 帳戶名稱。您也可以查看此使用者擁有的其他項目。此功能僅適用於具有 Active Directory 的工作環境。</block>
+  <block id="499dd7659f4fa7b600ca3796c449e41b" category="inline-xref-macro">調查組織中儲存的資料</block>
+  <block id="761b95894e65b7e84a1b42c7277548f8" category="paragraph">如需更多資訊、請參閱 <block ref="52346db20931f188e29e56e6e913f681" category="inline-xref-macro-rx"></block>。</block>
+  <block id="875f73df70de111a8a6c2c5595b208a7" category="paragraph">版本 4.2.5</block>
+  <block id="ef9968a47eda1ddd45a276b48c838f6f" category="section-title">BlueXP disaster recovery中的使用者角色</block>
+  <block id="bc6794f75df9889a42be39a47210963d" category="paragraph">BlueXP disaster recovery現在採用角色來管理每個使用者對特定功能和操作的存取權。</block>
+  <block id="3136785ff416b16b75216e5331402fac" category="paragraph">該服務使用特定於BlueXP disaster recovery的以下角色。</block>
+  <block id="7625d6e45273de6987a1bcebc498baa7" category="list-text">*災難復原管理員*：在BlueXP disaster recovery中執行任何操作。</block>
+  <block id="5106b00f6760172bc5c45cb19eb9b8a5" category="list-text">*災難復原故障轉移管理員*：在BlueXP disaster recovery中執行故障轉移和遷移操作。</block>
+  <block id="64fbace2c8460fced3d10cb671f24651" category="list-text">*災難復原應用程式管理員*：建立和修改複製計畫並啟動測試故障轉移。</block>
+  <block id="8a8f884ac550044fb8c536c29fb404af" category="list-text">*災難復原檢視器*：查看BlueXP disaster recovery中的信息，但不能執行任何操作。</block>
+  <block id="ffabfa17d07546861da02a532a19ee4b" category="paragraph">如果您按一下BlueXP disaster recovery服務並首次進行配置，則必須具有 *SnapCenterAdmin* 權限或具有 *Organization Admin* 角色。</block>
+  <block id="03f7d0a81585e8c5ce1a46f9bccaab7f" category="inline-link">BlueXP disaster recovery中的使用者角色和權限</block>
+  <block id="3a3f201899ef67ba5014b223f6b6f313" category="paragraph">如需詳細資訊、請參閱 <block ref="024c70e4d2a5dd15bc5622316cbef3ed" category="inline-link-rx"></block>。</block>
+  <block id="46204d4c84a080b8821b1d198e735e91" category="section-title">BlueXP disaster recovery中的其他更新</block>
+  <block id="982f7e3070a4d65cdf30b78b12adb75b" category="list-text">增強網路發現</block>
+  <block id="3b5745c72d48a29358cef7c9db7cd826" category="list-text">可擴展性改進：</block>
+  <block id="40228eea7c6ccc9e0cb61372c49d95eb" category="list-text">過濾所需的元資料而不是所有細節</block>
+  <block id="1ac913a5bb5ab0a16e36b313be789aac" category="list-text">發現改進，可以更快地檢索和更新虛擬機器資源</block>
+  <block id="b5e4470910d5e523e0dc277cc4e74bb2" category="list-text">資料檢索和資料更新的記憶體優化和效能優化</block>
+  <block id="49b1bd71187a3dcbd19f786ef2a10764" category="list-text">vCenter SDK 用戶端建立和池管理改進</block>
+  <block id="7af4cddf55cbfd0c887075f4b418f072" category="list-text">下次計劃或手動發現時的陳舊資料管理：</block>
+  <block id="0e9f332b69353d48350244fb204bbbe1" category="list-text">當在 vCenter 中刪除虛擬機器時， BlueXP disaster recovery現在會自動將其從複製計劃中刪除。</block>
+  <block id="20f175753c0dd9c623cb206ce579bc77" category="list-text">當 vCenter 中刪除資料儲存區或網路時， BlueXP disaster recovery現在會將其從複製計劃和資源群組中刪除。</block>
+  <block id="e0f19e2b15951f47dcd9ce438c5ce481" category="list-text">當在 vCenter 中刪除叢集、主機或資料中心時， BlueXP disaster recovery現在會將其從複製計劃和資源群組中刪除。</block>
+  <block id="24ed933119d9ba78138d2119f9ebbdac" category="inline-link">Swagger 文件</block>
+  <block id="33526279be472c4427abeef413d79850" category="list-text">現在，您可以在瀏覽器的隱身模式下存取 Swagger 文件。您可以在BlueXP disaster recovery中透過「設定」選項 &gt; 「API 文件」存取它，也可以在瀏覽器的隱身模式下直接透過以下 URL 存取它： <block ref="fbeb63b8afb1564cb8457db3650e3513" category="inline-link-rx"></block> 。</block>
+  <block id="07249132999164b31d31db024261d558" category="list-text">在某些情況下，故障回復操作完成後，iGroup 會被遺留。如果 iGroup 已過期，此更新會將其移除。</block>
+  <block id="3a92c0f069a6fb7a0d4811f90afdd47c" category="list-text">如果複製計畫中使用了 NFS FQDN， BlueXP disaster recovery現在會將其解析為 IP 位址。如果災難復原網站無法解析 FQDN，則此更新非常有用。</block>
+  <block id="bd9a0211a986e2ba720cbe54530cd5c5" category="list-text">UI 對齊改進</block>
+  <block id="5c7dbecd0837cce38502f147b31156bc" category="list-text">成功發現後，記錄擷取 vCenter 大小詳細資訊的日誌改進</block>
 </blocks>
