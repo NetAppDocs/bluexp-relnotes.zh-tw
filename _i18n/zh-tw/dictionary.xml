@@ -986,4 +986,5 @@
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 工作負載工廠通知服務支援工作負載工廠向 BlueXP 警報服務或 Amazon SNS 主題發送通知。發送到 BlueXP 警報的通知會顯示在 BlueXP 警報面板中。當工作負載工廠向 Amazon SNS 主題發布通知時，該主題的訂閱者（例如人員或其他應用程式）會在為該主題配置的終端節點上收到通知（例如電子郵件或簡訊）。</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">配置 BlueXP 工作負載工廠通知</block>
   <block id="533a43c23a4d81612b2392465e022a51" category="paragraph"><block ref="533a43c23a4d81612b2392465e022a51" category="inline-link-rx"></block></block>
+  <block id="0e42c2b565849349fc544a0196ef1b6a" category="section-title">2025 年 6 月 10 日</block>
 </blocks>
