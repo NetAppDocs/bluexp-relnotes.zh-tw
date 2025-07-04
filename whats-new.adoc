@@ -352,6 +352,49 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 
+=== 2025 年 14 月 7 日
+
+此 BlueXP  備份與還原版本包含下列更新。
+
+
+
+==== 增強型ONTAP卷儀表板
+
+2025 年 4 月，我們推出了增強型ONTAP卷儀表板的預覽版，它速度更快、更有效率。
+
+此儀表板旨在協助企業客戶處理大量工作負載。即使對於擁有 20,000 個卷的客戶，新儀表板也能在 10 秒內加載完成。
+
+預覽版成功上線，並獲得了許多預覽版用戶的正面回饋，我們現已將其設為所有客戶的預設體驗。準備好迎接極速儀表板吧！
+
+如需詳細資訊、請參閱 link:br-use-dashboard.html["在儀表板中查看保護健康狀況"]。
+
+
+
+==== Microsoft SQL Server 工作負載支援作為公共技術預覽
+
+此版本的BlueXP backup and recovery提供了更新的使用者介面，可讓您使用BlueXP backup and recovery服務中熟悉的 3-2-1 保護策略來管理 Microsoft SQL Server 工作負載。使用此新版本，您可以將這些工作負載備份到主存儲，複製到輔助存儲，然後備份到雲端物件儲存。
+
+您可以透過完成此步驟註冊預覽 https://forms.office.com/pages/responsepage.aspx?id=oBEJS5uSFUeUS8A3RRZbOojtBW63mDRDv3ZK50MaTlJUNjdENllaVTRTVFJGSDQ2MFJIREcxN0EwQi4u&route=shorturl["預覽註冊表"^] 。
+
+
+NOTE: 本文檔是關於保護微軟 SQL SERVER 工作負載的，作為技術預覽提供。透過此預覽方案、 NetApp 保留在「一般供應」之前修改產品詳細資料、內容和時間表的權利。
+
+此版本的BlueXP backup and recovery包括以下更新：
+
+* *3-2-1 備份功能*：此版本整合了SnapCenter功能，讓您能夠透過BlueXP backup and recovery使用者介面使用 3-2-1 資料保護策略來管理和保護您的SnapCenter資源。
+* *從SnapCenter匯入*：您可以將SnapCenter備份資料和原則匯入BlueXP backup and recovery。
+* *重新設計的使用者介面*為管理備份和復原任務提供了更直覺的體驗。
+* *備份目標*：您可以在 Amazon Web Services (AWS)、Microsoft Azure Blob Storage、 StorageGRID和ONTAP S3 環境中新增儲存桶，以用作 Microsoft SQL Server 工作負載的備份目標。
+* *工作負載支援*：此版本支援您備份、還原、驗證和複製 Microsoft SQL Server 資料庫和可用性群組。（未來版本將添加對其他工作負載的支援。）
+* *靈活的復原選項*：此版本可讓您在發生損壞或意外資料遺失的情況下將資料庫還原至原始位置和備用位置。
+* *即時生產副本*：在幾分鐘內（而不是幾小時或幾天）產生用於開發、測試或分析的節省空間的生產副本。
+* 此版本包括建立詳細報告的功能。
+
+
+有關保護 Microsoft SQL Server 工作負載的詳細信息，請參閱link:br-use-mssql-protect-overview.html["保護 Microsoft SQL Server 工作負載概述"] 。
+
+
+
 === 2025 年 6 月 09 日
 
 此 BlueXP  備份與還原版本包含下列更新。
@@ -535,12 +578,12 @@ vi default.json
 .改進了新增文件共用進行掃描的工作流程
 將文件共用新增至文件共用組的工作流程已簡化。該流程現在還根據身份驗證類型（Kerberos 或 NTLM）區分 CIFS 協定支援。
 
-如需更多資訊、請參閱 xref:task-scanning-file-shares.html[掃描檔案共用]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/task-scanning-file-shares.html["掃描檔案共用"]。
 
 .增強文件所有者信息
-現在，您可以查看“調查”標籤中捕獲文件的文件所有者的更多資訊。在「調查」標籤中檢視檔案的元資料時，找到檔案擁有者，然後選擇「檢視詳細資料」即可查看使用者名稱、電子郵件和 SAM 帳戶名稱。您也可以查看此使用者擁有的其他項目。此功能僅適用於具有 Active Directory 的工作環境。
+現在，您可以查看“調查”標籤中捕獲文件的文件所有者的更多資訊。在「調查」標籤中查看文件的元資料時，找到文件擁有者，然後選擇「查看詳細資料」以查看使用者名稱、電子郵件和 SAM 帳戶名稱。您也可以查看此使用者擁有的其他項目。此功能僅適用於具有 Active Directory 的工作環境。
 
-如需更多資訊、請參閱 xref:task-investigate-data.html[調查組織中儲存的資料]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html["調查組織中儲存的資料"]。
 
 
 
@@ -595,7 +638,7 @@ vi default.json
 
 | 按敏感度等級劃分的頂層資料儲存庫 | 2小時 
 |===
-您可以查看上次更新時間，並手動更新「重複檔案」、「非業務資料」、「已儲存的搜尋」、「過時資料」和「按敏感度等級排名靠前的資料儲存庫」元件。有關“治理”儀表板的更多信息，請參閱xref:task-controlling-governance-data.html[檢視組織中儲存資料的治理詳細資料] 。
+您可以查看上次更新時間，並手動更新「重複檔案」、「非業務資料」、「已儲存的搜尋」、「過時資料」和「按敏感度等級排名靠前的資料儲存庫」元件。有關“治理”儀表板的更多信息，請參閱link:https://docs.netapp.com/us-en/bluexp-classification/task-controlling-governance-data.html["檢視組織中儲存資料的治理詳細資料"] 。
 
 .性能和安全改進
 我們已經進行了增強以提高 BlueXP 分類的效能、記憶體消耗和安全性。
@@ -616,20 +659,20 @@ Redis 已升級，以提高 BlueXP 分類的可靠性。 BlueXP分類現在使�
 .排定分類掃描的優先順序
 BlueXP  分類可讓您在僅對應掃描之外，設定地圖和分類掃描的優先順序，讓您選擇先完成哪些掃描。在掃描開始期間和之前，都支援排列地圖和分類掃描的優先順序。如果您選擇在掃描進行期間排定優先順序，則對應和分類掃描都會排定優先順序。
 
-如需更多資訊、請參閱 link:task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
 
 .支援加拿大個人識別資訊（ PII ）資料類別
 BlueXP  分類掃描可識別加拿大 PII 資料類別。這些類別包括銀行資訊，護照號碼，社群保險號碼，駕照號碼，以及所有加拿大省 / 地區的健康卡號碼。
 
-如需更多資訊、請參閱 xref:reference-private-data-categories.adoc#types-of-personal-data[個人資料類別]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/reference-private-data-categories.html#types-of-personal-data["個人資料類別"]。
 
 .自訂分類（預覽）
 BlueXP  分類可支援自訂的地圖分類和分類掃描。使用自訂分類，您可以量身打造 BlueXP  掃描，以使用規則運算式擷取組織特有的資料。此功能目前正在預覽中。
 
-如需更多資訊、請參閱 xref:task-custom-classification.adoc[新增自訂分類]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/task-custom-classification.html["新增自訂分類"]。
 
 .儲存的搜尋索引標籤
-**Policies ** 選項卡已重命名xref:task-using-policies.html[** 儲存的搜尋 **]。功能相同。
+**Policies ** 選項卡已重命名link:https://docs.netapp.com/us-en/bluexp-classification/task-using-policies.html["** 儲存的搜尋 **"]。功能沒有改變。
 
 .將掃描事件傳送至 BlueXP  時間表
 BlueXP  分類可支援傳送分類事件（當掃描開始及結束時）至link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["BlueXP  時間表"^]。
@@ -661,7 +704,7 @@ BlueXP  分類可支援工作環境的大量作業。您可以選擇啟用「�
 .請在本機下載調查報告
 BlueXP  分類可支援從本機下載資料調查報告，以便在瀏覽器中檢視。如果您選擇本機選項，則資料調查只能以 CSV 格式進行，而且只會顯示前 10 ， 000 列的資料。
 
-如需更多資訊、請參閱 link:task-investigate-data.html#create-the-data-investigation-report["使用 BlueXP  分類來調查組織中儲存的資料"]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/task-investigate-data.html#create-the-data-investigation-report["使用 BlueXP  分類來調查組織中儲存的資料"]。
 
 
 
@@ -700,9 +743,9 @@ BlueXP  分類可追蹤捲上 _initial_ 對應和分類掃描的即時進度。
 
 優先順序是一次性授予。自動重新掃描對應資料會依預設順序進行。
 
-優先順序僅限於link:concept-cloud-compliance.html["僅對應掃描"]；不適用於地圖和分類掃描。
+優先順序僅限於link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["僅對應掃描"^]；不適用於地圖和分類掃描。
 
-如需更多資訊、請參閱 link:task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"]。
+如需更多資訊、請參閱 link:https://docs.netapp.com/us-en/bluexp-classification/task-managing-repo-scanning.html#prioritize-scans["排定掃描的優先順序"^]。
 
 .重試所有掃描
 BlueXP  分類支援批次重試所有失敗掃描的功能。
@@ -764,6 +807,31 @@ BlueXP  分類支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025 年 14 月 7 日
+
+
+
+==== 支援透明代理
+
+除了現有的明確代理連線之外， BlueXP現在還支援透明代理伺服器。建立或修改BlueXP連接器時，您可以設定透明代理伺服器，以安全地管理往返Cloud Volumes ONTAP 的網路流量。
+
+有關在Cloud Volumes ONTAP中使用代理伺服器的更多信息，請參閱：
+
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/reference-networking-aws.html#network-configurations-to-support-connector-proxy-servers["用於支援 AWS 中的連接器代理程式的網路配置"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/azure/reference-networking-azure.html#network-configurations-to-support-connector["用於支援 Azure 中的連接器代理程式的網路配置"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/reference-networking-gcp.html#network-configurations-to-support-connector-proxy["用於支援 Google Cloud 中的連接器代理程式的網路配置"^]
+
+
+
+
+==== Azure 中的Cloud Volumes ONTAP支援新的 VM 類型
+
+從Cloud Volumes ONTAP 9.13.1 開始，L8s_v3 作為 Azure 單一和多個可用區域中的 VM 類型受到支持，適用於新的和現有的高可用性 (HA) 對部署。
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Azure支援的組態"^]參閱。
+
+
+
 === 2025 年 29 月 5 日
 
 
@@ -793,22 +861,6 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploy-cvo-azure-m
 您現在可以在由一個租戶建立 Cloud Volumes ONTAP 工作環境，並由另一個租戶建立 BlueXP  Connector 的情況下，為 Azure 租戶啟用分層。您可以使用此功能，為多個 Azure 租戶使用相同的 Connector 來分層資料。
 
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-tiering.html#requirements-to-tier-data-for-an-azure-tenant["Azure 租戶的分層資料需求"^]
-
-
-
-=== 2025 年 4 月 16 日
-
-
-
-==== Azure 支援的新區域
-
-您現在可以在以下地區的單一和多個可用性區域中部署 Cloud Volumes ONTAP 9.12.1 GA 及更新版本。這包括支援單一節點和高可用度（ HA ）部署。
-
-* 西班牙中部
-* 墨西哥中部
-
-
-有關所有區域的列表，請參閱 https://bluexp.netapp.com/cloud-volumes-global-regions["Azure 下的 Global Regions Map"^]。
 
 
 
@@ -1288,6 +1340,38 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 
+=== 2025 年 15 月 7 日
+
+
+
+==== SAN 工作負載支持
+
+此版本包含對BlueXP ransomware protection中 SAN 工作負載的支援。現在，除了 NFS 和 CIFS 工作負載之外，您還可以保護 SAN 工作負載。
+
+如需詳細資訊、請 link:https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-prerequisites.html["BlueXP 勒索軟體保護先決條件"]參閱。
+
+
+
+==== 改進的工作負載保護
+
+此版本改善了保護工作負載的工作流程，無論是否啟用資料保護。如果您使用其他NetApp資料保護工具（例如SnapCenter或BlueXP backup and recovery）來處理快照或備份， BlueXP ransomware protection會發現這些工具，並允許您保留控制這些工具的策略。在這個版本中，您可以將這些策略替換為BlueXP ransomware protection策略，也可以繼續使用現有策略。
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-protect.html["保護工作負載"]參閱。
+
+
+
+==== 電子郵件通知
+
+如果BlueXP ransomware protection偵測到可能的攻擊， BlueXP通知中將顯示一則通知，並向您設定的電子郵件地址發送電子郵件。該服務也會立即啟動快照。
+
+此時，您應該查看電子郵件，其中列出了嚴重性和受影響的資源，並查看BlueXP ransomware protection*警報* 標籤中的潛在風險。
+
+如果您在BlueXP ransomware protection中配置了安全性和事件管理 (SIEM)，該服務會向您的 SIEM 系統發送警報詳細資訊。
+
+如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["處理偵測到的勒索軟體警報"]參閱。
+
+
+
 === 2025 年 6 月 9 日
 
 
@@ -1400,68 +1484,6 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 此版本包含多項付款程序的改善功能。
 
 如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["設定授權和付款選項"]參閱。
-
-
-
-=== 2025 年 3 月 10 日
-
-
-
-==== 模擬攻擊和回應
-
-在此版本中，模擬勒索軟體攻擊，測試您對勒索軟體警示的回應。此功能可測試警示通知，回應和還原程序，協助您瞭解在發生實際勒索軟體攻擊時，您已做好準備。
-
-如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-simulate.html["進行勒索軟體攻擊準備訓練"]參閱。
-
-
-
-==== 探索程序的增強功能
-
-此版本包含選擇性探索和重新探索程序的增強功能：
-
-* 使用此版本，您可以探索新增至先前所選工作環境的新建立工作負載。
-* 您也可以在此版本中選取 _new_ 工作環境。此功能可協助您保護新增至環境的工作負載。
-* 您可以在初始探索程序期間或在「設定」選項中執行這些探索程序。
-
-
-如需詳細資訊，請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索先前所選工作環境的新建立工作負載"]參閱和 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["使用「設定」選項設定功能"]。
-
-
-
-==== 偵測到高加密時發出警示
-
-此版本可讓您在工作負載上偵測到高加密時，檢視警示，即使沒有高副檔名變更也沒問題。此功能使用 ONTAP 自主勒索軟體保護（ ARP ） AI ，可協助您識別有勒索軟體攻擊風險的工作負載。使用此功能，下載包含或不含副檔名變更的受影響檔案的完整清單。
-
-如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["回應偵測到的勒索軟體警示"]參閱。
-
-
-
-=== 2024 年 12 月 16 日
-
-
-
-==== 使用 Data Infrastructure Insights Storage Workload Security 偵測異常的使用者行為
-
-在此版本中，您可以使用 Data Infrastructure Insights Storage Workload Security 來偵測儲存工作負載中異常的使用者行為。此功能可協助您識別潛在的安全威脅，並封鎖潛在的惡意使用者，以保護您的資料。
-
-如需詳細資訊、請 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-alert.html["回應偵測到的勒索軟體警示"]參閱。
-
-在使用 Data Infrastructure Insights Storage Workload Security 偵測異常使用者行為之前，您必須先使用 BlueXP  勒索軟體保護 * 設定 * 選項來設定選項。
-
-請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-use-settings.html["設定 BlueXP 勒索軟體保護設定"]。
-
-
-
-==== 選取要探索及保護的工作負載
-
-使用此版本，您現在可以執行下列動作：
-
-* 在每個 Connector 中，選取您要探索工作負載的工作環境。如果您想要保護環境中的特定工作負載，而非其他工作負載，您可能會受益於此功能。
-* 在工作負載探索期間，您可以針對每個 Connector 自動探索工作負載。此功能可讓您選取要保護的工作負載。
-* 探索先前所選工作環境的新建立工作負載。
-
-
-請參閱 https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-discover.html["探索工作負載"]。
 
 
 
