@@ -1,7 +1,6 @@
 ---
 settings:
   name: Release Notes
-  platform: cloud
   internal:
     pdf_enabled: true
   prod:
