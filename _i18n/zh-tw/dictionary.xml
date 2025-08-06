@@ -879,15 +879,12 @@
   <block id="87418d35e5df78aab70f2540a73bdaf6" category="list-text">使用執行掛鉤和模板建立應用程式一致的備份。</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保護 Kubernetes 工作負載概述</block>
   <block id="f4270282e09abd3774ba339dc49af208" category="paragraph">有關保護 Kubernetes 工作負載的詳細信息，請參閱<block ref="44b634c6507d9116150094fb69849fd2" category="inline-link-rx"></block> 。</block>
-  <block id="15852e1f2315b78020ed52abc1c41404" category="paragraph">&lt;stdin&gt; 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/bluexp-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="5e7c6c3c4a3f1109745fdf45ec1f1b45" category="section-title">2025年8月5日</block>
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="section-title">查看實例層級消耗數據</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">查看Keystone訂閱的消耗量</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block>。</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
   <block id="a30ce25654f610d7e9e47c6277028c38" category="section-title">支援授權開關</block>
-  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">了解如何查看支援授權開關</block>
-  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
   <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport資料的閾值</block>
   <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport小工具中的「最近停止傳送 (RSS)」限制已從 48 小時（2 天）延長至 216 小時（9 天），之後系統才會被標記為 RSS。這樣做是為了適應僅發送每週AutoSupport資料的StorageGRID等平台。</block>
   <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 目錄中已棄用的 API 部分</block>
@@ -930,4 +927,40 @@
   <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">有關許可包的信息，請參閱<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block>。</block>
   <block id="ed1f600d01a229b43b3196dd2f2e48ca" category="inline-link">管理基於容量的許可</block>
   <block id="1d4a9a37e700957e9d79664f032cf5ec" category="paragraph">有關切換到不同充電方式的信息，請參閱<block ref="eeeecd1116eaf4db26e064552c04366d" category="inline-link-rx"></block>。</block>
+  <block id="63c109031bd5690629b7c9170bf3f4e8" category="section-title">營運彈性功能</block>
+  <block id="873883e64c5f2d509253776eb02b66b4" category="paragraph">操作彈性功能已從BlueXP中刪除。如果遇到問題，請聯絡NetApp支援。</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025年8月12日</block>
+  <block id="34d9ae368d6cbba40bdf79d1f39e1e89" category="section-title">通用可用性 (GA) 中支援 Microsoft SQL Server 工作負載</block>
+  <block id="49ddbb054af91ea1aaad19727754954e" category="paragraph">Microsoft SQL Server 工作負載支援現在已在BlueXP backup and recovery中普遍可用 (GA)。在ONTAP、 Cloud Volumes ONTAP和Amazon FSx for NetApp ONTAP儲存上使用 MSSQL 環境的組織現在可以利用這項新的備份和復原服務來保護他們的資料。</block>
+  <block id="7c4ac41d9ce169718af7b2351c645fee" category="paragraph">與先前的預覽版本相比，此版本對 Microsoft SQL Server 工作負載支援進行了以下增強：</block>
+  <block id="3105f6a90b979debc6db5ea3ee990169" category="list-text">* SnapMirror主動同步*：此版本現在支援SnapMirror主動同步（也稱為SnapMirror業務連續性 [SM-BC]），即使整個網站發生故障，它也能使業務服務繼續運行，支援應用程式使用輔助副本透明地進行故障轉移。BlueXP backup and recovery現在支援在SnapMirror活動同步和 Metrocluster 配置中保護 Microsoft SQL Server 資料庫。此資訊顯示在「保護詳細資料」頁面的「儲存和關係狀態」部分。關係資訊顯示在策略頁面更新後的*輔助設定*部分。</block>
+  <block id="b1d2c2774c4d9793c46ef609a13172fd" category="inline-link">使用策略保護您的工作負載</block>
+  <block id="eb64725cadc49178720b80c61cc9eba8" category="paragraph">參考<block ref="4e93e9cf0728d77f2cf4813604981453" category="inline-link-rx"></block>。</block>
+  <block id="4e5bd320085cb5547546d4395b10e4de" category="inline-image-macro">Microsoft SQL Server 工作負載的保護詳細資訊頁面</block>
+  <block id="bd23896d5be654cd74ec23ce58ada0ea" category="paragraph"><block ref="bd23896d5be654cd74ec23ce58ada0ea" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="805bbdd364c648372b69605a6ef120af" category="list-text">*多重儲存桶支援*：您現在可以保護工作環境中的捲，每個工作環境最多可跨不同的雲端供應商使用 6 個儲存桶。</block>
+  <block id="90c5ef87c2f5d3bb21ccce43b514ff6d" category="list-text">SQL Server 工作負載的*授權與免費試用更新*：您現在可以使用現有的BlueXP備份復原授權模型來保護 SQL Server 工作負載。SQL Server 工作負載沒有單獨的授權要求。</block>
+  <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">設定BlueXP backup and recovery的許可</block>
+  <block id="c28d337bfe2f4a56d1326bd464a437d2" category="paragraph">有關詳細信息，請參閱<block ref="fd6f24310666151c56694accafdbc751" category="inline-link-rx"></block>。</block>
+  <block id="36586a1356d9a222252ef42596ce2fb2" category="list-text">*自訂快照名稱*：您現在可以在管理 Microsoft SQL Server 工作負載備份的原則中使用自己的快照名稱。在策略頁面的*進階設定*部分輸入此資訊。</block>
+  <block id="9cb7a24c42dc26111c3616ff0bd56fed" category="inline-image-macro">BlueXP backup and recovery策略的SnapMirror和快照格式設定螢幕截圖</block>
+  <block id="ce3732fd09bdb186d72d814092bdf5de" category="paragraph"><block ref="ce3732fd09bdb186d72d814092bdf5de" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b97c16ab5864b241e5900d7cd01c42c2" category="list-text">*輔助卷前綴和後綴*：您可以在策略頁面的*進階設定*部分輸入自訂前綴和後綴。</block>
+  <block id="d09c6edac23c230ad6b2f62014b72cac" category="list-text">*身分和存取管理 (IAM)*：您現在可以控制使用者對功能的存取。</block>
+  <block id="aeb10fc890c802b7dd8fae9cff0a209e" category="inline-link">登入BlueXP backup and recovery</block>
+  <block id="54e511b5c4fecd42c382f63aa80abb36" category="inline-link">BlueXP backup and recovery存取功能</block>
+  <block id="62b521b1b5210b36f7c8c308fcacad25" category="paragraph">參考<block ref="d7baf94aa5992a2769fe0c3ef0456828" category="inline-link-rx"></block>和<block ref="2d1c08bd9cb33a016c7ff36698dcfab7" category="inline-link-rx"></block>。</block>
+  <block id="827015a207d3e0b7327c58d340f787a7" category="list-text">*從物件儲存還原到備用主機*：即使主儲存已關閉，您現在可以從物件儲存還原到備用主機。</block>
+  <block id="2e26a760bb33d17f4e33afe630be5b52" category="list-text">*日誌備份資料*：資料庫保護詳細資料頁面現在顯示日誌備份。您可以看到備份類型列，顯示備份是完整備份還是日誌備份。</block>
+  <block id="2bfb72338c51e52cf0223e776c0cfa1c" category="list-text">*增強型儀表板*：儀表板現在顯示儲存和複製節省。</block>
+  <block id="e0dc001975d98ac19c522b158acdcc50" category="inline-image-macro">BlueXP backup and recovery儀表板</block>
+  <block id="eefeb5662c28859ffc0ad03be8674bb1" category="paragraph"><block ref="eefeb5662c28859ffc0ad03be8674bb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b3a6ba86ba805f11e462a231b680cd28" category="section-title">ONTAP磁碟區工作負載增強功能</block>
+  <block id="3f86442e5530c33d7077c95c9c5fc625" category="list-text">* ONTAP磁碟區的多資料夾復原*：到目前為止，您可以透過瀏覽和復原功能一次還原一個資料夾或多個檔案。BlueXP backup and recovery現在提供使用瀏覽和復原功能一次選擇多個資料夾的功能。</block>
+  <block id="1d9b07bf0176359242f87e0763ffbb4c" category="list-text">*檢視和管理已刪除磁碟區的備份*： BlueXP backup and recovery儀表板現在提供了顯示和管理從ONTAP中刪除的磁碟區的選項。透過此功能，您可以查看和刪除ONTAP中不再存在的磁碟區的備份。</block>
+  <block id="356ecf5525555d15dfb403799f62bc0d" category="list-text">*強制刪除備份*：在某些極端情況下，您可能希望BlueXP backup and recovery不再存取備份。例如，如果服務不再有權存取備份儲存桶或備份受到 DataLock 保護但您不再需要它們，則可能會發生這種情況。以前，您無法自行刪除這些內容，而需要致電NetApp支援。在此版本中，您可以使用選項強制刪除備份（在磁碟區和工作環境層級）。</block>
+  <block id="2ad14b464bc33278b17682af53ee8430" category="admonition">請謹慎使用此選項，並且僅在極端清理需要時使用。即使這些備份未被從物件儲存中刪除， BlueXP backup and recovery也將無法再存取這些備份。您需要前往雲端提供者並手動刪除備份。</block>
+  <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">保護ONTAP工作負載</block>
+  <block id="ca202cae1bb121b6ad0687a5afe91a23" category="paragraph">參考<block ref="21eafc85c1e02f8afb995baf9105bba6" category="inline-link-rx"></block>。</block>
+  <block id="d050676cc5292d576618457e004c3537" category="paragraph">未解決的指令<block ref="faac70d8d5f83c69456fd13fe050e68d" category="inline-link-rx"></block>- 包括::../_whatsnew/2025-07-14.adoc[]</block>
 </blocks>
