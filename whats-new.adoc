@@ -24,13 +24,45 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2025年7月31日
+
+
+
+==== 私人模式發布（3.9.54）
+
+現在可從下載新的私有模式版本 https://mysupport.netapp.com/site/downloads["NetApp 支援網站"^]
+
+3.9.54 版本包括以下BlueXP元件和服務的更新。
+
+[cols="3*"]
+|===
+| 元件或服務 | 此版本隨附的版本 | 自上一次私有模式版本以來所做的變更 
+
+
+| 連接器 | 3.9.54, 3.9.53 | 前往 https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXP頁面中的新功能"^]並參考版本 3.9.54 和 3.9.53 所包含的變更。 
+
+
+| 備份與還原 | 2025年7月28日 | 前往 https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  備份與還原頁面的新功能"^]並參考 2025 年 7 月版本中包含的變更。 
+
+
+| 分類 | 2025 年 7 月 14 日（版本 1.45） | 前往 https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP  分類頁面的新功能"^]。 
+|===
+如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：
+
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解私有模式"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["瞭解如何在使用私有模式時升級 Connector"]
+
+
+
+
 === 2025 年 21 月 7 日
 
 
 
 ==== 支援Google Cloud NetApp Volumes
 
-現在您可以在BlueXP中查看Google Cloud NetApp Volumes 。 link:https://docs.netapp.com/us-en//bluexp-google-cloud-netapp-volumes/index.html/index.html["了解有關Google Cloud NetApp Volumes 的更多資訊。"]
+現在您可以在BlueXP中查看Google Cloud NetApp Volumes 。link:https://docs.netapp.com/us-en//bluexp-google-cloud-netapp-volumes/index.html["了解有關Google Cloud NetApp Volumes 的更多資訊。"]
 
 
 
@@ -167,38 +199,6 @@ link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#ta
 
 
 
-=== 2025 年 29 月 5 日
-
-
-
-==== 私有模式版本（ 3.9.52 ）
-
-現在可從下載新的私有模式版本 https://mysupport.netapp.com/site/downloads["NetApp 支援網站"^]
-
-3.9.52 版本包含下列 BlueXP  元件和服務的更新。
-
-[cols="3*"]
-|===
-| 元件或服務 | 此版本隨附的版本 | 自上一次私有模式版本以來所做的變更 
-
-
-| 連接器 | 3.9.52 ， 3.9.51 | 請移至， https://docs.netapp.com/us-en/bluexp-setup-admin/whats-new.html#connector-3-9-50["BlueXP  Connector 網頁的新功能"]並參閱 3.9.52 和 3.9.50 版隨附的變更。 
-
-
-| 備份與還原 | 2025 年 12 月 5 日 | 前往 https://docs.netapp.com/us-en/bluexp-backup-recovery/whats-new.html["BlueXP  備份與還原頁面的新功能"^]並參考 2025 年 5 月版本中包含的變更。 
-
-
-| 分類 | 2025 年 5 月 12 日（版本 1.43 ） | 請移至， https://docs.netapp.com/us-en/bluexp-classification/whats-new.html["BlueXP  分類頁面的新功能"^]並參閱 1.38 至 1.371.41 版本中所包含的變更。 
-|===
-如需更多關於私有模式的詳細資訊、包括如何升級、請參閱下列內容：
-
-* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解私有模式"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-private-mode.html["瞭解如何以私有模式開始使用 BlueXP"]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-upgrade-connector.html["瞭解如何在使用私有模式時升級 Connector"]
-
-
-
-
 == 警示
 
 
@@ -231,13 +231,30 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP 
 
 
 
+=== 2025年8月3日
+
+
+
+==== 複製關係標籤的增強功能
+
+我們在複製關係表中新增了幾個新列，以便在「複製關係」標籤中為您提供有關複製關係的更多資訊。該表現在包含以下列：
+
+* SnapMirror策略
+* 來源檔案系統
+* 目標檔案系統
+* 關係狀態
+* 上次轉乘時間
+
+
+
+
 === 2025 年 14 月 7 日
 
 
 
 ==== 支援在兩個 FSx for ONTAP 檔案系統之間複製數據
 
-現在可以透過 BlueXP 控制台在兩個 FSx for ONTAP 檔案系統之間進行資料複製。
+現在可以從BlueXP控制台中的畫佈在兩個 FSx for ONTAP檔案系統之間進行資料複製。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-environment.html#replicate-data["複寫資料"]
 
@@ -252,46 +269,6 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-envi
 為 FSx for ONTAP 檔案系統設定憑證和權限後，您將被重新導向至 BlueXP 憑證頁面。在此頁面，您可以重新命名或刪除 FSx for ONTAP 憑證。
 
 link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/requirements/task-setting-up-permissions-fsx.html["設定 FSx for ONTAP 檔案系統的權限"]
-
-
-
-=== 2025 年 04 月 5 日
-
-
-
-==== Tracker 回應支援
-
-Tracker 現在提供 API 回應，讓您可以查看與工作相關的 REST API 輸出。
-
-
-
-==== AWS Secrets Manager 的連結驗證支援
-
-您現在可以選擇使用 AWS Secrets Manager 的機密來驗證連結，這樣就不需要使用儲存在 BlueXP  工作負載中的認證資料。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用 Lambda 連結連線至適用於 ONTAP 檔案系統的 FSX"]
-
-
-
-==== 為 ONTAP 檔案系統實作 FSX 的最佳實務做法
-
-BlueXP  工作負載提供儀表板，讓您檢視檔案系統組態架構良好的狀態。您可以利用此分析，為 ONTAP 檔案系統的 FSX 實作最佳實務做法。檔案系統組態分析包括下列組態： SSD 容量臨界值，排程本機快照， ONTAP 備份排程的 FSX ，資料分層和遠端資料複寫。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["瞭解檔案系統組態的架構良好分析"]
-* link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_well-architected/improve-configurations.html["為您的檔案系統實作最佳實務做法"]
-
-
-
-
-==== 架構良好的檔案系統問題通知
-
-在 BlueXP  主控台中，架構良好問題的 ONTAP 檔案系統適用的 FSX 現在會在 Canvas 中顯示通知，指出檔案系統何時有問題需要修正。
-
-
-
-==== 更新的權限術語
-
-工作負載工廠使用者介面和文件現在使用“只讀”來指讀取權限，使用“讀取/寫入”來指稱自動化權限。
 
 
 
@@ -366,6 +343,29 @@ https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.htm
 
 
 == 備份與還原
+
+
+
+=== 2025年7月28日
+
+此 BlueXP  備份與還原版本包含下列更新。
+
+
+
+==== Kubernetes 工作負載支援預覽版
+
+此版本的BlueXP backup and recovery引入了對發現和管理 Kubernetes 工作負載的支援：
+
+* 發現由NetApp ONTAP支援的 Red Hat OpenShift 和開源 Kubernetes 集群，無需共享 kubeconfig 檔案。
+* 使用統一的控制平面發現、管理和保護跨多個 Kubernetes 叢集的應用程式。
+* 將 Kubernetes 應用程式的備份和還原資料移動操作卸載到NetApp ONTAP。
+* 協調本地和基於物件儲存的應用程式備份。
+* 將整個應用程式和單一資源備份並還原到任何 Kubernetes 叢集。
+* 使用在 Kubernetes 上運行的容器和虛擬機器。
+* 使用執行掛鉤和模板建立應用程式一致的備份。
+
+
+有關保護 Kubernetes 工作負載的詳細信息，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"] 。
 
 
 
@@ -454,51 +454,6 @@ NOTE: 本文檔旨在介紹如何保護 Microsoft SQL Server 工作負載，目�
 當您在物件儲存中為工作環境建立備份檔案時，BlueXP 備份和復原功能會預設在您設定的物件儲存帳戶中為備份檔案建立容器（儲存桶或儲存帳戶）。之前，您可以覆寫此設置，並為 Amazon S3、Azure Blob Storage 和 Google Cloud Storage 指定您自己的容器。在此版本中，您現在可以自備 StorageGRID 物件儲存容器。
 
 請參閱。 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-protect-journey.html["建立您自己的物件儲存容器"]
-
-
-
-=== 2025 年 13 月 5 日
-
-此 BlueXP  備份與還原版本包含下列更新。
-
-
-
-==== SnapMirror 到雲端的重新同步功能，可進行大量移轉
-
-SnapMirror 至雲端重新同步功能可簡化 NetApp 環境中磁碟區移轉期間的資料保護與持續運作。當使用 SnapMirror 邏輯複寫（ LRSE ），從內部部署的 NetApp 部署移轉到另一個部署，或移轉到雲端型解決方案（例如 Cloud Volumes ONTAP 或 Cloud Volumes Service ）時， SnapMirror 到雲端重新同步可確保現有的雲端備份保持完整且正常運作。
-
-這項功能不需要耗時且資源密集的重新基準作業，讓備份作業能夠在移轉後繼續進行。此功能在工作負載移轉案例中非常重要，可同時支援 FlexVols 和 FlexGroups ，並可從 ONTAP 9.16.1 版開始使用。
-
-SnapMirror to Cloud Resync 可維持跨環境的備份持續運作，進而提升營運效率，並降低混合式和多雲端資料管理的複雜度。
-
-如需如何執行重新同步作業的詳細資訊，請參閱 https://docs.netapp.com/us-en/bluexp-backup-recovery/prev-ontap-migrate-resync.html["使用 SnapMirror 移轉磁碟區至雲端重新同步"]。
-
-
-
-==== 支援第三方 MinIO 物件存放區（預覽）
-
-BlueXP  備份與還原現在將支援延伸至第三方物件儲存區，主要著重於 MinIO 。這項新的預覽功能可讓您運用任何與 S3 相容的物件儲存區，滿足備份與還原需求。
-
-使用此預覽版本，我們希望能在完整功能推出之前，確保與協力廠商物件儲存區緊密整合。我們鼓勵您探索這項新功能，並提供意見回饋，以協助提升服務品質。
-
-
-IMPORTANT: 此功能不應用於正式作業。
-
-* 預覽模式限制 *
-
-在預覽此功能時，有某些限制：
-
-* 不支援自帶鏟斗（ BYOB ）。
-* 不支援在原則中啟用 DataLock 。
-* 不支援在原則中啟用歸檔模式。
-* 僅支援內部部署 ONTAP 環境。
-* 不支援 MetroCluster 。
-* 不支援啟用貯體層級加密的選項。
-
-
-* 快速入門 *
-
-若要開始使用此預覽功能，您必須在 BlueXP  Connector 上啟用旗標。接著，您可以在備份區段中選擇 * 協力廠商相容 * 物件存放區，在保護工作流程中輸入 MinIO 協力廠商物件存放區的連線詳細資料。
 
 
 
@@ -794,26 +749,6 @@ NetApp支援和服務將持續到您的 BYOL 合約到期，但已過期的授�
 您現在可以在 AWS ， Azure 和 Google Cloud 中以私有模式部署 Cloud Volumes ONTAP 9.15.1 。Cloud Volumes ONTAP 9.15.1 的單一節點和高可用度（ HA ）部署均啟用私有模式。
 
 如需有關私有模式部署的詳細資訊https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["瞭解 BlueXP 部署模式"^]，請參閱。
-
-
-
-== 適用於 Google Cloud Cloud Volumes Service
-
-
-
-=== 2020 年 9 月 9 日
-
-
-
-==== 支援Cloud Volumes Service for Google Cloud
-
-您現在Cloud Volumes Service 可以直接從BlueXP管理適用於Google Cloud的功能：
-
-* 設定及建立工作環境
-* 為Linux和UNIX用戶端建立及管理NFSv3和NFSv4.1磁碟區
-* 為Windows用戶端建立及管理SMB 3.x磁碟區
-* 建立、刪除及還原Volume快照
-
 
 
 
@@ -1164,6 +1099,12 @@ BlueXP  邊緣快取服務已於 2024 年 8 月 7 日移除。
 
 
 
+== Google Cloud NetApp Volumes
+
+<stdin> 中未解析的指令 - 包含:: https://raw.githubusercontent.com/NetAppDocs/bluexp-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
 == Google Cloud Storage
 
 
@@ -1182,22 +1123,13 @@ BlueXP  邊緣快取服務已於 2024 年 8 月 7 日移除。
 
 
 
-=== 2025 年 6 月 19 日
+=== 2025年8月5日
 
 
 
-==== BlueXP 中的 Keystone 儀表板
+==== 查看實例層級消耗數據
 
-現在您可以直接從 BlueXP 存取 Keystone 儀表板。此整合讓您可以在一個位置監控、管理和追蹤所有 Keystone 訂閱以及其他 NetApp 服務。
-
-使用 BlueXP 中的 Keystone 儀表板，您可以：
-
-* 在一個地方查看所有訂閱詳細資訊、容量使用情況和資產。
-* 輕鬆管理訂閱並隨著需求的變化請求更改。
-* 隨時了解有關您的儲存環境的最新資訊。
-
-
-首先，前往 BlueXP 左側導覽功能表中的 *儲存 > Keystone*。若要深入瞭解、請 link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Keystone 儀表板總覽"]參閱。
+您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱link:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["查看Keystone訂閱的消耗量"]。
 
 
 
