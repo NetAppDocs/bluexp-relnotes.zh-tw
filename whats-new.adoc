@@ -24,6 +24,38 @@ summary: 瞭解最新的雲端服務變更、這些變更是BlueXP平台的一�
 
 
 
+=== 2025年8月11日
+
+
+
+==== 連接器 3.9.55
+
+BlueXP Connector 的此版本包括安全性改進和錯誤修復。
+
+3.9.55 版本適用於標準模式和限制模式。
+
+
+
+==== 日語支持
+
+BlueXP UI 現已提供日文版本。如果您的瀏覽器語言是日語， BlueXP會以日文顯示。若要存取日語文檔，請使用文檔網站上的語言選單。
+
+
+
+==== BlueXP  身分識別與存取管理（ IAM ）
+
+BlueXP中的身分和存取管理現在提供以下功能。
+
+
+
+==== 營運支援的新訪問角色
+
+BlueXP現在支援營運支援分析師角色。此角色授予使用者監控儲存警報、查看BlueXP稽核時間軸以及輸入和追蹤NetApp支援案例的權限。
+
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解有關使用訪問角色的更多資訊。"]
+
+
+
 === 2025年7月31日
 
 
@@ -145,57 +177,7 @@ BlueXP現在支援使用 IAM 角色實現以下功能和資料服務：
 * 聯邦
 
 
-link:https://docs.netapp.com/us-en/bluexp-admin/reference-iam-predefined-roles.html["了解有關使用訪問角色的更多資訊。"]
-
-
-
-=== 2025 年 6 月 9 日
-
-
-
-==== 連接器 3.9.53
-
-BlueXP Connector 的此版本包括安全性改進和錯誤修復。
-
-3.9.53 版本適用於標準模式和受限模式。
-
-
-
-==== 磁碟空間使用情況警報
-
-通知中心現在包含連接器上磁碟空間使用情況的警報。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-maintain-connectors.html#monitor-disk-space["深入瞭解。"^]
-
-
-
-==== 審計改進
-
-時間軸現在包含使用者的登入和登出事件。您可以查看登入活動的時間，這有助於稽核和安全監控。具有組織管理員角色的 API 使用者可以透過新增以下資訊來查看已登入使用者的電子郵件地址：  `includeUserData=true``參數如下：  `/audit/<account_id>?includeUserData=true` 。
-
-
-
-==== BlueXP 中提供 Keystone 訂閱管理
-
-您可以從 BlueXP 管理您的 NetApp Keystone 訂閱。
-
-link:https://docs.netapp.com/us-en/keystone-staas/index.html["了解 BlueXP 中的 Keystone 訂閱管理。"^]
-
-
-
-==== BlueXP  身分識別與存取管理（ IAM ）
-
-
-
-===== 多因素驗證（MFA）
-
-非聯合用戶可以為其BlueXP帳戶啟用 MFA 以提高安全性。管理員可以管理 MFA 設置，包括根據需要為使用者重置或停用 MFA。這僅在標準模式下支援。
-
-link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#task-user-mfa["了解如何為自己設定多重身份驗證。"^] link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-iam-manage-members-permissions.html#manage-mfa["了解如何為使用者管理多重身份驗證。"^]
-
-
-
-==== 工作負載
-
-現在您可以從 BlueXP 中的憑證頁面查看和刪除 Amazon FSx for NetApp ONTAP 憑證。
+link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解有關使用訪問角色的更多資訊。"]
 
 
 
@@ -461,6 +443,26 @@ NOTE: 本文檔旨在介紹如何保護 Microsoft SQL Server 工作負載，目�
 
 
 
+=== 2025年8月11日
+
+
+
+==== 版本 1.46
+
+此BlueXP classification版本包括錯誤修復和以下更新：
+
+.BlueXP時間軸中增強的掃描事件洞察
+BlueXP時間軸現在支援增強對BlueXP classification的掃描事件的洞察。時間軸現在顯示工作環境掃描的開始時間、工作環境的狀態以及任何問題。共享和工作環境的狀態僅適用於映射掃描。
+
+有關BlueXP時間線的更多信息，請參閱link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["監控BlueXP操作"^]。
+
+.支援 RHEL 9.6
+此版本增加了對 Red Hat Enterprise Linux v9.6 的支持，用於手動本地安裝BlueXP classification，包括暗站部署。
+
+下列作業系統需要使用 Podman Container 引擎，而且需要 BlueXP  分類 1.30 版或更新版本： Red Hat Enterprise Linux 8.8 ， 8.10 ， 9.0 ， 9.1 ， 9.2 ， 9.3 ， 9.4 和 9.5 版。
+
+
+
 === 2025 年 14 月 7 日
 
 
@@ -701,6 +703,22 @@ BlueXP  分類支援批次重試所有失敗掃描的功能。
 
 
 
+=== 2025年8月11日
+
+
+
+==== 優化許可證的可用性終止
+
+從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇Cloud Volumes ONTAP Essentials 或 Professional 授權。
+
+但是，可以透過 API 新增或更新優化許可證。
+
+有關許可包的信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP許可"^]。
+
+有關切換到不同充電方式的信息，請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html["管理基於容量的許可"^]。
+
+
+
 === 2025 年 14 月 7 日
 
 
@@ -737,18 +755,6 @@ BlueXP  分類支援批次重試所有失敗掃描的功能。
 NetApp支援和服務將持續到您的 BYOL 合約到期，但已過期的授權將無法續約或延長。 BYOL許可證到期後，您必須將其替換為透過雲端市場訂閱購買的基於容量的授權。透過超大規模市場購買的基於容量的授權模式可以簡化授權體驗並帶來更大的業務優勢。請聯絡您的NetApp客戶團隊或客戶成功代表，討論您的轉換方案。
 
 欲了解更多信息，請參閱此客戶公報：  https://mysupport.netapp.com/info/communications/CPC-00661.html["CPC-00661： Cloud Volumes ONTAP BYOL 政策變更"^] 。
-
-
-
-=== 2025 年 29 月 5 日
-
-
-
-==== 啟用 Cloud Volumes ONTAP 9.15.1 的私有模式部署
-
-您現在可以在 AWS ， Azure 和 Google Cloud 中以私有模式部署 Cloud Volumes ONTAP 9.15.1 。Cloud Volumes ONTAP 9.15.1 的單一節點和高可用度（ HA ）部署均啟用私有模式。
-
-如需有關私有模式部署的詳細資訊https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html#restricted-mode["瞭解 BlueXP 部署模式"^]，請參閱。
 
 
 

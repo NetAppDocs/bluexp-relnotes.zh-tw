@@ -608,25 +608,6 @@
   <block id="1ce2096c300f78bbb8389ca2603e6dd9" category="inline-link">基礎概念</block>
   <block id="b49987f3f316f01d3769520e570e03c1" category="list-text"><block ref="b49987f3f316f01d3769520e570e03c1" category="inline-link-rx"></block></block>
   <block id="f27f1ce6df3e2ec2518f77e8e1a4a531" category="section-title">2025 年 6 月 9 日</block>
-  <block id="e9bf07011be1831466ac0bf1bbfe1140" category="section-title">連接器 3.9.53</block>
-  <block id="734a861d3d201b7a4e47067ddb5a7339" category="paragraph">BlueXP Connector 的此版本包括安全性改進和錯誤修復。</block>
-  <block id="33eba214b6723fe54975309f2fc419fe" category="paragraph">3.9.53 版本適用於標準模式和受限模式。</block>
-  <block id="39615b94cc2fe576502275ed459d404b" category="section-title">磁碟空間使用情況警報</block>
-  <block id="f990e553cdc4c29c2efffba33e08a8c7" category="inline-link-macro">深入瞭解。</block>
-  <block id="da15b66e2df6f7619f48e376251ca70a" category="paragraph">通知中心現在包含連接器上磁碟空間使用情況的警報。 <block ref="c622bedc83ce36b38252ce6167a6dc1f" category="inline-link-macro-rx"></block></block>
-  <block id="35e36a667d1baf91dbb76a03357b3183" category="section-title">審計改進</block>
-  <block id="71c9d16d02984e33cfc9f5c051c0fdb6" category="paragraph">時間軸現在包含使用者的登入和登出事件。您可以查看登入活動的時間，這有助於稽核和安全監控。具有組織管理員角色的 API 使用者可以透過新增以下資訊來查看已登入使用者的電子郵件地址： <block ref="603b75134f0f5d7ea187a9ec930623d0" prefix=" " category="inline-code"></block>參數如下： <block ref="a87d1f23773a5263432b2160d5b0c667" prefix=" " category="inline-code"></block> 。</block>
-  <block id="a0b97dd4496f33209c0a49172d25b07e" category="section-title">BlueXP 中提供 Keystone 訂閱管理</block>
-  <block id="92fd6983a547cfe3acf24d017a43dd47" category="paragraph">您可以從 BlueXP 管理您的 NetApp Keystone 訂閱。</block>
-  <block id="29e615c9125f030edfca48f5dd489a27" category="inline-link-macro">了解 BlueXP 中的 Keystone 訂閱管理。</block>
-  <block id="b449211baca42f6cd385865db145f827" category="paragraph"><block ref="b449211baca42f6cd385865db145f827" category="inline-link-macro-rx"></block></block>
-  <block id="2519e52723b63d73b91fe9567002e2ad" category="section-title">多因素驗證（MFA）</block>
-  <block id="9950fd493db1cd52e6769f96bf27cc78" category="inline-link-macro">了解如何為自己設定多重身份驗證。</block>
-  <block id="8b6178443fc25355a974613e3d6951b4" category="inline-link-macro">了解如何為使用者管理多重身份驗證。</block>
-  <block id="432ca61a502f036a7c9fe7850d55f376" category="paragraph"><block ref="b5f93708cb2e7c8499feb8c2a3a457d0" category="inline-link-macro-rx"></block> <block ref="1104a8a08c217b6a8c157f716ea4a98c" category="inline-link-macro-rx"></block></block>
-  <block id="35084d885dea7b061e6894c1cf3036d9" category="section-title">工作負載</block>
-  <block id="01537291f07f4eb50dc075e6b0282ce8" category="paragraph">現在您可以從 BlueXP 中的憑證頁面查看和刪除 Amazon FSx for NetApp ONTAP 憑證。</block>
-  <block id="1971cba9fca6bc598cf10a08dfb20cb6" category="section-title">2025 年 29 月 5 日</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025 年 6 月 29 日</block>
   <block id="737f8adcd33c506f811980c79df8aa51" category="section-title">憑證更新</block>
   <block id="e7bb6404e9b51c8163ba1ed57cf3a336" category="paragraph">為 FSx for ONTAP 檔案系統設定憑證和權限後，您將被重新導向至 BlueXP 憑證頁面。在此頁面，您可以重新命名或刪除 FSx for ONTAP 憑證。</block>
@@ -673,9 +654,6 @@
   <block id="98b92205e576b5e6498a01750fffbf6b" category="paragraph-title">性能和安全改進</block>
   <block id="890d5712449921f1a6ffa08636045ac2" category="paragraph">我們已經進行了增強以提高 BlueXP 分類的效能、記憶體消耗和安全性。</block>
   <block id="cb000a9ed4aba8f6a1db1f518019d44e" category="paragraph">Redis 已升級，以提高 BlueXP 分類的可靠性。 BlueXP分類現在使用 Elasticsearch 來提高掃描期間文件數量報告的準確性。</block>
-  <block id="389d4c98e2d0499c2e4e750430434afb" category="section-title">啟用 Cloud Volumes ONTAP 9.15.1 的私有模式部署</block>
-  <block id="bce4906e9d915e525cd382b520b71325" category="paragraph">您現在可以在 AWS ， Azure 和 Google Cloud 中以私有模式部署 Cloud Volumes ONTAP 9.15.1 。Cloud Volumes ONTAP 9.15.1 的單一節點和高可用度（ HA ）部署均啟用私有模式。</block>
-  <block id="dc748283e7593515df9e8f2759a85349" category="paragraph">如需有關私有模式部署的詳細資訊<block ref="312f421b6dd5cf62286ecf6a82a8132e" category="inline-link-rx"></block>，請參閱。</block>
   <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025 年 6 月 30 日</block>
   <block id="f5939a7e3fd75d2d5422c1d6029f44c8" category="paragraph">4.2.4P2 版</block>
   <block id="dc729c135725ed28b09cd35258e2a28d" category="section-title">發現改進</block>
@@ -744,7 +722,6 @@
   <block id="ede1cce9f240fed5ecc4264bd699cee1" category="list-text">BlueXP 備份與還原</block>
   <block id="43db2a9bc6b7310c67fd6873bb6ca7a4" category="list-text">聯邦</block>
   <block id="f52cf765b6d2324047bf70dbb3a134b2" category="inline-link-macro">了解有關使用訪問角色的更多資訊。</block>
-  <block id="f32aa7882dcd9a369e67d2808830a51e" category="paragraph">非聯合用戶可以為其BlueXP帳戶啟用 MFA 以提高安全性。管理員可以管理 MFA 設置，包括根據需要為使用者重置或停用 MFA。這僅在標準模式下支援。</block>
   <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">需要BlueXP訪問角色</block>
   <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">現在，您需要以下存取角色之一來檢視、發現或管理BlueXP中的StorageGRID ：*組織管理員*、*資料夾或專案管理員*、*儲存管理員*或*儲存健康專家*。 <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
   <block id="d0169e5c24cd4c5e05dcb7edb4ca10d7" category="section-title">版本 1.45</block>
@@ -785,7 +762,6 @@
   <block id="5e976f8888129db7a70ab686bfcc86b9" category="list-text">支援專用於支援Cloud Volumes ONTAP服務的連接器的透明代理。 <block ref="addeb9305f92d41fc2dd640d1ef810f0" category="inline-link-macro-rx"></block></block>
   <block id="a930f8ca18589b33c946f81801d0bbf6" category="paragraph">系統將提示您將所有現有的聯合連線匯入新介面，以取得新的管理功能。這樣，您無需重新建立聯合連接即可充分利用最新的增強功能。 <block ref="374020c220651e051317a80c1b5ae1db" category="inline-link-macro-rx"></block></block>
   <block id="b658b3504fd725bf7abab622b28f1851" category="paragraph"><block ref="b658b3504fd725bf7abab622b28f1851" category="inline-link-macro-rx"></block></block>
-  <block id="12abdfb9ba5fcfe154c4363eb977b22b" category="paragraph"><block ref="12abdfb9ba5fcfe154c4363eb977b22b" category="inline-link-macro-rx"></block></block>
   <block id="c65f3468fbd84ca6a3ed5c4f86c93ec8" category="section-title">增強型ONTAP卷儀表板</block>
   <block id="4fd717f9bf23502f14b97a4e0dd209e6" category="paragraph">2025 年 4 月，我們推出了增強型ONTAP卷儀表板的預覽版，它速度更快、更有效率。</block>
   <block id="24c045ea49f5ec7c22662da2305601e6" category="paragraph">此儀表板旨在協助企業客戶處理大量工作負載。即使對於擁有 20,000 個卷的客戶，新儀表板也能在 10 秒內加載完成。</block>
@@ -930,4 +906,28 @@
   <block id="276ba658474d8685c0925cd2bcb486a8" category="inline-link">BlueXP disaster recovery許可</block>
   <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="inline-link">設定BlueXP disaster recovery的許可</block>
   <block id="17c3f7bad28af5667bbaacbe3fe4f6d1" category="paragraph">有關詳細信息，請參閱<block ref="ea68973aac8ca707300074d97a0eb98d" category="inline-link-rx"></block>和<block ref="1e6c39dcb2e36546ede605d53a914ae9" category="inline-link-rx"></block>。</block>
+  <block id="b9d888f58b09c4007db0247286e392b5" category="section-title">2025年8月11日</block>
+  <block id="b21ef378da4454971a6488eacb2b5c87" category="section-title">連接器 3.9.55</block>
+  <block id="7c5236578de836eb6dde25bc3e995d02" category="paragraph">BlueXP Connector 的此版本包括安全性改進和錯誤修復。</block>
+  <block id="95d98fc23d5487afb84beeeea8decb64" category="paragraph">3.9.55 版本適用於標準模式和限制模式。</block>
+  <block id="6c88af8a9c03b6578eb8087b3113c649" category="section-title">日語支持</block>
+  <block id="a73649d115bb7a94bbfab3b7d4f15ddf" category="paragraph">BlueXP UI 現已提供日文版本。如果您的瀏覽器語言是日語， BlueXP會以日文顯示。若要存取日語文檔，請使用文檔網站上的語言選單。</block>
+  <block id="65bb19480004be81c6ef8d7f7ef40e2f" category="paragraph">BlueXP中的身分和存取管理現在提供以下功能。</block>
+  <block id="db971a19c27a52f19f1811c52c55dc2d" category="section-title">營運支援的新訪問角色</block>
+  <block id="9a69bf13bbd4a86f23945e6b153f3913" category="paragraph">BlueXP現在支援營運支援分析師角色。此角色授予使用者監控儲存警報、查看BlueXP稽核時間軸以及輸入和追蹤NetApp支援案例的權限。</block>
+  <block id="7a4e65e1bd3f1685ea059c893a13cb58" category="section-title">版本 1.46</block>
+  <block id="d221ee9585220af20b8b4e1420b1a705" category="paragraph">此BlueXP classification版本包括錯誤修復和以下更新：</block>
+  <block id="688ea6ebefec0ae0aaddb70ff5413e00" category="paragraph-title">BlueXP時間軸中增強的掃描事件洞察</block>
+  <block id="e3f2c8a75408251f04a1059c3edcc328" category="paragraph">BlueXP時間軸現在支援增強對BlueXP classification的掃描事件的洞察。時間軸現在顯示工作環境掃描的開始時間、工作環境的狀態以及任何問題。共享和工作環境的狀態僅適用於映射掃描。</block>
+  <block id="57bee919903f0c92a41c5582519db779" category="inline-link-macro">監控BlueXP操作</block>
+  <block id="6ae0edc3b3f0ae8b008d6d6252956898" category="paragraph">有關BlueXP時間線的更多信息，請參閱<block ref="985f72ec91ace369e4feac0016fa4020" category="inline-link-macro-rx"></block>。</block>
+  <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">支援 RHEL 9.6</block>
+  <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">此版本增加了對 Red Hat Enterprise Linux v9.6 的支持，用於手動本地安裝BlueXP classification，包括暗站部署。</block>
+  <block id="9def883103b7b964dcbb0993e3f8a065" category="section-title">優化許可證的可用性終止</block>
+  <block id="cf4dd05cf065c9ae01bc836c5033bb63" category="paragraph">從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇Cloud Volumes ONTAP Essentials 或 Professional 授權。</block>
+  <block id="09027718866a8a3a2edb0bb0eb53c926" category="paragraph">但是，可以透過 API 新增或更新優化許可證。</block>
+  <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Cloud Volumes ONTAP許可</block>
+  <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">有關許可包的信息，請參閱<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block>。</block>
+  <block id="ed1f600d01a229b43b3196dd2f2e48ca" category="inline-link">管理基於容量的許可</block>
+  <block id="1d4a9a37e700957e9d79664f032cf5ec" category="paragraph">有關切換到不同充電方式的信息，請參閱<block ref="eeeecd1116eaf4db26e064552c04366d" category="inline-link-rx"></block>。</block>
 </blocks>
