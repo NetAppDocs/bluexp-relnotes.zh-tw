@@ -962,5 +962,11 @@
   <block id="2ad14b464bc33278b17682af53ee8430" category="admonition">請謹慎使用此選項，並且僅在極端清理需要時使用。即使這些備份未被從物件儲存中刪除， BlueXP backup and recovery也將無法再存取這些備份。您需要前往雲端提供者並手動刪除備份。</block>
   <block id="04c7a623f8e877c84e93d77694cc5035" category="inline-link">保護ONTAP工作負載</block>
   <block id="ca202cae1bb121b6ad0687a5afe91a23" category="paragraph">參考<block ref="21eafc85c1e02f8afb995baf9105bba6" category="inline-link-rx"></block>。</block>
-  <block id="d050676cc5292d576618457e004c3537" category="paragraph">未解決的指令<block ref="faac70d8d5f83c69456fd13fe050e68d" category="inline-link-rx"></block>- 包括::../_whatsnew/2025-07-14.adoc[]</block>
+  <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">了解如何查看支援授權開關</block>
+  <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> 。</block>
+  <block id="71d0ee5d411b8f72f571401cdab213ac" category="section-title">BlueXP支援Google Cloud NetApp Volumes</block>
+  <block id="775e62d1bed90f08196ce9665fe3b625" category="paragraph">現在您可以直接從BlueXP管理Google Cloud NetApp Volumes ：</block>
+  <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">新增工作環境。</block>
+  <block id="ee07da92eddb189dc56635b6831f1856" category="list-text">查看您的捲。</block>
+  <block id="f842a501bbdfa7f71ac344c36591a1b8" category="list-text">刪除您的工作環境。</block>
 </blocks>

@@ -870,7 +870,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 ==== 支援授權開關
 
-ef3139c75debdd9ee259a4ea386083d3
+您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["了解如何查看支援授權開關"] 。
 
 
 
@@ -1216,7 +1216,16 @@ BlueXP  邊緣快取服務已於 2024 年 8 月 7 日移除。
 
 === 2025 年 21 月 7 日
 
-未解決的指令 https://raw.githubusercontent.com/NetAppDocs/bluexp-google-cloud-netapp-volumes/main/whats-new.adoc[]- 包括::../_whatsnew/2025-07-14.adoc[]
+
+
+==== BlueXP支援Google Cloud NetApp Volumes
+
+現在您可以直接從BlueXP管理Google Cloud NetApp Volumes ：
+
+* 新增工作環境。
+* 查看您的捲。
+* 刪除您的工作環境。
+
 
 
 
