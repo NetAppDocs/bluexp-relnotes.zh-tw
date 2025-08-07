@@ -775,7 +775,7 @@ BlueXP  分類支援批次重試所有失敗掃描的功能。
 
 ==== 優化許可證的可用性終止
 
-從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇Cloud Volumes ONTAP Essentials 或 Professional 授權。
+從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇BlueXP中的Cloud Volumes ONTAP Essentials 或 Professional 授權。
 
 但是，可以透過 API 新增或更新優化許可證。
 
@@ -1334,6 +1334,12 @@ link:https://docs.netapp.com/us-en/bluexp-operational-resiliency/get-started/int
 
 
 == 勒索軟體保護
+
+
+
+=== 2025年7月22日
+
+此版本包含一般增強與改進。
 
 
 

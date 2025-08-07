@@ -921,7 +921,6 @@
   <block id="e5d2f68147d287044a7fffa2d0926eae" category="paragraph-title">支援 RHEL 9.6</block>
   <block id="f1513d7b9b8ef1acb75bb450ddd12a6c" category="paragraph">此版本增加了對 Red Hat Enterprise Linux v9.6 的支持，用於手動本地安裝BlueXP classification，包括暗站部署。</block>
   <block id="9def883103b7b964dcbb0993e3f8a065" category="section-title">優化許可證的可用性終止</block>
-  <block id="cf4dd05cf065c9ae01bc836c5033bb63" category="paragraph">從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇Cloud Volumes ONTAP Essentials 或 Professional 授權。</block>
   <block id="09027718866a8a3a2edb0bb0eb53c926" category="paragraph">但是，可以透過 API 新增或更新優化許可證。</block>
   <block id="be02aeef4770b69cefbe40935aba2797" category="inline-link">Cloud Volumes ONTAP許可</block>
   <block id="2b8e43c95c1d15bc0824064c3dc0f993" category="paragraph">有關許可包的信息，請參閱<block ref="4b2776d787a70224c2441f63d3888380" category="inline-link-rx"></block>。</block>
@@ -969,4 +968,7 @@
   <block id="bfcabace496e3d26dcf080c810ecd405" category="list-text">新增工作環境。</block>
   <block id="ee07da92eddb189dc56635b6831f1856" category="list-text">查看您的捲。</block>
   <block id="f842a501bbdfa7f71ac344c36591a1b8" category="list-text">刪除您的工作環境。</block>
+  <block id="667b631b672b77239becd955ba1e71e7" category="paragraph">從 2025 年 8 月 11 日開始， Cloud Volumes ONTAP Optimized 授權將被棄用，並且將不再可在 Azure 和 Google Cloud 市場中以即用即付 (PAYGO) 訂閱的方式購買或續訂。如果您擁有現有的包含優化許可證的年度合同，則可以繼續使用該許可證，直到合約結束。當您的優化授權到期時，您可以選擇BlueXP中的Cloud Volumes ONTAP Essentials 或 Professional 授權。</block>
+  <block id="742f9b79f178d376f2ac9836103a6f86" category="section-title">2025年7月22日</block>
+  <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">此版本包含一般增強與改進。</block>
 </blocks>
