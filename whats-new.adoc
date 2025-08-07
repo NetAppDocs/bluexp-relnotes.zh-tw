@@ -792,6 +792,34 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 
 
+=== 2025年8月6日
+
+
+
+==== 支援授權開關
+
+您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["了解如何查看支援授權開關"] 。
+
+
+
+==== RSS AutoSupport資料的閾值
+
+AutoSupport小工具中的「最近停止傳送 (RSS)」限制已從 48 小時（2 天）延長至 216 小時（9 天），之後系統才會被標記為 RSS。這樣做是為了適應僅發送每週AutoSupport資料的StorageGRID等平台。
+
+
+
+==== Digital Advisor API 目錄中已棄用的 API 部分
+
+Digital Advisor API 目錄中提供了一個新的棄用 API 部分。它列出了計劃棄用的 API，以及棄用時間表和替代 API。
+
+
+
+==== 容量預測 V2 和支援結束 API 模組棄用
+
+容量預測 V2 和支援終止 API 模組計畫棄用。若要存取已棄用的 API 或了解棄用時間表和替代 API，請導覽至 *API 服務 -> 瀏覽 -> 已棄用的 API*。
+
+
+
 === 2025 年 09 月 7 日
 
 
@@ -829,18 +857,6 @@ AutoSupport Widget 已經過強化，包括快顯視窗，可提供已停止傳�
 ==== 永續發展儀表板
 
 您現在可以使用 Sustainability 簡報中所包含的連結來啟動 Sustainability 儀表板。
-
-
-
-=== 2025 年 3 月 05 日
-
-
-
-==== 升級顧問
-
-* 現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。
-* 我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。
-
 
 
 

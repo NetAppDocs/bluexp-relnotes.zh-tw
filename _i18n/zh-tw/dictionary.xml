@@ -516,9 +516,6 @@
   <block id="1183e1b8915696495b308d0bdfa59bd4" category="list-text"><block ref="1183e1b8915696495b308d0bdfa59bd4" category="inline-link-rx"></block></block>
   <block id="b29a186d936b198dcafa3a0308485e2c" category="inline-link">瞭解如何在使用私有模式時升級 Connector</block>
   <block id="e5d325f390c70091b07096d63ab8f353" category="list-text"><block ref="e5d325f390c70091b07096d63ab8f353" category="inline-link-rx"></block></block>
-  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">2025 年 3 月 05 日</block>
-  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">現在您可以使用磁碟資格審查套件（ DQP ），根據預先定義的健全狀況和效能標準，自動更新磁碟控制器和儲存裝置韌體。如此可減少潛在故障，並提升整體系統可靠性。</block>
-  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">我們引進時區資料庫（ DB ），以自動維持系統與最新時區定義的一致性。如此可確保即使時區規則變更，時間相關作業仍能順暢運作。</block>
   <block id="db54384248c75c5896f34bcb0879b66c" category="section-title">2025 年 3 月 30 日</block>
   <block id="ef74d01649997b60252254da8a1573fd" category="section-title">CloudShell 會針對 ONTAP CLI 命令回報 AI 產生的錯誤回應</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用 CloudShell 時，每次您發出 ONTAP CLI 命令並發生錯誤時，您都可以取得 AI 產生的錯誤回應，包括故障說明，故障原因及詳細解決方法。</block>
@@ -911,4 +908,14 @@
   <block id="c1682b4af830f8e1dcda8da16400f7e1" category="section-title">查看實例層級消耗數據</block>
   <block id="10d5879ffcf41a017554a80a63e4b46e" category="inline-link-macro">查看Keystone訂閱的消耗量</block>
   <block id="d2c70766af411fb0e8a745645e1d2b86" category="paragraph">您可以透過BlueXP中的Keystone儀表板查看每個效能服務等級實例的目前消耗和歷史資料。如果您擁有Keystone版本 3 (v3) 訂閱，此功能適用於具有多個執行個體的效能服務等級。要了解更多信息，請參閱<block ref="500828148463e083954a63124cb9a7bb" category="inline-link-macro-rx"></block>。</block>
+  <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">2025年8月6日</block>
+  <block id="a30ce25654f610d7e9e47c6277028c38" category="section-title">支援授權開關</block>
+  <block id="d98c483ab007e03305ae5655fe6cbaf8" category="inline-link-macro">了解如何查看支援授權開關</block>
+  <block id="e71b090a525e98d8d6e64f80e67acf6f" category="paragraph">您現在可以查看有關有權獲得支援的Brocade光纖通道 SAN 交換器的資訊。這包括有關交換器型號、序號和支援狀態的詳細資訊。<block ref="0ccb1381392c0ca51f280aad697adc46" category="inline-link-macro-rx"></block> 。</block>
+  <block id="adc76ac62c705df3456206213de66002" category="section-title">RSS AutoSupport資料的閾值</block>
+  <block id="3cdd6b50a4e4c3395ca5fea20c94ee5b" category="paragraph">AutoSupport小工具中的「最近停止傳送 (RSS)」限制已從 48 小時（2 天）延長至 216 小時（9 天），之後系統才會被標記為 RSS。這樣做是為了適應僅發送每週AutoSupport資料的StorageGRID等平台。</block>
+  <block id="bbe4dac655b49c7a3978eb5864452f05" category="section-title">Digital Advisor API 目錄中已棄用的 API 部分</block>
+  <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API 目錄中提供了一個新的棄用 API 部分。它列出了計劃棄用的 API，以及棄用時間表和替代 API。</block>
+  <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">容量預測 V2 和支援結束 API 模組棄用</block>
+  <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量預測 V2 和支援終止 API 模組計畫棄用。若要存取已棄用的 API 或了解棄用時間表和替代 API，請導覽至 *API 服務 -&gt; 瀏覽 -&gt; 已棄用的 API*。</block>
 </blocks>
