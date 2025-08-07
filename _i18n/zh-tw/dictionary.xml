@@ -918,4 +918,16 @@
   <block id="4632607b0b76f87d36568a2df2c3a267" category="paragraph">Digital Advisor API 目錄中提供了一個新的棄用 API 部分。它列出了計劃棄用的 API，以及棄用時間表和替代 API。</block>
   <block id="9eadf268f4ef55df53b7403a020082b1" category="section-title">容量預測 V2 和支援結束 API 模組棄用</block>
   <block id="bd2055e6fb5a6ca7ecc6d9d52f394548" category="paragraph">容量預測 V2 和支援終止 API 模組計畫棄用。若要存取已棄用的 API 或了解棄用時間表和替代 API，請導覽至 *API 服務 -&gt; 瀏覽 -&gt; 已棄用的 API*。</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025年8月4日</block>
+  <block id="4a32789f771ba902fef02cd0f2a544e6" category="paragraph">版本 4.2.5P2</block>
+  <block id="d4b79f85bf29ad80a3ae386050c77c87" category="section-title">BlueXP disaster recovery更新</block>
+  <block id="36088b35355e766d544b98140baa439a" category="list-text">改進了 VMFS 支持，以處理來自多個儲存虛擬機的相同 LUN。</block>
+  <block id="5958ae417b9ca044a24e8a3629b195bb" category="list-text">改進了測試拆卸清理以處理已卸載或刪除的資料儲存。</block>
+  <block id="1a2957b0c8fb36225440df520076e072" category="list-text">改進了子網路映射，以便現在可以驗證輸入的網關是否包含在提供的網路中。</block>
+  <block id="7f5267deccdc08e8591ec8b4dccfcc03" category="list-text">解決了虛擬機器名稱包含“.com”時可能導致複製計劃失敗的問題。</block>
+  <block id="8af129ac3a817923db5feb647660eb7c" category="list-text">在建立複製計劃的過程中，刪除了封鎖目標磁碟區與來源磁碟區相同的限制。</block>
+  <block id="4de413f6189881cc6b259fb6e68df02c" category="list-text">在 Azure 市場中新增了對NetApp智慧服務的即用即付 (PAYGO) 訂閱支持，並在免費試用對話方塊中新增了 Azure 市場的連結。</block>
+  <block id="276ba658474d8685c0925cd2bcb486a8" category="inline-link">BlueXP disaster recovery許可</block>
+  <block id="a7193edb26a4b1bca4b7b82254e6dd4b" category="inline-link">設定BlueXP disaster recovery的許可</block>
+  <block id="17c3f7bad28af5667bbaacbe3fe4f6d1" category="paragraph">有關詳細信息，請參閱<block ref="ea68973aac8ca707300074d97a0eb98d" category="inline-link-rx"></block>和<block ref="1e6c39dcb2e36546ede605d53a914ae9" category="inline-link-rx"></block>。</block>
 </blocks>
